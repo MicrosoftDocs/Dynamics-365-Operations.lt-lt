@@ -1,7 +1,7 @@
 ---
 title: Mokėjimo nuolaidos
 description: Mokėjimo nuolaidos yra nustatomos ir bendrai naudojamos dalyse Mokėtinos sumos ir Gautinos sumos.  Galimą mokėjimo nuolaidą galima nurodyti kliento SF arba tiekėjo SF; ji bus pritaikyta, jei sąskaita faktūra bus apmokėta mokėjimo nuolaidos laikotarpiu.
-author: kweekley
+author: angelad116
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.custom: 3741
 ms.assetid: c25f9d85-2702-46aa-8e61-0b4886e069b3
 ms.search.region: Global
-ms.author: kweekley
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b684cf16b172432fc3bdb485be98a5c3476c8ed0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1969aecbda6798290367fd505bf1b6ac06235a1d
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846961"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151917"
 ---
 # <a name="cash-discounts"></a>Mokėjimo nuolaidos
 

@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0144be929045b385c58dd29f6241330fc1092f0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3478e8c712c7bcbfb8ace9e7b43f0d8d3cf4ac8a
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862488"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069159"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Pardavimo užsakymų siuntimas be sandėliavimo
 
 [!include [banner](../../includes/banner.md)]
 
-Šiame straipsnyje paaiškinama, kaip atnaujinti pardavimo užsakymą, kai produktai siunčiami klientui. Vadovas taikomas vykdymo eigai, kuri nenustatyta sandėlio valdymui (nei pagrindiniam, nei papildomam sandėliui), ir todėl prieš siunčiant nereikia užregistruoti produkto išrinkimo. Šią procedūrą galite vykdyti su savo duomenimis arba demonstracinėje duomenų įmonėje USMF. Abiem atvejais, prieš pradėdami šią užduotį, sukurkite inventorizuoto produkto, kurio kiekis didesnis negu 1, pardavimo užsakymą. Norėdami išvengti registravimo klaidos, turite patikrinti, ar jūsų užsakytas prekių kiekis svetainėje ir sandėlyje atitinka užsakymo kiekį.
+Šiame straipsnyje paaiškinama, kaip atnaujinti pardavimo užsakymą, kai produktai siunčiami klientui. Vadovas taikomas įvykdymo srautui, kuris nėra nustatytas sandėlio valdymui (nei pagrindiniu, nei sandėlio valdymo procesams (WMS)),todėl nereikalaujama, kad produktų paėmimas prieš siuntimą būtų registruojamas. Šią procedūrą galite vykdyti su savo duomenimis arba demonstracinėje duomenų įmonėje USMF. Abiem atvejais, prieš pradėdami šią užduotį, sukurkite inventorizuoto produkto, kurio kiekis didesnis negu 1, pardavimo užsakymą. Norėdami išvengti registravimo klaidos, turite patikrinti, ar jūsų užsakytas prekių kiekis svetainėje ir sandėlyje atitinka užsakymo kiekį.
 
 ## <a name="post-packing-slip-for-an-order"></a>Užsakymo važtaraščio registravimas
 1. Naršymo srityje eikite į **Moduliai > Pardavimas ir rinkodara > Pardavimo užsakymai > Visi pardavimo užsakymai**.

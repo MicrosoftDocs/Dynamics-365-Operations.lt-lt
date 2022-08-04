@@ -1,6 +1,6 @@
 ---
-title: „Finance and Operations“ programų ir „Dataverse“ dvigubo rašymo konfigūracijos patvirtinimas
-description: Šiame straipsnyje paaiškinama, kaip nustatyti, ar finansų ir operacijų programėlėse ir dalyje sukonfigūruotas dvigubas rašymas Dataverse.
+title: Tikrinti dvigubo rašymo konfigūraciją finansinėse ir operacijų programose ir Dataverse
+description: Šiame straipsnyje paaiškinama, kaip nustatyti, ar dvigubo rašymo konfigūracija konfigūruota finansų ir operacijų programėlei ir dalyje Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,14 +9,14 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 7131e6c2c4ca4d9c6bb84ad74bf425faf28bd92c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d5191f5dd9c3a286abac622aede07d04fb72a8f7
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884465"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111399"
 ---
-# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>„Finance and Operations“ programų ir „Dataverse“ dvigubo rašymo konfigūracijos patvirtinimas
+# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Tikrinti dvigubo rašymo konfigūraciją finansinėse ir operacijų programose ir Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
@@ -24,9 +24,9 @@ ms.locfileid: "8884465"
 
 
 
-Šiame straipsnyje pateikiama trikčių diagnostikos informacija, skirta dvigubo rašymo integravimui tarp finansų ir operacijų programėlių ir Dataverse. Taigi, paaiškinama, kaip galima nustatyti, ar dvigubo rašymo konfigūracija sukonfigūruota finansų ir operacijų programėlėse ir čia Dataverse.
+Šiame straipsnyje pateikiama trikčių diagnostikos informacija, skirta dvigubo rašymo integravimui tarp finansų ir operacijų programėlių ir Dataverse. Taigi, paaiškinama, kaip galima nustatyti, ar dvigubo rašymo konfigūracija konfigūruota finansų ir operacijų programėlei ir čia Dataverse.
 
-## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>Patikrinkite, ar dvigubo rašymo programa sukonfigūruota finansų ir operacijų programoje
+## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>Tikrinti, ar dvigubo rašymo konfigūracija finansų ir operacijų programoje
 
 Norėdami nustatyti, ar klaidos, kurias matote bandydami įrašyti atnaujinimo eilutes, yra gaunamos iš dvigubo rašymo funkcijos, pirma patikrinkite, ar dvigubo rašymo funkcija yra sukonfigūruota.
 
@@ -34,11 +34,11 @@ Norėdami nustatyti, ar klaidos, kurias matote bandydami įrašyti atnaujinimo e
 
     ![Tikrinamas finansų ir operacijų programos ryšys, kai turite administratoriaus teises.](media/verify_fin_ops_1.png)
 
-+ Jei neturite administratoriaus teisių, gausite klaidos pranešimą *Nepavyksta įrašyti duomenų į objektą \<entity name\>*. Pateiktame pavyzdyje negalite sukurti kliento eilutės finansų ir operacijų programoje, nes sukonfigūruotas dvigubas rašymas, bet klientų grupės ir mokėjimo sąlygų nuorodos duomenų nėra Dataverse.
++ Jei neturite administratoriaus teisių, gausite klaidos pranešimą *Nepavyksta įrašyti duomenų į objektą \<entity name\>*. Toliau pateiktame pavyzdyje jūs negalite sukurti kliento eilutės finansų ir operacijų programoje, nes sukonfigūruotas dvigubas rašymas, bet klientų grupės ir mokėjimo sąlygų nuorodos duomenų nėra Dataverse.
 
     ![Tikrinamas finansų ir operacijų programos ryšys, kai neturite administratoriaus teisių.](media/verify_fin_ops_2.png)
 
-Informacijos, kaip išspręsti problemas, kai kuriate duomenis finansų ir operacijų programėlėse, ieškokite tiesioginio sinchronizavimo [trikčių šalinimas](dual-write-troubleshooting-live-sync.md).
+Informacijos, kaip išspręsti problemas, kai kuriate finansų ir operacijų programėlių duomenis, ieškokite tiesioginio sinchronizavimo [trikčių šalinimas](dual-write-troubleshooting-live-sync.md).
 
 ## <a name="verify-that-dual-write-is-configured-in-dataverse"></a>Patikrinkite, ar dvigubo rašymo funkcija yra sukonfigūruota „Dataverse“
 

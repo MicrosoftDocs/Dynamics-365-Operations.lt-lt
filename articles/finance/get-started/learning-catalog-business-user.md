@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 2c7b1faac6af3356e4621d932031e798413b6563
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c883a425610d9b04812ba77c666b0b220184d5af
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889906"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069291"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>Katalogų mokymasis "Dynamics 365" finansų vartotojams
 
@@ -30,7 +30,7 @@ Toliau pateiktas katalogas yra sutvarkytas taip, kad žinios būtų išdėstytos
 | Turinys | aprašymas | Formatuoti | Ilgis |
 |---------|-------------|--------|--------|
 | [Sužinokite apie „Microsoft Dynamics 365“ ir „Power Platform“ naudą verslui](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Ar norite sužinoti apie verslo programas? Galbūt nežinote, kur pradėti naudodami „Microsoft Dynamics 365” ir „Power Platform” programas? Sužinokite, kaip verslo programos gali transformuoti jūsų verslą. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 8 valandos |
-| [„Dynamics 365“ ir „Power Platform“ pagrindai](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Ar norite sužinoti apie verslo programas? Pradėkite nuo šio mokymosi scenarijaus, kad sužinotumėte, kaip naudojamos „Dynamics 365“ programos. Sužinokite apie debesų koncepcijas, „Power Platform“ ir apie tai, kaip pradėti naudotis „Dynamics 365“ programomis. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 5,5 valandos   |
+| [„Dynamics 365“ ir „Power Platform“ pagrindai](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Ar norite sužinoti apie verslo programas? Pradėkite nuo šio mokymosi scenarijaus, kad sužinotumėte, kaip naudojamos „Dynamics 365“ programos. Sužinokite apie debesų koncepcijas, „Power Platform“ ir apie tai, kaip pradėti naudotis „Dynamics 365“ programomis. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi kelias | 5,5 valandos   |
 | [Darbo su finansų ir operacijų programėle pradžia](/learn/paths/get-started-finance-operations/) | Sužinokite, kaip finansų ir operacijų programėlės palaiko įmones, siekiant valdyti savo visuotines finansines sistemas, veiklos verslo procesus ir supaprastintas tiekimo grandines, siekiant suteikti žmonėms galimybę priimti greitai pagrįstus sprendimus.   Kaip pirmą savo karjeros darbo su finansų ir operacijų programėle veiksmą, turite susipažinti su savo funkcijomis ir funkcijomis, nepaisant jūsų norimo vaidmens. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi kelias | 2 valandos |
 | [Darbo su „Dynamics 365 Intelligent Order Management“ pradžia](/learn/modules/get-started-intelligent-order-management/) | Naudodami „Dynamics 365 Intelligent Order Management“ šias paslaugas klientai gali valdyti užsakymų instrumentavimą, kad galėtų vykdyti. Šios galimybės leidžia organizacijoms naudoti užsakymų srautus skirtingose platformose ir programėlėse. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi modulis | 30 min. |
 | [Kursas MB-900T01-A: „Dynamics 365“ pagrindai](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | Šis kursas supažindins besimokantįjį su „Dynamics 365“ funkcijomis ir nauda verslui. Kursas apžvelgs „Dynamics 365“ programas, „Power Platform“, debesų koncepcijas, saugos modelį ir licencijavimo klausimus. | Šis kursas gali būti asmeniškai vedamas mokytojo arba pasiekiamas internetinių mokymų formatu, o kaina priklauso nuo regiono ir partnerio | 1 diena |
@@ -39,7 +39,7 @@ Toliau pateiktas katalogas yra sutvarkytas taip, kad žinios būtų išdėstytos
 
 | Turinys | Aprašymas | Formatas | Ilgis |
 |---------|-------------|--------|--------|
-| [Konfigūruoti savo organizaciją finansų ir operacijų programėlėse](/learn/paths/configure-your-organization-finance-ops/) | Kaip funkcinės konsultanto, kuris dirba su finansų ir operacijų programėle, jūs turite suprasti, kaip nustatyti organizaciją jūsų klientui. Be kitų užduočių šis mokymosi scenarijus supažindina su juridinių subjektų konfigūravimu, saugumo parametrų nustatymų, vartotojams skirtos vartotojo sąsajos asmeninimu, mobiliųjų programėlių projektavimu ir kūrimu ir bendrųjų integravimų diegimu. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 12 valandos  |
+| [Konfigūruoti savo organizaciją finansinėse ir operacijų programose](/learn/paths/configure-your-organization-finance-ops/) | Kaip funkcinės konsultanto, kuris dirba su finansų ir operacijų programėle, jūs turite suprasti, kaip nustatyti organizaciją jūsų klientui. Be kitų užduočių šis mokymosi scenarijus supažindina su juridinių subjektų konfigūravimu, saugumo parametrų nustatymų, vartotojams skirtos vartotojo sąsajos asmeninimu, mobiliųjų programėlių projektavimu ir kūrimu ir bendrųjų integravimų diegimu. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 12 valandos  |
 | [Finansų ir operacijų programėlių konfigūravimas ir darbas su analize ir ataskaitomis](/learn/paths/configure-analytics-reporting-finance-operations/) | Verslo lyderiai gali priimti svarbius su įmone susijusius sprendimus, jei jie turi tikslias įžvalgas apie svarbiausius finansinius ir veiklos duomenis. Verslo vartotojas taip pat gali konfigūruoti ir naudoti elektroninių ataskaitų įrankį be atskiros kodo eilutės pritaikyti naujus teisės aktų reikalavimus ir reikiamu formatu generuoti verslo dokumentus, kad elektroniniu būdu būtų keičiamasi informacija su valdžios institucijomis, bankais ir kitomis šalimis. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 4 valandos   |
 
 ## <a name="financial-management"></a>Finansų valdymas<a name="financial-management"></a>

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0de12620bca54c7e43713138d7a152c2bd6edff3453f81cf779f9b875cf77eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ca1c18a293d66ab78f41cac857461249826ce4c9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714841"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069129"
 ---
 # <a name="unit-of-measure-and-stocking-policies"></a>Matavimo vienetų ir sandėliavimo strategijos
 
@@ -28,7 +28,7 @@ ms.locfileid: "6714841"
 
 Šiame straipsnyje aprašoma, kaip, vykdant sandėlio procesus, naudojami numatytieji vienetai, vienetų sekos ir vienetų konvertavimas.
 
-Vienetų sekų grupės – tai vienetų, kuriuos galima naudoti sandėlio operacijose, seka. Jos sukuriamos puslapyje **Vienetų sekų grupės**. Seka nurodo įvairių vienetų ryšį. Pavyzdžiui, saugote padėklus, kuriuose yra dėžės su atskiromis prekėmis. Tokiu atveju turite pateikti tris skirtingus vienetus ir loginę sluoksnių tvarką. Vienetų sekų grupės leidžia apibrėžti numerių lentelių grupavimo strategijas ir numatytuosius vienetus, kuriuos reikia naudoti įvairiems sandėlio procesams. Šis straipsnis taikomas ir išplėstiniam sandėliavimo sprendimui, prieinamam dalyje Sandėlio valdymas, ir paprastesniam sandėliavimo sprendimui, prieinamam dalyje Atsargų valdymas.
+Vienetų sekų grupės – tai vienetų, kuriuos galima naudoti sandėlio operacijose, seka. Jos sukuriamos puslapyje **Vienetų sekų grupės**. Seka nurodo įvairių vienetų ryšį. Pavyzdžiui, saugote padėklus, kuriuose yra dėžės su atskiromis prekėmis. Tokiu atveju turite pateikti tris skirtingus vienetus ir loginę sluoksnių tvarką. Vienetų sekų grupės leidžia apibrėžti numerių lentelių grupavimo strategijas ir numatytuosius vienetus, kuriuos reikia naudoti įvairiems sandėlio procesams. Šis straipsnis taikomas sandėlio valdymo procesams (WMS), kurie galimi sandėlio valdymo modulyje, ir labiau pagrindinio sandėliavimo sprendimo, kuris yra atsargų valdymo modulyje.
 
 ## <a name="unit-sequence-groups-for-released-products"></a>Patvirtintų produktų vienetų sekų grupės
 Jei norite naudoti patvirtintus produktus sandėlio darbo procesuose, jiems turi būti priskirta vienetų sekų grupė. Jei turite patvirtinti produktą, susietą su saugojimo dimensijų grupe, o Saugojimo dimensijų grupės parinktis **Naudoti sandėlio valdymo procesus** nustatyta kaip **Taip**, bus pateiktas klaidos pranešimas, jei produktui nenurodytas vienetų sekų grupės ID. Jei jūsų naudojamoje vienetų sekų grupėje yra kelios eilutės (taigi keli vienetai), turite nustatyti vienetų konvertavimo funkciją. Šis konfigūravimo procesas atliekamas puslapyje **Vienetų konvertavimas**. Mažiausias vienetas sekų grupėje, susietoje su išleistu produktų, turi atitikti atsargų vienetą, apibrėžtą atitinkamam produktui. Atsargų vienetas yra vienetas, naudojamas turimų atsargų skaičiavimams pagrįsti. Taip pat galite nustatyti bendrojo produkto variantų matavimo vienetų konvertavimo funkciją naudodami į parinktį **Įjungti matavimo vienetų konvertavimą**.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 1218497bbb112c9a9ebeaa4cabdcb9314c604a7f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 14369b02f1d7553be5c732f3bdf768825267998b
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845419"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125157"
 ---
 # <a name="saved-views"></a>Įrašyti rodiniai
 
@@ -215,7 +215,7 @@ Dėl žinomų problemų sąrašo su įrašytomis peržiūromis, prašome žr. [K
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Kaip įgalinti įrašytus rodinius mano aplinkoje?
 
 > [!NOTE]
-> Įrašytų **rodinių** funkcija reikalauja įgalinti finansų ir operacijų personalizavimo sistemą. Jei suasmeninimas išjungtas visoje aplinkoje, rodiniai taip pat bus išjungti, net jei atliksite toliau nurodytus veiksmus. 
+> Įrašytų **rodinių** funkcija reikalauja įgalinti finansų ir operacijų programėlių personalizavimo sistemą. Jei suasmeninimas išjungtas visoje aplinkoje, rodiniai taip pat bus išjungti, net jei atliksite toliau nurodytus veiksmus. 
 
 Funkciją **Įrašyti rodiniai** galite įjungti ir išjungti per Funkcijų valdymą bet kurioje aplinkoje. Ją įjungus, įrašyti rodiniai bus įjungti visuose tolesniuose vartotojo seansuose.
 
@@ -255,3 +255,4 @@ Atsiminkite toliau pateiktas išimtis, kai publikuojate peržiūrą į teisinį 
 - **10.0.21 ar naujesnė versija:** jei **patobulintas juridinio subjekto palaikymas įrašytų rodinių** funkcijai įjungtas, rodinio selektorius visada rodys rodinį konkretiems juridiniams asmenims. Taip nutinka, nes funkcija įgalina rodinius (įskaitant asmeninius rodinius) susieti su konkrečiais juridiniais subjektais.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

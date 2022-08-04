@@ -1,7 +1,7 @@
 ---
 title: Banko išrašo failo importavimo trikčių šalinimas
 description: Šiame straipsnyje paaiškinama, kaip spręsti problemas, kurias lemia maži banko išrašo failo skirtumai.
-author: panolte
+author: angelad116
 ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
@@ -12,19 +12,22 @@ ms.reviewer: kfend
 ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
 ms.search.region: global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 422b2df6c4de3a948b0e62bfb70f99b12e04a8f9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 44658ea48b9f7dae76c34c5f3d8828c9e8c4ac32
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711179"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151767"
 ---
 # <a name="bank-statement-file-import-troubleshooting"></a>Banko išrašo failo importavimo trikčių šalinimas
 
 [!include [banner](../includes/banner.md)]
+
+>[!NOTE]
+>Ši funkcija bus pasenusi 2022 m. rugsėjo mėn., nauji vartotojai turės naudoti elektronines ataskaitas.
 
 Svarbu, kad banko išrašo failas atitiktų maketą, kurį palaiko Microsoft Dynamics 365 finansai. Dėl griežtų banko išrašų standartų, dauguma integravimų veiks tinkamai. Tačiau kartais išrašo failo nepavyksta importuoti arba rezultatai yra neteisingi. Paprastai šios problemos kyla dėl mažų skirtumų banko išrašo faile. Šiame straipsnyje paaiškinama, kaip pašalinti šiuos skirtumus ir išspręsti problemas.
 
@@ -39,7 +42,7 @@ Pabandę importuoti banko išrašo failą, atidarykite užduoties Duomenų valdy
 Palyginkite banko failo maketo apibrėžimą su „Finance“ importo apibrėžimu ir pasižymėkite bet kokius laukų ir elementų skirtumus. Palyginkite banko išrašo failą su susijusiu „Finance“ failo pavyzdžiu. ISO20022 failuose skirtumus pastebėti turėtų būti lengva.
 
 ## <a name="time-zone-differences-on-imported-bank-statements"></a>Importuotų banko išrašų laiko juostų skirtumai
-Importavimo failo datos ir laiko reikšmės gali skirtis nuo datos ir laiko reikšmių, rodomų „Finance and Operations“. Norėdami išvengti šio neatitikimo, puslapyje **Konfigūruoti duomenų šaltinius** pasirinkite laiko juostos nustatymus. Daugiau informacijos apie laiko juostos nustatymų nurodymą žr. [Išplėstinio banko derinimo importo nustatymo procesas](set-up-advanced-bank-reconciliation-import-process.md).
+Importavimo rinkmenos datos ir laiko vertės gali skirtis nuo datos ir laiko verčių, rodomos finansuose ir operacijose. Norėdami išvengti šio neatitikimo, puslapyje **Konfigūruoti duomenų šaltinius** pasirinkite laiko juostos nustatymus. Daugiau informacijos apie laiko juostos nustatymų nurodymą žr. [Išplėstinio banko derinimo importo nustatymo procesas](set-up-advanced-bank-reconciliation-import-process.md).
 
 ## <a name="transformations"></a>Pakeitimai
 Paprastai keitimą reikia atlikti vienoje iš trijų transformacijų. Kiekviena transformacija parašyta konkrečiam standartui.
@@ -109,3 +112,4 @@ Tolesnėje lentelėje pateikiami išplėstinio banko derinimo importavimo failo 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

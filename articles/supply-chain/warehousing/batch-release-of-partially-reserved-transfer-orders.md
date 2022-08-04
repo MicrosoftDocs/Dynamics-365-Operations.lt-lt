@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 591c93eef61992507188323909f37e3f33550a7d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: e0b21c0000f6bf1cbbb318c898a519e51ca7e9b8
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888389"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068641"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Iš dalies rezervuotų perkėlimo užsakymų paketinis išleidimas
 
@@ -28,7 +28,7 @@ ms.locfileid: "8888389"
 Paketinio iš dalies rezervuotų perkėlimo užsakymų išleidimo funkcija leidžia naudojant paketinę užduotį į sandėlį iš dalies išleisti perkėlimo užsakymus.
 Kadangi galite pasirinkti išleisti dalinį kiekį, prieš išleisdami užsakymą neprivalote laukti, kol sandėlyje bus visas užsakymo kiekis.
 
-Užsakymų išleidimas į sandėlį yra patobulinto sandėlio valdymo procesas. Šis procesas apima tokias veiklas kaip paėmimas, pakavimas ir siuntimas, kurias sandėlio darbininkas gali atlikti naudodamas mobilųjį įrenginį.
+Užsakymų paleidimas į sandėlį yra sandėlio valdymo procesų (WMS) procesas. Šis procesas apima tokias veiklas kaip paėmimas, pakavimas ir siuntimas, kurias sandėlio darbininkas gali atlikti naudodamas mobilųjį įrenginį.
 
 ## <a name="where-it-applies"></a>Kai taikoma
 

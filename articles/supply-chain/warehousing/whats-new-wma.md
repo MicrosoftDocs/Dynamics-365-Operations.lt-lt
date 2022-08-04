@@ -10,18 +10,35 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ac750ede78bb4547f90b57426cc9cb10d2a282b3
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.openlocfilehash: 19193cc445bc9c7d79463734d7d5787737ecc4f7
+ms.sourcegitcommit: 6989ac8a20c16d384b8307b707eeaf498c32d64e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954669"
+ms.lasthandoff: 07/25/2022
+ms.locfileid: "9188998"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Kas nauja ar pasikeitė „Warehouse Management“ mobiliųjų įrenginių programėlėje
 
 [!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiamos naujos funkcijos, pataisos, patobulinimai ir žinomos kiekvienos "Microsoft" išleistos sandėlio valdymo mobiliosios programos versijos problemos Dynamics 365 Supply Chain Management.
+
+## <a name="version-20300"></a>2.0.30.0 versija
+
+Šioje versijoje pristatomos toliau pateiktos naujos funkcijos, klaidų taisymai ir patobulinimai:
+
+- Padidintas stabilumą.
+
+## <a name="version-20280"></a>2.0.28.0 versija
+
+Šioje versijoje pristatomos toliau pateiktos naujos funkcijos, klaidų taisymai ir patobulinimai:
+
+- Padidintas stabilumą.
+- Įdiegta galimybė toliau nuskaityti, net jei ekrane rodomas klaidos dialogo langas.
+- Įtrauktas ASCII 10 palaikymas brūkšniniuose koduose.
+- Patobulintas veiksmo instrukcijų dialogo lango tinkamumo naudoti galimybes.
+- Išsamsdoma problema, kai kartais gali būti rodomas tuščias ekranas.
+- Išsamsinkite problemą, dėl kurios paleidus darbų sąrašai nebuvo teisingai slinktis Microsoft Windows.
 
 ## <a name="version-20250"></a>2.0.25.0 versija
 

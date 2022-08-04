@@ -2,7 +2,7 @@
 title: Pašalintos arba nebenaudojamos „Dynamics 365 Commerce“ funkcijos
 description: Šiame straipsnyje aprašomos priemonės, kurios buvo pašalintos arba suplanuotos pašalinti Dynamics 365 Commerce.
 author: josaw
-ms.date: 04/27/2022
+ms.date: 07/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 2725ff2b8bfbaadbca1bc070e32cee7c5d2754be
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a59d62ad846eed659fa4e70390ebafc40127df0f
+ms.sourcegitcommit: ef56b5d0ed26e373add5dec63168e08ade40573e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910529"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9138592"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Pašalintos arba nebenaudojamos „Dynamics 365 Commerce“ funkcijos
 
@@ -32,6 +32,19 @@ ms.locfileid: "8910529"
 
 > [!NOTE]
 > Išsami informacija apie finansų ir operacijų programėlių objektus pateikta techninės [nuorodos ataskaitose](/dynamics/s-e/). Galite palyginti skirtingas šių ataskaitų versijas ir sužinoti apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje finansų ir operacijų programėlių versijoje.
+
+## <a name="feature-deprecation-effective-july-2022"></a>Priemonės pasenusios 2022 m. liepos mėn.
+
+### <a name="commerce-analytics-preview"></a>„Commerce“ analizė (peržiūros versija)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo/pašalinimo priežastis** | Komanda Dynamics 365 Commerce išanalizvo Commernce analizės (Preview) priemonės naudojimą ir naudojimą, ir buvo priimtas sprendimas daugiau nebesikelti į priekį, kad priemonė būtų atstojama nuo bendro užimtumo.   |
+| **Pakeitė kita funkcija?**   | Šiuo metu "Commerce analytics" (Peržiūra) nebus pakeista kita funkcija ar sprendimu. Neapdorotų operacijų ir pagrindinių duomenų eksportavimas iš finansų ir operacijų programėlių į "Azure Data Pvm" išlieka pasiekiamas, [kaip paaiškinta finansų ir operacijų programėlių eksportavime į duomenis](../../fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake.md). Partneriai ir klientai gali sverti, kad duomenų srautas kuriamas pagal verslo poreikius skirtas analizės ataskaitas.
+| **Paveiktos produkto sritys**         | „Commerce“ analizė (peržiūros versija) |
+| **Visuotinio diegimo parinktis**              | Viskas |
+| **Būsena**                         | 2022 m. rugpjūčio 30 d. išmessime iš šios priemonės.  Nuo šios datos į priekį nebus atnaujinama dabartinėse ataskaitose, kurią Power BI pateikė "Commerce analytics" (peržiūra).     |
+
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Commerce“ 10.0.25 versijoje
 
@@ -96,7 +109,7 @@ Daugiau informacijos, žr.:
     + [„Cloud Scale Unit“](https://github.com/microsoft/Dynamics365Commerce.ScaleUnit)
     + [POS, CSU ir Hardware stotis](https://github.com/microsoft/Dynamics365Commerce.InStore)
 
-### <a name="modernpossln-and-cloudpossln-in-the-retail-sdk"></a>ModernPos.Sln ir CloudPos.sln mažmeninės prekybos SDK
+### <a name="modernpossln-and-cloudpossln-in-the-retail-sdk"></a>ModernPos.Sln ir CloudPos.sln būti mažmeninės prekybos SDK
 
 EKA plėtinio kūrimas naudojant ModernPos.sln, CloudPos.sln, EKA. Extension.csproj ir EKA aplankas yra pasenusias leidime 10.0.21. Tęskite toliau, naudokite nuo EKA nepriklausomos pakuotės SDK, skirtą EKA plėtinių.
 
@@ -195,3 +208,4 @@ Norėdami sužinoti daugiau apie funkcijas, kurios buvo pašalintos arba nebenau
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

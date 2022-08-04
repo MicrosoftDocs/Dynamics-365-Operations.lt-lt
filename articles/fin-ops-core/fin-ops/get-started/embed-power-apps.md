@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: fb81aa058e749df346ee87bbe83427b20b234b72
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d7dc45e56c5fa616c288ebb4b919f039b7358794
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898404"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123661"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Drobės programų įdėjimas iš „Power Apps”
 
@@ -86,7 +86,7 @@ Kai įdedate drobės programą, turite nustatyti toliau pateikiamus parametrus.
 
 - **Pavadinimas** – įveskite tekstą, kuris turi būti rodomas mygtuke ar skirtuke, kuriame bus įdėtoji programa. Daugeliu atveju patartina pakartoti programos pavadinimą šiame lauke.
 - **Programos ID** – nurodomas globaliai unikalus identifikatorius (GUID), skirtas drobės programai, kurią norite įdėti. Norėdami gauti šią reikšmę, raskite programą puslapyje [make.powerapps.com](https://make.powerapps.com) ir raskite lauką **Programos ID**, pateiktą dalyje **Informacija**.
-- **Programos įvesties kontekstas** – galite pasirinktinai pasirinkti lauką su duomenimis, kuriuos kaip įvestį norite perduoti programai. Norėdami gauti daugiau informacijos apie tai, kaip programa gali pasiekti duomenis, išsiųstus iš finansų ir operacijų programėlių, žr. programėlę, kuri vėliau padeda kurti duomenis, [siunčiamus iš finansų ir operacijų](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) programėlių skyriaus toliau šiame straipsnyje.
+- **Programos įvesties kontekstas** – galite pasirinktinai pasirinkti lauką su duomenimis, kuriuos kaip įvestį norite perduoti programai. Norėdami gauti informacijos apie tai, kaip programa gali pasiekti duomenis, išsiųstus iš finansų ir operacijų programėlių, [žr](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps). programos, kuri vėliau padeda kurti duomenis, siunčiamus iš finansų ir operacijų programėlių, toliau šiame straipsnyje.
 
     Pradedant 10.0.19 versija, dabartinis juridinis subjektas taip pat perduodamas kaip kontekstas drobės programai naudojant **cmp** URL parametrą. Toks veikimo būdas neturės įtakos tikslinei drobės programai, kol ši programa naudos šią informaciją.
 
@@ -113,7 +113,7 @@ Informacijos apie produkto pritaikymo galimybes ir kaip jas naudoti žr. temoje 
 
 ## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>Kurti lauko programą, kurioje naudojami duomenys, siunčiami iš finansų ir operacijų programėlių
 
-Kuriant lauko programą, kuri bus įdėta į finansų ir operacijų programą, viena svarbi proceso dalis yra naudoti įvesties duomenis iš finansų ir operacijų programos. Iš programavimo Power Apps patirties, įvesties duomenis, kurie perduoti iš finansų ir operacijų programos, galima pasiekti naudojant **Param("EntityId") kintamąjį**. Taip pat, pradedant nuo versijos 10.0.19, dabartinis juridinis subjektas taip pat bus perduotas kaip kontekstas žiniatinklio programai naudojant **Param (cmp)** URL parametrą. 
+Kuriant lauko programą, kuri bus įdėta į finansų ir operacijų programą, viena svarbi proceso dalis yra naudoti įvesties duomenis iš tos finansų ir operacijų programos. Iš programavimo Power Apps patirties, įvesties duomenis, kurie perduoti iš finansų ir operacijų programos, galima pasiekti naudojant **Param("EntityId") kintamąjį**. Taip pat, pradedant nuo versijos 10.0.19, dabartinis juridinis subjektas taip pat bus perduotas kaip kontekstas žiniatinklio programai naudojant **Param (cmp)** URL parametrą. 
 
 Pavyzdžiui, programos funkcijoje "OnStart" galite nustatyti įvesties duomenis iš finansų ir operacijų programėlių kaip kintamąjį, pvz.:
 
@@ -125,7 +125,7 @@ If(!IsBlank(Param("cmp")), Set(FinOpsLegalEntity, Param("cmp")), Set(FinOpsLegal
 
 ## <a name="viewing-a-canvas-app"></a>Drobė programos peržiūra
 
-Norėdami finansų ir operacijų programėlių puslapyje peržiūrėti įdėtąją lauko programą, tiesiog eikite į puslapį, kuriame yra įdėtoji programa. Atminkite, kad programas galima pasiekti naudojant mygtuką **„Power Apps”**, esantį standartinėje veiksmų srityje. Taip pat jos gali atsirasti puslapyje tiesiogiai kaip naujas skirtukas, „FastTab“, mentė arba nauja skiltis darbo srityje. Vartotojams pirmą kartą bandant įkelti programą į puslapį, jie bus paraginti prisijungti. Šis veiksmas užtikrina, kad vartotojai turėtų atitinkamas teises programėlei naudoti.
+Norėdami peržiūrėti finansų ir operacijų programėlių puslapyje įdėtąją lauko programą, tiesiog eikite į puslapį, kuriame yra įdėtoji programa. Atminkite, kad programas galima pasiekti naudojant mygtuką **„Power Apps”**, esantį standartinėje veiksmų srityje. Taip pat jos gali atsirasti puslapyje tiesiogiai kaip naujas skirtukas, „FastTab“, mentė arba nauja skiltis darbo srityje. Vartotojams pirmą kartą bandant įkelti programą į puslapį, jie bus paraginti prisijungti. Šis veiksmas užtikrina, kad vartotojai turėtų atitinkamas teises programėlei naudoti.
 
 ## <a name="editing-an-embedded-app"></a>Įdėtosios programos redagavimas
 
@@ -184,3 +184,4 @@ public final class ClassTest_Extension
 ```
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

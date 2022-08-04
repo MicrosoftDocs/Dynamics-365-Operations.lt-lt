@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 50392e8aa0deb568a57e1df59ced70625a4f8a78
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 939066fbf4ab7b316283d406c321f1a7936c187f
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856054"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066553"
 ---
 # <a name="batch-balancing"></a>Paketo balansavimas
 
@@ -165,22 +165,22 @@ Vykdant procesą Paketų ingredientų balansavimas, gamybos pakete naudotinas in
 
 ### <a name="confirm-and-release-the-formula"></a>Formulės patvirtinimas ir išleidimas
 
-Kai ingredientų kiekiai apskaičiuoti, formulę galite patvirtinti ir išleisti. Išleidimo procesas skiriasi ir priklauso nuo to, ar su produktais galima vykdyti sandėlio valdymo procesus.
+Kai ingredientų kiekiai apskaičiuoti, formulę galite patvirtinti ir išleisti. Išleidimo procesas skiriasi atsižvelgiant į tai, ar produktai įgalinti sandėlio valdymo procesams (WMS):
 
-- Jei su produktu galima vykdyti sandėlio valdymo procesus, formulės eilutė į sandėlį išleidžiama pagal sandėlio valdymo procesų principus. Išleidžiami su subalansuotais kiekiais sutapantys formulės eilutės kiekiai ir jie išleidžiami tų konkrečių paketų, kuriuose pasirinkta naudoti aktyviuosius ingredientus.
+- Jei produktas naudojamas WMS, formulės eilutė išleidžiama į sandėlį pagal WMS principus. Išleidžiami su subalansuotais kiekiais sutapantys formulės eilutės kiekiai ir jie išleidžiami tų konkrečių paketų, kuriuose pasirinkta naudoti aktyviuosius ingredientus.
 
     > [!NOTE]
     > Formulių eilutes į sandėlį galima išleisti tik vykdant paketų balansavimo procesą. Nors yra kitų parinkčių, kaip medžiagas gamybai išleisti į sandėlį, su formulių eilutėmis tų parinkčių naudoti negalima.
 
-- Jei su produktu sandėlio valdymo procesų vykdyti negalima, jums tvirtinant ir išleidžiant formulę sukuriamas produkto išrinkimo dokumentas.
+- Jei produktas neįgalintas naudoti WMS, patvirtinant ir išleidžiant formulę sukuriamas produkto gamybos išrinkimo sąrašas.
 
-Vienoje formulėje galite sujungti produktus, su kuriais vykdyti sandėlio valdymo procesus galima, ir produktus, su kuriais sandėlio valdymo procesų vykdyti negalima. Kai šių dviejų tipų produktai įtraukti į vieną formulę, produktai, su kuriais galima vykdyti sandėlio valdymo procesus, išleidžiami į sandėlį. Jei su produktais sandėlio valdymo procesų vykdyti negalima, tvirtinant ir išleidžiant formulę sukuriamas jų išrinkimo dokumentas.
+Vienoje formulėje galite sujungti produktus, su kuriais vykdyti sandėlio valdymo procesus galima, ir produktus, su kuriais sandėlio valdymo procesų vykdyti negalima. Kai į vieną formulę įtraukiami dviejų tipų produktai, WMS įgalinti produktai išleidžiami į sandėlį. Produktams, kurių WMS neįgalinta, išrinkimo sąrašas sukuriamas, kai formulė patvirtinama ir išleidžiama.
 
 ### <a name="batch-orders-that-arent-applicable-for-batch-balancing"></a>Paketiniai užsakymai, kuriems paketų balansavimo funkcijos taikyti negalima
 
 Yra dvi išimtis taisyklei, kad paketiniams užsakymams galima taikyti paketų balansavimo funkciją, jei formulėje yra bent viena formulės eilutė, kurioje **Ingrediento tipas** yra *Aktyvusis*.
 
-1. Jei formulėje yra produkto, su kuriuo galima vykdyti sandėlio valdymo procesus, aktyvusis ingredientas, tačiau rezervavimo hierarchijoje reikšmė „paketo numeris” yra žemiau reikšmės „vieta”, paketiniam užsakymui partijų balansavimo funkcijos taikyti negalima.
+1. Jei formulėje yra aktyvusis produkto, kuris įgalintas WMS, ingredientas, bet paketo numeris rezervavimo hierarchijoje yra žemesnėje vietoje, paketinis užsakymas nebus taikomas paketui balansuoti.
 1. Jei formulės matavimo vienetas skiriasi nuo aktyviojo ingrediento atsargų matavimo vieneto, partijų balansavimas netaikomas paketo užsakymui.
 
 Paketiniam užsakymui, kuriam negalima taikyti paketų balansavimo funkcijos, taikomas įprastas paketinių užsakymų apdorojimo ciklas.

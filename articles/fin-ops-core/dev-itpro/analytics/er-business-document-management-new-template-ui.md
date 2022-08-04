@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bcc464a17e27393c5904c59b8439de6ca000d57a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 208cfc91f11d4893785538ce4874e85a5725e993
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892231"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109267"
 ---
 # <a name="microsoft-office-style-user-interface-in-business-document-management"></a>„Microsoft Office” stiliaus vartotojo sąsaja Verslo dokumentų valdyme
 
@@ -36,7 +36,7 @@ Naujo vartotojo sąsaja (UI) yra aiškesnė ir patogesnė naudoti. Verslo **doku
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWAVQg]
 
-Naujas [verslo dokumentas sukurtas naudojant verslo dokumentų valdymo vaizdo įrašą](https://youtu.be/gAIYl-mM_pw) (parodyta aukščiau) yra įtrauktas [į finansų ir operacijų dalyje galimas atlikti operacijas](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)YouTube.
+Naujas [verslo dokumentas sukurtas naudojant verslo dokumentų valdymo vaizdo įrašą](https://youtu.be/gAIYl-mM_pw) (parodyta aukščiau) yra įtrauktas [į finansų ir operacijų sąrašą](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kuris pasiekiamas YouTube.
 
 ## <a name="make-the-new-document-ui-in-business-document-management-available"></a>Naujo dokumento vartotojo sąsajos įjungimas funkcijoje Verslo dokumentų valdymas
 
@@ -145,3 +145,4 @@ Daugiau informacijos žr. [Verslo dokumentų valdymo apžvalga](er-business-docu
 7. Pasirinkite **Gerai**, kad patvirtintumėte redagavimo proceso pradžią.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

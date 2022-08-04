@@ -1,6 +1,6 @@
 ---
 title: Turto valdymo mobiliosios darbo srities nustatymas
-description: Šiame straipsnyje aprašoma, kaip nustatyti "Microsoft Dynamics 365 Supply Chain Management " ir finansų ir operacijų ("Dynamics 365") mobiliąją programą, kad būtų vykdoma turto valdymo mobilioji darbo sritis, kurią darbuotojai gali naudoti turto valdymo užduotims atlikti.
+description: Šiame straipsnyje aprašoma, kaip nustatyti "Microsoft Dynamics 365 Supply Chain Management " ir finansų bei operacijų ("Dynamics 365") mobiliąją programą, kad būtų galima vykdyti turto valdymo mobiliąją darbo sritį, kurią darbuotojai gali naudoti turto valdymo užduotims atlikti.
 author: johanhoffmann
 ms.date: 01/15/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ee92ed2c0e2a59adaebe20ed3d426ac03c056dac
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ef4e6bf2ae59adb05c7d4aacc3f5675a5adcafc9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870848"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070060"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Turto valdymo mobiliosios darbo srities nustatymas
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje aprašoma, kaip nustatyti "Microsoft Dynamics 365 Supply Chain Management" ir finansų ir operacijų ("Dynamics 365") **mobiliąją** programą, kad būtų vykdoma turto valdymo mobilioji darbo sritis, kurią darbuotojai gali naudoti turto valdymo užduotims atlikti.
+Šiame straipsnyje aprašoma, kaip nustatyti "Microsoft Dynamics 365 Supply Chain Management" ir finansų bei operacijų ("Dynamics 365") **mobiliąją** programą, kad būtų galima vykdyti turto valdymo mobiliąją darbo sritį, kurią darbuotojai gali naudoti turto valdymo užduotims atlikti.
 
 ## <a name="set-up-maintenance-worker-users-in-supply-chain-management"></a>Techninės priežiūros darbuotojo vartotojų nustatymas „Supply Chain Management”
 
@@ -52,12 +52,12 @@ Norėdami, kad turto valdymo priemonės būtų galimos finansų ir operacijų ("
 
 ## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>Įdiegti ir nustatyti finansų ir operacijų ("Dynamics 365") mobiliąją programą
 
-1. Eikite į vieną iš toliau nurodytų parduotuvių ir įdiekite " **Microsoft Finance and Operations" ("Dynamics 365")** programėlę mobiliajame įrenginyje:
+1. Pereikite į vieną iš toliau nurodytų parduotuvių ir įdiekite " **Microsoft" finansų ir operacijų ("Dynamics 365")** programą mobiliajame įrenginyje:
 
     - [„Google Android” įrenginiams](https://go.microsoft.com/fwlink/?linkid=850662)
     - [„iOS” įrenginiams](https://go.microsoft.com/fwlink/?linkid=850663)
 
-1. Atidarykite finansų ir operacijų (Dynamics 365) programą. Turėtų pasirodyti prisijungimo puslapis. **Prisijungti** lauke įveskite „Supply Chain Management” URL arba įveskite neseniai naudotą URL **Neseniai naudotos aplinkos**  sąraše ir bakstelėkite **Prisijungti**.
+1. Atidarykite finansų ir operacijų ("Dynamics 365") programą. Turėtų pasirodyti prisijungimo puslapis. **Prisijungti** lauke įveskite „Supply Chain Management” URL arba įveskite neseniai naudotą URL **Neseniai naudotos aplinkos**  sąraše ir bakstelėkite **Prisijungti**.
 
     ![Prisijungimo puslapis.](media/mobile-app-sign-in.png "Prisijungimo puslapis")
 
@@ -80,7 +80,7 @@ Norėdami, kad turto valdymo priemonės būtų galimos finansų ir operacijų ("
 
 Daugiau informacijos apie tai, kaip dirbti su **Turto valdymas** mobiliąja darbo sritimi, žr. [žr. Turto valdymo mobiliosios darbo srities naudojimas](asset-management-mobile-workspace.md).
 
-Daugiau informacijos apie finansų ir operacijų ("Dynamics 365") mobiliąją programą žr. pagrindiniame [mobiliojo programos puslapyje](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
+Norėdami gauti daugiau informacijos apie finansų ir operacijų ("Dynamics 365") mobiliųjų įrenginių programėlę, žr. pagrindinį [mobiliojo programos puslapį](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

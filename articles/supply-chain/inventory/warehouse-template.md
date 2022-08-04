@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 737b6f2f645ff270e5a49d54ca7542df3c075f94
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dafd51a46b19f3709963ffc12b3c8c77b6c809ac
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856112"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070446"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Sandėlio nustatymas naudojant sandėlio konfigūracijos šabloną
 
@@ -90,7 +90,7 @@ Galite atsisiųsti duomenų paketo ZIP failą. Šiame faile visi duomenys pateik
 
 Žurnale **Vykdymo peržiūra** pateikiama išsami informacija apie kiekvieną duomenų objektą, kuris yra importuotas. Galite naudoti išdėstymo duomenų rodinį, norėdami greitai pasiekti paskirties duomenis. Tokiu būdu galite peržiūrėti, kaip importuoti duomenys rodomi susijusiuose programos puslapiuose. Naudojant numatytuosius duomenų šablonus, kiekvieno duomenų objekto importavimo seka vykdoma iš anksto nustatytu būdu, siekiant užtikrinti, kad pirmiausia importuojami visi priklausomi duomenys. Jei pasirinktiniai duomenų objektai yra projekto dalis, turite įsitikinti, kad apibrėžta teisinga seka. Daugiau informacijos žr. [ Konfigūracijos duomenų šablonai](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
-Norėdami daugiau sužinoti apie tai, kaip naudojant sandėlio šabloną nukopijuoti sandėlio konfigūraciją iš vienos įmonės į naują įmonę tame pačiame egzemplioriuje, žr. šį 3 minučių „YouTube“ vaizdo įrašą apie [konfigūracijos kopijavimą naudojant sandėlio šabloną programoje „Finance and Operations“](https://www.youtube.com/watch?v=K2WIfFlqJYs).
+Norėdami daugiau sužinoti, kaip naudoti sandėlio šabloną sandėlio konfigūracijai kopijuoti iš vienos įmonės į naują to paties egzemplioriaus įmonę, žr. šį 3 minučių YouTube [vaizdo įrašą apie tai, kaip naudoti sandėlio šabloną kopijuoti finansų ir operacijų konfigūraciją](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-article"></a>Susijęs straipsnis
 

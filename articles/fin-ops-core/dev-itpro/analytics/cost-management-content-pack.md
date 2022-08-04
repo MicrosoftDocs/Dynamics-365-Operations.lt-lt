@@ -1,27 +1,28 @@
 ---
 title: „Power BI“ turinys Išlaidų valdymas
 description: Šiame straipsnyje aprašoma, kas įtraukta į išlaidų valdymo Power BI turinį.
-author: ShylaThompson
+author: JennySong-SH
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom: 270314
-ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
+ms.reviewer: kamaybac
 ms.search.region: Global
-ms.search.industry: Manufacturing
-ms.author: kfend
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98c0097c2df25bafc842c9828d8ff282f5f683a5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "270314"
+ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
+ms.search.industry: Manufacturing
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
+ms.openlocfilehash: 7dcc8b2df62b250c59e343e0def5840f1b4f5432
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876869"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205705"
 ---
 # <a name="cost-management-power-bi-content"></a>„Power BI“ turinys Išlaidų valdymas
 
@@ -168,7 +169,7 @@ Programos duomenys naudojami ataskaitos puslapiams „Power BI“ turinyje **Iš
 
 Toliau pateiktų objektų agreguoti matavimo vienetai yra naudojami kaip „Power BI“ turinio pagrindas.
 
-| Objektas                          | Pagrindiniai agreguoti matavimo vienetai | „Finance and Operations“ duomenų šaltinis | Laukas               |
+| Objektas                          | Pagrindiniai agreguoti matavimo vienetai | Finansų ir operacijų duomenų šaltinis | Laukas               |
 |---------------------------------|----------------------------|----------------------------------------|---------------------|
 | CostObjectStatementCacheMonthly | Suma                     | CostObjectStatementCache               | Suma              |
 | CostObjectStatementCacheMonthly | Kiekis                   | CostObjectStatementCache               | Kiekis                 |
@@ -203,3 +204,4 @@ Tolesnės pagrindinės dimensijos naudojamos kaip filtrai agreguotiems matavimo 
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

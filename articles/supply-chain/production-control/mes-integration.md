@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 208ed2d6c8b411d12888966d9c175730e828eb44
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 46f6db3dd9942131b379216e6fffe5551d6c8fc3
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860644"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068038"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Integravimas trečiosios šalies gamybos vykdymo sistemose
 
@@ -252,9 +252,10 @@ Po to, kai MES išsiunčia pranešimą tiekimo grandinės valdymui, gali būti s
 Tokiais atvejais galite pasinaudoti standartine tiekimo grandinės valdymo įspėjimo funkcija. Informacijos apie tai, kaip veikia standartiniai įspėjimai, ieškokite toliau pateikiamame ištetelyje:
 
 - Žinyno straipsnis: [įspėjimų peržiūra](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
-- Vaizdo įrašas: įspėjimo [taisyklės parinktys Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
+- Vaizdo įrašas: [įspėjimo taisyklių parinktys finansinėse ir operacijose](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
 
 Pavyzdžiui, galite nustatyti šiuos įspėjimus, kad galėtumėte pateikti atsiliepimus apie pranešimo būseną:
 
 - Kurti verslo įvykį ("Siųsti išoriškai"), kuris naudojamas, kai pranešimas *nepavyko*.
 - Siųsti pranešimą ir el. laišką IT administratoriui arba gamybos laiko vadybininkui.
+

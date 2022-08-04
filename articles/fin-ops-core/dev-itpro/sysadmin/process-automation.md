@@ -2,7 +2,7 @@
 title: Proceso automatizavimas
 description: Šiame straipsnyje pateikiama informacija apie tai, kaip procesų automatizavimas leidžia paprastą procesų, kurie bus paleisti paketinio apdorojimo serveryje, planavimą.
 author: RyanCCarlson2
-ms.date: 04/20/2021
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: f13392fd6610735f8c539d42b62cf71cece71fba
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c0015b65f1ff00cfce19139cb8aaa248512d070b
+ms.sourcegitcommit: 3d2c0a39c4f987e9ac71df2f2fa6df0f64f10b2b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898615"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9114942"
 ---
 # <a name="process-automation"></a>Procesų automatizavimas
 
@@ -30,7 +30,7 @@ Procesų automatizavimas leidžia paprastai suplanuoti procesus, kuriuos vykdys 
 
 Visų procesų automatizavimų centrinis administravimo puslapis yra sistemos administravimo modulyje **Nustatymas** meniu. Šiame puslapyje bus išvardyti visi sistemoje nustatyti automatizuoti procesai (serija). Be to, leidžiama pridėti naujų procesų automatizavimus tiesiogiai iš šio puslapio. Nustačius seriją, galite valdyti kiekvieną šio sąrašo seriją. Galite pasirinkti redaguoti visą seriją, panaikinti ją, peržiūrėti visus įvykius sąrašo rodinyje arba išjungti seriją, jei norite, kad suplanuotos užduotys būtų pristabdytos kuriam laikui. 
 
-Visi funkcijų valdyme neįjungti procesai nebus rodomi funkcijai esant išjungtai. Taip pat, procesų automatizavimo grafiko variklis nenustatys jokių įvykių ar fone vykstančių procesų išjungtai funkcijai. Funkcijos įjungimas įjungs visus suplanuotus įvykius ir anksčiau pradėtus fone vykstančius procesus neatidėliotinam vykdymui. Proceso automatizavimo planavimo sistema remiasi sistemos paketine užduotimi, apdoroti **apklausų sistemos automatizavimo** užduotį. Užduoties negalima pakeisti ar pakeisti bet kuriuo metu. 
+Visi funkcijų valdyme neįjungti procesai nebus rodomi funkcijai esant išjungtai. Taip pat, procesų automatizavimo grafiko variklis nenustatys jokių įvykių ar fone vykstančių procesų išjungtai funkcijai. Funkcijos įjungimas įjungs visus suplanuotus įvykius ir anksčiau pradėtus fone vykstančius procesus neatidėliotinam vykdymui. Proceso automatizavimo planavimo sistema remiasi sistemos paketine užduotimi, apdoroti **apklausų sistemos automatizavimo** užduotį. Užduoties negalima pakeisti ar pakeisti bet kuriuo metu. Jei ši paketinė užduotis nepaleidusi arba jos būsena yra Klaida, **norėdami** iš naujo nustatyti paketinę užduotį pasirinkite Inicijuoti proceso automatizavimą. Taip iš naujo bus užtikrintas bet koks naujos automatizavimas, paleistas naudojant naujesnę programos versiją. 
 
 ## <a name="calendar-view"></a>Kalendoriaus rodinys
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8e8e6adc2c72b6e3ab567723ac01055ea8d7292e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b3cfdb98f9f0f05e046784cc77c85cd4a045868c
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868733"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069384"
 ---
 # <a name="company-directory-mobile-workspace"></a>Mobilioji darbo sritis „Įmonės katalogas”
 
@@ -26,7 +26,7 @@ ms.locfileid: "8868733"
 
 Šiame straipsnyje pateikiama informacija apie įmonės katalogo **mobiliąją** darbo sritį. Naudodami šią darbo sritį vartotojai gali peržiūrėti duomenis apie kitus organizacijos darbuotojus ir su jais susisiekti.
 
-Šią mobiliąją darbo sritį galima naudoti kartu su mobiliąja programa „Finance and Operations“.
+Šią mobiliąją darbo sritį galima naudoti su finansų ir operacijų mobiliąją programa.
 
 ## <a name="overview"></a>Apžvalga
 Naudodami mobiliąją darbo sritį **Įmonės katalogas** vartotojai gali atlikti šias užduotis:
@@ -50,12 +50,12 @@ Tam, kad galėtumėte naudoti šią mobiliąją darbo sritį, turi būti laikoma
 <tbody>
 <tr class="odd">
 <td>Jūsų organizacijoje turi būti įdiegtas vienas iš šių produktų:
-<ul><li>„Finance and Operations” programa</li>
+<ul><li>Finansų ir operacijų programa</li>
 <li>„Microsoft Dynamics 365 Human Resources“</li>
 </ul>
 </td>
 <td>Sistemos administratorius</td>
-<td>Jeigu jūsų organizacijoje dar neįdiegta programa „Finance and Operations“, žr. <a href="../deployment/deploy-demo-environment.md">Demonstracinės aplinkos diegimas</a>. Jeigu jūsų organizacijoje dar neįdiegt&#39;a programa „Human Resources“, sistemos administratorius gali naudoti <a href="https://dynamics.microsoft.com/human-resources/overview/">„Human Resources“ tinklalapyje</a> esančią bandomąją versiją.
+<td>Jei jūsų organizacijoje&#39; dar nėra įdiegtos finansų ir operacijų programos, žr. demonstracinę <a href="../deployment/deploy-demo-environment.md">aplinką</a>. Jeigu jūsų organizacijoje dar neįdiegt&#39;a programa „Human Resources“, sistemos administratorius gali naudoti <a href="https://dynamics.microsoft.com/human-resources/overview/">„Human Resources“ tinklalapyje</a> esančią bandomąją versiją.
 </td>
 </tr>
 <tr class="even">
@@ -67,7 +67,7 @@ Tam, kad galėtumėte naudoti šią mobiliąją darbo sritį, turi būti laikoma
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobiliosios programos atsisiuntimas ir diegimas
-Atsisiųskite ir įdiekite mobiliąją programą „Finance and Operations”.
+Atsisiųskite ir įdiekite finansų ir operacijų mobiliąją programą:
 
 -   [„Android“ telefonams](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [„iPhone“ telefonams](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -91,3 +91,4 @@ Atsisiųskite ir įdiekite mobiliąją programą „Finance and Operations”.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

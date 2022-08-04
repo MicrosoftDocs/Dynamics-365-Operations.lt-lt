@@ -1,6 +1,6 @@
 ---
 title: Optimizavimo patarėjo apžvalga
-description: Šiame straipsnyje aprašoma, kaip naudoti optimizavimo modulį, norint užtikrinti optimalią finansų ir operacijų konfigūraciją.
+description: Šiame straipsnyje aprašoma, kaip galima naudoti optimizavimo pagal biudžeto ir operacijų optimalią konfigūraciją.
 author: roxanadiaconu
 ms.date: 07/23/2019
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 1dd66e27098b4125b03c4fe6b52825afe2ff34cf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fb71453c37572c4956d98d4309d3526a7fbc1124
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865867"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109047"
 ---
 # <a name="optimization-advisor-overview"></a>Optimizavimo patarėjo apžvalga
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje aprašoma, kaip naudoti optimizavimo modulį, norint užtikrinti optimalią finansų ir operacijų konfigūraciją.
+Šiame straipsnyje aprašoma, kaip galima naudoti optimizavimo pagal biudžeto ir operacijų optimalią konfigūraciją.
 
 ## <a name="overview"></a>Apžvalga
 
@@ -44,7 +44,7 @@ Optimizavimo galimybėms taikomos standartinės saugos strategijos. Pavyzdžiui,
 
 Atliekant tam tikrų optimizavimo galimybių veiksmus sistema apskaičiuoja galimybės poveikį trumpinant verslo procesų veikimo laiką. Deja, ši funkcija prieinama naudojantis ne visomis optimizavimo galimybėmis.
 
-Norėdami daugiau sužinoti apie optimizavimo patarėją, peržiūrėkite trumpą vaizdo įrašą [„Dynamics 365 for Finance and Operations“ optimizavimo patarėjas](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
+Norėdami daugiau sužinoti apie optimizavimo žodyną, ["Dynamics 365" finansų vaizdo įraše peržiūrėkite trumpą optimizavimo optimizavimą](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
 
 ## <a name="optimization-rules"></a>Optimizavimo taisyklės
 
@@ -90,7 +90,7 @@ Norėdami išjungti tam tikrų taisyklių vertinimą, pasirinkite taisyklės sug
 
 [Optimizavimo patariamojo įrankio taisyklių kūrimas](./create-rules-optimization-advisor.md)
 
-[Optimizavimo patarėjas naudojant „Dynamics 365 for Finance and Operations“ (vaizdo įrašas)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+["Dynamics 365 Finance" optimizavimas (vaizdo įrašas)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

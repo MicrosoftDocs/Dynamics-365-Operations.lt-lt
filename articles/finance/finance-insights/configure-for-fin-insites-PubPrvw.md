@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: e6b9c34ee68a25ac9613a65cf63443751a39c576
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d05403113c9b178553134ce1a9066bb2acf59b0f
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868524"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068112"
 ---
 # <a name="configuration-for-finance-insights---version-10020-and-later"></a>Finansų žinių konfigūracija – 10.0.20 ir vėlesnė versija
 
@@ -38,7 +38,7 @@ Finansų įžvalgos sujungia funkcijas iš Microsoft Dynamics "365 Finance Datav
 
 Norėdami talpinti aplinkas, atlikite šiuos veiksmus.
 
-1. Portale „Microsoft Dynamics Lifecycle Services“ (LCS), kurkite ar naujinkite „Finance“ aplinką. Aplinkai reikia 10.0.20 arba naujesnės finansų ir operacijų programėlių programos versijos.
+1. Portale „Microsoft Dynamics Lifecycle Services“ (LCS), kurkite ar naujinkite „Finance“ aplinką. Aplinkai reikia programos 10.0.20 arba vėlesnės finansų ir operacijų programėlių versijos.
 2. Aplinka turi būti didelio pasiekiamumo (HA) smėlio dėžės aplinka. (Šis aplinkos tipas dar vadinamas 2 pakopos aplinka.) Norėdami gauti daugiau informacijos, žr. [Aplinkos planavimas](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 3. Jei konfigūruojate „Finance Insights“ smėlio dėžės aplinkoje, jums gali tekti nukopijuoti gamybos duomenis į tą aplinką numatymams dirbti. Numatymo modelis naudoja kelių metų duomenis numatymams sukurti. "Contoso" demonstraciniai duomenys neturi pakankamai praeities duomenų, kad būtų galima ištykti numatymo modelio versiją. 
 
@@ -126,7 +126,7 @@ Jeigu negalite rasti nė vienos iš ankstesnių programų, bandykite atlikti tol
         - **Našumas** – rekomenduojame pasirinkti **Standartinis**.
         - **Paskyros rūšis** – turite pasirinkti **StorageV2**.
 
-    3. Dialogo lange **Išplėstinės parinktys**, prie parinkties **„Data Lake Storage Gen2“** (funkcija **Hierarchinės vardų sritys**) pasirinkite **Įjungti**. Jei šios funkcijos įgalinsite, negalite naudoti duomenų, kuriuos finansų ir operacijų programėlių rašyti naudojant paslaugas, pvz., duomenų Power BI srautus.
+    3. Dialogo lange **Išplėstinės parinktys**, prie parinkties **„Data Lake Storage Gen2“** (funkcija **Hierarchinės vardų sritys**) pasirinkite **Įjungti**. Jei šios funkcijos įgalinsite, naudodami tokias paslaugas, kaip duomenų srautai, nebegalėsite naudoti duomenų, kuriuos finansų ir operacijų Power BI programėlių rašyti galima.
     4. Pasirinkite **Peržiūrėti ir kurti**. Kai diegimas bus baigtas, naujasis išteklius bus rodomas „Azure“ portale.
     5. Pereikite į sukurtą saugyklos paskyrą.
     6. Kairiajame meniu pasirinkite **Prieigos raktai**.
@@ -755,3 +755,4 @@ Papildinio įdiegimas gali užtrukti kelias minutes.
 Jei jus domina atsiliepimų pateikimas arba, jei jums reikia pagalbos, siųskite el. laišką finansų [žinių paieškai](mailto:fiap@microsoft.com).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

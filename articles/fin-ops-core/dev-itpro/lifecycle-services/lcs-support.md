@@ -1,6 +1,6 @@
 ---
-title: „Finance and Operations‟ programos arba „Lifecycle Services“ (LCS) palaikymo gavimas
-description: Šiame straipsnyje paaiškinama, kaip gauti pagalbos naudojant finansų ir operacijų programėles Microsoft Dynamics arba vykdymo ciklo tarnybas (LCS).
+title: Gauti finansų ir operacijų programėlių arba vykdymo ciklo tarnybų (LCS) palaikymą
+description: Šiame straipsnyje paaiškinama, kaip gauti pagalbos dėl finansų ir operacijų programėlių arba Microsoft Dynamics vykdymo ciklo tarnybų (LCS).
 author: EricMoos
 ms.date: 08/02/2021
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 278a62c0393be503352db39dddeca1095e7e4a5a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f36709ddc2a64c31fe3c2d63fbe073fd9bc159bb
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866437"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103410"
 ---
-# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>„Finance and Operations‟ programos arba „Lifecycle Services“ (LCS) palaikymo gavimas
+# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Gauti finansų ir operacijų programėlių arba vykdymo ciklo tarnybų (LCS) palaikymą
 
 [!include [banner](../includes/banner.md)]
 
 
 [!INCLUDE [PEAP](../../../includes/peap-2.md)]
 
-Šiame straipsnyje paaiškinama, kaip gauti pagalbos naudojant finansų ir operacijų programėles Microsoft Dynamics arba vykdymo ciklo tarnybas (LCS). 
+Šiame straipsnyje paaiškinama, kaip gauti pagalbos dėl finansų ir operacijų programėlių arba Microsoft Dynamics vykdymo ciklo tarnybų (LCS). 
 
 <table>
 <thead>
@@ -72,3 +72,4 @@ ms.locfileid: "8866437"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

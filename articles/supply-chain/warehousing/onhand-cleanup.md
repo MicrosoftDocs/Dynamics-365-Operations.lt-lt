@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 7f054f4f479affe8ca2e041c77bd6fd11d51378e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a82a3b26f2bf7cb546383da047d18c2997569ca5
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900512"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065156"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Sandėlio valdymo turimų įrašų valymo užduotis
 
@@ -26,11 +26,11 @@ ms.locfileid: "8900512"
 
 Užklausų, naudojamų skaičiuojant turimas atsargas, efektyvumas priklauso nuo įtrauktų lentelių įrašų skaičius. Vienas iš būdų pagerinti efektyvumą yra sumažinti įrašų, kuriuos turi įvertinti duomenų bazė, skaičių.
 
-Šiame straipsnyje aprašoma turimo įrašo valymo užduotis, kuri panaikina nenaudojamus įrašus Lentelėse InventSum ir WHSInventReserve. Šiose lentelėse saugoma turima informacija apie prekes, kurios yra įjungtos atliekant sandėlio valdymo apdorojimą. (Šios prekės vadinamos WHS prekėmis.) Šio įrašo panaikinimas gali ženkliai pagerinti turimų skaičiavimų efektyvumą.
+Šiame straipsnyje aprašoma turimo failo įrašų valymo užduotis, kuri panaikina nenaudojamus įrašus ir `InventSum` lenteles `WHSInventReserve`. Šiose lentelėse saugoma turima informacija apie prekes, kurios yra įjungtos atliekant sandėlio valdymo apdorojimą. (Šios prekės vadinamos WMS prekėmis.) Šio įrašo panaikinimas gali ženkliai pagerinti turimų skaičiavimų efektyvumą.
 
 ## <a name="what-the-cleanup-job-does"></a>Ką atlieka valymo užduotis
 
-Turimų įrašų valymo užduotis panaikina visus įrašus, esančius lentelėse „WHSInventReserve“ ir „InventSum“, kur visų laukų reikšmės yra *0* (nulis). Šiuos įrašus galima panaikinti, nes jie neprisideda prie turimos informacijos. Užduotis panaikina tik žemesnius nei **Vietos** lygmens įrašus.
+Turimo įrašo valymo užduotis panaikina visus tos ir lentelių įrašus `WHSInventReserve``InventSum`, kurių visų laukų vertės yra *0* (nulis). Šiuos įrašus galima panaikinti, nes jie neprisideda prie turimos informacijos. Užduotis panaikina tik žemesnius nei **Vietos** lygmens įrašus.
 
 Jei leidžiamos neigiamos fizinės atsargos, valymo užduočiai gali nepavykti panaikinti visų atitinkamų įrašų. Šis apribojimas taikomas todėl, kad užduotis turi numatyti specialų scenarijų, kai numerio lentelėje yra keli serijos numeriai, o vienas iš tų serijos numerių tapo neigiamu. Pavyzdžiui, sistemos numerio lentelėje bus nulis, kai numerio lentelėje yra +1 vnt. 1 serijos numerio 1 ir –1 vnt. 2 serijos numerio. Naudojant šį specialų scenarijų, pirmiausia bus bendrai panaikinti žemesnių lygių įrašai.
 

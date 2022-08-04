@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c0ec643046d871000220fbe82df04866599bcdf7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: eba7c10d08ade65f7ddf93cae06446b7e3452e37
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907840"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065306"
 ---
 # <a name="learning-catalog-for-business-decision-makers-considering-dynamics-365-finance"></a>Verslo sprendimus priimantiems asmenims skirtas mokymosi katalogas atsižvelgiant į "Dynamics 365 Finance"
 
@@ -30,7 +30,7 @@ Toliau pateiktas katalogas yra sutvarkytas taip, kad žinios būtų išdėstytos
 | Turinys | aprašymas | Formatuoti | Ilgis |
 |---------|-------------|--------|--------|
 | [Sužinokite apie „Microsoft Dynamics 365“ ir „Power Platform“ naudą verslui](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Ar norite sužinoti apie verslo programas? Galbūt nežinote, kur pradėti naudodami „Microsoft Dynamics 365” ir „Power Platform” programas? Sužinokite, kaip verslo programos gali transformuoti jūsų verslą. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 7 valandos |
-| [„Dynamics 365“ ir „Power Platform“ pagrindai](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Ar norite sužinoti apie verslo programas? Pradėkite nuo šio mokymosi scenarijaus, kad sužinotumėte, kaip naudojamos „Dynamics 365“ programos. Sužinokite apie debesų koncepcijas, „Power Platform“ ir apie tai, kaip pradėti naudotis „Dynamics 365“ programomis. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 5,5 valandos |
+| [„Dynamics 365“ ir „Power Platform“ pagrindai](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Ar norite sužinoti apie verslo programas? Pradėkite nuo šio mokymosi scenarijaus, kad sužinotumėte, kaip naudojamos „Dynamics 365“ programos. Sužinokite apie debesų koncepcijas, „Power Platform“ ir apie tai, kaip pradėti naudotis „Dynamics 365“ programomis. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi kelias | 5,5 valandos |
 | [Darbo su finansų ir operacijų programėle pradžia](/learn/paths/get-started-finance-operations/) | Sužinokite, kaip finansų ir operacijų programėlės palaiko įmones, siekiant valdyti savo visuotines finansines sistemas, veiklos verslo procesus ir supaprastintas tiekimo grandines, siekiant suteikti žmonėms galimybę priimti greitai pagrįstus sprendimus. Kaip pirmą savo karjeros darbo su finansų ir operacijų programėle veiksmą, turite susipažinti su savo funkcijomis ir funkcijomis, nepaisant jūsų norimo vaidmens. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi kelias | 2 valandos |
 | [Darbo su "Dynamics 365 Finance" pradžia](/learn/modules/get-started-financial-management-dyn365-finance/) | "Dynamics 365" finansai suteikia verslo vartotojams galimybę pritaikyti ją prie greitai kintančios verslo aplinkos. Ji leidžia verslui turėti viską, ko jiems reikia tam, kad jie kontroliuotų finansus ir valdytų lėšas su tikslia informacija apie finansinį planavimą ir prognozes bei padėtų jiems neatsilikti nuo analitinių įrankių. Finansai yra bet kurios verslo pagrindas, todėl svarbu supažindinti su "Dynamics 365 Finance" pajėgumais. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi modulis | 1 valanda |
 | [Pradėkite su išlaidų valdymu „Dynamics 365 Project Operations“](/learn/modules/get-started-expense-management/) | Išlaidų valdymo modulis „Dynamics 365 Project Operations“ leidžia organizacijoms sekti ir valdyti darbuotojų išlaidas. Išlaidų valdymas jums leidžia talpinti mokėjimo informaciją, importuoti kredito kortelių transakcijas ir sekti pinigus, kuriuos darbuotojai išleidžia patirdami išlaidas jūsų organizacijai. Galite taip pat nustatyti išlaidų politikas, automatizuoti patvirtinimus ir pateikti bendrą verslo procesą naudodami „Project Operations“. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi kelias | 1 valanda |

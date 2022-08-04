@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93d25a260cfc94e898ef50c618b2cbc640c963bc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 04c26eec8be61d60908bef67c75958287e7e1a01
+ms.sourcegitcommit: 85141b21ac90f3db1b378c21f9c7f3d8f74e182f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876331"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129519"
 ---
 # <a name="create-a-customer-invoice"></a>Kliento SF kūrimas
 
@@ -76,7 +76,7 @@ Jums užregistravus SF, **SF likučio** kiekis kiekvienai prekei yra atnaujinama
 
 Atsargų operacijos yra atnaujinamos SF numeriu, o būsena pardavimo užsakymo lauke **Eilutės būsena** pakeičiama į **SF išrašyta**. 
 
-Pardavimo užsakymų būseną peržiūrėkite sąrašo puslapyje **Visi pardavimo užsakymai**.
+Peržiūrėkite pardavimo užsakymų būseną visų **pardavimo užsakymų** sąrašo puslapyje.
 
 ## <a name="consolidate-sales-orders-or-packing-slips-for-posting"></a>Konsoliduoti pardavimo užsakymus arba važtaraščius, norint juos registruoti
 Šį procesą naudokite, kai vienam ar keliems pardavimo užsakymams galima išrašyti SF, ir norite juos konsoliduoti į vieną SF. 
@@ -90,6 +90,14 @@ Pardavimo užsakymo kliento SF skaidymas pagal vietą arba pristatymo adresą ga
 
 ## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>Registruoti pardavimo užsakymo eilučių be kainos ir išlaidų įplaukų sąskaitoje
 Turite parinktį DK atnaujinti pardavimo užsakymo **eilučių,** kuriose **nėra** kainos ir nėra išlaidų, įplaukų sąskaitą. Norėdami nustatyti arba peržiūrėti šią informaciją, **·** **·** **eikite į gautinų sumų parametrų puslapio DK ir PVM skirtuko lape parametrą Registruoti įplaukų sąskaitoje dėl nulinių kainų ir nulinių išlaidų pardavimo užsakymo SF eilučių** parametrų. (**Gautinų sumų > gautinų sumų > parametrus**). Pasirinkite **Taip,** jei norite atnaujinti **pardavimo** užsakymo SF eilučių, kuriose nėra kainos ir išlaidų, sąskaitą Įplaukos. Jei ši pasirinktis pasirinkta, kvite bus 0,00 įrašų kliento **balanse ir įplaukų** **registravimo** tipuose. Įplaukų sąskaita yra apibrėžta atsargų registravimo **parametrų** puslapyje, pardavimo užsakymo **sąskaitos** apibrėžimo skirtuke. Jei ši pasirinktis nepasirinkta, eilutės, kuriose nėra kainos arba išlaidų informacijos, nebus registruojamos Įplaukų **sąskaitoje**. Vietoj to kvite bus kliento balanso registravimo tipo 0,00 **įrašas**.
+
+## <a name="line-creation-sequence-number-information"></a>Eilutės kūrimo eilės numerio informacija
+Kai registruojate kliento SF eilutes, galite pasirinkti nuoseklius eilučių kūrimo eilės numerius. Eilutės kūrimo eilės numeriai priskiriami registravimo proceso metu. Leisdami ne nuoseklią numeraciją, galite pagerinti kliento SF registravimo našumą. Eilutės kūrimo eilės numerius gali naudoti trečiosios šalies integravimas, kuris laukia nuoseklios eilės. Dėl plėtinių, kurie gali būti integruoti su eilutės kūrimo eilės numeriais, kreipkitės į IT padalinį.
+
+Norėdami nustatyti ar peržiūrėti šią informaciją, **skirtuko** Gautinos sumos parametrų puslapyje, **·** **skirtuke Atnaujinimai nustatykite pasirinktį Priskirti nuoseklius eilučių numerius registruodami kliento SF** eilutes:
+
+- Nustatykite pasirinktį **Ne**, jei norite naudoti nuoseklų eilučių kūrimo sekos numerių numeravimą.
+- Norėdami naudoti nuoseklų **numeravimą**, nustatykite pasirinktį Taip. Turite nustatyti pasirinktį Taip juridiniams **subjektams**, kurių adresas yra Italija. Taip pat turite nustatyti jį kaip **Taip**, jei **išjungtas CustInvoiceTransCreationSeqNumFlight** skrydis.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Papildomos nuostatos, keičiančios registravimo veikseną
 Toliau nurodyti laukai keičia registravimo proceso veikseną.

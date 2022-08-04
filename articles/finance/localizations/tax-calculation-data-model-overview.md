@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a711eb73c171cd099947b44e2376cad2455059f0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 79296a452e146bb17b197e9ca40db016664df6f9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859701"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068855"
 ---
 # <a name="tax-calculation-data-model"></a>Mokesčių skaičiavimo duomenų modelis
 
 Šiame straipsnyje pateikiama informacija apie tai, kaip mokesčių duomenų modelio lauko vertės nustatomos mokesčių skaičiavimo operacijose.
 
-Mokesčių *duomenų modelį* sudaro laukai, kurių reikia mokesčių skaičiavimams. "Microsoft" *pateikia mokesčių skaičiavimo duomenų modelį*, kuris apima finansų ir operacijų programėlių operacijų dokumentų antraštės laukus ir eilučių laukus. Laukai, apibrėžti mokesčių skaičiavimo duomenų modelyje, yra galimi taikymo taisyklių lentelių stulpeliai mokesčių skaičiavimo priemonės konfigūracijos konfigūracijoje.
+Mokesčių *duomenų modelį* sudaro laukai, kurių reikia mokesčių skaičiavimams. "Microsoft" *pateikia mokesčių skaičiavimo duomenų modelį*, kuriame yra finansų ir operacijų programėlių operacijų dokumentų antraštės laukai ir eilučių laukai. Laukai, apibrėžti mokesčių skaičiavimo duomenų modelyje, yra galimi taikymo taisyklių lentelių stulpeliai mokesčių skaičiavimo priemonės konfigūracijos konfigūracijoje.
 
 > [!NOTE] 
 > Kai kurie mazgai, apibrėžti duomenų modelyje, pvz., **įrašo ID** ir **lentelės ID**, skirti techniniams tikslams. Jų nėra mokesčių skaičiavimo priemonės konfigūracijos stulpeliuose.
@@ -134,3 +134,4 @@ Dvidešimt šeši duomenų modeliai yra įtrauktį į operacijų eilutes. Dėl v
 | Vienetas                          | <ul><li>**Pardavimo užsakymas:** Vienetas</li><li>**Pirkimo užsakymas:** Vienetas</li><li>**Perlaidos užsakymas - Siuntimas:** Vienetas</li><li>**Perlaidos užsakymas - gavimas:** Vienetas</li><li>**Pirkimo perpirkimas:** Vienetas</li><li>**Pasiūlymo patvirtinimas:** Vienetas</li><li>**Pardavimo kaina:** Vienetas</li></ul> |
 | Varianto numeris                | <ul><li>**Pardavimo užsakymas:** Varianto numeris</li><li>**Pirkimo užsakymas:** Varianto numeris</li><li>**Pardavimo pasiūlymas:** Varianto numeris</li></ul> |
 | Sandėlis                     | <ul><li>**Pardavimo užsakymas:**<ol><li>Eilutės &gt; Sandėlis</li><li>Produktas &gt; Sandėlis</li></ol></li><li>**Pirkimo užsakymas:**<ol><li>Eilutės &gt; Sandėlis</li><li>Produktas &gt; Sandėlis</li></ol></li><li>**Perdavimo užsakymas - Siuntimas:** Iš sandėlio</li><li>**Perdavimo užsakymas - Gavimas:** Į sandėlį</li><li>**Pirkimo reikalavimas:** eilutės &gt; Sandėlis</li><li>**Kainos prašymas:** Eilutė &gt; Sandėlis</li><li>**Pardavimo pasiūlymas:**<ol><li>Eilutės &gt; Sandėlis</li><li>Produktas &gt; Sandėlis</li></ol></li></ul> |
+

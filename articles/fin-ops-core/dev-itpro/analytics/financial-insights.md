@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 304cf3f6c913586e08e0a3771ebfe40bc5d2b102
-ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
+ms.openlocfilehash: 21d7d045c812c54d6776394ad9a0b025b55df8e1
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8464915"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109119"
 ---
 # <a name="financial-analysis"></a>Finansinė analizė
 
@@ -40,8 +40,8 @@ Darbo sritis **Finansinė analizė** pirmiausia leidžia peržiūrėti ir filtru
 
 - [„Power BI“ vizualizacijų įtraukimas arba redagavimas jūsų ataskaitų srityje](/powerapps/user/add-powerbi-dashboards)
 
-## <a name="dynamics-365-finance-setup"></a>„Dynamics 365 Finance“ nustatymas
-**Didžioji knyga**
+## <a name="dynamics-365-finance-setup"></a>"Dynamics 365" finansų nustatymas
+**DK**
 
 Pagrindinės sąskaitos tipu ir pagrindinių sąskaitų kategorijomis užpildomos atitinkamos numatytosios pagrindinės sąskaitos, esančios darbo srities **Finansinės įžvalgos** finansinėje ataskaitoje **Balansas** ir įvairiose finansinėse ataskaitose **Finansinė analizė**.
 
@@ -78,7 +78,7 @@ Galite nustatyti pasikartojančią paketinę užduotį, kuri reguliariai atnauji
 | Muitas                                    | Vaidmenys | aprašymas |
 |-----------------------------------------|-------|------------|
 | Dabartinės įmonės finansinės analizės peržiūra | <ul><li>Buhalteris</li><li>Apskaitos vadovas</li><li>Apskaitos prižiūrėtojas</li><li>Auditorius</li><li>Biudžeto vadybininkas</li><li>Generalinis direktorius</li><li>Finansų direktorius</li><li>Finansų kontrolierius</li></ul> | Ši pareiga suteikia prieigą prie Finansinės analizės. Pagal numatytuosius parametrus kaip filtras naudojama aktyvioji įmonė. Kitų juridinių subjektų įtraukti negalite. |
-| Visų įmonių finansinės analizės peržiūra   | Sprendime „Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3“ ši pareiga vaidmeniui nepriskirta. Būsimame leidime ši pareiga bus paskirta vaidmeniui Finansų direktorius. | Ši pareiga suteikia prieigą prie darbo srities CFO apžvalga meniu elemento. Pagal numatytuosius parametrus kaip filtras naudojama aktyvioji įmonė. Tačiau galite įtraukti visus juridinius subjektus, nesvarbu, ar vartotojas turi prieigą prie kitų juridinių subjektų. |
+| Visų įmonių finansinės analizės peržiūra   | Microsoft Dynamics 365 finansų įmonės leidimas 7.3, ši pareiga nepriskirta vaidmeniui. Būsimame leidime ši pareiga bus paskirta vaidmeniui Finansų direktorius. | Ši pareiga suteikia prieigą prie darbo srities CFO apžvalga meniu elemento. Pagal numatytuosius parametrus kaip filtras naudojama aktyvioji įmonė. Tačiau galite įtraukti visus juridinius subjektus, nesvarbu, ar vartotojas turi prieigą prie kitų juridinių subjektų. |
 
 
 ## <a name="financial-reporting-vs-financial-analysis"></a>„Financial reporting” ir finansinė analizė
@@ -96,7 +96,7 @@ Nors **Finansinė analizė** apima finansines ataskaitas, tačiau nepakeičia pr
 | **Palaiko ataskaitų hierarchiją / organizacinę hierarchiją**   | Taip                                                               | Ne |
 | **Papildomos knygos duomenų ataskaita**                             | Taip Apsiriboja tik tiekėju, klientu                              | Taip Tiekėjo, kliento, tiekėjo / kliento grupės, tiekėjo / kliento adresai ir t. t. |
 | **Ataskaitų valiuta**                                   | Taip Apskaitos valiuta konvertuojama į ataskaitų valiutą       | Ne Tik apskaitos valiuta |
-| **Sauga**                                             | Taip laikomasi „Finance” ir ataskaitų medžio saugumo | Ribota Visų įmonių (neatsižvelgiant į „Finance and Operations” saugumą) arba tik aktyvios įmonės ataskaitų peržiūra |
+| **Sauga**                                             | Taip laikomasi „Finance” ir ataskaitų medžio saugumo | Ribotos peržiūrėti visų įmonių ataskaitas (nepaisant finansų ir operacijų saugos) arba tik aktyvios įmonės |
 | **Palaiko skirtingus sąskaitų planus ir finansinius metus** | Taip                                                               | Ne |
 | **išorinių duomenų ataskaitos**                              | Ne                                                                | Ne |
 | **Palaiko konsolidacijas**                               | Taip                                                               | Ribota Galima teikti kelių įmonių ataskaitas, bet naudoti tik apskaitos valiutą |
@@ -244,3 +244,4 @@ Toliau pateiktuose šaltiniuose nebūtina pateikti informaciją norint įjungti 
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

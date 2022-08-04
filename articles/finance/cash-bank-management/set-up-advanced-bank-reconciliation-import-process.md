@@ -1,7 +1,7 @@
 ---
 title: Išplėstinio banko derinimo importavimo proceso nustatymas
 description: Išplėstinės banko suderinimo priemonė leidžia importuoti elektroninius banko išrašus ir automatiškai suderinti juos Microsoft Dynamics su banko operacijomis,-365 finansuose. Šiame straipsnyje paaiškinama, kaip nustatyti banko išrašų importavimo funkciją.
-author: panolte
+author: angelad116
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,19 +12,23 @@ ms.reviewer: kfend
 ms.custom: 106853
 ms.assetid: 45dae275-ea45-4c7e-b38f-89297c7b5352
 ms.search.region: Global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0616d8f85f742ed2679450c9b59814345f764bc9
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: d8d186e6b3e44222410c8be94390d7c58a90e352
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727376"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151532"
 ---
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Išplėstinio banko derinimo importavimo proceso nustatymas
 
 [!include [banner](../includes/banner.md)]
+
+> [!NOTE]
+> Ši funkcija bus pasenusi 2022 m. rugsėjo mėn., nauji vartotojai turės naudoti elektronines ataskaitas. Daugiau informacijos ieškokite Išplėstinio [banko suderinimo importavimo nustatymas naudojant elektroninę ataskaitą](../accounts-payable/import-bai2-er.md).
+
 
 Išplėstinės banko suderinimo priemonė leidžia importuoti elektroninius banko išrašus ir automatiškai suderinti juos su "Dynamics 365 Finance" banko operacijomis. Šiame straipsnyje paaiškinama, kaip nustatyti banko išrašų importavimo funkciją. 
 

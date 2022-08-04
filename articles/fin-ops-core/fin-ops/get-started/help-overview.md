@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 924af44a6f0b1430859f0f6354ef55ff67a1b677
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 57c17cab920c531b3eb125260064d01dd8662576
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898375"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124201"
 ---
 # <a name="help-system"></a>Žinyno sistema
 
@@ -53,7 +53,7 @@ Turinį galite rasti svetainėje docs.microsoft.com naudodami bet kurį ieškos 
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Pranešimai apie keitimus naudojant RSS informacijos santraukas
 
-Norėdami užsiprenumeruoti visų atnaujinimų, kurie atlikti duomenų docs.microsoft.com finansų ir operacijų programėlėse, kanalus, naudokite šį saitą:
+Norėdami užsiprenumeruoti visų atnaujinimų, kurie atlikti duomenų docs.microsoft.com finansų ir operacijų programėlėse, turinio, prenumeruoti visus atnaujinimus, naudokite šį saitą:
 
 [RSS informacijos santrauka](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
@@ -98,7 +98,7 @@ Daugiau informacijos žr. [dokumentų bendraautoriaus vadovą](/contribute), kur
 
 Užduoties vadovas yra kontroliuojama, valdoma, interaktyvi patirtis, kuri jums padeda atlikti užduoties ar verslo proceso veiksmus. Atidaryti (paleisti) užduoties vadovą galite iš **Žinyno** srities. Pirmą kartą pasirinkus užduočių vedlį, srityje **Žinynas** bus rodomos nuoseklios užduoties instrukcijos. Galima naudoti lokalizuotus užduočių vedlius.
 
-„Microsoft" išleido užduočių vedlių bibliotekas, skirtas produktų versijoms iki 2017 m. gruodžio mėn. „Dynamics 365 for Finance and Operations“ leidimo. Šio [straipsnio žinyno srities žinynuose](#accessing-task-guides-from-the-help-pane) paaiškinama, kaip rasti tinkamus produkto užduočių vadovus.
+"Microsoft" išleista užduotis vadovas bibliotekas produkto versijoms nuo 2017 m. gruodžio mėn. "Dynamics 365" finansų ir operacijų išleidimo. Šio [straipsnio žinyno srities žinynuose](#accessing-task-guides-from-the-help-pane) paaiškinama, kaip rasti tinkamus produkto užduočių vadovus.
 
 ![Užduočių vedlio skaitymo rodinys.](./media/task-guide-ops.png)
 
@@ -182,3 +182,4 @@ Galite sukurti pasirinktinių užduočių vedlių ir tokiu būdu sukurti vartoto
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

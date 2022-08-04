@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b002b374e5da619460c496b8f0d7a70b7194afd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 35f5d73075d118079ccb0616fbd1c5e1a8e00424
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900135"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123631"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Finansų ir operacijų programėlių žinyno patirties konfigūravimas
 
@@ -63,7 +63,7 @@ Norėdami konfigūruoti sprendimo užduoties vedlius, atlikite puslapyje **Siste
 2. Pasirinkite, iš kurių BPM bibliotekų (pasirinkto projekto) gauti užduočių įrašus.
 3. Nustatykite BPM bibliotekų rodymo tvarką. Rodymo tvarka apibrėžia tvarką, kuria užduočių įrašai iš bibliotekų bus rodomi srityje **Žinynas**.
 
-Atlikę šiuos veiksmus, galite atidaryti žinyno sritį **ir** pasirinkti skirtuką **Užduočių** vedliai. Dabar matysite užduočių instrukcijas, kurios taikomos puslapiui, kurį šiuo metu esate finansų ir operacijų programėlėse. Jei nerasite nė vieno užduočių vedlio, galite įvedę raktažodžius patikslinti iešką.
+Atlikę šiuos veiksmus, galite atidaryti žinyno sritį **ir** pasirinkti skirtuką **Užduočių** vedliai. Dabar matysite užduočių instrukcijas, kurios taikomos puslapiui, kurį šiuo metu naudojate finansų ir operacijų programėlėse. Jei nerasite nė vieno užduočių vedlio, galite įvedę raktažodžius patikslinti iešką.
 
 ### <a name="showing-translated-task-guides"></a>Išverstų užduočių vedlių rodymas
 
@@ -87,7 +87,7 @@ Jei esate partneris ir biblioteką paaukštinsite iki įmonės bibliotekos bei �
 
 ### <a name="connect-a-custom-help-site"></a>Pasirinktinio žinyno svetainės prijungimas
 
-Finansinės ir operacijų programos retai naudojamos jų išeinant iš lango. Vietoj to sprendimas yra pritaikomas ir išplečiamas, kad atitiktų organizacijos poreikius. Taip pat galite tinkinti ir išplėsti žinyno funkcijas. Pavyzdžiui, pasirinktinį žinyną galite įtraukti į produkto sritį **Žinynas**.
+Finansinės ir operacijų programėlės retai naudojamos jų išeinant iš lango. Vietoj to sprendimas yra pritaikomas ir išplečiamas, kad atitiktų organizacijos poreikius. Taip pat galite tinkinti ir išplėsti žinyno funkcijas. Pavyzdžiui, pasirinktinį žinyną galite įtraukti į produkto sritį **Žinynas**.
 
 „Microsoft“ pateikė priemonių rinkinį, kuris jums padės įdiegti ir prijungti pasirinktinį žinyną prie srities **Žinynas**. Informacijos, kaip sukonfigūruoti pasirinktinį žinyno sprendimą, kuris yra prijungtas prie srities **Žinynas**, žr. [Pasirinktinio žinyno apžvalga](../../dev-itpro/help/custom-help-overview.md).
 
@@ -103,3 +103,4 @@ Jei norite bendradarbiauti su „Microsoft“ įrankiais ir procesais, kad galė
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

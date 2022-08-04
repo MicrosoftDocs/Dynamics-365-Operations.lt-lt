@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2bdb2ca0067ea430b249ac619a38c8bcec75f2f7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: cd5d2cf112a9d2ccdf6226ee79f0ff488d51066b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895821"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066677"
 ---
 # <a name="configure-inventory-visibility"></a>„Inventory Visibility“ konfigūravimas
 
@@ -55,7 +55,7 @@ Atsargų matomumo priedas prie jūsų diegimo prideda keletą naujų „Power Ap
 | *OnHandMostSpecificBackgroundService* | Ši priemonė pateikia produktų atsargų suvestinę kartu su visomis dimensijomis. Atsargų suvestinės duomenys bus periodiškai sinchronizuojami pagal atsargų matomumą. Daugiau informacijos ieškokite Atsargų [suvestinė](inventory-visibility-power-platform.md#inventory-summary). |
 | *OnhandChangeSchedule* | Ši pasirinktinė priemonė įgalina turimo atsargų pakeitimo grafiką ir prieinamų atsargų (ATP) priemones. Daugiau informacijos rasite atsargų matomumo [turimų atsargų keitimo grafike ir prieinamose atsargose](inventory-visibility-available-to-promise.md). |
 | *Paskirstymas* | Ši pasirinktinė funkcija leidžia atsargų matomumui apsaugoti (žiedinis) ir perpardavimo valdymas. Daugiau informacijos rasite atsargų [matomumo atsargų paskirstyme](inventory-visibility-allocation.md). |
-| *Įgalinti sandėlio prekes atsargų matomumo skiltyje* | Ši pasirinktinė funkcija įgalina atsargų matomumą, kad būtų palaikomos prekės, įgalintos išplėstiniams sandėlio procesams (WHS prekės). Daugiau informacijos ieškokite sandėlio valdymo [ir sandėlio valdymo prekių atsargų matomumo palaikymas](inventory-visibility-whs-support.md). |
+| *Įgalinti sandėlio prekes atsargų matomumo skiltyje* | Ši pasirinktinė funkcija įgalina atsargų matomumą palaikyti prekes, kurios įgalintos sandėlio valdymo procesuose (WMS). Daugiau informacijos ieškokite WMS [prekių atsargų matomumo palaikymas](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Paslaugos galinio punkto radimas
 
@@ -63,7 +63,7 @@ Jei nežinote tinkamo atsargų matomumo tarnybos galinio punkto, atidarykite **k
 
 ## <a name="data-source-configuration"></a><a name="data-source-configuration"></a>Duomenų šaltinio konfigūravimas
 
-Kiekvienas duomenų šaltinis rodo sistemą, iš kurios gauti jūsų duomenys. Duomenų šaltinių pavadinimų pavyzdys gali `fno` būti (tai reiškia "Dynamics 365" finansų ir operacijų programėlės) `pos` ir (tai reiškia "point of sale"). Pagal numatytuosius nustatymus „Supply Chain Management“ nustatomas kaip numatytasis duomenų šaltinis (`fno`) atsargų matomumo atveju.
+Kiekvienas duomenų šaltinis rodo sistemą, iš kurios gauti jūsų duomenys. Duomenų šaltinių pavadinimų pavyzdys yra `fno` (tai reiškia "Dynamics 365" finansų ir operacijų programėles) `pos` ir (tai reiškia "point of sale"). Pagal numatytuosius nustatymus „Supply Chain Management“ nustatomas kaip numatytasis duomenų šaltinis (`fno`) atsargų matomumo atveju.
 
 > [!NOTE]
 > Duomenų `fno` šaltinis rezervuotas tiekimo grandinės valdymui. Jei jūsų atsargų matomumo priedas yra integruotas `fno` tiekimo grandinės valdymo aplinkoje, rekomenduojame nenaiknti su duomenų šaltiniu susijusių konfigūracijų.
@@ -717,7 +717,7 @@ Sukonfigūruoti šie duomenų šaltinio `pos` faktiniai duomenys:
 
 Tada `AvailQuantity` konfigūruojate matmenį, kuris apskaičiuotas `pos` duomenų šaltiniui, kaip parodyta šioje lentelėje.
 
-| Skaičiavimo tipas | Duomenų šaltinis | Fizinis matas |
+| Skaičiavimo tipas | Duomenų šaltinis | Fizinė priemonė |
 |---|---|---|
 | Pridėjimas | `fno` | `AvailPhysical` |
 | Pridėjimas | `pos` | `PosInbound` |
@@ -809,3 +809,4 @@ Sukonfigūruoti šie duomenų šaltinio `erp` (įmonės šaltinio planavimo) fak
 | `ExtendedDimension8` | 33 |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

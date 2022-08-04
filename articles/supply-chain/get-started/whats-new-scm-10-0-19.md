@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 1ea0f2dae2f558f1ee5c0d2b94a4b926263b7de7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: de9d20ba7ffc0bc5201ccafc2157a13983923249
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893416"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125029"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Kas nauja ar pasikeitė 10.0.19 „Dynamics 365 Supply Chain Management” versijoje (2021 m. birželis)
 
@@ -72,7 +72,7 @@ Neseniai įtraukėme arba pastebimai atnaujinome šiuos žinyno straipsnius. Jos
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Finansų ir operacijų programėlių platformos naujinimai
 
-„Microsoft Dynamics 365 Supply Chain Management“ 10.0.19 versijoje yra platformos naujinimų. Norėdami sužinoti daugiau, žr. [finansų ir operacijų programėlių 10.0.19 versijos (2021 m. birželio mėn.) platformos naujinimus](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
+„Microsoft Dynamics 365 Supply Chain Management“ 10.0.19 versijoje yra platformos naujinimų. Norėdami sužinoti daugiau, žr. [finansų ir operacijų programėlių 10.0.19 versijos platformos naujinimus (2021 m. birželio mėn.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai
 
@@ -97,3 +97,4 @@ Atlikus keitimus, kurie paveikia tik kompiliavimo laiką, bet yra dvejetainiška
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

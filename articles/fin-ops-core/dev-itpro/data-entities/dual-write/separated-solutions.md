@@ -10,12 +10,12 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: 504939f1f98c18005c092cabc1d040b420402c93
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 28c321ee2815b2886c07bfb0996870e536458145
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874818"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111667"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Atskirto dvigubo rašymo programos instrumentavimo paketas
 
@@ -26,14 +26,14 @@ ms.locfileid: "8874818"
 Anksčiau dvigubo rašymo programos instrumentų paketas buvo vienas paketas, kuriame yra šie sprendimai:
 
 - "Dynamics 365" pastabos
-- "Dynamics 365" finansų ir operacijų bendrasis inkaras
+- "Dynamics 365" finansai ir operacijos Bendrasis inkaras
 - "Dynamics 365" finansų ir operacijų dvigubo rašymo objektų schemos
 - "Dynamics 365" turto valdymo programa
 - "Dynamics 365" turto valdymas
 - „HCM Common“
 - "Dynamics 365" tiekimo grandinės išplėstinė
 - „Dynamics 365 Finance Extended“
-- "Dynamics 365" finansų ir operacijų bendrosios operacijos
+- "Dynamics 365" finansai ir operacijos bendrieji
 - "Dynamics 365" įmonė
 - Valiutų kursai
 - Bendroji laukų tarnyba
@@ -58,7 +58,7 @@ Dvigubo rašymo programos pagrindinis paketas leidžia vartotojams įdiegti ir k
 
 Šioje pakuotėje yra tokios schemos.
 
-| „Finance and Operations” programos     | „Customer engagement“ programos                    |
+| „Finance and operations” programos     | „Customer engagement“ programos                    |
 |---------------------------------|---------------------------------------------|
 | Valdymo vienetas                  | msdyn_internalorganizations                 |
 | Organizacijos hierarchija          | msdyn_internalorganizationhierarchies       |
@@ -85,11 +85,11 @@ Dvigubo rašymo personalo pakete yra sprendimai ir schemos, kurių reikia person
 |----------------------------|------------------------------------------|
 | HCMCommon                  | „HCM Common“                               |
 | msdyn_Dynamics365HCMMaps   | Dynamics 365 Human Resources objektų schemos |
-| msdyn_Dynamics365HCMAnchor | Dynamics 365 Human Resources Inkaro      |
+| msdyn_Dynamics365HCMAnchor | Dynamics 365 Human Resources inkaras      |
 
 Šioje pakuotėje yra tokios schemos.
 
-| „Finance and Operations” programos | „Customer engagement“ programos         |
+| „Finance and operations” programos | „Customer engagement“ programos         |
 |-----------------------------|----------------------------------|
 | Etninė kilmė              | cdm_ethnicorigins                |
 | Kompensavimo užduoties funkcija   | cdm_jobfunctions                 |
@@ -119,7 +119,7 @@ Dvigubo rašymo tiekimo grandinės pakete yra sprendimai ir schemos, kurių reik
 
 Šioje pakuotėje yra tokios schemos.
 
-| „Finance and Operations” programos                 | „Customer engagement“ programos                      |
+| „Finance and operations” programos                 | „Customer engagement“ programos                      |
 |---------------------------------------------|-----------------------------------------------|
 | Vienetai                                       | mat. vnt.                                          |
 | CDS pardavimo užsakymų antraštės                     | salesorders                                   |
@@ -197,7 +197,7 @@ Dvigubo rašymo finansų pakete yra sprendimai ir schemos, kurių reikia norint 
 
 Šioje pakuotėje yra tokios schemos.
 
-| „Finance and Operations” programos             | „Customer engagement“ programos        |
+| „Finance and operations” programos             | „Customer engagement“ programos        |
 |-----------------------------------------|---------------------------------|
 | Išskaitomo mokesčio grupės                  | msdyn_atidedamųmokesčiųgrupės      |
 | CDS kontaktai V2 (klientas)              | kontaktai                        |
@@ -247,7 +247,7 @@ Dvigubo rašymo pažymų pakete yra sprendimai ir schemos, kurių reikia norint 
 
 Šioje pakuotėje yra tokios schemos.
 
-| „Finance and Operations”                     | Customer Engagement |
+| Finansai ir operacijos                     | Customer Engagement |
 |--------------------------------------------|---------------------|
 | Pardavimo užsakymo antraštės dokumento priedai    | Komentarus         |
 | Kliento priedai                       | Komentarus         |
@@ -274,7 +274,7 @@ Dvigubo rašymo turto valdymo pakete yra sprendimai ir schemos, kurių reikia no
 
 Šioje pakuotėje yra tokios schemos.
 
-| „Finance and Operations” programos                           | „Customer engagement“ programos                |
+| „Finance and operations” programos                           | „Customer engagement“ programos                |
 |-------------------------------------------------------|-----------------------------------------|
 | Turto valdymo garantija                             | msdyn_warranties                        |
 | Turto valdymo modeliai                               | msdyn_models                            |
@@ -344,3 +344,4 @@ Dvigubo rašymo šalies ir visuotinės adresų knygelės sprendimai priklauso nu
 - Dvigubo rašymo programos pagrindinis paketas
 - Dvigubo rašymo finansų paketas
 - Dvigubo rašymo tiekimo grandinės paketas
+

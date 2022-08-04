@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f150c87b6d4e6575bc61a8f36bdf344ebba9c571
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f57e995dfcc04de8384d15f238c45290b3c3cbd
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879285"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067623"
 ---
 # <a name="integration-with-finance-faq"></a>Integravimo su „Finance“ DUK
 
@@ -118,7 +118,7 @@ Taip, laukai gali būti įtraukti į esamą šabloną arba iš jo pašalinti. Š
 
 - Duomenų perdavimo metu išgaunami įrašų dublikatai šaltinyje („Dataverse“).
 
-- Duomenų perdavimo „null“ reikšmė rodomos tuose laukuose, kurie būtini „Finance and Operations“. Įsitikinkite, kad duomenys yra „Dataverse“ ir jie atitinka „Finance and Operations“ reikalavimus.
+- Duomenų perdavimo metu yra neapibrėžtos laukų, kurių reikia finansuose ir operacijose, vertės. Įsitikinkite, kad duomenys yra „Dataverse“ ir jie atitinka „Finance and Operations“ reikalavimus.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>Jei kilo vykdymo klaidų ir nesinchronizuojamas Darbuotojo ID, kaip rasti retrospektyvos užduotį, kurioje yra nepavykęs darbuotojo įrašas?
 
@@ -150,7 +150,7 @@ Jei objektas yra palaikomas ir duomenys yra teikiami „Dataverse“, patikrinki
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Mano darbuotojų adresai yra netikslūs juos importavus į „Finance“. Ką daryti?
 
-**Vietos ID** numeracija naudoja tą patį modelį programose „Human Resources“ ir „Finance“. Numeracija turi būti unikali abiejose pusėse, kad adresai nesusikirstų integruojant duomenis iš „Dataverse“ į „Finance and Operations“.
+**Vietos ID** numeracija naudoja tą patį modelį programose „Human Resources“ ir „Finance“. Abiejose pusėse numeracija turi būti unikali, todėl integruojant duomenis iš finansų ir operacijų nėra Dataverse adresų.
 
 „Human Resources“ diegimo metu patikrinkite, kad „Human Resources“ ir „Finance“ numeracijos nesutaptų. Įsitikinkite, kad visos numeracijos neidentiškos ir duomenys gali būti tvarkomi abiejose sistemose.
 
@@ -184,3 +184,4 @@ Atnaujinkite duomenų objektus programoje „Finance“, pasirinkdami **Duomenų
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 34ce119ca70596f0e40797c4b44a8fba4d5b7e0e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 8b75907d01a029da1ed6a8224f8a7c0ca0230550
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885702"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068677"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Vietos nurodymo atsargų paėmimo skirstymas pagal terminus
 
@@ -82,7 +82,7 @@ Demonstraciniai duomenys reikalauja nustatymo ir inventoriaus pakeitimų tam, ka
 
 1. Pasirinkite **Gerai** tam, kad pritaikytumėte savo nustatymus uždarytumėte teksto laukelį.
 1. Pasirinkite **Įrašyti** tam, kad išsaugotumėte pakeitimus vietos direktyvoje.
-1. Mobiliame įrenginyje arba „*Dynamics 365 for Finance and Operations“ – Sandėliavimas* programoje savo kompiuteryje atlikite šiuos žingsnius ir pašalinkite esantį inventorių iš sandėlio vietos tam, kad palaikytumėte scenarijus:
+1. Mobiliame įrenginyje arba „*Dynamics 365 Supply Chain Management“ – Sandėliavimas* programoje savo kompiuteryje atlikite šiuos žingsnius ir pašalinkite esantį inventorių iš sandėlio vietos tam, kad palaikytumėte scenarijus:
 
     1. Prisijunkite prie sandėlio *63* naudodami būtiną vartotojo identifikavimo kodą ir slaptažodį.
     1. Pagrindiniame meniu pasirinkite **Kokybė**.

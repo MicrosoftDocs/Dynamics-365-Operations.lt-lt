@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5ebb14dad723fad5b17b4dfca153bf153e77bbd4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2e2759ff15dd8d146c642fc0da90d1a38fe855d1
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882090"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111207"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Problemų šalinimas pradinio nustatymo metu
 
@@ -29,7 +29,7 @@ ms.locfileid: "8882090"
 
 ## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>Negalima susieti finansų ir operacijų programos su Dataverse
 
-**Nustatytas dvigubo rašymo vaidmuo: sistemos** administratorius finansų ir operacijų programėlių ir Dataverse.
+**Nustatytas dvigubo rašymo vaidmuo: sistemos administratorius** finansų ir operacijų programėlių ir Dataverse.
 
 Klaidos puslapyje **Susiejimo su „Dataverse” sąranka** dažniausiai atsiranda dėl neužbaigtos sąrankos arba su teisėmis susijusių problemų. Įsitikinkite, kad puslapyje **Susiejimo su „Dataverse” sąranka** atlikta visiška būsenos patikra, kaip parodyta tolesnėje iliustracijoje. Negalite susieti dvigubo rašymo, neatlikę visiškos būsenos patikros.
 
@@ -55,7 +55,7 @@ Dvigubo rašymo funkcija nepalaiko kelių juridinių subjektų / įmonių tokiu 
 
 Norėdami atblokuoti klientą, pašalinkite besidubliuojančius įrašus programos „Dataverse” lentelėje **cdm_company**. Be to, jei lentelėje **cdm_company** yra įrašų tuščiu pavadinimu, pašalinkite arba pataisykite šiuos įrašus.
 
-## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Klaida atidarant dvigubo rašymo puslapį finansų ir operacijų programėlėse
+## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Klaida atidarant dvigubo rašymo puslapį finansų ir operacijų programėlei
 
 Kai bandote susieti dvigubo rašymo „Dataverse“ aplinką, galite gauti toliau pateiktą klaidos pranešimą.
 
@@ -81,11 +81,12 @@ Kai bandote susieti dvigubo rašymo „Dataverse“ aplinką, galite gauti tolia
 
 Galbūt gausite tolesnį klaidos pranešimą:
 
-*Finansų ir operacijų programėlių \*\*\* aplinkos .cloudax.dynamics.com neįmanoma atrasti.*
+*Finansų ir operacijų programėlių \*\*\* aplinkos cloudax.dynamics.com neįmanoma atrasti.*
 
 Yra du dalykai, dėl kurių gali kilti problema, kai aplinkos aptikti nepavyksta:
 
 + Vartotojui, kuris buvo naudojamas prisijungti, nėra tas pats nuomininkas, kaip ir finansų ir operacijų egzempliorius.
-+ Yra kai kurių senesnių finansų ir operacijų egzempliorių, kurie laikomi "Microsoft" ir kuriuose įvyko su aptikimo problema. Norėdami tai ištaisyti, atnaujinkite finansų ir operacijų egzempliorių. Aplinką galima aptikti, naudojant bet kurį atnaujinimą.
++ Yra senesnių finansų ir operacijų egzempliorių, kurie "Microsoft" laikomi su surasti išdavimu. Norėdami tai ištaisyti, atnaujinkite finansų ir operacijų egzempliorių. Aplinką galima aptikti, naudojant bet kurį atnaujinimą.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

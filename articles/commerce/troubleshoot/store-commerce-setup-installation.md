@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: rassadi
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 92d4a9d78485b681b4e802f695d54f44ecd7c5de
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8af2c476ced05fc159a53131f8b51ad914a6c7c3
+ms.sourcegitcommit: c271b2edc4bf777f7194b09139ccbd174a359c75
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870471"
+ms.lasthandoff: 07/16/2022
+ms.locfileid: "9168953"
 ---
 # <a name="troubleshoot-store-commerce-setup-and-installation-issues"></a>Parduotuvės "Commerce" nustatymo ir diegimo trikčių šalinimas
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Šiame straipsnyje paaiškinama, kaip šalinti nustatymo ir diegimo problemas parduotuvės " Microsoft Dynamics 365 Commerce Commerce" programoje.
 
@@ -31,13 +30,13 @@ ms.locfileid: "8870471"
 
 Tokiu atveju peržiūrėkite netipinių grafinių klaidų URL arba nustatykite, ar negalima pasiekti CPOS, nes ji neprisijungus.
 
-Be to, patikrinkite, ar debesies skalės vieneto (CSU) versija 10.0.25 (9.35..\*\*) arba vėliau. Norint naudoti "Store Commerce" programą, reikia CPOS 10.0.25 ar naujesnės versijos.
+Be to, patikrinkite, ar debesies skalės vieneto (CSU) versija 10.0.25 (9.35.\*.\*) arba vėliau. Norint naudoti "Store Commerce" programą, reikia CPOS 10.0.25 ar naujesnės versijos.
 
 ## <a name="i-cant-install-the-app-because-modern-pos-is-already-installed"></a>Nepavyko įdiegti programos, nes "Modern POS" jau įdiegtas
 
 Diegimo metu galite gauti klaidos pranešimą, pvz.:
 
-> Šio produkto ("Modern POS") versija (9.\*.\*\*.) įdiegta senesnėje diegimo programoje.
+> Šio produkto ("Modern POS") versija (9.\*.\*.\*) įdiegta senesnėje diegimo programoje.
 
 Norėdami ištaisyti klaidą, turite pašalinti modernaus kasos aparato (MPOS) programą visiems įrenginio vartotojams ir bandykite dar kartą. Galite patvirtinti, ar MPOS buvo pašalintas visiems vartotojams, vykdydami šią "PowerShell" komandą.
 

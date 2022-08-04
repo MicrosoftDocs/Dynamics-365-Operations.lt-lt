@@ -2,19 +2,19 @@
 title: B2B svetainių „Commerce“ katalogų kūrimas
 description: Šiame straipsnyje aprašoma, kaip sukurti "Commerce" katalogus Microsoft Dynamics 365 Commerce " verslo įmonių (B2B) svetainėms.
 author: ashishmsft
-ms.date: 05/18/2022
+ms.date: 07/11/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 2cc9014d273b4ab6f23a38140d0cfcd3ffa4d630
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.openlocfilehash: 7d4ed3e2a76924c2c3c0ba55e21ba648e8da7b76
+ms.sourcegitcommit: d1491362421bf2fcf72a81dc2dc2d13d3b98122b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027037"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9136832"
 ---
 # <a name="create-commerce-catalogs-for-b2b-sites"></a>B2B svetainių „Commerce“ katalogų kūrimas
 
@@ -25,10 +25,13 @@ ms.locfileid: "9027037"
 > [!NOTE]
 > Šis straipsnis taikomas Dynamics 365 Commerce 10.0.27 ir vėlesniams leidimams.
 
-Norėdami identifikuoti produktus, kuriuos norite pasiūlyti savo B2B interneto parduotuvėse, galite naudoti "Commerce" katalogus. Kai sukuriate katalogą, identifikuojate interneto parduotuves, kurių produktai yra siūlomi, įtraukiate norimus įtraukti produktus ir pagerinate produktų siūlymas įtraukdami prekybos informaciją. Galite sukurti kelis katalogus kiekvienai B2B interneto parduotuvei.
+Norėdami identifikuoti produktus, kuriuos norite pasiūlyti savo B2B interneto parduotuvėse, galite naudoti "Commerce" katalogus. Kai sukuriate katalogą, identifikuojate interneto parduotuves, kurių produktai yra siūlomi, įtraukiate norimus įtraukti produktus ir pagerinate produktų siūlymas įtraukdami prekybos informaciją. Galite sukurti kelis katalogus kiekvienai B2B interneto parduotuvei, kaip parodyta toliau pateiktame pavyzdyje.
+
+!["Commerce" produktų katalogų peržiūra.](./media/Commerce_Catalogs.png)
 
 "Commerce" produktų katalogai leidžia nurodyti šią informaciją:
 
+- **Katalogo tipas** – sukonfigūruokite vertę kaip **B2B**. Galite nustatyti B2B katalogui brastos ypatybės, pvz., naršymo hierarchija, klientų hierarchija ir atributo metaduomenys katalogui. 
 - **Katalogo konkreti naršymo hierarchija** – organizacijos gali sukurti savo konkretaus katalogo atskiros kategorijos struktūrą.
 - **Katalogo atributų metaduomenys** – atributuose yra informacijos apie produktą. Priskirdami atributus naršymo hierarchijos kategorijai, galite nustatyti tų atributų vertes tai kategorijai priskirtų produktų lygyje. Tada organizacijos gali atlikti šias užduotis:
 
@@ -41,11 +44,14 @@ Norėdami identifikuoti produktus, kuriuos norite pasiūlyti savo B2B interneto 
 - **Kainų grupės** – galite konfigūruoti konkretaus katalogo kainas ir akcijas. Ši galimybė yra pagrindinė B2B kanalo katalogo nustatymo priežastis. Katalogų kainų grupės leidžia organizacijoms gauti produktus savo numatytose B2B organizacijose ir taikyti pageidaujamą kainodarą ir nuolaidas. B2B klientai, kurie užsakė iš sukonfigūruoto katalogo, gali gauti specialių kainų ir akcijų po to, kai jie prisiregistruoja prie "Commerce B2B" svetainės. Norėdami konfigūruoti konkretaus katalogo kainas, skirtuke **·** **Katalogai** pasirinkite Kainų grupes, kad vieną ar daugiau kainų grupių susiekite su katalogu. Visos prekybos sutartys, kainos koregavimo žurnalai ir išplėstinės nuolaidos, susietos su ta pačia kainų grupe, bus taikomos klientų užsakymams iš to katalogo. (Išplėstinės nuolaidos apima ribinę vertę, kiekį ir nuolaidas prekių kiekiui.) Daugiau informacijos apie kainų grupes žr. Kainos [grupės](price-management.md#price-groups).
 
 > [!NOTE]
-> Šią funkciją galima naudoti su Dynamics 365 Commerce 10.0.27 versija. Norėdami konfigūruoti katalogui skirtas konfigūracijas, pvz., naršymo hierarchiją ir klientų hierarchiją, **·** "Commerce Headquarters" atidarykite funkcijų valdymo darbo sritį (**Sistemos administravimo \>\> darbo sričių funkcijų valdymas**),**įgalinkite** kelių katalogų naudojimą mažmeninės prekybos kanalų funkcijai ir **paleiskite 1110 CDX** užduotį.
+> Šią funkciją galima naudoti pradedant nuo Dynamics 365 Commerce 10.0.27 versijos. Norėdami konfigūruoti katalogui skirtas konfigūracijas, pvz., naršymo hierarchiją ir klientų hierarchiją "Commerce Headquarters", **eikite** į funkcijų valdymo darbo sritį (**Sistemos administravimo \>\> darbo sričių funkcijų valdymas**),**įgalinkite** kelių katalogų naudojimą mažmeninės prekybos kanalų funkcijai ir **paleiskite 1110 CDX** užduotį. Kai įgalinate šią funkciją, visi esami katalogai, naudojami EKA parduotuvėms **arba skambučių centrui, bus pažymėti kaip katalogo tipas = B2C** **katalogų** puslapyje. EKA parduotuvėms ir skambučių **centrui taikomi tik esami ir nauji katalogai, pažymėti kaip Katalogo tipas = B2C**. 
 
-## <a name="catalog-process-flow"></a>Katalogo proceso srautas
+## <a name="b2b-catalog-process-flow"></a>B2B katalogo proceso srautas
 
 Katalogo kūrimo ir apdorojimo procesas turi keturis bendruosius veiksmus. Kiekvienas veiksmas išsamiai paaiškintas kitame skyriuje.
+
+> [!NOTE]
+> Prieš tęsdami įsitikinkite, kad katalogas pažymėtas kaip **Katalogo tipas = B2B**.
 
 1. **[Konfigūracija](#configure-the-catalog)**
 
@@ -73,7 +79,7 @@ Norėdami nustatyti katalogą naudokite šio skyriaus informaciją.
 
 Norėdami sukonfigūruoti savo katalogus, **"Commerce Headquarters \>" eikite į "Retail" ir "Commerce \>" katalogus** ir asortimentus Visi katalogai.
 
-Kai sukuriate naują katalogą, pirma turite jį susieti su vienu arba daugiau kanalų. Kuriant katalogą galima naudoti tik su [pasirinktais](/dynamics365/unified-operations/retail/assortments) kanalo asortimentais susietas prekes. Norėdami susieti katalogą su vienu arba daugiau kanalų, pasirinkite **Įtraukti** " **Commerce" kanalų "** FastTab", kuris yra **katalogo nustatymo** puslapyje.
+Kai sukuriate naują katalogą, pirma turite jį susieti su vienu arba daugiau kanalų. Kuriant katalogą galima naudoti tik su [pasirinktais](/dynamics365/unified-operations/retail/assortments) kanalo asortimentais susietas prekes. Norėdami susieti katalogą su vienu arba daugiau kanalų, pasirinkite **Įtraukti** " **Commerce" kanalų "** FastTab", kuris yra **katalogo nustatymo** puslapyje. Įsitikinkite, kad katalogas pažymėtas kaip **katalogo tipas = B2B**.
 
 #### <a name="associate-the-navigation-hierarchy"></a>Susieti naršymo hierarchiją
 
@@ -90,6 +96,17 @@ Norėdami konfigūruoti produktus įtraukti į katalogą, "Commerce Headquarters
 Arba naršymo hierarchijoje pasirinkite mazgą. Tada galėsite įtraukti produktų tiesiai į katalogo kategoriją.
 
 #### <a name="associate-price-groups"></a>Susieti kainų grupes
+
+Norėdami konfigūruoti produktus įtraukti į katalogą, "Commerce Headquarters **" eikite į "Retail" ir "Commerce \> " katalogus ir asortimentus \> Visi katalogai**. Tada skirtuke **Katalogai** pasirinkite Įtraukti **produktų**. 
+
+Produktai, įtraukti **į** katalogą iš naršymo hierarchijos šakninio mazgo, veiksmų srityje pasirinkus Įtraukti produktų, paveldės savo kategorijas, jei šaltinio naršymo hierarchija taip pat susieta su katalogu. Kategorijų, kurios atliktus šaltinio naršymo hierarchijoje, pakeitimai bus nedelsiant atspindėti kataloguose. Norėdami atnaujinti kanalus turite iš naujo publikuoti katalogus.
+
+Arba galite pasirinkti naršymo hierarchijos mazgą ir įtraukti produktus tiesiai į pasirinktą katalogo kategoriją. 
+
+Kai įtraukiate produktus, **automatiškai įtraukiami visi variantai, kai pasirinkta pasirinktis Tik** bendrasis produktas. Norėdami išvengti visų variantų įtraukimo, pasirinkite bent vieną bendrojo produkto variantą. 
+
+> [!NOTE]
+> Jei pasirinksite automatiškai įtraukti visus variantus į didelio bendrojo produkto pasirinkimą, gali į ilgesnį apdorojimo laiką. Jei norite pasirinkti didelius **pasirinkimus**, pasirinkite Įtraukti visus variantus į katalogų puslapio veiksmų sritį, kad operacija būtų vykdoma paketiniu režimu. Jei į katalogą įtraukėte tik bendrąjį produktą ir neįtraukė jokių variantų, variantų išrinkiklis gali būti negalimas, kai perėjote į produkto informacijos puslapį. 
 
 Norėdami konfigūruoti katalogui brangų kainas, turite susieti vieną ar daugiau kainų grupių su katalogu. Norėdami susieti kainų grupes su katalogu, "Commerce Headquarters", **eikite į "Retail" ir "Commerce \> " katalogus ir asortimentus \> Visi katalogai**. Tada skirtuko Katalogai **dalyje** Kaina **pasirinkite** Kainų **grupės**. Visos su ta pačia kainų grupe susietos prekybos sutartys, kainos koregavimo žurnalai ir išplėstinės nuolaidos (ribinės vertės, kiekis ir nuolaidos prekių kiekiui) bus taikomos klientų užsakymams iš katalogo.
 
@@ -122,6 +139,9 @@ Norėdami tikrinti katalogą, atlikite toliau nurodytus veiksmus.
 1. Puslapio Visi **katalogai** skirtuke **Katalogai** dalyje **Tikrinti pasirinkite** Tikrinti **katalogą,** kad būtų vykdomas tikrinimas. Šis veiksmas yra būtinas. Programa patikrins, ar reikiamas nustatymas yra tikslus.
 1. Norėdami **peržiūrėti tikrinimo** informaciją, pasirinkite Peržiūrėti rezultatus. Jei randama klaidų, turite ištaisyti duomenis ir tada vykdyti tikrinimą dar kartą, kol ji pereis.
 
+> [!NOTE]
+> Jei **katalogo tipas = B2B, patikrinimas** nesėkmingas, jei į katalogą įtraukėte EKA parduotuves arba skambučių centrą. B2B katalogai turi turėti tik su jais susietus B2B interneto kanalus. Tikrinimas bus nesėkmingas, jei su B2B katalogu nėra susieta jokia klientų hierarchija. 
+
 ### <a name="approve-the-catalog"></a>Patvirtinti katalogą
 
 Po to, kai katalogas patikrintas, jis turi būti patvirtintas.
@@ -143,3 +163,5 @@ Kai katalogo būsena yra **Patvirtinta**, galite jį publikuoti **meniu Kataloga
 [„Commerce“ katalogų išplečiamumo poveikis, skirtas B2B tinkinimams](catalogs-b2b-sites-dev.md)
 
 [B2B DUK svetainių „Commerce“ katalogai](catalogs-b2b-sites-FAQ.md)
+
+[Katalogo išrinkiklio modulis](catalog-picker.md)

@@ -1,6 +1,6 @@
 ---
-title: Dvigubo rašymo trikčių „Finance and Operations“ programose šalinimas
-description: Šiame straipsnyje pateikiama trikčių diagnostikos informacija, kuri gali padėti išspręsti problemas, susijusias su dvigubo rašymo moduliu finansų ir operacijų programėlėse.
+title: Dvigubo rašymo trikčių šalinimas finansų ir operacijų taikomosiose programose
+description: Šiame straipsnyje pateikiama trikčių diagnostikos informacija, kuri gali padėti išspręsti problemas, susijusias su dvigubo rašymo moduliu, finansų ir operacijų programėle.
 author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
@@ -9,14 +9,14 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 36f7969eb0bdbc64ade14a5bb97b4b708486d226
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2743b99538b332af7cc6ad8d951eede562c14235
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864578"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111177"
 ---
-# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Dvigubo rašymo trikčių „Finance and Operations“ programose šalinimas
+# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Dvigubo rašymo trikčių šalinimas finansų ir operacijų taikomosiose programose
 
 [!include [banner](../../includes/banner.md)]
 
@@ -27,7 +27,7 @@ ms.locfileid: "8864578"
 > [!IMPORTANT]
 > Kai kurioms šio straipsnio adresams gali reikėti sistemos administratoriaus vaidmens arba "Microsoft Azure Active Directory " () nuomininkų Azure AD administratoriaus kredencialų. Kiekvienai problemai skirtoje dalyje paaiškinama, ar reikia konkretaus vaidmens ar kredencialų.
 
-## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Negalima įkelti dvigubo rašymo modulio finansų ir operacijų programoje
+## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Dvigubo rašymo modulio negalima įkelti į finansų ir operacijų programą
 
 Jeigu negalite atidaryti **dvigubo rašymo** puslapio darbo srityje **Duomenų valdymas** pasirinkdami plytelę **Dvigubas rašymas**, tikriausiai duomenų integravimo paslauga neveikia. Norėdami paprašyti iš naujo paleisti duomenų integravimo paslaugą, sukurkite palaikymo bilietą.
 
@@ -49,7 +49,7 @@ Norėdami išspręsti šią problemą, prisijunkite, naudodami „Microsoft Edge
 
 ## <a name="error-when-you-link-the-environment-for-dual-write-or-add-a-new-table-mapping"></a>Susiejant dvigubo rašymo aplinką arba pridedant naują susiejimą su lentele įvyko klaida
 
-**Reikalingas vaidmuo problemai išspręsti: sistemos** administratorius ir finansų, ir operacijų programėlių ir Dataverse.
+**Reikalingas vaidmuo problemai išspręsti: sistemos** administratorius finansų ir operacijų programėlių ir Dataverse.
 
 Kai susiejate arba kuriate schemas, gali įvykti tokia klaida:
 
@@ -59,7 +59,7 @@ Session ID: \<your session id\>
 Root activity ID: \<your root activity\> id
 ```
 
-Ši klaida gali įvykti, jei neturite pakankamai teisių susieti dvigubą rašymą arba kurti schemas. Ši klaida taip pat gali įvykti, jei „Dataverse” aplinka buvo nustatyta iš naujo neatsiejus dvigubo rašymo. Bet kuris vartotojas, kuris turi sistemos administratoriaus vaidmenį ir finansų, ir Dataverse operacijų programose ir gali susieti aplinkas. Tik vartotojas, nustatęs dvigubo rašymo ryšį, gali įtraukti naujų lentelių schemų. Atlikus nustatymą, bet kuris vartotojas, kuriam priskirtas sistemos administratorius vaidmuo, gali stebėti būseną ir redaguoti susiejimus.
+Ši klaida gali įvykti, jei neturite pakankamai teisių susieti dvigubą rašymą arba kurti schemas. Ši klaida taip pat gali įvykti, jei „Dataverse” aplinka buvo nustatyta iš naujo neatsiejus dvigubo rašymo. Bet kuris vartotojas, kuris turi sistemos administratoriaus vaidmenį ir finansų, ir operacijų Dataverse programėlei ir gali susieti aplinką. Tik vartotojas, nustatęs dvigubo rašymo ryšį, gali įtraukti naujų lentelių schemų. Atlikus nustatymą, bet kuris vartotojas, kuriam priskirtas sistemos administratorius vaidmuo, gali stebėti būseną ir redaguoti susiejimus.
 
 ## <a name="error-when-you-stop-the-table-mapping"></a>Stabdant susiejimą su lentele įvyko klaida
 
@@ -71,9 +71,9 @@ Kai bandote sustabdyti susiejimus su lentele, galite gauti tokį klaidos praneš
 
 Norėdami išspręsti šią problemą, sukurkite duomenų integravimo komandai skirtą bilietą. Pridėkite tinklo sekimą, kad duomenų integravimo komanda galėtų pažymėti vidines schemas kaip **Nevykdomos**.
 
-## <a name="enable-parallel-processing-in-finance-and-operations-apps-to-improve-performance"></a>Įgalinti lygiagretų apdorojimą finansų ir operacijų programėlėse, kad būtų pagerintas našumas
+## <a name="enable-parallel-processing-in-finance-and-operations-apps-to-improve-performance"></a>Lygiagretaus apdorojimo finansų ir operacijų programose įgalinimas siekiant padidinti efektyvumą
 
-Įgalinus lygiagretų apdorojimą gali būti sumažintas laikas, kurio reikia duomenims importuoti iš "Dynamics 365" klientų įsipareigojimo programėlių Microsoft Dataverse ir į finansų ir operacijų programėles. 
+Įgalinus lygiagretų apdorojimą gali būti sumažintas laikas, kurio reikia duomenims importuoti iš "Dynamics 365" klientų įsipareigojimo programėlių Microsoft Dataverse ir finansų bei operacijų programėlių. 
 
 Norėdami įjungti lygiagretų finansų ir operacijų programėlių apdorojimą, atlikite nurodytus veiksmus.
 
@@ -97,7 +97,7 @@ Kai bandote vykdyti pradinį sinchronizavimą, galite gauti tokį klaidos prane�
 Bandydami nustatyti susiejimo būseną į **Vykdoma**, galite gauti toliau pateikiamą klaidos pranešimą. Sprendimas priklauso nuo klaidos priežasties.
 
 + Jei susiejime yra priklausomieji susiejimai, įsitikinkite, kad įgalinote šios lentelės susiejimo priklausomuosius susiejimus.
-+ Gali trūkti susiejimo šaltinio arba paskirties stulpelių. Jei finansų ir operacijų programoje trūksta stulpelio, tada atlikite veiksmus [skyriuje Trūkstamų lentelės stulpelių išdavimas pagal schemas](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Jei „Dataverse” trūksta stulpelio, spustelėkite susiejimo mygtuką **Atnaujinti lenteles** tam, kad stulpeliai būtų automatiškai įvesti į susiejimą.
++ Gali trūkti susiejimo šaltinio arba paskirties stulpelių. Jei finansų ir operacijų programoje trūksta stulpelio, [tada atlikite veiksmus skyriuje Trūksta lentelės stulpelių išdavimo pagal schemas](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Jei „Dataverse” trūksta stulpelio, spustelėkite susiejimo mygtuką **Atnaujinti lenteles** tam, kad stulpeliai būtų automatiškai įvesti į susiejimą.
 
 ### <a name="version-mismatch-error-and-upgrading-dual-write-solutions"></a>Versijų neatitikimo klaida ir dvigubo rašymo sprendimų atnaujinimas
 
@@ -112,3 +112,4 @@ Kai bandote vykdyti susiejimus su lentele, galite gauti tokius klaidos pranešim
 Norėdami išspręsti problemas, atnaujinkite dvigubo rašymo sprendimus programoje „Dataverse”. Atnaujinkite sprendimą į naujausią versiją, atitinkančią reikiamą sprendimo versiją.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6a00bdae34e2aebcc4a015626eb044d90cd2887
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: db15c52ddde08bcc9d390c51efc676c20aac0a7e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864403"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067440"
 ---
 # <a name="budgeting-home-page"></a>Pagrindinis biudžeto sudarymo puslapis
 
@@ -38,7 +38,7 @@ ms.locfileid: "8864403"
 
 Biudžeto plano dokumentas palaiko ir ilgalaikio strateginio planavimo, ir metinio biudžeto planavimo procesus. Biudžeto plano dokumentai yra glaudžiai integruoti į „Microsoft Excel‟. Vartotojai gali konfigūruoti neribotą piniginių ir kiekybinių scenarijų skaičių ir gali apibrėžti biudžetų sudarymo organizacijos hierarchiją, kad būtų palaikomi biudžetų sudarymo metodai „iš viršaus į apačią“ ir „iš apačios į viršų“. Kai biudžetas sukurtas ir patvirtintas programoje, biudžeto planas konvertuojamas į biudžeto registro įrašą. Biudžeto registro įrašai suteikia biudžeto tvarkymo įrankius ir įrankius, kuriais sumas galima sekti naudojant biudžeto kodus. Biudžeto registro įrašai leidžia peržiūrėti pradinius biudžetus, atlikti perkėlimus ir iš ankstesnių metų perkelti biudžeto sumas. Pagal nustatytą biudžetą įmonė gali įgalinti biudžeto kontrolę. Kontrolės lygis priklauso nuo organizacijos kultūros ir brandos lygio. Organizacijos, kurių brandos lygis mažas, biudžetą gali palikti tokį, koks jis yra, ir, jei biudžetas neatitinka lūkesčių, būti labiau reaguojančios, o ne iniciatyvios. Kitos organizacijos gali įgalinti biudžeto kontrolės strategijas, kurios vartotojams neleistų pirkti, jei nėra biudžeto lėšų.
 
-Galiausiai labai brandžios organizacijos gali nustatyti tokią organizacijos kultūrą, kai darbuotojai žino organizacijos tikslus ir jų siekia naudodami tokias strategijas kaip „Gal vietoj kelionės surengti susitikimą internetu“. Programoje yra biudžeto kontrolės sistema, kuri įmonės vadovybei leidžia pasirinkti stiprią kontrolę (kuri neleidžia registravimų, kurie viršytų biudžetą) arba silpną kontrolę (kai vartotojai įspėjami, kad jie viršys turimas biudžeto lėšas, tačiau jie gali patys nuspręsti, kaip elgtis toliau). Galiausiai galite naudoti kintančias prognozes. Kintanti prognozė yra reguliarus biudžeto ir faktinių sumų palyginimas ir yra naudojama nustatyti, kaip įmonei sekasi veikti biudžeto atžvilgiu. Kintanti prognozė taip pat naudojama tendencijoms identifikuoti. Sprendime „Finance and Operations‟ kintančios prognozės naudojant biudžeto plano dokumentą palaikomos kaip pradinė planavimo veikla. Kintančias prognozes galima atlikti lygiagrečiai planuojant artėjantį biudžeto ciklą.
+Galiausiai labai brandžios organizacijos gali nustatyti tokią organizacijos kultūrą, kai darbuotojai žino organizacijos tikslus ir jų siekia naudodami tokias strategijas kaip „Gal vietoj kelionės surengti susitikimą internetu“. Programoje yra biudžeto kontrolės sistema, kuri įmonės vadovybei leidžia pasirinkti stiprią kontrolę (kuri neleidžia registravimų, kurie viršytų biudžetą) arba silpną kontrolę (kai vartotojai įspėjami, kad jie viršys turimas biudžeto lėšas, tačiau jie gali patys nuspręsti, kaip elgtis toliau). Galiausiai galite naudoti kintančias prognozes. Kintanti prognozė yra reguliarus biudžeto ir faktinių sumų palyginimas ir yra naudojama nustatyti, kaip įmonei sekasi veikti biudžeto atžvilgiu. Kintanti prognozė taip pat naudojama tendencijoms identifikuoti. Finansinėse ir operacijose prognozės operacijoms vykdyti, naudojant biudžeto plano dokumentą, yra palaikomos kaip pradinės planavimo veiklos. Kintančias prognozes galima atlikti lygiagrečiai planuojant artėjantį biudžeto ciklą.
 
 -   [Biudžetų sudarymo apžvalga](basic-budgeting-overview-configuration.md)
 -   [Biudžeto kontrolės apžvalga](budget-control-overview-configuration.md)
@@ -72,3 +72,4 @@ Pavyzdžiui, galite apibrėžti, kas sudaro biudžetus, kas įtraukiama į biud�
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

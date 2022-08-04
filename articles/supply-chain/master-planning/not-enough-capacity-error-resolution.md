@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 2db4c2606936222fcd1a97cf2814fbfbc41df113
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d4f54c06a07b3cdd0b8fe2cc52614189ff31ba7f
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891037"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135606"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>Išspręskite planavimo mechanizmo klaidą „Nepavyko rasti pakankamai pajėgumo“
 
@@ -87,7 +87,7 @@ Norėdami peržiūrėti parametrų tvarkaraščius, atlikite šiuos veiksmus.
 
 ## <a name="review-capacity"></a>Peržiūrėti pajėgumą
 
-Klaida gali įvykti, kai atliekate ribotas planavimą, tačiau pajėgumo nėra.
+Klaida gali įvykti, kai atliekate ribotas planavimą, bet pajėgumo nėra.
 
 Norėdami atlikti neribotą pajėgumo planavimą, atlikite šiuos veiksmus.
 
@@ -99,17 +99,53 @@ Norėdami atlikti neribotą pajėgumo planavimą, atlikite šiuos veiksmus.
 Norėdami peržiūrėti galimų išteklių pajėgumą, atlikite šiuos veiksmus.
 
 1. Eikite į **Organizacijos administravimo \> išteklių \> išteklius**, ir pasirinkite išteklių, kurie taikomi užsakymui, kuris negali būti suplanuotas.
-1. Veiksmų srities skirtuke Ištekliai, grupėje **Peržiūra** rinkitės **Peržiūros** grupę ir tada **Pajėgumas** ar **Pajėgumas grafiškai** ir įsitikinkite, kad pajėgumo užtektų.
+1. Veiksmų srities skirtuke Ištekliai, **grupėje** Rodinys, **·** **pasirinkite Pajėgumas arba Pajėgumas,** grafiniu formatu ir įsitikinkite, kad yra turimas pajėgumas.**·**
 
 Norėdami peržiūrėti galimų išteklių grupę, atlikite šiuos veiksmus.
 
 1. Eikite į **Organizacijos administravimo \> išteklių \> Išteklių grupė**, ir pasirinkite išteklių grupę, kurie taikomi užsakymui, kuris negali būti suplanuotas.
-1. Veiksmų srities skirtuke Ištekliai, grupėje **Išteklių grupė** rinkitės **Peržiūros** grupę ir tada **Pajėgumas** ar **Pajėgumas grafiškai** ir įsitikinkite, kad pajėgumo užtektų.
+1. Veiksmų srities skirtuko **Išteklių** **·** **·** **grupė grupėje Peržiūrėti pasirinkite Pajėgumas arba Pajėgumas, grafiniu formatu ir įsitikinkite,** kad yra turimas pajėgumas.
 
 ## <a name="master-planning-books-a-resource-when-the-resource-calendar-is-closed"></a>Bendrojo planavimo knygos yra ištekliai uždarius išteklių kalendorių
 
 Planuojant operacijas, bendrasis planavimas suplanuos pajėgumus pagal pirminės išteklių grupės kalendorių. Ji rezervuos antrinę operaciją tuo pačiu metu kaip ir pirminė operacija, ir neatims jokių antrinės operacijos kalendorių ar pajėgumo. Tai gali baigti gamybos užsakymo grafiką uždarytame kalendoriuje arba tuo metu, kai negalima naudoti antrinės operacijos (kalendorius uždarytas, pajėgumas nėra pajėgumo).
 
 Planuojant užduotis, bendrojo planavimo metu planuojant užsakymą bus atsižvelgiama į pirminės ir antrinės operacijų pajėgumą ir kalendorių. Norint suplanuoti užsakymą, abiejų operacijų išteklių kalendoriai turi būti atviri ir turėti atvirą pajėgumą.
+
+## <a name="maximum-job-lead-time-is-too-short"></a>Maksimalus užduoties gamybos laikas yra per trumpas
+
+Planavimo variklis **negalės** planuoti užsakymo, jei nustatytas maksimalus jūsų svetainės užduoties gamybos laikas yra trumpesnis už prekės gamybos laiką, nurodytą jos numatytuose užsakymo parametruose arba padengimo parametruose.
+
+Norėdami peržiūrėti arba redaguoti svetainės **maksimalaus užduoties vykdymo** laiko parametrą, eikite į Gamybos **kontrolės \>\> nustatymo gamybos kontrolės parametrus** ir atidarykite skirtuką **Bendra**.
+
+Norėdami peržiūrėti arba redaguoti numatytuosius prekės užsakymo parametrus, atlikite šiuos veiksmus:
+
+1. Eikite į **Produkto informacijos valdymas \> Produktai \> Išleisti produktai**.
+1. Raskite ir pasirinkite reikiamą produktą iš sąrašo.
+1. Veiksmų srityje atidarykite skirtuką Valdyti **atsargas ir** pasirinkite Numatytuosius **užsakymo parametrus**.
+1. Išplėskite **atsargų "** FastTab" ir peržiūrėkite ar redaguokite **atsargų vykdymo laiko** parametrą, kaip reikia.
+
+Norėdami peržiūrėti arba redaguoti prekės padengimo parametrus, atlikite šiuos veiksmus:
+
+1. Eikite į **Produkto informacijos valdymas \> Produktai \> Išleisti produktai**.
+1. Raskite ir pasirinkite reikiamą produktą iš sąrašo.
+1. Veiksmų srityje atidarykite skirtuką Planas **ir pasirinkite Prekės** padengimas **·**.
+1. Atidarykite **skirtuką Gamybos** laikas ir peržiūrėkite arba redaguokite **gamybos laiko** vertę.
+
+## <a name="excessive-quantity-of-required-resources"></a>Perviršinis reikalingų išteklių kiekis
+
+Planuojant, modulis bando suderinti reikiamą maršruto operacijos išteklių kiekį su taikomais ištekliais pagal operacijos išteklių reikalavimus. Nustačius per aukštą išteklių kiekį, maršrutas gali būti neįmanomas, todėl bus įvyko planavimo klaida.
+
+Norėdami patikrinti pasirinkto produkto, maršruto ir maršruto operacijos nurodytą kiekį ir taikomus išteklius, naudokite šią procedūrą:
+
+1. Eikite į **Produkto informacijos valdymas \> Produktai \> Išleisti produktai**.
+1. Rasti ir pasirinkti atitinkamą produktą tinklelyje.
+1. Veiksmų srityje atidarykite skirtuką Inžinierius **ir** pasirinkite **Maršrutas**.
+1. Rasti ir pasirinkti reikiamą maršrutą tinklelyje.
+1. Atidarykite **skirtuko** Peržiūra puslapio apačioje.
+1. Pasirinkti operaciją iš pasirinktų maršruto operacijų sąrašo.
+1. Pasirinkite **taikytinus** išteklius, kad atidarytumėte dialogo langą, kuriame galite peržiūrėti pasirinktos maršruto operacijos taikomus išteklius.
+1. Atidarykite skirtuką **Išteklių apkrova** . Lauke **Kiekis** rodomas ištekliaus kiekis, kurio reikia norint atlikti pasirinktą maršruto operaciją. Peržiūrėkite ir (arba) redaguokite pagal poreikį.
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

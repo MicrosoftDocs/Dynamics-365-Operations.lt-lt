@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 281ee90b7cae2d24d37d0684ad9975118560bb3e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b611abb2d68d93178d0c26ba40b22f1b8d26b191
+ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869987"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9203116"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Mokesčių funkcijų palaikymas perkėlimo užsakymams
 
@@ -111,7 +111,10 @@ Norėdami nustatyti su perkėlimo užsakymu susijusių mokesčių, atlikite šiu
 6. Nustatykite prekės mokesčių grupės taikomumą.
 
     1. Pasirinkite **Tvarkyti** stulpelius, tada pasirinkite stulpelius, kurie turėtų būti naudojami kuriant taikomumo lentelę.
-    2. Taikyti taikomas taisykles. Nepalikite **Prekės mokesčio grupės** lauko tuščio.
+    2. Taikyti taikomas taisykles.
+        
+       > [!NOTE]
+       > Jei jūsų apmokestinamo dokumento eilutėse prekės PVM grupė yra numatytoji, palikite šią matricą tuščią. 
         
         Įtraukite naują perkėlimo užsakymo siuntimo taisyklę ir čekį.
         1. **Taikomumo taisyklės** puslapyje pasirinkite **Įtraukti**.

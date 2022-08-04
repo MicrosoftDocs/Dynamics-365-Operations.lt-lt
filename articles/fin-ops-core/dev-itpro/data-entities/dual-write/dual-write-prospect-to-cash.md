@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: f0d5339190f7e2aff7b084fa73e559af28e10ee8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f44574abddb71e1a994ae60960e8c9c79242aff0
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860115"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112119"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potencialių klientų pavertimas grynaisiais pinigais dvigubo rašymo funkcijoje
 
@@ -111,7 +111,7 @@ Pardavimo sąskaitos faktūros kuriamos „Supply Chain Management“ programoje
 
 Potencialių klientų pavertimą grynaisiais pinigais sudaro pagrindinių lentelių schemų, veikiančių kartu interaktyviai naudojant duomenis, rinkinys, kaip parodyta tolesnėje lentelėje.
 
-| „Finance and Operations” programos | „Customer engagement“ programos | Aprašymas |
+| „Finance and operations” programos | „Customer engagement“ programos | Aprašymas |
 |-----------------------------|-----------------------------------|-------------|
 [Visi produktai](mapping-reference.md#138) | msdyn_globalproducts | |
 [Klientai V3](mapping-reference.md#101) | sąskaitos | |
@@ -122,7 +122,7 @@ Potencialių klientų pavertimą grynaisiais pinigais sudaro pagrindinių lentel
 [CDS pardavimo pasiūlymo antraštė](mapping-reference.md#215) | pasiūlymai | |
 [CDS pardavimo pasiūlymo eilutės](mapping-reference.md#214) | quotedetails | |
 [Išleisti produktai V2](mapping-reference.md#189) | „msdyn_sharedproductdetails” | |
-[Pardavimo SF antraštės V2](mapping-reference.md#118) | SF | Finansų ir operacijų programos lentelėje Pardavimo SF antraštės V2 yra pardavimo užsakymų sf ir laisvos formos SF. „Dataverse” taikomas dvigubo rašymo filtras, kuris išfiltruos visus laisvos formos sąskaitos faktūros dokumentus. |
+[Pardavimo SF antraštės V2](mapping-reference.md#118) | SF | Pardavimo SF antraščių V2 lentelėje, kuri yra finansų ir operacijų programoje, yra pardavimo užsakymų SF ir laisvos formos SF. „Dataverse” taikomas dvigubo rašymo filtras, kuris išfiltruos visus laisvos formos sąskaitos faktūros dokumentus. |
 [Pardavimo sąskaitos faktūros eilutės V2](mapping-reference.md#117) | invoicedetails | |
 [Pardavimo užsakymo kilmės kodai](mapping-reference.md#186) | „msdyn_salesorderorigins” | |
 
@@ -135,3 +135,4 @@ Daugiau informacijos apie kainų sąrašus rasite [Bendroji produkto patirtis](p
 - Bendriesiems duomenims, pavyzdžiui, klientui ir tiekėjui, turi būti nustatytos finansinės dimensijos. Kai klientas įtraukiamas į pasiūlymą arba pardavimo užsakymą, su kliento įrašu susijusios finansinės dimensijos į užsakymą įtraukiamos automatiškai. Šiuo metu dvigubas rašymas neapima finansinių dimensijų duomenų, skirtų bendriesiems duomenims.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

@@ -1,22 +1,22 @@
 ---
 title: „Commerce Scale Unit“ (debesyje) inicijavimas
 description: Šiame straipsnyje paaiškinama, kaip inicijuoti "Commerce Scale Unit" (debesį)Microsoft Dynamics 365 Commerce.
-author: AamirAllaq
-ms.date: 06/03/2022
+author: jashanno
+ms.date: 07/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: josaw
 ms.search.region: Global
-ms.author: aamiral
+ms.author: jashanno
 ms.search.validFrom: 2018-4-30
-ms.openlocfilehash: 969dd220a7b73a676b9cf5ac26223ebd9b3f2296
-ms.sourcegitcommit: ddcb62bb5fbf26a1178c2bb1aec45a3d2362339e
+ms.openlocfilehash: 93fbf2893fecc7b731f946797907bce4f8448309
+ms.sourcegitcommit: 8032d6275e6d9994ef9759ee16e743b483f7689e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "8942858"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183370"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>„Commerce Scale Unit“ (debesyje) inicijavimas
 
@@ -51,30 +51,30 @@ Jei naudojate "Tier-2" sandų dėžę arba gamybos aplinką, kurioje yra 8.1.2.x
 
 | Visuotinė vieta | Regionas              | Esamumas        | Komentarai                  |
 |-----------------|---------------------|---------------------|---------------------------|
-| AMERICAS        | Rytų JAV             | Bendrai prieinama |                           |
-| AMERICAS        | Rytų JAV 2           | Bendrai prieinama |                           |
-| AMERICAS        | Šiaurės vidurio JAV    | Ribotas pajėgumas    |                           |
-| AMERICAS        | Pietų vidurio JAV    | Ribotas pajėgumas    |                           |
-| AMERICAS        | JAV centras          | Bendrai prieinama |                           |
-| AMERICAS        | Vakarų JAV             | Bendrai prieinama |                           |
-| AMERICAS        | West JAV 2           | Bendrai prieinama |                           |
-| AMERICAS        | Kanados centrinis centras      | Ribotas pajėgumas    |                           |
-| AMERICAS        | Kanados Rytų         | Ribotas pajėgumas    |                           |
-| AMERICAS        | West Central US     | Ribotas pajėgumas    |                           |
-| APAC            | Rytų Australija      | Bendrai prieinama |                           |
-| APAC            | Pietryčių Azija      | Pajėgumas apribotas | Diegti neleidžiama    |
-| APAC            | Rytų Japonija          | Bendrai prieinama |                           |
-| APAC            | Vakarų Japonija          | Bendrai prieinama |                           |
-| APAC            | Pietryčių Australija | Bendrai prieinama |                           |
-| APAC            | Rytų Azija           | Ribotas pajėgumas    |                           |
-| APAC            | Indija, Pietų         | Pajėgumas apribotas | Diegti neleidžiama    |
-| APAC            | Indijos centrinis centras       | Ribotas pajėgumas    | Reikia patvirtinimo proceso |
-| EMEA            | Vakarų Europa         | Bendrai prieinama |                           |
-| EMEA            | Šiaurės Europa        | Bendrai prieinama |                           |
-| EMEA            | Pietų Jk            | Ribotas pajėgumas    |                           |
-| EMEA            | UK West             | Ribotas pajėgumas    |                           |
-| Šveicarija     | Šveicarijos Šiaurės   | Ribotas pajėgumas    | Reikia patvirtinimo proceso |
-| JAE             | JAE Šiaurės           | Ribotas pajėgumas    | Reikia patvirtinimo proceso |
+| AMERIKA        | Rytų JAV             | Bendrai prieinama |  Komentarų nėra.                         |
+| AMERIKA        | Rytų JAV 2           | Bendrai prieinama |  Komentarų nėra.                          |
+| AMERIKA        | Šiaurės vidurio JAV    | Ribotas pajėgumas    |  Komentarų nėra.                            |
+| AMERIKA        | Pietų vidurio JAV    | Ribotas pajėgumas    |  Komentarų nėra.                            |
+| AMERIKA        | JAV centras          | Bendrai prieinama |  Komentarų nėra.                            |
+| AMERIKA        | Vakarų JAV             | Bendrai prieinama |  Komentarų nėra.                            |
+| AMERIKA        | West JAV 2           | Bendrai prieinama |  Komentarų nėra.                            |
+| AMERIKA        | Kanados centrinis centras      | Ribotas pajėgumas    |  Komentarų nėra.                            |
+| AMERIKA        | Kanados Rytų         | Ribotas pajėgumas    |   Komentarų nėra.                           |
+| AMERIKA        | West Central US     | Ribotas pajėgumas    |   Komentarų nėra.                           |
+| APAC            | Rytų Australija      | Bendrai prieinama |   Komentarų nėra.                           |
+| APAC            | Pietryčių Azija      | Pajėgumas apribotas | Diegti neleidžiama.    |
+| APAC            | Rytų Japonija          | Bendrai prieinama |  Komentarų nėra.                            |
+| APAC            | Vakarų Japonija          | Bendrai prieinama |   Komentarų nėra.                           |
+| APAC            | Pietryčių Australija | Bendrai prieinama |   Komentarų nėra.                           |
+| APAC            | Rytų Azija           | Ribotas pajėgumas    |   Komentarų nėra.                           |
+| APAC            | Indija, Pietų         | Pajėgumas apribotas | Diegti neleidžiama.    |
+| APAC            | Indijos centrinis centras       | Ribotas pajėgumas    | Reikalauja patvirtinimo proceso. |
+| EMEA            | Vakarų Europa         | Ribotas pajėgumas    | Šiuo metu LCS nėra. |
+| EMEA            | Šiaurės Europa        | Ribotas pajėgumas    | Šiuo metu LCS nėra. |
+| EMEA            | Pietų Jk            | Bendrai prieinama |    Komentarų nėra.                          |
+| EMEA            | UK West             | Bendrai prieinama |    Komentarų nėra.                          |
+| Šveicarija     | Šveicarijos Šiaurės   | Ribotas pajėgumas    | Reikalauja patvirtinimo proceso. |
+| Jae             | JAE Šiaurės           | Ribotas pajėgumas    | Reikalauja patvirtinimo proceso. |
 
 Diegimas ribotuose pajėgumų regionuose yra ypač apribotas. Diegimo užklausos įvertinamos kiekvienu atveju atskirai. Jei turite verslo išteklių, kuriuos reikia įdiegti riboto pajėgumo regionuose, galite pateikti palaikymo užklausą, kurią reikia įtraukti į laukimo sąrašą. Šiuo metu pajėgumų ribotieji sritys šiuo metu neleidžia diegti "Commerce Scale Unit". 
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d8c79057c157f9f0244ea11ad5c3563dcdb21a5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ea9355b040c6431f5ddcccc4aaa0de73e21ad299
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866191"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124565"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
 
@@ -1417,3 +1417,4 @@ Virtualių įmonių funkcija programoje „Dynamics AX“ nebepalaikoma. Virtual
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

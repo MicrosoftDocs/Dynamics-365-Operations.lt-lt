@@ -1,5 +1,5 @@
 ---
-title: Peržiūra, Dynamics 365 Supply Chain Management 10.0.28 (2022 m. rugpjūčio mėn.)
+title: Naujienos ir pakeitimai „Dynamics 365 Supply Chain Management” 10.0.28 (2022 m. rugpjūtis)
 description: Šiame straipsnyje aprašomos priemonės, kurios yra naujos arba pakeistos programoje Microsoft Dynamics 365 Supply Chain Management 10.0.28.
 author: kamaybac
 ms.date: 05/27/2022
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 2b129481399897337e960ec2d708d69a563b5435
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7e17127ff6ef6c52034b8aa5e0c8404772363ca9
+ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902059"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9186526"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10028-august-2022"></a>Peržiūra, Dynamics 365 Supply Chain Management 10.0.28 (2022 m. rugpjūčio mėn.)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10028-august-2022"></a>Naujienos ir pakeitimai „Dynamics 365 Supply Chain Management” 10.0.28 (2022 m. rugpjūtis)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šiame straipsnyje pateikiamos funkcijos, kurios yra naujos arba pakeistos "Microsoft Dynamics 365 Supply Chain Management preview" versijoje 10.0.28. Ši versija turi versijos 10.0.1264 versiją ir yra pasiekiama šiame grafike:
+Šiame straipsnyje pateikiamos funkcijos, kurios yra naujos arba pakeistos "Microsoft Dynamics 365 Supply Chain Management " 10.0.28 versijoje. Ši versija turi versijos 10.0.1264 versiją ir yra pasiekiama šiame grafike:
 
 - **Peržiūros versijos išleidimas:** 2022 m. gegužė
 - **Bendras leidimo pasiekiamumas (savaiminis naujinimas):** 2022 m. liepa
@@ -35,7 +34,7 @@ Tolesnėje lentelėje pateiktos funkcijos, kuri yra šiame leidime. Mes galime a
 | Funkcijos sritis | Funkcija | Daugiau informacijos | Įjungė   |
 |---|---|---|---|
 | Atsargos ir logistika | [Įkainoti išlaidų integravimo objektai trečiosios šalies krovinių ekspeditoriams](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/landed-cost-integration-third-party-freight-forwarders) | [Gabenimo išlaidų objektų peržiūra](../landed-cost/landed-cost-entities-overview.md) | Įgalinta pagal numatytuosius nustatymus |
-| Planuojama | [Poreikio valdomas medžiagų poreikių planavimas (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | Jau greitai | Priemonių valdymas:<br>*(Peržiūros versija) Planavimo optimizavimo DDMRP* |
+| Planuojama | [Poreikio valdomas medžiagų poreikių planavimas (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | [Poreikio valdomas medžiagų poreikių planavimo peržiūra](../master-planning/planning-optimization/ddmrp-overview.md) | Priemonių valdymas:<br>*(Peržiūros versija) Planavimo optimizavimo DDMRP* |
 | Planuojama | [Galima pateikti atsargos planavimo optimizavimo palaikymas (CTP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | Jau greitai | Priemonių valdymas:<br>*(Peržiūros versija) Planavimo optimizavimo CTP* |
 | Planuojama | [Laikymo trukmės planavimo optimizavimo palaikymas](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | Jau greitai | Įgalinta pagal numatytuosius nustatymus |
 
@@ -61,8 +60,8 @@ Neseniai įtraukėme arba pastebimai atnaujinome šiuos žinyno straipsnius. Ši
 |---|---|
 | Kaštų valdymas | [Fiksuota gavimo kaina](../cost-management/fixed-receipt-price.md) |
 | Kaštų valdymas | [Atsargų įkainojimo dažnai užduodami klausimai](../cost-management/inventory-costing-faq.md) |
-| Kaštų valdymas | [Registruoti mokesčių sąskaitos apskaitos principu](../cost-management/post-to-charge-account-accounting-principle.md) |
-| Atsargų valdymas | [Atsargų operacijų informacija](../inventory/inventory-transactions-details.md) |
+| Kaštų valdymas | [Registruoti apskaitos principų išlaidų sąskaitoje](../cost-management/post-to-charge-account-accounting-principle.md) |
+| Atsargų valdymas | [Atsargų operacijos išsami informacija](../inventory/inventory-transactions-details.md) |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
@@ -92,3 +91,4 @@ Prieš pašalinant bet kokią priemonę iš produkto, [Dynamics 365 Supply Chain
 Atlikus keitimus, kurie paveikia tik kompiliavimo laiką, bet yra dvejetainiškai suderinami su smėlio dėžės ir gamybos aplinka, nebenaudojimo laikas bus trumpesnis nei 12 mėnesių. Paprastai, tai yra funkciniai naujinimai, kuriuos reikia atlikti kompiliatoriui.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8d9c756d8aaf2e7b2f6593e78fbb645dafee4552
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 6d440a0d0d95fe93ed633fa588e1c3a193757d9d
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9016165"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070386"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>Gamybos parametrai modulyje Gamybos vykdymas
 
@@ -71,7 +71,7 @@ Kiekviename etape lauke **Automatinis KS sunaudojimas** galite pasirinkti vieną
   - Tuščia (parinktis nepasirinkta)
   - **Yra vietoje**
 
-    Jei modulio Gamybos vykdymas skirtuko **Pradžia** lauke **Automatinis KS sunaudojimas** pasirinkta **Sunaudojimo principas**, visos medžiagos, komplektavimo specifikacijoje nustatytos kaip **Pradžia**, iš atsargų atimamos pradėjus operaciją. Parinktis **Yra vietoje** naudojama su produktais, kuriems galima taikyti išplėstinius sandėlio procesus. Jei pasirenkate šį sunaudojimo principą, medžiaga sunaudojama baigus sandėlio žaliavų paėmimo darbą. Medžiaga taip pat sunaudojama, kai šį sunaudojimo principą naudojanti KS eilutė pateikiama sandėliui ir medžiaga yra gamybos įvesties vietoje.
+    Jei modulio Gamybos vykdymas skirtuko **Pradžia** lauke **Automatinis KS sunaudojimas** pasirinkta **Sunaudojimo principas**, visos medžiagos, komplektavimo specifikacijoje nustatytos kaip **Pradžia**, iš atsargų atimamos pradėjus operaciją. Vietos **parinktis galima** produktams, kurie įgalinti sandėlio valdymo procesams (WMS). Jei pasirenkate šį sunaudojimo principą, medžiaga sunaudojama baigus sandėlio žaliavų paėmimo darbą. Medžiaga taip pat sunaudojama, kai šį sunaudojimo principą naudojanti KS eilutė pateikiama sandėliui ir medžiaga yra gamybos įvesties vietoje.
 
     > [!NOTE]
     > Jei modulio Gamybos vykdymas skirtuke **Pradžia** nustatytas laukas **Sunaudojimo principas**, tą patį principą turite pasirinkti skirtuke **Operacijos** arba skirtuke **Skelbti kaip baigtą**. Šis reikalavimas padeda užtikrinti, kad medžiagos iš atsargų atimamos tose KS, kurių gamybos užsakyme kaip sunaudojimo principas naudojamas **Pabaiga**. Jei skirtuke **Operacijos** arba skirtuke **Skelbti kaip baigtą** tas pats sunaudojimo principas nepasirenkamas, medžiagos iš atsargų gali būti atimamos du kartus.

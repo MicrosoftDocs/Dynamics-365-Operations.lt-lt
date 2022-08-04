@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3c07befc7150ff0a121fd3aaa0b5233df9f431e5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ef5ed6c3c99d62010643940f3e2f158963ff0dc2
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868614"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123725"
 ---
 # <a name="embed-third-party-apps"></a>Įdėtos trečiosios šalies programėlės
 
 [!include [banner](../includes/banner.md)]
 
-Daugelis klientų verslui vykdyti naudoja įvairias programas. Kai kurios iš šių programų yra trečiųjų šalių žiniatinklio programos, kurios veikia kartu su finansų ir operacijų programėle. Norėdami užtikrinti išsamesnę vartotojų patirtį, **galite** naudoti visų puslapių programėlių funkciją, kad jos būtų tiesiogiai įdėtos į jūsų finansų ir operacijų programėles (jei trečiosios šalies programėlės leidžia save įdėtuosius). Tokiu būdu vartotojai gali pasiekti svetaines ir programėles, kurių jiems reikia, kad jiems nereikia perjungti skirtukų ar langų.
+Daugelis klientų verslui vykdyti naudoja įvairias programas. Kai kurios iš šių programų yra trečiųjų šalių žiniatinklio programos, kurios veikia kartu su finansų ir operacijų programėle. Norėdami užtikrinti išsamesnę vartotojų patirtį, **galite** naudoti visų puslapių programėlių funkciją, kad jos būtų tiesiogiai įdėtos į jūsų finansų ir operacijų programėles (jei trečiosios šalies programėlės leidžia save įdėti). Tokiu būdu vartotojai gali pasiekti svetaines ir programėles, kurių jiems reikia, kad jiems nereikia perjungti skirtukų ar langų.
 
 Kad būtų galima į produktą įdėti trečiųjų šalių programėles, funkcijų valdymo funkcija turi įjungti **viso puslapio programėles**. Tada, norėdami įdėti trečiosios šalies programą ar svetainę, galite naudoti vieną iš toliau nurodytų metodų. Šie metodai yra analoginiai metodams, kurie naudojami įterpti lauko programėles iš finansų Microsoft Power Apps ir operacijų programėlių.
 
@@ -60,7 +60,7 @@ Kad būtų galima į produktą įdėti trečiųjų šalių programėles, funkcij
 
 ## <a name="embed-a-website-as-a-full-page-experience-from-the-dashboard"></a>Svetainė įdėta kaip viso puslapio patirtis iš skelbimų skelbimų lentos
 
-Šią procedūrą naudokite, jei programa, kurią norite įdėti, nėra susijusi su esamu puslapiu arba jei norite, kad programa, skirta finansų ir operacijų programai, būtų naudojama visame puslapyje.
+Šią procedūrą naudokite, jei programa, kurią norite įdėti, nėra susijusi su esamu puslapiu arba jei norite, kad programa finansų ir operacijų programoje būtų naudojama visame puslapyje.
 
 1. Atidarykite numatytąją ataskaitų sritį.
 2. Pasirinkite ir laikykite (arba spustelėkite dešiniuoju pelės mygtuku) ataskaitų sritį, pasirinkite **Pritaikyti asmeniniams poreikiams**, tada pasirinkite **Įtraukti puslapį**.
@@ -129,3 +129,4 @@ Jei svetainė nebus tinkamai atvaizduota po to, kai ji bus įdėta į „Finance
 Nors šis straipsnis yra skirtas įdėti trečiųjų šalių programėles ar svetaines Visual Studio naudojant personalizavimą, programuotojai taip pat gali įtraukti jas į formą naudodami programavimo patirtį. Tiesiog įtraukite **WebsiteHostControl** valdiklį į formą. Valdiklyje galimos metaduomenų ypatybės, kurios prieinamos ir suteikia tų pačių galimybių kaip ir personalizavimo funkcijos.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

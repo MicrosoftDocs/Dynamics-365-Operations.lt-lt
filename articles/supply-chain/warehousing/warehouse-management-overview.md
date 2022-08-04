@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa2b62a0bfda57879850771488e6576592fbb894
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: d22ed879f309c0fbb999bf166aefd13f27376042
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982857"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069099"
 ---
 # <a name="warehouse-management-overview"></a>Sandėlio valdymo apžvalga
 
@@ -39,7 +39,7 @@ Pagal verslo poreikius turite sukonfigūruoti sandėlio gavimo ir siuntimo proce
 - [Nustatyti pirkimo užsakymo atidėjimo vietos nurodymą.](../transportation/tasks/set-up-location-directive-purchase-order-put-away.md)
 - [Nustatyti pirkimo užsakymų darbo šabloną](./tasks/set-up-work-template-purchase-orders.md)
 
-## <a name="warehouse-management-processes"></a>Sandėlio valdymo procesai
+## <a name="warehouse-management-processes-wms"></a>Sandėlio valdymo procesai (WMS)
 - Integruotas pardavimo užsakymų, grąžinimų, perkėlimo užsakymų, gamybos užsakymų ir „kanban“ šaltinio dokumentų palaikymas.  
 - Lankstus gaunamų ir siunčiamų medžiagų darbo eigų palaikymas pagal užklausas
 - Visiška integracija su modulio Gamyba ir Transportavimas pasiūlymais

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b73e0cc31fd0e5a22ee330f623b9125de9237e29
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 87bab110d99bd756038b9f556aa15ed9fd02fb97
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867418"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103979"
 ---
 # <a name="on-premises-deployment-home-page"></a>Vietinio visuotinio diegimo pagrindinis puslapis
 
@@ -53,7 +53,7 @@ Galite diegti Dynamics 365 Finance + Operations (on-premises). Pasirinkus vietin
 - [Elektroninių ataskaitų (ER) konfigūracijų importavimas](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Dokumentų generavimas, publikavimas ir spausdinimas vietinėse visuotinėse įdiegtyse](../analytics/printing-capabilities-on-premises.md)
 - [Vietinių aplinkų tarpinių serverių konfigūravimas](onprem-reverseproxy.md)
-- [Programų „Finance and Operations“ techninio palaikymo nustatymas](../lifecycle-services/support-experience.md)
+- [Nustatyti finansų ir operacijų programėlių techninio palaikymo programas](../lifecycle-services/support-experience.md)
 - [Kliento interneto ryšys](../user-interface/client-disconnected.md)
 - [Vietinių visuotinių įdiegčių naujinimų taikymas](apply-updates-on-premises.md)
 - [Kartotinis visuotinis vietinių aplinkų diegimas](redeploy-on-prem.md)
@@ -73,9 +73,10 @@ Galite diegti Dynamics 365 Finance + Operations (on-premises). Pasirinkus vietin
 - [Vietinių aplinkų problemų sprendimo scenarijai](onprem-tsg-implementations.md)
 - [Sertifikatų kaita](certificate-rotation-on-prem.md)
 - [Vietinė diagnostika](on-premises-diagnostics.md)
-- [Pašalintos arba nebenaudojamos „Finance and Operations” funkcijos](../migration-upgrade/deprecated-features.md)
+- [Pašalintos arba pasenusios finansų ir operacijų priemonės](../migration-upgrade/deprecated-features.md)
 - [Programinės įrangos ciklo strategija ir vietinės versijos leidimai](../migration-upgrade/on-prem-version-update-policy.md)
  
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

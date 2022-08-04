@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: df2baa988bb634db11d819dd84ef73eaa560bab9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6254d15d13e40007396c9f2a36a8cd3122dc2609
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892775"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109347"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Bandymų automatizavimas naudojant elektronines ataskaitas
 
@@ -57,7 +57,7 @@ Funkcijų valdymo teises turintys vartotojai gali vykdyti vartotojo priėmimo ir
 Kad būtų galima atlikti šiame straipsnyje nurodytas užduotis, reikia atlikti toliau nurodytus būtinuosius komponentus.
 
 - Įdiekite topologiją, palaikančią testavimo automatizavimą. Turite turėti vaidmens **Sistemos administratorius** teises pasiekti šios topologijos egzempliorių. Šioje topologijoje turi būti demonstracinių duomenų, kurie bus naudojami šiame pavyzdyje. Norėdami gauti daugiau informacijos, žr. [Aplinkos, palaikančios nuolatinio komponavimo versijų ir tikrinimo automatizavimo funkciją, diegimas](../perf-test/continuous-build-test-automation.md).
-- Norint automatiškai vykdyti vartotojo priėmimo ir integravimo testus, reikia įdiegti RSAT topologijoje, kurią naudojate, ir atitinkamai jį konfigūruoti. Informacijos, kaip įdiegti ir konfigūruoti RSAT, kad jis veiktų su „Finance and Operations“ programomis ir „Azure DevOps“, žr. [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Atkreipkite dėmesį į būtinąsias įrankio naudojimo sąlygas. Tolesnėje iliustracijoje pateikiamas RSAT parametrų pavyzdys. Mėlyname stačiakampyje nurodomi parametrai, kurie apibrėžia prieigą prie „Azure DevOps“. Žaliame stačiakampyje nurodomi parametrai, kurie apibrėžia prieigą prie egzemplioriaus.
+- Norint automatiškai vykdyti vartotojo priėmimo ir integravimo testus, reikia įdiegti RSAT topologijoje, kurią naudojate, ir atitinkamai jį konfigūruoti. Informacijos, kaip įdiegti ir konfigūruoti RSAT ir konfigūruoti, kad būtų galima dirbti su finansų ir operacijų programėle Azure DevOps, ieškokite [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Atkreipkite dėmesį į būtinąsias įrankio naudojimo sąlygas. Tolesnėje iliustracijoje pateikiamas RSAT parametrų pavyzdys. Mėlyname stačiakampyje nurodomi parametrai, kurie apibrėžia prieigą prie „Azure DevOps“. Žaliame stačiakampyje nurodomi parametrai, kurie apibrėžia prieigą prie egzemplioriaus.
 
     ![RSAT parametrai.](media/GER-Configure.png "Dialogo lango RSAT parametrai ekrano kopija")
 

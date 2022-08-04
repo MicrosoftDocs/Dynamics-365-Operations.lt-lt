@@ -1,6 +1,6 @@
 ---
 title: Sandėlio procesų kokybės valdymas
-description: Šiame straipsnyje pateikiama informacija apie sandėlio procesų funkcijos kokybės valdymą. Ši priemonė išplečia kokybės valdymo galimybes ir leidžia vartotojams integruoti prekių pavyzdžių ėmimo valdiklius į sandėlio gavimo procesą, naudojant patobulintą sandėlio valdymą.
+description: Šiame straipsnyje pateikiama informacija apie sandėlio procesų funkcijos kokybės valdymą. Ši funkcija išplečia kokybės valdymo galimybes ir leidžia vartotojams integruoti prekių pavyzdžių ėmimo valdiklius į sandėlio gavimo procesą naudojant sandėlio valdymo procesus (WMS).
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 7f806b58c5e956e4f26158e8ea5c90a559296655
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 13c9bf522ededb5896c5f8462bfe123e9a9edb2c
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857843"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069249"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Sandėlio procesų kokybės valdymas
 
 [!include [banner](../includes/banner.md)]
 
-Funkcija _Sandėlio procesų kokybės valdymas_ leidžia integruoti prekių pavyzdžių ėmimo valdiklius į sandėlio gavimo procesą, naudojant patobulintą sandėlio valdymą. Sandėlio darbas gali būti automatiškai sugeneruotas, kad būtų galima perkelti atsargas į kokybės kontrolės vietą pagal procentinę dalį arba fiksuotą kiekį, arba pagal kiekvieną *n*-tąją numerio lentelę. Atlikus kokybės užsakymą, darbas gali būti automatiškai sugeneruotas, kad būtų galima perkelti atsargas į kitą proceso vietą, atsižvelgiant į kokybės rezultatus.
+Sandėlio _procesų kokybės valdymo funkcija_ leidžia integruoti prekės pavyzdžių ėmimo valdiklius į sandėlio gavimo procesą naudojant sandėlio valdymo procesus (WMS). Sandėlio darbas gali būti automatiškai sugeneruotas, kad būtų galima perkelti atsargas į kokybės kontrolės vietą pagal procentinę dalį arba fiksuotą kiekį, arba pagal kiekvieną *n*-tąją numerio lentelę. Atlikus kokybės užsakymą, darbas gali būti automatiškai sugeneruotas, kad būtų galima perkelti atsargas į kitą proceso vietą, atsižvelgiant į kokybės rezultatus.
 
 Funkcija _Sandėlio procesų kokybės valdymas_ išplečia pagrindinės kokybės valdymo funkcijos galimybes. Ji suteikia galimybę kurti atsargų, siunčiamų į kokybės kontrolės vietą, kokybės užsakymus, nors kokybės užsakymai ne visada reikalingi. Todėl jis leidžia atlikti lengvą, sandėlio darbu pagrįstą kokybės kontrolės procesą.
 
@@ -77,7 +77,7 @@ Prieš tai, kai funkcija _Sandėlio procesų kokybės valdymas_ galės būti pri
 
 1. Eikite į **Sandėlio valdymas \> Sąranka \> Sandėlis \> Sandėliai**.
 1. Pasirinkite sandėlį, kad būtų galima įgalinti kokybės valdymą.
-1. „FastTab“ konteineryje **Sandėlis** parinkties **Įgalinti sandėlio procesų kokybės užsakymą** reikšmę nustatykite kaip _Taip_. (Atkreipkite dėmesį, kad šią parinktį galima nustatyti kaip _Taip_ tik tiems sandėliams, kuriuose naudojami sandėlio valdymo procesai.)
+1. „FastTab“ konteineryje **Sandėlis** parinkties **Įgalinti sandėlio procesų kokybės užsakymą** reikšmę nustatykite kaip _Taip_. (Atkreipkite dėmesį, kad šią pasirinktį galima nustatyti kaip _Taip_ tik sandėliams, kurie naudoja sandėlio valdymo procesus (WMS).)
 
 Kai parinkties **Įgalinti sandėlio procesų kokybės užsakymą** reikšmė nustatyta kaip _Taip_, kokybės susiejimo nustatymas kontroliuoja, ar pasirinktam sandėliui iš tiesų taikoma funkcija _Sandėlio procesų kokybės valdymas_. Parinkties reikšmę į _Ne_ galite pakeisti bet kuriuo metu. Tokiu atveju funkcija nebebus taikoma sandėliui, neatsižvelgiant į kokybės susiejimo nustatymą.
 
@@ -97,7 +97,7 @@ Kiekvienas [kokybės susiejimo įrašas](enable-quality-management.md) apibrėž
     - **Visi** – išjunkite funkciją _Sandėlio procesų kokybės valdymas_. Pasirinkite šią reikšmę visiems nuorodų tipams, išskyrus *Pirkimas* ir *Gamyba*.
 
 > [!NOTE]
-> Funkcija _Sandėlio procesų kokybės valdymas_ veikia tik tada, jei šaltinio dokumento eilutėje nurodytai prekei naudojami patobulinti sandėlio valdymo procesai ir jei šaltinio dokumento eilutėje esančiam sandėliui parinkties **Įgalinti sandėlio procesų kokybės užsakymą** reikšmė yra nustatyta kaip _Taip_.
+> Sandėlio _procesų_ kokybės valdymo funkcija įsigalioja tik tada, jei šaltinio dokumento eilutėje nurodyta prekė naudoja sandėlio valdymo procesus (WMS) **·** _ir jei parinktis Įgalinti sandėlio procesų kokybės užsakymą nustatyta kaip Taip_ sandėliui šaltinio dokumento eilutėje.
 
 Kiekviena prekė yra užregistruota (arba paskelbta kaip baigta), todėl sistema nustato, kurie kokybės susiejimai jai taikomi.
 

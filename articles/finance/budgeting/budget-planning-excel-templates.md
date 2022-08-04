@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6bc190a48d0212e24c5bd72255ed6b6b3caf942c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8996ad5d03327b9273be7860a3905dc25efa7e90
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872505"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070671"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Biudžeto planavimo šablonai, skirti „Excel‟
 
@@ -79,7 +79,7 @@ Pasirinktoje laukų grupėje rodomi stulpeliai, pateikiami šablone. Spustelėki
 [![Pridėti ir įterpti stulpelį.](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Norėdami apibrėžti formulę, sukurkite formulę skaičiuoklėje ir tada nukopijuokite ją į langą **Dizainas**. „Finance and Operations“ susieta lentelė paprastai būna pavadinta „AXTable1“. Pvz., norėdami susumuoti paraiškų už 1–4 ketvirčių stulpelius skaičiuoklėje, sukurkite tokią formulę: AxTable1\[Paraiška už 1 ketvirtį\] + AxTable1\[Paraiška už 2 ketvirtį\] + AxTable1\[Paraiška už 3 ketvirtį\] + AxTable1\[Paraiška už 4 ketvirtį\].
+> Norėdami apibrėžti formulę, sukurkite formulę skaičiuoklėje ir tada nukopijuokite ją į langą **Dizainas**. Finansų ir operacijų apribota lentelė paprastai bus pavadinta "AXTable1". Pvz., norėdami susumuoti paraiškų už 1–4 ketvirčių stulpelius skaičiuoklėje, sukurkite tokią formulę: AxTable1\[Paraiška už 1 ketvirtį\] + AxTable1\[Paraiška už 2 ketvirtį\] + AxTable1\[Paraiška už 3 ketvirtį\] + AxTable1\[Paraiška už 4 ketvirtį\].
 
 Pakartokite šiuos veiksmus ir įterpkite stulpelį **Koregavimas**. Šiam stulpeliui priskirkite formulę: AxTable1\[Bendra užklausų suma\]\*$I$1 Tokiu būdu langelio I1 vertė bus padauginta iš stulpelio **Bendra užklausų suma** verčių, kad būtų apskaičiuotos koregavimo sumos.
 
@@ -129,3 +129,4 @@ Taip pat galite kurti ir naudoti suvestinės lenteles bei diagramas, norėdami a
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

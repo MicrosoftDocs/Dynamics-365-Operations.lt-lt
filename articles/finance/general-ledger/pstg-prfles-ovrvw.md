@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7ef3be13e82ff3722fc81247b5cd581b0b571b0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 91078352b6376ee99e7d9ce4546ed200cb80a25a
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876130"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135850"
 ---
 # <a name="posting-profiles-overview"></a>Profilių paskelbimo apžvalga
 
-Finansų ir operacijų programėlėse termino registravimo šablonuose aprašomos konfigūracijos, kurios kontroliuoja, kaip papildomos knygos sąskaitos konvertuojamos į pagrindines sąskaitas, *kad* jas būtų galima naudoti DK registruojamose operacijose. Pavyzdžiui, jie kontroliuoja, kaip klientas konvertuojamas į gautinų sumų pagrindinę sąskaitą, kai SF užregistruojama.
+Finansų ir operacijų programėlių terminų registravimo šablonuose aprašomos konfigūracijos, kurios kontroliuoja, *kaip* papildomos knygos sąskaitos konvertuojamos į pagrindines sąskaitas, kad jas būtų galima naudoti DK registruojamose operacijose. Pavyzdžiui, jie kontroliuoja, kaip klientas konvertuojamas į gautinų sumų pagrindinę sąskaitą, kai SF užregistruojama.
 
 Kai kuriuose moduliuose ir priemonėse yra puslapis, kuriame yra žodžiai "registravimo šablonas" pavadinime (pvz., **Kliento registravimo šablonas** arba **Tiekėjo registravimo šablonas**). Be to, kai kurie moduliai turi kelias pasirinktis, skirtas operacijų, sugeneruotų iš papildomos knygos, DK registravimo konfigūravimui. Pavyzdžiui, gamybos kontrolės modulyje **galite** nustatyti registravimą pagal gamybos grupę, išteklius ar išteklių grupę.
 
@@ -71,9 +71,9 @@ Jei turite sekti kelias šio registravimo tipo pagrindines sąskaitas, rekomendu
 
 | Klientų grupė | Vardas | Aprašymas |
 |----------------|------|-------------|
-| EXT | Išorinis klientas | Ši grupė naudojama visiems standartiniams išoriniams klientams. |
-| EMP | Darbuotojai | Ši grupė naudojama visiems darbuotojams, kurie perka iš jūsų organizacijos. |
-| INT | Vidinės įmonės pardavimas | Ši grupė naudojama visoms vidinės įmonės klientų sąskaitoms, kurios naudojamos integruojant pardavimo ir pirkimo užsakymus. |
+| Ext | Išorinis klientas | Ši grupė naudojama visiems standartiniams išoriniams klientams. |
+| Emp | Darbuotojai | Ši grupė naudojama visiems darbuotojams, kurie perka iš jūsų organizacijos. |
+| Int | Vidinės įmonės pardavimas | Ši grupė naudojama visoms vidinės įmonės klientų sąskaitoms, kurios naudojamos integruojant pardavimo ir pirkimo užsakymus. |
 
 Tada registravimo šablone bus nustatytos trys eilutės. Kiekvienoje eilutėje pasirinkite Grupės **vertę** ir susijusią pagrindinę sąskaitą.
 
@@ -111,13 +111,14 @@ Daugelis "Dynamics 365 Finance" Dynamics 365 Supply Chain Management Dynamics 36
 - Išlaidų valdymo registravimas (netrukus)
 - [Ilgalaikio turto registravimo šablonas](../fixed-assets/tasks/set-up-fixed-asset-posting-profiles.md)
 - Vidinės įmonės apskaitos registravimas (netrukus)
-- Atsargų registravimo šablonas (netrukus)
+- [Atsargų registravimas](inventory-posting.md)
 - [Įkainojimo registravimas](../../supply-chain/landed-cost/costing-parameters-setup.md)
 - [Registravimo aprašų peržiūra](posting-definitions.md)
-- Gamybos kontrolės registravimas (netrukus)
+- [Gamybos registravimas](production-posting.md)
 - Projektų valdymo ir apskaitos registravimas (netrukus)
 - Aptarnavimo valdymo registravimas (netrukus)
 - Mokesčių registravimas (netrukus)
 - Laiko ir lankomumo registravimas (netrukus)
 - Transportavimo valdymo registravimas (netrukus)
 - Grąžinimo valdymo registravimo profiliai (netrukus)
+

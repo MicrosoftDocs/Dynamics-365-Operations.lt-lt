@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65f7a642d3b2c2ddfca1e2d92570b49ef2f8c2b4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1f3853e0c1da0a5abb3f92171370cc4aeabbd829
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869263"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109587"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroninių ataskaitų (ER) apžvalga
 
@@ -66,7 +66,7 @@ ER šiuo metu palaiko TEXT, XML, JSON, PDF, Microsoft Word, ir Microsoft Excel O
 
 ER mechanizmas turi toliau nurodytas galimybes.
 
-- Tai vienas bendrai naudojamas įrankis, skirtas elektroninėms ataskaitoms skirtinguose domenuose kurti, kuris pakeičia daugiau nei 20 skirtingų mechanizmų, naudojamų kurti tam tikras „Finance and Operations“ elektronines ataskaitas.
+- Jis nurodo vieną bendrą įvairių domenų elektroninių ataskaitų įrankį ir pakeičia daugiau nei 20 skirtingų sistemų, kurios kokio nors tipo finansines ir operacijas.
 - Jis atskiria ataskaitos formatą nuo dabartinės įdiegtos versijos. Kitaip tariant, formatą galima taikyti skirtingoms versijoms.
 - Jis palaiko pasirinktinio formato kūrimą pagal jo pradinę versiją. Jis taip pat apima galimybes automatiškai naujinti tinkintą formatą, kai pradinis formatas pakeičiamas dėl įvestų lokalizavimo / tinkinimo reikalavimų.
 - Jis tampa pagrindiniu standartiniu „Microsoft“ ir „Microsoft“ partnerių elektroninių ataskaitų lokalizavimo reikalavimus palaikančiu įrankiu.
@@ -126,7 +126,7 @@ Programos įmonės bendrai naudoja ER konfigūraciją.
 
 #### <a name="provider"></a><a name="Provider"></a>Teikėjas
 
-ER teikėjas yra šalies identifikatorius, naudojamas kiekvienos ER konfigūracijos autoriui (savininkui) nurodyti. ER suteikia galimybę valdyti konfigūracijos teikėjų sąrašą. Formatų konfigūracijos, skirtos elektroniniams dokumentams kaip „Finance and Operations“ sprendimo dalis, yra pažymėtos kaip priklausančios konfigūracijos teikėjui **Microsoft**.
+ER teikėjas yra šalies identifikatorius, naudojamas kiekvienos ER konfigūracijos autoriui (savininkui) nurodyti. ER suteikia galimybę valdyti konfigūracijos teikėjų sąrašą. Formato konfigūracijos, išleistos elektroniniams dokumentams kaip finansų ir operacijų sprendimo dalis, pažymėtos kaip "Microsoft **" konfigūracijos** teikėjo dalis.
 
 Norėdami sužinoti, kaip registruoti naują ER teikėją, paleiskite užduočių vedlį **ER: konfigūracijų teikėjo sukūrimas ir pažymėjimas aktyviu** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų / sprendimų komponentų (10677)** dalis).
 
@@ -270,3 +270,4 @@ ER suteikia galimybę automatiškai priimti naujausios pagrindinio komponento ve
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0220fa03283119471b3d1f78a23a04ed4036264e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: d6a64908a167c09089a95f1d3faa825dcc63f064
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906803"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109089"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Elektroninių ataskaitų (ER) konfigūracijų ciklo valdymas
 
@@ -73,7 +73,7 @@ Su ER konfigūracijos ciklu susieti tolesni vaidmenys ir susijusios veiklos.
 | Mokėtinų sumų mokėjimo klerkas            | ER artefaktus naudoti konkrečiame verslo procese.                | Pvz., **Mokėtinų sumų mokėjimo klerko** vaidmuo, leidžiantis pagal sukonfigūruotą konkretaus mokėjimo metodo ER formatą generuoti elektroninio mokėjimo pranešimus apie SF apdorojimą. |
 
 ## <a name="er-configuration-development-lifecycle"></a>ER konfigūracijos plėtros ciklas
-Dėl tolesnių su ER susijusių priežasčių rekomenduojame ER konfigūracijas kurti programavimo aplinkoje kaip atskirame „Finance and Operations“ egzemplioriuje.
+Dėl šių su ER susijusių priežasčių rekomenduojame programavimo aplinkoje sukurti ER konfigūracijas kaip atskirą finansų ir operacijų egzempliorių:
 
 - Vartotojai, kurių vaidmuo yra **Elektroninių ataskaitų kūrėjas** arba **Elektroninių ataskaitų funkcijų konsultantas**, gali konfigūracijas redaguoti ir vykdyti bandymams. Tokiu atveju gali būti iškviesti klasių ir lentelių, kurios gali būti potencialiai kenksmingos verslo duomenims ir egzemplioriaus naudojimo efektyvumui, metodai.
 - Įvesties vietos neapriboja klasių ir lentelių kaip ER konfigūracijų ER duomenų šaltinių metodų iškvietimų ir jie yra užregistruoti įmonės turinyje. Todėl slaptus verslo duomenis gali pasiekti vartotojai, kurių vaidmuo yra **Elektroninių ataskaitų kūrėjas** arba **Elektroninių ataskaitų funkcijų konsultantas**.
@@ -113,3 +113,4 @@ Kai kuriais atvejais gali reikėti, kad sistema nepaisytų sukonfigūruotų būt
 [ER konfigūracijų priklausomybės nuo kitų komponentų apibrėžimas](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

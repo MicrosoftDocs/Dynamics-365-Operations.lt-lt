@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 94e465616338b0c905ccf6b8244324c18c7a59e8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f8864ac22153908492b5e7c30a03617e6dc9d05a
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849451"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9166882"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.24 (2022 m. vasario mėn.)
 
@@ -46,7 +46,7 @@ Jei norite įjungti arba išjungti bet kurią iš šių priemonių, tai turite a
 | Modulis | Funkcijos pavadinimas funkcijos valdyme | Daugiau informacijos |
 |---|---|---|
 | Gamybos kontrolė | Gamybos užsakymų medžiagų pasiekiamumo pareikalavus patikra | Ši funkcija padeda greičiau atidaryti gamybos užsakymus **, kad būtų galima paleisti** puslapį, kurį galima pasiekti gamybos **laiko valdymo darbo** srityje. Be šios priemonės sistema automatiškai patikrina, ar visiems išvardytiems gamybos užsakymams medžiagos galimos iš karto, kai tik atidarote puslapį, o tai gali užtrukti, jei yra daug užsakymų. Kai ši funkcija įgalinta, sistema pateikia įrankių juostos mygtuką, kurį galite naudoti, norėdami inicijuoti medžiagų tikrinkite tik pasirinktus užsakymus ir, kai jų reikia. |
-| Gamybos kontrolė | (Peržiūros versija) Registruokite medžiagų suvartojimą gamybos vietos vykdymo sąsajoje (ne WMS) | Ši funkcija leidžia darbuotojams naudoti gamybos laiko vykdymo sąsają medžiagų suvartojimui, paketo numeriams ir serijos numeriams registruoti. Ši funkcija palaiko tik prekes, kurios neįgalintos naudoti išplėstinių sandėlio procesų (WMS). WMS įgalintų prekių palaikymas planuojamas būsimam paleidimui.<p>Kai kurie gamintojai, ypač proceso pramonės šakose, turi aiškiai registruoti kiekvienam paketui ar gamybos užsakymui suvartotų medžiagų kiekį. Pavyzdžiui, darbuotojai gali naudoti svarstyklių skalę, kad galėtų pasverti jų darbui suvartotų medžiagų kiekį. Siekiant užtikrinti visą medžiagų kiekį, šios organizacijos taip pat turi registruoti, kurie paketų numeriai buvo suvartoti gaminant kiekvieną produktą. |
+| Gamybos kontrolė | Registruoti medžiagų suvartojimą gamybos laiko vykdymo sąsajoje (ne WMS) | Ši funkcija leidžia darbuotojams naudoti gamybos laiko vykdymo sąsają medžiagų suvartojimui, paketo numeriams ir serijos numeriams registruoti. Ši funkcija palaiko tik prekes, kurios neįgalintos naudoti sandėlio valdymo procesų (WMS). WMS įgalintų prekių palaikymas planuojamas būsimam paleidimui.<p>Kai kurie gamintojai, ypač proceso pramonės šakose, turi aiškiai registruoti kiekvienam paketui ar gamybos užsakymui suvartotų medžiagų kiekį. Pavyzdžiui, darbuotojai gali naudoti svarstyklių skalę, kad galėtų pasverti jų darbui suvartotų medžiagų kiekį. Siekiant užtikrinti visą medžiagų kiekį, šios organizacijos taip pat turi registruoti, kurie paketų numeriai buvo suvartoti gaminant kiekvieną produktą. |
 | Gamybos kontrolė | Pranešti, kai bus baigta su sandėlio valdymo darbo krūviu debesies ir briaunos skalės įrenginyje | Ši funkcija leidžia darbuotojams naudoti sandėlio valdymo mobiliąją programą pranešti apie gamybos arba paketinį užsakymą kaip baigtą, kai programa veikia naudojant sandėlio valdymo darbo krūvį debesies arba kraštų skalės vienetais. Daugiau informacijos rasite Ataskaita kaip [baigta ir Padėti ant svarstyklių vieneto](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF). |
 | Sandėlio valdymas | Nauji krovinio planavimo darbo srityje puslapiai | Įgalina du naujus krovinio planavimo darbo srityje puslapius: **gaunamo krovinio planavimo darbo srityje** **ir siunčiamo krovinio planavimo darbo srityje**. |
 
@@ -63,7 +63,7 @@ Neseniai įtraukėme arba pastebimai atnaujinome šiuos žinyno straipsnius. Ši
 | Bendrasis planavimas | [Pakankamų atsargų žurnalo naudojimas mažiausiam prekių padengimui atnaujinti](../master-planning/safety-stock-journal.md) |
 | Gamybos kontrolė | [Gamybos vietos vykdymo sąsajos tinkinimas](../production-control/production-floor-execution-customize.md) |
 | Gamybos kontrolė | [Gamybos vietos vykdymo sąsajos stilius](../production-control/production-floor-execution-styles.md) |
-| Pardavimas ir rinkodara | [Planuoti pardavimo retrospektyvos duomenų valymą](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
+| Pardavimas ir rinkodara | [Pardavimo retrospektyvos duomenų valymo planavimas](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
 | Sandėlio valdymas | [Mobiliojo įrenginio vartotojų paskyros](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
@@ -94,3 +94,4 @@ Prieš pašalinant bet kokią priemonę iš produkto, [Dynamics 365 Supply Chain
 Atlikus keitimus, kurie paveikia tik kompiliavimo laiką, bet yra dvejetainiškai suderinami su smėlio dėžės ir gamybos aplinka, nebenaudojimo laikas bus trumpesnis nei 12 mėnesių. Paprastai, tai yra funkciniai naujinimai, kuriuos reikia atlikti kompiliatoriui.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

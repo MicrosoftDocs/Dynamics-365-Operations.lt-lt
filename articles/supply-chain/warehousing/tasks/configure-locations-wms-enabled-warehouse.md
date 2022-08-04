@@ -1,6 +1,6 @@
 ---
 title: Sandėlio, kuriame veikia WMS, vietų konfigūravimas
-description: Šiame vadove aprašoma, kaip konfigūruoti naujo sandėlio, kuriame veikia WMS (sandėlio, kuriame naudojami patobulinti sandėlio valdymo procesai) vietos nustatymą.
+description: Šiame vadove aprašoma, kaip konfigūruoti vietos nustatymą naujam sandėliui, kuriame įgalintaS WMS (sandėlis, kuriame naudojami sandėlio valdymo procesai (WMS)).
 author: perlynne
 ms.date: 06/26/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5273a388b30a41b75bd76c92fa4b9ff05c8f8d6
-ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
-ms.translationtype: MT
+ms.openlocfilehash: 45195698b48d6a22697f99044a8ae49beaf7156e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599353"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067280"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Sandėlio, kuriame veikia WMS, vietų konfigūravimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šiame vadove aprašoma, kaip konfigūruoti naujo sandėlio, kuriame veikia WMS (sandėlio, kuriame naudojami patobulinti sandėlio valdymo procesai) vietos nustatymą. Šį procesą paprastai atlieka sandėlio vadovas. Šią vadovą galite paleisti demonstracinėje duomenų įmonėje USMF arba su savo duomenimis. Galioja išankstinė sąlyga, kad turėtumėte sukonfigūruotą bent vieną vietą.
+Šiame vadove aprašoma, kaip konfigūruoti vietos nustatymą naujam sandėliui, kuriame įgalintaS WMS (sandėlis, kuriame naudojami sandėlio valdymo procesai (WMS)). Šį procesą paprastai atlieka sandėlio vadovas. Šią vadovą galite paleisti demonstracinėje duomenų įmonėje USMF arba su savo duomenimis. Galioja išankstinė sąlyga, kad turėtumėte sukonfigūruotą bent vieną vietą.
 
 
 ## <a name="create-a-new-warehouse"></a>Naujo sandėlio kūrimas
@@ -35,7 +35,7 @@ ms.locfileid: "7599353"
 4. Lauke **Pavadinimas** įveskite reikšmę.
 5. Laukelyje **Vieta** pasirinkite arba įveskite esamą vietos vertę.
 6. Išplėskite skyrių **Sandėlis**.
-7. Nustatykite **parinktį Naudoti sandėlio valdymo procesus** į Taip. Šis nustatymas leidžia vykdyti išankstinius sandėliavimo procesus, naudojant sandėlio darbą ir mobiliuosius įrenginius.
+7. Nustatykite **parinktį Naudoti sandėlio valdymo procesus** į Taip. Šis parametras leidžia vykdyti sandėlio valdymo procesus (WMS) naudojant sandėlio darbą ir mobilųjį įrenginį.
 8. Uždarykite puslapį.
 
 ## <a name="define-a-location-format"></a>Vietos formato nustatymas
@@ -68,7 +68,7 @@ ms.locfileid: "7599353"
 5. Uždarykite puslapį.
 
 ## <a name="define-location-profile"></a>Vietos šablono nustatymas
-1. Eikite į **Naršymo sritis > Moduliai > Sandėlio valdymas > Sąranka > Sandėlis > Vietos šablonai**. Vietos šablonų apibrėžimas yra labai svarbus. Sugrupuotų vietų pajėgumą galima kontroliuoti čia, taip pat galima kontroliuoti, su kokiomis atsargomis susijusios strategijos bus išsaugotos ir kaip jos bus išsaugotos. Vietų šablonus galima naudoti kaip filtravimo parinktis, kad būtų galima kontroliuoti skirtingus sandėlio valdymo procesus. Norėdami įjungti sandėlio valdumo procesus, turite sukurti bent jau vartotojo vietos profilį.
+1. Eikite į **Naršymo sritis > Moduliai > Sandėlio valdymas > Sąranka > Sandėlis > Vietos šablonai**. Vietos šablonų apibrėžimas yra labai svarbus. Sugrupuotų vietų pajėgumą galima kontroliuoti čia, taip pat galima kontroliuoti, su kokiomis atsargomis susijusios strategijos bus išsaugotos ir kaip jos bus išsaugotos. Vietų šablonus galima naudoti kaip filtravimo parinktis, kad būtų galima kontroliuoti skirtingus sandėlio valdymo procesus. Kad būtų galima įgalinti WMS, reikia sukurti bent vartotojo vietos profilį.
 2. Spustelėkite **Naujas**.
 3. Lauke **Vietos profilio ID** įveskite reikšmę.
 4. Lauke **Pavadinimas** įveskite reikšmę.

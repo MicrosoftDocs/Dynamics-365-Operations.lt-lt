@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2ca847f6f11d5d849ea570cc3886e6470021e451
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 635e7152bece91d5dee47f82cef7052730eb0c82
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880399"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108959"
 ---
 # <a name="backup-storage-of-er-templates"></a>ER šablonų atsarginių kopijų saugykla
 
@@ -28,11 +28,11 @@ ms.locfileid: "8880399"
 
 [Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md) leidžia verslo vartotojams konfigūruoti siunčiamų dokumentų formatus pagal įvairių šalių bei regionų teisinius reikalavimus. Sukonfigūruotiems ER formatams galima naudoti iš anksto apibrėžtus šablonus, kurie leidžia generuoti įvairių formatų siunčiamus dokumentus, pvz., „Microsoft Excel“ darbaknyges, „Microsoft Word“ dokumentus arba PDF dokumentus. Šablonai yra užpildomi duomenimis, kurių generuojamiems dokumentams reikalauja sukonfigūruotas duomenų srautas.
 
-Kiekvienas sukonfigūruotas formatas gali būti publikuojamas kaip ER sprendimo dalis. Kiekvienas ER sprendimas gali būti eksportuojamas iš vieno „Finance and Operations“ egzemplioriaus ir importuojamas į kitą egzempliorių.
+Kiekvienas sukonfigūruotas formatas gali būti publikuojamas kaip ER sprendimo dalis. Kiekvieną ER sprendimą galima eksportuoti iš vieno finansų ir operacijų egzemplioriaus ir importuoti į kitą egzempliorių.
 
-ER sistema naudoja [dokumentų valdymo konfigūravimo](../../fin-ops/organization-administration/configure-document-management.md) funkciją, kad saugotų esamam „Finance and Operations“ egzemplioriui reikalingus šablonus. Atsižvelgiant į ER sistemos nustatymus, kaip fizinę pirminę šablonų saugyklos vietą galima pasirinkti „Microsoft Azure“ didelių dvejetainių objektų saugyklą arba „Microsoft SharePoint“ aplanką. (Norėdami gauti daugiau informacijos, žr. [Elektroninių ataskaitų (ER) sistemos konfigūravimas](electronic-reporting-er-configure-parameters.md).) „DocuValue“ lentelėje kiekvienam šablonui saugomas atskiras įrašas. Kiekviename įraše esančiame lauke **AccessInformation** saugomas šablono failo, esančio sukonfigūruotoje saugyklos vietoje, kelias.
+ER sistema naudoja dokumentų valdymo [konfigūravimą, kad išsamūs](../../fin-ops/organization-administration/configure-document-management.md) dabartinių finansų ir operacijų egzemplioriaus šablonai būtų išsaugoti. Atsižvelgiant į ER sistemos nustatymus, kaip fizinę pirminę šablonų saugyklos vietą galima pasirinkti „Microsoft Azure“ didelių dvejetainių objektų saugyklą arba „Microsoft SharePoint“ aplanką. (Norėdami gauti daugiau informacijos, žr. [Elektroninių ataskaitų (ER) sistemos konfigūravimas](electronic-reporting-er-configure-parameters.md).) „DocuValue“ lentelėje kiekvienam šablonui saugomas atskiras įrašas. Kiekviename įraše esančiame lauke **AccessInformation** saugomas šablono failo, esančio sukonfigūruotoje saugyklos vietoje, kelias.
 
-Valdydami savo „Finance and Operations“ egzempliorius, galbūt nuspręsite perkelti dabartinį egzempliorių į kitą vietą. Pavyzdžiui, galite perkelti gamybos egzempliorių į naują smėlio dėžės aplinką. Jei sukonfigūruosite, kad ER sistema saugotų šablonus didelių dvejetainių objektų saugykloje, DocuValue lentelėje, esančioje naujojoje smėlio dėžės aplinkoje, bus nuoroda į didelių dvejetainių objektų saugyklos egzempliorių gamybos aplinkoje. Tačiau šio egzemplioriaus negalima pasiekti iš smėlio dėžės aplinkos, nes perkėlimo procesas nepalaiko artefaktų perkėlimo didelių dvejetainių objektų saugykloje. Todėl, pasirinkus ER formatą, kuris naudoja šabloną generuoti verslo dokumentams, įvyksta išimtis ir informuojama apie trūkstamą šabloną. Taip pat rekomenduojama naudoti ER valymo įrankį, kad panaikintumėte, o tada iš naujo importuotumėte ER konfigūraciją, kurioje yra šablonas. Kadangi gali būti kelios ER formato konfigūracijos, šis procesas gali užtrukti.
+Tvarkydami savo finansų ir operacijų egzempliorius galite nuspręsti perkelti dabartinį egzempliorių į kitą vietą. Pavyzdžiui, galite perkelti gamybos egzempliorių į naują smėlio dėžės aplinką. Jei sukonfigūruosite, kad ER sistema saugotų šablonus didelių dvejetainių objektų saugykloje, DocuValue lentelėje, esančioje naujojoje smėlio dėžės aplinkoje, bus nuoroda į didelių dvejetainių objektų saugyklos egzempliorių gamybos aplinkoje. Tačiau šio egzemplioriaus negalima pasiekti iš smėlio dėžės aplinkos, nes perkėlimo procesas nepalaiko artefaktų perkėlimo didelių dvejetainių objektų saugykloje. Todėl, pasirinkus ER formatą, kuris naudoja šabloną generuoti verslo dokumentams, įvyksta išimtis ir informuojama apie trūkstamą šabloną. Taip pat rekomenduojama naudoti ER valymo įrankį, kad panaikintumėte, o tada iš naujo importuotumėte ER konfigūraciją, kurioje yra šablonas. Kadangi gali būti kelios ER formato konfigūracijos, šis procesas gali užtrukti.
 
 ER šablonų atsarginių kopijų saugyklos funkcija gali padėti kurti šablonus, kad juos visada galėtumėte panaudoti verslo dokumentams generuoti.
 
@@ -46,7 +46,7 @@ Naudojant šią funkciją, kiekvienas naujos ER formato konfigūracijos šablona
 - Importuojate naują ER formato konfigūraciją, kurioje yra šablonas.
 - Užbaigiate ER formato konfigūracijos, kurioje yra šablonas, juodraštinę versiją.
 
-Šablonų atsarginės kopijos perkeliamos į naują „Finance and Operations“ egzempliorių kaip programos duomenų bazės dalis.
+Atsarginės šablonų kopijos perkeliamos į naują finansų ir operacijų egzempliorių kaip programos duomenų bazės dalis.
 
 Jei ER formato šablono, pavyzdžiui, norint apdoroti tiekėjo mokėjimus, reikia siunčiamų dokumentų generavimui, įskaitant mokėjimo pažymos ir kontrolės ataskaitų generavimą, tačiau reikiamo šablono nepavyksta rasti pirminėje saugojimo vietoje, įvyksta šie įvykiai:
 
@@ -58,7 +58,7 @@ Jei ER formato šablono, pavyzdžiui, norint apdoroti tiekėjo mokėjimus, reiki
 
 Norėdami nustatyti parametrą **Automatiškai kaip paketą vykdyti sugadintų šablonų atkūrimo procedūrą**, atlikite šiuos veiksmus:
 
-1. „Finance and Operations“ atidarykite **Organizacijos administravimas \> Elektroninės ataskaitos \> Konfigūracijų puslapis**.
+1. Finansinėse ir operacijose atidarykite puslapį **Organizacijos administravimas \> Elektroninės \> ataskaitos konfigūracijos**.
 2. Puslapio **Konfigūracijos** veiksmų srities skirtuke **Konfigūracijos**, grupėje **Papildomi parametrai** pasirinkite **Vartotojo parametrai**.
 3. Dialogo lange **Vartotojo parametrai** nustatykite reikiamą parametro **Automatiškai kaip paketą vykdyti sugadintų šablonų atkūrimo procedūrą** reikšmę.
 
@@ -83,7 +83,7 @@ Esant numatytiesiems nustatymams, automatinio šablonų, naudojamų ER formato k
 
 Norėdami nustatyti parinkties **Nebekurti šablonų atsarginių kopijų** reikšmę **Taip** ir nebesaugoti anksčiau sukurtų šablonų atsarginių kopijų, pasirinkite **Valyti atsarginių kopijų saugyklą** puslapyje **Elektroninių ataskaitų parametrai**.
 
-Jei savo aplinką atnaujinote į „Finance and Operations“ 10.0.5 (2019 m. spalio) versiją ir norite pereiti prie naujos aplinkos, kuri apima vykdytinas ER formato konfigūracijas, prieš vykdydami perkėlimą, pasirinkite **Užpildyti atsarginių kopijų saugyklą** puslapyje **Elektroninių ataskaitų parametrai**. Šiuo mygtuku pradedamas visų galimų šablonų atsarginių kopijų kūrimo procesas, kad jie galėtų būti išsaugoti šablonų ER atsarginių kopijų saugojimo vietoje.
+Jei atnaujinote savo aplinką į finansų ir operacijų versiją 10.0.5 (2019 m. spalio mėn.) ir norite perkelti į naują aplinką, kurioje yra ER formato konfigūracijos, kurias galima vykdyti, **·** **prieš** vykdant perkėlimą pasirinkite Užpildyti atsarginį saugojimą elektroninių ataskaitų parametrų puslapyje. Šiuo mygtuku pradedamas visų galimų šablonų atsarginių kopijų kūrimo procesas, kad jie galėtų būti išsaugoti šablonų ER atsarginių kopijų saugojimo vietoje.
 
 ![Elektroninių ataskaitų parametrų puslapis.](./media/GER-BackupTemplates-5.png)
 
@@ -93,7 +93,7 @@ Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> *
 
 ## <a name="supported-deployments"></a>Palaikomi diegimai
 
-„Finance and Operations“ 10.0.5 versijoje ER šablonų atsarginių kopijų saugojimo funkcija yra prieinama tik debesyje veikiančioms sistemoms.
+10.0.5 versijoje ER šablonų funkcijos atsarginis saugojimas galimas tik diegiant debesį.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

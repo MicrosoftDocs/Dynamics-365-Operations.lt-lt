@@ -14,18 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b9ab27b443e5ec675ea03e13aa7be4ea84bfb45
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 25889f9d4a7ffb4f155b7b7c12ec3b21a44a4710
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722247"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178450"
 ---
 # <a name="update-process"></a>Atnaujinimo procesas
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Taikoma:** žmogiškieji ištekliai autonominėje infrastruktūrose_ 
 
+> [!NOTE]
+> Nuo 2022 m. liepos mėn. naujų personalo aplinkos negali būti sukurtos atskiras personalo infrastruktūrą ir Microsoft Dynamics naujus ciklo tarnybų (LCS) projektus. Klientai gali įdiegti personalo aplinkas finansų ir operacijų infrastruktūrose. Daugiau informacijos ieškokite Finansų [ir operacijų infrastruktūros personalo parengimas](/hr-admin-setup-provision-fo.md).
 
+> [!IMPORTANT]
+> Finansų ir operacijų programos infrastruktūros naujinimo ir karštųjų pataisų procesas skiriasi nuo autonominio personalo naujinimo ir karštųjų pataisų proceso. Daugiau informacijos apie atnaujinimo procesą ieškokite Procesas, [skirtas pereiti prie vėliausio finansų ir operacijų naujinimo](../fin-ops-core/dev-itpro/migration-upgrade/upgrade-latest-update.md). Norėdami gauti daugiau informacijos apie karštąsias pataisas, [žr. atsisiuntimo naujinimus iš ciklo tarnybų (LCS)](/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs.md). 
 
 „Microsoft Dynamics 365 Human Resources“ yra puiki programinės įrangos nuomos paslauga („SaaS“), teikianti nepertraukiamus, bekontakčius paslaugų naujinimus. Šiuose naujinimuose yra programos ir platformų keitimų, kurie dažnai teikia esminius paslaugų pagerinimus, įskaitant reguliavimo naujinimus.
 
@@ -37,16 +41,14 @@ Naujinimai išleidžiami reguliariais intervalais visoms aplinkoms. „Human Res
 
 „Human Resources“ naujinimai taikomi visoms aplinkoms automatiškai. „Human Resources“ teikia dviejų tipų leidimus:
 
-- **Paslaugų naujinimai**: naujinimai, kuriuose yra klaidų taisymai ir naujos funkcijos, vykdomi kas dvi savaites. Į aptarnavimo naujinimus taip pat įtraukiami taikomi platformos naujinimai, kai jie išleidžiami. Norėdami gauti daugiau informacijos apie platformos paleidimus, žr [. "Kas naujo" arba "Platform" atnaujinimų metu pakeista](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Naujinimai kas dvi savaites regionuose bus įdiegti etapais. Daugiau informacijos apie naujinimus kas dvi savaites žr. [Kas nauja arba pasikeitė programoje „Dynamics 365 Human Resources“](hr-admin-whats-new.md).
+- **Paslaugų naujinimai**: naujinimai, kuriuose yra klaidų taisymai ir naujos funkcijos, vykdomi kas dvi savaites. Į aptarnavimo naujinimus taip pat įtraukiami taikomi platformos naujinimai, kai jie išleidžiami. Norėdami gauti daugiau informacijos apie platformos paleidimus, žr [. "Kas naujo" arba "Platform" atnaujinimų metu pakeista](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Naujinimų visuotinis diegimas etapų metu yra tarp regionų. Daugiau informacijos apie atnaujinimus ieškokite [Kas naujo arba pakeista Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
-    Visi palaikomi duomenų centrai teikia naujinimus kas dvi savaites, nebent nurodyta kitaip. JAV, Australija, Europa, JK, Azija ir Kanada yra įtraukiamos į naujinimus, vykdomus kas dvi savaites. 
-
-- **„Dataverse“ sprendimų naujinimai**: šie naujinimai vykdomi maždaug kas šešios savaitės, jei reikia. Juose yra naujų objektų ir esamų objektų, esančių „Dataverse“, keitimų. Šie naujinimai išleidžiami tuose pačiuose regionuose kaip ir naujinimams, vykdomiems kas dvi savaites, bei užtrunka apie šešias savaites, kol jie dubliuojami visuose duomenų centruose. Sprendimų naujinimai sutampa arba nesutampa su paslaugų naujinimais, vykdomais kas dvi savaites.
+- **„Dataverse“ sprendimų naujinimai**: šie naujinimai vykdomi maždaug kas šešios savaitės, jei reikia. Juose yra naujų objektų ir esamų objektų, esančių „Dataverse“, keitimų. Šie atnaujinimai išleidžiami į tuos pačius regionus kaip ir dviejų savaičių atnaujinimai, jie truks apie šešias savaites, kad dubliuoti visuose duomenų centruose. Sprendimų naujinimai sutampa arba nesutampa su paslaugų naujinimais, vykdomais kas dvi savaites.
 
 > [!NOTE]
 > Sprendimų naujinimai pasiekiami visuose duomenų centruose, kai jie išleidžiami. Jei nenorite laukti, kol naujinimai bus dubliuojami automatiškai, galite rankiniu būdu taikyti šiuos naujinimus bet kuriai aplinkai bet kuriame duomenų centre.
 
-Kai reikia, „Human Resources“ taip pat teikia šiuos taisymų tipus:
+Kai reikia, Žmogiškieji ištekliai pateikia šiuos pataisymų tipus:
 
 - **Tikslinimas (karštosios pataisos)**: klaidų pataisos, kurios gali būti vykdomos kartu su paslaugų naujinimo kas dvi savaites leidimu arba atskirai nuo jo
 
@@ -83,11 +85,11 @@ Galite sužinoti, kas rengiama programai „Human Resources“ ir ką išleidome
 
 Galite patikrinti peržiūros funkcijas smėlio dėžės aplinkoje prieš įjungdami jas savo gamybos aplinkoje. Daugiau informacijos apie naujų funkcijų įjungimą žr. temoje [Funkcijų valdymo apžvalga](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-Visos naujos funkcijos išlieka peržiūroje bent 30 dienų ir paprastai 30–60 dienų. Pagrindinės funkcijos paprastai pasiekiamos kiekvienų metų spalį ir balandį po peržiūros laikotarpio. Kai tik pradedame naujas galimybes darbo srityje Funkcijų valdymas, galite jas įjungti. Kai kurios funkcijos gali būti pagal numatytuosius parametrus.
+Visos naujos funkcijos išlieka peržiūroje bent 30 dienų ir paprastai 30–60 dienų. Pagrindinės funkcijos paprastai pasiekiamos kiekvienų metų spalį ir balandį po peržiūros laikotarpio. Kai tik pradedame naujas galimybes darbo srityje **Funkcijų valdymas**, galite jas įjungti. Kai kurios funkcijos gali būti pagal numatytuosius parametrus.
 
 Kartais integrali funkcija bus įjungta pagal numatytuosius nustatymus ir jos nebus galima išjungti (pavyzdžiui, darbo sritis Funkcijų valdymas).
 
-Kai funkcija jau pasiekiama, ją galima įjungti arba išjungti gamybos aplinkose. Darbo sritis Funkcijų valdymas nurodo, kada peržiūros funkcija taps privaloma. Paprastai ši data yra spalio 1 d. arba balandžio 1 d., siekiant suderinti su pusmečio leidimų planais. Negalite išjungti privalomų funkcijų. Kol ji taps privaloma, šią funkciją galite įjungti ir išjungti visose aplinkose.
+Kai funkcija jau pasiekiama, ją galima įjungti arba išjungti gamybos aplinkose. Darbo sritis **Funkcijų valdymas** nurodo, kada peržiūros funkcija taps privaloma. Paprastai ši data yra spalio 1 d. arba balandžio 1 d., siekiant suderinti su pusmečio leidimų planais. Negalite išjungti privalomų funkcijų. Kol ji taps privaloma, šią funkciją galite įjungti ir išjungti visose aplinkose.
 
 Primygtinai rekomenduojame peržiūrėti funkcijas, esančias smėlio dėžės arba bandomojoje aplinkoje. Geriausia sukurti savo esamos gamybos aplinkos arba duomenų bazės kopiją į smėlio dėžės aplinką, kad galėtumėte gauti visą naujų funkcijų su savo duomenimis patirtį.
 

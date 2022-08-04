@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: acffe97cf1844f16a70c716a7f2078b1e9a072d1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: ded645ebaea1230b68525c247ee91e3893211774
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849480"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124535"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Kas naujo ar pasikeitusio „Dynamics 365 Supply Chain Management“ 10.0.23 (2022 m. sausio mėnesį)
 
@@ -107,3 +107,4 @@ Prieš pašalinant bet kokią priemonę iš produkto, [Dynamics 365 Supply Chain
 Atlikus keitimus, kurie paveikia tik kompiliavimo laiką, bet yra dvejetainiškai suderinami su smėlio dėžės ir gamybos aplinka, nebenaudojimo laikas bus trumpesnis nei 12 mėnesių. Paprastai, tai yra funkciniai naujinimai, kuriuos reikia atlikti kompiliatoriui.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

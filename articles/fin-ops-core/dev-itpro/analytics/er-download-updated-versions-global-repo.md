@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 69eaa3e2ecfbd1e92f23725d97d7fa9f0abe1cea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0dac106a592a6a70aae6b245bce74d21c98cad10
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847552"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108446"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>Atnaujintų ER konfigūracijų versijų naujinimas
 
@@ -28,7 +28,7 @@ ms.locfileid: "8847552"
 
 Elektroninių ataskaitų (ER) [saugyklos ](general-electronic-reporting.md#Repository) naudojamos norint bendrinti [ER konfigūracijas](general-electronic-reporting.md#Configuration). Galite importuoti [ER](download-electronic-reporting-configuration-lcs.md) konfigūracijas iš skirtingų saugyklų į savo Microsoft Dynamics 365 finansų egzempliorių. Importuojant ER konfigūracijas, [konfigūracijos teikėjai](general-electronic-reporting.md#Provider) gali publikuoti naujas [versijų](general-electronic-reporting.md#component-versioning) saugyklas, kad jas būtų galima bendrinti.
 
-Šiame straipsnyje paaiškinama, kaip importuoti atnaujintas ER konfigūracijų versijas iš konfigūracijos tarnybos visuotinės saugyklos. Norėdami gauti daugiau informacijos, žr. [„Microsoft Dynamics 365 for Finance and Operations“ – „Regulatory Services“, konfigūravimo tarnybą](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+Šiame straipsnyje paaiškinama, kaip importuoti atnaujintas ER konfigūracijų versijas iš konfigūracijos tarnybos visuotinės saugyklos. Daugiau informacijos rasite [Microsoft Dynamics 365 Finansų – reguliavimo tarnybos, Konfigūracijos tarnyba](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="review-the-available-updated-versions"></a>Galimų atnaujintų versijų peržiūra
 

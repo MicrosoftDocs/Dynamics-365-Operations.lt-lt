@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: af344d3771583a99851c070e3735258ac964b5d7
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
-ms.translationtype: MT
+ms.openlocfilehash: c54534ae32aa037f36a16600a058bca6d433002c
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954502"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9167738"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Kas nauja arba pasikeitė „Dynamics 365 Supply Chain Management” 10.0.25 versijoje (2022 m. balandžio mėn.)?
 
@@ -36,8 +36,7 @@ Tolesnėje lentelėje pateiktos funkcijos, kuri yra šiame leidime. Mes galime a
 | Atsargos&nbsp;ir&nbsp;logistika | [Pavojingų medžiagų patobulinimai](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/hazardous-materials-enhancements) | Jau greitai | Priemonių valdymas:<br>*Pavojingų medžiagų patobulinimai* |
 | Atsargos&nbsp;ir&nbsp;logistika | [Pakavimo vietų pakavimo darbas](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | Jau greitai | Priemonių valdymas:<br>*Pakavimo vietų pakavimo darbas* |
 | Atsargos&nbsp;ir&nbsp;logistika | [Nuskaityti brūkšninius kodus sandėlyje naudojant GS1 formato standartus](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1 brūkšniniai kodai ir QR kodai](../warehousing/gs1-barcodes.md) | Priemonių valdymas:<br>*Nuskaityti GS1 brūkšninius kodus* |
-| Gamyba | [Medžiagų suvartojimas ir rezervavimas gamybos laiko vykdymo sąsajoje](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Kaip darbuotojai naudoja gamybos vietos vykdymo sąsają](../production-control/production-floor-execution-use.md) | Priemonių valdymas:<br>*(Peržiūros versija) Registruokite medžiagų suvartojimą gamybos vietos vykdymo sąsajoje (ne WMS)*<br><br>Ir (arba):<br><br>Priemonių valdymas:<br>*(Peržiūros versija) Užregistruokite medžiagų suvartojimą gamybos vietos vykdymo sąsajoje (veikia WMS)* |
-| Gamyba | [Registruoti medžiagų suvartojimą skalės vienetais](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/register-material-consumption-scale-units) | [Gamybos vykdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams](../cloud-edge/cloud-edge-workload-manufacturing.md) | Priemonių valdymas:<br>*Užregistruokite medžiagų suvartojimą mobiliojoje programėlėje, esančioje svėrimo įrenginyje* |
+| Gamyba | [Medžiagų suvartojimas ir rezervavimas gamybos laiko vykdymo sąsajoje](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Kaip darbuotojai naudoja gamybos vietos vykdymo sąsają](../production-control/production-floor-execution-use.md) | Priemonių valdymas:<br>*Registruoti medžiagų suvartojimą gamybos laiko vykdymo sąsajoje (ne WMS)*<br><br>Ir (arba):<br><br>Priemonių valdymas:<br>*(Peržiūros versija) Užregistruokite medžiagų suvartojimą gamybos vietos vykdymo sąsajoje (veikia WMS)* |
 | Planuojama | [Planavimo optimizavimo centralizuota kalendoriaus priežiūra](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-centralized-calendar-maintenance) | [Kalendoriai ir bendrasis planavimas](../master-planning/supply-chain-calendars-master-planning.md) | Įgalinta pagal numatytuosius nustatymus |
 | Planuojama | [Esamo tiekimo optimizavimo pasiūlymų planavimas](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [Veiksmų pranešimai](../master-planning/action-messages.md) | Įgalinta pagal numatytuosius nustatymus |
 | Planuojama | Supaprastinti planuoti užsakymai | [Supaprastinti planuoti užsakymai](../master-planning/planning-optimization/planned-orders-simplified.md ) | Priemonių valdymas:<br>*Supaprastinti planuoti užsakymai* |
@@ -209,3 +208,4 @@ Prieš pašalinant bet kokią priemonę iš produkto, [Dynamics 365 Supply Chain
 Atlikus keitimus, kurie paveikia tik kompiliavimo laiką, bet yra dvejetainiškai suderinami su smėlio dėžės ir gamybos aplinka, nebenaudojimo laikas bus trumpesnis nei 12 mėnesių. Paprastai, tai yra funkciniai naujinimai, kuriuos reikia atlikti kompiliatoriui.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

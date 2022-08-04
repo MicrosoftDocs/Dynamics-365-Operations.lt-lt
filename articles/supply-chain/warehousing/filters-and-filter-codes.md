@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: f3d6cd373699d374c019f0db7befaffc169f4f6c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7d6524cb9109263ad62d221ec98e546b962b89ee
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850444"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067535"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Sandėlio operacijų produktų filtrų konfigūravimas
 
@@ -95,7 +95,7 @@ Norėdami nustatyti filtrų kodus prekių grupėms, atlikite šiuos veiksmus.
     Pavyzdžiui, jei pasirinkti **Naudoti 1 filtro kodą** ir **Naudoti 2 filtro kodą** žymės langeliai, abu prekės 1 ir 2 filtrų kodai turi atitikti filtrų grupės konfigūraciją prekės grupei, nes tik tokiu atveju bus galima pasirinkti filtrų grupę. Kai kuriate naują prekė, pasirinkta filtro grupė bus numatytoji filtro grupė **1 grupė** ir **2 grupė** laukuose, esančiuose **Sandėlio** „FastTab skirtuke”, **Išleisto produkto informacija** puslapyje.
 
 > [!IMPORTANT]
-> Produktų filtro kodai įgalinami tik prekėms, naudojančioms išplėstinį sandėlio valdymą.
+> Produktų filtro kodai įgalinami tik prekėms, kurios naudoja sandėlio valdymo procesus (WMS).
 
 ## <a name="specify-filter-codes-for-released-products"></a>Filtrų kodų nurodymas išleistiems produktams
 
@@ -158,7 +158,7 @@ Tiekėjo filtrų kodų nustatymui atlikite šiuos veiksmus.
 1. Laukuose nuo **1 kodo** iki **10 kodo** pasirinkite filtrų kodus, kurie bus naudojami kaip apribojimo kriterijai prekėms, pasiekiamoms tiekėjams pasirinktoje prekių grupėje. Turite pasirinkti kiekvienam filtro kodui, nustatytam prekės grupei.
 
 > [!NOTE]
-> Tiekėjo produktų filtro konfigūracija taikoma išleistiems produktams, kuriuose įgalinti sandėlio valdymo procesai susietai saugojimo dimensijų grupei. Filtro kodai naudojami siekiant nustatyti, ar sistema leis vartotojams įsigyti tam tikrą prekę iš tam tikro tiekėjo, kai jie kuria pirkimo užsakymo eilutes. „Microsoft Dynamics 365 Supply Chain Management” yra du tiekėjo patvirtinimo tvarkymo metodai. Jei yra vienas ar daugiau išleistų produktų, kurio laukas **Patvirtinto tiekėjo patikrinimo metodas** yra nustatytas į *Tik įspėjimas* arba *Neleidžiama*, abu tiekėjo patvirtinimo metodai gali būti įjungti toms prekėms. Ši situacija gali sukelti problemų, kai vartotojai kuria pirkimo užsakymo eilutes.
+> Tiekėjo produktų filtrų nustatymas taikomas išleistiems produktams, kai sandėlio valdymo procesai (WMS) įgalinti susietai saugojimo dimensijų grupei. Filtro kodai naudojami siekiant nustatyti, ar sistema leis vartotojams įsigyti tam tikrą prekę iš tam tikro tiekėjo, kai jie kuria pirkimo užsakymo eilutes. „Microsoft Dynamics 365 Supply Chain Management” yra du tiekėjo patvirtinimo tvarkymo metodai. Jei yra vienas ar daugiau išleistų produktų, kurio laukas **Patvirtinto tiekėjo patikrinimo metodas** yra nustatytas į *Tik įspėjimas* arba *Neleidžiama*, abu tiekėjo patvirtinimo metodai gali būti įjungti toms prekėms. Ši situacija gali sukelti problemų, kai vartotojai kuria pirkimo užsakymo eilutes.
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

@@ -2,7 +2,7 @@
 title: Nustatyti tiesioginį ItalijosturaPA integravimą su SDI
 description: Šiame straipsnyje pateikiama informacija, kuri padės jums pradėti nuo Italijos elektroninių SF išrašymo ir nustatyti tiesioginį Italijos AsturaPA integravimą su exchange sistema (SDI).
 author: abaryshnikov
-ms.date: 01/15/2022
+ms.date: 07/27/2022
 ms.topic: article
 audience: Application User, Developer
 ms.reviewer: kfend
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: abaryshnikov
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 510cf05e7bbc925478f9a1a4ea2ea27fe397c570
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 363b7b5e3d5abbb990fea8f8ad4d0c1bebf80102
+ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853198"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9203176"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>Nustatyti tiesioginį ItalijosturaPA integravimą su SDI
 
@@ -67,12 +67,15 @@ Prieš diegdami programos nustatymą prie prijungtų finansų arba tiekimo grand
 3. Pardavimo galimybių **apdorojimo** skyriuje eikite per veiksmus ir nustatykite visus būtinus laukus:
 
     - Dokumento ženklo **veiksmo** lauke Sertifikato pavadinimas **nurodykite** skaitmeninio parašo sertifikatą.
-    - Norėdami pateikti **veiksmą** nustatykite URL adreso **ir** **sertifikatų** laukus. Lauko Sertifikatai vertė **yra** sertifikatų grandinė, iš kurių pirmasis yra šakninis CA sertifikatas (caentrate.cer), o antrasis – kliento sertifikatas.
+    - Norėdami pateikti **veiksmą** nustatykite URL adreso **ir** **sertifikatų** laukus. Lauko Sertifikatai **vertė** yra sertifikatų grandinė, iš kurių pirmasis yra šakninis CA sertifikatas (caentrate.cer), o antrasis – kliento sertifikatas.
 
-4. Pasirinkite **Tikrinti,** jei norite užtikrinti, kad visi privalomi laukai yra nustatyti.
-5. Įrašykite keitimus ir uždarykite puslapį.
-6. Skirtuke **Nustatymai** pasirinkite **Projekto SF**, tada – **Redaguoti**.
-7. Pakartokite 3–5 žingsnius projekto SF.
+4. Skyriuje Pritaikymo **taisyklės** eikite per sąlygas ir peržiūrėkite arba nustatykite būtinus laukus:
+    - Peržiūrėkite sąlygą **LegalEntityID** ir atnaujinkite savo juridinio subjekto tinkama reikšme.
+
+5. Pasirinkite **Tikrinti,** jei norite užtikrinti, kad visi privalomi laukai yra nustatyti.
+6. Įrašykite keitimus ir uždarykite puslapį.
+7. Skirtuke **Nustatymai** pasirinkite **Projekto SF**, tada – **Redaguoti**.
+8. Pakartokite 3–6 žingsnius projekto SF.
 
 ### <a name="configure-the-processing-pipeline-for-import"></a>Konfigūruoti importo apdorojimo pardavimo galimybes
 
@@ -161,7 +164,7 @@ Prieš diegdami programos nustatymą prie prijungtų finansų arba tiekimo grand
 
     2. Pasirinkite **Registruoti**, tada pasirinkite ką tik sukurtą programos registraciją.
     3. Eikite į **API teises** ir pasirinkite Subsidijos **administratoriaus sutikimas**.
-    4. Pereikite prie **sertifikatų > paslapčių**, **pasirinkite** Įkelti sertifikatą ir įkelkite .cer sertifikato failą, kad jį būtų galima naudoti S2S autentifikavimui.
+    4. Pereikite prie **sertifikatų > paslapdymų** **,** pasirinkite Įkelti sertifikatą ir .cer sertifikato failą, kad jį būtų galima naudoti S2S autentifikavimui.
     5. Eikite **į įmonės** programas ir pasirinkite sukurtą programą.
     6. Įrašykite **programos ID** (kliento ID) ir **objekto ID** vertes, skirtas programai.
     7. SF išrašymo paslaugų komanda turi suteikti programai prieigą prie paslaugos. Siųsti šių parametrų vertes į <D365EInvoiceSupport@microsoft.com>:
@@ -234,7 +237,7 @@ Atlikite šiuos veiksmus kompiuteryje, kuriame yra tarpinis serveris.
 
 1. Prisijunkite prie VM naudodami nuotolinio darbalaukio ryšį.
 2. Atidarykite vietinio kompiuterio sertifikato įfiksavimo įrankį. Norėdami gauti daugiau informacijos, žr [. Kaip: peržiūrėti sertifikatus, kai galima prispausti](/dotnet/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in) MMC.
-3. Importuokite **caentrate.cer gamybos** sertifikatą **ir CAEntratetest.cer**[, kad jį būtų galima patikrinti patikimos šakninio sertifikavimo institucijos parduotuvėje](/dotnet/framework/wcf/feature-details/working-with-certificates#certificate-stores). (**CAEntratetest.cer** yra šakninis CA sertifikatas, kurį pateikė institucija.)
+3. Importuoti caentrate.cer sertifikatą **gamybai ir CAEntratetest.cer** naudoti tikrinant į **patikimos šakninių sertifikavimo institucijų parduotuvę**.[...](/dotnet/framework/wcf/feature-details/working-with-certificates#certificate-stores) (**CAEntratetest.cer** yra valdžios institucijos pateiktas šakninis CA sertifikatas.)
 4. Valdymo skyde atidarykite **Įjungti arba išjungti "Windows** **·** \> **·**" funkcijas arba pereikite į serverio operacinės sistemos (OS) serverio tvarkytuvo įtraukti vaidmenis ir funkcijas ir įjunkite informacinių interneto paslaugų (IIS) funkcijas:
 
     - Tinklo valdymo įrankiai
@@ -242,9 +245,9 @@ Atlikite šiuos veiksmus kompiuteryje, kuriame yra tarpinis serveris.
     - Interneto tinklo tarnybos
         - Programos programavimo priemonės
             - .NET Extensibility 4.7 (arba 4.8)
-            - ASP
+            - Asp
             - ASP.NET 4.7 (arba 4.8)
-            - CGI
+            - Cgi
             - ISAPI plėtiniai
             - ISAPI filtrai
         - Bendrosios HTTP funkcijos

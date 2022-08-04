@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f032f95377fdc6f8ec7fbbfa7aadab8fc448be5d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fb0fbfcceece2883c32a266bcbe659211b0b56ce
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577773"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069733"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Min.–maks. papildymo proceso nustatymas
 
 [!include [banner](../../includes/banner.md)]
 
-Šia procedūra paaiškinama, kaip nustatyti naują papildymo procesą, kuris naudoja minimalaus / maksimalaus papildymo strategiją. Kai atsargos nukris žemiau minimalaus lygio, papildyti tai vietai bus sukurtas darbas. Šia procedūra taip pat rodoma, kaip naudojant fiksuotas paėmimo vietas leisti papildyti sandėlį, net jei atsargos nukrenta žemiau minimalaus lygio, ir kaip įgalinti reguliarų papildymo proceso vykdymą, naudojant paketinę užduotį. Šias užduotis paprastai turėtų atlikti sandėlio vadovas. Šią procedūrą galite vykdyti demonstracinių duomenų įmonėje USMF, naudodami toliau pateiktus reikšmių pavyzdžius, arba ją galite vykdyti su savo duomenimis. Jei naudojate savo duomenis, įsitikinkite, kad turite sandėlį, įgalintą sandėlio valdymo procesams.
+Šia procedūra paaiškinama, kaip nustatyti naują papildymo procesą, kuris naudoja minimalaus / maksimalaus papildymo strategiją. Kai atsargos nukris žemiau minimalaus lygio, papildyti tai vietai bus sukurtas darbas. Šia procedūra taip pat rodoma, kaip naudojant fiksuotas paėmimo vietas leisti papildyti sandėlį, net jei atsargos nukrenta žemiau minimalaus lygio, ir kaip įgalinti reguliarų papildymo proceso vykdymą, naudojant paketinę užduotį. Šias užduotis paprastai turėtų atlikti sandėlio vadovas. Šią procedūrą galite vykdyti demonstracinių duomenų įmonėje USMF, naudodami toliau pateiktus reikšmių pavyzdžius, arba ją galite vykdyti su savo duomenimis. Jei naudojate savo duomenis, įsitikinkite, kad yra sandėlis, kuriame įgalinti sandėlio valdymo procesai (WMS).
 
 
 ## <a name="create-a-fixed-picking-location"></a>Fiksuotos paėmimo vietos kūrimas

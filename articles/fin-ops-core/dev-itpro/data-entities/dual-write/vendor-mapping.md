@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 394bb19000076eace6377e07bb3a939c8345da8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a2c32ef546a5bc74e090591c0ac9d51529299041
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905321"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112209"
 ---
 # <a name="integrated-vendor-master"></a>Bendrieji integruoto tiekėjo duomenys
 
@@ -52,8 +52,9 @@ Tiekėjo duomenys apima visą informaciją apie tiekėją, pvz., tiekėjų grup�
 [Mokėjimo grafiko eilutės](mapping-reference.md#159) | msdyn_paymentschedulelines | Sinchronizuojami tiek klientų, tiek tiekėjų mokėjimo grafikų eilučių nuorodos duomenys.
 [Mokėjimo grafikas](mapping-reference.md#160) | msdyn_paymentschedules | Naudojant šį šabloną sinchronizuojami tiek klientų, tiek tiekėjų mokėjimo grafikų nuorodos duomenys.
 [Mokėjimo sąlygos](mapping-reference.md#161) | msdyn_paymentterms | Naudojant šį šabloną sinchronizuojami tiek klientų, tiek tiekėjų mokėjimo sąlygų nuorodos duomenys.
-[Tiekėjai V2](mapping-reference.md#202) | msdyn_vendors | Įmonės, kurios naudoja pasirinktinį sprendimą tiekėjams gali pasinaudoti pradine tiekėjo koncepcija, kuri yra pristatyta „Dataverse“ ir teikiama dėl „Finance and Operations“ programų integracijos.
+[Tiekėjai V2](mapping-reference.md#202) | msdyn_vendors | Įmonės, kurios naudoja pasirinktinį Dataverse sprendimą tiekėjams, gali pasinaudoti nedingo tiekėjo sąvoka, kuri įvedama dėl finansų ir operacijų programėlių integravimo.
 [Tiekėjų grupės](mapping-reference.md#200) | msdyn_vendorgroups | Naudojant šį šabloną sinchronizuojama tiekėjų grupių informacija.
 [Tiekėjo mokėjimo būdas](mapping-reference.md#201) | msdyn_vendorpaymentmethods | Naudojant šį šabloną sinchronizuojama tiekėjų mokėjimo būdų informacija.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

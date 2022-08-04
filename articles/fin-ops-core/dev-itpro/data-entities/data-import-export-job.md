@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1407c6def22b9759723e49fb2fa6d4d68f180891
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 18a15928eef4d7158f778729506d691dd587e013
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860170"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109469"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Duomenų importavimo ir eksportavimo užduočių apžvalga
 
@@ -209,7 +209,7 @@ Planuodami valymo procesą, turite nurodyti šiuos parametrus, kad apibrėžtum�
 ## <a name="job-history-clean-up-and-archival"></a>Užduočių retrospektyvos valymas ir archyvavimas 
 Užduoties retrospektyvos valymo ir archyvavimo funkcija pakeičia ankstesnes valymo funkcijos versijas. Šiame skyriuje bus paaiškintos naujos galimybės.
 
-Vienas iš pagrindinių valymo funkcijos pakeitimų yra sistemos paketinės užduoties naudojimas retrospektyvai valyti. Naudojant sistemos paketinę užduotį, finansų ir operacijų programėlės gali automatiškai suplanuoti ir paleisti valymo paketinę užduotį, kai tik sistema bus parengta. Nebereikia paketinės užduoties planuoti neautomatiniu būdu. Šiuo numatytuoju vykdymo režimu paketinė užduotis bus vykdoma kiekvieną valandą nuo vidurnakčio ir išlaikys vykdymo retrospektyvą artimiausioms 7 dienoms. Išvalyta retrospektyva archyvuojama, kad ją būtų galima gauti ateityje. Pradedant 10.0.20 versija, ši funkcija visada įjungta.
+Vienas iš pagrindinių valymo funkcijos pakeitimų yra sistemos paketinės užduoties naudojimas retrospektyvai valyti. Naudojant sistemos paketinę užduotį, finansinės ir operacijų programėlės gali automatiškai suplanuoti ir paleisti valymo paketinę užduotį, kai tik sistema bus parengta. Nebereikia paketinės užduoties planuoti neautomatiniu būdu. Šiuo numatytuoju vykdymo režimu paketinė užduotis bus vykdoma kiekvieną valandą nuo vidurnakčio ir išlaikys vykdymo retrospektyvą artimiausioms 7 dienoms. Išvalyta retrospektyva archyvuojama, kad ją būtų galima gauti ateityje. Pradedant 10.0.20 versija, ši funkcija visada įjungta.
 
 Antrasis valymo proceso pakeitimas yra išvalytos vykdymo retrospektyvos archyvavimas. Išvalymo užduotis archyvuoja panaikintus įrašus didelių dvejetainių objektų saugykloje, kurią DIXF naudoja įprastai integracijai. Suarchyvuotas failas bus DIXF paketo formatu ir bus pasiekiamas 7 dienas didelių dvejetainių objektų saugykloje – tada jį bus galima atsisiųsti. Numatytąją 7 dienų suarchyvuoto failo laikymą parametruose galima pakeisti į ne daugiau nei 90 dienų.
 
@@ -235,3 +235,4 @@ Norėdami atsisiųsti suarchyvuotą vykdymo retrospektyvą, eikite į duomenų t
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

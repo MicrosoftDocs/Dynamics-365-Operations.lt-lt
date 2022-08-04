@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 2d095b0f6ff707852b4c9e22fd9c31cf87ccbe9d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ec4f20daac39e1728ab46db159059e51a0cae0a6
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905782"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103777"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Kliento portalo vartotojų kūrimas ir valdymas
 
@@ -33,7 +33,7 @@ Kai vartotojai užsiregistruoja patys, jiems automatiškai sukuriami kontaktų �
 ## <a name="video"></a>Vaizdo
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
 
-[Kviesti klientus registruotis ir naudoti savo klientų portalo vaizdo įrašą](https://youtu.be/drGUYHX9QIQ) (parodyta pirmiau) [yra įtrauktas į finansų ir operacijų veiksmų veiksmų](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) galimų sąrašą YouTube.
+[Kviesti klientus registruotis ir naudoti savo klientų portalo vaizdo įrašą](https://youtu.be/drGUYHX9QIQ) (parodyta pirmiau) yra įtrauktas [į finansų ir operacijų veiksmų veiksmų](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) galimų sąrašą YouTube.
 
 ## <a name="prerequisite-setup"></a>Būtinieji nustatymo veiksmai
 

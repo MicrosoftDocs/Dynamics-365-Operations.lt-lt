@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 520c8b32099024e9a9619a6ecdcd3ba7b97c7ecf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 89175763357f4309c4eb7874d0068586c5d9e726
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856924"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123955"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Išplėstinio filtravimo ir užklausų sintaksė
 
@@ -122,7 +122,7 @@ ms.locfileid: "8856924"
 <td>Naudojant dvi iš eilės įvestas dvigubas kabutes (<strong>""</strong>), randamos eilutės, kuriose dabartinio stulpelio reikšmių nėra.</td>
 </tr>
 <tr>
-<td>(<span class="code">Finansų ir operacijų užklausa</span>) (Finansų ir operacijų užklausa tarp skliaustelių)</td>
+<td>(<span class="code">Finansų ir operacijų užklausa</span>) (finansų ir operacijų užklausa tarp skliaustelių)</td>
 <td>Ieškoma užklausos, atitinkančios nustatytą</td>
 <td>Įveskite užklausą kaip SQL sakinį tarp skliaustų, naudodami finansų ir operacijų užklausos kalbą.</td>
   <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-09-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 776498b32f8323b1a06f39b518cdc1ae534f9bcc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 03f832a6a3a099c472b781f7e2258ac575127101
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872158"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070007"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-6-2021"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ 2021 m. rugsėjo 6 d.
 
@@ -76,7 +76,7 @@ Norėdami gauti visą planuojamų funkcijų ir jų suplanuotų leidimų sąraš�
 
 | Funkcija | Informacija |
 |---|---|
-| Platformos atnaujinimas 10.0.21 (45) | Platformos atnaujinimo atmetimas 10.0.21 yra suplanuotas pasirodyti su nauju leidimu 2021 m. spalio 4 d. Daugiau informacijos rasite finansų ir operacijų [programėlių 10.0.21 versijos (2021 m. spalio mėn.) platformos naujinimus](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21). |
+| Platformos atnaujinimas 10.0.21 (45) | Platformos atnaujinimo atmetimas 10.0.21 yra suplanuotas pasirodyti su nauju leidimu 2021 m. spalio 4 d. Norėdami gauti daugiau informacijos, žr. [10.0.21 finansų ir operacijų programėlių versijos (2021 m. spalio mėn.) platformos naujinimus](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21). |
 | Išmokų išrašas | Išmokų išrašas, skirtas dabartiniams darbuotojo išmokų išrinkimams peržiūrėti. Daugiau informacijos ieškokite [Išmokų išraše](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/benefits-summary-statement) Leidimo bangos dokumente. |
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
@@ -87,3 +87,4 @@ Norėdami gauti visą planuojamų funkcijų ir jų suplanuotų leidimų sąraš�
 [Funkcijų valdymas](hr-admin-manage-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

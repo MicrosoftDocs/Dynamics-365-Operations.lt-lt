@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d098aa77b4eb87118692c18ecd1b09a5de2c53d6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7d8d59def24fd138b4cf1d36e286b786e13b096e
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890412"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124035"
 ---
 # <a name="upgrade-budget-planning"></a>Biudžeto planavimo naujinimas
 
@@ -30,7 +30,7 @@ ms.locfileid: "8890412"
 „Finance“ modulyje Biudžeto planavimas yra daug patobulinimų, kurių nebuvo „Dynamics AX 2012“. Šiame straipsnyje paaiškinami pakeitimai, kuriuos turi atlikti atnaujinę klientai. Joje taip pat nurodomos naujos funkcijos, į kurias reikėtų atsižvelgti atnaujinimo proceso metu. Dėl pakeitimų apimties visi esami biudžeto planai nebus atidaryti, kol nebus atlikti šiame straipsnyje nurodyti pakeitimai. Tačiau ataskaitos turėtų veikti neatlikus papildomų keitimų.
 
 ## <a name="overview-of-changes"></a>Keitimų apžvalga
-Atlikta daug svarbių „Finance and Operations“ biudžeto sudarymo funkcijos keitimų. Atlikus šiuos keitimus, biudžeto planavimo funkciją turėtų būti lengviau konfigūruoti ir naudoti pakartotinai, todėl kasmetinė priežiūra ir sąranka turėtų atimti mažiau laiko. Toliau nurodytų „AX 2012“ sričių sprendime „Finance“ nebėra.
+Biudžeto biudžete buvo padaryta daug svarbių finansų ir operacijų keitimų. Atlikus šiuos keitimus, biudžeto planavimo funkciją turėtų būti lengviau konfigūruoti ir naudoti pakartotinai, todėl kasmetinė priežiūra ir sąranka turėtų atimti mažiau laiko. Toliau nurodytų „AX 2012“ sričių sprendime „Finance“ nebėra.
 
 -   Biudžeto plano šablonai (biudžeto planavimo konfigūracija)
 -   Biudžeto plano aplankai (biudžeto planavimo konfigūracija)
@@ -47,7 +47,7 @@ Stulpeliai yra nauja samprata, pakeičianti „Excel“" šablono ir matricos la
 
 ### <a name="layouts"></a>Maketai
 
-Maketai yra nauja samprata, pakeičianti „Excel“ šabloną. Maketuose yra stulpeliai, nurodantys, kuri biudžeto arba faktinių sumų data ir kuris laikotarpis turi būti rodomi. Taip pat maketus bendrai naudoja klientas ir „Excel“ papildinys. Todėl duomenų įvedimo arba peržiūros vartotojo patirtis „Finance and Operations“ kliente yra geresnė nei vartotojo patirtis „AX 2012“. Norėdami įvesti duomenis į „Finance“ klientą, operacijos rodinyje galite peržiūrėti ir įvesti ne tik vieną scenarijų. Palyginimo rodinyje galite lengvai peržiūrėti ir įvesti kelių laikotarpių ir sąskaitų sumas tuo pačiu metu. Maketus taip pat galima nustatyti, todėl galite įvesti ir peržiūrėti valiutą, komentarus ir kitus papildomus duomenis. Maketai taip pat suteikia galimybę nurodyti, kurios DK dimensijos ir kurie dimensijų aprašymai turi būti rodomi. Maketai taip pat apima scenarijų apribojimus, kad būtų galima nustatyti, kuriuos stulpelius šablone galima redaguoti, o kuriuos stulpelius galima atidaryti programoje „Excel“. Nustačius maketą, sugeneruojamas jo šablonas. Tada šis šablonas sukuria atitinkamą „Excel“ šabloną. Tada galite redaguoti „Excel“ šabloną ir įtraukti daugiau formulių bei formatavimo elementų, o tada – įkelti jį dar kartą. Tada maketai priskiriami kiekvienai etapo taisyklei puslapyje **Biudžeto planavimo procesas**. Todėl maketai pakeičia šablonus, kurie buvo priskiriami ir naudojami panašiu būdu.
+Maketai yra nauja samprata, pakeičianti „Excel“ šabloną. Maketuose yra stulpeliai, nurodantys, kuri biudžeto arba faktinių sumų data ir kuris laikotarpis turi būti rodomi. Taip pat maketus bendrai naudoja klientas ir „Excel“ papildinys. Todėl vartotojų patirtis duomenų įvesdami arba tik AX kai 2012 m. įvedate ar peržiūrėkite duomenis apie klientą ir operacijas yra geriau nei vartotojų patirtis. Norėdami įvesti duomenis į „Finance“ klientą, operacijos rodinyje galite peržiūrėti ir įvesti ne tik vieną scenarijų. Palyginimo rodinyje galite lengvai peržiūrėti ir įvesti kelių laikotarpių ir sąskaitų sumas tuo pačiu metu. Maketus taip pat galima nustatyti, todėl galite įvesti ir peržiūrėti valiutą, komentarus ir kitus papildomus duomenis. Maketai taip pat suteikia galimybę nurodyti, kurios DK dimensijos ir kurie dimensijų aprašymai turi būti rodomi. Maketai taip pat apima scenarijų apribojimus, kad būtų galima nustatyti, kuriuos stulpelius šablone galima redaguoti, o kuriuos stulpelius galima atidaryti programoje „Excel“. Nustačius maketą, sugeneruojamas jo šablonas. Tada šis šablonas sukuria atitinkamą „Excel“ šabloną. Tada galite redaguoti „Excel“ šabloną ir įtraukti daugiau formulių bei formatavimo elementų, o tada – įkelti jį dar kartą. Tada maketai priskiriami kiekvienai etapo taisyklei puslapyje **Biudžeto planavimo procesas**. Todėl maketai pakeičia šablonus, kurie buvo priskiriami ir naudojami panašiu būdu.
 
 ### <a name="budget-planning-processes"></a>Biudžeto planavimo procesai
 
@@ -69,7 +69,7 @@ Siekiant jums padėti suprasti, kaip konfigūruoti atnaujintą sistemą, tolesni
    -   Biudžeto plano scenarijai: Faktinės sumos, Bazinė suma, Biudžeto užklausa, Patvirtintas biudžetas
    -   Biudžeto plano eilutes visiems scenarijams 2017 m., o faktinės sumos – 2017 m. ir 2016 m.
 
-   Sprendime „Finance and Operations“ bus sukurti toliau nurodyti stulpeliai.
+   Finansuose ir operacijose bus sukurti šie stulpeliai:
 
    | Stulpelio pavadinimas    | Biudžeto plano scenarijus | Stulpelio laikotarpis | Metų poslinkis |
    |----------------|----------------------|--------------------|-------------|

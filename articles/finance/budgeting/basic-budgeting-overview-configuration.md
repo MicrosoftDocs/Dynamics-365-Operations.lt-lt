@@ -1,6 +1,6 @@
 ---
 title: Biudžetų sudarymo modulio apžvalga
-description: Beveik kiekviena įmonė, naudojanti finansinių Microsoft Dynamics funkcijų funkciją 365 finansuose, turės turėti galimybę kurti biudžeto ir faktinių duomenų ataskaitas. Šiame straipsnyje paaiškinama konfigūravimo veiksmai, kuriuos reikia atlikti norint kurti biudžetus programoje „Finance and Operations“ arba įkelti juos iš trečiosios šalies programos.
+description: Beveik kiekviena įmonė, naudojanti finansinių Microsoft Dynamics funkcijų funkciją 365 finansuose, turės turėti galimybę kurti biudžeto ir faktinių duomenų ataskaitas. Šiame straipsnyje paaiškinama minimali konfigūracija, kurios reikia, norint sukurti biudžetus finansinėse ir operacijose arba įkelti juos iš trečiosios šalies programos.
 author: panolte
 ms.date: 04/29/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 48fcfec7126b4835b7d05e431bbc6ad7b9176bbe
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 380afc399a050215bb2d7b1e5ddb20088226f654
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710419"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068967"
 ---
-# <a name="budgeting-overview"></a>Biudžetų sudarymo modulio apžvalga
+# <a name="budgeting-overview"></a>Biudžetų sudarymo apžvalga
 
 [!include [banner](../includes/banner.md)]
 
-Beveik kiekviena įmonė, naudojanti finansinių Microsoft Dynamics funkcijų funkciją 365 finansuose, turės turėti galimybę kurti biudžeto ir faktinių duomenų ataskaitas. Šiame straipsnyje paaiškinama konfigūravimo veiksmai, kuriuos reikia atlikti norint kurti biudžetus programoje „Finance and Operations“ arba įkelti juos iš trečiosios šalies programos.
+Beveik kiekviena įmonė, naudojanti finansinių Microsoft Dynamics funkcijų funkciją 365 finansuose, turės turėti galimybę kurti biudžeto ir faktinių duomenų ataskaitas. Šiame straipsnyje paaiškinama minimali konfigūracija, kurios reikia, norint sukurti biudžetus finansinėse ir operacijose arba įkelti juos iš trečiosios šalies programos.
 
 ## <a name="overview"></a>Apžvalga
 
@@ -89,3 +89,4 @@ Užklausų puslapis **Faktinė ir biudžeto sumos** suteikia galimybę detalizuo
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 1c79e1df53dfabc33aeacb56096b113e62b765d5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a53dfd02ac2f42fd680eb71509dbd41214160f19
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8875339"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066025"
 ---
 # <a name="master-planning-setup-wizard"></a>Bendrojo planavimo sąrankos vedlys
 
@@ -31,7 +31,7 @@ ms.locfileid: "8875339"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnSB]
 
-[Bendrojo planavimo sąrankos vedlys sistemoje „Dynamics 365 Supply Chain Management“](https://youtu.be/c-e6n-8rZb4) vaizdo įrašas (pateiktas pirmiau) yra įtrauktas į [„Finance and Operations“ grojaraštį](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kurį galima rasti „YouTube“.
+Bendrojo [planavimo nustatymo vedlys vaizdo įraše Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (parodyta viršuje) yra įtrauktas į finansų [ir operacijų,](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) kurios galimos šiandien, sąrašą YouTube.
 
 
 ## <a name="specific-requirements-of-your-company"></a>Konkretūs jūsų įmonės reikalavimai

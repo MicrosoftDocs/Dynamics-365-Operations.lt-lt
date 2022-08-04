@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c407b45f3df91d569c2bf043ff9f83b640837bb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e0c0e283189998473469164398fa6f43c8e8825e
+ms.sourcegitcommit: 3a882de1f1c27654a8e92ebc1999c75678cc9a53
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899446"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9201873"
 ---
 # <a name="reserve-inventory-quantities"></a>Atsargų kiekių rezervavimas
 
@@ -75,7 +75,7 @@ Pardavimo užsakymas, kuris turėtų būti automatiškai rezervuotas ir pristaty
 
 Galima naudoti dvi toliau nurodytas parinktis, susijusias su rezervavimais puslapyje **Atsargų ir sandėlio valdymo parametrai**.
 -   Naudojant skirtuko **Bendra** parinktį **Rezervuoti užsakytas prekes** galite rezervuoti prekių gavimus, kurie užsakomi su prekių išdavimais gautinose sumose, projektų valdyme ir apskaitoje bei gamybos kontrolėje. Jei nepasirinksite šios parinkties, galėsite rezervuoti tik faktiškai gautas prekes. Jei nustatyta priimti tam tikros prekės neigiamas atsargas, šis laukas nėra aktualus.
--   Skirtuko **Transportavimas** parinktis **Rezervuoti prekes automatiškai** nustato numatytąjį parametrą, jei perkėlimo užsakymų prekės rezervuojamos automatiškai. Numatytąjį parametrą galima perrašyti atskiruose perkėlimo užsakymuose.
+-   Skirtuko **Perkėlimas pasirinktis** Rezervuoti prekes **automatiškai** nustato numatytuosius nustatymus, jei prekės automatiškai rezervuojamos perkėlimo užsakymams. Numatytąjį parametrą galima perrašyti atskiruose perkėlimo užsakymuose.
 
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Puslapyje Gamybos parametrai pateikiamos atsargų rezervavimo strategijos
 

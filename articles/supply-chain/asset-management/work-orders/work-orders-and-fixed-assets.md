@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9a6b9cf8327f65371f8362a5729bb32746d900cd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ed83450592d85205743c9ff1aefd0e66e5d2b90c
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885992"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111995"
 ---
 # <a name="work-orders-and-fixed-assets"></a>Darbo užsakymai ir ilgalaikis turtas
 
 [!include [banner](../../includes/banner.md)]
 
 
-Modulyje „Turto valdymas” turtas gali būti susietas su ilgalaikiu turtu ir tokiam turtui galite sukurti darbo užsakymus. Naudodamiesi šiomis funkcijomis galite gauti išsamią ilgalaikio turto, susijusių investicijų projektų ir investiciniuose projektuose registruotų išlaidų apžvalgą moduliuose **Projektų valdymas ir apskaita** ir **Ilgalaikis turtas**, esančiuose „Microsoft Dynamics 365 for Finance and Operations“.
+Modulyje „Turto valdymas” turtas gali būti susietas su ilgalaikiu turtu ir tokiam turtui galite sukurti darbo užsakymus. Jei naudojate šią funkciją, galite gauti visą ilgalaikio turto, susijusių investicijų projektų ir išlaidų, **·** **užregistruotų** investicijų projektuose, projektų valdymo ir apskaitos bei ilgalaikio turto moduliuose, finansų ir operacijų programėlėse, peržiūrą.
 
 >[!NOTE]
 >Darbo užsakymo užduoties projekto laukas **Ilgalaikio turto numeris** nurodomas tik tuo atveju, jeigu darbo užsakymo užduoties projekte pasirenkamas projekto tipas **Investicija**.

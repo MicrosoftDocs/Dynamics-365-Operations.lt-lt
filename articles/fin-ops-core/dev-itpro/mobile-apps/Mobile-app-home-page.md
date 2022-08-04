@@ -1,6 +1,6 @@
 ---
 title: Mobiliųjų įrenginių programėlės pagrindinis puslapis
-description: Šiame straipsnyje aprašoma finansų ir operacijų ("Dynamics 365") mobilioji programa ir pateikti saitai į išteklius, kurie gali padėti jums įdiegti juos savo organizacijoje.
+description: Šiame straipsnyje aprašomos finansų ir operacijų ("Dynamics 365") mobiliosios programos ir pateikiami saitai į išteklius, kurie gali padėti jums įdiegti juos savo organizacijoje.
 author: ChrisGarty
 ms.date: 05/24/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: d73a8d3cf8a7899f16db87148456671dea773636
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 973fdcd81a83b6b70e8fa941c4f0c9d24b5cb559
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868765"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066460"
 ---
 # <a name="mobile-app-home-page"></a>Mobiliųjų įrenginių programėlės pagrindinis puslapis
 
@@ -132,8 +132,8 @@ Tolesnėje iliustracijoje parodytas mobiliųjų darbo sričių, kurias teikia �
 <td>Vartotojas</td>
 <td>Atsisiųskite ir įdiekite mobiliąją programą.</td>
 <td>
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">„Finance and Operations“ programa, skirta „Android“</a><BR/>
-<a href="https://go.microsoft.com/fwlink/?linkid=850663">„Finance and Operations“ programa, skirta „iOS“</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">Finansų ir operacijų programa, skirta Android</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">IOS finansų ir operacijų programa</a><BR/>
 („Windows Phone“ nepalaikomas)
 </td>
 </tr>
@@ -152,3 +152,4 @@ Tolesnėje iliustracijoje parodytas mobiliųjų darbo sričių, kurias teikia �
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

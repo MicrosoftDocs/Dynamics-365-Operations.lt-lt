@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5dbf8ab2ea875e902709215e249871474b17230f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6c4c2a0954c8554da0b4c859d837ab6ca4839b36
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883515"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111935"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER: formato atnaujinimas pritaikant naują pagrindinę to formato versiją
 
@@ -119,7 +119,7 @@ Pakeiskite sukurtos formato konfigūracijos būseną iš Juodraštis į Baigta, 
     Atkreipkite dėmesį, kad sukurta konfigūracija įrašoma kaip 1.1.1 baigta versija. Tai reiškia, kad tai yra 1-oji pasirinktinio BACS (JK fiktyvus pasirinktinis) formato versija, kuri paremta 1-ąja BACS (JK fiktyvus) formato versija, kuri paremta 1-ąja mokėjimų (suprastintasis modelis) duomenų modelio versija.  
 
 ## <a name="test-the-customized-format-to-generate-payment-files"></a>Pritaikyto formato tikrinimas generuojant mokėjimo failus
-Atlikite veiksmus, nurodytus "Naudoti sukurtą formatą mokėjimo elektroniniams dokumentams generuoti" procedūroje lygiagrečioje finansų ir operacijų seanse. Elektroninio mokėjimo būdo parametruose pasirinkite BACS (JK fiktyvus pasirinktinis) formatą. Įsitikinkite, kad sukurtame mokėjimo faile yra neseniai įdiegtas XML mazgas, pagal regiono reikalavimus pateikiantis IBAN kodą.  
+Atlikite veiksmus, nurodytus "Naudoti sukurtą formatą mokėjimo elektroniniams dokumentams generuoti" procedūrą lygiagrečiame finansų ir operacijų seanse. Elektroninio mokėjimo būdo parametruose pasirinkite BACS (JK fiktyvus pasirinktinis) formatą. Įsitikinkite, kad sukurtame mokėjimo faile yra neseniai įdiegtas XML mazgas, pagal regiono reikalavimus pateikiantis IBAN kodą.  
 
 ## <a name="update-the-existing-country-specific-configuration"></a>Esamos konkrečios šalies konfigūracijos naujinimas
 „Litware, Inc.“ turi atnaujinti BACS (JK fiktyvus) konfigūraciją ir įgyvendinti naujus šalies reikalavimus dėl elektroninio dokumento formato valdymo. Vėliau tai bus įtraukta į naują šios konfigūracijos versiją, kuri bus teikiama aptarnavimo abonentams, įskaitant „Proseware, Inc.‟  

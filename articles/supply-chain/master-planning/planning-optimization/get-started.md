@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b9595aece264f55c706ebc84010b927fae56b512
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e853c8a482b8fd0b92c9861fe022c056915ab405
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900976"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112201"
 ---
 # <a name="get-started-with-planning-optimization"></a>Darbo su planavimo optimizavimu pradžia
 
@@ -40,7 +40,7 @@ Prieš įjungiant „Planning Optimization“, primygtinai rekomenduojame įvert
 
 ## <a name="availability"></a>Prieinamumas
 
-Planavimo optimizavimas šiuo metu yra pasiekiamas šiose "Azure" geografiniuose diagramuose: Jungtinės Valstijos, Kanada, Brazilija, Europa, Jungtinė Karalystė, Azijos Ramiojo vandenynas, Japonija ir Indija. Jei bandote įdiegti papildinį kitame geografiniame regione, LCS rodys pranešimą, nurodantį, kad šis regionas nepalaikomas. Daugiau informacijos apie "Azure" regionams ir susijusius regionus žr. ["Azure" geografiniai regionai](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
+Planavimo optimizavimas šiuo metu yra pasiekiamas šiose "Azure" geografiniuose diagramuose: Jungtinės Valstijos, Kanada, Brazilija, Europa, Prancūzija, Jungtinė Karalystė, Australija, Azijos Ramiojo vandenynas, Japonija ir Indija. Jei bandote įdiegti papildinį kitame geografiniame regione, LCS rodys pranešimą, nurodantį, kad šis regionas nepalaikomas. Daugiau informacijos apie "Azure" regionams ir susijusius regionus žr. ["Azure" geografiniai regionai](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 Turėkite omenyje, kad planavimo optimizavimas nepalaiko vietinių visuotinių „Dynamics 365 Supply Chain Management” diegimų.
 
@@ -135,3 +135,4 @@ Jei „Planning Optimization“ yra įjungtas, pagrindinis planavimas yra atliek
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

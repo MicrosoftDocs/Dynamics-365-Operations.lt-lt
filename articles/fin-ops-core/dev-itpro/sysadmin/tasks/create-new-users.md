@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 480d181e8abb3af5a7406efd13c8bd9961a7490a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 00da7c69ff18abd02ca0cd7984e9b2de5e453a0c
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595391"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103332"
 ---
 # <a name="create-new-users"></a>Naujų vartotojų kūrimas
 
 [!include [banner](../../includes/banner.md)]
 
-Kad galėtumėte pasiekti „Finance and Operations” programas, pirmiausia turite būti pridėti prie **Vartotojai** puslapio (**Sistemos administravimas \> Vartotojai \> Vartotojai**). Vartotojai apima vidinius jūsų organizacijos vidinius darbuotojus arba išorinius klientus ir tiekėjus. Vartotojus galima importuoti arba pridėti neautomatiniu būdu. Visi vartotojai turi turėti tinkamą licenciją atitinkamam naudojimui.
+Kad būtų galima pasiekti finansų ir operacijų programėles, pirmiausia turite būti įtraukti į puslapį **Vartotojai** (**Sistemos administravimo \> vartotojų \> vartotojai**). Vartotojai apima vidinius jūsų organizacijos vidinius darbuotojus arba išorinius klientus ir tiekėjus. Vartotojus galima importuoti arba pridėti neautomatiniu būdu. Visi vartotojai turi turėti tinkamą licenciją atitinkamam naudojimui.
 
-Informaciją apie tai, kaip įsigyti ir licencijuoti „Finance and Operations programoms, rasite [„Microsoft Dynamics 365” licencijavimo vadove](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
+Informacijos, kaip įsigyti ir licencijuoti finansų ir operacijų programėles, ieškokite [Microsoft Dynamics 365 licencijavimo vadove](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
 ## <a name="assign-a-license-to-a-user"></a>Licencijos priskyrimas vartotojui
-Sistemos administratoriai gali [priskirti licencijas vartotojams](/office365/admin/subscriptions-and-billing/assign-licenses-to-users) [„Microsoft 365” administravimo centre](/office365/admin/admin-overview/about-the-admin-center).
+Sistemos administratoriai gali [priskirti licencijas administratoriaus](/office365/admin/subscriptions-and-billing/assign-licenses-to-users) centro [Microsoft 365 vartotojams](/office365/admin/admin-overview/about-the-admin-center).
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Išorinio vartotojo pridėjimas „Azure AD” ir licencijos priskyrimas 
-Išoriniai vartotojai turi būti atstovaujami jūsų nuomotojo kataloge („Azure Active Directory” („Azure AD”)) tam, kad jiems galėtų būti priskirtos licencijos. Minėtus išorinius vartotojus reikia įtraukti į „Azure AD“ esantį nuomotoją kaip vartotojus svečius ir priskirti jiems atitinkamas licencijas. Reikalavimas „Finance and Operations” programoms yra toks, kad vartotojo svečio įmonė turi naudoti „Azure AD”. Norėdami gauti daugiau informacijos, žr. [„Azure Active Directory“ B2B bendradarbiavimo vartotojų įtraukimas „Azure“ portale](/azure/active-directory/b2b/add-users-administrator).
+Išoriniai vartotojai turi būti atstovaujami jūsų nuomotojo kataloge („Azure Active Directory” („Azure AD”)) tam, kad jiems galėtų būti priskirtos licencijos. Minėtus išorinius vartotojus reikia įtraukti į „Azure AD“ esantį nuomotoją kaip vartotojus svečius ir priskirti jiems atitinkamas licencijas. Finansų ir operacijų programėlių reikalavimas – turi naudoti svečio įmonė Azure AD. Norėdami gauti daugiau informacijos, žr. [„Azure Active Directory“ B2B bendradarbiavimo vartotojų įtraukimas „Azure“ portale](/azure/active-directory/b2b/add-users-administrator).
 
 ## <a name="import-new-users-from-azure-ad"></a>Naujų vartotojų importavimas iš „Azure AD“ 
 1. Eikite į **Sistemos administravimas** \> **Vartotojas** \> **Vartotojai**.

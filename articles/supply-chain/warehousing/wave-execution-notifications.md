@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 6f8f43bcdaae9a14350c66039d204caf38d33768
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5c8fa259e51f024d19c1f2f7e84ed7edd0ddb7e1
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906977"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069035"
 ---
 # <a name="wave-execution-notifications"></a>Bangos vykdymo pranešimai
 
@@ -125,3 +125,4 @@ Atsižvelgiant į jūsų verslo įvykių nustatymą, galiausiai jūs gausite pra
 > Atidaryti išsamią bangos informaciją
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

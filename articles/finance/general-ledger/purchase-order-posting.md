@@ -10,12 +10,12 @@ ms.search.form: InventPosting, InventTrans
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: 0793c58b07d2c0a133e1a5bc0607483f22206b95
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38a9e2740232b18255109ba867fcdddd5b890774
+ms.sourcegitcommit: 9310c943ac76896663e5604209034da9f8d6139c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849937"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151039"
 ---
 # <a name="purchase-order-posting"></a>Pirkimo užsakymo registravimas
 
@@ -91,12 +91,12 @@ Toliau pateikiamoje lentelėje pateikiami numatytųjų registravimo tipų, kuri�
 > Pagrindinės sąskaitos ir pagrindinės sąskaitos pavadinimai yra tik pasiūlymai. Rekomenduojame<!--note from editor: Via Writing Style Guide.--> , kurią dirbate su savo apskait dirbate norėdami nustatyti geriausią konfigūraciją jūsų verslo poreikiams.
 
 
-| Registravimo tipas | Pagrindinės sąskaitos pavyzdys | Pagrindinės sąskaitos pavadinimo pavyzdys | Kodo tipas | Debetas/kreditas? | Tarpuskaitos sąskaita | P / F | Atlikite | Aprašymas |
+| Registravimo tipas | Pagrindinės sąskaitos pavyzdys | Pagrindinės sąskaitos pavadinimo pavyzdys | Kodo tipas | Debetas/kreditas? | Tarpuskaitos sąskaita | P / F | Sekti | Aprašymas |
 |--------------|---------------------|-------------------------|----------------|----------------|--------------------|----|----------|-----------|
-| Gautų nusipirktų medžiagų savikaina | 140100</br>140101 | Medžiagų atsargos</br>Išsiųstos medžiagos, kurių SF neišrašyta | Turtas | Debetas | Taip | P | Nusipirktų medžiagų, kurioms išrašyta SF, savikaina | Naudojamas, kai registruojamas pirkimo užsakymo produkto gavimo kvitas. Sąskaitos korespondentinė sąskaita yra pirkimo išlaidos, nenuskaitytos. Šioje sąskaitoje nurodyta suma atšaukiama, kai užregistruojama pirkimo užsakymo SF. |
+| Gautų nusipirktų medžiagų savikaina | 140100</br>140101 | Medžiagų atsargos</br>Išsiųstos medžiagos, kurių SF neišrašyta | Turtas | Debetas | Taip | P | Nusipirktų medžiagų, kurioms išrašyta SF, savikaina | Naudojama, kai užregistruojamas pirkimo užsakymo produkto gavimo kvitas, sąskaitos korespondentinė sąskaita yra pirkimo išlaidos, neišskaitytos SF. Šioje sąskaitoje nurodyta suma atšaukiama, kai užregistruojama pirkimo užsakymo SF. |
 | Pirkimo išlaidos, neišskaitytos | 600180 | Medžiagų gavimas | Išlaidos | Debetas | Taip | P | |Naudojamas, kai registruojamas pirkimo užsakymo produkto gavimo kvitas. Sukuriami du kvitai gavimui, kad būtų sekami pirkimo kainų nuokrypiai, kai naudojama standartinė savikaina. Pirmo kvito sąskaitos korespondentinė sąskaita yra pirkimo kaupimas. Antrame kvite esantis korespondentinis kvitas yra gautų įsigytų medžiagų išlaidų ir pirkimo kainų nuokrypio sąskaitų suma. Šioje sąskaitoje registruojamos sumos atšaukiamos, kai užregistruojama pirkimo užsakymo SF. |
 | Nusipirktų medžiagų, kurioms išrašyta SF, savikaina | 140100 | Medžiagų atsargos | Turtas | Debetas | Ne | Pn.  |Gautų nusipirktų medžiagų savikaina | Naudojamas, kai registruojama pirkimo užsakymo SF. Šios sąskaitos korespondentinė sąskaita yra produkto pirkimo išlaidos. Ši sąskaita rodo atsargas jūsų balanso lape. Paprastai naudojama ta pati sąskaita, kuri naudojama pristatytų vienetų savikainai ir pardavimo užsakymui išrašytų vienetų išlaidų SF. |
-| Produkto pirkimo išlaidos | 600180 | Medžiagų gavimas | Išlaidos | Kreditas | Ne | Pn.  | |Naudojamas, kai registruojama pirkimo užsakymo SF. Šios sąskaitos korespondentinė sąskaita yra nupirktų medžiagų savikaina. Ši sąskaita rodo atsargas jūsų balanso lape. |
+| Produkto pirkimo išlaidos | 600180 | Medžiagų gavimas | Išlaidos | Kreditas | Taip | Pn.  | |Naudojamas, kai registruojama pirkimo užsakymo SF. SF sukuriami du kvitai, skirti sekti pirkimo kainų nuokrypius, kai naudojama standartinė savikaina. Šios sąskaitos korespondentinė sąskaita yra pirkimo išlaidos, sąskaita be sąskaitos faktūros, kuri naudojama registruojant gavimą ir atšaukiama sf registravimo metu. Pateikia atsargų, pirktų išrašant SF, išlaidas, kurios neatspindimos balanso sąskaitoje. Tai yra pelno ir nuostolio registravimas, kai pirkimo kainų nuokrypis dažniausiai matomas standartinių išlaidų prekės pirkimais.|
 | Fiksuotos gavimo kainos pelnas (Pirkimas, fiksuotos gavimo kainos pelnas*) | 510310 | Pirkimo kainų nuokrypis | Išlaidos | Kreditas | Ne | Pn. | Fiksuotos gavimo kainos nuostolis | Naudojama, kai užregistruojama pirkimo užsakymo SF ir skiriasi prekės kaina, kurios SF išrašyta, ir numatytosios išlaidos. Ši sąskaita naudojama, kai skirtumas didesnis. Šios sąskaitos korespondentinė sąskaita yra fiksuotos gavimo kainos korespondentinė sąskaita. |
 | Fiksuotos gavimo kainos nuostolis (Pirkimas, fiksuotos gavimo kainos nuostolis*) | 510310 | Pirkimo kainų nuokrypis | Išlaidos | Debetas | Ne | Pn. | Fiksuotos gavimo kainos pelnas | Naudojama, kai užregistruojama pirkimo užsakymo SF ir skiriasi prekės kaina, kurios SF išrašyta, ir numatytosios išlaidos. Ši sąskaita naudojama, kai skirtumas mažesnis. Šios sąskaitos korespondentinė sąskaita yra fiksuotos gavimo kainos korespondentinė sąskaita. |
 | Fiksuotos gavimo kainos korespondentinė sąskaita (pirkimas, fiksuotos gavimo kainos korespondentinė sąskaita*) | 140900 | Atsargų nuokrypis | Turtas | Abu | Ne | Pn.  | |Naudojama, kai užregistruojama pirkimo užsakymo SF ir skiriasi prekės kaina, kurios SF išrašyta, ir numatytosios išlaidos. Ši sąskaita yra fiksuotos gavimo kainos pelno ir nuostolio sąskaitų korespondentinė sąskaita. |

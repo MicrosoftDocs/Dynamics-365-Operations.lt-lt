@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7d8e55fc1293e2b33b15f3862498363a6b23f1f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0449a13989bad45cf0456a2678e5724036d2af3d
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883422"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070701"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Nuskaitytų dokumentų sąskaitų faktūrų automatizavimas
 
@@ -58,7 +58,7 @@ Duomenų paketas yra darbo vienetas, kuris turi būti išsiųstas, kad būtų ga
 
 Tiekėjo SF dokumento priedas yra naujas duomenų objektas, pristatomas kaip šios funkcijos dalis. Tiekėjo SF antraštės objektas buvo pakeistas, kad palaikytų priedus. Tiekėjo SF eilutės objektas nebuvo modifikuotas šioje funkcijoje.
 
-Išsamios informacijos apie duomenų paketus žr. [Duomenų valdymo apžvalga](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Informacijos, kaip kurti duomenų paketus naudojant duomenų valdymo darbo sritį, [ieškokite "Dynamics 365" finansų ir operacijų programėlių sprendimų duomenų paketų procesas ir naudojimas](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
+Išsamios informacijos apie duomenų paketus žr. [Duomenų valdymo apžvalga](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Informacijos, kaip kurti duomenų paketus naudojant duomenų valdymo darbo sritį, [ieškokite "Dynamics 365" finansų ir operacijų programų sprendimų duomenų paketų procesas ir naudojimas](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
 
 Norėdami greitai sugeneruoti bandymo duomenis, kurie apima SF ir priedus, atlikite šiuos veiksmus.
 
@@ -86,7 +86,7 @@ SF, importuotas naudojant duomenų paketus, galima susieti su juridiniu subjektu
 
 ## <a name="exception-processing"></a>Išimties apdorojimas
 
-Tokiais atvejais, kai tiekėjo SF pasiekia „Finance and Operations“ naudojant integraciją, mokėtinų sumų komandos narys turi galėti lengvai apdoroti nesėkmingų SF išimtis ir iš tokių SF sukurti laukiančias SF. Šis tiekėjo SF išimčių apdorojimas dabar yra „Finance and Operations“ dalis.
+Scenarijuose, kuriuose tiekėjo SF pristatomos į finansus ir operacijas per integravimą, mokėtinų sumų komandos narys turi lengvai apdoroti išimtis arba neišrašytas SF, ir kurti laukiančias SF iš sąskaitų faktūrų, kurių nepavyko išrašyti. Šis tiekėjo SF išimčių apdorojimas dabar yra finansų ir operacijų dalis.
 
 ### <a name="vendor-invoices-that-failed-to-import-list-page"></a>Tiekėjo SF, kurių sąrašo puslapio importuoti nepavyko
 
@@ -225,3 +225,4 @@ Pagal numatytuosius nustatymus, jei vartotojo vaidmuo suteikia bet kurio puslapi
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 8e1444aa311bb2dc74705a3791e58c3187ecd8ea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 19a1fd53f19575a16ee8d8b7391c30f0cacf26a8
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876721"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111463"
 ---
 # <a name="note-integration"></a>Pastabų integravimas
 
@@ -66,11 +66,11 @@ Visi pastabos atnaujinimai sinchronizuojami atgal ir atgal tarp finansų ir oper
 
 ## <a name="create-a-note-in-a-finance-and-operations-app"></a>Pastabos kūrimas finansų ir operacijų programoje
 
-Taip pat galite sukurti pastabą finansų ir operacijų programoje ir ji bus sinchronizuojama su klientų įsipareigojimų programa.
+Taip pat galite sukurti pastabą finansų ir operacijų programoje ir ji bus sinchronizuota su kliento įsipareigojimo programa.
 
 Norėdami sukurti pastabą finansų ir operacijų programoje ir tada sinchronizuoti ją su klientų įsipareigojimų programa, atlikite šiuos veiksmus.
 
-1. Finansų ir operacijų programos priedų puslapyje **pasirinkite** Nauja **·** \> **pastaba.**
+1. Finansų ir operacijų programoje, priedų puslapyje **, pasirinkite Nauja** **·**\> pastaba.**·**
 
     ![Pastabos kūrimas finansų ir operacijų programoje.](media/notes-fo-1.png)
 
@@ -94,7 +94,7 @@ Taip pat galite sukurti URL.
 2. Įveskite pavadinimą ir URL.
 3. Lauke **Apribojimas** pasirinkite **Vidinis** arba **Išorinis**.
 
-    ![Url kūrimas finansų ir operacijų programoje.](media/notes-fo-5.png)
+    ![URL kūrimas finansų ir operacijų programoje.](media/notes-fo-5.png)
 
 4. Pasirinkite **Įrašyti**.
 
@@ -121,3 +121,4 @@ Pastabų integravimą sudaro lentelių schemų, veikiančių kartu interaktyviai
 Įdiegę pastabų sprendimą, jo pašalinti negalite. 
 
 Daugiau informacijos žr. [Dvigubo rašymo susiejimo nuoroda](mapping-reference.md)
+

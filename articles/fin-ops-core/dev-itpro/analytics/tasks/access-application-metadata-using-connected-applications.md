@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 330683da986a551a9694833655122768d30499b1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b24d865bff0e81f79e7edde360fd5115d8637b42
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906774"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111267"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Prieiga prie programos metaduomenų naudojant prijungtas programas
 
 [!include [banner](../../includes/banner.md)]
 
-Toliau nurodyti veiksmai paaiškina, kaip „Regulatory configuration service“ (RCS) vartotojas, turintis sistemos administratoriaus arba elektroninės ataskaitos kūrėjo vaidmenį, gali kurti naują elektroninės ataskaitos (ER) modelio susiejimą naudodamas „Finance and Operations“ programos metaduomenis. Programos metaduomenys bus pasiekiami tinkle naudojant programą, prijungtą prie RCS. Bus sukonfigūruotas ER modelio susiejimo pavyzdys, siekiant pasiekti užsienio prekybos operacijas. Norėdami atlikti šiuos veiksmus, RCS pirmiausia turite atlikti straipsnio veiksmus, [sukurkite konfigūracijos teikėjus ir pažymėkite juos kaip aktyvius](er-configuration-provider-mark-it-active-2016-11.md). Jei neatibaigėte šiame straipsnyje nurodytų veiksmų, [naudodami ER](access-application-metadata-er-configuration.md) konfigūraciją išeikite iš programos metaduomenų, [parsisiuntkite](https://download.microsoft.com/download/0/4/e/04e13839-e423-442b-a6c2-dd35b1045c2d/Dynamics%20365%20for%20Finance%20and%20Operations%208.1%20Electronic%20reporting%20task%20guides.zip) elektroninių ataskaitų pavyzdžius ir įrašykite toliau nurodytas ER konfigūracijas: Užsienio prekybos metaduomenys.xml; Užsienio prekybos modelis.xml; Užsienio prekybos susiejimas.xml, tada atlikite procedūros veiksmus.
+Toliau paaiškinama, kaip reguliavimo konfigūracijos tarnybos (RCS) vartotojas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenyje gali sukurti naują elektroninių ataskaitų (ER) modelio konvertavimą, naudodamas finansų ir operacijų metaduomenis. Programos metaduomenys bus pasiekiami tinkle naudojant programą, prijungtą prie RCS. Bus sukonfigūruotas ER modelio susiejimo pavyzdys, siekiant pasiekti užsienio prekybos operacijas. Norėdami atlikti šiuos veiksmus, RCS pirmiausia turite atlikti straipsnio veiksmus, [sukurkite konfigūracijos teikėjus ir pažymėkite juos kaip aktyvius](er-configuration-provider-mark-it-active-2016-11.md). Jei neatibaigėte šiame straipsnyje nurodytų veiksmų, [naudodami ER](access-application-metadata-er-configuration.md) konfigūraciją išeikite iš programos metaduomenų, [parsisiuntkite](https://download.microsoft.com/download/0/4/e/04e13839-e423-442b-a6c2-dd35b1045c2d/Dynamics%20365%20for%20Finance%20and%20Operations%208.1%20Electronic%20reporting%20task%20guides.zip) elektroninių ataskaitų pavyzdžius ir įrašykite toliau nurodytas ER konfigūracijas: užsienio prekybos metaduomenys.xml; Užsienio prekybos modelis.xml; Užsienio prekybos .xml, tada atlikite procedūros veiksmus.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 1. Eikite į **Visos darbo sritys** > **Elektroninės ataskaitos**. 
@@ -114,3 +114,4 @@ Jei reikia įvertinti šio modelio susiejimą naudojant skirtingos programos ver
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

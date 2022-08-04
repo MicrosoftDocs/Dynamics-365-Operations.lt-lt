@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dd645dcc79672e7f69afe47b803b90a04c22305d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 13a25d3f1f72d8053ed3951b036522cfa3a15959
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856286"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065651"
 ---
 # <a name="configure-human-resources-parameters"></a>„Human Resources“ parametrų konfigūravimas
 
@@ -27,7 +27,7 @@ ms.locfileid: "8856286"
 
 Kai kurie žmogiškųjų išteklių parametrai naudojami keliose įmonėse, o kiti – konkrečioje įmonėje. Šiame straipsnyje paaiškinama, kaip nustatyti specialius įmonės personalo parametrus.
 
-Personalo parametrams nustatyti naudojami du puslapiai. Jei parametrai yra bendrai naudojami keliose įmonėse, galite naudoti puslapį **Bendrai naudojami žmogiškųjų išteklių parametrai**. Jei parametrai skirti konkrečiai įmonei (kitaip tariant, parametrai taikomi prie vienai įmonei), naudokite puslapį **Personalo parametrai**.
+Personalo parametrams nustatyti naudojami du puslapiai. Jei parametrai yra bendrai naudojami keliose įmonėse, galite naudoti puslapį **Bendrai naudojami žmogiškųjų išteklių parametrai**. Parametrams, kurie yra specifiniai įmonei, naudokite personalo **parametrų** puslapį.
 
 ![Eikite į personalo parametrus.](./media/hr-employee-self-service-human-resources-parameters.png)
 
@@ -74,11 +74,12 @@ Programos "Dynamics 365" finansuose skirtuko Kompensacija parametrai nurodo, ar 
 
 Personalo dalyje naudodami skirtuką **Kompensacija** galite pasirinkti apriboti prieigą prie kompensacijos planų ir nustatyti numatytąją valiutą.
 
+> [!NOTE]
+> Susietos infrastruktūros numatytasis valiutos **parametras**, esantis **personalo** parametrų puslapio **skirtuke Kompensacija**, buvo pašalintas. Norint užtikrinti, kad nėra **esamų** finansų ir operacijų funkcijų nesuderinamumų, valiuta bus tvarkoma pagal DK valiutos parametrą. Taip užtikrinama, kad nėra esamų finansų ir operacijų funkcijų nesuderinamumų. Daugiau informacijos apie DK valiutos funkcijų naudojimą ieškokite Konfigūruoti [DK](/general-ledger/configure-ledger#configuring-currencies-for-the-ledger.md). 
+
 Daugiau informacijos apie kompensaciją žr. skyriuje [Kompensacijų planų apžvalga](hr-compensation-overview.md).
 
-![Atlyginimo skirtukas.](./media/hr-setup-parameters-compensation.png)
-
-## <a name="number-sequences"></a>Numeracija
+## <a name="number-sequences"></a>Numeracijos
 
 Nustatymai skirtuke **Numerių seka** apibrėžia sekas, naudojama automatiniam ID priskyrimui personalo prekėms, pvz.:
 
@@ -122,7 +123,7 @@ Norėdami gauti daugiau informacijos apie darbuotojų savitarnos paslaugos **nus
 Skirtuko Vadybininko **savitarnos parametrai daro įtaką** tai, ką vadybininkai matys vadybininko **savitarnoje**. Šiame skirtuke galima konfigūruoti šias parinktis:
 
 - Įrašų, kurių galiojimas baigiasi, diapazonas
-- Informaciją, kurią vadovai gali peržiūrėti įrašų su besibaigiančiu galiojimu srityje
+- Informacija, kurią vadybininkai gali peržiūrėti iš baigiasinčių įrašų
 - Ar vadovai gali peržiūrėti atviras pareigas išplėstinėms ataskaitoms
 - Esamų darbuotojų rodiniai
 - Naudingos nuorodos vadovams

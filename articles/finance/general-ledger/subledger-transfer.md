@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 6d9b40409089e2050dc28c21040069107b766aa0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a53b7834271355aaf11c13c3f1886257a97b1da8
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871252"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068997"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Papildomos knygos perkėlimas į Didžiąją knygą
 
@@ -46,3 +46,4 @@ Efektyvumo pokytis paketo lygiu naudoja vieną pasikartojančią paketinę uždu
 Daugiau informacijos apie automatinio nustatymo procesą rasite [Proceso automatizavimas](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

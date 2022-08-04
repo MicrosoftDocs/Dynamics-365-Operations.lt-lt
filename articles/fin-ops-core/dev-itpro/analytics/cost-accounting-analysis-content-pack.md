@@ -1,5 +1,5 @@
 ---
-title: Kaštų apskaitos analizės „Power BI“ turinys
+title: Savikainos apskaitos analizės „Power BI“ turinys
 description: Šiame straipsnyje aprašoma, kas įtraukta į kaštų apskaitos analizės Power BI turinį.
 author: AndersGirke
 ms.date: 10/02/2019
@@ -7,21 +7,22 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom: 270274
-ms.assetid: b74549df-35d5-4f2f-b3c7-405b0d38ea78
+ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d5e595c910e237481b8124cb2a0333697344b9ad
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "270274"
+ms.assetid: b74549df-35d5-4f2f-b3c7-405b0d38ea78
+ms.openlocfilehash: 19dd250141894d1551fc4e54257f05ab5008d110
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876898"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205973"
 ---
-# <a name="cost-accounting-analysis-power-bi-content"></a>Kaštų apskaitos analizės „Power BI“ turinys
+# <a name="cost-accounting-analysis-power-bi-content"></a>Savikainos apskaitos analizės „Power BI“ turinys
 
 [!include [banner](../includes/banner.md)]
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 4a35941d1521d26f95bacf29213fee42daeb42ab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 65d45eaf618075e0c78881634fc77bda0fab277e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849737"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065681"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>„Regulatory Configuration Service“ (RCS) – „Lifecycle Services“ (LCS) saugykla nebegalioja
 
@@ -73,7 +73,7 @@ Globalizacinę saugyklą naudokite toliau pateikiamiems tikslams:
 
 ### <a name="does-this-change-mean-that-lcs-cant-be-used-as-central-storage-for-configurations"></a>Ar šis pakeitimas reiškia, kad LCS negalima naudoti kaip centrinės konfigūracijų saugyklos?
 
-Taip. Funkcijos, kurios leidžia įkelti konfigūracijas į projekto turto biblioteką, LCS, iš finansų ir operacijų programėlių, bus pasenusi. Tačiau LCS vis tiek galėsite naudoti naršyklę, norėdami įkelti konfigūracijas į projekto turto biblioteką pagal poreikį.
+Taip. Funkcijos, kurios leidžia įkelti konfigūracijas į projekto turto biblioteką LCS iš finansų ir operacijų programėlių, bus pasenusi. Tačiau LCS vis tiek galėsite naudoti naršyklę, norėdami įkelti konfigūracijas į projekto turto biblioteką pagal poreikį.
 
 ### <a name="i-thought-that-rcs-was-a-replacement-repository-for-importing-global-template-files-i-didnt-think-that-its-used-to-store-configurations-which-is-correct"></a>Deja, RCS yra pakeitimo saugykla, skirta importuoti visuotinius šablonų failus. Nežinau, kad jis naudojamas konfigūracijų saugykloms. Kuris yra teisingas?
 
@@ -81,7 +81,7 @@ RCS yra kūrimo ir redagavimo ER konfigūracijų dizaino tarnyba. RCS turi savo 
 
 ### <a name="without-lcs-what-is-the-suggested-way-to-store-configurations-so-that-test-and-production-configurations-can-easily-be-managed-and-transferred"></a>Koks siūlomas būdas saugoti konfigūracijas be LCS, kad būtų galima lengvai valdyti ir perkelti "tikrinti" ir "gamybos" konfigūracijas?
 
-RCS naudoja prisijungusio *prašymo sąvoką*. Prijungta programa sudaro ryšį tarp RCS ir visų finansų ir operacijų programėlių egzempliorių. Kadangi RCS galima naudoti konfigūracijoje redaguoti, prijungta programa gali būti naudojama konfigūracijose tiesiogiai stumti iš dizainerio į finansų ir operacijų programėlių aplinkas. Todėl galite greitai pakeisti ir patikrinti savo konfigūracijas, užuot kaupę LCS projektų lygio saugyklą.
+RCS naudoja prisijungusio *prašymo sąvoką*. Prijungta programa sudaro ryšį tarp RCS ir visų finansų ir operacijų programėlių egzempliorių. Kadangi RCS galima naudoti konfigūracijoje redaguoti, prijungta programa gali būti naudojama konfigūracijose tiesiogiai iš dizainerio perstumti į finansų ir operacijų programėlių aplinkas. Todėl galite greitai pakeisti ir patikrinti savo konfigūracijas, užuot kaupę LCS projektų lygio saugyklą.
 
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>Ar yra pavyzdžių, kurie parodo nustatymą ir valdymą?
 

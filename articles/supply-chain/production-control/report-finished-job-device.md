@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 3d1a45ad00e59581f27f2e822ccb47430219c501
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38372f08db0258de8b5e653b4757c9fda96c8d70
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857379"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070476"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Pranešti kaip baigtą iš užduoties kortelės įrenginio
 
@@ -50,7 +50,7 @@ Daugiau informacijos apie tai, kaip naudoti **Gamybos užsakymo numatytieji nust
 
 ## <a name="report-batch-controlled-items-as-finished"></a>Paketo kontroliuojamų prekių kaip baigta pranešimas
 
-Užduoties kortelės įrenginys palaiko tris paketo elementų ataskaitų scenarijus. Šie scenarijai taikomi tiek prekėms, apdorojamoms pažangių sandėliavimo procesų metu, tiek prekėms, neapdorojamoms pažangių sandėliavimo procesų metu.
+Užduoties kortelės įrenginys palaiko tris paketo elementų ataskaitų scenarijus. Šie scenarijai taikomi ir prekėms, kurios įgalintos sandėlio valdymo procesams (WMS), ir prekėms, kurių WMS neįgalintos.
 
 - **Rankiniu būdu priskirti pakuotės skaičius** - Darbuotojai įveda pasirinktą paketo skaičių. Šis paketo numeris gali atsirasti iš išorinio šaltinio, kuris nežinomas sistemai.
 - **Iš anksto nustatyti paketų skaičiai** - Darbuotojai pasirenka paketo skaičių paketų skaičių sąraše, kuriuos sistema automatiškai sukuria prieš tai, kai gamybos užsakymas yra išleidžiamas į užduoties kortelės prietaisą.
@@ -129,7 +129,7 @@ Naudojant šį scenarijų, **Paketo numerio** laukas, kurį **Eigos ataskaita** 
 
 ## <a name="report-serial-controlled-items-as-finished"></a>Raportuoti serijines kontroliuojamas prekes kaip baigtas
 
-Darbo kortelės prietaisas palaiko tris raportavimo scenarijus serijinėms kontroliuojamoms prekėms. Šie scenarijai taikomi tiek prekėms, apdorojamoms pažangių sandėliavimo procesų metu, tiek prekėms, neapdorojamoms pažangių sandėliavimo procesų metu.
+Darbo kortelės prietaisas palaiko tris raportavimo scenarijus serijinėms kontroliuojamoms prekėms. Šie scenarijai taikomi ir prekėms, kurios įgalintos sandėlio valdymo procesams (WMS), ir prekėms, kurių WMS neįgalintos.
 
 - **Rankiniu būdu priskirti serijinis skaičius** - Darbuotojai įveda pasirinktą serijinį skaičių. Šis serijinis numeris gali ateiti iš išorės šaltinių, kurų sistema nežino.
 - **Iš anksto nustatyti serijiniai skaičiai** - Darbuotojai pasirenka serijinį skaičių serijinių skaičių sąraše, kuriuos sistema automatiškai sukuria prieš tai, kai gamybos užsakymas yra išleidžiamas į užduoties kortelės prietaisą.
@@ -212,7 +212,7 @@ Kai naudojate šį scenarijų, **Serijinio numerio** laukelis tam **Ataskaitos p
 
 ## <a name="report-as-finished-to-a-license-plate"></a>Praneškite kaip baigta į numerio lentelę
 
-Papildomiems sandėlių procesams gali būti naudojama numerio lentelės dimensija, kad sektumėte atsargas sandėlių vietose, nustatytose šiam tikslui. Šiuo atveju, numerio lentelės numeris reikalingas, kai darbuotojas praneša apie baigtus kiekius.
+Sandėlio valdymo procesai (WMS) gali naudoti numerio lentelės dimensiją, kad būtų galima sekti atsargas sandėlio vietose, kurios nustatytos šiuo tikslu. Šiuo atveju, numerio lentelės numeris reikalingas, kai darbuotojas praneša apie baigtus kiekius.
 
 ### <a name="enable-license-plate-reporting-and-label-printing"></a>Numerio lentelės ataskaita ir etiketės spausdinimas
 

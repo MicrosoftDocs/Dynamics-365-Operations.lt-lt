@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 9a455ffbc4396ea4bf0e3df12e7acdcbfeaa5f5269dbe772848341ac0d22a5e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6c65c56dfe5d1e32c440789d207f787169c57269
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748269"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124873"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Kas nauja ar pasikeitė „Dynamics AX“ 7.0.1 versijoje (2016 m. gegužės mėn.)
 
@@ -101,7 +101,7 @@ ms.locfileid: "6748269"
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Kas nauja ar pasikeitė „Finance and Operations“ pagrindiniame puslapyje](whats-new-changed.md)
+[Kas naujo arba pakeista finansų ir operacijų pagrindiniame puslapyje](whats-new-changed.md)
 
 [Nauji ar atnaujinti užduočių vedliai (2016 m. gegužės mėn.)](new-updated-task-guides-available-may-2016.md)
 

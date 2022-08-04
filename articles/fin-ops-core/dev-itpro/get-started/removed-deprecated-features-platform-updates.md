@@ -1,6 +1,6 @@
 ---
 title: Pašalintos arba nebenaudojamos platformos funkcijos
-description: Šiame straipsnyje aprašomos priemonės, kurios buvo pašalintos arba suplanuotos pašalinti į finansų ir operacijų programėlių platformos naujinimus.
+description: Šiame straipsnyje aprašomos priemonės, kurios buvo pašalintos arba suplanuotos pašalinti į finansų ir operacijų programėlių platformos atnaujinimus.
 author: sericks007
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 51165db8d15f0a57fd9bc1649dc6e3ca72875236
-ms.sourcegitcommit: 1fa1ac1fa25e977e98bc02ed5d9d39bd3a7a28d7
+ms.openlocfilehash: 16c77d719171e8e5cfef71178f8917d462f6d84b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/08/2022
-ms.locfileid: "8945810"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069929"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Pašalintos arba nebenaudojamos platformos funkcijos
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje aprašomos priemonės, kurios buvo pašalintos arba suplanuotos pašalinti į finansų ir operacijų programėlių platformos naujinimus.
+Šiame straipsnyje aprašomos priemonės, kurios buvo pašalintos arba suplanuotos pašalinti į finansų ir operacijų programėlių platformos atnaujinimus.
 
 - *Pašalinta* funkcija nebėra įtraukta į produktą.
 - *Nebenaudojama* funkcija nebėra aktyviai tobulinama ir gali būti pašalinta iš būsimo naujinio.
@@ -41,7 +41,7 @@ Išsami informacija apie finansų ir operacijų programėlių objektus pateikta 
 |------------|--------------------|
 | **Nerekomendavimo/pašalinimo priežastis** | Mes atšaukiame finansų ir operacijų ("Dynamics 365") mobiliąją programą ir platformą, kuri konsoliduoja vieną mobiliąją platformą, t. y Power Apps. |
 | **Pakeitė kita funkcija?**   | Taip, su finansų ir operacijų programos duomenimis susijusią mobiliąją patirtį galima sukurti integruojant Power Platform. Norėdami gauti daugiau [informacijos, peržiūrėkite](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/) žurnalo [skelbimo pranešimą ir](../power-platform/build-mobile-experiences.md) mobiliųjų patirties kūrimą. |
-| **Paveiktos produkto sritys**         | „Finance and Operations” programos |
+| **Paveiktos produkto sritys**         | „Finance and operations” programos |
 | **Visuotinio diegimo parinktis**              | Viskas |
 | **Būsena**                         | Nerekomenduojama. Palaikymo data skirta 2024 m. spalio mėn. |
 
@@ -67,7 +67,7 @@ Išsami informacija apie finansų ir operacijų programėlių objektus pateikta 
 |------------|--------------------|
 | **Nerekomendavimo/pašalinimo priežastis** | Mes šaliname XML URL sprendimo palaikymą, nes tai identifikuojama kaip galima saugumo spraga. Tai reiškia, kad su XML failais susiję išoriniai ištekliai nebebus išspręsti.  |
 | **Pakeitė kita funkcija?**   | Ne. |
-| **Paveiktos produkto sritys**         | „Finance and Operations” programos |
+| **Paveiktos produkto sritys**         | „Finance and operations” programos |
 | **Visuotinio diegimo parinktis**              | Viskas |
 | **Būsena**                         | Nerekomenduojama. |
 
@@ -79,7 +79,7 @@ Išsami informacija apie finansų ir operacijų programėlių objektus pateikta 
 |------------|--------------------|
 | **Nerekomendavimo/pašalinimo priežastis** | XSLT scenarijaus palaikymas duomenų valdymo srityje pasenusias siekiant pagerinti finansų ir operacijų programėlių saugą ir duomenų apsaugą.  |
 | **Pakeitė kita funkcija?**   | Ne. Klientai ir ISV turėtų apsvarstyti galimybę iš naujo įgyvendinti savo sprendimus, pagrįstus X++ kalba, vietoje XSLT scenarijaus. |
-| **Paveiktos produkto sritys**         | „Finance and Operations” programos |
+| **Paveiktos produkto sritys**         | „Finance and operations” programos |
 | **Visuotinio diegimo parinktis**              | Viskas |
 | **Būsena**                         | Pasenę <br><br>**Išimtis:** klientai, šiuo metu naudojantys XLST scenarijų. Juos galima toliau naudoti, kol bus atnaujinta į 10.0.30 arba vėlesnę versiją. Ankstesnėms versijoms išimtis galios 2023 m. sausio 31 d. Klientų, kurie gauna pranešimą pranešimų centre, kuris yra administravimo centre, gauta ši Microsoft 365 išimtis. |
 
@@ -196,7 +196,7 @@ Išsami informacija apie finansų ir operacijų programėlių objektus pateikta 
 |------------|--------------------|
 | **Nebenaudojimo/pašalinimo priežastis** | Ši funkcija buvo pašalinta norint sumažinti klientų rodyklės valdymo vykdymo, stebėjimo ir priežiūros pridėtines išlaidas. |
 | **Pakeitė kita funkcija?**   | Ateityje rodyklės priežiūrą atliks „Microsoft” tarnybos. Tai bus daroma nuolat, nepaveikiant vartotojo darbo krūvių. |
-| **Paveiktos produkto sritys**         | „Finance and Operations” programos|
+| **Paveiktos produkto sritys**         | „Finance and operations” programos|
 | **Visuotinio diegimo parinktis**              | Debesies diegimas – paveikia „Microsoft” valdomas gamybos ir 2‑5 pakopų smėlio dėžės aplinkas. |
 | **Būsena**                         | Ši funkcija yra pašalinta. |
 
@@ -228,7 +228,7 @@ Išsami informacija apie finansų ir operacijų programėlių objektus pateikta 
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo/pašalinimo priežastis** | Metaduomenų artefakai, susieti su "Dynamics AX 2012" įmonės portalu (EP), buvo pasenusi, nes EP niekada nebuvo palaikomas finansų ir operacijų programėlėse. |
+| **Nebenaudojimo/pašalinimo priežastis** | Metaduomenų artefakai, susieti su "Dynamics AX 2012" įmonės portalu (EP), buvo pasenusi, nes EP niekada nebuvo palaikomas finansų ir operacijų programose. |
 | **Pakeitė kita funkcija?**   | Ne |
 | **Paveiktos produkto sritys**         | Žiniatinklio klientas |
 | **Visuotinio diegimo parinktis**              | Visos |
@@ -326,7 +326,7 @@ Išsami informacija apie finansų ir operacijų programėlių objektus pateikta 
 | **Pakeitė kita funkcija?**   | Atliekant būsimą naujinimą, šis kompiliatoriaus įspėjimas bus pakeistas kompiliavimo klaidos pranešimu. |
 | **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai |
 | **Visuotinio diegimo parinktis**              | Visi / Viskas |
-| **Būsena**                         | Prie finansų ir operacijų programėlių 10.0.12 versijos atnaujinimų pateikiamas kompiliatoriaus perspėjimas. |
+| **Būsena**                         | Prie finansų ir operacijų programėlių versijos 10.0.12 atnaujinimų pateikiamas kompiliatoriaus perspėjimas. |
 
 ## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Finansų ir operacijų programėlių 10.0.11 versijos platformos naujinimai
 
@@ -398,3 +398,4 @@ Norėdami sužinoti daugiau apie funkcijas, kurios buvo pašalintos arba nebenau
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

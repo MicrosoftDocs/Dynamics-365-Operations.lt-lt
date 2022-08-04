@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efbf9072c3bbcb20f38e144f9a15d8178d96d708
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ef392fd744a68c54bc0438152b3487233ac5c7f3
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905579"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070356"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiliųjų įrenginių nustatymas darbui sandėlyje
 
@@ -123,13 +123,13 @@ Galite nustatyti meniu elementą, kuris kuria darbą kitam darbuotojui, kai mobi
 <td>Gaunama perkėlimo užsakymo prekė</td>
 <td>Registruokite prekės kiekio gavimą ir sukurkite atidėjimo darbą kitam darbuotojui.
 
-<strong>Pastaba.</strong> Šią parinktį naudokite tik jei prekės buvo pristatytos iš sandėlio, kuriame sandėlio valdymo procesai nėra įgalinti.</td>
+<strong>Pastaba:</strong> naudokite šią pasirinktį tik jei prekės buvo išsiųstos iš sandėlio, kuris neįgalintas naudoti sandėlio valdymo procesuose (WMS).</td>
 </tr>
 <tr>
 <td>Perkėlimo užsakymo prekės gavimas ir atidėjimas</td>
 <td>Registruokite prekės kiekio gavimą ir atidėkite prekes. Abu veiksmus atlieka tas pats darbuotojas.
 
-<strong>Pastaba.</strong> Šią parinktį naudokite tik jei prekės buvo pristatytos iš sandėlio, kuriame sandėlio valdymo procesai nėra įgalinti.</td>
+<strong>Pastaba:</strong> naudokite šią pasirinktį tik jei prekės buvo išsiųstos iš sandėlio, kuris neįgalintas naudoti sandėlio valdymo procesuose (WMS).</td>
 </tr>
 <tr>
 <td>Gaunama perkėlimo užsakymo eilutė</td>

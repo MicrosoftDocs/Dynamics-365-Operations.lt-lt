@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a05c34454e27244bb08bfff84f2ada6ff498f23
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 388be651164af622dbabd7b2c7b3437233454bea
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862161"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108608"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Objekto duomenų peržiūra ir atnaujinimas programoje „Excel“ 
 
@@ -40,7 +40,7 @@ Kai programoje „Excel“ atidarysite objektų duomenis, naudodami „Excel“ 
 
 Norėdami daugiau sužinoti, kaip naudotis „Excel“ papildiniu, peržiūrėkite trumpą vaizdo įrašą [„Excel” šablono kūrimas antraštėms ir linijų šablonams](https://youtu.be/RTicLb-6dbI).
 
-## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Atidaryti objekto duomenis programoje "Excel", kai pradedama naudojant finansų ir operacijų programą
+## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Atidaryti objekto duomenis "Excel", kai pradedama naudojant finansų ir operacijų programą
 1. Finansų ir operacijų programos puslapyje pasirinkite Atidaryti **Microsoft Office**.
 
     Jei puslapio šakninis duomenų šaltinis (lentelė) sutaps su bet kurių objektų šakniniu duomenų šaltiniu, puslapyje bus sukuriamos numatytosios parinktys **Atidaryti naudojant „Excel“**. Parinktis **Atidaryti naudojant „Excel“** galima rasti dažnai naudojamuose puslapiuose, pvz., **Visi tiekėjai** ir **Visi klientai**.
@@ -57,7 +57,7 @@ Naudojant „Excel“ papildinį automatiškai nuskaitomi pasirinkto objekto duo
 2. „Office“ parduotuvėje ieškokite raktažodžio **Dynamics**, tada prie **„Microsoft Dynamics Office“ papildinio** („Excel“ papildinys) pasirinkite **Įtraukti**.
 3. Jei „Excel“ papildinį paleisite pirmą kartą, pasirinkę **Pasitikėti šiuo papildiniu** jį įjunkite. „Excel“ papildinys paleidžiamas dešinėje „Excel“ lango pusėje esančioje srityje.
 4. Pasirinkite **Įtraukti serverio informaciją**, kad atidarytumėte sritį **Parinktys**.
-5. Naršyklėje nukopijuokite tikslinio finansų ir operacijų programos egzemplioriaus URL, **įklijuokite į lauką Serverio URL**, tada panaikinkite viską po pagrindinio kompiuterio pavadinimo. Gautame URL turi likti tik pagrindinio kompiuterio vardas.
+5. Naršyklėje kopijuokite tikslinių finansų ir operacijų programos egzemplioriaus URL, **įklijuokite į serverio URL** lauką, tada panaikinkite viską po pagrindinio kompiuterio pavadinimo. Gautame URL turi likti tik pagrindinio kompiuterio vardas.
 
     Pavyzdžiui, jei URL yra `https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage`, panaikinkite viską, išskyrus `https://xxx.dynamics.com`.
 
@@ -76,7 +76,7 @@ Naudojant „Excel“ papildinį automatiškai nuskaitomi pasirinkto objekto duo
 Kai naudojant „Excel“ papildinį bus nuskaityti ir darbaknygėje pateikti objektų duomenys, bet kada galėsite juos atnaujinti „Excel“ papildinyje pasirinkdami **Atnaujinti**.
 
 ## <a name="edit-entity-data-in-excel"></a>Kaip redaguoti objektų duomenis programoje „Excel“
-Jei reikia, objekto duomenis galite keisti, o tada juos publikuoti finansų ir operacijų **programėlėse pasirinkdami** Publikuoti "Excel" papildiniai. Norėdami redaguoti įrašą, darbalapyje pasirinkite langelį, tada pakeiskite langelio reikšmę. Norėdami įtraukti naują įrašą, atlikite vieną iš toliau nurodytų veiksmų.
+Jei reikia, objekto duomenis galite keisti, o tada **juos publikuoti finansų ir operacijų programėlėse pasirinkdami** Publikuoti "Excel" papildiniai. Norėdami redaguoti įrašą, darbalapyje pasirinkite langelį, tada pakeiskite langelio reikšmę. Norėdami įtraukti naują įrašą, atlikite vieną iš toliau nurodytų veiksmų.
 
 - Spustelėkite bet kurioje duomenų šaltinio lentelės vietoje, tada „Excel“ papildinyje pasirinkite **Naujas**.
 - Spustelėkite bet kur paskutinėje duomenų šaltinio lentelės eilutėje, tada spauskite klavišą „Tab“, kol žymiklio nebebus paskutiniame šios eilutės stulpelyje ir bus sukurta nauja eilutė.
@@ -146,3 +146,4 @@ Kelias triktis galima pašalinti atlikus paprastus veiksmus.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

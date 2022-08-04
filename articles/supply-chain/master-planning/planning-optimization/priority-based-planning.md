@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 4997ba123f105f683daaa6b29fe8c5ee72cb47cb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8f46a4d4e087a99c00ab7b4eabc74f60043cbf21
+ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873817"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9186490"
 ---
 # <a name="priority-based-planning"></a>Prioritetu grindžiamas planavimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šiame straipsnyje aprašoma "Microsoft" prioritetu pagrįsta planavimo priemonė Dynamics 365 Supply Chain Management. Ši funkcija įtraukia poreikio planavimo, kuris yra vienas iš poreikio poreikių planavimo (DDMRP) žingsnio, palaikymą. Prioritetinis planavimas įgalina planavimo optimizavimą generuoti suplanuotus užsakymus, paremtus planavimo prioritetais, o ne poreikio datomis.
+Šiame straipsnyje aprašoma "Microsoft" prioritetu pagrįsta planavimo priemonė Dynamics 365 Supply Chain Management. Ši funkcija įtraukia poreikio planavimo, kuris yra vienas [iš poreikio poreikių planavimo (DDMRP) žingsnio, palaikymą](ddmrp-overview.md). Prioritetinis planavimas įgalina planavimo optimizavimą generuoti suplanuotus užsakymus, paremtus planavimo prioritetais, o ne poreikio datomis.
 
 Prioritetinis planavimas leidžia jums nustatyti papildymo užsakymų prioritetą siekiant užtikrinti, kad skubaus poreikio prioritetas būtų skubus, o ne toks svarbus poreikis. Pavyzdžiui, atsargų papildymo užsakymas bus laikomas prioritetu virš standartinio papildymo papildymo užsakymo. Sistema gali automatiškai išskaidyti didesnius užsakymus į atskirus mažesnius užsakymus, kai užsakymo eilutės grupuojami pagal prioritetą. Tada pirmiausia bus galima apdoroti visus didelio prioriteto užsakymus.
 

@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1648808667c8bb9487e7a47b87d8e73cf442d82
-ms.sourcegitcommit: d98ecbd9457197ec8f8e281f9c2f24dcce7b8269
+ms.openlocfilehash: 5c764cc186b5c8742ccfd90b5928f6625f3360c8
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8960198"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065620"
 ---
 # <a name="demand-forecasting-overview"></a>Poreikio prognozės apžvalga
 
@@ -56,7 +56,7 @@ Poreikio prognozėje taikomos trys pagrindinės temos, nurodytos toliau.
 - **Moduliarumas** – poreikio prognozė yra modulinė ir ją lengva konfigūruoti. Funkciją galite įjungti ir išjungti, pakeitę konfigūracijos raktą pasirinkdami **Prekyba** &gt; **Atsargų prognozė** &gt; **Poreikio prognozė**.
 - **Naujas „Microsoft Stack“ panaudojimas** – „Machine Learning“, kuris yra „Microsoft Cortana Analytics Suite“ dalis leidžia jums greitai ir paprastai sukurti nuspėjamus analizės eksperimentus, tokius kaip poreikio apskaičiavimo eksperimentai naudojant algoritmus R ar „Python“ programavimo kalbas ir paprastą tempimo ir paleidimo sąsają.
   - Galite atsisiųsti poreikio prognozavimo bandymus, keisti juos, kad jie atitiktų jūsų verslo poreikius, publikuoti kaip „Azure“ tinklo tarnybą ir naudoti poreikio prognozėms generuoti. Bandymus galite atsisiųsti, jeigu kaip įmonės lygio vartotojas įsigijote gamybos planuotojo „Supply Chain Management“ prenumeratą.
-  - Bet kurį šiuo metu galimą poreikio prognozės bandymą galite atsisiųsti iš čia: [„Cortana“ analizės galerija](https://gallery.cortanaanalytics.com/). Kadangi poreikio prognozės bandymai yra automatiškai integruojami su „Supply Chain Management“, klientai ir partneriai turi tvarkyti iš puslapio [„Cortana“ analizės galerija](https://gallery.cortanaanalytics.com/) atsisiųstų bandymų integravimą. Todėl bandymus, atsisiųstus iš puslapio [„Cortana“ analizės galerija](https://gallery.cortanaanalytics.com/), naudoti nėra taip paprasta, kaip „Finance and Operations“ poreikio prognozės bandymus. Turite modifikuoti bandymų kodą, kad būtų naudojama „Finance and Operations“ taikomojo programavimo sąsaja (API).
+  - Bet kurį šiuo metu galimą poreikio prognozės bandymą galite atsisiųsti iš čia: [„Cortana“ analizės galerija](https://gallery.cortanaanalytics.com/). Kadangi poreikio prognozės bandymai yra automatiškai integruojami su „Supply Chain Management“, klientai ir partneriai turi tvarkyti iš puslapio [„Cortana“ analizės galerija](https://gallery.cortanaanalytics.com/) atsisiųstų bandymų integravimą. Todėl Pagal [analitikos galerijas naudokitės](https://gallery.cortanaanalytics.com/) ne taip paprasta, kaip finansų ir operacijų poreikio prognozės katalogai. Turite modifikuoti iškvietimų kodą, kad jie galėtų naudoti finansų ir operacijų programos programavimo sąsają (API).
   - Galite sukurti savo bandymus naudodami „Microsoft Azure“ mašininio mokymo studiją (klasikinė), publikuoti juos kaip „Azure“ tarnybas ir naudoti poreikio prognozėms generuoti.
   - Jei jums nereikia didelio našumo arba jei jums nereikia apdoroti didelio duomenų kiekio, galite naudoti nemokamą mašininio mokymo pakopą. Rekomenduojame visada pradėti nuo šios pakopos, ypač diegimo ir tikrinimo etapų metu. Jei jums reikia didesnio našumo ir papildomos saugyklos, galite naudoti standartinę mašininio mokymo pakopą. Norint naudoti šią pakopą reikalinga „Azure“ prenumerata ir taikomos papildomos išlaidos. Informacijos apie mašininio mokymo kainodarą žr. [Mašininio mokymo įrangos kainodara](https://aka.ms/machine-learning-price-info).
 - **Prognozės sumažinimas bet kada atsiejimo metu** – poreikio prognozės, pagrįstos šia funkcija, kuri suteikia galimybę prognozuoti priklausomą ir nepriklausomą poreikį bet kada atsiejimo metu.
@@ -101,3 +101,4 @@ Atkreipkite dėmesį, kad poreikio UOM prognozė neprivalo turėti jokios konkre
 - [Webi azure: poreikio prognozė naudojant "Azure" mašinos mokymosi seriją](https://aka.ms/DemandForecastingwithAzureMachineLearningSeries)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

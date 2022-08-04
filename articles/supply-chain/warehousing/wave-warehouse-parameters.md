@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2a64cba837faf84f3e8470a9831d1641213a5cc4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e02cd80a3b7692f496fc70e50b812fae358103bc
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909618"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067858"
 ---
 # <a name="warehouse-parameters-for-wave-processing"></a>Sandėlio parametrai bangos apdorojimui
 
@@ -52,7 +52,7 @@ Norėdami nustatyti sandėlio parametrus bangos apdorojimui, atlikite toliau nur
 > [!NOTE]
 > Bangos šablone, kuris naudojamas apdorojant bangą, galite nurodyti parametrus, kurie automatizuoja bangos apdorojimą. Jei nustatote paketinės užduoties grafiką, galite derinti laiką su automatizavimo parametrais bangos šablone. Daugiau informacijos rasite [Bangos šablono kūrimas](wave-templates.md).
 >
-> Jei naudojate *Transportavimo valdymą* ir *Išplėstinį sandėlio valdymą*, galite nurodyti, ar sujungti krovinius, kai apdorojate bangą. Pavyzdžiui, tai naudinga, kai keli maži kroviniai gali būti siunčiami tuo pačiu metu. Norėdami konsoliduoti krovinius, kai apdorojate bangą, skirtuke **Kroviniai** pasirinkite žymės langelį **Konsoliduoti krovinius bangos apdorojimo metu**.</P>
+> Jei naudojate transportavimo valdymo *ir* sandėlio *valdymo procesus (WMS),* galite nurodyti, ar konsoliduoti krovinius, kai apdorojate bangą. Pavyzdžiui, tai naudinga, kai keli maži kroviniai gali būti siunčiami tuo pačiu metu. Norėdami konsoliduoti krovinius, kai apdorojate bangą, skirtuke **Kroviniai** pasirinkite žymės langelį **Konsoliduoti krovinius bangos apdorojimo metu**.</P>
 
 ## <a name="set-up-full-or-partial-reservation-for-production-waves"></a>Gamybos bangų visų arba dalinių rezervavimų nustatymas
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03d1304c39628323c6d6e15181263a73ba965930
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 00e536241710fc8a75158472688757320abf4247
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710363"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067215"
 ---
 # <a name="collections-in-accounts-receivable"></a>Surinkimas gautinų sumų modulyje
 
@@ -65,7 +65,7 @@ Mokėjimų priežiūros agentas yra asmuo, kuris dirba su klientais siekdamas u�
 
 > [!NOTE]
 > Skirstymo pagal terminus momentinę kopiją reikia sukurti prieš peržiūrint šiuos sąrašo puslapius. Informacija rodoma tik tiems klientams, kuriems buvo sukurta skirstymo pagal terminus momentinė kopija. Sąrašo puslapyje rodomus įrašus galima papildomai filtruoti toliau nurodytu būdu.
-> <li>Pagal numatytuosius nustatymus „Finance and Operations“ turi prieigą prie visų klientų, kurie turi skirstymo pagal terminus momentinę kopiją.</li>
+> <li>Numatyta, kad finansų ir operacijų vartotojas turi prieigą prie visų klientų, kurie turi skirstymo pagal terminus momentinę kopiją.</li>
 > <li>Jeigu yra klientų telkinys, vartotoją reikia nustatyti kaip mokėjimų priežiūros agentą, kad būtų galima naudoti telkinius filtruoti informacijai apie mokėjimų priežiūros sąrašų puslapius. Informacija apsiriboja klientais, kurie yra įrašyti į pasirinktą klientų telkinį.</li>
 > <li>Jeigu vartotojas yra nustatytas tik kaip mokėjimų priežiūros agentas, sąrašų puslapyje bus tik telkiniai, kurie yra atrinkti tam mokėjimų priežiūros agentui. Mokėjimų priežiūros agentų puslapyje mokėjimų priežiūros agentui pasirinkus klientų telkinių perjungimą, tam agentui yra prieinami visi telkiniai.</li>
 
@@ -110,3 +110,4 @@ NSF mokėjimus galite tvarkyti paspaudę NSF mokėjimą Mokėjimų priežiūros 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

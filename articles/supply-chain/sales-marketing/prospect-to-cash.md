@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 40398a481d23b8abed59556a3c6d70e783756017
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ea07b40c0a1a7eae7cd167f46796556b1e0ecc46
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857234"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103601"
 ---
 # <a name="prospect-to-cash"></a>Potencialaus kliento pavertimas pinigais
 
@@ -43,13 +43,13 @@ Dabartinėje versijoje sprendimas Potencialūs klientai ir grynieji pinigai leid
 ## <a name="system-requirements-for-supply-chain-management"></a>„Supply Chain Management“ sistemos reikalavimai
 Sprendimo Potencialūs klientai ir grynieji pinigai integravimo funkcija palaikoma tolesnėse versijose.
 
-### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>„Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3“ (2017 m. gruodžio mėn.)
+### <a name="microsoft-dynamics-365-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 finansų ir operacijų, įmonės leidimas 7.3 (2017 m. gruodžio mėn.)
 
-- „Dynamics 365 for Finance and Operations, Enterprise Edition“ (2017 m. gruodžio mėn.) – programos komponavimo versija 7.3.11971.56116 su 12 platformos naujinimu (7.0.4709.41129)
+- "Dynamics 365" finansai ir operacijos, įmonės leidimas (2017 m. gruodžio mėn.) – programos 7.3.11971.56116 naudojant platformos atnaujinimo 12 (7.0.4709.41129)
 
-### <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>„Dynamics 365 for Finance and Operations, Enterprise Edition“ (2017 m. liepos mėn.)
+### <a name="dynamics-365-finance-enterprise-edition-july-2017"></a>"Dynamics 365 Finance", įmonės leidimas (2017 m. liepos mėn.)
 
-- „Dynamics 365 for Finance and Operations, Enterprise Edition“ (2017 m. liepos mėn.) – su 8 platformos naujinimu (programos komponavimo versija 7.2.11792.56024, platformos komponavimo versija 7.0.4565.16212).
+- "Dynamics 365" finansai ir operacijos, įmonės leidimas (2017 m. liepos mėn.) – su platforma 8 atnaujinimas (programos 7.2.11792.56024 naudojant pagrindo 7.0.4565.16212).
 - Būtinos toliau nurodytos karštosios pataisos.
 
   - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** – įdiegus šias karštąsias pataisas, naudojant funkciją Duomenų integravimas galima „Sales“ pardavimo užsakymus sinchronizuoti su Tiekimo grandinės valdymu. Jos taip pat suteikia kelis kitus patobulinimus.
@@ -59,9 +59,9 @@ Sprendimo Potencialūs klientai ir grynieji pinigai integravimo funkcija palaiko
     > [!NOTE]
     > Turite įdiegti tik KB4045570, nes į įdiegtį įtraukti kitų karštųjų pataisų pakeitimai. 
 
-### <a name="dynamics-365-for-finance-and-operations-version-1611-november-2016"></a>„Dynamics 365 for Finance and Operations“ 1611 versija (2016 m. lapkričio mėn.)
+### <a name="dynamics-365-finance-and-operations-version-1611-november-2016"></a>"Dynamics 365" finansų ir operacijų 1611 versija (2016 m. lapkričio mėn.)
 
-- „Dynamics 365 for Finance and Operations“ 1611 versija (2016 m. lapkričio mėn.) su 8 arba naujesniu platformos naujinimu
+- "Dynamics 365 Finance and Operations" 1611 versija (2016 m. lapkričio mėn.) su 8 arba naujesnės versijos platforma
 
 - Būtinos toliau nurodytos karštosios pataisos.
 

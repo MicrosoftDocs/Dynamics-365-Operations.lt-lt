@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0c9efae1061e96c0c42d5ca6a100bb36889ce56b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9640f460ed7b0b1a0cfdffb7c318bf833f8627fc
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859672"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065300"
 ---
 # <a name="create-links-from-human-resources-to-another-finance-environment"></a>Kurti saitus iš Personalo į kitą finansų aplinką
 
@@ -53,7 +53,7 @@ Kiekvienas jūsų sukurtas saitas turės šią informaciją:
 
    Norėdami rasti reikiamą meniu elementą:
    1. Eiti į finansų aplinką ir atidaryti puslapį, kuris yra naršymo tikslas. 
-   2. Nukopijuokite meniu elementą iš URL. Pavyzdžiui, jei norite, kad saitas atidarytų darbuotojų sąrašą, esantį „Finance and Operations“, įveskite reikšmę, kuri URL bus po &mi. 
+   2. Nukopijuokite meniu elementą iš URL. Pavyzdžiui, jei norite, kad saitas įves jus į finansų ir operacijų darbuotojų sąrašą, įveskite vertę, kuri URL lauke rodoma po "&mi". 
    3. Meniu elemento, perkeliančio į darbuotojų sąrašo puslapį, pavyzdys: HcmWorkerListPage_Employees.
 
  - **Duomenų šaltinio saitas**: pasirinkite duomenų šaltinį, kurį nurodo saitas. Galimi dažniausiai naudojami šaltiniai, pvz., **Darbininkas** ir **Pareigos**.
@@ -63,4 +63,5 @@ Kiekvienas jūsų sukurtas saitas turės šią informaciją:
 Sistemos administratoriai nustatytuose puslapiuose matys naujai sukurtus saitus, net jei pasirinkta parinkties **Įjungti šį saitą** reikšmė yra **Ne**. Tai galima naudoti norint patikrinti saitus prieš pateikiant juos naudoti kitiems darbuotojams. Visi kiti vaidmenys matys tik sukonfigūruotus saitus, kai nustatyta **parinktis** Įgalinti šį saitą kaip **Taip**. Saitus galės pasiekti darbuotojai, turintys prieigą prie puslapių, kuriuose šie saitai yra pridėti.
 
 Vartotojai taip pat turi turėti saugos teises antrinėje aplinkoje, kuri nustatyta prieiga prie tos aplinkos puslapių. Jei jie jų neturi, naudojant saitą bus rodomas saugos dialogo langas.
+
 

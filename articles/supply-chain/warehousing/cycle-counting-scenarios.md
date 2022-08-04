@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 90a3f132a96081b56ab60f5b0ba5cc328b820879
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f6f3f2db6efcc4d4d6ae3d278751a230fca9a64
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899330"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068603"
 ---
 # <a name="cycle-counting-example-scenarios"></a>Ciklo skaičiavimo pavyzdiniai scenarijai
 
@@ -127,7 +127,7 @@ Norėdami patvirtinti, kad visi demonstraciniai duomenys, reikalingi scenarijams
 1. Sąrašo srityje pasirinkite *61* sandėlį. Jei joks esamas įrašas neturi šio pavadinimo, sukurkite jį.
 1. „FastTab” **Sandėlis** nustatykite tolesnes reikšmes:
 
-    - **Naudoti sandėlio valdymo procesą:** *Taip* (Ši vertė įgalina sandėlį sandėlio valdymo procesams.)
+    - **Naudokite sandėlio valdymo procesą:** *taip* (ši vertė įgalina sandėlį naudoti sandėlio valdymo procesus (WMS).)
     - **Leisti perkelti numerio lentelę atliekant ciklų skaičiavimą:** *Taip* (Ši vertė leidžia darbuotojams perkelti numerio lenteles ciklo skaičiavimo metu.)
 
 ## <a name="scenario-1-guided-cycle-counting"></a>1 scenarijus: Valdomas ciklo skaičiavimas

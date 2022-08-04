@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 100b1972801f117560a5caf338a1ac640737ccdf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 43102cb867243a872a5d1df777d8c4102a48e235
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855938"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070326"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Pirkimo užsakymų gaunamų krovinių sandėlio tvarkymas
 
@@ -56,7 +56,7 @@ Toliau pateiktame paveikslėlyje parodytas įprastas gaunamų krovinių, kurie a
 
 ## <a name="register-item-quantities-that-arrive-on-an-inbound-load"></a><a name="register-item-quantities-arriving"></a>Užregistruokite prekių, atvykusių su gaunamu kroviniu, kiekius
 
-„Microsoft Dynamics 365 Supply Chain Management“ palaiko kelis būdus, kuriais galima užregistruoti užsakytų produktų gavimą. Todėl galite konfigūruoti sistemą, kad ji atitiktų specifinius jūsų verslo poreikius. Šiame skyriuje aprašoma, kaip užregistruoti gaunamų prekių kiekius naudojant mobilųjį įrenginį, kai sistemoje įjungtas patobulinto sandėliavimo valdymo funkcija. Tačiau yra alternatyvus srautas, pagrįstas prekių gavimo žurnalo, o ne mobiliojo įrenginio naudojimu. Daugiau informacijos apie tokį srautą žr. [Prekių, kurioms įjungta patobulinto sandėliavimo funkcija, registravimas naudojant prekių gavimo žurnalą](tasks/register-items-advanced-warehousing.md).
+„Microsoft Dynamics 365 Supply Chain Management“ palaiko kelis būdus, kuriais galima užregistruoti užsakytų produktų gavimą. Todėl galite konfigūruoti sistemą, kad ji atitiktų specifinius jūsų verslo poreikius. Šiame skyriuje aprašoma, kaip registruoti gaunamų prekių kiekius naudojant mobilųjį įrenginį, kai sistemoje įjungtas sandėlio valdymo procesas (WMS). Tačiau yra alternatyvus srautas, pagrįstas prekių gavimo žurnalo, o ne mobiliojo įrenginio naudojimu. Daugiau informacijos apie šį srautą ieškokite lauke Registruoti [prekes, kurias galima naudoti sandėlio valdymo procesuose, naudojant prekių gavimo žurnalą](tasks/register-items-advanced-warehousing.md).
 
 Kai gaunamas krovinys pirmą kartą atvyksta į sandėlį, sandėlio darbuotojai turi užregistruoti siuntoje esančių prekių kiekius. Paprastai jie naudoja nešiojamus skaitytuvus. Šią darbo eigą galima naudoti tik tada, kai sistemoje yra toliau nurodyti elementai.
 

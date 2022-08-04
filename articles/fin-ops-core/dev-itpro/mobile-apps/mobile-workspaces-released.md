@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 79abd22bab9ec88358fa039060a67006fc53cb5d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3c9b97d02532b05aac2b02851f1b7b705a047726
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868646"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068142"
 ---
 # <a name="available-mobile-workspaces"></a>Pasiekiamos mobiliosios darbo sritis
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-Šiame straipsnyje pateikiamos mobiliosios darbo sritys, kurias galima naudoti su mobiliųjų įrenginių programėle Finansai ir operacijos ("Dynamics 365"). Toliau esančioje lentelėje kiekvienai iš šių mobiliųjų darbo sričių nurodomas pasenusių darbo sričių planas, atsižvelgiant į tai, ar pakeitimo patirtis suplanuota, ar ne.  
+Šiame straipsnyje pateikiamos mobiliosios darbo sritys, kurias galima naudoti su finansų ir operacijų ("Dynamics 365") mobiliąją programa. Toliau esančioje lentelėje kiekvienai iš šių mobiliųjų darbo sričių nurodomas pasenusių darbo sričių planas, atsižvelgiant į tai, ar pakeitimo patirtis suplanuota, ar ne.  
 
 
 | Mobilioji darbo sritis     | Aprašymas   | Apeikvojimo planas   |
@@ -43,3 +43,4 @@ ms.locfileid: "8868646"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

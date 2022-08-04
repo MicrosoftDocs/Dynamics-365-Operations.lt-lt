@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d973d1cdb530a031ca8a5caf621f9bebced4842
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 25484efd7be026bfc3a209fb52822b87d6b76cc2
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873498"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065501"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Pirkimo užsakymo atidėjimo vietos nurodymo nustatymas
 
 [!include [banner](../../includes/banner.md)]
 
-Šiame straipsnyje paaiškinama, kaip nustatyti paprastą vietos taikymą. Parodytame pavyzdyje sukuriamas atidėjimo vietos nustatymas, kuris turi būti naudojamas nustatant prekių, gautų pirkimo užsakymui, talpinimo vietą. Šį užduoties vedlį galite paleisti su minėtais duomenimis naudodami demonstracinių duomenų įmonės USMF. Išankstinės sąlygos: turite sukurti perdavimo kodą. Atlikdami šią procedūrą mes naudojame perdavimo kodą, vadinamą Pakartotinis žymėjimas. Jei savo duomenyse kuriate vietos nurodymą, turite nustatyti išplėstinį sandėlio ir prekių sandėlio valdymą. Ši procedūra skirta sandėlio vadovui.
+Šiame straipsnyje paaiškinama, kaip nustatyti paprastą vietos taikymą. Parodytame pavyzdyje sukuriamas atidėjimo vietos nustatymas, kuris turi būti naudojamas nustatant prekių, gautų pirkimo užsakymui, talpinimo vietą. Šį užduoties vedlį galite paleisti su minėtais duomenimis naudodami demonstracinių duomenų įmonės USMF. Išankstinės sąlygos: turite sukurti perdavimo kodą. Atlikdami šią procedūrą mes naudojame perdavimo kodą, vadinamą Pakartotinis žymėjimas. Jei savo duomenyse kuriate vietos taikymą, sandėliui ir prekėms turite nustatyti sandėlio valdymo procesus (WMS). Ši procedūra skirta sandėlio vadovui.
 
 1. Naršymo srityje eikite į **Moduliai > Sandėlio valdymas > Sąranka > Vietos nurodymai**.
 2. Lauke **Darbo užsakymo tipas** pasirinkite **Pirkimo užsakymai**.

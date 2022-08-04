@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: cbe6bff6fab96900b8bd4e112a8858363fff86d1
-ms.sourcegitcommit: 9870b773a2ea8f5675651199fdbc63ca7a1b4453
+ms.openlocfilehash: 463a66002ec7a6536c9ff829f9ea2c3734138eae
+ms.sourcegitcommit: 6221a25f81aa83ab335de7cb6b6c3014dbec0116
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9013561"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177155"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Pradėkite darbą su Visuotine atsargų apskaita
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until 4/30/2022 -->
 
 Visuotinė atsargų apskaita leidžia jums atlikti kelias atsargų apskaitas Visuotinės atsargų apskaitos didžiosiose knygose, kurias nustatėte. Turite susieti kiekvieną Visuotinės atsargų apskaitos didžiąją knygą su *konvencija*. Konvencija yra toliau pateiktų apskaitos strategijų tipų rinkinys.
 
@@ -69,28 +67,34 @@ Kad būtų galima įgalinti papildinio funkcionalumą, turite jį integruoti su 
 
 Daugiau informacijos rasite [Įjungimas po aplinkos diegimo](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-## <a name="install-the-add-in"></a><a name="install"></a>Papildinio įdiegimas
+## <a name="install-or-update-the-add-in-and-solution"></a><a name="install"></a> Įdiegti arba atnaujinti papildinį ir sprendimą
 
-Atlikite šiuos veiksmus, kad įdiegtumėte priedą, skirtą Visuotinės atsargų apskaitos naudojimui.
+Norėdami įdiegti ar atnaujinti visuotinių atsargų apskaitos priedą ir sprendimą, naudokite nurodytą procedūrą. Procedūros dalis, kurios reikia laikytis, priklauso nuo to, ar diegiate pirmą kartą, ar tik turite atnaujinti esamos įdiegties sprendimą.
+
+- Jei niekada neįdiegite priedo anksčiau, atlikite visą procedūrą ir priedą, ir sprendimą.
+- Jei jau naudojate visuotinę [Power Platform atsargų apskaitą, bet reikia atnaujinti sprendimą administravimo](https://admin.powerplatform.microsoft.com) centre, atlikite tik 6 veiksmą ir praleiskite visus kitus veiksmus.
+
+Norėdami įdiegti arba atnaujinti papildinį ir sprendimą:
 
 1. Prisijunkite prie [LCS](https://lcs.dynamics.com/Logon/Index).
 1. Atidarykite LCS aplinką, į kurią norite įtraukti paslaugą.
 1. Eikite į **Išsami informacija**.
-1. Eikite į **„Power Platform” integravimas** ir pasirinkite **Nustatymas**.
+1. Eikite į **Power Platform Integravimą** ir pasirinkite **Nustatymas**.
 1. Dialogo lange **„Power Platform” aplinkos nustatymas** pasirinkite žymės langelį, o tada – **Nustatymas**. Įprastai nustatymas trunka nuo 60 iki 90 minučių.
-1. Užbaigę aplinkos Microsoft Power Platform nustatymą, prisiregistruokite [Power Platform prie administravimo](https://admin.powerplatform.microsoft.com) centro ir įdiekite visuotinio atsargų apskaitos priedą, atlikdami šiuos veiksmus:
-   1. Pasirinkite aplinką, kurioje norite įdiegti priedą.
+1. Užbaigę Microsoft Power Platform aplinkos nustatymą, [Power Platform prisiregistruokite prie administravimo](https://admin.powerplatform.microsoft.com) centro ir įdiekite arba atnaujinkite visuotinį atsargų apskaitos sprendimą atlikdami šiuos veiksmus:
+   1. Pasirinkite aplinką, kurioje norite įdiegti arba atnaujinti sprendimą.
    1. Pasirinkite " **Dynamics 365" programėles**.
    1. Pasirinkite **įdiegti programą**.
    1. Pasirinkite **"Dynamics 365" visuotinių atsargų apskaita**.
    1. Pasirinkite **Pirmyn,** jei norite įdiegti.
-1. Grįžkite į LCS aplinką. „FastTab” **Aplinkos papildiniai** pasirinkite **Diegti naują papildinį**.
+1. Visiškai įdiegę sprendimą grįžkite į LCS aplinką. „FastTab” **Aplinkos papildiniai** pasirinkite **Diegti naują papildinį**.
 1. Pasirinkite **Visuotinė atsargų apskaita**.
 1. Vadovaukitės diegimo vadovu ir sutikite su sąlygomis ir nuostatomis.
 1. Pasirinkti **Diegti**.
 1. „FastTab” **Aplinkos papildiniai** turėtumėte matyti, kad Visuotinė atsargų apskaita yra diegiama. Po kelių minučių būsena turėtų pasikeisti iš *Diegiama* į *Įdiegta*. (Gali reikėti atnaujinti puslapį, kad pamatytumėte šį pakeitimą.) Tada Visuotinė atsargų apskaita bus parengta naudoti.
 
 Jei jūsų diegimo numatytoji kalba yra Dataverse ne anglų kalba, atlikite šiuos veiksmus:
+
 1. Eikite į **Išplėstiniai parametrai \> Administravimas \> Kalbos**.
 1. Pasirinkite *Anglų* (*LanguageCode (Kalbos kodas)=1033*), o tada – **Taikyti**.
 

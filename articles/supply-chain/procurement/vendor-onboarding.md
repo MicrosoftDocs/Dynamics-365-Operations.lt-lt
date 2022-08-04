@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8143280e85a670cf9ba672734e07c3d306f63df1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8b3660e1c7a0e236456d1a16c628fd5d538f045f
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862604"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111368"
 ---
 # <a name="onboard-vendors"></a>Tiekėjų supažindinimas
 
@@ -46,7 +46,7 @@ Toliau pateikiamoje lentelėje parodomi proceso veiksmai ir vaidmenys.
 | Administratorius            | | | Sukurkite vartotoją Tiekimo grandinės valdyme ir „Microsoft Azure“. | | | |
 | Tiekėjo kontaktinis asmuo    | | | Siųskite el. laišką kontaktiniam asmeniui. | Užregistruokite tiekėjo informaciją. | | |
 
-Trumpa tiekėjo supažindinimo proceso apžvalga parodyta šiame trumpame „YouTube“ vaizdo įraše: [Naujo tiekėjo supažindinimas programoje „Finance and Operations“](https://www.youtube.com/watch?v=0KUc3AGaTKk).
+Kad būtų galima greitai parodyti tiekėjo iniaskavimo procesą, peržiūrėkite trumpą vaizdo įrašą apie tai, YouTube [kaip į finansus ir operacijas žiūrėti naują tiekėją](https://www.youtube.com/watch?v=0KUc3AGaTKk).
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>Galimo tiekėjo registravimo užklausos importavimas
 

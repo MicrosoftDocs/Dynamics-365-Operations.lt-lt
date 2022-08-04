@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 22788dff1ee29b6920426d8ff00d412c3d5564e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f2f51a095a23b651dca645b14e652519f20037e2
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853080"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070565"
 ---
 # <a name="create-variable-compensation-plans"></a>Kintamosios atlyginimo dalies planų kūrimas
 
@@ -42,7 +42,11 @@ Jūsų darbuotojų kintamosios atlyginimo dalies sumų skaičiavimas gali būti 
 Pasirinktinai įmonės gali nustatyti **Paskirstymo taisykles**. **Paskirstymo taisyklės** aprašo, kaip per laiką turi būti paskirstyta kintamoji premija. Pavyzdžiui, paskirstymo taisyklė gali skelbti, kad darbuotojas kitus ketverius metus kiekvienais metais gaus 25 procentų nuo savo visos premijos. Paskirstymo taisyklės yra tik informacinės.
 
 ## <a name="variable-compensation-plans"></a>Kintamųjų atlyginimo dalių planai
-**Kintamosios atlyginimo dalies planas** apima įtrauktų darbuotojų kintamosios atlyginimo dalies taisykles, skaičiavimo metodus ir numatytąsias skaičiavimo reikšmes. Kai kuriate kintamosios atlyginimo dalies planą, turite nustatyti kintamosios atlyginimo dalies tipą. Kintamosios atlyginimo dalies tipas nustato, ar sistema kaip premiją skaičiuoja valiutos sumą, ar vienetų skaičių. Taip pat turite nustatyti skaičiavimo metodą:
+**Kintamosios atlyginimo dalies planas** apima įtrauktų darbuotojų kintamosios atlyginimo dalies taisykles, skaičiavimo metodus ir numatytąsias skaičiavimo reikšmes. Kai kuriate kintamosios atlyginimo dalies planą, turite nustatyti kintamosios atlyginimo dalies tipą. Kintamosios atlyginimo dalies tipas nustato, ar sistema kaip premiją skaičiuoja valiutos sumą, ar vienetų skaičių. 
+
+Apribokite **prieigą prie pasirinktų vaidmenų** parametrų apriboja prieigą prie kompensavimo plano iki pasirinktų saugos vaidmenų, kurie buvo priskirti tam personalo planui. Pavyzdžiui, kai kuriate atlyginimų planus, kurie skirti vadovams ir neturėtų būti matomi visiems personalo vaidmenims, galite naudoti šį parametrą prieigai prie šių atlyginimo planų apriboti. 
+
+Taip pat turite nustatyti skaičiavimo metodą:
 
 -   **Momentinis** – kintamosios premijos apskaičiavimas paremtas pastoviąja atlyginimo dalimi, kurią darbuotojas turėjo tam tikrą dieną. Ta diena nurodoma proceso įvykyje, kai apdorojamos naujos kompensacijų sumos.
 -   **Sudėtinis** – apskaičiuojama premijos suma kiekvienam unikaliam pastoviosios atlyginimo dalies užmokesčio tarifui, kuris buvo taikomas darbuotojui tarp ciklo pradžios dienos ir ciklo pabaigos dienos apdorojimo įvykio metu. Tada tarifai sudedami – taip sudaroma galutinė premija. Pvz., ciklo metu darbuotojas perkeltas į kitas pareigas, kurioms taikomas skirtingas darbo užmokesčio tarifas. Tokiu atveju kintamosios dalies premija koreguojama pagal laiką, kurį darbuotojui buvo taikomas kiekvienas užmokesčio tarifas.

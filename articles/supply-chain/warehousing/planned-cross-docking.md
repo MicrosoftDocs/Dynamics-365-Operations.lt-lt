@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 28ebf1b4fb966fd6801e75e7b3a6c8741114938d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f379b3cdb6830f989199afde7d751842047df79
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863685"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070296"
 ---
 # <a name="planned-cross-docking"></a>Suplanuotas prekių skirstymas
 
@@ -118,7 +118,7 @@ Suplanuotas prekių skirstymas yra įgyvendinamas kaip krovinio registravimo met
     - **Tiekimo šaltinis:** *Pirkimo užsakymas*
 
 > [!NOTE]
-> Galite nustatyti užklausą, norėdami kontroliuoti, kada konkretus prekių skirstymo šablonas naudojamas. Prekių skirstymo šablonų užklausa turi tik *InventTable* (prekių) lentelę ir vidinę sujungtą *WHSInventTable* (WHS prekių) lentelę. Jei į užklausą norite įtraukti kitas lenteles, galite jas sujungti tik naudodami *esamos jungtys* arba *nesamos jungtys*. Kai filtruojate sujungtas lenteles, kiekvienam prijungtos lentelės įrašui nuskaitomas kiekvienos prijungtos lentelės įrašas. Jei yra sujungimo tipas yra *esamos jungtys*, ieška baigiasi po to, kai buvo rastas pirmas sugretinimas. Pavyzdžiui, jei prijungiate pardavimo užsakymo eilučių lentelę prie prekių lentelės, sistema patikrina ir grąžina prekes, kurių bent viena pardavimo užsakymo eilutė turi nustatytą sąlygą. Iš esmės, duomenys surenkami iš pirminės (prekių) lentelės, o ne iš antrinės (pardavimo užsakymo eilutės) lentelės. Todėl šiame langelyje negalima filtruoti pagal šaltinio dokumentus, pvz., pardavimo užsakymo eilutes arba klientus.
+> Galite nustatyti užklausą, norėdami kontroliuoti, kada konkretus prekių skirstymo šablonas naudojamas. Prekių skirstymo šablonų užklausa turi tik *InventTable* (prekių) lentelę ir vidinę sujungtą *WHSInventTable* (WMS prekių) lentelę. Jei į užklausą norite įtraukti kitas lenteles, galite jas sujungti tik naudodami *esamos jungtys* arba *nesamos jungtys*. Kai filtruojate sujungtas lenteles, kiekvienam prijungtos lentelės įrašui nuskaitomas kiekvienos prijungtos lentelės įrašas. Jei yra sujungimo tipas yra *esamos jungtys*, ieška baigiasi po to, kai buvo rastas pirmas sugretinimas. Pavyzdžiui, jei prijungiate pardavimo užsakymo eilučių lentelę prie prekių lentelės, sistema patikrina ir grąžina prekes, kurių bent viena pardavimo užsakymo eilutė turi nustatytą sąlygą. Iš esmės, duomenys surenkami iš pirminės (prekių) lentelės, o ne iš antrinės (pardavimo užsakymo eilutės) lentelės. Todėl šiame langelyje negalima filtruoti pagal šaltinio dokumentus, pvz., pardavimo užsakymo eilutes arba klientus.
 
 ### <a name="create-a-work-class"></a>Darbo klasės kūrimas
 

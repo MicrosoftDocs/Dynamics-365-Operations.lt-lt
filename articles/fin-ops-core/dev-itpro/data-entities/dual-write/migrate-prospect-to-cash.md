@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-26
-ms.openlocfilehash: 8e5c11e535bd61e9955a4abf1491e88991ee40f1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 91cc0e59405bc085e09f01f05ef02e4a0260481e
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894272"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111901"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Perkelti Potencialus klientas į grynuosius pinigus duomenis iš duomenų integratoriaus į dvigubą rašymą
 
@@ -57,7 +57,7 @@ Norėdami perkelti Potencialus klientas į grynuosius pinigus duomenis iš duome
 
 1. Stulpelyje **Įmonė** įveskite įmonės pavadinimą, pavyzdžiui, **„USMF”**.
 2. Stulpelyje **Ryšio tipas** įveskite **Klientas** kaip statinę reikšmę. Galbūt savo verslo logikoje nenorėsite klasifikuoti kiekvieno paskyros įrašo kaip kliento.
-3. Stulpelyje **Klientų grupės ID** įveskite klientų grupės numerį iš programos Finansai ir Operacijos. Numatytoji reikšmė iš Potencialus klientas į grynuosius pinigus sprendimo **yra 10**.
+3. Stulpelyje **Klientų grupės ID** įveskite klientų grupės numerį iš finansų ir operacijų programos. Numatytoji reikšmė iš Potencialus klientas į grynuosius pinigus sprendimo **yra 10**.
 4. Jei naudojate Potencialus klientas į grynuosius pinigus sprendimą be jokio tinkinimo **Paskyros numeriui**, įveskite reikšmę **Paskyros numeris** į **Šalies numeris** stulpelį. Jei yra pritaikymų ir nežinote šalies numerio, traukite šią informaciją iš finansų ir operacijų programos.
 
 ## <a name="contact-table"></a>Kontakto lentelė
@@ -65,7 +65,7 @@ Norėdami perkelti Potencialus klientas į grynuosius pinigus duomenis iš duome
 1. Stulpelyje **Įmonė** įveskite įmonės pavadinimą, pavyzdžiui, **„USMF”**.
 2. Remiantis **Ar klientas aktyvus** reikšme CSV faile nustatykite šiuos stulpelius:
 
-    - Jei **Ar klientas aktyvus** nustatyta į **Taip** CSV faile, nustatykite stulpelį **Parduotinas** į **Taip**. Stulpelyje **Klientų grupės ID** įveskite klientų grupės numerį iš programos Finansai ir Operacijos. Numatytoji reikšmė iš Potencialus klientas į grynuosius pinigus sprendimo **yra 10**.
+    - Jei **Ar klientas aktyvus** nustatyta į **Taip** CSV faile, nustatykite stulpelį **Parduotinas** į **Taip**. Stulpelyje **Klientų grupės ID** įveskite klientų grupės numerį iš finansų ir operacijų programos. Numatytoji reikšmė iš Potencialus klientas į grynuosius pinigus sprendimo **yra 10**.
     - Jei **Ar klientas aktyvus** nustatyta į **Ne** CSV faile, nustatykite stulpelį **Parduotinas** į **Ne**, o stulpelį **Kontaktas, skirtas** į **Klientui**.
 
 3. Jei naudojate Potencialus klientas į grynuosius pinigus sprendimą be jokio tinkinimo **Kontakto numeriui**, nustatykite šiuos stulpelius:
@@ -76,7 +76,7 @@ Norėdami perkelti Potencialus klientas į grynuosius pinigus duomenis iš duome
 
 ## <a name="invoice-table"></a>Sąskaitos faktūros lentelė
 
-Sf lentelės duomenys **sukurti** rodyti vienu būdu, todėl iš finansų ir operacijų programos į kliento įsipareigojimo programą inicijuoti nebūtina. Vykdykite pradinę sinchronizaciją, norėdami perkelti visus reikiamus duomenis iš finansų ir operacijų programos į klientų įsipareigojimo programą. Daugiau informacijos rasite [Pradinio sinchronizavimo svarstymai](initial-sync-guidance.md).
+SF lentelės duomenys **sukurti** rodyti vienu būdu, todėl iš finansų ir operacijų programos į kliento įsipareigojimo programą inicijuoti nebūtina. Vykdykite pradinę sinchronizaciją, norėdami perkelti visus reikiamus duomenis iš finansų ir operacijų programos į klientų įsipareigojimo programą. Daugiau informacijos rasite [Pradinio sinchronizavimo svarstymai](initial-sync-guidance.md).
 
 ## <a name="order-table"></a>Užsakymų lentelė
 
@@ -94,7 +94,7 @@ Sf lentelės duomenys **sukurti** rodyti vienu būdu, todėl iš finansų ir ope
 
 ## <a name="products-table"></a>Produktų lentelė
 
-Kadangi duomenys iš **produktų lentelės** sukurti taip, kad iš finansų ir operacijų programos į kliento įsipareigojimo programą būtų pateikti vienu būdu, inicijavimas nebūtinas. Vykdykite pradinę sinchronizaciją, norėdami perkelti visus reikiamus duomenis iš finansų ir operacijų programos į klientų įsipareigojimo programą. Daugiau informacijos rasite [Pradinio sinchronizavimo svarstymai](initial-sync-guidance.md).
+Kadangi duomenys iš **produktų lentelės** sukurti taip, kad iš finansų ir operacijų programų į kliento įsipareigojimų programą būtų pateikti vienu būdu, inicijavimas nebūtinas. Vykdykite pradinę sinchronizaciją, norėdami perkelti visus reikiamus duomenis iš finansų ir operacijų programos į klientų įsipareigojimo programą. Daugiau informacijos rasite [Pradinio sinchronizavimo svarstymai](initial-sync-guidance.md).
 
 ## <a name="quote-and-quote-product-tables"></a>Pasiūlymo ir pasiūlymo produktų lentelės
 
@@ -102,3 +102,4 @@ Jei norite **naudoti** lentelę Pasiūlymas, vadovaukitės anksčiau šiame stra
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

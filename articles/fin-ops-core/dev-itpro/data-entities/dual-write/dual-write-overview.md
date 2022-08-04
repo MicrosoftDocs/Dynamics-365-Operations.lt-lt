@@ -1,6 +1,6 @@
 ---
 title: Dvigubo rašymo apžvalga
-description: Šiame straipsnyje pateikiama dvigubo rašymo peržiūra, kuri leidžia realiuoju laiku bendrauti tarp klientų įsipareigojimo programėlių ir finansų ir operacijų programėlių.
+description: Šiame straipsnyje pateikiama dvigubo rašymo peržiūra, kuri leidžia realiuoju laiku bendrauti tarp klientų įsipareigojimo programėlių ir finansų bei operacijų programėlių.
 author: RamaKrishnamoorthy
 ms.date: 02/06/2020
 ms.topic: overview
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 2ef4fb1a51bd92db440841eb2a9d9ebcce0e1b1d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 599cfdab8232cab28c59c5098094c4afd351df77
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872946"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112401"
 ---
 # <a name="dual-write-overview"></a>Dvigubo rašymo apžvalga
 
@@ -26,9 +26,9 @@ ms.locfileid: "8872946"
 
 ## <a name="what-is-dual-write"></a>Kas yra dvigubas rašymas?
 
-Dvigubo rašymo sistema yra ne "box" infrastruktūra, kuri leidžia realiuoju laiku užtikrinti klientų įsipareigojimo programėlių ir finansų ir operacijų programėlių sąveiką. Kai duomenys apie klientus, produktus, žmones ir operacijas siunčiami už programos ribų, visiems organizacijos padaliniams suteikiami įgaliojimai.
+Dvigubo rašymo sistema yra ne "box" infrastruktūra, kuri suteikia realiuoju laiku ryšį tarp klientų įsipareigojimo programėlių ir finansų bei operacijų programėlių. Kai duomenys apie klientus, produktus, žmones ir operacijas siunčiami už programos ribų, visiems organizacijos padaliniams suteikiami įgaliojimai.
 
-Dvigubo rašymo sistema užtikrina daugiakryptį finansų ir operacijų programėlių ir dviejų krypčių integravimą Dataverse. Dėl bet kokių duomenų keitimo finansų ir operacijų programėlių Dataverse Dataverse rašoma ir visi duomenų keitimo priežastis kuria finansų ir operacijų programėles. Šis automatizuotas duomenų srautas suteikia integruotą vartotojo patirtį susietose programose.
+Dvigubo rašymo sistema leidžia griežtai atskirti, dviejų krypčių integravimą tarp finansų ir operacijų programėlių ir Dataverse. Dėl bet kokių duomenų keitimo finansinėse ir operacijų programėlėse Dataverse Dataverse jis rašyti ir visi duomenų keitimo priežastis kuria finansų ir operacijų programėles. Šis automatizuotas duomenų srautas suteikia integruotą vartotojo patirtį susietose programose.
 
 ![Duomenų ryšys tarp programų.](media/dual-write-overview.jpg)
 
@@ -80,7 +80,7 @@ Dvigubu rašymu pateikiama duomenų integracija „Microsoft Dynamics 365” pro
 
 ## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>Kuo dvigubas rašymas naudingas klientų įtraukimo programų kūrėjams ir architektams?
 
-Dvigubo rašymo metu automatizuojami duomenų srautai tarp finansų ir operacijų programėlių ir klientų įsipareigojimo programėlių. Dvigubas rašymas susideda iš dviejų „AppSource” sprendimų, įdiegtų „Dataverse”. Sprendimai išplečia „Dataverse” lentelių schemą, priedus ir darbo eigas, kad jie galėtų pritaikyti mastelį prie ERP dydžio. Sėkmingai įdiegtos programos programuotojai ir architektai turi suprasti šiuos pakeitimus ir bendradarbiauti su finansų ir operacijų programėle.
+Dvigubo rašymo metu automatizuojami duomenų srautai tarp finansų ir operacijų programėlių ir klientų įsipareigojimo programėlių. Dvigubas rašymas susideda iš dviejų „AppSource” sprendimų, įdiegtų „Dataverse”. Sprendimai išplečia „Dataverse” lentelių schemą, priedus ir darbo eigas, kad jie galėtų pritaikyti mastelį prie ERP dydžio. Sėkmingai įdiegtos programos programuotojai ir architektai turi suprasti šiuos pokyčius ir bendradarbiauti su finansų ir operacijų programėle.
 
 Norėdami sukurti lygumą su finansų ir operacijų programomis, dvigubo rašymo metu schemoje labai pasikeičia Dataverse. Jei suprantate planą, galite išvengti kai kurių kūrimo ir tobulinimo perdarymo veiksmų ateityje.
 
@@ -88,7 +88,7 @@ Norėdami sukurti lygumą su finansų ir operacijų programomis, dvigubo rašymo
 
 + Veiklos ir pastabos yra suvienodintos ir išplėstos, kad būtų palaikomi ir C1 (sistemos vartotojai), ir C2 (sistemos klientai).
 
-+ Norėdami išvengti duomenų praradimo Dataverse perduodant valiutą tarp finansų ir operacijų programėlių ir "The", galėsite išplėsti klientų įsipareigojimo programėlių valiutos duomenų tipo dešimtainių dalių vietų skaičių. Funkcija automatiškai paverčia esamas eilutes nauja išplėstine būsena metaduomenų sluoksnyje. Šio proceso metu valiutos vertė yra paverčiama dešimtainiais duomenimis, o ne pinigų duomenimis, ir valiutos vertė palaiko 10 skaitmenų po kablelio. Ši funkcija pasirenkama, todėl organizacijoms, kurioms nereikia daugiau nei 4 skaitmenų po kablelio tikslumo, nereikia naudoti funkcijos. Daugiau informacijos žr. [Dvigubo rašymo valiutos duomenų tipo perkėlimas](currrency-decimal-places.md).
++ Norėdami išvengti duomenų praradimo Dataverse perduodant valiutą tarp finansų ir operacijų programėlių ir "the", galėsite išplėsti klientų įsipareigojimo programėlių valiutos duomenų tipo dešimtainių dalių vietų skaičių. Funkcija automatiškai paverčia esamas eilutes nauja išplėstine būsena metaduomenų sluoksnyje. Šio proceso metu valiutos vertė yra paverčiama dešimtainiais duomenimis, o ne pinigų duomenimis, ir valiutos vertė palaiko 10 skaitmenų po kablelio. Ši funkcija pasirenkama, todėl organizacijoms, kurioms nereikia daugiau nei 4 skaitmenų po kablelio tikslumo, nereikia naudoti funkcijos. Daugiau informacijos žr. [Dvigubo rašymo valiutos duomenų tipo perkėlimas](currrency-decimal-places.md).
 
 + [Datos galiojimas](../../dev-tools/date-effectivity.md) bus įtrauktas į „Dataverse”. Jame bus palaikomi ankstesni, dabartiniai ir būsimi duomenys toje pačioje lentelėje.
 
@@ -99,3 +99,4 @@ Daugiau informacijos apie būsimus keitimus žr. [Kas nauja ar pasikeitė dvigub
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

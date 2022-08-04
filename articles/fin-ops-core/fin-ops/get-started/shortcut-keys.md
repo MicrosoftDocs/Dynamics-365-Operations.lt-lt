@@ -2,7 +2,7 @@
 title: Spartieji klavišai
 description: Šiame straipsnyje pateikta sparčiųjų klavišų derinių, kuriuos galima naudoti dirbant su finansų ir operacijų programėle, apžvalga.
 author: jasongre
-ms.date: 03/03/2022
+ms.date: 07/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f0f833e3a6d45329fd8a69af658f392df32e4db
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 67e1904807dfe5122de3d3ead97c2e2c11ed213d
+ms.sourcegitcommit: bd2d6a86a7fd4b4f6f86656998f7a8844f949e42
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866123"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9140446"
 ---
 # <a name="keyboard-shortcuts"></a>Spartieji klavišai
 
@@ -197,6 +197,7 @@ Vartotojai gali atrasti šiuo metu galimas nuorodas tiesiai iš vartotojo sąsaj
 | Uždaryti išsamios informacijos formos naršymo sąrašą (naršymo sąrašui esant suaktyvintam) | Esc                        |
 | Pereiti į pagrindinio puslapio turinį (kai įvesties vieta yra kitoje srityje)                    | „Alt“ + M, M                    |
 | Pereiti į „FactBox“ sritį (ji taip pat gali būti atidaroma)                       | „Alt“ + M, B arba „Ctrl“ + F2         |
+| Perkelti į kitą funkcijos iškvietimą                                              | "Alt" + M, C                    |
 
 > [!NOTE]
 > **10**.0.26 versijoje įdiegta išdėstymo supaprastinti skirtukų elgseną viso puslapio formose leidžia vartotojams skirtukuose eiti per visus puslapio regionus ir nereikalauti pelės ar paskirto klaviatūros klavišo, skirto judėti tarp regionų. Jei norite greitai pereiti iš vieno puslapio į kitą, galite naudoti esamus sparčiuosius klavišus (pvz., Alt + M klavišų chordinės nuorodos).
@@ -269,3 +270,4 @@ Vartotojai gali atrasti šiuo metu galimas nuorodas tiesiai iš vartotojo sąsaj
 [Klaviatūros spartieji klavišai trūkstamų sąskaitų analizei atlikti](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2963589562e2d646670183e9db35df33255e8894
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e5816a7cddf509260511368b74655a9fd5bfc485
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903759"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067888"
 ---
 # <a name="shipment-auto-updates"></a>Automatiniai siuntos atnaujinimai
 
@@ -30,7 +30,7 @@ Automatinio siuntos atnaujinimo funkcija automatiškai atnaujina krovinio eiluč
 
 Kai automatinio siuntos atnaujinimo funkcija nenaudojama, tik kiekio sumažėjimai automatiškai keliauja, kol sukuriamas sandėlio darbas. Vartotojai turi rankiniu būdu atnaujinti arba panaikinti eilutes ir tada iš naujo paleisti eilutes, jei yra padidinami užsakymo kiekiai arba įtraukiamos naujos užsakymo eilutės. Naudodamos automatinio siuntos atnaujinimo funkciją, įmonės gali sklandžiai nusiųsti naujinimus į sandėlį be nerimavimo, kad susijusios siuntos ir kroviniai neatitiks užsakymo eilučių atnaujinimų.
 
-Automatinio siuntos atnaujinimo funkcija taikoma ir pardavimo užsakymo eilutėms, ir perkėlimo užsakymo eilutėms, ir yra įjungta tam tikram sandėliui. Todėl įmonės gali pagal poreikį taikyti skirtingas automatinio siuntos atnaujinimo strategijas. Pagal numatytuosius nustatymus automatinio siuntos atnaujinimo strategija, skirta kiekio sumažėjimams, taikoma visiems sandėliams, kurie naudoja sandėlio valdymo procesus. Kai naudojamas šis numatytasis strategijos parametras, tik kiekio sumažėjimai automatiškai keliauja į siuntą ir krovinį, kol sukuriamas sandėlio darbas. Šis veikimo būdas atitinka būdą, kuris buvo naudojamas prieš automatinio siuntos atnaujinimo funkcijos įvedimą.
+Automatinio siuntos atnaujinimo funkcija taikoma ir pardavimo užsakymo eilutėms, ir perkėlimo užsakymo eilutėms, ir yra įjungta tam tikram sandėliui. Todėl įmonės gali pagal poreikį taikyti skirtingas automatinio siuntos atnaujinimo strategijas. Pagal numatytuosius nustatymus kiekio sumažėjimo automatinio atnaujinimo siuntos strategija taikoma visiems sandėliams, kurie naudoja sandėlio valdymo procesus (WMS). Kai naudojamas šis numatytasis strategijos parametras, tik kiekio sumažėjimai automatiškai keliauja į siuntą ir krovinį, kol sukuriamas sandėlio darbas. Šis veikimo būdas atitinka būdą, kuris buvo naudojamas prieš automatinio siuntos atnaujinimo funkcijos įvedimą.
 
 ## <a name="main-elements-of-the-functionality"></a>Pagrindiniai funkcijos elementai
 

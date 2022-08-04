@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 186dcdca9d6db5ca16d84f084c66700ddfe8bb5d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 335bdc9690b3111f4a04adc7e82d62de36ff4caf
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857437"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065995"
 ---
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Įvairių režimų planavimas: prekių surinkimo, apdirbamosios gamybos ir „lean“ tiekimo suderinimas
 
@@ -33,7 +33,7 @@ Neatsižvelgdami į produkto struktūrą galite pasirinkti bendrąją produkto t
 
 Pavyzdžiui, galite valdyti „kanban“ surinkimo srityje, į kurią medžiagos tiekiamos naudojant gamybos užsakymus, „kanban“, perkėlimus, paketinius užsakymus arba bet kurias kitas tiekimo grandinės savybėms tinkamas priemones, tačiau ir toliau galite peržiūrėti visas tiekiamas medžiagas. Dėl šios galimybės optimizuojami tiekimo grandinės procesai ir pagerinamas tiekimo grandinės procesų matomumas.  
 
-Bendrajame planavime naudojamų tiekimo strategijų išsamumą lemia saugojimo dimensijos, kurios įjungiamos kaip padengimo dimensijos. Jei norėsite įjungti bendrąjį planavimą, kad valdytumėte papildymo ir tiekimo į įvairių tipų vietas procesus (pavyzdžiui, suskirstydami gamybos vietą įvairiems gamybos vienetams arba suskirstydami įvairių tipų medžiagų ir pagamintų prekių sandėlius), kaip padengimo dimensijas rekomenduojame įjungti dimensijas Vieta ir Sandėlis. Be to, kaip padengimo dimensijos galima neįtraukti dimensijos Sandėlis. Tokiu atveju naudojant patobulinto sandėlio valdymo funkcijas, visi sandėlyje atliekami perkėlimai valdomi vykdant sandėlio darbo procesą, o visus tarp sandėlių atliekamus perkėlimus galima valdyti naudojant išėmimo „kanban“.
+Bendrajame planavime naudojamų tiekimo strategijų išsamumą lemia saugojimo dimensijos, kurios įjungiamos kaip padengimo dimensijos. Jei norėsite įjungti bendrąjį planavimą, kad valdytumėte papildymo ir tiekimo į įvairių tipų vietas procesus (pavyzdžiui, suskirstydami gamybos vietą įvairiems gamybos vienetams arba suskirstydami įvairių tipų medžiagų ir pagamintų prekių sandėlius), kaip padengimo dimensijas rekomenduojame įjungti dimensijas Vieta ir Sandėlis. Be to, kaip padengimo dimensijos galima neįtraukti dimensijos Sandėlis. Tokiu atveju, naudojant sandėlio valdymo procesus (WMS), visus perkėlimus sandėlyje kontroliuoja sandėlio darbas, o visi perkėlimai tarp sandėlių gali būti kontroliuojami išėmimo "kanban".
 
 ## <a name="supply-policies"></a>Tiekimo strategijos
 Taikant įvairių režimų planavimo funkciją valdomas produkto tiekimo procesas, ir kaip, remiantis tiekimu, išleidžiami išvestiniai poreikiai (komplektavimo specifikacijos \[KS\] prekių suvartojimas). Pagal užsakymo tipą sistemoje automatiškai surandamos poreikius atitinkančios medžiagos.  

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: f523680f3d71ffd75c6cd2df284d2fd3610cef96
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a420c5b2a036ac63a1a179f93462d152c3941fda
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853623"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124231"
 ---
 # <a name="create-alert-rules"></a>Įspėjimo taisyklių kūrimas
 
@@ -75,7 +75,7 @@ Dialogo lango **Įspėjimo taisyklės kūrimas** „FastTab“ **Įspėti mane i
 
 ## <a name="alerts-as-business-events"></a>Įspėjimai kaip verslo įvykiai
 
-Galite siųsti įspėjimus išoriškai naudodami verslo įvykių sistemą. Kurdami įspėjimą, nustatykite **Organizacijos mastu** kaip **Ne**, o **Siųsti į išorę** kaip **Taip**. Gavę verslo įvykio įspėjimą, galite įjungti eigą, Power Automate **įtaisytą** naudojant verslo įvykį finansų ir operacijų jungtyje, **arba tiesiogiai nusiųsti įvykį verslo įvykių galui per verslo įvykių katalogą**.
+Galite siųsti įspėjimus išoriškai naudodami verslo įvykių sistemą. Kurdami įspėjimą, nustatykite **Organizacijos mastu** kaip **Ne**, o **Siųsti į išorę** kaip **Taip**. Gavę verslo įvykio įspėjimą, galite įjungti eigą, Power Automate **įtaisytą** naudojant verslo įvykį, kai verslo įvykis paleidžiamas finansų ir operacijų jungtyje, **arba tiesiogiai nusiųsti įvykį verslo įvykių galui per verslo įvykių katalogą**.
 
 ## <a name="create-an-alert-rule"></a>Įspėjimo taisyklės kūrimas
 

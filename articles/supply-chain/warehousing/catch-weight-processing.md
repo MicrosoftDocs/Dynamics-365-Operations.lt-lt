@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: d0f0e44cfafec722f6eed3d18ba8be4739be30c1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 881c3c4aa655a5ad30adffce108ba2fc3e6691c5
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900686"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070416"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Esamo svorio produktų apdorojimas naudojant sandėlio valdymą
 
@@ -82,7 +82,7 @@ Jei faktinis svoris fiksuojamas pakavimo vietoje konteinerio pakavimo procesų m
 > [!NOTE]
 > Kadangi parinktis **Pakavimas** suaktyvina atsargų atnaujinimą į vidutinį paimtą svorį, gali atsirasti neatitikimas, dėl kurio gali būti pakoreguotas esamo svorio pelnas / nuostolis arba atsirasti skirtumas tarp turimų atsargų svorio ir esamo svorio žymės svorio.
 
-Vykdant vidaus sandėlio valdymo procesus, pvz., skaičiavimo ir koregavimo taisymus, galite nurodyti, ar svoris turi būti fiksuojamas. Jei nefiksuojamas, naudojamas nominalus svoris. Kitos parinktys leidžia fiksuoti svorį pagal esamo svorio vienetą ir pagal skaičiavimo kiekį.
+Galite nurodyti, ar vidinių procesų, pvz., skaičiavimo ir koregavimo pataisymų, svoris turi būti užfiksuotas. Jei nefiksuojamas, naudojamas nominalus svoris. Kitos parinktys leidžia fiksuoti svorį pagal esamo svorio vienetą ir pagal skaičiavimo kiekį.
 
 Taip pat galite nurodyti, kaip svoris skaičiuojamas. Viename iš dviejų pagrindinių srautų esamo svorio žymės yra stebimos ir naudojamos svoriui fiksuoti. Kitame sraute esamo svorio žymės nesekamos.
 
@@ -183,7 +183,7 @@ Ne visos darbo eigos palaiko esamo svorio produktų apdorojimą naudojant sandė
 ### <a name="other-restrictions-and-behaviors-for-catch-weight-product-processing-with-warehouse-management"></a>Kiti esamo svorio produktų apdorojimo naudojant sandėlio valdymą apribojimai ir elgsena
 
 - Išrinkimo procesų metu, kai vartotojas nėra raginamas nustatyti sekimo dimensijas, svorio priskyrimas atliekamas pagal vidutinį svorį. Taip atsitinka, kai, pvz., sekimo dimensijų derinys naudojamas toje pačioje vietoje ir, kai vartotojas apdoroja paėmimą, vietoje lieka tik viena sekimo dimensijos reikšmė.
-- Kai atsargos rezervuotos esamo svorio produktui, kuris sukonfigūruotas sandėlio valdymo procesuose, rezervavimas atliekamas remiantis nustatytu minimaliu svoriu, net jei šis kiekis yra vėliausias turimų atsargų sandėliavimo kiekis. Ši elgsena skiriasi nuo prekių, kurios nesukonfigūruotos sandėlio valdymo procesuose, elgsenos. Šiam apribojimui yra viena išimtis. Gamybos paėmimui, kai esamo svorio produkto, kuris valdomas pagal serijos numerį, paskutinis sutvarkytas kiekis yra paimamas, naudojamas faktinis svoris.
+- Kai atsargos rezervuojamos esamo svorio produktui, sukonfigūruotam sandėlio valdymo procesams (WMS), rezervavimas atliekamas remiantis minimaliu apibrėžtu svoriu, net jei šis kiekis yra paskutinis naudojamas sandėliavimo kiekis. Šis veikimo būdas skiriasi nuo prekių, kurios nesukonfigūruotas WMS, veikimo būdo. Šiam apribojimui yra viena išimtis. Gamybos paėmimui, kai esamo svorio produkto, kuris valdomas pagal serijos numerį, paskutinis sutvarkytas kiekis yra paimamas, naudojamas faktinis svoris.
 - Procesai, kurie naudoja svorį kaip pajėgumo skaičiavimų dalį (bangos ribinės reikšmės, maksimalios darbo pertraukos, maksimalūs konteineriai, vietos apkrovos pajėgumas ir t. t.), nenaudoja faktinio atsargų svorio. Vietoje to procesai yra pagrįsti nurodytu faktiniu produkto sandėliavimo svoriu.
 - Įprastai, naudojant esamo svorio produktus, prekybos funkcija nepalaikoma.
 - Esamo svorio produktams, atsargų būsena negali būti atnaujinta iš **Sandėlio būsenos keitimas**.

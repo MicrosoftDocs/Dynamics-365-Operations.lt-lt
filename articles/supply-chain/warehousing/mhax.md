@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c4b0d991d320d5a679d0ed60880c56a6cb849e2d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dc46c9fea94c3d86f9511c2bea4ea64455c936f9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907093"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068366"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Medžiagų tvarkymo įrangos sąsaja (MHAX)
 
 [!include [banner](../../includes/banner.md)]
 
-*Medžiagų tvarkymo įrangos sąsają* (MHAX) galite naudoti išorinių faktinių medžiagų tvarkymo (MH) sistemoms prijungti prie sandėlio, kuris valdomas pagal išplėstinį sandėlio valdymą (WMS) programoje „Microsoft Dynamics 365 Supply Chain Management”. WMS ir MH sistemų sąsają sudaro dvi eilės: viena skirta siuntimo įvykiams (iš WMS į MH), kita – gavimo įvykiams (iš MH į WMS). WMS sistema sugeneruoja siuntimo įvykius pagal darbo eilutes, sukurtas įvairių darbo kūrimo ir vykdymo procesų metu. Tada MH sistema reguliariai apklausia WMS sistemą dėl naujų įvykių ir apdoroja atsakymus. Po to, kai MH sistema baigia tvarkyti įvykius pagal darbo instrukcijas, ji išsiunčia gavimo įvykius, pavyzdžiui, darbo eilutės baigimą ir nevisišką paėmimą.
+Galite naudoti medžiagų tvarkymo *įrangos* sąsają (MHAX) išorinių faktinių medžiagų apdorojimo (MH) sistemoms prijungti prie sandėlio, kurį valdo "Microsoft" sandėlio valdymo procesai (WMS)Dynamics 365 Supply Chain Management. WMS ir MH sistemų sąsają sudaro dvi eilės: viena skirta siuntimo įvykiams (iš WMS į MH), kita – gavimo įvykiams (iš MH į WMS). WMS sistema sugeneruoja siuntimo įvykius pagal darbo eilutes, sukurtas įvairių darbo kūrimo ir vykdymo procesų metu. Tada MH sistema reguliariai apklausia WMS sistemą dėl naujų įvykių ir apdoroja atsakymus. Po to, kai MH sistema baigia tvarkyti įvykius pagal darbo instrukcijas, ji išsiunčia gavimo įvykius, pavyzdžiui, darbo eilutės baigimą ir nevisišką paėmimą.
 
 Toliau pateiktoje iliustracijoje parodomi įvairūs elementai ir tvarka, pagal kurią vykdomi procesai naudojant MHAX integravimą.
 

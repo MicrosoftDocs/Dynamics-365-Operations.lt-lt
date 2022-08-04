@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 620f6f999859eff0ccd8aeb1cff12ddd56fa9926
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2f263e331d23ce0ddf60a4abc2467513aa342445
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853661"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112371"
 ---
 # <a name="general-troubleshooting"></a>Bendroji trikčių šalinimo informacija
 
@@ -55,13 +55,13 @@ Norėdami peržiūrėti sekimo žurnalą, atlikite toliau nurodytus veiksmus.
 
 Galite nukopijuoti sekimo žurnalų turinį ir įklijuoti juos į kitą programą, pvz., Notepad ar kitus įrankius, kad galėtumėte peržiūrėti žurnalus ar tekstinius failus, kad būtų lengviau pamatyti visą turinį. 
 
-## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Įjungti derinimo režimą tiesioginio sinchronizavimo trikčių šalinimui finansinėse ir operacijų programėlėse
+## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Įjungti derinimo režimą tiesioginio sinchronizavimo trikčių šalinimui finansinėse ir operacijų programėleje
 
 **Reikiamas vaidmuo, norint peržiūrėti klaidas:** sistemos administratorius
 
-Dvigubo rašymo klaidos, kurios buvo kilusios Dataverse, gali būti rodomos finansų ir operacijų programoje. Norėdami įjungti daugiažodį klaidų registravimą atlikite toliau nurodytus veiksmus.
+Dvigubo rašymo klaidos, kurios atsiranda Dataverse finansų ir operacijų programoje. Norėdami įjungti daugiažodį klaidų registravimą atlikite toliau nurodytus veiksmus.
 
-1. Visų projektų konfigūracijų finansų ir operacijų **programoje lentelėje DualWriteProjectConfiguration yra vėliavėlė** IsDebugMode **·**.
+1. Visų projektų konfigūracijų, esančių **finansų ir operacijų programoje, lentelėje DualWriteProjectConfiguration yra vėliavėlė** IsDebugMode **·**.
 2. Atidarykite **„DualWriteProjectConfiguration”** naudodami „Excel“ papildinį. Norėdami naudoti priedą įjunkite kūrimo režimą finansų ir operacijų "Excel **" papildinyje ir pridėkite DualWriteProjectConfiguration** į lapą. Daugiau informacijos žr. skyriuje [Objekto duomenų peržiūra ir atnaujinimas programoje „Excel“](../../office-integration/use-excel-add-in.md).
 3. Projekte nustatykite **IsDebugMode** kaip **Taip**.
 4. Vykdyti scenarijų, kuris generuoja klaidas.
@@ -76,7 +76,7 @@ Dvigubo rašymo klaidos, kurios buvo kilusios Dataverse, gali būti rodomos fina
 1. Prisijunkite prie „Microsoft Dynamics“ portale „Lifecycle Services“ (LCS).
 2. Atidarykite LCS projektą, kurį pasirinkote dvigubo rašymo testavimui atlikti.
 3. Pasirinkite plytelę **Aplinkos diegimo debesyje įrankis**.
-4. Norėdami prisijungti prie finansų ir operacijų programos virtualiosios mašinos (VM), naudokite nuotolinį darbalaukį. Naudokite vietinę paskyrą, kurį yra rodoma LCS.
+4. Norėdami prisijungti prie finansinės ir operacijų programos virtualiosios mašinos (VM), naudokite nuotolinį darbalaukį. Naudokite vietinę paskyrą, kurį yra rodoma LCS.
 5. Atidarykite įvykių peržiūros programą.
 6. Pasirinkite **Programų ir paslaugų žurnalai \> „Microsoft“ \> „Dynamics“ \> „AX-DualWriteSync“ \> Veikia**.
 7. Peržiūrėti naujausių klaidų sąrašą.
@@ -105,7 +105,7 @@ Naršyklės nustatymuose turi būti leidžiami trečiosios šalies sausainiai.
 2.  Jei pasirinkta "Blokuoti trečiosios šalies sausainius", "Blokuoti trečiosios šalies sausainius" arba "Blokuoti trečiosios šalies sausainius", eikite į "Sites", kuri visada gali naudoti sausainius, ir spustelėkite **Įtraukti**. 
 3.  Įtraukite finansų & operacijų programėlių svetainės pavadinimą – https://<your_FinOp_instance>.cloudax.dynamics.com. Įsitikinkite, kad pažymėsite žymės langelį "Visi sausainiai" tik šioje svetainėje. 
 
-### <a name="microsoft-edge-browser"></a>Microsoft Edge Naršyklės
+### <a name="microsoft-edge-browser"></a>Microsoft Edge naršyklė
 1.  Pereikite prie Parametrų – > Svetainės teisės - > sausainius ir svetainės duomenis.
 2.  Išjungti parinktį Blokuoti trečiosios šalies sausainius.  
 
@@ -134,7 +134,7 @@ Norėdami iš naujo įgalinti formos parinktį **Informacija**, atlikite toliau 
 
 ## <a name="how-to-ensure-data-integration-is-using-the-most-current-finance-and-operations-schema"></a>Kaip užtikrinti duomenų integravimą naudojant dabartinę finansų ir operacijų schemą
 
-Duomenų integravimo metu gali kilti problemų dėl naujausias schemas. Toliau pateikti veiksmai padės atnaujinti finansų ir operacijų programėlių objektų sąrašą ir duomenų integratoriaus objektus.
+Duomenų integravimo metu gali kilti problemų dėl naujausias schemas. Toliau pateikti veiksmai padės atnaujinti objektų sąrašą finansų ir operacijų programėlėse ir duomenų integratoriaus objektuose.
 
 ### <a name="refresh-entity-list-in-finance-and-operations-environment"></a>Atnaujinti objektų sąrašą finansų ir operacijų aplinkoje
 1.  Prisiregistruokite prie savo finansų ir operacijų aplinkos.
@@ -166,7 +166,7 @@ Palaikymo komandai gali reikėti peržiūrėti tinklo sekimus, siekiant diagnozu
 3. Vykdykite savo scenarijų ir atsižvelkite į registruojamas užklausas.
 4. Dešiniuoju pelės mygtuku spustelėkite įrašus ir pasirinkite **Įrašyti viską kaip HAR su turiniu**.
 
-### <a name="microsoft-edge-browser"></a>Microsoft Edge Naršyklės
+### <a name="microsoft-edge-browser"></a>Microsoft Edge naršyklė
 
 1. Atidarytame skirtuke paspauskite **F12** arba pasirinkite **Programavimo įrankiai**, kad atidarytumėte programavimo įrankius.
 2. Atidarykite skirtuką **Tinklas**.
@@ -174,3 +174,4 @@ Palaikymo komandai gali reikėti peržiūrėti tinklo sekimus, siekiant diagnozu
 4. Pasirinkite **įrašyti**, kad eksportuotumėte rezultatus kaip HAR.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

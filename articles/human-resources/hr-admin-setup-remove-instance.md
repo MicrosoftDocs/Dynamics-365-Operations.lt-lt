@@ -1,6 +1,6 @@
 ---
 title: Egzemplioriaus šalinimas
-description: Šiame straipsnyje pateikiami veiksmai, skirti „Microsoft Dynamics 365 Human Resources“ bandomosios versijos arba gamybos aplinkai pašalinti.
+description: Šiame straipsnyje aprašomas "Microsoft" bandomojo disko arba gamybos aplinkos pašalinimo procesas Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/11/2021
 ms.topic: article
@@ -14,16 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4256938be70f301d3d7b7663f10addb19725b048
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0ce676c93e133cc04ad9c49417ed2ca0d6791e93
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859639"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178479"
 ---
 # <a name="remove-an-instance"></a>Egzemplioriaus šalinimas
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Taikoma:** žmogiškieji ištekliai autonominėje infrastruktūrose_ 
+
+> [!NOTE]
+> Nuo 2022 m. liepos mėn. naujų personalo aplinkos negali būti sukurtos atskiras personalo infrastruktūrą ir Microsoft Dynamics naujus ciklo tarnybų (LCS) projektus. Klientai gali įdiegti personalo aplinkas finansų ir operacijų infrastruktūrose. Daugiau informacijos ieškokite Finansų [ir operacijų infrastruktūros personalo parengimas](/hr-admin-setup-provision-fo.md).
+
+> [!IMPORTANT]
+> Finansų ir operacijų programos infrastruktūra palaiko aplinkos panaikinimą. Daugiau informacijos apie aplinkos naikinimą rasite aplinkos [naikinimą](../fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure.md#delete-an-environment).
 
 Šiame straipsnyje paaiškinamas "Microsoft" tikrinimo disko arba gamybos aplinkos pašalinimo procesas Dynamics 365 Human Resources.
 
@@ -42,10 +48,13 @@ Esama bandomosios versijos aplinka bus pašalinta. Šalinimui pasibaigus galite 
 
 Šiame straipsnyje laikoma, kad įsigijote „Human Resources“ iš debesies sprendimų teikėjo (CSP) arba pagal įmonės architektūros (EA) sutartį. 
 
-Kadangi viena „Human Resources“ aplinka laikoma atskiroje „Power Apps“ aplinkoje, reikėtų atsižvelgti į dvi galimybes. Pirmosios galimybės atveju pašalinama visa „Power Apps“ aplinka, antrosios – tik „Human Resources“ aplinka. Pirmoji galimybė labiau tinka tuo atveju, kai „Power Apps“ aplinką sukuriate tik „Human Resources“ konfigūravimo tikslais, o diegimą dar tik esate pradėję arba dar neturite jokių sukurtų integravimų. Antroji galimybė tinka tuo atveju, kai turite sukurtą „Power Apps“ aplinką, užpildytą raiškiaisiais duomenimis, kurie naudojami „Power Apps “ ir „Power Automate“.
+Kadangi vienoje personalo aplinkoje yra viena personalo Power Apps aplinka, šalinant aplinką reikia atsižvelgti į dvi pasirinktis: 
+- **Pašalinkite visą Power Apps aplinką.** Ši pasirinktis yra pageidautina Power Apps, kai aplinka buvo sukurta personalo parengimo tikslu, vykdymas tik pradėtas, arba jūs neturite jokių sukurtų integramų.  
+- **Pašalinti tik žmogiškuosius išteklius.** Ši pasirinktis tinkama, kai yra nustatyta Power Apps aplinka, automatiškai įvedama naudojant ir Microsoft Power Apps Power Automate.
+
 
 > [!Important]
-> Prieš pašalindami „Power Apps“ aplinką įsitikinkite, kad ji nenaudojama raiškiųjų duomenų integravimams už „Human Resources“ apimties ribų. Be to, atminkite, kad numatytųjų „Power Apps“ aplinkų pašalinti negalima. 
+> Prieš šalindami Power Apps aplinką, įsitikinkite, kad ji nebus naudojama integruojant duomenis, nepatenkant į personalo sritį. Be to, atminkite, kad numatytųjų „Power Apps“ aplinkų pašalinti negalima. 
 
 Jei norite pašalinti visą „Power Apps“ aplinką, įskaitant „Human Resources“ bei susijusių programų ir srautų aplinką, atlikite toliau nurodytus veiksmus.
 
@@ -73,7 +82,7 @@ Norėdami „Human Resources“ aplinką pašalinti iš esamos „Power Apps“ 
 
 ## <a name="recover-a-soft-deleted-environment"></a>Švelniai pašalintos aplinkos atkūrimas
 
-Jei pašalinate „Power Apps“ aplinką, prie kurios yra prijunta žmogiškųjų išteklių aplinka. žmogiškųjų išteklių aplinkos būsena „Lifecycle Services“ bus **Švelniai pašalinta**. Tokiu atveju, naudotojai negalės prisijungti prie žmogiškųjų išteklių.
+Jei panaikinsite Power Apps aplinką, prie kurios prijungta jūsų personalo aplinka, LCS **personalo aplinkos būsena bus iš dalies panaikinta**. Tokiu atveju, naudotojai negalės prisijungti prie žmogiškųjų išteklių.
 
 Aplinkos atkūrimui:
 
@@ -82,7 +91,7 @@ Aplinkos atkūrimui:
 2. Susisiekite su pagalbos skyriumi dėl žmogiškųjų išteklių aplinkos atkūrimo. Norėdami gauti daugiau informacijos, [Gauti pagalbos](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
 
 > [!Warning]
-> „Power Apps“ aplinkos yra saugojamos tik septynias dienas po pašalinimo. Privalote atkurti aplinką per septynių dienų laikotarpį.
+> „Power Apps“ aplinkos yra saugojamos tik septynias dienas po pašalinimo. Turite atkurti aplinką per septynių dienų laikotarpį.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

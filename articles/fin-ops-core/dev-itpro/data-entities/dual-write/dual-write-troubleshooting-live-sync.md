@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 9d27331b940a95168810c2f1ec4ae240a9df93a8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1211f7da15686f1c55a4c942f04c73d671e0ba6b
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8896711"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111433"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Tiesioginio sinchronizavimo trikčių šalinimas
 
@@ -29,7 +29,7 @@ ms.locfileid: "8896711"
 
 ## <a name="live-synchronization-shows-an-error-when-you-create-a-row"></a>Tiesioginis sinchronizavimas rodo klaidą, kai kuriate eilutę
 
-Kurdami eilutę finansų ir operacijų programoje galite gauti toliau nurodytą klaidos pranešimą:
+Kurdami eilutę finansų ir operacijų programoje galite gauti nurodytą klaidos pranešimą:
 
 *\[{\\"klaida\\":{\\"kodas\\":\\"0x80072560\\",\\"pranešimas\\":\\"Vartotojas nėra organizacijos narys.\\"}}\], Nuotolinis serveris pateikė klaidą: (403) draudžiama."}}".*
 
@@ -43,11 +43,11 @@ Kai bandysite įrašyti lentelės duomenis finansų ir operacijų programoje, ga
 
 *Nepavyksta įrašyti duomenų bazės pakeitimų. Darbo vienetas negali įvykdyti operacijos. Nepavyksta įrašyti duomenų į objekto uoms. Įrašyti į UnitOfMeasureEntity nepavyko, nes nepavyko sinchronizuoti klaidos pranešimo su objekto uoms.*
 
-Norėdami išspręsti problemą, įsitikinkite, kad yra būtinųjų komponentų nuorodos duomenų ir finansų ir operacijų programoje, ir programoje Dataverse. Pavyzdžiui, jei kliento įrašas, kuriame esate programoje, priklauso konkrečiai klientų grupei, įsitikinkite, kad ši klientų įrašų grupė yra „Dataverse“.
+Norėdami išspręsti problemą, įsitikinkite, kad yra būtinųjų sąlygų nuorodos duomenų ir finansų, ir operacijų programoje ir programoje Dataverse. Pavyzdžiui, jei kliento įrašas, kuriame esate programoje, priklauso konkrečiai klientų grupei, įsitikinkite, kad ši klientų įrašų grupė yra „Dataverse“.
 
 Jei duomenys yra abiejose programose ir patvirtinote, kad problema nėra susijusi su duomenimis, atlikite šiuos veiksmus.
 
-1. Atidarykite objektą **DualWriteProjectConfigurationEntity** naudodami „Excel“ papildinį. Norėdami naudoti papildinį, įgalinkite kūrimo režimą finansų ir operacijų "Excel" papildinį ir **pridėkite DualWriteProjectConfigurationEntity** į darbalapį. Daugiau informacijos žr. skyriuje [Objekto duomenų peržiūra ir atnaujinimas programoje „Excel“](../../office-integration/use-excel-add-in.md).
+1. Atidarykite objektą **DualWriteProjectConfigurationEntity** naudodami „Excel“ papildinį. Norėdami naudoti papildinį, įgalinkite kūrimo režimą finansų ir operacijų "Excel" papildime ir **pridėkite DualWriteProjectConfigurationEntity** į darbalapį. Daugiau informacijos žr. skyriuje [Objekto duomenų peržiūra ir atnaujinimas programoje „Excel“](../../office-integration/use-excel-add-in.md).
 2. Pasirinkti ir naikinti įrašus, kurie turi dvigubo rašymo schemos ir projekto problemų. Kiekvienam dvigubo rašymo susiejimui bus skirti du įrašai.
 3. Publikuokite keitimus naudodami „Excel" papildinį. Šis veiksmas svarbus, nes jis panaikina įrašus iš objekto ir po juo esančių lentelių.
 
@@ -94,10 +94,10 @@ Norėdami išspręsti problemą, turite atlikti veiksmus ir finansų, Dataverse 
 
 1. Finansų ir operacijų programoje atlikite šiuos veiksmus:
 
-    1. Atidarykite objektą **DualWriteProjectConfigurationEntity** naudodami „Excel“ papildinį. Norėdami naudoti papildinį, įgalinkite kūrimo režimą finansų ir operacijų "Excel" papildinį ir **pridėkite DualWriteProjectConfigurationEntity** į darbalapį. Daugiau informacijos žr. skyriuje [Objekto duomenų peržiūra ir atnaujinimas programoje „Excel“](../../office-integration/use-excel-add-in.md).
+    1. Atidarykite objektą **DualWriteProjectConfigurationEntity** naudodami „Excel“ papildinį. Norėdami naudoti papildinį, įgalinkite kūrimo režimą finansų ir operacijų "Excel" papildime ir **pridėkite DualWriteProjectConfigurationEntity** į darbalapį. Daugiau informacijos žr. skyriuje [Objekto duomenų peržiūra ir atnaujinimas programoje „Excel“](../../office-integration/use-excel-add-in.md).
     2. Pasirinkti ir naikinti įrašus, kurie turi dvigubo rašymo schemos ir projekto problemų. Kiekvienam dvigubo rašymo susiejimui bus skirti du įrašai.
     3. Publikuokite keitimus naudodami „Excel" papildinį. Šis veiksmas svarbus, nes jis panaikina įrašus iš objekto ir po juo esančių lentelių.
-    4. Norėdami išvengti klaidų atsiedami finansus ir Dataverse operacijas ar aplinkas, įsitikinkite, kad nelieka dvigubo rašymo konfigūracijų.
+    4. Norėdami išvengti klaidų atsiedami finansus ir operacijas Dataverse ar aplinkas, įsitikinkite, kad nelieka dvigubo rašymo konfigūracijų.
 
 2. „Dataverse“, atlikite šiuos veiksmus:
 
@@ -110,10 +110,10 @@ Norėdami išspręsti problemą, turite atlikti veiksmus ir finansų, Dataverse 
 
 3. Finansų ir operacijų programoje atlikite šiuos veiksmus:
 
-    1. Atidarykite objektą **DualWriteProjectConfigurationEntity** naudodami „Excel“ papildinį. Norėdami naudoti papildinį, įgalinkite kūrimo režimą finansų ir operacijų "Excel" papildinį ir **pridėkite DualWriteProjectConfigurationEntity** į darbalapį. Daugiau informacijos žr. skyriuje [Objekto duomenų peržiūra ir atnaujinimas programoje „Excel“](../../office-integration/use-excel-add-in.md).
+    1. Atidarykite objektą **DualWriteProjectConfigurationEntity** naudodami „Excel“ papildinį. Norėdami naudoti papildinį, įgalinkite kūrimo režimą finansų ir operacijų "Excel" papildime ir **pridėkite DualWriteProjectConfigurationEntity** į darbalapį. Daugiau informacijos žr. skyriuje [Objekto duomenų peržiūra ir atnaujinimas programoje „Excel“](../../office-integration/use-excel-add-in.md).
     2. Pasirinkti ir naikinti įrašus, kurie turi dvigubo rašymo schemos ir projekto problemų. Kiekvienam dvigubo rašymo susiejimui bus skirti du įrašai.
     3. Publikuokite keitimus naudodami „Excel" papildinį. Šis veiksmas svarbus, nes jis panaikina įrašus iš objekto ir po juo esančių lentelių.
-    4. Norėdami išvengti klaidų atsiedami finansus ir Dataverse operacijas ar aplinkas, įsitikinkite, kad nelieka dvigubo rašymo konfigūracijų.
+    4. Norėdami išvengti klaidų atsiedami finansus ir operacijas Dataverse ar aplinkas, įsitikinkite, kad nelieka dvigubo rašymo konfigūracijų.
 
 ## <a name="live-synchronization-error-after-you-do-a-full-database-copy"></a>Tiesioginio sinchronizavimo klaida atlikus visą duomenų bazės kopiją
 
@@ -191,7 +191,7 @@ while(qRun.next())
 
 ## <a name="data-from-finance-and-operations-apps-isnt-synced-to-dataverse"></a>Duomenys iš finansų ir operacijų programėlių nesinchronizuoti su Dataverse
 
-Sinchronizuojant tiesiogiai, gali kilti problema, Dataverse kuri leidžia sinchronizuoti tik dalį duomenų iš finansų ir operacijų programėlių arba duomenys nesinchronizuojami iš viso.
+Sinchronizuojant tiesiogiai, gali kilti problema, Dataverse kuri leidžia sinchronizuoti tik dalį duomenų iš finansų ir operacijų programėlių arba duomenys nėra sinchronizuojami iš viso.
 
 > [!NOTE]
 > Programavimo metu turite išspręsti šią problemą.
@@ -200,13 +200,13 @@ Prieš pradėdami spręsti problemą, peržiūrėkite šiuos būtinuosius kompon
 
 + Įsitikinkite, kad pasirinktiniai pakeitimai įrašyti į vieną operacijos aprėptį.
 + Verslo įvykiai ir dvigubo rašymo sistema nesutvarkyti, `doinsert()`, `doUpdate()` ir operacijos ar `recordset()` įrašai, kur jie `skipBusinessEvents(true)` pažymėti. Jei jūsų kodas yra šiose funkcijose, dvigubo rašymo funkcija nebus suaktyvinta.
-+ Reikia užregistruoti duomenų šaltinio, kuris susietas, verslo įvykius. Kai kurie duomenų šaltiniai gali naudoti išorinę jungtį, jie gali būti pažymėti kaip skaitomi finansų ir operacijų programėlėse. Šie duomenų šaltiniai nėra sekami.
++ Reikia užregistruoti duomenų šaltinio, kuris susietas, verslo įvykius. Kai kurie duomenų šaltiniai gali naudoti išorinę jungtį ir gali būti pažymėti kaip skaitomi finansinėse ir operacijų programėlee. Šie duomenų šaltiniai nėra sekami.
 + Pakeitimai bus suaktyvinti tik tada, jei modifikacijos bus susietose laukuose. Nesusietų laukų modifikacijos neįjungs dvigubo rašymo.
 + Įsitikinkite, kad filtrų vertinimai pateikia tinkamą rezultatą.
 
 ### <a name="troubleshooting-steps"></a>Trikčių šalinimo veiksmai
 
-1. Peržiūrėkite laukų susiejimus dvigubo rašymo administratoriaus puslapyje. Jei laukas nėra susietas su finansų ir operacijų programėle Dataverse, jis nebus sekamas. Pavyzdžiui, pagal šį pavyzdį aprašymo laukas **sekamas** iš Dataverse, o ne iš finansų ir operacijų programėlių. Nebus sekami jokie finansų ir operacijų programėlių lauko pakeitimai.
+1. Peržiūrėkite laukų susiejimus dvigubo rašymo administratoriaus puslapyje. Jei laukas nėra susietas su finansų ir operacijų programėle Dataverse, jis nebus sekamas. Pavyzdžiui, pagal šį pavyzdį aprašymo laukas **sekamas** iš Dataverse, o ne iš finansų ir operacijų programėlių. Nebus sekami jokie šio finansų ir operacijų programėlių lauko pakeitimai.
 
     ![Sekamas laukas.](media/live-sync-troubleshooting-1.png)
 
@@ -220,9 +220,9 @@ Prieš pradėdami spręsti problemą, peržiūrėkite šiuos būtinuosius kompon
 
 ### <a name="sample-scenario"></a>Pavyzdinis scenarijus
 
-Finansų ir operacijų programėlėse yra kontakto įrašo adreso naujinimas, bet adreso pakeitimas nesinchronizuotas Dataverse su. Šis scenarijus įvyksta todėl, kad lentelėje **BusinessEventsDefinition** nėra įrašo, paveiktos lentelės ir objekto derinio. Tiksliau tariant, lentelė **LogisticsPostalAddress** nėra tiesioginis **smmContactpersonCDSV2Entity** objekto duomenų šaltinis. **smmContactpersonCDSV2Entity** objekto duomenų šaltinis yra **smmContactPersonV2Entity** kaip duomenų šaltinis **smmContactPersonV2Entity** savo ruožtu kaip duomenų šaltinis yra **LogisticsPostalAddressBaseEntity**. Lentelė **LogisticsPostalAddress** yra **LogisticsPostalAddressBaseEntity** duomenų šaltinis.
+Finansų ir operacijų programėlių atveju yra kontakto įrašo adreso naujinimas, bet adreso pakeitimas nesinchronizuotas Dataverse su. Šis scenarijus įvyksta todėl, kad lentelėje **BusinessEventsDefinition** nėra įrašo, paveiktos lentelės ir objekto derinio. Tiksliau tariant, lentelė **LogisticsPostalAddress** nėra tiesioginis **smmContactpersonCDSV2Entity** objekto duomenų šaltinis. **smmContactpersonCDSV2Entity** objekto duomenų šaltinis yra **smmContactPersonV2Entity** kaip duomenų šaltinis **smmContactPersonV2Entity** savo ruožtu kaip duomenų šaltinis yra **LogisticsPostalAddressBaseEntity**. Lentelė **LogisticsPostalAddress** yra **LogisticsPostalAddressBaseEntity** duomenų šaltinis.
 
-Panaši situacija gali įvykti ir kai kuriuose nestandartuose šablonuose, pvz., atvejus, kai finansų ir operacijų programėlėse modifikuojamas lentelė nėra susieta su objektu, kuriame ji yra. Pvz., pirminio adreso duomenys apskaičiuoti objekto **smmContactPersonCDSV2Entity** dalyje. Dvigubo rašymo sistema bando nustatyti, kaip pateiktoje lentelėje pakeitimas susietas su objektais. Paprastai šis būdas pakanka. Tačiau kai kuriais atvejais saitas toks sudėtingas, kad jūs turite būti konkretus. Turite užtikrinti, kad susijusios lentelės **RecId** tiesiogiai pasiekiamas objektui. Tada įtraukite statinį metodą lentelės pokyčiams stebėti.
+Panaši situacija gali įvykti ir kai kuriuose nestandartuose šablonuose, pvz., tais atvejais, kai finansų ir operacijų programėlėse modifikuojamas lentelė nėra susieta su objektu, kuriame ji yra. Pvz., pirminio adreso duomenys apskaičiuoti objekto **smmContactPersonCDSV2Entity** dalyje. Dvigubo rašymo sistema bando nustatyti, kaip pateiktoje lentelėje pakeitimas susietas su objektais. Paprastai šis būdas pakanka. Tačiau kai kuriais atvejais saitas toks sudėtingas, kad jūs turite būti konkretus. Turite užtikrinti, kad susijusios lentelės **RecId** tiesiogiai pasiekiamas objektui. Tada įtraukite statinį metodą lentelės pokyčiams stebėti.
 
 Pavyzdžiui, peržiūrėkite **smmContactPersonCDSV2Entity::getEntityDataSourceToFieldMapping()** metodą. **CustCustomerV3entity** ir **VendVendorV2Entity** buvo modifikuota apdoroti šią situaciją.
 
@@ -252,17 +252,17 @@ Norėdami ištaisyti klaidą, atlikite toliau nurodytus veiksmus.
 
 ## <a name="error-when-you-create-a-record-where-multiple-records-are-sent-from-a-finance-and-operations-app-to-dataverse-in-the-same-batch"></a>Kuriant įrašą, kuriame iš finansų ir operacijų programos į tą patį paketą siunčiami keli Dataverse įrašai, įvyko klaida
 
-Finansų ir operacijų programa sukuria bet kurios operacijos duomenis pakete ir siunčia juos kaip paketą Dataverse. Jei du įrašai sukuriami kaip tos pačios operacijos dalis ir jie nurodo vienas kitą, finansų ir operacijų programoje galite gauti klaidos pranešimą, kuris yra panašus į toliau pateiktą pavyzdį:
+Visų operacijų finansų ir operacijų programa sukuria duomenis pakete ir siunčia juos kaip paketą Dataverse. Jei du įrašai sukuriami kaip tos pačios operacijos dalis ir jie nurodo vienas kitą, finansų ir operacijų programoje galite gauti klaidos pranešimą, kuris yra panašus į toliau pateiktą pavyzdį:
 
 *Nepavyko įrašyti duomenų į objekto aaa_fundingsources. Nepavyko peržiūrėti duomenų ebecsfs_contracts {PC00...} reikšmių. Nepavyko peržiūrėti duomenų aaa_fundingsources {PC00...} reikšmių. Nepavyko įrašyti aaa_fundingsources klaidos pranešimas Išimtis: nuotolinis serveris pateikė klaidą: (400) Netinkama užklausa.*
 
-Norėdami išspręsti problemą, sukurkite objektų ryšius finansų ir operacijų programoje ir nurodykite, kad du objektai yra susiję vienas su kitu ir susiję įrašai yra tvarkomi toje pačioje operacijoje.
+Norėdami išspręsti problemą, finansų ir operacijų programoje sukurkite objekto ryšius, kad nurodykite, jog du objektai yra susiję vienas su kitu ir susiję įrašai yra tvarkomi toje pačioje operacijoje.
 
 ## <a name="enable-verbose-logging-of-error-messages"></a>Įgalinti klaidų pranešimų daugiažodį registravimą
 
-Finansų ir operacijų programoje galite susidurti su klaidomis, susijusiomis su Dataverse aplinka. Klaidos pranešime gali būti ne visas pranešimo tekstas ar kiti susiję duomenys. Norėdami gauti daugiau informacijos, galite įgalinti daugiažodį registravimą, nustatydami vėliavėlę IsDebugMode, **kuri yra įraše DualWriteProjectConfigurationEntity** visose finansų ir operacijų programėlių projektų **konfigūracijose**.
+Finansų ir operacijų programoje gali įvykti su aplinka susijusių Dataverse klaidų. Klaidos pranešime gali būti ne visas pranešimo tekstas ar kiti susiję duomenys. Norėdami gauti daugiau informacijos, galite įgalinti daugiažodį registravimą, nustatydami vėliavėlę IsDebugMode, **kuri yra įraše DualWriteProjectConfigurationEntity** visose projektų konfigūracijose, finansinėse ir operacijų **programėlėse**.
 
-1. Atidarykite objektą **DualWriteProjectConfigurationEntity** naudodami „Excel“ papildinį. Norėdami naudoti papildinį, įgalinkite kūrimo režimą finansų ir operacijų "Excel" papildinį ir **pridėkite DualWriteProjectConfigurationEntity** į darbalapį. Daugiau informacijos žr. skyriuje [Objekto duomenų peržiūra ir atnaujinimas programoje „Excel“](../../office-integration/use-excel-add-in.md).
+1. Atidarykite objektą **DualWriteProjectConfigurationEntity** naudodami „Excel“ papildinį. Norėdami naudoti papildinį, įgalinkite kūrimo režimą finansų ir operacijų "Excel" papildime ir **pridėkite DualWriteProjectConfigurationEntity** į darbalapį. Daugiau informacijos žr. skyriuje [Objekto duomenų peržiūra ir atnaujinimas programoje „Excel“](../../office-integration/use-excel-add-in.md).
 2. Nustatykite projekto vėliavą **IsDebugMode** kaip **Taip**.
 3. Scenarijaus vykdymas.
 4. Daugiažodžiai žurnalai pasiekiami lentelėje **DualWriteErrorLog**. Norėdami peržiūrėti duomenis naudodami lentelių naršyklę, naudokite šį URL: `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`.
@@ -290,7 +290,7 @@ Kai „Dataverse” programoje kuriate duomenis, bando įtraukti klientą gauti 
 
 *"RecordError0":"Rašyti nepavyko objekto klientams V3 su nežinoma išimtimi – įrašo, kurio tipas Organizacija, nerasta"}.*
 
-Kai klientas „Dataverse“ sukuriamas, sugeneruojamas naujas šalies numeris. Klaidos pranešimas rodomas, kai kliento įrašas (kartu su įrašu) sinchronizuojamas su finansų ir operacijų programėle, tačiau jau yra kliento įrašas, kuriame nurodytas kitas šalies numeris.
+Kai klientas „Dataverse“ sukuriamas, sugeneruojamas naujas šalies numeris. Klaidos pranešimas rodomas, kai kliento įrašas (kartu su šalimi) sinchronizuojamas su finansų ir operacijų programėle, tačiau jau yra kliento įrašas, kuriame nurodytas kitas šalies numeris.
 
 Norėdami išspręsti problemą, suraskite klientą per šalių peržvalgą. Klientui sukurkite kliento įrašą, jei jo nėra. Jei kliento nėra, naudokite esamą šalį, kad sukurtumėte naują kliento įrašą.
 
@@ -300,7 +300,7 @@ Kai mėginsite įtraukti kliento arba kontakto adresą į programėle norėdami 
 
 *Negalima atnaujinti įrašo tipo nuo „DirOrganization" iki „DirPerson", todėl reikia panaikinti esamą šalį ir įterpti su nauju tipu.*
 
-Lentelėje „Dataverse“ yra numerių seka **msdyn_party** numeracija. Kai sąskaita sukuriama, sukuriama „Dataverse“ nauja šalis (pvz., organizacijos tipo **šalis-001**, kuri yra tipe **Organizacija**). Šie duomenys siunčiami į finansų ir operacijų programą. Dataverse Jei aplinka yra iš naujo sukurta arba finansų ir operacijų aplinka susieta su kita aplinka, Dataverse tada sukuriamas naujas kontakto įrašas, Dataverse kuriama nauja įrašo vertė, **kuri prasideda Party-001**. Šį kartą sukurtas šalies įrašas bus asmens tipo įrašas **Šalis-001** tipo **Asmens**. Kai šie duomenys sinchronizuojami, finansų ir operacijų programėlės rodo ankstesnį klaidos pranešimą, **nes organizacijos tipo šalies įrašas 001** **jau** yra.
+Lentelėje „Dataverse“ yra numerių seka **msdyn_party** numeracija. Kai sąskaita sukuriama, sukuriama „Dataverse“ nauja šalis (pvz., organizacijos tipo **šalis-001**, kuri yra tipe **Organizacija**). Šie duomenys siunčiami į finansų ir operacijų programą. Dataverse Jei aplinka yra iš naujo sukurta arba finansų ir operacijų aplinka susieta su kita aplinka, Dataverse tada sukuriamas naujas kontakto įrašas, Dataverse kuriama nauja šalies vertė, **kuri prasideda Party-001**. Šį kartą sukurtas šalies įrašas bus asmens tipo įrašas **Šalis-001** tipo **Asmens**. Kai šie duomenys sinchronizuojami, finansų ir operacijų programėlės rodo ankstesnį klaidos pranešimą, **nes organizacijos tipo šalies įrašas 001** **jau** yra.
 
 Norėdami išspręsti problemą, pakeiskite automatinę lentelės **msdyn_partynumber** laukelis **msdyn_party** lentelė „Dataverse“ į skirtingą automatinio numerio seką.
 
@@ -355,3 +355,4 @@ Atnaujinę metodus, atlikite šiuos veiksmus.
 3. Paleisti žemėlapius. Turėtumėte matyti mažiau įrašų **smmContactPersonCDSV2Entity** ir **CustCustomerV3Entity** objektuose ir lentelėje **BusinessEventsDefinition**, o našumas gali šiek tiek pagerinti.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

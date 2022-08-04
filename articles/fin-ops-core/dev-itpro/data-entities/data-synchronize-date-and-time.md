@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c76eadc5839785ba1624ee3894ef1d0872369aa9
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: b8faa7b73349c48d3a02b685546b47c4969c6027
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403846"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109439"
 ---
 # <a name="synchronize-date-and-time-in-import-jobs"></a>Datos ir laiko sinchronizavimas importavimo užduotyse
 
@@ -25,9 +25,9 @@ ms.locfileid: "7403846"
 
 Svarbu nustatyti jūsų importavimo užduoties laiko juostą kaip Universaliojo laiko (UTC). Jei naudojate kitą parametrą, jūsų importuotuose duomenyse galite matyti netikėtas datas ir laikus. Be tinkamo parametro, importavimo procese UTC formato data konvertuojama į vietinį formatą, o tada sistemos parametrai konvertuoja ją dar kartą.
 
-Dėl šio dvigubo konvertavimo, datos gali pasikeisti tarp programų. Pavyzdžiui, dėl dvigubo konvertavimo darbuotojo darbo pradžios data gali skirtis tarp „Dynamics 365 Human Resources” ir „Dynamics 365 Finance”, kadangi egzistuoja skirtumai tarp vietinio laiko zonų. Importavimo užduoties nustatymas į UTC laiko zoną išsprendžia šią problemą.
+Dėl šio dvigubo konvertavimo, datos gali pasikeisti tarp programų. Pavyzdžiui, dėl dvigubo konvertavimo darbuotojo pradžios data gali skirtis Dynamics 365 Human Resources nuo "Dynamics 365" finansų, nes skiriasi vietos laiko zonos. Importavimo užduoties nustatymas į UTC laiko zoną išsprendžia šią problemą.
 
-1. „Dynamics 365 Finance and Operations” pasirinkit **Duomenų valdymas**.
+1. Dalyje "Dynamics 365" finansai ir operacijos pasirinkite **Duomenų valdymas**.
 
 2. Pasirinkite **Importuoti projektus**, o tada pasirinkite projektą.
 
@@ -41,3 +41,4 @@ Dėl šio dvigubo konvertavimo, datos gali pasikeisti tarp programų. Pavyzdžiu
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

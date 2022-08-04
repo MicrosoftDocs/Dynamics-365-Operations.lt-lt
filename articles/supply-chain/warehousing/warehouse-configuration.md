@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28e026b01bbc2b2534556ce6018eec66fc5517d6
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7643a333c269a7e1976563ff0f10b89c1fb91674
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983009"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065194"
 ---
 # <a name="warehouse-configuration-overview"></a>Sandėlio konfigūracijos apžvalga
 
@@ -31,10 +31,10 @@ ms.locfileid: "7983009"
 Šiame straipsnyje paaiškinta, kaip konfigūruoti sandėlį. Pateikiama informacija apie tai, kaip įgalinti sandėlio maketą ir sandėlio procesus.
 
 > [!NOTE]
-> Šis straipsnis taikomas funkcijoms **Sandėlio valdymas** modulyje (patobulintas sandėliavimas). Jis nėra taikomas sandėlio funkcijoms **Atsargų valdymo** modulyje.
+> Šis straipsnis taikomas sandėlio valdymo **modulio funkcijoms**. Jis nėra taikomas sandėlio funkcijoms **Atsargų valdymo** modulyje.
 
 ## <a name="warehouse-layout"></a>Sandėlio išdėstymas
-Sandėlio valdymo sistema programoje „Supply Chain Management“ suteikia lanksčių būdų, kaip apibrėžti savo sandėlio išdėstymą, siekiant patenkinti kintančius poreikius, kad galėtumėte pasiekti optimalų sandėlio efektyvumą.
+Tiekimo grandinės valdymo sandėlio valdymo procesai (WMS) suteikia jums kintamų būdų nurodyti savo sandėlio maketą, kad būtų galima patenkinti kintančius poreikius, kad būtų pasiektas optimalus sandėlio efektyvumas.
 
 -   Galite nustatyti aukšto prioriteto ir žemo prioriteto saugojimo sritis, kad prekės būtų išdėstytos optimaliai.
 -   Savo sandėlį galite padalinti į zonas, kad būtų galima patenkinti įvairius saugojimo poreikius, pvz., temperatūros reikalavimus ar įvairius prekių apyvartos koeficientus.
@@ -42,7 +42,7 @@ Sandėlio valdymo sistema programoje „Supply Chain Management“ suteikia lank
 -   Grupuoti vietas galite naudodami fizinių pajėgumų apribojimo nuostatas.
 -   Kontroliuoti, kaip prekės saugomos ir paimamos, galite pagal užklausomis apibrėžtas taisykles.
 
-Norėdami naudoti „Supply Chain Management‟ sandėlio valdymo funkcijas, turite sukurti sandėlį ir leisti jam taikyti labiau patobulinto ar specializuoto sandėlio valdymo veiklą. **Sandėlių** puslapyje pasirinkite parinktį **Naudoti sandėlio valdymo procesus**.
+Norėdami naudoti WMS tiekimo grandinės valdymo srityje, turite sukurti sandėlį ir įgalinti WMS. **Sandėlių** puslapyje pasirinkite parinktį **Naudoti sandėlio valdymo procesus**.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Zonų grupės, zonos, vietų tipai ir vietos
 

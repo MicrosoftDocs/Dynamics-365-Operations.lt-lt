@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-12
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 259004773c4e5a7d8865d563da9bcfea3a116632
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d7fb922a35504b69aa8cc3d92cb981e8fb060290
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870964"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067593"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-12-2021"></a>Kas nauja ar pasikeitė „Dynamics 365 Human Resources” 2021 m. liepos 12 d
 
@@ -80,7 +80,7 @@ Toliau pateiktos naujos funkcijos yra peržiūrimos. Daugiau informacijos apie f
 
 | Funkcija | Informacija |
 | --- | --- |
-| Platformos atnaujinimas 10.0.20 (44) | Platformos atnaujinimas 10.0.20 yra suplanuotas pasirodyti su nauju leidimu 2021 m. liepos 26 d. Daugiau informacijos rasite finansų ir [operacijų programėlių 10.0.20 versijos (2021 m. rugpjūčio mėn.) platformos naujinimus](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20). |
+| Platformos atnaujinimas 10.0.20 (44) | Platformos atnaujinimas 10.0.20 yra suplanuotas pasirodyti su nauju leidimu 2021 m. liepos 26 d. Norėdami gauti daugiau informacijos, žr. [10.0.20 finansų ir operacijų programėlių versijos (2021 m. rugpjūčio mėn.) platformos naujinimus](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20). |
 
 Norėdami gauti visą planuojamų funkcijų ir jų suplanuotų leidimų sąrašą, žr. [„Dynamics 365 Human Resources” 2021 m. 1-os leidimo bangos apžvalga](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 
@@ -92,3 +92,4 @@ Norėdami gauti visą planuojamų funkcijų ir jų suplanuotų leidimų sąraš�
 [Funkcijų valdymas](hr-admin-manage-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

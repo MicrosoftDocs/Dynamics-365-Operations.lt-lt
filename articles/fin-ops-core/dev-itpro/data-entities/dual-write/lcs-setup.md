@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 5cccba580d23c3a0e9aed62f76a305926a58585f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a002bae22044ea10be30340a87a191305f6c6b92
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879810"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111977"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Dvigubo rašymo sąranka iš „Lifecycle Services“
 
@@ -29,7 +29,7 @@ ms.locfileid: "8879810"
 Klientai turi užbaigti integravimą Power Platform, kaip aprašyta šiose temose:
 
 - Jei dar nenaudosite ir norite Microsoft Power Platform išplėsti savo finansų ir operacijų aplinkas įtraukdami platformos pajėgumus, [Power Platform žr. Integravimas – Įgalinti diegiant aplinką](../../power-platform/enable-power-platform-integration.md#enable-during-deploy).
-- Jei jau turite ir aplinkas Dataverse Power Platform, ir norite jas sujungti su finansų ir operacijų aplinka, [Power Platform žr. integravimą – Įgalinti po aplinkos diegimo](../../power-platform/enable-power-platform-integration.md#enable-after-deploy).
+- Jei jau turite ir aplinkas Dataverse Power Platform, ir norite sujungti jas su finansų ir operacijų aplinka, [Power Platform žr. integravimą – Įgalinti po aplinkos diegimo](../../power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
 ## <a name="set-up-dual-write-for-new-or-existing-dataverse-environments"></a>Nustatyti dvigubo rašymo naujam arba esamai aplinkai Dataverse sąlygas
 
@@ -53,7 +53,7 @@ Norėdami nustatyti dvigubą rašymą iš LCS **Aplinkos informacijos** puslapio
 
     :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Saitas į Power Platform aplinką.":::
 
-8. Užbaigus susiejimą, rodomas hipersaitas. Norėdami prisijungti prie dvigubo rašymo administravimo srities finansų ir operacijų aplinkoje, naudokite saitą. Iš ten galite nustatyti objektų susiejimus.
+8. Užbaigus susiejimą, rodomas hipersaitas. Norėdami prisijungti prie dvigubo rašymo administravimo srities finansų ir operacijų aplinkoje, naudokite šį saitą. Iš ten galite nustatyti objektų susiejimus.
 
 ## <a name="linking-mismatch"></a>Susiejimų neatitikimas
 
@@ -71,3 +71,4 @@ Jei gaunate šį perspėjimą, bandykite naudoti vieną iš šių sprendimų:
 Praeityje buvo galima rankinio palaikymo kvito pasirinktis, bet anksčiau buvo prieš 1 pasirinktį.  "Microsoft" nebepalaiko rankinio perėjimo prašymų per Support bilietų.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

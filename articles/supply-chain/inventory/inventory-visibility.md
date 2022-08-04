@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 782545ea38a209eb4430607f5bca96e4e930efdc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 274f9b368a6074725d1938de5f2172d2810a5985
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897638"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066647"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Atsargų matomumo papildinio apžvalga
 
@@ -35,7 +35,7 @@ Atsargų matomumo tarnyba yra labai extensible, nes duomenų įvestis ir išeiga
 
 Be to, kadangi atsargų matomumas sukurtas Microsoft Dataverse, jo duomenis galima naudoti kuriant ir integruojant.Power Apps Taip pat galite kurti Power BI pritaikytas skelbimų skelbimų sritis, kurios atitinka jūsų verslo poreikius.
 
-## <a name="scalability"></a>Mastelio
+## <a name="scalability"></a>Dydžio keitimo galimybė
 
 Atsargų matomumo tarnybą galima padidinti arba sumažinti, tai priklauso nuo jūsų duomenų apimties. Dydžio nustatymo patirtis dažniausiai yra nuosekli ir ji priklauso nuo Microsoft platformos komandos, remiantis automatiniu operacijų duomenų tūrio aptikimu ir įvertinimu.
 
@@ -61,9 +61,9 @@ Matomumas jūsų būsimose projekto atsargose (įskaitant tiekimo, poreikio ir t
 
 ATP funkciją lengva patvirtinti pagal savo kasdieninio užsakymo vykdymo procesą. Svarbiausia, kaip ir kiti atsargų matomumo pasiūlymai, ATP funkcija yra visuotinė *ir realiuoju laiku*. Todėl galite nustatyti kelias ATP skaičiavimo formules, kad būtų pateiktos visos atsargų prieinamumo užklausos, kurios apima visus jūsų verslo kanalus ir duomenų šaltinius. Daugiau informacijos ieškokite turimų [atsargų matomumo grafikuose ir prieinamose atsargose](inventory-visibility-available-to-promise.md).
 
-### <a name="compatibility-with-advanced-warehouse-management-items"></a>Suderinamumas su išplėstinėmis sandėlio valdymo prekėmis
+### <a name="compatibility-with-warehouse-management-processes-wms-items"></a>Suderinamumas su sandėlio valdymo procesų (WMS) prekėmis
 
-"Microsoft"perteikti papildomą integravimą su išplėstiniu sandėlio valdymu (WHS), kad sandėlio valdymo klientai taip pat galėtų naudotis atsargų matomumo paslaugos teikiama nauda. Per 2022 bangos 1 leidimą (vieša kovo mėn. peržiūra) atsargų tarnyba palaiko užklausas dėl sandėlio valdymo ir atp. Soft reservation ir paskirstymo funkcija bus palaikoma whS klientams, paskesnėje bangoje. Daugiau informacijos ieškokite sandėlio valdymo [ir sandėlio valdymo prekių atsargų matomumo palaikymas](inventory-visibility-whs-support.md).
+"Microsoft"pagal tai, kad galėtų teikti ne "box" integravimą su sandėlio valdymo procesais (WMS), kad WMS klientai taip pat galėtų naudotis atsargų matomumo paslaugos teikiama nauda. Per 2022 bangos 1 leidimą (vieša kovo mėn. peržiūra) atsargų tarnyba palaiko WMS turimos prekės užklausas ir ATP. WMS klientams, kurie yra kitą bangą, bus palaikoma švelniai rezervavimo ir paskirstymo funkcija. Daugiau informacijos ieškokite WMS [prekių atsargų matomumo palaikymas](inventory-visibility-whs-support.md).
 
 ## <a name="licensing"></a>Licencijavimas
 

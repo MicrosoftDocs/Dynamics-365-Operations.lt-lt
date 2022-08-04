@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ff074e62489fe74f0c2de6dae0e02d1da7e7f6ae
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7f34acd78966cc9f26242653e9d0d16fdf22e0b2
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901914"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103837"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>„Dynamics 365 Supply Chain Management“ skirto kliento portalo apžvalga
 
@@ -42,7 +42,7 @@ Kliento portalo šablonas turi visas tinkinimo galimybes, kurias siūlo „Power
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
 
-Vaizdo [įrašo kliento portalo šablono peržiūra Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (parodyta pirmiau) yra įtraukta į [finansų ir operacijų apžvalgą](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kuri pasiekiama YouTube.
+Vaizdo [įraše esanti kliento portalo šablono Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) peržiūra (parodyta pirmiau) įtraukta į [finansus ir operacijas, kurių jau](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) galima gauti YouTube.
 
 ## <a name="who-should-use-it"></a>Kas turėtų jį naudoti?
 
@@ -62,7 +62,7 @@ Kliento portalas pateikiamas kaip „Power Apps“ portalų šablonas. Jis prikl
 
 [„Power Apps“ portalai](/powerapps/maker/portals/overview) yra funkcija, kuri leidžia vartotojams sukurti išorinę svetainę, prie kurios gali prisijungti organizacijai nepriklausantys asmenys. Kuriant portalus nereikia arba beveik nereikia kodavimo. Kliento portalas yra vienas iš daugelio [„Dynamics 365“ portalų šablonų](/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365), kuriuos teikia „Microsoft“.
 
-[Dvigubas rašymas](/powerapps/maker/portals/overview) yra ne "box" infrastruktūros produktas, kuris leidžia realiuoju laiku sąveikyti klientų įsipareigojimų programėles ir finansų ir operacijų programėles. Dvigubo rašymo metu galima dviejų krypčių integravimas tarp finansų ir operacijų programėlių ir Microsoft Dataverse. Todėl šis produktas suteikia integruotą vartotojo patirtį susietose programose. Kliento portalas priklauso nuo lentelių, sinchronizuojamų naudojant dvigubą rašymą. Prieš naudojant „Supply Chain Management“ duomenis kliento portale, visoms atitinkamoms lentelėms reikia įjungti dvigubo rašymo funkciją.
+[Dvigubas rašymas](/powerapps/maker/portals/overview) yra ne "box" infrastruktūros produktas, kuris leidžia realiuoju laiku užtikrinti klientų įsipareigojimų programų ir finansų bei operacijų programėlių sąveiką. Dvigubo rašymo metu galima dviejų krypčių integravimą tarp finansų ir operacijų programėlių ir Microsoft Dataverse. Todėl šis produktas suteikia integruotą vartotojo patirtį susietose programose. Kliento portalas priklauso nuo lentelių, sinchronizuojamų naudojant dvigubą rašymą. Prieš naudojant „Supply Chain Management“ duomenis kliento portale, visoms atitinkamoms lentelėms reikia įjungti dvigubo rašymo funkciją.
 
 ![Kliento portalo priklausomybės.](media/customer-portal-elements.png "Kliento portalo priklausomybes")
 

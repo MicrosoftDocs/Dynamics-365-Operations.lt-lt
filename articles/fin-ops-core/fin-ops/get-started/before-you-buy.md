@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9c2f658fbf7fd4db38d572ff80e9d500b5548e0a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: fc3cf3b5d28a4e512f921db6ba090dd5731391cc
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713282"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123989"
 ---
 # <a name="before-you-buy"></a>Prieš perkant
 
@@ -26,9 +26,9 @@ ms.locfileid: "8713282"
 
 Naujas Dynamics 365 finansuose, Dynamics 365 Supply Chain Management ar Dynamics 365 Commerce? Parengėme nuoseklius nurodymus tiems, kurie dar galutinai neįvertino, ir tiems, kurie jau yra pasirengę įsigyti.
 
-## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Pirmas veiksmas: bandykite „Finance and Operations“ 30 dienų nemokamai
+## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>1 žingsnis: išbandykite finansus ir operacijas ne daugiau kaip 30 dienų
 
-„Dynamics 365 for Finance“, „Dynamics 365 Supply Chain Management“ arba „Dynamics 365 Commerce“ galite bandyti 30 dienų, paprasčiausiai užregistravę savo el. pašto adresą. Bandomoji finansų ir operacijų programų versija apima užduočių, kurias galima pradėti, vadovus, kurie pateikia nuoseklias instrukcijas, kurios leidžia peržiūrėti konkrečius veiksmo scenarijus. Naudojant produktą galima peržiūrėti ir vykdyti įvairius scenarijus, bet negalima tinkinti. Demonstraciniai duomenys įtraukti siekiant palengvinti naudojimąsi produktu ir paversti patirtį prasmingesne. Likus 3 dienoms iki bandomosios versijos pabaigos bus išsiųstas priminimo el. laiškas. Išsamią informaciją rasite [Registravimasis prenumeratų peržiūros versijai gauti](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
+„Dynamics 365 for Finance“, „Dynamics 365 Supply Chain Management“ arba „Dynamics 365 Commerce“ galite bandyti 30 dienų, paprasčiausiai užregistravę savo el. pašto adresą. Bandomoji finansų ir operacijų programų versija apima darbo pradžios užduočių vadovus, kurie pateikia nuoseklias instrukcijas, kurios leidžia peržiūrėti konkrečius veiksmo scenarijus. Naudojant produktą galima peržiūrėti ir vykdyti įvairius scenarijus, bet negalima tinkinti. Demonstraciniai duomenys įtraukti siekiant palengvinti naudojimąsi produktu ir paversti patirtį prasmingesne. Likus 3 dienoms iki bandomosios versijos pabaigos bus išsiųstas priminimo el. laiškas. Išsamią informaciją rasite [Registravimasis prenumeratų peržiūros versijai gauti](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Antras veiksmas: diegimo parinkčių pasirinkimas
 
@@ -62,13 +62,13 @@ Siekiant geriau suprasti jūsų įmonės ar organizacijos poreikius, su jumis ga
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Pirkimas iš „Dynamics“ partnerio (vietinė versija)
 
-Norėdami įsigyti vietinę „Finance and Operations“ versiją, turite dirbti su partneriu. Daugiau informacijos rasite [„Finance + Operations (on-premises)“ pirkimas](purchase-on-premises.md).
+Turite dirbti su partneriu, norėdami pirkti finansus + operacijas (vietiniame kompiuteryje). Daugiau informacijos rasite [„Finance + Operations (on-premises)“ pirkimas](purchase-on-premises.md).
 
 ### <a name="buy-through-volume-licensing-cloud-or-on-premises"></a>Pirkite bendrąjį licencijavimą (debesies arba vietinei versijai)
 
 Jei jūsų organizacijoje yra 250 ar daugiau „Dynamics 365“ vartotojų, jus gali dominti [Bendrojo licencijavimo sutartis](https://www.microsoft.com/Licensing/product-licensing/dynamics365).
 
-Iš apimties licencijavimo, finansų ir operacijų programas galima rasti:
+Iš apimties licencijavimo, finansų ir operacijų programas galima gauti naudojant:
 
 - „Enterprise“ sutartis
 - „Enterprise“ sutarties prenumerata
@@ -94,3 +94,4 @@ Jei esate klientas, naujinantis iš „Microsoft Dynamics AX 2012“ arba perein
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

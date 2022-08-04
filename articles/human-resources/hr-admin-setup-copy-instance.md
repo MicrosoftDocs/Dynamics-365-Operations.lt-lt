@@ -14,17 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d0da71c87364eacf60b9a82a200996292b863b6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 935c2e6cb45df193e6cbf70634f3561154c6fe38
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692428"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178540"
 ---
 # <a name="copy-an-instance"></a>Egzemplioriaus kopijavimas
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Taikoma:** žmogiškieji ištekliai autonominėje infrastruktūrose_ 
 
+> [!NOTE]
+> Nuo 2022 m. birželio mėn. personalo aplinkas galima įdiegti tik finansų ir operacijų programų infrastruktūrose. Daugiau informacijos ieškokite Finansų [ir operacijų infrastruktūros personalo parengimas](hr-admin-setup-provision-fo.md).
+
+> [!IMPORTANT]
+> Finansų ir operacijų infrastruktūra nepalaiko kopijos egzemplioriaus funkcijos. Galite įdiegti naujas aplinkas ir naudoti duomenų bazės perkėlimą kopijoms kurti. Daugiau informacijos apie savitarnos diegimą ieškokite savitarnos [diegimo apžvalga](../fin-ops-core/dev-itpro/deployment/infrastructure-stack.md). Daugiau informacijos apie duomenų bazės perkėlimą finansų ir operacijų infrastruktūrose ieškokite duomenų bazės [perkėlimo operacijų pagrindinį puslapį](../fin-ops-core/dev-itpro/database/dbmovement-operations.md).
 
 Galite naudoti „Microsoft Dynamics Lifecycle Services“ (LCS), kad nukopijuotumėte „Microsoft Dynamics 365 Human Resources“ duomenų bazę į smėlio dėžės aplinką. Jei turite kitą smėlio dėžės aplinką, taip pat galite kopijuoti duomenų bazę iš šios aplinkos į tikslinę smėlio dėžės aplinką.
 
@@ -50,7 +55,7 @@ Kad nukopijuotumėte egzempliorių, atminkite šiuos patarimus:
 
 - Dokumentai, esantys „Microsoft Azure“ didelių dvejetainių objektų saugykloje, nėra kopijuojami iš vienos aplinkos į kitą. Todėl bet kurie pridėti dokumentai ir šablonai nebus kopijuojami ir liks šaltinio aplinkoje.
 
-- Visi vartotojai, išskyrus tuos, kurių saugos vaidmuo "Sistemos administratorius" ir kiti vidinių paslaugų vartotojų abonementai yra negalimi. Administratoriaus vartotojas gali panaikinti arba paslėpti duomenis prieš suteikiant galimybę kitiems vartotojams vėl prisijungti prie sistemos.
+- Visi vartotojai, išskyrus tuos, kurių saugos vaidmuo "Sistemos administratorius" ir kiti vidinių paslaugų vartotojų abonementai yra negalimi. Vartotojas administratorius gali panaikinti duomenis prieš tai, kai kitiems vartotojams neleidžiama grįžti į sistemą.
 
 - Bet kuris vartotojas su sistemos administratoriaus saugumo vaidmeniu gali atlikti būtinus konfigūravimo keitimus, pvz., iš naujo sujungti integravimo galinius punktus su konkrečiomis tarnybomis arba konkrečiais URL.
 
@@ -67,15 +72,17 @@ Norėdami atlikti šią užduotį, pirmiausia nukopijuokite egzempliorių, tada 
 
 3. Pasirinkite kopijuotiną egzempliorių ir pasirinkite **Kopijuoti**.
 
-4. Užduočių srityje **Kopijuoti egzempliorių** pasirinkite egzempliorių, kurį norite perrašyti, tada – **Kopijuoti**. Palaukite, kol lauko **Kopijuoti būseną** reikšmė bus atnaujinta į **Baigta**.
+4. Užduočių srityje **Kopijuoti egzempliorių** pasirinkite egzempliorių, kurį norite perrašyti, tada – **Kopijuoti**. Lauką Kopijavimo **būsena atnaujinsite** į **Baigta**.
 
    ![[Pasirinkite norimą perrašyti egzempliorių.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Pažymėkite **„Power Platform“** ir prisijunkite prie „Microsoft Power Platform“ administravimo centro.
 
-   ![[Pasirinkite Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Pasirinkti Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Pasirinkite kopijuotiną „Power Apps“ aplinką ir pasirinkite **Kopijuoti**.
+
+Daugiau informacijos apie aplinkos kopijavimą Power Apps žr. Kopijuokite [aplinką](/power-platform/admin/copy-environment#copy-an-environment-1).
 
 7. Kai kopijavimo procesas baigtas, prisijunkite prie paskirties egzemplioriaus ir įjunkite „Dataverse“ integravimą. Daugiau informacijos ir instrukcijų žr. [„Dataverse“ integravimo konfigūravimas](./hr-admin-integration-common-data-service.md).
 
@@ -115,7 +122,7 @@ Taip pat, šios būsenos keičiasi, kai nukopijuojate egzempliorių:
 
 ## <a name="environment-admin"></a>Aplinkos administratorius
 
-Visi paskirties smėlio dėžės aplinkos vartotojai, įskaitant administratorius, pakeičiami šaltinio aplinkos vartotojais. Prieš tai kai nukopijuojate egzempliorių, įsitikinkite, kad šaltinio aplinkoje esate Administratorius. Jeigu nesate, negalite prisijungti į paskirties smėlio dėžės aplinką po to, kai kopijavimas buvo atliktas.
+Visi paskirties smėlio dėžės aplinkos vartotojai, įskaitant administratorius, pakeičiami šaltinio aplinkos vartotojais. Prieš tai kai nukopijuojate egzempliorių, įsitikinkite, kad šaltinio aplinkoje esate Administratorius. Jei jūsų nėra, baigę kopijuoti, negalite įeiti į paskirties sandų dėžės aplinką.
 
 Visi ne administratoriaus teises turintys vartotojai paskirties smėlio dėžės aplinkoje yra išjungti, kad būtų užkirstas kelias nepageidaujamiems prisijungimams smėlio dėžės aplinkoje. Jei reikia, administratoriai gali iš naujo įgalinti vartotojus.
 

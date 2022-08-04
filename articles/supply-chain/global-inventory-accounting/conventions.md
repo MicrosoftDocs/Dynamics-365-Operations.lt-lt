@@ -10,18 +10,16 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 0055757a0d012896232de58330ee142f702e4ed1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f148d4c6ece543c8a11eee3e6dcdff47b3767936
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8875400"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135512"
 ---
 # <a name="conventions"></a>Konvencijos
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until 4/30/2022 -->
 
 Konvencija yra strategijų, kurios veikia sistemos elgseną, rinkinio talpykla. Atsižvelgdami į savo verslo reikalavimus, turite apibrėžti konvencijas naudodami įvairias strategijas, kurios nustato, kaip turėtų būti atlikta išlaidų apskaita Visuotinėje atsargų apskaitoje. Galite susieti kiekvieną konvenciją su viena ar daugiau didžiųjų knygų, kad užtikrintumėte didžiosiose knygose taikomų apskaitos strategijų nuoseklumą.
 

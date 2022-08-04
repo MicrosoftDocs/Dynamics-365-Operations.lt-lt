@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: hasaid
 ms.search.validFrom: 2021-11-09
-ms.openlocfilehash: 90e64fec512307af209ace128d5897475de7aee5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 41789d574cc7348dbf8a18db97da9c428da09602
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867279"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103945"
 ---
 # <a name="dynamics-365-finance-supply-chain-management-and-commerce-in-us-government-community-cloud-gcc"></a>"Dynamics 365 Finance", tiekimo grandinės valdymas ir prekyba JAV vyriausybės bendruomenės debesyje (GCC)
 
@@ -38,9 +38,9 @@ Baigę inicialų inicialų įdėjimo į darbą nurodymus [vykdykite projekto nur
 
 ## <a name="environment-deployment"></a>Aplinkos diegimas
 
-Užbaigę projektų instruvą galite peržiūrėti papildomas LCS [galimybes, kurios aprašomos vykdymo ciklo tarnybose (LCS), skirtose finansų ir operacijų programėlių klientams](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). Tada pereiti prie aplinkos diegimo.
+Užbaigę projektų instruvą galite peržiūrėti papildomas LCS [galimybes, kurios aprašomos vykdymo ciklo tarnybose (LCS), skirtose finansų ir operacijų programų klientams](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). Tada pereiti prie aplinkos diegimo.
 
-- Norėdami diegti "Microsoft" valdomas aplinkas naudodami LCS, vadovaukitės vykdymo ciklo tarnybų (LCS) instrukcijomis, [pateikiamomis finansų ir operacijų programėlių klientams](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
+- Norėdami įdiegti "Microsoft" valdomas aplinkas naudodami LCS, vadovaukitės vykdymo ciklo tarnybų (LCS) instrukcijomis, [pateikiamomis finansų ir operacijų programų klientams](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
 - Daugiau informacijos apie debesyje nuomojamas aplinkas žr. [Deploy ir access development environments](../../../fin-ops-core/dev-itpro/dev-tools/access-instances.md). Taip pat turite užbaigti savo jungčių išteklių tvarkytuvo diegimo procesą, [kaip aprašyta "Azure" išteklių vadovo paslaugų planavimo procese, skirtame JAV vyriausybės ciklo tarnybų projektams](arm-onbarding-us-goverment.md).
 
 > [!NOTE]
@@ -84,3 +84,4 @@ Taip. Tačiau, jei jūsų partneris naudoja ne GCC tapatybę, palaikymo bilietas
 - [Visuotinio debesies diegimo apžvalga](../../../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

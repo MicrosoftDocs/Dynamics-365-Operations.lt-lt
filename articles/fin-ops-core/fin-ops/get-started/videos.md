@@ -1,6 +1,6 @@
 ---
 title: Vaizdo įrašai
-description: Šiame puslapyje pateikiami „Microsoft“ sukurti su „Finance and Operations“ programomis susiję mokomieji ir techniniai vaizdo įrašai, pasiekiami „YouTube“ ir kitose svetainėse.
+description: Šiame puslapyje pateikiami "Microsoft" sukurti "kaip iki" ir "Tech tech" vaizdo įrašai, susiję su finansų ir operacijų programėle, kurios galimos YouTube kitose svetainėse.
 author: sericks007
 ms.date: 06/13/2022
 ms.topic: article
@@ -14,27 +14,27 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 76fe61c13490afbd7b5dcd39f3c631cbab43bb9e
-ms.sourcegitcommit: 0686b56b4699ffefd2c208d0fe496d5860296520
+ms.openlocfilehash: a21a9122badc308940c0182061a18051bfcc0abd
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8958144"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124961"
 ---
 # <a name="videos"></a>Vaizdo įrašai 
 
 [!include [banner](../includes/banner.md)]
 
-[„Microsoft Dynamics 365“ „YouTube“ kanale](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) galite rasti „Microsoft“ sukurtų vaizdo įrašų, kuriuose supažindinama su įvairiais „Dynamics 365“ produktams skirtais verslo sprendimais. Šioje dalyje pateikiami mokomieji „Finance and Operations“ programų vaizdo įrašai, talpinami kanale.
+[„Microsoft Dynamics 365“ „YouTube“ kanale](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) galite rasti „Microsoft“ sukurtų vaizdo įrašų, kuriuose supažindinama su įvairiais „Dynamics 365“ produktams skirtais verslo sprendimais. Šiame skyriuje pateikiami "kaip" vaizdo įrašai, skirti finansų ir operacijų programoms, kurios laikomos kanale.
 
 > [!Note]
 > Kai kurie iš minėtų vaizdo įrašų buvo publikuojami naudojant ankstesnį produkto pavadinimą, bet jie vis tiek aktualūs.
 
-## <a name="videos-for-finance-and-operations-development-and-administration"></a>Vaizdo įrašai apie „Finance and Operations“ kūrimą ir administravimą
+## <a name="videos-for-finance-and-operations-development-and-administration"></a>Finansų ir operacijų kūrimo bei administravimo vaizdo įrašai
 
 ### <a name="data-integration"></a>Duomenų integracija
 
-- [„Dynamics 365 for Field Service“ darbo užsakymo sinchronizavimas su „Finance and Operations“ programomis](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [Darbo užsakymo tarp finansų ir Dynamics 365 for Field Service operacijų programėlių sinchronizavimas](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>Duomenų valdymas
 
@@ -50,8 +50,8 @@ ms.locfileid: "8958144"
 ### <a name="intelligence"></a>Įžvalgos
 
 - [Kaip redaguoti analizės įdėtąją ataskaitą analitinėje darbo srityje](https://youtu.be/_8WlwmSggcQ)
-- [Kaip įdėti „PowerBI.com“ ataskaitas „Finance and Operations“ programose](https://youtu.be/gGWuNJDoi-M)
-- [Savo duomenų bazės naudojimas (BYOD) „Finance and Operations“ programose](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [Kaip įtraukti ataskaitų PowerBI.com ataskaitas į finansų ir operacijų programėles](https://youtu.be/gGWuNJDoi-M)
+- [Rodyti savo duomenų bazę (BYOD) finansų ir operacijų programėlei](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [Kaip naudoti išlaidų valdymo „Power BI“ turinį programoje „Dynamics 365“](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 ### <a name="lifecycle-services-lcs"></a>„ Lifecycle Services“ (LCS)
@@ -169,3 +169,4 @@ ms.locfileid: "8958144"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

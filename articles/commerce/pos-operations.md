@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 23805a88fab34d925241c51ae449bd81e15d5337
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.openlocfilehash: 3948fff15108568df514406ad443d4f538653e62
+ms.sourcegitcommit: 1af2b01aea6b5a4d88ee3fae6faa0eaf1976c5dd
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027288"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9146491"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Elektroninio kasos aparato (EKA) operacijos, prisijungus ir neprisijungus prie interneto
 
@@ -271,7 +271,7 @@ Toliau pateiktuose stulpeliuose nurodoma, kur galima iškviesti operacijas.
 | 1218 | Priversti atrakinti išorinį elementą                           | Sistema naudoja šią operaciją aparato viduje esantiems EKA periferiniams įrenginiams atrakinti.                                                                                                                                           | Netaikoma | Netaikoma     | Netaikoma | Netaikoma    | Ne              |
 | 1219 | URL atidarymas EKA                                   | Atidarykite administratoriaus sukonfigūruotą URL EKA.                                                                                                                                                                           | Taip            | Taip                | Taip            | Taip               | Ne              |
 | 1220 | Valdyti seifą                                       | Valdyti skirtingų kasos aparatų seifą.                                                                                                                                                                       | Taip            | Taip                | Taip            | Taip               | Ne              |
-| 1221 | Anuliuoti sustabdytas operacijas                       | Anuliuoti sustabdytas operacijas.                                                                                                                                                                               | Taip            | Taip                | Taip            | Taip               | Ne              |
+| 1221 | Anuliuoti sustabdytas operacijas                       | Anuliuoti sustabdytas operacijas.                                                                                                                                                                               | Taip            | Ne                | Ne            | Taip               | Ne              |
 | 1300 | Praleisti finansinį registraciją                          | Praleisti fiskalinę registraciją.                                                                                                                                                                                       | Ne            | Ne                | Ne            | Taip               | Ne             |
 | 1301 | Pažymėti finansinį įvykį kaip užregistruotą                      |  Pažymėkite ataskaitinį įvykį kaip užregistruotą.                                                                                                                                                                                  | Ne            | Ne                | Ne            | Taip               | Ne             |
 | 1302 | Užbaigti fiskalinės registracijos procesą              | Užbaikite finansinio registravimo procesą.                                                                                                                                                                           | Ne            | Ne                | Taip            | Taip               | Taip             |

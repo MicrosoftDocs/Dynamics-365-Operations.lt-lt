@@ -1,6 +1,6 @@
 ---
 title: Patobulinkite sugeneruotų ER ataskaitų rezultatų sekimą, kad palygintumėte su bazinėmis vertėmis
-description: Šiame straipsnyje aprašomi pradinės ER priemonės, nurodytos Microsoft Dynamics 365 for Finance and Operations versijoje 10.0.3 (2019 m. birželio mėn.), patobulinimai.
+description: Šiame straipsnyje aprašomi pradinės ER priemonės Microsoft Dynamics, nurodytos 365 finansinės versijos 10.0.3 (2019 m. birželio mėn.), patobulinimai.
 author: NickSelin
 ms.date: 06/19/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 3b9ac7dcac4d020759d04fec75e17c43ed627e25
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bb2e76492ac9f6feb71811d0fbfd25919b59ac4d
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847407"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109149"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Patobulinkite sugeneruotų ER ataskaitų rezultatų sekimą, kad palygintumėte su bazinėmis vertėmis
 
 [!include[banner](../includes/banner.md)]
 
-Šiame straipsnyje aprašomi pirmasis atliktas elektroninės ataskaitų (ER) sistemos pagrindinės priemonės patobulinimų rinkinys. Šie patobulinimai galimi „Microsoft Dynamics 365 for Finance and Operations“ 10.0.3 (2019 m. birželio mėn.) ir naujesnėse versijose.
+Šiame straipsnyje aprašomi pirmasis atliktas elektroninės ataskaitų (ER) sistemos pagrindinės priemonės patobulinimų rinkinys. Šiuos patobulinimus galima rasti Microsoft Dynamics 365 finansų versijoje 10.0.3 (2019 m. birželio mėn.) ir vėlesnėje versijoje.
 
 ## <a name="automate-the-setting-of-baseline-rules"></a>Automatizuokite pagrindinių taisyklių nustatymą
 
@@ -208,3 +208,4 @@ Norėdami importuoti pagrindinės informacijos parametrus iš XML failo, kuris s
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

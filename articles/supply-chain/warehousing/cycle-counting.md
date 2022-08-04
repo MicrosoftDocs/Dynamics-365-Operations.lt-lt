@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adaed1d5a4f1ac62df35bcc1497610ce0f44043c
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: da7aef93cf994c40410598ab9c4ff2b21f4750e7
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902226"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065935"
 ---
 # <a name="cycle-counting"></a>Ciklo skaičiavimas
 
@@ -52,11 +52,11 @@ Pateiktoje lentelėje parodytos būtinosios sąlygos, kurias reikia įvykdyti pr
 <tbody>
 <tr class="odd">
 <td>Prekė</td>
-<td>Prekė privalo turėti įgalintus sandėlio valdymo procesus.</td>
+<td>Prekė turi būti įgalinta sandėlio valdymo procesuose (WMS).</td>
 </tr>
 <tr class="even">
 <td>Sandėlis</td>
-<td>Sandėlis privalo turėti įgalintus sandėlio valdymo procesus. Norėdami įgalinti sandėlio valdymo procesus, puslapyje <strong>Sandėliai</strong> pasirinkite sandėlį, tada pasirinkite parinktį <strong>Naudoti sandėlio valdymo procesus</strong>. Jei norite leisti darbuotojams perkelti padėklus ciklo skaičiavimo metu, „FastTab“ skirtuke <strong>Sandėlio valdymas</strong> pasirinkite parinktį <strong>Leisti perkelti padėklus atliekant ciklo skaičiavimą</strong>.</td>
+<td>Sandėlis turi būti įgalintas sandėlio valdymo procesams (WMS). Norėdami įgalinti WMS sandėlį, sandėlio <strong></strong> puslapyje pasirinkite sandėlį, tada pasirinkite parinktį Naudoti <strong>sandėlio valdymo</strong> procesus. Jei norite leisti darbuotojams perkelti padėklus ciklo skaičiavimo metu, „FastTab“ skirtuke <strong>Sandėlio valdymas</strong> pasirinkite parinktį <strong>Leisti perkelti padėklus atliekant ciklo skaičiavimą</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Darbo telkiniai</td>

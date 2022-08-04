@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
-ms.openlocfilehash: e2b13403ffb316059476a03857c849b4f9f8cb9c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 83e20d9fc655a474a11521ec61d0b64d30603181
+ms.sourcegitcommit: c271b2edc4bf777f7194b09139ccbd174a359c75
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884668"
+ms.lasthandoff: 07/16/2022
+ms.locfileid: "9169136"
 ---
 # <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>Dinaminių el. prekybos puslapių kūrimas pagal URL parametrus
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Šiame straipsnyje aprašoma, kaip nustatyti el. komercijos Microsoft Dynamics 365 Commerce puslapį, kuris gali naudoti dinaminį turinį, remiantis URL parametrais.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f75176781620cd6f845c002876eba6e34d5793e7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1f379cd7783cc984666582d2c680a1db013627ce
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692232"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070179"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>„Dataverse“ virtualiųjų lentelių užklausų optimizavimas
 
@@ -49,12 +49,12 @@ Viena iš lėto Personalo valdymui skirtų „Dataverse” virtualiųjų lenteli
 Pavyzdys, kur galite pastebėti šį poveikį, yra užklausos pagal Darbuotojo (**„mshr_hcmworkerentity”**) arba Pagrindinio darbuotojo (**„mshr_hcmworkerbaseentity”**) objektą. Galite pastebėti, kad efektyvumo problema pasireiškia keliais skirtingais būdais:
 
 - **Lėtas užklausos vykdymas**: Užklausą pagal virtualiąją lentelę gali pateikti tikėtuosius rezultatus, bet užtrukti daugiau laiko nei tikėtasi užklausos vykdymui užbaigti.
-- **Užklausos skirtasis** laikas: užklausai skirtas laikas gali skirtis ir pateikta ši klaida: "Atpažinimo ženklas gautas išk siekiant iškviesti finansus ir operacijas," Tačiau įvyko InternalServerError tipo klaida.
+- **Užklausos skirtasis** laikas: užklausai skirtas laikas gali skirtis ir pateikti toliau nurodytą klaidą: "Atpažinimo ženklas gautas siekiant iškviesti finansus ir operacijas, tačiau įvyko InternalServerError tipo klaida".
 - **Netikėta klaida**: Užklausa gali grąžinti 400 tipo klaidą su šiuo pranešimu: „Įvyko netikėta klaida.”
 
   ![Klaidos tipas 400 „HcmWorkerBaseEntity” objekte.](./media/HcmWorkerBaseEntityErrorType400.png)
 
-- **Buferizavimas**: Užklausa gali pernelyg daug naudoti serverio išteklius ir todėl patirti buferizavimą. Šiuo atveju, užklausa pateikia tokią klaidą: "Atpažinimo ženklas gautas išk siekiant iškviesti finansus ir operacijas, tačiau finansų ir operacijų tipas 429". Daugiau informacijos apie buferizavimą Personalo valdyme rasite [Buferizavimo DUK](./hr-admin-integration-throttling-faq.md).
+- **Buferizavimas**: Užklausa gali pernelyg daug naudoti serverio išteklius ir todėl patirti buferizavimą. Šiuo atveju, užklausa pateikia tokią klaidą: "Atpažinimo ženklas gautas išk"? finansai ir operacijos buvo gauti, bet finansų ir operacijų tipas 429. Daugiau informacijos apie buferizavimą Personalo valdyme rasite [Buferizavimo DUK](./hr-admin-integration-throttling-faq.md).
 
   ![Klaidos tipas 429 „HcmWorkerBaseEntity” objekte.](./media/HcmWorkerBaseEntityErrorType429.png)
 
@@ -161,3 +161,4 @@ Daugiau informacijos apie puslapių kaitą rasite [Puslapyje grąžinamų objekt
 - [Užklausų buferizavimo DUK](./hr-admin-integration-throttling-faq.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

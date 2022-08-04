@@ -1,5 +1,5 @@
 ---
-title: „Finance and Operations“ programų versijos naujinimų trikčių šalinimas
+title: Finansų ir operacijų programėlių naujinimo trikčių šalinimas
 description: Šiame straipsnyje pateikiama trikčių diagnostikos informacija, kuri gali padėti išspręsti problemas, susijusias su finansų ir operacijų programėlių atnaujinimais.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
@@ -9,14 +9,14 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 954268b03be2be90f67dc9b7756f33215856864a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b75034cbc8ca7a24472cfec1ad93d3dfef4a8fdc
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882148"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111147"
 ---
-# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>„Finance and Operations“ programų versijos naujinimų trikčių šalinimas
+# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Finansų ir operacijų programėlių naujinimo trikčių šalinimas
 
 [!include [banner](../../includes/banner.md)]
 
@@ -24,7 +24,7 @@ ms.locfileid: "8882148"
 
 
 
-Šiame straipsnyje pateikiama trikčių diagnostikos informacija, skirta dvigubo rašymo integravimui tarp finansų ir operacijų programėlių ir Dataverse. Taigi, pateikiama informacija, kuri gali padėti išspręsti problemas, susijusias su finansų ir operacijų programėlių atnaujinimais.
+Šiame straipsnyje pateikiama trikčių diagnostikos informacija, skirta dvigubo rašymo integravimui tarp finansų ir operacijų programėlių ir Dataverse. Taigi, pateikiama informacija, kuri gali padėti išspręsti problemas, susijusias su finansų ir operacijų programėlių atnaujinimu.
 
 > [!IMPORTANT]
 > Kai kurioms šio straipsnio adresams gali reikėti sistemos administratoriaus vaidmens arba "Microsoft Azure Active Directory " () nuomininkų Azure AD administratoriaus kredencialų. Kiekvienai problemai skirtoje dalyje paaiškinama, ar reikia konkretaus vaidmens ar kredencialų.
@@ -43,7 +43,7 @@ Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw
 
 Norėdami ištaisyti klaidą, atlikite toliau nurodytus veiksmus.
 
-1. Prisiregistruokite prie finansų ir operacijų programos virtualiosios mašinos (VM).
+1. Prisiregistruokite prie virtualiosios mašinos (VM) finansų ir operacijų programai.
 2. Atidarykite „Visual Studio” kaip administratorius, taip pat atidarykite programos objektų medį (AOT).
 3. Ieškoti **DualWriteProjectConfiguration**.
 4. Programos objektų medyje (AOT) dešiniuoju pelės mygtuku spustelėkite **DualWriteProjectConfiguration** ir pasirinkite **Įtraukti į naują projektą**. Pasirinkite **Gerai**, kad sukurtumėte naują projektą, kuriame naudojamos numatytosios parinktys.
@@ -68,7 +68,7 @@ Norėdami išspręsti problemą, pirmiausia atlikite šiuos veiksmus, kad įsiti
 1. Prisiregistruokite prie finansų ir operacijų programos VM.
 2. Eikite į **Darbo sritys \> Duomenų valdymas**, pasirinkite plytelę **Sistemos parametrai**, tada skirtuke **Lentelės parametrai** pasirinkite **Atnaujinti lentelių sąrašą** tam, kad atnaujintumėte lenteles.
 3. Eikite į **Darbo sritys \> Duomenų valdymas**, pasirinkite skirtuką **Duomenų lentelės** ir įsitikinkite, kad lentelė yra sąraše. Jei lentelės nėra, prisiregistruokite prie finansų ir operacijų programos VM ir įsitikinkite, kad lentelė yra pasiekiama.
-4. Atidarykite **lentelių susiejimo** puslapį dvigubo **rašymo** puslapyje, finansų ir operacijų programoje.
+4. Atidarykite **lentelės susiejimo** puslapį dvigubo **rašymo** puslapyje, finansų ir operacijų programoje.
 5. Pasirinkite **Atnaujinti lentelių sąrašą** tam, kad susiejimų su lentele stulpeliai būtų užpildyti automatiškai.
 
 Jei problema išlieka, atlikite šiuos veiksmus.
@@ -79,7 +79,7 @@ Jei problema išlieka, atlikite šiuos veiksmus.
 1. Finansų ir operacijų programoje eikite į Darbo **sričių duomenų \> valdymą** ir pasirinkite duomenų lentelių **išklotinę** lentelę.
 2. Raskite lentelę, kuriai trūksta atributo. Įrankių juostoje spustelėkite **Modifikuoti paskirties vietos susiejimą**.
 3. Srityje **Susieti išdėstymą su paskirties vieta** spustelėkite **Generuoti susiejimą**.
-4. Atidarykite **lentelių susiejimo** puslapį dvigubo **rašymo** puslapyje, finansų ir operacijų programoje.
+4. Atidarykite **lentelės susiejimo** puslapį dvigubo **rašymo** puslapyje, finansų ir operacijų programoje.
 5. Jei atributas nėra automatiškai užpildomas schemoje, įtraukite jį neautomatiniu būdu spustelėdami mygtuką **Įtraukti atributą**, o tada – **Įrašyti**. 
 6. Pasirinkite schemą ir spustelėkite **Vykdyti**.
 

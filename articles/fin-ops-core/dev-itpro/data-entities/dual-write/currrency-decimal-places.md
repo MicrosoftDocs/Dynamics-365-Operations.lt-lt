@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 809906c3926b200e7beac84e780314aec1f8c2ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 85b3a45c054144e414aebb28b3d8080ab295f52f
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855593"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112281"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Valiutos duomenų tipo perkėlimas dvigubui rašymui
 
@@ -29,7 +29,7 @@ Norėdami pakeisti dešimtainių skaičių kiekį, turite atlikti du žingsnius:
 1. Perkėlimo užklausa iš „Microsoft”.
 2. Dešimtainių skaičių kiekio pakeitimas „Dataverse”.
 
-Finansų ir operacijų programa ir turi palaikyti Dataverse tokį patį skaičių po kablelio, kaip ir valiutos vertės. Priešingu atveju, kai ši informacija sinchronizuojama tarp programėlių, gali dingti duomenys. Perkėlimo procesas perkonfigūruoja, kaip saugomos valiutos ir valiutos kurso vertės, bet jokie duomenys nesikeičia. Baigus perkėlimą, valiutų kodų ir kainų dešimtainių skaičių kiekis gali būti padidintas, o vartotojų įvesti ir peržiūrėti duomenys gali būti tikslesni dešimtainių tikslumu.
+Finansų ir operacijų programa ir turi palaikyti Dataverse tokį patį skaičių po kablelio valiutos vertėse. Priešingu atveju, kai ši informacija sinchronizuojama tarp programėlių, gali dingti duomenys. Perkėlimo procesas perkonfigūruoja, kaip saugomos valiutos ir valiutos kurso vertės, bet jokie duomenys nesikeičia. Baigus perkėlimą, valiutų kodų ir kainų dešimtainių skaičių kiekis gali būti padidintas, o vartotojų įvesti ir peržiūrėti duomenys gali būti tikslesni dešimtainių tikslumu.
 
 Perkėlimas yra neprivalomas. Jei didesnio dešimtainių skaičių kiekio palaikymas jums naudingas, rekomenduojame apsvarstyti perkėlimą. Organizacijoms, kurioms nereikia jokių verčių, kuriose yra daugiau nei keturi dešimtainiai skaičiai, perkėlimas nebūtinas.
 
@@ -37,7 +37,7 @@ Perkėlimas yra neprivalomas. Jei didesnio dešimtainių skaičių kiekio palaik
 
 Saugojimas esamiems valiutos stulpeliams „Dataverse” negali palaikyti daugiau nei keturių dešimtainių skaičių. Todėl perkėlimo metu valiutos vertės nukopijuojamos į naujus duomenų bazės vidinius stulpelius. Šis procesas vyksta nuolatos, kol bus perkelti visi duomenys. Viduje perkėlimo pabaigoje, naujieji saugojimo tipai pakeičia senus saugojimo tipus, tačiau duomenų vertės lieka nepakitusios. Valiutos stulpeliai gali palaikyti iki 10 dešimtainių skaičių. Perkėlimo metu „Dataverse” gali būti toliau naudojama be pertraukos.
 
-Tuo pačiu metu keitimo kursai modifikuojami taip, kad jie palaikytų iki 12 dešimtainių skaičių, o ne dabartinę 10 limitą. Šis pakeitimas reikalingas, kad finansų ir operacijų programoje ir programoje dešimtainių dalių vietų skaičius būtų toks pats Dataverse.
+Tuo pačiu metu keitimo kursai modifikuojami taip, kad jie palaikytų iki 12 dešimtainių skaičių, o ne dabartinę 10 limitą. Šis pakeitimas reikalingas, kad finansų ir operacijų programoje ir programoje būtų vienodas dešimtainių dalių vietų skaičius Dataverse.
 
 Perkėlimas nekeičia jokių duomenų. Kai valiutos ir keitimo kurso stulpeliai konvertuoti, administratoriai gali konfigūruoti sistemą, kad būtų galima naudoti iki 10 dešimtainių skaičių valiutos stulpeliams, nurodydami kiekvienos operacijos valiutos ir kainos dešimtainių skaičių kiekį.
 
@@ -100,3 +100,4 @@ Norėdami nustatyti numatytąjį valiutos dešimtainių skaičių po perkėlimo 
 |          | Maks. dešimtainis tikslumas, matomas duomenų bazės ir DB užklausos rezultatų UI | 10 skaitmenų. Tačiau tik 4 pažymi visus nulius, kurie viršija 4 skaitmenis po dešimtainės trupmenos. Jei reikia, tai leidžia paprasčiau ir greičiau perkelti org. | 10 skaitmenų      | 10 skaitmenų     |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

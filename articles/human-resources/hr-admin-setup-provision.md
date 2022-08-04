@@ -14,18 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d13372d8cc1f1f0f1407ea69bee4f98ae5065c2
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: HT
+ms.openlocfilehash: 6fc44b52e2f7662fc6be609562cec903a8755d1b
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9015352"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178510"
 ---
 # <a name="provision-human-resources"></a>„Human Resources“ parengimas
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Taikoma:** žmogiškieji ištekliai autonominėje infrastruktūrose_ 
 
-
+> [!NOTE]
+> Nuo 2022 m. birželio mėn. personalo aplinkas galima įdiegti tik finansų ir operacijų programų infrastruktūrose. Daugiau informacijos ieškokite Finansų [ir operacijų infrastruktūros personalo parengimas](hr-admin-setup-provision-fo.md).
 
 Šiame straipsnyje paaiškinamas naujos "Microsoft" gamybos aplinkos parengimo procesas Dynamics 365 Human Resources. 
 
@@ -40,14 +41,14 @@ Prieš pradedant parengti naują gamybos aplinką, turi būti įvykdytos toliau 
 ## <a name="provision-a-human-resources-trial-environment"></a>„Human Resources” bandomosios aplinkos parengimas
 
 >[!NOTE]
-> Nuo 2022 m. balandžio mėn. personalo bandomojo aplinkos nebus galimos atskirai programoje. Potencialūs klientai, kurie nori įvertinti personalo pajėgumus finansų ir operacijų programėlėse, gali tai padaryti naudodami nemokamą 30 dienų bandomąją versiją ir demonstracinius duomenis. "Dynamics 365 Finance" apims personalo pajėgumus, kuriuos į finansų infrastruktūrą atims atskira programa. Norėdami gauti daugiau informacijos, [žr](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers). personalo pasiūlymų suliejimą, klientų galimybės yra sujungtos. Daugiau informacijos apie "Dynamics 365" finansų vedlius žr. nuoseklią [vadovą](../fin-ops-core/fin-ops/get-started/before-you-buy.md). 
+> Nuo 2022 m. balandžio mėn. personalo bandomojo aplinkos nebus galimos atskirai programoje. Potencialūs klientai, kurie nori įvertinti personalo pajėgumus finansų ir operacijų programėlėse, gali tai daryti naudodami nemokamą 30 dienų bandomąją versiją ir demonstracinius duomenis. "Dynamics 365 Finance" apims personalo pajėgumus, kuriuos į finansų infrastruktūrą atims atskira programa. Norėdami gauti daugiau informacijos, žr [. personalo pasiūlymų suliejimą klientams kartu](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers). Daugiau informacijos apie "Dynamics 365" finansų bandymus ieškokite nuoseklioje [vadove](../fin-ops-core/fin-ops/get-started/before-you-buy.md). 
 
 
 Prieš parengdami savo pirmąją smėlio dėžės arba gamybos aplinką, galite norėti parengti [bandomąją „Human Resources” aplinką](https://go.microsoft.com/fwlink/p/?LinkId=2115962), kad patikrintumėte „Human Resources” funkcionalumą. Bandomosiose aplinkose pateikti išgalvoti duomenys, kuriais naudojantis galima saugiai tyrinėti programą. Nors bandomoji aplinka priklauso vartotojui, kuris to pageidavo, kiti vartotojai gali būti pakviesti per sistemos administravimo galimybę, skirtą žmogiškiesiems ištekliams. 
 
-Bandomosios aplinkos suteikia galimybę įvertinti personalo funkcijas asmenims, kurie dar neturi prieigos prie personalo aplinkos. Jei jūs parengiate bandomąją aplinką, o autentifikuotas vartotojas jau turi prieigą prie vienos ar daugiau esamų personalo aplinkų, vartotojas bus nukreiptas į esamą aplinką arba aplinkų sąrašą.
+Bandomoji aplinka padeda įvertinti asmenų, kurie dar neturi prieigos prie personalo aplinkos, personalo funkcijas. Jei jūs parengiate bandomąją aplinką, o autentifikuotas vartotojas jau turi prieigą prie vienos ar daugiau esamų personalo aplinkų, vartotojas bus nukreiptas į esamą aplinką arba aplinkų sąrašą.
 
-Bandomosios aplinkos nėra skirtos naudoti kaip gamybos aplinkos. Jos apribojamos 30 dienų bandomuoju laikotarpiu. Pasibaigus bandomajam laikotarpiui, aplinka ir visi joje esantys duomenys panaikinami ir jų nebegalima susigrąžinti. Aplinkos negalima konvertuoti į smėlio dėžės arba gamybos aplinką. Pasibaigus dabartinės aplinkos naudojimo terminui, galite užsiregistruoti naujai bandomajai aplinkai.
+Bandomosios aplinkos nėra skirtos naudoti kaip gamybos aplinkos. Jos apribojamos 30 dienų bandomuoju laikotarpiu. Kai bandomasis laikotarpis baigiasi, aplinka ir visi jame esantys duomenys bus panaikinti ir negali būti atkurti. Aplinkos negalima konvertuoti į sandrę arba gamybos aplinką. Pasibaigus dabartinės aplinkos naudojimo terminui, galite užsiregistruoti naujai bandomajai aplinkai.
 
 Kuriant „Human Resources“ bandomąją aplinką, nuomininkams taip pat sukuriama bandomoji aplinka, „Power Apps“ susieta su personalo aplinka. Aplinka, „Power Apps“ pavadinta „TestDrive“ yra, turi tą patį bandomąjį laikotarpį kaip ir „Human Resources“ aplinka.
 
@@ -56,14 +57,14 @@ Kuriant „Human Resources“ bandomąją aplinką, nuomininkams taip pat sukuri
 
 ## <a name="plan-human-resources-environments"></a>Planuokite „Human Resources“ aplinkas
 
-Prieš jums sukuriant pirma „Human Resources“ aplinką, turėtumėte atsargiai suplanuoti aplinkos poreikius savo projektui. Pagrindinė prenumerata „Human Resources“ apima dvi aplinkas: gamybos ir smėlio dėžės. Priklausomai nuo projekto kompleksiškumo, jums gali reikėti įsigyti papildomas smėlio dėžės aplinkas, kad palaikytumėte projekto veiklas. 
+Prieš jums sukuriant pirma „Human Resources“ aplinką, turėtumėte atsargiai suplanuoti aplinkos poreikius savo projektui. Pagrindinė prenumerata „Human Resources“ apima dvi aplinkas: gamybos ir smėlio dėžės. Atsižvelgiant į jūsų projekto sudėtingumą, norint palaikyti projekto veiklą gali reikėti nupirkti papildomas sand. aplinkas. 
 
 Papildomų aplinkų aspektai.
 
-- **Duomenų perkėlimas**: Jums gali reikėti apgalvoti papildomą aplinką dėl duomenų perkėlimo veiksmų, kad leistumėte savo smėlio dėžės aplinkai būti naudojamai testavimo tikslais per projektą. Papildomos aplinkos turėjimas leidžia duomenų perkėlimo veiksmus tęsti testuojant ir konfigūruojant veiklas kartu kitoje aplinkoje.
-- **Integravimas**: Jums gali reikėti apgalvoti papildomas aplinkas tam, kad konfigūruotumėte ir testuotumėte integravimus. Tai gali būti vietinius integravimą, pvz., Ceriforce Dayforce ar LinkedIn Talent Hub integravimą, ar pasirinktines integracijas, pvz., algalapio, pretendento sekimo sistemas ar išmokų sistemas ir teikėjus.
-- **Mokymai**: Jums gali reikėti atskiros aplinkos, kuri konfigūruota su nustatytais mokymų duomenimis tam, kad apmokytumėte savo darbuotojus naudoti naują sistemą. 
-- **Kelių etapų projektas**: Jums gali reikėti apgalvoti papildomą aplinką siekiant palaikyti konfigūravimą, duomenų perkėlimą, testavimą ir kitas veiklas projekto etape, kuris suplanuotas po pradinio paleidimo projekto į internetą.
+- **Duomenų perkėlimas**: duomenų perkėlimo veikla, kuri leidžia tikrinti jūsų sandų dėžės aplinką viso projekto metu. Papildomos aplinkos turėjimas leidžia duomenų perkėlimo veiksmus tęsti testuojant ir konfigūruojant veiklas kartu kitoje aplinkoje.
+- **Integracija**: konfigūruokite ir patikrinkite integravimą, kuris gali apimti vietinius integravimą, pvz., Ceriforce Dayforce, ar pasirinktinius integravimą.
+- **Mokymas**: gali reikėti atskiros aplinkos, sukonfigūruotos su mokymo duomenų lapu, kad jūsų darbuotojai galėtų traukinys naudotis nauja sistema. 
+- **Kelių etapų projektas**: palaikyti konfigūraciją, duomenų perkėlimą, bandymą ar kitą veiklą projekto etape, kuris planuojamas po pradinio projekto etapo.
 
  > [!IMPORTANT]
  > Rekomenduojame svarstant savo aplinką atlikti tolesnius veiksmus.
@@ -100,7 +101,7 @@ Sukūrę LCS projektą, galite aplinkai paruošti „Human Resources“.
 2. Nurodykite, ar ši aplinka yra smėlio dėžės, ar gamybos „Human Resources“ egzempliorius. „Smėlio dėžės“ egzemplioriuose gali būti prieinamos išankstinės peržiūros funkcijos, kad būtų galima pateikti išankstinį grįžtamąjį ryšį ir atlikti bandymus.
    
     > [!NOTE]
-    > Jau nustatytas „Human Resources“ egzemplioriaus tipas negali būti pakeistas. Prieš tęsdami įsitikinkite, kad pasirinktas teisingas egzemplioriaus tipas.</br></br>
+    > Nustačius personalo egzemplioriaus tipą, jo keisti negalima. Prieš tęsdami įsitikinkite, kad pasirinktas teisingas egzemplioriaus tipas.</br></br>
     > „Human Resources“ egzemplioriaus tipas yra atskiras nuo „Microsoft Power Apps“ aplinkos egzemplioriaus tipo, kurį nustatote „Power Apps“ administravimo centre.
     
 3. Pasirinkite parinktį **Įtraukti demonstracinius duomenis**, jei norite, kad jūsų aplinka apimtų tą patį demonstracinių duomenų rinkinį, kuris naudojamas ir „Human Resources“ bandomojoje aplinkoje. Demonstraciniai duomenys yra naudingi ilgalaikių demonstracijų ar mokymų aplinkose, bet niekada neturėtų būti naudojami gamybos aplinkose. Turite pasirinkti šią pasirinktį atlikdami pradinį diegimą. Vėliau negalėsite atnaujinti esamo diegimo.
@@ -111,7 +112,7 @@ Sukūrę LCS projektą, galite aplinkai paruošti „Human Resources“.
 
 6. Pasirinkite **Taip**, kad sutiktumėte su sąlygomis ir pradėtumėte diegimą.
 
-   Nauja aplinka pasirodo aplinkų sąraše, kuris yra naršymo srityje, esančioje kairėje. Tačiau negalite pradėti naudoti aplinkos, kol diegimo būsena nebus atnaujinta į **Įdiegta**. Paprastai šis procesas užtrunka keletą minučių. Jei parengimo procesas nepavyksta, privalote susisiekti su palaikymo tarnyba.
+   Nauja aplinka pasirodo aplinkų sąraše, kuris yra naršymo srityje, esančioje kairėje. Tačiau negalima pradėti naudoti aplinkos, kol diegimo būsena nėra **Įdiegta**. Paprastai šis procesas užtrunka keletą minučių. Jei parengimo procesas nesėkmingas, susisiekite su palaikymo tarnyba.
 
 7. Pasirinkite **Prisijungti prie „Human Resources“**, kad galėtumėte naudoti naująją aplinką.
 
@@ -140,7 +141,7 @@ Svarstydami, kurioje „Power Apps“ aplinkoje diegti „Human Resources“, pa
    
     - **Nepalaikomi geografiniai** grafikai – aplinka turi būti palaikomame geografijos kataloge. Daugiau informacijos rasite skyriuje [Palaikomos geografijos](hr-admin-setup-provision.md#supported-geographies).
 
-6. Dvigubo rašymo galimybes, kurias naudojant galima integruoti personalo duomenis į „Power Apps” aplinką, galima naudoti tik pasirinkus **Įgalinti „Dynamics 365” programas** parinktį aplinkai. Skaitykite [Pagrindinis dvigubo rašymo puslapis](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md), jei norite sužinoti daugiau apie dvigubą rašymą.
+6. Dvigubo rašymo galimybes, kurias naudojant galima integruoti personalo duomenis į „Power Apps” aplinką, galima naudoti tik pasirinkus **Įgalinti „Dynamics 365” programas** parinktį aplinkai. Daugiau informacijos ieškokite dvigubo rašymo [titulinis puslapis](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md).
 
     > [!NOTE]
     > Parinktis **Įgalinti „Dynamics 365” programas** turi būti pažymėta „Power Apps” aplinkos kūrimo metu. Jei ši parinktis nėra pažymėta parengimo metu, negalėsite naudoti dvigubo rašymo duomenų integravimui tarp „Dynamics 365 Human Resources” ir „Power Apps” aplinkos, taip pat įdiegti „Dynamics 365” programų, pavyzdžiui, „Dynamics 365 Sales” ir „Field Service”, aplinkoje. Ši pasirinktis yra negrįžtama. 
@@ -175,3 +176,4 @@ Pagal numatytuosius nustatymus, aplinką sukūręs visuotinis administratorius t
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

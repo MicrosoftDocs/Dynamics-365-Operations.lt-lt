@@ -1,5 +1,5 @@
 ---
-title: Paskirties objektai
+title: Tiksliniai objektai
 description: Šiame straipsnyje paaiškinama, kaip peržiūrėti turto valdymo paskirties objektus.
 author: johanhoffmann
 ms.date: 09/26/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 172f49c13c183eb4df986dc3e30ff3955bc1a605
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 838e3affd4e782bea463638e28da3943329671d4
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860992"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111863"
 ---
 # <a name="target-entities"></a>Paskirties objektai
 
@@ -30,7 +30,7 @@ ms.locfileid: "8860992"
 
 Darbo srityje **Duomenų valdymas** galite peržiūrėti paskirties objektus, susijusius objektų tipus ir paruošimo lenteles, susijusias su moduliu **Turto valdymas**. 
 
-1. Viršutiniame kairiajame ekrano kampe spustelėkite mygtuką **„Finance and Operations“** ir spustelėkite **Duomenų valdymas**.
+1. Viršutiniame **kairiajame ekrano** kampe spustelėkite mygtuką Finansai ir operacijos ir spustelėkite **Duomenų valdymas**.
 
 2. Skyriuje **Importavimas / eksportavimas** spustelėkite **Duomenų objektai**. 
 

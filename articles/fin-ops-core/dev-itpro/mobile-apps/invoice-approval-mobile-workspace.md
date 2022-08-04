@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: e9067e33038ee09b8f8cdcc8dd597ab5be9cfe7f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4cc05d9fcea129cfb2ed8ed8df4bd4034a1fed4c
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868675"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066397"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Mobilioji darbo sritis Sąskaitos faktūros tvirtinimas
 
@@ -26,7 +26,7 @@ ms.locfileid: "8868675"
 
 Šiame straipsnyje pateikiama informacija apie SF **patvirtinimų mobiliąją** darbo sritį. Šioje darbo srityje pateikiamas sąskaitų faktūrų, kurios buvo jums priskirtos tiekėjo SF antraštės darbo eigos procese, sąrašas. 
 
-Ši mobilioji darbo sritis skirta naudoti kartu su mobiliąja programa „Finance and Operations“.
+Ši mobilioji darbo sritis skirta naudoti su finansų ir operacijų mobiliąją programa.
 
 ## <a name="overview"></a>Apžvalga
 
@@ -61,7 +61,7 @@ Tam, kad galėtumėte naudoti šią mobiliąją darbo sritį, turi būti laikoma
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobiliosios programos atsisiuntimas ir diegimas
 
-Atsisiųskite ir įdiekite mobiliąją programą „Finance and Operations”.
+Atsisiųskite ir įdiekite finansų ir operacijų mobiliąją programą:
 
 -   [„Android“ telefonams](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [„iPhone“ telefonams](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -88,3 +88,4 @@ Atsisiųskite ir įdiekite mobiliąją programą „Finance and Operations”.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

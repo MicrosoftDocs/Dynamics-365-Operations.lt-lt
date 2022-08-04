@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a4edaf5b9c50e9d8781ff703328ac786d71ee782
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2f900637855bee3e21916652a373c683e6bf1392
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884738"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112025"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Organizacijos hierarchija Dataverse
 
@@ -28,7 +28,7 @@ Nors „Dataverse“ neturi organizacijos hierarchijos sąvokos, joje yra kelios
 
 ## <a name="data-flow"></a>Duomenų srautas
 
-Verslo ekosistema, kurią sudaro „Finance and Operations“ programos ir „Dataverse“, toliau turės organizacijos hierarchiją. Ši organizacijos hierarchija pagrįsta „Finance and Operations“ programomis, tačiau ji rodoma programoje „Dataverse“ informaciniais ir išplėtimo tikslais. Toliau pateiktame paveikslėlyje pavaizduota organizacijos hierarchijos informacija, kuri rodoma programoje „Dataverse” kaip vienpusis duomenų srautas iš „Finance and Operations“ programų į „Dataverse”.
+Verslo veiksmų, kuriuos sudaro finansų ir operacijų programėlių ir Dataverse toliau bus organizacijos hierarchija, kūrimas. Ši organizacijos hierarchija kuriama remiantis finansų ir operacijų programėle, Dataverse bet ji pateikiama informaciniais ir extensibility tikslais. Toliau pateikta iliustracija rodo organizacijos hierarchijos informaciją, kuri Dataverse rodoma kaip vien way data flow iš finansų ir operacijų programėlių į Dataverse.
 
 ![Struktūros vaizdas.](media/dual-write-data-flow.png)
 
@@ -52,3 +52,4 @@ Organizacija yra grupė žmonių, kurie dirba kartu vykdydami verslo procesą ar
 Vidinės organizacijos informacija „Dataverse“ platformoje gaunama iš dviejų lentelių – **Valdymo vieneto** ir **Juridinių subjektų**.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

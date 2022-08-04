@@ -7,21 +7,21 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: IT Pro, Application User
-ms.reviewer: kfend
-ms.custom:
-- "69161"
-- intro-internal
-ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b9105ef39e411ac33043f1941d4e1dd32b758e5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.custom:
+- "69161"
+- intro-internal
+ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
+ms.openlocfilehash: d8d40f7cb94e17370f04b0c97365600f68eb5090
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984913"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206732"
 ---
 # <a name="document-printing-overview"></a>Dokumento spausdinimo apžvalga
 
@@ -54,7 +54,7 @@ Kadangi sprendimas priklauso nuo scenarijaus, programos suteikia integruotas tar
 - **2 scenarijų** naudoja kliento programos ir „Microsoft 365“ tarnybos.
 - **3 scenarijui** būtinas palaikymas iš kliento programų ir paslaugų, kurios nuomojamos „Microsoft Azure“.
 
-Be platformos, kuri yra įdiegta „Azure“ prenumeratoje, „Finance and Operations“ programos suteikia klientams integruotą „Azure“ programą, kuri jiems padeda lengviau naudoti domene nuomojamus įrenginius dokumentams spausdinti.
+Be platforma, įdiegta į "Azure" abonementą, finansų ir operacijų programos suteikia klientams integruotą, pirmosios šalies "Azure" programą, kuri padeda jiems lengviau naudotis domeno nuomojamais įrenginiais spausdinant dokumentus.
 
 ## <a name="service-overview"></a>Tarnybos apžvalga
 Nors nuomojamų programų sukuriami dokumentai turi būti spausdinami per tinklą prijungtame įrenginyje, jie saugomi „Azure“ dvejetainio didelio objekto saugykloje. [Dokumento maršruto planavimo agento diegimas siekiant įjungti tinklo spausdinimą](install-document-routing-agent.md) naudoja „Azure“ autentifikavimą, kad sukurtų saugų prieigos prie „Azure“ tarnybų kanalą.

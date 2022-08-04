@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e797117199ff57cb4d3beae187ae7649579d33b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 10906d7b30628dfe69907cfa69ae1022fde33243
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853354"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070641"
 ---
 # <a name="plan-your-chart-of-accounts"></a>Sąskaitų plano rengimas
 
@@ -43,7 +43,7 @@ Toliau pateikiami kai kurie veiksniai, į kuriuos privalote atsižvelgti, kai pl
 Kurkite sąskaitų planą puslapyje **Sąskaitų planas**. Galite kurti pagrindines sąskaitas puslapyje **Sąskaitų planas** arba puslapyje **Pagrindinės sąskaitos**. Pagrindinėse sąskaitose nereikėtų naudoti jokių specialių simbolių, kurie naudojami kaip sąskaitų plano skyrikliai. Kitu atveju gali kilti nestabilumų arba poreikis visada naudoti peržvalgas arba dialogo langą, įvedant sąskaitos ir dimensijų kombinacijas. Daugiau informacijos žr. [Kurti pagrindinę sąskaitą](tasks/create-main-account.md).
 
 > [!NOTE]
-> „Dynamics 365 for Finance and Operations“ 8.0 versijoje (2018 m. balandžio mėn.) galite modifikuoti sąskaitų plano skyriklį iš puslapio **DK parametrai**.
+> Programoje "Dynamics 365 Finance version 8.0" (2018 m. balandžio mėn.) **galite modifikuoti sąskaitų plano skyriklį iš DK parametrų** puslapio.
 
 Tikslinga susieti pagrindines sąskaitas su pagrindinių sąskaitų kategorijomis, kad galėtumėte išnaudoti numatytąsias finansines ataskaitas nedarydami jokių modifikacijų. Todėl jūs galite greičiau ir lengviau kurti ir prižiūrėti ataskaitas.
 
@@ -60,3 +60,4 @@ Daugiau informacijos ieškokite šiose temose:
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

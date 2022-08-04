@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 171b383e1549babd76fd18e4932436a66aa62cc1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f0371cf9862afaf3bc43a44def725c420e9aaf56
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873933"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9166750"
 ---
 # <a name="vendor-invoice-entities"></a>Tiekėjo SF objektai
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!-- KFM: Preview until GA with 10.0.28 -->
 
 Įkainojimo **modulis** įgalina išlaidų tipo kodus konfigūruoti vidinėms išlaidoms arba išoriškai išvestinėms išlaidoms. Jei išlaidos verslui yra išorinės, iš paslaugų teikėjo tikimasi sąskaitos faktūros. Ši SF apdorojama kaip SF žurnalas, kurį galima susieti su reisu, o SF vertė gali būti paskirstyta vienai ar daugiau reiso išlaidų.
 

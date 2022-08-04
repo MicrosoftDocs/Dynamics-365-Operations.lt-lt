@@ -2,7 +2,7 @@
 title: Išankstinės SF, skirtos Rytų Europai
 description: Šiame straipsnyje pateikiama informacija apie išankstines SF Rytų Europai. Išankstinė SF yra dokumentas, kurį galite kurti klientui arba tiekėjui. Ji nurodo pardavimo užsakymo sumą, kurią reikia apmokėti iš anksto.
 author: EvgenyPopovMBS
-ms.date: 05/25/2022
+ms.date: 07/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland
 ms.author: epopov
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c722d8215c2b65e24008042c9a4d65bb419ad46a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bcf8424b311b595a114d3429fa7a3252e47e643d
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886290"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135929"
 ---
 # <a name="advance-invoices-for-eastern-europe"></a>Išankstinės SF, skirtos Rytų Europai
 
@@ -38,6 +38,26 @@ Išankstinės SF funkcija suteikia galimybę atlikti tolesnes užduotis.
 - Susieti išankstinius mokėjimus, gautus iš klientų, su išankstinėmis SF (prieš registruojant išankstinį mokėjimą arba po to).
 - Keisti užregistruotų išankstinių apmokėjimų PVM registravimą (t. y. konvertuoti išankstinį mokėjimą į mokėjimą ar mokėjimą į išankstinį apmokėjimą arba keisti registravimo datą, mokesčio tarifą ar sumą).
 - *Tik Čekijos Respublika: sukurkite* mokesčių dokumentą, apmokestinamo PVM pristatymui.
+
+Straipsnyje yra tokie skyriai:
+
+- [Išankstinės SF, skirtos Lenkijai](#advance-invoices-for-poland)
+- [Išankstinių SF gautinų sumų nustatymas](#set-up-accounts-receivable-for-advance-invoices)
+- [Kliento išankstinės SF kūrimas](#create-a-customer-advance-invoice)
+- [Išankstinių SF PVM](#vat-on-advance-invoices)
+- [Išankstinės SF susiejimas su pardavimo užsakymu arba laisvos formos SF](#link-an-advance-invoice-to-a-sales-order-or-a-free-text-invoice)
+- [Kliento išankstinės SF kūrimas iš pardavimo užsakymo](#create-a-customer-advance-invoice-from-a-sales-order)
+- [Kliento išankstinės SF kūrimas naudojant laisvos formos SF](#create-a-customer-advance-invoice-from-a-free-text-invoice)
+- [Išankstinės SF spausdinimas](#print-an-advance-invoice)
+- [Mokėjimo pasiūlymo kūrimas naudojant išankstinę SF](#create-a-payment-proposal-from-an-advance-invoice)
+- [Išankstinio mokėjimo susiejimas su išankstine SF](#link-a-prepayment-to-an-advance-invoice)
+- [Išankstinės SF susiejimas su išankstiniu mokėjimu](#link-an-advance-invoice-to-a-prepayment)
+- [Išankstinės SF kredito pažymos](#advance-invoice-credit-notes)
+- [Čekijos mokesčių dokumentai](#tax-documents-for-the-czech-republic)
+- [Išankstinių SF mokėtinų sumų nustatymas](#set-up-accounts-payable-for-advance-invoices)
+- [Tiekėjo išankstinės SF kūrimas](#create-a-vendor-advance-invoice)
+- [Naudoti išankstinės SF ir išankstinio apmokėjimo tvarkymo funkciją](#use-the-advance-invoice-and-prepayment-handling-functionality)
+- [Čekijos PVM sumų atšaukimas](#reversing-sales-tax-amounts-for-czech-republic)
 
 ## <a name="advance-invoices-for-poland"></a>Išankstinės SF, skirtos Lenkijai
 
@@ -119,7 +139,7 @@ Norėdami susieti išankstinę SF su laisvos formos SF, atlikite šiuos veiksmus
 ## <a name="create-a-customer-advance-invoice-from-a-sales-order"></a>Kliento išankstinės SF kūrimas iš pardavimo užsakymo
 
 1. Sukurkite pardavimo užsakymą arba pasirinkite esamą.
-1. Pasirinkite **SF**, tada pasirinkite Generuoti **išankstinę** &gt; **SF**.
+1. Pasirinkite **SF**, tada pasirinkite Generuoti **išankstinę** &gt; **SF.**
 1. Puslapyje Kurti **išankstinę SF** nustatykite šiuos laukus.
 
     | Laukas | Aprašymas |
@@ -235,7 +255,7 @@ Norėdami susieti išankstinę SF su pirkimo užsakymu, atlikite šiuos veiksmus
 ### <a name="create-a-vendor-advance-invoice-from-a-purchase-order"></a>Tiekėjo išankstinės SF kūrimas naudojant pirkimo užsakymą
 
 1. Sukurkite pirkimo užsakymą arba pasirinkite esamą.
-1. Pasirinkite **SF**, tada pasirinkite Generuoti **išankstinę** &gt; **SF**.
+1. Pasirinkite **SF**, tada pasirinkite Generuoti **išankstinę** &gt; **SF.**
 1. Puslapyje Kurti **išankstinę SF** nustatykite šiuos laukus.
 
     | Laukas | Aprašymas |
@@ -243,5 +263,33 @@ Norėdami susieti išankstinę SF su pirkimo užsakymu, atlikite šiuos veiksmus
     | Procentas | Nurodykite pirkimo užsakymo išankstinio mokėjimo procentą. |
     | Atnaujinti pirkimą | Pasirinkite pasirinktį. Išankstinės SF suma bus apskaičiuota remiantis prekių pirkimo užsakymo suma. |
     | Registravimo šablonas su išankstinio mokėjimo žurnalo kvitu | Nurodykite išankstinio mokėjimo registravimo šabloną. |
+
+## <a name="use-the-advance-invoice-and-prepayment-handling-functionality"></a>Naudoti išankstinės SF ir išankstinio apmokėjimo tvarkymo funkciją
+
+Verslo procese galite naudoti **išankstinės SF** **ir** išankstinio apmokėjimo tvarkymo funkciją. Toliau pateikiamas pavyzdys.
+
+1. Vartotojas pateikia išankstinę SF su PVM klientui išankstiniam apmokėjimui. Išankstinė SF neužregistruota DK.
+2. Vartotojas sukuria ir registruoja išankstinį apmokėjimą be PVM.
+3. Vartotojas sukuria išankstinio apmokėjimo tvarkymą ir susies jį su išankstine SF. Tada vartotojas registruoja išankstinio apmokėjimo tvarkymą ir sukuria mokesčio dokumentą. Sistema užregistruoja PVM DK ir sieja PVM su išankstiniu apmokėjimu.
+
+> [!NOTE]
+> Išvalykite lauko Registravimo šablonas **, esančio išankstinės** **SF "FastTab"**, esančio gautinų **sumų** parametrų skirtuke **Atnaujinimas, reikšmę**. Kai kuriate išankstinę SF, nustatykite parinktį **Registruoti mokestį** kaip **Taip**.
+
+Norėdami sukurti išankstinio apmokėjimo tvarkymą ir susieti jį su išankstine SF, atlikite šiuos veiksmus.
+
+1. Eikite **į gautinų** \> **sumų** klientus ir suraskite bei atidarykite kliento įrašą.
+2. Veiksmų srityje pasirinkite Kliento operacijos **, pasirinkite išankstinio** \> **mokėjimo** operaciją, tada pasirinkite Išankstinio apmokėjimo **tvarkymas.**
+3. Nustatykite parinktį **Transformuoti į mokėjimą** kaip **Ne**.
+4. Pasirinkti **išankstinę SF** išankstinio apmokėjimo tvarkymui susieti su išankstine SF. Sistema automatiškai sukuria PVM eilutes iš išankstinės SF.
+5. Užregistruokite išankstinio apmokėjimo tvarkymą. Sistema automatiškai sukuria išankstinio apmokėjimo PVM operacijas.
+
+## <a name="reversing-sales-tax-amounts-for-czech-republic"></a>Čekijos PVM sumų atšaukimas
+
+Norėdami rankiniu būdu nustatyti PVM sumų atšaukimo, paremto išankstinio apmokėjimo apdorojimu, **įgalinkite (Čekija) Įgalinti rankinio įvesties PVM sumų** funkciją. Informacijos apie tai, kaip įgalinti funkcijas, žr. [Funkcijų valdymo peržiūrą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+> [!NOTE]
+> Ši funkcija galima tik mokėtinoms su sąskaitoms.
+
+Kai pažymite SF operaciją sudengti pagal mokėjimą, **·** **galite atnaujinti atšaukimų PVM sumas skirtuke Atšaukti PVM sumas, skirtuke Sudengti operacijos** puslapį. Jei reikia, galite atnaujinti mokesčių sumas sudengimo **mokesčio sumos** lauke.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -16,19 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9bd208ba78d28046782d03221b0f23471f56b574
-ms.sourcegitcommit: 3f544f8671821be915b289a614e4e440bd38994f
+ms.openlocfilehash: ec2a9f5ca6d6735e675defda6782738da7814c01
+ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "8941772"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "9171462"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>„Warehouse Management“ mobiliųjų įrenginių programėlės diegimas ir prijungimas
 
 [!include [banner](../includes/banner.md)]
-
-> [!NOTE]
-> Šiame straipsnyje aprašoma, kaip konfigūruoti naują sandėlio valdymo mobiliąją programą. Jei ieškote informacijos apie tai, kaip konfigūruoti senąją sandėlio programą (dabar nerekomenduojamą), žiūrėkite [Sandėlio programos diegimas ir prijungimas](../../supply-chain/warehousing/install-configure-warehousing-app.md).
 
 Šiame straipsnyje paaiškinama, kaip atsisiųsti ir įdiegti sandėlio valdymo mobiliąją programą kiekviename iš jūsų mobiliųjų įrenginių ir kaip konfigūruoti programą, kad būtų galima prisijungti prie tiekimo grandinės valdymo aplinkos. Kiekvieną įrenginį galite konfigūruoti neautomatiniu būdu arba galite importuoti ryšio parametrus naudodami failą arba nuskaitydami QR kodą.
 
@@ -129,7 +126,7 @@ Norėdami įgalinti „Supply Chain Management“, kad galėtumėte naudoti savo
     ![„Azure Active Directory“ programos.](media/app-connect-aad-apps.png "„Azure Active Directory“ programos")
 
 > [!TIP]
-> Vienas būdas naudoti šiuos parametrus yra sukurti kliento ID „Azure" kiekvienam jūsų fiziniam įrenginiams ir tada įtraukti kiekvieno kliento ID į **Azure Active Directory programos** puslapį. Tada, jei prarasite įrenginį, galėsite lengvai pašalinti jo prieigą prie „Supply Chain Management“ pašalinant savo kliento ID šiame puslapyje. (Šis būdas veikia, nes kiekviename įrenginyje įrašyti ryšio kredencialai taip pat nurodo kliento ID, kaip toliau aprašyta šiame straipsnyje).)
+> Vienas būdas naudoti šiuos parametrus yra sukurti kliento ID „Azure" kiekvienam jūsų fiziniam įrenginiams ir tada įtraukti kiekvieno kliento ID į **Azure Active Directory programos** puslapį. Tada, jei prarasite įrenginį, galėsite lengvai pašalinti jo prieigą prie „Supply Chain Management“ pašalinant savo kliento ID šiame puslapyje. (Šis būdas veikia, nes kiekviename įrenginyje įrašyti ryšio kredencialai taip pat nurodo kliento ID, kaip toliau aprašyta šiame straipsnyje.)
 >
 > Be to, numatytoji kalba, numerio formatas ir laiko juostos parametrai kiekvienam kliento ID nustatomi pagal čia susietas **vartotojo ID** reikšmės nuostatas. Todėl galite naudoti šias nuostatas, norėdami nustatyti numatytuosius kiekvieno įrenginio arba įrenginių rinkinio parametrus pagal kliento ID. Tačiau šių numatytųjų parametrų bus nepaisoma, jei jie taip pat nurodyti *sandėlio programos vartotojo abonementui,* kurį darbuotojas naudoja prisiregistruoti įrenginyje. (Daugiau informacijos žr. [Darbuotojų mobiliųjų įrenginių vartotojų nustatymas](mobile-device-work-users.md).)
 

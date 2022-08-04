@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 5259e1d7d6c95074337164d8427d7f035e00dbd9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 07791afb2de670a5b9b910e441395c2949460394
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890064"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124717"
 ---
 # <a name="grid-capabilities"></a>Tinklelio charakteristikos
 
@@ -97,7 +97,7 @@ Norėdami didinti produktyvumą vartotojai gali įvesti matematines formules tin
 Norėdami, kad sistema atpažintų vertę kaip išraišką, paleiskite reikšmę su lygybės ženklu (**=**). Daugiau informacijos apie palaikomus operatorius ir sintaksę žr. [Palaikomi matematiniai simboliai](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Lentelės duomenų grupavimas
-Verslo vartotojams dažnai reikia atlikti ad hoc duomenų analizę. Microsoft Excel Kol tai galima atlikti eksportuojant duomenis į ir naudojant suvestinės lenteles **,** tinklelių grupavimo funkcija, kuri priklauso nuo naujos tinklelio valdymo funkcijos, suteikia vartotojams galimybę tvarkyti savo skirtukų duomenis pagal grafiką finansų ir operacijų programėlių būdais. Kadangi ši funkcija praplečia funkcijos **Bendrosios sumos** galimybes, **grupuodami** taip pat galite gauti prasmingų įžvalgų į duomenis, pateikę tarpines sumas grupėms.
+Verslo vartotojams dažnai reikia atlikti ad hoc duomenų analizę. Microsoft Excel Kol tai galima atlikti eksportuojant duomenis į ir naudojant suvestinės lenteles **,** tinklelių grupavimo funkcija, kuri priklauso nuo naujos tinklelio valdymo funkcijos, suteikia vartotojams galimybę tvarkyti savo skirtukų duomenis delspinigių ir operacijų programėlių būdais. Kadangi ši funkcija praplečia funkcijos **Bendrosios sumos** galimybes, **grupuodami** taip pat galite gauti prasmingų įžvalgų į duomenis, pateikę tarpines sumas grupėms.
 
 Norėdami naudoti šią funkciją, dešiniuoju pelės klavišu spustelėkite stulpelį, pagal kurį norite grupuoti, ir pasirinkite **Grupuoti pagal šį stulpelį**. Šiuo veiksmu duomenys bus surūšiuoti pagal pasirinktą stulpelį, įtraukta nauja **grupė pagal stulpelį** į tinklelio pradžią ir įterptos „antraštės eilutės“ kiekvienos grupės pradžioje. Šios antraštės eilutės teikia šią informaciją apie kiekvieną grupę:
 
@@ -168,7 +168,7 @@ Jei esate pasirinkę atskirą puslapį naudoti naują tinklelį, vėliau, išspr
 ## <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Programuotojas] Atskirų tinklelių pasirinkimas už sistemos galimybių neįvedimo
 Kai kurie scenarijai iškilo taip, kad neuždirbtų *savęs* ir nedirbtų prie mygtukyno sistemos pajėgumo. (Pvz., kai kurie kodai, kurie paleidžiami, kai patikrinama eilutė, sukelia duomenų šaltinio tyrimų paleidimą, todėl tyrimas gali sugadinti neįvestus esamų eilučių redagavimus.) Jei jūsų organizacija apranda tokį scenarijų, GALIMA naudoti API, kuris leidžia programuotojui pasirinkti atskirą tinklelį be nesinchroninio eilutės tikrinimo ir grįžti prie senesnio veikimo būdo.
 
-Kai asinchroninis eilučių tikrinimas išjungtas tinklelyje, vartotojai negali kurti naujos eilutės arba perkelti į kitą esamą eilutę tinklelyje, kol yra dabartinės eilutės tikrinimo problemų. Kadangi šis veiksmas turi įtakos, lentelių negalima įklijuoti iš Excel į finansų ir operacijų tinklelius.
+Kai asinchroninis eilučių tikrinimas išjungtas tinklelyje, vartotojai negali kurti naujos eilutės arba perkelti į kitą esamą eilutę tinklelyje, kol yra dabartinės eilutės tikrinimo problemų. Kadangi šis veiksmas turi įtakos, lentelės negali būti įklijuotos iš Excel į finansų ir operacijų tinklelius.
 
 Norėdami pasirinkti atskirą tinklelį patikrinti asinchroniškai, `super()` po formos metodo pridėkite `run()` šį iškvietimą.
 
@@ -200,3 +200,4 @@ Jei kūrėjas nustato **WidthMode** ypatybę į **SizeToAvailable** stulpeliams 
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

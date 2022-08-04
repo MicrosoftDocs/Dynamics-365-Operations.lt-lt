@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4a4933c429982d1371c7c9a9412789ae08e08f43
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a4eb70144957ecdbeba4246fb8c7cd6a20cb08c
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934726"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108336"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Apskaičiuoto lauko tipo ER duomenų šaltinių parametrizuotų kvietimų palaikymas
 
@@ -36,7 +36,7 @@ Norėdami užbaigti pavyzdžius šiame straipsnyje, turite turėti šią prieig�
     - Elektroninės ataskaitos funkcijų konsultantas
     - Sistemos administratorius
 
-- Prieiga prie „Regulatory Configuration Services“ (RCS), kuris sukurtas tam pačiam kaip ir „Finance and Operations“ nuomotojui vienam iš toliau nurodytų vaidmenų:
+- Prieiga prie reguliavimo konfigūracijos tarnybų (RCS), kurios buvo nuostatos nuostatos į tą patį nuomininką, kaip ir vieno iš toliau nurodytų vaidmenų finansų ir operacijų:
 
     - Elektroninės ataskaitos kūrėjas
     - Elektroninės ataskaitos funkcijų konsultantas
@@ -84,7 +84,7 @@ Taip pat turite atsiųsti ir vietoje saugoti toliau nurodytus failus.
             - Mokesčio verčių suma.
             - Mažiausioji taikomo mokesčio tarifo vertė.
 
-    Modelio susiejimas šioje konfigūracijoje taikomas kaip bazinis duomenų modelis visiems šiam modeliui sukurtiems ir vykdomiems „Finance and Operations“ ER formatams. Todėl duomenų šaltinių **Mokestis** ir **Gr** turinys tampa prieinamas ER formatams, pvz., abstrakčių duomenų šaltiniams.
+    Šios konfigūracijos modelio susiejimas vykdo bet kurio šiam modeliui sukurto ir finansuose bei operacijose įvykdyto ER formato pagrindinį duomenų modelį. Todėl duomenų šaltinių **Mokestis** ir **Gr** turinys tampa prieinamas ER formatams, pvz., abstrakčių duomenų šaltiniams.
 
     ![Modelio susiejimo konstruktoriaus puslapis, kuriame rodomi duomenų šaltiniai „Mokestis“ ir „Gr“.](media/er-calculated-field-type-01.png)
 
@@ -343,3 +343,4 @@ Peržiūrėtas konfigūracijas galite importuoti iš RCS naudodami **RCS** tipo 
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

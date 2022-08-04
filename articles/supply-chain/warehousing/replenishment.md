@@ -18,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dceb8e6300d19eb9253e88debbaaef0b6987420
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 075e74845eb8e0363cdb706f1f3af0dc9cfddfaa
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893097"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069189"
 ---
 # <a name="replenishment-overview"></a>Papildymo apžvalga
 
@@ -70,8 +70,8 @@ Užuot poreikį sumuodami paskirstymo proceso pabaigoje ir papildymo procesą at
 
 |      Būtinoji sąlyga       |                                                                                                                                aprašymas                                                                                                                                 |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|          Prekė           |                                                                                                        Prekė privalo turėti įgalintus sandėlio valdymo procesus.                                                                                                        |
-|        Sandėlis        | Sandėlis privalo turėti įgalintus sandėlio valdymo procesus. Norėdami įgalinti sandėlio valdymo procesus, puslapyje <strong>Sandėliai</strong> pasirinkite sandėlį, tada pasirinkite parinktį <strong>Naudoti sandėlio valdymo procesus</strong>. |
+|          Prekė           |                                                                                                        Prekė turi būti įgalinta sandėlio valdymo procesuose (WMS).                                                                                                        |
+|        Sandėlis        | Sandėlis turi būti įgalintas sandėlio valdymo procesams (WMS). Norėdami įgalinti WMS sandėlį, sandėlio <strong></strong> puslapyje pasirinkite sandėlį, tada pasirinkite parinktį Naudoti <strong>sandėlio valdymo</strong> procesus. |
 | Papildymo šablonai |                                                                   Bent vieną papildymo šabloną reikia nustatyti min. / maks. papildymui, bangos poreikio papildymui arba krovinio poreikio papildymui.                                                                   |
 |        Vietos        |                                                                                                       Vietos turi būti sukurtos ir prijungtos prie vietos šablono.                                                                                                       |
 |    Vietos šablonai    |                                                                                                        Vietos šablonai yra būtini, siekiant kurti vietas.                                                                                                        |

@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: fb42d4ccd2d8797a34f6351caf7dedbc1e957fd5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d515fb46dcc2d135412d140b98f0578cae89c409
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885818"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065905"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Lanksti sandėlio dimensijų rezervavimo strategija
 
 [!include [banner](../includes/banner.md)]
 
-Kai *Paketas žemiau\[vietos\]* tipo atsargų rezervavimo hierarchija yra susieta su produktais, įmonėmis, parduodančiomis pagal paketą sekamus produktus ir valdo jų logistiką kaip operacijas, kurios yra įjungtos „ Microsoft Dynamics 365“ sandėlio valdymo sistemai (WMS), negalima rezervuoti tų produktų konkrečių paketų kliento pardavimo užsakymams.
+*\[\]* Kai paketinio apdorojimo vietos tipo atsargų rezervavimo hierarchija susieta su produktais, įmonės, kurios parduoda paketinius produktus ir vykdo savo logistiką kaip operacijas, kurios įgalintos sandėlio valdymo procesuose (WMS), negali rezervuoti konkrečių tų produktų paketų kliento pardavimo užsakymams.
 
 Panašiu būdu, licencijos numeris gali būti rezervuojamas produktams prekybos užsakymuose, kai šie produktai yra susieti su nustatyta rezervacijos hierarchija.
 

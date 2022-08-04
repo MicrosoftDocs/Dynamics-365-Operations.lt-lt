@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 24d4a722ee143dc0869f758475aaf377e7a9e084
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.openlocfilehash: 817d7db5952f96fa741671166d88fffddaac84e9
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954545"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9166846"
 ---
 # <a name="tax-calculation-overview"></a>Mokesčių skaičiavimo apžvalga
 
@@ -29,7 +29,7 @@ Mokesčių skaičiavimas yra hiper išplečiama kelių nuomotojų paslauga, įga
 Mokesčių skaičiavimas integruoja su "Dynamics 365" finansais ir Dynamics 365 Supply Chain Management. Galiausiai ji taip pat bus „Dynamics 365 Project Operations“ integruota į, ir kitas pirmosios šalies ir trečiosios šalies „Dynamics 365 Commerce“ programas.
 
 > [!IMPORTANT]
-> Kai įgalinate papildinį Mokesčių skaičiavimas, kai kurios su susijusiais duomenimis susijusios operacijos gali būti atliekamos ne duomenų centre, kuris tvarko jūsų aptarnavimo duomenis. Prieš įgalindami papildinį Mokesčių skaičiavimas, peržiūrėkite [sąlygas](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md). Mes rūpinamės jūsų privatumu. Norėdami sužinoti daugiau, perskaitykite mūsų [Pareiškimą dėl privatumo](https://go.microsoft.com/fwlink/?LinkId=521839).
+> Kai įgalinate papildinį Mokesčių skaičiavimas, kai kurios su susijusiais duomenimis susijusios operacijos gali būti atliekamos ne duomenų centre, kuris tvarko jūsų aptarnavimo duomenis. Prieš įgalindami papildinį Mokesčių skaičiavimas, peržiūrėkite [sąlygas](https://go.microsoft.com/fwlink/?linkid=2156043). Mes rūpinamės jūsų privatumu. Norėdami sužinoti daugiau, perskaitykite mūsų [Pareiškimą dėl privatumo](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 Mokesčių skaičiavimas yra mikrotarnyba pagrįstas mokesčių mechanizmas, siūlantis eksponentinį išplečiamumą ir galintis padėti atlikti tolesnes užduotis.
 

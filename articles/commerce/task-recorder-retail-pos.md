@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f9f3e17a6c67dc1cc1d4ba423ce258f2ed1d1ec0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0b8723da9b80d007cd0a3196affdfa854eff095f
+ms.sourcegitcommit: 45bb77244a31fa174adf85d1b54e9700109ca0c4
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847605"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9198386"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>„Retail Modern POS“ (MPOS) ir „Cloud POS“ užduočių įrašymo priemonė bei žinynas
 
@@ -107,7 +107,7 @@ Norėdami tęsti įrašymo seansą po to, kai jį pristabdėte, spustelėkite **
 Užduočių įrašymo priemonė gali fiksuoti „Retail Modern POS“ vartotojo sąsajos ekrano kopijas įrašinėjant verslo procesus. Norėdami įjungti ekrano kopijų fiksavimo funkciją, nustatykite parinktį **Fiksuoti ekrano kopijas** į **Taip**, o tada pradėkite įrašymą. Kai įrašymas baigtas, spustelėkite **Sustabdyti** ir atsisiųskite „Word“ dokumentą. Dokumente bus nurodyti veiksmai ir atitinkamos ekrano kopijos.
 
 > [!NOTE]
-> Ekrano kopijų fiksavimo funkcija nepalaikoma „Cloud POS“.
+> Ekrano nuotraukų funkcijos nepalaikomos parduotuvės "Commerce", "Commerce Modern POS" ir "Cloud POS".
 
 ### <a name="start-task-and-end-task"></a>Užduoties pradėjimas ir baigimas
 

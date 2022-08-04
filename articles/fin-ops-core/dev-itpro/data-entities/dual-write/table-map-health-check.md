@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-10-04
-ms.openlocfilehash: 3ae78077fc716311c38620b14665af3983a44c2d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 16c79a788b66830b77b2cdfb33fd2416c530f7d2
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884089"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111573"
 ---
 # <a name="errors-codes-for-the-table-map-health-check"></a>Lentelių schemos sveikatos patikros klaidų kodai
 
@@ -26,13 +26,13 @@ ms.locfileid: "8884089"
 
 ## <a name="error-100"></a>Klaida 100
 
-Klaidos pranešimas yra "Minimali reikalaujama finansų ir operacijų platformos versija yra PU 43, norint vykdyti finansų ir operacijų rekomendacijas".
+Klaidos pranešimas yra "Minimali reikalaujama finansų ir operacijų platformos versija yra PU 43, norint vykdyti finansų ir operacijų rekomendacijas."
 
-Naudojant šią funkciją reikia 10.0.19 arba vėlesnės finansų ir operacijų programėlių versijos platformos naujinimų.
+Naudojant šią funkciją reikia 10.0.19 arba vėlesnių finansų ir operacijų programėlių versijos platformos naujinimų.
 
 ## <a name="error-400"></a>Klaida 400
 
-Klaidos pranešimas yra " \{Nerasta jokių objekto Finansų ir operacijų UniqueEntityName\} verslo įvykių registracijos duomenų, tai reiškia, kad schema nepa vykdoma arba visi laukų susiejimai yra vienakryptis."
+Klaidos pranešimas yra " \{Nepavyko rasti objekto finansų ir operacijų UniqueEntityName\} verslo įvykių registracijos duomenų, tai reiškia, kad schema nepa vykdoma arba visi laukų susiejimai yra vienakryptis."
 
 ## <a name="error-500"></a>Klaida 500
 
@@ -48,7 +48,7 @@ Klaidos pranešimas yra: "Netinkamas objekto finansų ir \{operacijų UniqueEnti
 
 ## <a name="error-1000"></a>Klaida 1000
 
-Klaidos pranešimas yra" Objekto finansų \{ir operacijų UniqueEntityName\} užklausa, naudojama dvigubo rašymo tiesioginio sinchronizavimo yra \{Finansų ir operacijų EntityFilterQueryString \}. Įrašai, kurie atitinka užklausos kriterijus, bus paimti tiesioginiam sinchronizavimui.
+Klaidos pranešimas yra " Objekto \{finansų ir operacijų UniqueEntityName\}\{užklausa, naudojama dvigubo rašymo tiesioginį sinchronizavimą yra finansų ir operacijų EntityFilterQueryString \}. Įrašai, kurie atitinka užklausos kriterijus, bus paimti tiesioginiam sinchronizavimui.
 
 Grąžinta objekto užklausa yra objekto atsarginė SQL užklausa. Patikrinkite ar užklausoje nėra vidinių sujungimų ar filtrų, kurie apibrėžia verslo duomenis, išrinktus tiesioginiam sinchronizavimui. Vidinės jungimai ir filtrai yra privalomos sąlygos, kurias reikia įvykdyti kiekvienam įrašui, išrinktam dvigubo rašymo tiesioginiam sinchronizavimui.
 
@@ -56,7 +56,7 @@ Grąžinta objekto užklausa yra objekto atsarginė SQL užklausa. Patikrinkite 
 
 Klaidos pranešimas yra: "Virtualiųjų \{laukų s.EntityFieldName\}\{, skirtas objekto finansų ir operacijų EntityMetadata.EntityProperties.LogicalEntityName\} negalima sekti dėl dvigubo rašymo."
 
-Virtualūs laukai iš finansų ir operacijų lentelių neįgalinti sekti. Tiesioginis sinchronizavimas gali sinchronizuoti duomenis, bet negalės pritaikyti stulpeliuose atliktų keitimų.
+Virtualiieji laukai iš finansų ir operacijų lentelių nėra įgalinti sekti. Tiesioginis sinchronizavimas gali sinchronizuoti duomenis, bet negalės pritaikyti stulpeliuose atliktų keitimų.
 
 ## <a name="error-1500"></a>Klaida 1500
 
@@ -66,9 +66,9 @@ Objekto duomenų šaltinyje nėra jokių laukų, susietų su dvigubu rašymu. Dv
 
 ## <a name="error-1600"></a>Klaida 1600
 
-Klaidos pranešimas yra "Duomenų šaltinis: duomenų \{šaltinis. Objekto finansų ir operacijų \} EntityMetadata.EntityProperties.LogicalEntityName dataSourceName\{ yra\} diapazone. Tik diapazono sąlygą atitinkantys įrašai yra išrinkti išsiuntimui."
+Klaidos pranešimas yra "Duomenų šaltinis: duomenų \{šaltinis. Objekto finansų ir\} operacijų \{DataSourceName.EntityProperties.LogicalEntityName yra\} diapazonas. Tik diapazono sąlygą atitinkantys įrašai yra išrinkti išsiuntimui."
 
-Finansų ir operacijų programėlių objektai gali turėti duomenų šaltinius, kuriuose įjungtas filtrų diapazonas. Šie diapazonai apibrėžia įrašus, išrinktus kaip tiesioginio sinchronizavimo dalis. Jei kai kurie įrašai praleidžiami iš finansų ir operacijų programėlių Dataverse į, patikrinkite, ar įrašai atitinka objekto diapazono kriterijus. Paprastas būdas atlikti šią patikrą yra vykdyti SQL užklausą, panašią į pateiktą pavyzdį.
+Finansų ir operacijų programėlių objektai gali turėti duomenų šaltinius, kuriuose įjungtas filtrų diapazonas. Šie diapazonai apibrėžia įrašus, išrinktus kaip tiesioginio sinchronizavimo dalis. Jei kai kurie įrašai praleidžiami iš finansų ir operacijų programėlių Dataverse, patikrinkite, ar įrašai atitinka objekto diapazono kriterijus. Paprastas būdas atlikti šią patikrą yra vykdyti SQL užklausą, panašią į pateiktą pavyzdį.
 
 ```sql
 select * from <EntityName> where <filter criteria for the records> on SQL.
@@ -86,7 +86,7 @@ Klaidos pranešimas yra: "Duomenų šaltinis: objekto {} CustCustomerV3Entity ap
 Jei finansų ir operacijų programėlėse nurodytas objekto diapazonas, Dataverse gavimo sinchronizavimas nuo finansų ir operacijų programėlių turėtų būti patikrintas dėl įrašų, kurie neatitinka šio diapazono kriterijų, atnaujinimo būdo. Bet kuris įrašas, kuris neatitinka diapazono, laikomas objekto įterpimo operacija. Jei esamo įrašo nėra esamo lentelėje, įterpimo nebus. Rekomenduojame prieš diegiant į gamybą išbandyti šį naudojimo atvejį visiems scenarijams.
 
 ## <a name="error-1900"></a>Klaida 1900
-Klaidos pranešimas yra "Objektas: turi duomenų {} šaltinius, kurie nėra sekami dėl siunčiamo dvigubo rašymo. Tai gali paveikti tiesioginio sinchronizavimo užklausos našumą. Iš dalies įrašykite objektą finansų ir operacijų skyriuje, kad pašalintumėte nenaudojamus duomenų šaltinius ir lenteles arba įdiekite getEntityRecordIdsImpactedByTableChange, kad optimizuotumėte vykdyklės užklausas."
+Klaidos pranešimas yra "Objektas: turi duomenų {} šaltinius, kurie nėra sekami dėl siunčiamo dvigubo rašymo. Tai gali paveikti tiesioginio sinchronizavimo užklausos našumą. Perdaryti objektą finansuose ir operacijose norint pašalinti nenaudojamus duomenų šaltinius ir lenteles arba įdiegti getEntityRecordIdsImpactedByTableChange, kad optimizuotumėte vykdyklės užklausas."
 
 Jei yra daug duomenų šaltinių, kurių nenaudojama sekant faktinio tiesioginio sinchronizavimo iš finansų ir operacijų programėlių, gali būti, kad objekto našumas gali paveikti tiesioginį sinchronizavimą. Norėdami optimizuoti sekamas lenteles, naudokite metodą getEntityRecordIdsImpactedByTableChange.
 
@@ -96,3 +96,4 @@ Klaidos pranešimas yra: "Sinchroniniai klaidas registruojami objekto sąskaitų
 Sinchroniniai objekto balansai gali paveikti Dataverse tiesioginio sinchronizavimo ir sinchroninio sinchronizavimo našumą, kai jis pridedamas prie operacijos apkrovos. Rekomenduojama arba išjungti balansą, arba padaryti šiuos "async", jei pradinio sinchronizavimo arba tiesioginio sinchronizavimo metu susiduriate su lėtu įkėlimo laiku.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

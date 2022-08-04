@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 11355031714b7e046f70bd5840297d66aa7d32e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ad0075e2b92ebeb9fba879bcae503100dc7adb47
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873184"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205943"
 ---
 # <a name="company-concept-in-dataverse"></a>Įmonės koncepcija „Dataverse“
 
@@ -23,15 +23,17 @@ ms.locfileid: "8873184"
 
 
 
-„Finance and Operations“ *įmonės* koncepcija yra tiek teisinis, tiek verslo konstruktas. Ji taip pat apibrėžia duomenų saugos ir matomumo ribas. Vartotojai visada dirba vienos įmonės kontekste, o dauguma duomenų yra įmonės suskirstyti.
+Finansų ir operacijų atveju įmonės koncepcija yra ir *teisinis* konstruktas, ir verslo konstruktas. Ji taip pat apibrėžia duomenų saugos ir matomumo ribas. Vartotojai visada dirba vienos įmonės kontekste, o dauguma duomenų yra įmonės suskirstyti.
 
 „Dataverse“ nenaudojama lygiavertė koncepcija. Artimiausia koncepcija yra *verslo struktūros vienetas*, kuris pirmiausia apima vartotojo duomenų saugos ir matomumo ribas. Ši koncepcija neturi tokios pačios teisinės ar verslo reikšmės kaip įmonės koncepcija.
 
 Verslo struktūros vienetas ir įmonė nėra lygiavertės koncepcijos, todėl „Dataverse“ integracijos tikslais negalima taikyti jų vienas su vienu (1:1) susiejimo. Tačiau vartotojai turi, kaip numatyta, galėti peržiūrėti tas pačias eilutes programoje ir „Dataverse“, todėl „Microsoft“ pristatė naują lentelę „Dataverse”, pavadintą cdm\_Company. Ši lentelė yra lygiavertė įmonės lentelei programoje. Siekiant užtikrinti eilučių matomumo lygiavertiškumą pradėjus naudoti programą ir „Dataverse“, rekomenduojame toliau pateiktus „Dataverse“ duomenų nustatymus.
 
 + Kiekvienai finansų ir operacijų įmonės eilutei, kuri įgalinta dvigubo rašymo atveju, sukuriama susijusi cdm\_ įmonės eilutė.
-+ Sukūrus cdm\_Company eilutę ir įgalinus dvigubam rašymui, sukuriamas numatytasis verslo struktūros vienetas tuo pačiu pavadinimu. Nors tam verslo struktūros vienetui automatiškai sukuriama numatytoji komanda, verslo struktūros vienetas nėra naudojamas.
-+ Sukuriama atskira savininko komanda tokiu pačiu pavadinimu. Ji taip pat susiejama su verslo struktūros vienetu.
+
++ Sukūrus cdm\_Company eilutę ir įgalinus dvigubam rašymui, sukuriamas numatytasis verslo struktūros vienetas tuo pačiu pavadinimu. Nors tam verslo vienetui automatiškai sukuriama numatytoji savininko komanda, verslo vienetas nėra naudojamas.
++ Sukuriama atskira savininko komanda, kurios pavadinimas toks pat, naudojant dvigubo rašymo sufiksą. Ji taip pat susiejama su verslo struktūros vienetu.
+
 + Pagal numatytuosius nustatymus, bet kurios eilutės, kuri sukuriama ir įrašoma dvigubu rašymu „Dataverse“, savininkas nustatomas į „DW Owner“ komandą, kuri susiejama su susijusiu verslo struktūros vienetu.
 
 Tolesnėje iliustracijoje pateikiamas šio duomenų nustatymo „Dataverse“ pavyzdys.
@@ -43,7 +45,7 @@ Dėl tokios konfigūracijos bet kokia eilutė, susieta su USMF įmone, priklauso
 + Vaidmuo „Pardavimo vadybininkas“ priskiriamas „USMF pardavimas“ komandos nariams.
 + Vartotojai, turintys vaidmenį „Pardavimo vadybininkas“, turi prieigą prie visų paskyros eilučių, kurios yra to paties verslo struktūros vieneto nariai.
 + „USMF pardavimas“ komanda susiejama su anksčiau minėtu USMF verslo struktūros vienetu.
-+ Todėl USMF pardavimo komandos nariai gali matyti bet kokią sąskaitą, kurią valdo "USMF DW" vartotojas, kuris būtų ateitas iš USMF įmonės lentelės finansuose ir operacijose.
++ Todėl USMF pardavimo komandos nariai gali matyti bet kokią sąskaitą, kurią valdo "USMF DW" vartotojas, kuris būtų ateitas iš USMF įmonės lentelės, finansinėse ir operacijose.
 
 ![Komandų naudojimas.](media/dual-write-company-2.png)
 

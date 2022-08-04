@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e46c5721853ebfe3b9d5955ca5f4e7a4ead570c1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fffe9c042c71dc220179bb6d1ba7fd59d5e53cc0
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846306"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069540"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-19-2021"></a>Kas nauja arba pasikeitė 2021 m. balandžio 19 d. „Dynamics 365 Human Resources”
 
@@ -90,3 +90,4 @@ Norėdami gauti visą planuojamų funkcijų ir jų suplanuotų leidimų sąraš�
 [Funkcijų valdymas](hr-admin-manage-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

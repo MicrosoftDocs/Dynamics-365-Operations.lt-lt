@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 525e9be1655bdf0c0328ec53509ab1966abd7bde
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: aceb883e9182090a336c4c91aa0022a79495ce40
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883574"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111701"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>ER konfigūracijų priklausomybės nuo kitų komponentų apibrėžimas
 
@@ -25,7 +25,7 @@ ms.locfileid: "8883574"
 
 Norėdami atlikti šiuos veiksmus, turite užbaigti veiksmus užduočių vedlyje, ER valdymo modelio susiejimo konfigūracijos, ir jūs turite turėti prieigą prie „Microsoft Dynamics Lifecycle Services“ (LCS).
 
-Ši procedūra parodo, kaip kurti elektroninių ataskaitų (ER) konfigūraciją ir nurodyti jos priklausomybę nuo kitų programinės įrangos komponentų, kad galėtumėte užtikrinti, kad atsisiųsta teisinga konfigūracija konkrečiai „Finance and Operations“ versijai. Šiame pavyzdyje kursite reikiamas pavyzdinės įmonės „Litware, Inc.“ ER konfigūracijas. 
+Ši procedūra nurodo, kaip sukurti elektroninių ataskaitų (ER) konfigūraciją ir nurodo jos priklausomybę nuo kitų programinės įrangos komponentų, kad jūs galite padėti užtikrinti, kad konfigūracija tinkamai bus atsisiųsta į konkrečią finansų ir operacijų versiją. Šiame pavyzdyje kursite reikiamas pavyzdinės įmonės „Litware, Inc.“ ER konfigūracijas. 
 
 Ši procedūra skirta vartotojams, kuriems priskirtas sistemos administratoriaus arba elektroninių ataskaitų teikimo programuotojo vaidmuo. Veiksmus galima atlikti bet kurioje įmonėje, nes ER konfigūracijas įmonės naudoja bendrai. 
 
@@ -59,7 +59,7 @@ Norėdami atlikti šiuos veiksmus, turite užbaigti veiksmus užduočių vedlyje
 18. Pasirinkite „Microsoft Dynamics AX 7.0 RTW“.
 19. Lauke Versija įrašykite „[7.0.1265.3015,7.1)“.
     * [7.0.1265.3015,7.1)  
-    * Priklausomybės įvertinamos atsisiunčiant konfigūraciją iš ER saugyklos. Ši konfigūracijos versija bus atsisiųsta iš ER saugyklos, kai „Duomenų pavyzdžio modelio“ 1 versijos konfigūracija jau bus reikiamoje vietoje arba iš anksto atsisiųsta. Jei ji atsisiųsta iš anksto, ji būti baigta naudojant „Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition“, kurio versija turi būti 7.0.1265.3015 arba vėlesnė, tačiau negali viršyti 1 pagrindinės versijos.   
+    * Priklausomybės įvertinamos atsisiunčiant konfigūraciją iš ER saugyklos. Ši konfigūracijos versija bus atsisiųsta iš ER saugyklos, kai „Duomenų pavyzdžio modelio“ 1 versijos konfigūracija jau bus reikiamoje vietoje arba iš anksto atsisiųsta. Jei jis atsisiųstas iš anksto, Microsoft Dynamics jis turi būti įdiegtas 365 finansų, įmonės leidime, kurio versija turi būti 7.0.1265.3015 arba vėlesnė, bet neturi viršyti 1 versijos.   
 20. Spustelėkite Įrašyti.
 21. Uždarykite puslapį.
 22. Spustelėkite keisti būseną.
@@ -136,10 +136,11 @@ Mes panaikinsime iš sistemos sukurtas konfigūracijas ir vėl atsisiųsime jas 
 25. Eikite į Organizacijos administravimas > Elektroninės ataskaitos > Konfigūracijos.
 26. Medyje išplėskite „Duomenų pavyzdžio modelis“.
     * Atkreipkite dėmesį, kad modelio „Susiejimo pavyzdys“ susiejimo konfigūracija buvo atsisiųsta kartu su pasirinkta duomenų modelio konfigūracija. Du failai atsisiunčiami kartu, kadangi „Susiejimo pavyzdys“ apibrėžtas kaip pasirinkto duomenų modelio įgyvendinimas, ir todėl, kad jis taikomas programoms. Konfigūracija „Susiejimo pavyzdys (alternatyvus)“ dar neatsisiųsta, nes reikiamos programos versijos sąlyga nėra patenkinta.   
-    * Jei prisiregistruosite prie finansų ir operacijų, užregistruokite tą patį teikėją, turėsite prieigą prie to paties LCS projekto ir parsisiuntus tą pačią duomenų modelio konfigūraciją, bus atsisiųsta konfigūracija "Pavyzdžio susiejimas (alternatyvus),o "Pavyzdžio susiejimo" konfigūracija bus praleista.  
+    * Jei prisiregistruojate prie finansų ir operacijų, užregistruokite tą patį teikėją, kreipkitės į tą patį LCS projektą ir atsisiųskite tą pačią duomenų modelio konfigūraciją, konfigūracija "Pavyzdžio konvertavimas (alternatyvi)" bus atsisiųsta, o "Pavyzdžio susiejimo" konfigūracija bus praleista.  
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Elektroninių ataskaitų (ER) konfigūracijų ciklo valdymas](../general-electronic-reporting-manage-configuration-lifecycle.md)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

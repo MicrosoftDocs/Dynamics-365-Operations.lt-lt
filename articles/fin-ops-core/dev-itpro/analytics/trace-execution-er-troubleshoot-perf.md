@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 886781764b44ca76b327ad49f25f11f6c370a706
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4ea6901f8d9632b021c35b9ee899385e688fc77e
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851957"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108863"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>ER formatų vykdymo sekimas siekiant diagnozuoti našumo problemas
 
@@ -98,7 +98,7 @@ Tarkime, kad jau pradėjau kurti naują ER sprendimą, kad būtų sugeneruota na
 
 Tarkime, kad baigėte kurti pirmąją ER sprendimo versiją. Dabar norite ją patikrinti naudodami savo egzempliorių ir išanalizuoti vykdymo našumą.
 
-### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>ER konfigūracijos importavimas iš RCS į „Finance and Operations“
+### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a> Importuoti ER konfigūraciją iš RCS į finansus ir operacijas
 
 1. Prisijunkite prie programos egzemplioriaus.
 2. Dirbdami su šia mokymo programa, konfigūracijas importuosite iš savo RCS egzemplioriaus (kuriame kuriate savo ER komponentus) į savo egzempliorių (kuriame jas tikrinate ir galiausiai naudojate). Todėl turite įsitikinti, kad paruošti visi reikiami artefaktai. Instrukcijas rasite procedūroje [Elektroninių ataskaitų (ER) konfigūracijų importavimas iš „Regulatory Configuration Services“ (RCS)](rcs-download-configurations.md).
@@ -305,7 +305,7 @@ Taip pat gali būti naudinga sumažinti į duomenų šaltinį LedgerTransTypeLis
 
 ### <a name="import-the-modified-er-model-mapping-configuration-from-rcs-into-the-application"></a>Modifikuotos ER modelio susiejimo konfigūracijos importavimas iš RCS į programą
 
-Norėdami importuoti efektyvumo [sekimo susiejimo konfigūracijos versiją 1.2](#import-configuration), pakartokite anksčiau šiame straipsnyje skyriuje Importuoti ER konfigūraciją iš RCS **į finansus ir operacijas**.
+Norėdami importuoti efektyvumo [sekimo susiejimo konfigūracijos versiją 1.2](#import-configuration), pakartokite anksčiau šiame straipsnyje skyriuje Importuoti ER konfigūraciją iš RCS **į finansų ir operacijų** skyrių.
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>Modifikuoto ER vykdymo sekimo sprendimo vykdymas
 
@@ -363,7 +363,7 @@ Atkreipkite dėmesį, kad interneto naršyklėje siūloma atsisiųsti ZIP failą
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Norėdami peržiūrėti vykdymo sekimą, apimantį duomenų bazės užklausas, naudokite išorinius įrankius
 
-Dėl patobulinimų, atliktų ER sistemoje, efektyvumo sekimo duomenys, sugeneruoti „PerfView“ formatu, dabar teikia daugiau išsamios informacijos apie ER formato vykdymą. Naudojant „Microsoft Dynamics 365 for Finance and Operations“ 10.0.4 versiją (2019 m. liepos mėn.), šiuose sekimo duomenyse taip pat gali būti pateikiama informacija apie vykdytas SQL užklausas į programos duomenų bazę.
+Dėl patobulinimų, atliktų ER sistemoje, efektyvumo sekimo duomenys, sugeneruoti „PerfView“ formatu, dabar teikia daugiau išsamios informacijos apie ER formato vykdymą. Microsoft Dynamics 365 finansų versijoje 10.0.4 (2019 m. liepos mėn.) šis sekimas taip pat gali apimti išsamią įvykdytų SQL užklausų į programos duomenų bazę informaciją.
 
 ### <a name="configure-user-parameters"></a>Vartotojo parametrų konfigūravimas
 
@@ -392,3 +392,4 @@ Atkreipkite dėmesį, kad interneto naršyklėje siūloma atsisiųsti ZIP failą
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

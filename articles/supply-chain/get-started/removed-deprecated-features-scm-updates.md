@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 949fa0df58bc3338c8bc84ecbd4f2ad17117dd12
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 7c7dd90fea79ae83d238ed51b9ec1fc42e9e36b2
+ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865272"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "9171522"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Pašalintos arba nebenaudojamos „Dynamics 365 Supply Chain Management“ funkcijos
 
@@ -48,11 +48,11 @@ ms.locfileid: "8865272"
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Supply Chain Management“ 10.0.18 versijoje
 
-### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>„Dynamics 365 for Finance and Operations” – sandėliavimas (sandėlio programa)
+### <a name="supply-chain-management--warehousing-the-warehouse-app"></a><a name="wma"></a> Tiekimo grandinės valdymas – sandėliavimas (sandėlio programa)
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nerekomendavimo/pašalinimo priežastis** | Galioja nuo 2021 *m. balandžio 365 d. finansų ir operacijų " Dynamics 365" – sandėliavimas (sandėlio programa) yra pasenusi ir po 2022 m. balandžio mėn. nebus palaikomas*. Dabar ji pakeista *Sandėlio valdymo mobiliųjų įrenginių programėle*, kuri buvo išleista kartu su „Supply Chain Management” 10.0.17 versija. Nauja programa yra visiškas pakeitimas, tačiau naudoja tą pačią pagrindinę sistemą, kas palengvina perkėlimą. Jei reikia, dvi programas galima naudoti paraleliai tam, kad padėtų vartotojams palaipsniui prisitaikyti, kol jie mokosi naudotis nauja programa.<br><br>Daugiau informacijos apie naująją sandėlio valdymo mobiliųjų įrenginių programėlę rasite [ Sandėlio valdymo mobiliųjų įrenginių programėlė](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) ir [ Sandėlio valdymo mobiliųjų įrenginių programėlės diegimas ir prijungimas](../warehousing/install-configure-warehouse-management-app.md). |
+| **Nerekomendavimo/pašalinimo priežastis** | Galioja iki 2021 *m. tiekimo grandinės valdymas – sandėliavimas (sandėlio programa) yra pasenusi ir po 2022 m. balandžio mėn. nebus palaikomas*. Dabar ji pakeista *Sandėlio valdymo mobiliųjų įrenginių programėle*, kuri buvo išleista kartu su „Supply Chain Management” 10.0.17 versija. Nauja programa yra visiškas pakeitimas, tačiau naudoja tą pačią pagrindinę sistemą, kas palengvina perkėlimą. Jei reikia, dvi programas galima naudoti paraleliai tam, kad padėtų vartotojams palaipsniui prisitaikyti, kol jie mokosi naudotis nauja programa.<br><br>Daugiau informacijos apie naująją sandėlio valdymo mobiliųjų įrenginių programėlę rasite [ Sandėlio valdymo mobiliųjų įrenginių programėlė](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) ir [ Sandėlio valdymo mobiliųjų įrenginių programėlės diegimas ir prijungimas](../warehousing/install-configure-warehouse-management-app.md). |
 | **Pakeitė kita funkcija?**   | Taip, pakeista nauja sandėlio valdymo mobiliųjų įrenginių programėle. |
 | **Paveiktos produkto sritys**         | „Supply Chain Management” – sandėlio programa |
 | **Visuotinio diegimo parinktis**              | Debesies ir vietinis |
@@ -98,3 +98,4 @@ Norėdami sužinoti daugiau apie funkcijas, kurios buvo pašalintos arba nebenau
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
