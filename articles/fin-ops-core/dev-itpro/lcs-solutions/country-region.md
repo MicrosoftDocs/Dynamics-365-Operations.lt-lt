@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4935d54a911701fda4740e3a1116c139730ceb08
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: abfba49c1b5e410cdc47db9965ffee26fbaebb9e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866543"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067689"
 ---
 # <a name="globalization-resources"></a>Globalizacijos ištekliai
 
@@ -28,7 +28,7 @@ Jeigu jūsų vyriausybės reglamentuose reikalaujama, kad duomenys būtų saugom
 
 [Finansų ir operacijų programos, valdomos „21Vianet“ Kinijoje](../deployment/china-local-deployment.md)
 
-## <a name="localization-and-regulatory-features"></a>Lokalizavimo ir reguliavimo priemonės
+## <a name="localization-and-regulatory-features"></a>Lokalizavimo ir reguliavimo priemonės​
 
 [!include [banner](../includes/banner.md)]
 
@@ -62,8 +62,8 @@ Tolesniuose ištekliuose pateikiama informacijos apie planuojamas ir naujas loka
 #### <a name="dynamics-365-release-plans"></a>„Dynamics 365“ leidimo planai
 [„Dynamics 365“ leidimo planuose](/business-applications-release-notes/) pateikiami naujų ir patobulintų verslo programų ir programų platformos galimybių, numatytų „Dynamics 365“, aprašymai. 
 
-#### <a name="finance-and-operations-apps-whats-new"></a>Kas nauja „Finance and Operations“ programose
-[Kas nauja ar pasikeitė „Finance and Operations“ pagrindiniame puslapyje](../../fin-ops/get-started/whats-new-changed.md) pateikiamos funkcijos, įtrauktos į konkrečius „Finance and Operations“ programų leidimus.
+#### <a name="finance-and-operations-apps-whats-new"></a>Kas nauja finansų ir operacijų programose
+[Kas nauja ar pasikeitė finansų ir operacijų pagrindiniame puslapyje](../../fin-ops/get-started/whats-new-changed.md) pateikiamos funkcijos, įtrauktos į konkrečius finansų ir operacijų programų leidimus.
 
 ### <a name="electronic-reporting"></a>Elektroninės ataskaitos
 Elektroninių ataskaitų (ER) įrankiu galite pagal teisinius įvairių šalių / regionų reikalavimus konfigūruoti elektroninių dokumentų formatus. Naudojant ER, šiuos formatus galima valdyti visą jų naudojimo ciklą. Daugiau informacijos ieškokite vienoje iš tolesnių temų:
@@ -133,3 +133,4 @@ Norėdami sužinoti daugiau, žr. [Žinyno sistema](../../fin-ops/get-started/he
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

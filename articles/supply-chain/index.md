@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 189239ad6142af200e41cfe9cfcdbb56be65b0b7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dbf77b57f7a107918c3b8a03290e208ed1c4803b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879082"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066064"
 ---
 # <a name="supply-chain-management-home-page"></a>„Supply Chain Management“ pagrindinis puslapis
 
@@ -56,16 +56,16 @@ Daugiau informacijos apie „Dynamics 365 Finance“ žr. [„Finance“ pagrind
 
 ## <a name="videos"></a>Vaizdo įrašai
 
-Šiame trumpame vaizdo įraše apibendrinamos naujos tiekimo grandinės valdymo funkcijos, įtrauktos į „Microsoft Dynamics 365 for Finance and Operations“ 8.0 versiją (2018 m. balandžio mėn.).
+Šiame trumpame vaizdo įraše apibendrinamos naujos tiekimo grandinės valdymo funkcijos, įtrauktos į „Microsoft Dynamics 365 Finance“ 8.0 versiją (2018 m. balandžio mėn.).
 
-- [„Field Service“ darbo užsakymo sinchronizavimas su „Finance and Operations“](https://youtu.be/hAB4TDVMjxU)
+- [„Field Service“ darbo užsakymo sinchronizavimas su finansais ir operacijomis](https://youtu.be/hAB4TDVMjxU)
 
-Šiuose trumpuose vaizdo įrašuose apibendrinamos naujos tiekimo grandinės valdymo funkcijos, įtrauktos į „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3“ (2017 m. gruodžio mėn.).
+Šiuose trumpuose vaizdo įrašuose apibendrinamos naujos tiekimo grandinės valdymo funkcijos, įtrauktos į „Microsoft Dynamics 365 Finance, Enterprise edition 7.3“ (2017 m. gruodžio mėn.).
 
 - [Optimizavimo patarėjas](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Konfigūracijos kopijavimas naudojant sandėlio šabloną](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
-Šiuose trumpuose vaizdo įrašuose apibendrinamos naujos tiekimo grandinės valdymo funkcijos, įtrauktos į „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ (2017 m. liepos mėn.).
+Šiuose trumpuose vaizdo įrašuose apibendrinamos naujos tiekimo grandinės valdymo funkcijos, įtrauktos į „Microsoft Dynamics 365 Finance, Enterprise edition“ (2017 m. liepos mėn.).
 
 - [Darbo su moduliu Kaštų apskaita pradžia](https://youtu.be/1pUDtJQZ8FU)
 - [Išlaidų kontrolės mobilioji darbo sritis](https://youtu.be/imsuTg8rUVk)
@@ -73,7 +73,7 @@ Daugiau informacijos apie „Dynamics 365 Finance“ žr. [„Finance“ pagrind
 - [Pirkimo užsakymų patvirtinimas mobiliajame įrenginyje](https://youtu.be/gZ-gOlJe7H8)
 - [Vaizdinis planavimas naudojant Ganto diagramą (gamybos ir paketiniai užsakymai)](https://youtu.be/BtbuShkGj4I)
 
-Toliau pateikiamuose techninių konferencijų įrašuose aptariamos ankstesnių „Finance and Operations“ versijų tiekimo grandinės valdymo funkcijos. Dabar šios funkcijos yra „Dynamics 365 Supply Chain Management“ dalis; vartojamos tos pačios sąvokos, o procedūros dabartinėje versijoje yra panašios.
+Toliau pateikiamuose techninių konferencijų įrašuose aptariamos ankstesnių finansų ir operacijų versijų tiekimo grandinės valdymo funkcijos. Dabar šios funkcijos yra „Dynamics 365 Supply Chain Management“ dalis; vartojamos tos pačios sąvokos, o procedūros dabartinėje versijoje yra panašios.
 
 - **Kaštų valdymas:**
   - [Modulio Kaštų valdymas apžvalga](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
@@ -106,3 +106,4 @@ Internetinių kursų ir mokymų ieškokite [Dynamics 365 Supply Chain Management
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

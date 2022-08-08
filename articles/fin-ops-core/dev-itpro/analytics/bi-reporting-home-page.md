@@ -7,21 +7,21 @@ ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom:
-- "27681"
-- intro-internal
-ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4be3c576cd0fac1239113efcdd7e97810b193a88
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "27681"
+- intro-internal
+ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
+ms.openlocfilehash: 119292dccc2f2d7131f0fa39aa35a8253b948d40
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906639"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206482"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>Ataskaitos ir analizė naudojant pagrindinį „Power BI“ puslapį
 
@@ -32,7 +32,7 @@ ms.locfileid: "8906639"
 ## <a name="get-started"></a>Pradžia
 - [Prieiga prie informacijos ir ataskaitos](information-access-reporting.md)
 - [Techninė kalba: ataskaitų parinktys](https://www.youtube.com/watch?v=NzZONjKs5xA) (vaizdo įrašas)
-- [„Finance and Operations“: „Power BI“ analizės ir ataskaitų paslaugų tinklaraštis](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (tinklaraštis)
+- [finansai ir operacijos: „Power BI“ analizės ir ataskaitų paslaugų tinklaraštis](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (tinklaraštis)
 
 ## <a name="analytical-workspaces"></a>Analizės darbo sritys
 Darbo srityse galima naudoti turiningas informacines diagramas ir vaizdinius elementus, kuriuos palaiko „Microsoft Power BI“. Šiose informacinėse diagramose ir šiuose vaizdo elementuose yra daug valdiklių, kuriuos teikia trečiosios šalys. Todėl darbo sritis vartotojai gali naudoti pasitelkdami nemažai vaizdinių ir interaktyvių elementų.
