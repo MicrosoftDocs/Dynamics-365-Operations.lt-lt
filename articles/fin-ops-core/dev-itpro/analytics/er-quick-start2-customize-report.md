@@ -1,28 +1,26 @@
 ---
 title: Pakoreguokite ER formatą, kad sugeneruotumėte pasirinktinį elektroninį dokumentą
 description: Šiame straipsnyje paaiškinama, kaip koreguoti "Microsoft" pateiktą elektroninių ataskaitų (ER) formatą, kad jis sugeneruotų pasirinktinį elektroninį dokumentą.
-author: NickSelin
+author: kfend
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 492964d3cea0e474a50d6d83231f33d9508b9d9d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
+ms.openlocfilehash: 8b0bcdbd011c4c04e2693a3dcb8033c3cbe2adc7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886797"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283565"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Pakoreguokite ER formatą, kad sugeneruotumėte pasirinktinį elektroninį dokumentą
 
@@ -271,7 +269,7 @@ Pavyzdžiui, šiame skyriuje rodomas pavyzdys, kurį norite naudoti su „Micros
 
 6. Pasirinkite **Kurti konfigūraciją**.
 
-**BACS (pritaikyta JK)** sukuriama ER formato konfigūracijos versija 1.1.1. Ši versija turi [būseną](general-electronic-reporting.md#component-versioning) **Juodraštis** ir ji gali būti redaguojama. Jūsų pritaikyto ER formato dabartinis turinys atitinka „Microsoft” pateikto formato turinį.
+**BACS (pritaikyta JK)** sukuriama ER formato konfigūracijos versija 1.1.1. Šios versijos būsena yra Juodraštis **ir** ji gali būti redaguojama. Jūsų pritaikyto ER formato dabartinis turinys atitinka „Microsoft” pateikto formato turinį.
 
 ![Konfigūracijos puslapis su BACS (pritaikyta JK) ER formato konfigūracijos versija 1.1.1.](./media/er-quick-start2-derived-format-configuration1.png)
 
@@ -324,7 +322,7 @@ Turite sukonfigūruoti savo pritaikytą formatą, kad jis atitiktų banko konkre
 
 ### <a name="mark-a-custom-format-as-runnable"></a><a id="MarkFormatRunnable"></a>Pažymėkite pritaikytą formatą kaip leistiną
 
-Dabar, kai sukurta pirmoji jūsų pritaikyto formato versija, kurios būsena **Juodraštis**, ją galite paleisti testavimui. Norėdami paleisti ataskaitą, turite apdoroti tiekėjo mokėjimą naudodami mokėjimo būdą, nurodantį jūsų pritaikytą ER formatą. Pagal numatytuosius nustatymus jums iškvietus ER formatą programoje tik būseną` **Baigta** ar **Bendrinta** turinčios versijos [bus svarstomos](general-electronic-reporting.md#component-versioning). Toks veikimas užtikrina, kad nebaigto dizaino ER formatai nebūtų naudojami. Tačiau, atliekant bandomuosius vykdymus, galite priversti programą naudoti ER formato **Juodraštis** būsenos versiją. Tokiu būdu galite koreguoti dabartinio formato versiją, jei reikia atlikti pakeitimus. Daugiau informacijos žr. [Taikomumas](electronic-reporting-destinations.md#applicability).
+Dabar, kai sukurta pirmoji jūsų pritaikyto formato versija, kurios būsena **Juodraštis**, ją galite paleisti testavimui. Norėdami paleisti ataskaitą, turite apdoroti tiekėjo mokėjimą naudodami mokėjimo būdą, nurodantį jūsų pritaikytą ER formatą. Pagal numatytuosius nustatymus, kai iškiesite ER formatą iš programos, **bus** atsižvelgiama tik į versijas, kurių būsena yra **Baigta arba Bendrai** naudojama. Toks veikimas užtikrina, kad nebaigto dizaino ER formatai nebūtų naudojami. Tačiau, atliekant bandomuosius vykdymus, galite priversti programą naudoti ER formato **Juodraštis** būsenos versiją. Tokiu būdu galite koreguoti dabartinio formato versiją, jei reikia atlikti pakeitimus. Daugiau informacijos žr. [Taikomumas](electronic-reporting-destinations.md#applicability).
 
 Norėdami naudoti ER formato juodraščio versiją, turite aiškiai pažymėti ER formatą.
 

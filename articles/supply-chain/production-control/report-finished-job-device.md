@@ -2,7 +2,7 @@
 title: Pranešti kaip baigtą iš užduoties kortelės įrenginio
 description: Šiame straipsnyje aprašoma, kaip konfigūruoti sistemą, kad užduočių kortelės įrenginio vartotojai galėtų pranešti apie baigtus produktus iš gamybos užsakymo į atsargas.
 author: johanhoffmann
-ms.date: 07/31/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 38372f08db0258de8b5e653b4757c9fda96c8d70
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 56d19a966d93202668c34ffaaef561d72b7669ff
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070476"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334632"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Pranešti kaip baigtą iš užduoties kortelės įrenginio
 
@@ -56,13 +56,12 @@ Užduoties kortelės įrenginys palaiko tris paketo elementų ataskaitų scenari
 - **Iš anksto nustatyti paketų skaičiai** - Darbuotojai pasirenka paketo skaičių paketų skaičių sąraše, kuriuos sistema automatiškai sukuria prieš tai, kai gamybos užsakymas yra išleidžiamas į užduoties kortelės prietaisą.
 - **Rankiniu būdu priskirti pakuotės skaičius** - Darbuotojai įveda pasirinktą paketo skaičių. Vietoj to, sistema automatiškai priskiria gamybos užsakymo paketo numerį prieš jį išleidžiant.
 
-
 ### <a name="enable-the-feature-on-your-system"></a>Įjungti funkciją jūsų sistemoje
 
-Norėdami įjungti savo užduoties kortelės įrenginius, kad būtų galima priimti paketo numerį ataskaitos metu, kad baigta, turite naudoti [funkcijų valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad įjungtumėte šias funkcijas (šia tvarka):
+Norėdami įgalinti užduočių kortelių įrenginius priimti paketo numerį, kai pranešate, kad baigta, [turite](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) naudoti funkcijų valdymą, kad įjungtumėte šias funkcijas:
 
-1. Patobulinta Ataskaitos eigos dialogo lango vartotojo patirtis Užduoties kortelės įrenginyje
-1. Įgalinkite paketo ir serijos numerių įvedimą, kai pranešate apie baigimą darbo kortelės įrenginiu
+- *Patobulinta Ataskaitos eigos dialogo lango vartotojo patirtis Užduoties kortelės įrenginyje*
+- *Įgalinkite paketo ir serijos numerių įvedimą, kai pranešate apie baigimą darbo kortelės įrenginiu*<br>(Kaip ir tiekimo grandinės valdymo versija 10.0.29, ši funkcija veikia pagal numatytąjį nustatymą.)
 
 ### <a name="configure-products-that-require-batch-number-reporting"></a>Konfigūruoti produktus, kuriems reikia paketo numerio ataskaitos
 
@@ -137,10 +136,10 @@ Darbo kortelės prietaisas palaiko tris raportavimo scenarijus serijinėms kontr
 
 ### <a name="enable-the-feature-on-your-system"></a>Įjungti funkciją jūsų sistemoje
 
-Tam, kad įjungtumėte savo užduoties kortelės prietaisą, kad jis priimtų serijinį numerį po ataskaitų rengimo pabaigos, turite naudoti [funkcijos valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tam, kad įjungtumėte vieną iš tolesnių funkcijų (tokia tvarka):
+Norėdami įgalinti užduočių kortelių įrenginius priimti serijos numerį, kai pranešate, kad baigta, [turite](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) naudoti funkcijų valdymą, kad įjungtumėte šias funkcijas:
 
-1. Patobulinta Ataskaitos eigos dialogo lango vartotojo patirtis Užduoties kortelės įrenginyje
-1. Įgalinkite paketo ir serijos numerių įvedimą, kai pranešate apie baigimą darbo kortelės įrenginiu
+- *Patobulinta Ataskaitos eigos dialogo lango vartotojo patirtis Užduoties kortelės įrenginyje*
+- *Įgalinkite paketo ir serijos numerių įvedimą, kai pranešate apie baigimą darbo kortelės įrenginiu*<br>(Kaip ir tiekimo grandinės valdymo versija 10.0.29, ši funkcija veikia pagal numatytąjį nustatymą.)
 
 ### <a name="configure-products-that-require-serial-number-reporting"></a>Konfigūruoti produktus, kuriems reikia serijinio numerio ataskaitos
 

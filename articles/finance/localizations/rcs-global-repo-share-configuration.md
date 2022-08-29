@@ -1,26 +1,26 @@
 ---
 title: RCS / bendrosios saugyklos ER konfigūracijų bendrinimas su išorinėmis organizacijomis
 description: Šiame straipsnyje paaiškinama, kaip naudojant "Microsoft" reguliavimo konfigūracijos tarnybas (RCS) / visuotinę saugyklą tiesiogiai su išorinėmis organizacijomis bendrai naudoti elektroninių ataskaitų (ER) konfigūracijas.
-author: JaneA07
+author: kfend
 ms.date: 05/04/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERWorkspace, RCS
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: ''
 ms.search.region: Global
-ms.author: janeaug
+ms.author: filatovm
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: f789fd86904c1e625be8fc5be3bfe456fe0659b4
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.custom: 97423
+ms.assetid: ''
+ms.search.form: ERSolutionTable, ERWorkspace, RCS
+ms.openlocfilehash: d9400ffcede9924a01391a433b570651d3f0c5e4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068755"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9284822"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>„Regulatory Configuration Service“ (RCS) bendrojoje saugykloje esančių elektroninių ataskaitų (ER) konfigūracijų bendrinimas su išorinėmis organizacijomis
 

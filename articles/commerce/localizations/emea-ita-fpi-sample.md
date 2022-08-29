@@ -2,29 +2,30 @@
 title: Fiskalinio spausdintuvo integracijos pavyzdys (Italija)
 description: Šiame straipsnyje pateikta Italijos finansinio integravimo pavyzdžio apžvalga Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2018-11-1
-ms.openlocfilehash: 2aa1851fe5fe447ba2dd4640be9881b37e54216e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2018-11-01
+ms.openlocfilehash: dff555a58c31b4e3daedd56b617dd44c4a87e601
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909395"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337253"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>Fiskalinio spausdintuvo integracijos pavyzdys (Italija)
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Šiame straipsnyje pateikta Italijos finansinio integravimo pavyzdžio apžvalga Microsoft Dynamics 365 Commerce.
 
-Italijos komercijos funkcijos apima ir elektroninį pardavimą (EKA) su iždo dokumentų spausdintuvu. [...](fiscal-integration-for-retail-channel.md)[Pavyzdys išplečia fiskalinio integravimo funkcijas, kad jis veikia su Epson FP-90II](https://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series) serijos spausdintuvais iš Epson ir leidžia ryšį su fiskaliniu spausdintuvu žiniatinklio serverio režimu per EpsonFPMate žiniatinklio tarnybą, naudojant fiskalinę ePOS-print API. Pavyzdys palaiko tik Registratore Telematinio (RT) režimą. Pavyzdys pateikiamas šaltinio kodo forma ir yra mažmeninės prekybos programinės įrangos kūrimo rinkinio (SDK) dalis.
+Italijos komercijos funkcijos apima ir elektroninį pardavimą (EKA) su iždo dokumentų spausdintuvu. [...](fiscal-integration-for-retail-channel.md)[Pavyzdys išplečia fiskalinio integravimo funkcijas, kad jis veikia su Epson FP-90II](https://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series) serijos spausdintuvais iš Epson ir įgalina ryšį su fiskaliniu spausdintuvu žiniatinklio serverio režimu per EpsonFPMate žiniatinklio tarnybą, naudodama fiskalinę ePOS-print API. Pavyzdys palaiko tik Registratore Telematinio (RT) režimą. Pavyzdys pateikiamas šaltinio kodo forma ir yra "Commerce" programinės įrangos kūrimo rinkinio (SDK) dalis.
 
-"Microsoft" neišleidžia jokios aparatūros, programinės įrangos ar dokumentacijos iš Epson. Norėdami gauti informacijos apie tai, kaip gauti fiskalinį spausdintuvą ir jį valdyti, susisiekite [su Epson S.p.A](https://www.epson.it).
+"Microsoft" neišleidžia jokios aparatūros, programinės įrangos ar dokumentacijos iš Epson. Norėdami gauti informacijos apie tai, kaip gauti fiskalinį spausdintuvą ir jį valdyti, susisiekite [su Epson S.p.A.](https://www.epson.it)
 
 ## <a name="scenarios"></a>Scenarijai
 
@@ -99,12 +100,10 @@ Fiskalinio spausdintuvo integravimo pavyzdys vykdo šias taisykles, susijusias s
 
 ## <a name="set-up-fiscal-integration-for-italy"></a>Nustatyti Italijos finansų integravimą
 
-Italijos fiskalinio spausdintuvo integravimo pavyzdys pagrįstas finansinio [integravimo funkcija](fiscal-integration-for-retail-channel.md) ir yra "Retail SDK" dalis. Pavyzdys yra **sprendimų saugyklos src\\ FiscalIntegration\\ EpsonFP90IISample**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) aplanke (pvz., [leidimo/9.33 pavyzdys).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/EpsonFP90IIISample) Pavyzdį [sudaro](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskalinio dokumento teikėjas, kuris yra "Commerce Runtime (CRT) plėtinys, ir fiskalinė jungtis, kuri yra "Commerce Hardware Station" plėtinys. Norėdami gauti daugiau informacijos apie tai, kaip naudoti "Retail SDK", [žr. "Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)[" architektūrą ir nepriklausomo pakavimo SDK sukūrimo pardavimo galimybių sukūrimą](../dev-itpro/build-pipeline.md).
+Italijos fiskalinio spausdintuvo integravimo pavyzdys pagrįstas finansinio [integravimo funkcija](fiscal-integration-for-retail-channel.md) ir yra "Commerce SDK" dalis. Pavyzdys yra sprendimų saugyklos **src\\ FiscalIntegration\\ EpsonFP90IISample**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) aplanke. Pavyzdį [sudaro](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskalinio dokumento teikėjas, kuris yra "Commerce Runtime (CRT) plėtinys, ir fiskalinė jungtis, kuri yra "Commerce Hardware Station" plėtinys. Norėdami gauti daugiau informacijos apie "Commerce SDK" naudojimą, [žr. "Download Commerce SDK" pavyzdžius ir nuorodų paketus iš GitHub NuGet](../dev-itpro/retail-sdk/sdk-github.md)[ir nustatykite nepriklausomos pakuotės SDK pardavimo galimybių sukūrimą](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> Dėl naujo nepriklausomo pakavimo [ir plėtinio modelio](../dev-itpro/build-pipeline.md) apribojimų, šiuo metu jo negalima naudoti šiame finansinio integravimo pavyzdyje. Turite naudoti ankstesnę "Retail SDK" versiją programavimo virtualiojoje kompiuteryje (VM) ciklo Microsoft Dynamics tarnybose (LCS). Daugiau informacijos ieškokite Italijos [(senesnės programos) fiskalinio spausdintuvo integravimo pavyzdžio diegimo rekomendacijose](emea-ita-fpi-sample-sdk.md).
->
-> Naujas nepriklausomas pakavimo ir plėtinio modelis, skirtas finansinio integravimo pavyzdžiui, planuojamas vėlesnėms versijoms.
+> [!NOTE]
+> Italijos fiskalinio spausdintuvo integravimo pavyzdys yra "Commerce SDK", kuris naudojamas "Commerce" versijoje 10.0.29. Naudojant "Commerce" 10.0.28 arba senesnę versiją, reikia naudoti ankstesnę "Retail SDK" versiją programavimo virtualiojoje kompiuteryje (VM) Microsoft Dynamics ciklo tarnybose (LCS). Daugiau informacijos ieškokite Italijos [(senesnės programos) fiskalinio spausdintuvo integravimo pavyzdžio diegimo rekomendacijose](emea-ita-fpi-sample-sdk.md).
 
 Atlikite finansinio integravimo nustatymo veiksmus, kaip aprašyta ["Commerce" kanalų finansinio integravimo nustatymas](setting-up-fiscal-integration-for-retail-channel.md).
 
@@ -123,18 +122,16 @@ Norėdami įjungti registravimo procesą, atlikite šiuos veiksmus norėdami nus
 1. Atsisiųsti finansinio dokumento teikėjo ir fiskalinio jungties konfigūracijos failus:
 
     1. Atidaryti sprendimų [Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) saugyklą.
-    1. Pasirinkite tinkamą paleidimo šakos versiją pagal savo SDK/programos versiją (pvz., **[paleidimas/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
+    1. Pasirinkite tinkamą paleidimo šakos versiją pagal savo SDK / programos versiją.
     1. Atidarykite **src \> FiscalIntegration \> EpsonFP90IIIAMple**.
-    1. Atsisiųskite finansinio dokumento teikėjo konfigūracijos failą svetainėje CommerceRuntime **DocumentProvider.EpsonFP90IIISample \> Configuration \> DocumentProviderEpsonFP90IIISample.xml \> (pvz., failas,** skirtas release/9.33 [...](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/EpsonFP90IIISample/CommerceRuntime/DocumentProvider.EpsonFP90IIISample/Configuration/DocumentProviderEpsonFP90IIISample.xml)).
-    1. Atsisiųskite finansinio jungties konfigūracijos failą, kurį reikia aparatūros vietoje HardwareStation **EpsonFP90IIIFiscalDeviceSample Configuration ConnectorEpsonFP90IISample.xml \> (pvz., \> leidimo / 9.33 failas \>).**[...](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/EpsonFP90IIISample/HardwareStation/EpsonFP90IIIFiscalDeviceSample/Configuration/ConnectorEpsonFP90IIISample.xml)
+    1. **Atsisiųskite finansinio dokumento teikėjo konfigūracijos failą commerceRuntime \> DocumentProvider.EpsonFP90IIISample \> Konfigūracijos \> DocumentProviderEpsonFP90IIISample.xml**.
+    1. Atsisiųskite finansinio **jungties konfigūracijos failą, kurį naudojant HardwareStation \> EpsonFP90IIIFiscalDeviceSample \> Configuration \> ConnectorEpsonFP90IISample.xml**.
 
-    > [!WARNING]
-    > Dėl naujo nepriklausomo pakavimo [ir plėtinio modelio](../dev-itpro/build-pipeline.md) apribojimų, šiuo metu jo negalima naudoti šiame finansinio integravimo pavyzdyje. Turite naudoti ankstesnę "Retail SDK" versiją LCS programuotojo VM. Šio fiskalinio integravimo pavyzdžio konfigūracijos failai yra toliau esančiuuose "Retail" SDK, esantis LCS programuotojo VM, aplankuose:
+    > [!NOTE]
+    > Naudojant "Commerce" 10.0.28 arba senesnę versiją, LCS kūrėjui VM reikia naudoti ankstesnę "Retail SDK" versiją. Šio fiskalinio integravimo pavyzdžio konfigūracijos failai yra toliau esančiuuose "Retail" SDK, esantis LCS programuotojo VM, aplankuose:
     >
     > - **Iždo dokumentų teikėjo konfigūracijos failas:** RetailSdk\\ SampleExtensions\\ CommerceRuntime\\ extension.DocumentProvider.EpsonFP90IIIISample\\ Configuration\\ DocumentProviderEpsonFP90IIIISample.xml
     > - **Iždo jungties konfigūracijos failas:** RetailSdk\\ SampleExtensions\\ HardwareStation\\ extension.EpsonFP90IIIFiscalDeviceSample\\ Configuration\\ ConnectorEpsonFP90IIISample.xml
-    > 
-    > Naujas nepriklausomas pakavimo ir plėtinio modelis, skirtas finansinio integravimo pavyzdžiui, planuojamas vėlesnėms versijoms.
 
 1. Eikite į **Mažmeninė prekyba ir prekyba \> „Headquarters“ sąranka \> Parametrai \> „Commerce“ bendrinami parametrai**. Skirtuke **Bendra** nustatykite pasirinktį **Įgalinti finansų integravimą** kaip **Taip**.
 1. Eikite į **"Retail" ir "Commerce \> Channel" \> nustatymą "Fiscal integration \> Fiscal"** dokumentų teikėjai ir įkelkite anksčiau atsisiųstą fiskalinio dokumento teikėjo konfigūracijos failą.
@@ -256,16 +253,15 @@ Toliau pateiktas numatytasis duomenų susiejimas yra įtrauktas į finansinio do
 
 ### <a name="configure-channel-components"></a>Konfigūruoti kanalo komponentus
 
-> [!WARNING]
-> Dėl naujo nepriklausomo pakavimo [ir plėtinio modelio](../dev-itpro/build-pipeline.md) apribojimų, šiuo metu jo negalima naudoti šiame finansinio integravimo pavyzdyje. Turite naudoti ankstesnę "Retail SDK" versiją LCS programuotojo VM. Daugiau informacijos ieškokite Italijos [(senesnės programos) fiskalinio spausdintuvo integravimo pavyzdžio diegimo rekomendacijose](emea-ita-fpi-sample-sdk.md).
->
-> Naujas nepriklausomas pakavimo ir plėtinio modelis, skirtas finansinio integravimo pavyzdžiui, planuojamas vėlesnėms versijoms.
+> [!NOTE]
+> - Italijos fiskalinio spausdintuvo integravimo pavyzdys yra "Commerce SDK", kuris naudojamas "Commerce" versijoje 10.0.29. Naudojant "Commerce" 10.0.28 arba ankstesnę versiją, LCS programuotojo VM turite naudoti ankstesnę "Retail SDK" versiją. Daugiau informacijos ieškokite Italijos [(senesnės programos) fiskalinio spausdintuvo integravimo pavyzdžio diegimo rekomendacijose](emea-ita-fpi-sample-sdk.md).
+> - Jūsų aplinkoje įdiegti "Commerce" pavyzdžiai nėra automatiškai atnaujinami, kai taikote "Commerce" komponentų aptarnavimo arba kokybės naujinimus. Reikiamus pavyzdžius turite atnaujinti neautomatiniu būdu.
 
 #### <a name="set-up-the-development-environment"></a>Programavimo aplinkos kūrimas
 
 Norėdami nustatyti programavimo aplinką, kad būtų galima patikrinti ir išplėsti pavyzdį, atlikite šiuos veiksmus.
 
-1. Užduokite arba atsisiųskite [Dynamics 365 Commerce sprendimų](https://github.com/microsoft/Dynamics365Commerce.Solutions) saugyklą. Pasirinkite tinkamą paleidimo šakos versiją pagal savo SDK / programos versiją. Norėdami gauti daugiau informacijos, žr. ["Download Retail SDK" pavyzdžius ir nuorodų paketus iš GitHub ir NuGet](../dev-itpro/retail-sdk/sdk-github.md).
+1. Užduokite arba atsisiųskite [Dynamics 365 Commerce sprendimų](https://github.com/microsoft/Dynamics365Commerce.Solutions) saugyklą. Pasirinkite tinkamą paleidimo šakos versiją pagal savo SDK / programos versiją. Norėdami gauti daugiau informacijos, žr. ["Download Commerce SDK" pavyzdžius ir nuorodų paketus iš GitHub ir NuGet](../dev-itpro/retail-sdk/sdk-github.md).
 1. Atidarykite **finansinio spausdintuvo integravimo sprendimą Dynamics365Commerce.Solutions\\ FiscalIntegration\\ EpsonFP90IIIISample\\ EpsonFP90IIISample.sln** ir sukurkite jį.
 1. Įdiegti CRT plėtinius:
 
@@ -303,10 +299,10 @@ Norėdami sugeneruoti [ir](fiscal-integration-sample-build-pipeline.md) paleisti
 
 ## <a name="design-of-extensions"></a>Plėtinių dizainas
 
-Italijos fiskalinio spausdintuvo integravimo pavyzdys pagrįstas finansinio [integravimo funkcija](fiscal-integration-for-retail-channel.md) ir yra "Retail SDK" dalis. Pavyzdys yra **sprendimų saugyklos src\\ FiscalIntegration\\ EpsonFP90IISample**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) aplanke (pvz., [leidimo/9.33 pavyzdys).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/EpsonFP90IIISample) Pavyzdį [sudaro](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskalinio dokumento teikėjas CRT, kuris yra plėtinys, ir fiskalinė jungtis, kuri yra "Commerce Hardware Station" plėtinys. Norėdami gauti daugiau informacijos apie tai, kaip naudoti "Retail SDK", [žr. "Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)[" architektūrą ir nepriklausomo pakavimo SDK sukūrimo pardavimo galimybių sukūrimą](../dev-itpro/build-pipeline.md).
+Italijos fiskalinio spausdintuvo integravimo pavyzdys pagrįstas finansinio [integravimo funkcija](fiscal-integration-for-retail-channel.md) ir yra "Commerce SDK" dalis. Pavyzdys yra sprendimų saugyklos **src\\ FiscalIntegration\\ EpsonFP90IISample**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) aplanke. Pavyzdį [sudaro](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskalinio dokumento teikėjas CRT, kuris yra plėtinys, ir fiskalinė jungtis, kuri yra "Commerce Hardware Station" plėtinys. Norėdami gauti daugiau informacijos apie "Commerce SDK" naudojimą, [žr. "Download Commerce SDK" pavyzdžius ir nuorodų paketus iš GitHub NuGet](../dev-itpro/retail-sdk/sdk-github.md)[ir nustatykite nepriklausomos pakuotės SDK pardavimo galimybių sukūrimą](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> Dėl naujo nepriklausomo pakavimo [ir plėtinio modelio](../dev-itpro/build-pipeline.md) apribojimų, šiuo metu jo negalima naudoti šiame finansinio integravimo pavyzdyje. Turite naudoti ankstesnę "Retail SDK" versiją LCS programuotojo VM. Daugiau informacijos ieškokite Italijos [(senesnės programos) fiskalinio spausdintuvo integravimo pavyzdžio diegimo rekomendacijose](emea-ita-fpi-sample-sdk.md). Naujas nepriklausomas pakavimo ir plėtinio modelis, skirtas finansinio integravimo pavyzdžiui, planuojamas vėlesnėms versijoms.
+> [!NOTE]
+> Italijos fiskalinio spausdintuvo integravimo pavyzdys yra "Commerce SDK", kuris naudojamas "Commerce" versijoje 10.0.29. Naudojant "Commerce" 10.0.28 arba ankstesnę versiją, LCS programuotojo VM turite naudoti ankstesnę "Retail SDK" versiją. Daugiau informacijos ieškokite Italijos [(senesnės programos) fiskalinio spausdintuvo integravimo pavyzdžio diegimo rekomendacijose](emea-ita-fpi-sample-sdk.md).
 
 ### <a name="commerce-runtime-extension-design"></a>"Commerce Runtime" plėtinio dizainas
 

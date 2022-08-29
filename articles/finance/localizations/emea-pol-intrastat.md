@@ -1,20 +1,20 @@
 ---
 title: Lenkijos „Intrastat“
 description: Šiame straipsnyje pateikiama informacija apie Intrastat ataskaitas Lenkijos ataskaitose.
-author: andosip
+author: AdamTrukawka
 ms.date: 11/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: kfend
+ms.author: atrukawk
 ms.search.validFrom: ''
-ms.openlocfilehash: 45bd1d3c90d0a8a8ad5db6d0b80c5eed0aa489e8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 473581fa4f3f1e8cac06d5748f28116e6615215e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871107"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281649"
 ---
 # <a name="polish-intrastat"></a>Lenkijos „Intrastat“
 
@@ -34,7 +34,7 @@ Puslapis **„Intrastat”** yra naudojamas generuoti ir skelbti informaciją ap
 | Nr. Išd. | Deklaracijos identifikatorius. Vertė sugeneruojama automatiškai. |
 | Tipo įvestis | Ataskaitos kryptis.</br><li>Gavimų atveju išspausdinama "P".</li><li>Išsiuntimams spausdinama "W".</li> |
 | Rodzaj | Deklaracijos tipas. Vertė nurodo, ar ataskaita yra originali deklaracija, ar koregavimo deklaracija. |
-| UC | Vieneto kodas, į kurį yra adresinė Intrastat deklaracija. Vertė yra nurodyta pvm **skyriaus, kuris** **yra** užsienio prekybos parametrų puslapio **skirtuke Agentas** **, lauke PVM** kodas. |
+| Uc | Vieneto kodas, į kurį yra adresinė Intrastat deklaracija. Vertė yra nurodyta pvm **skyriaus, kuris** **yra** užsienio prekybos parametrų puslapio **skirtuke Agentas** **, lauke PVM** kodas. |
 | Turiva | Įmonės pavadinimas. |
 | Miejmt sąsk., Yranumeris, KodPoczt užd. | Visas juridinio subjekto adresas. |
 | Nop | Lenkijos mokesčių identifikavimo numeris (pridėtinės vertės mokesčio [PVM] ID). |
@@ -479,7 +479,7 @@ Importuokite naujausią toliau pateikiamų ER konfigūracijų versiją.
     </tr>
     <tr>
     <td>
-    <p>UC</p>
+    <p>Uc</p>
     </td>
     <td>
     <p>Vieneto kodas.</p>
@@ -926,7 +926,7 @@ Importuokite naujausią toliau pateikiamų ER konfigūracijų versiją.
     </tr>
     <tr>
     <td>
-    <p>UC</p>
+    <p>Uc</p>
     </td>
     <td>
     <p>Vieneto kodas.</p>

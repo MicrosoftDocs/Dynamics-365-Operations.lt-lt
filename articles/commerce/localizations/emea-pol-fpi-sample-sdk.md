@@ -2,25 +2,29 @@
 title: Finansinio spausdintuvo integravimo pavyzdžio Lenkijai (senesni) diegimo rekomendacijos
 description: Šiame straipsnyje pateikiamos gairės, kaip iš "Retail" programinės įrangos kūrimo rinkinio (SDK) įdiegti Lenkijos fiskalinio Microsoft Dynamics 365 Commerce spausdintuvo integravimo pavyzdį.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 3de7559838a8d8caf64993a468f06ba2d50fff46
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2019-03-01
+ms.openlocfilehash: 178301e6d8e5f87376ed893e4bf5f966260cad62
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851162"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337246"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-poland-legacy"></a>Finansinio spausdintuvo integravimo pavyzdžio Lenkijai (senesni) diegimo rekomendacijos
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-Šiame straipsnyje pateikiamos Microsoft Dynamics 365 Commerce gairės, kaip įdiegti finansinio spausdintuvo integravimo pavyzdį Lenkijai iš "Retail" programinės įrangos kūrimo rinkinio (SDK) programuotojo virtualiojoje kompiuteryje (VM) Microsoft Dynamics ciklo tarnybose (LCS). Daugiau informacijos apie šį finansinio integravimo pavyzdį ieškokite Lenkijai skirtas [iždo dokumentų spausdintuvo integravimo pavyzdys](emea-pol-fpi-sample.md). 
+> [!IMPORTANT]
+> Vadovaukitės šiame straipsnyje rekomendacijomis tik tada, jei naudojate Microsoft Dynamics 365 Commerce 10.0.28 arba ankstesnę versiją. Pagal "Commerce" 10.0.29 versiją Lenkijos fiskalinio spausdintuvo integravimo pavyzdį galima rasti "Commerce" programinės įrangos kūrimo rinkinyje (SDK). Daugiau informacijos rasite Kanalo komponentų [konfigūravimas](./emea-pol-fpi-sample.md#configure-channel-components).
+
+Šiame straipsnyje pateikiamos gairės Dynamics 365 Commerce, kaip įdiegti finansinio spausdintuvo integravimo pavyzdį Lenkijai iš "Retail SDK" programavimo virtualiojoje kompiuteryje (VM) Microsoft Dynamics ciklo tarnybose (LCS). Daugiau informacijos apie šį finansinio integravimo pavyzdį ieškokite Lenkijai skirtas [iždo dokumentų spausdintuvo integravimo pavyzdys](emea-pol-fpi-sample.md). 
 
 Lenkijos finansinio integravimo pavyzdys yra mažmeninės prekybos SDK dalis. Informacijos, kaip įdiegti ir naudoti SDK, ieškokite Mažmeninės prekybos programinės [įrangos kūrimo rinkinio (SDK) architektūroje](../dev-itpro/retail-sdk/retail-sdk-overview.md). Šį pavyzdį sudaro "Commerce Runtime (CRT) ir Hardware" stoties plėtiniai. Norėdami vykdyti šį pavyzdį, turite modifikuoti ir sukurti " CRT Hardware" stoties projektus. Rekomenduojame naudoti nesumoduliuotą "Retail SDK", kad būtų atlikti šiame straipsnyje aprašyti pakeitimai. Taip pat rekomenduojame naudoti šaltinio valdymo sistemą, pvz.Azure DevOps, kurioje dar nėra pakeistų failų.
 

@@ -2,34 +2,32 @@
 title: Norvegijos grynųjų pinigų registrų diegimo rekomendacijos
 description: Šiame straipsnyje pateikta informacija apie tai, kaip įgalinti kasos aparato funkcijas Microsoft Dynamics 365 Commerce Norvegijos lokalizavimui.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/23/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 1f2226432237662e28b9e26017020ab81bb6026b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2019-03-01
+ms.openlocfilehash: 9149e9da7222699e9ca996b69e56fff07b77a737
+ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899072"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9345997"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway"></a>Norvegijos grynųjų pinigų registrų diegimo rekomendacijos
 
 [!include[banner](../includes/banner.md)]
 
-Šiame straipsnyje pateikta informacija apie tai, kaip įgalinti kasos aparato funkcijas Microsoft Dynamics 365 Commerce Norvegijos lokalizavimui. Lokalizavimą sudaro keli komponentų plėtiniai. Šie plėtiniai leidžia atlikti tokius veiksmus, kaip pasirinktinių laukų spausdinimas kvituose, papildomų audito įvykių registravimas, pardavimo operacijos ir mokėjimo operacijos elektroniniame kasos aparate (EKA), skaitmeniniu būdu pasirašant pardavimo operacijas ir ataskaitų spausdinimas vietiniu formatu. Daugiau informacijos apie Norvegijos lokalizavimą ieškokite Norvegijos grynųjų [pinigų registro funkcija](./emea-nor-cash-registers.md). Norėdami gauti daugiau informacijos apie "Commerce for Norway" konfigūravimą, žr [. "Commerce for Norway" nustatykite](./emea-nor-cash-registers.md#setting-up-commerce-for-norway).
+> [!IMPORTANT]
+> Veiksmus, aprašytus šiame straipsnyje, turite atlikti tik tada, jei naudojate Microsoft Dynamics 365 Commerce 10.0.29 arba vėlesnę versiją. Naudojant "Commerce" 10.0.28 arba senesnę versiją, reikia naudoti ankstesnę "Retail" programinės įrangos kūrimo rinkinio (SDK) versiją programavimo virtualiojoje kompiuteryje (VM) Microsoft Dynamics ciklo tarnybose (LCS). Norėdami gauti daugiau informacijos, žr. [Norvegijos grynųjų pinigų registrų diegimo gaires (iš ankstesnės programos)](./emea-nor-loc-deployment-guidelines.md). Jei naudojate "Commerce" 10.0.28 ar naujesnę versiją ir pereinate prie "Commerce" versijos 10.0.29 ar vėlesnės versijos, [turite atlikti veiksmus, nurodytus Norvegijos senesnėje "Commerce" versijoje](./emea-nor-fi-migration.md).
 
-> [!WARNING]
-> Dėl naujo nepriklausomo [pakavimo ir plėtinio modelio](../dev-itpro/build-pipeline.md) apribojimų, šiuo metu jo negalima naudoti šiai lokalizavimo funkcijai. Turite naudoti Norvegijos skaitmeninio pasirašymo pavyzdžio versiją ankstesnėje "Retail" programinės įrangos kūrimo rinkinio (SDK) versijoje, kūrėjų virtualiojoje kompiuteryje (VM) Microsoft Dynamics ciklo tarnybose (LCS). Daugiau informacijos rasite Norvegijos ([senesnės programos) grynųjų pinigų registrų diegimo rekomendacijose](./emea-nor-loc-deployment-guidelines.md).
->
-> Naujas nepriklausomas pakavimo ir plėtinio modelis, skirtas finansinio integravimo pavyzdžiui, planuojamas vėlesnėms versijoms.
+Šiame straipsnyje pateikta informacija apie tai, kaip įgalinti grynųjų pinigų registro funkciją Norvegijos komercijos lokalizavimui. Lokalizavimą sudaro keli komponentų plėtiniai, kurie leidžia atlikti tokius veiksmus, kaip pasirinktinių laukų spausdinimas kvituose, papildomų audito įvykių registravimas, pardavimo operacijos ir elektroninio kasos aparato (EKA) mokėjimo operacijos, skaitmeniniu būdu pasirašant pardavimo operacijas ir ataskaitų spausdinimas vietiniu formatu. Daugiau informacijos apie Norvegijos lokalizavimą ieškokite Norvegijos grynųjų [pinigų registro funkcija](./emea-nor-cash-registers.md). Norėdami gauti daugiau informacijos apie "Commerce for Norway" konfigūravimą, žr [. "Commerce for Norway" nustatykite](./emea-nor-cash-registers.md#setting-up-commerce-for-norway).
 
 ## <a name="set-up-fiscal-registration-for-norway"></a>Nustatyti Norvegijos finansų registraciją
 
-Norvegijos finansinio registracijos pavyzdys pagrįstas finansinio [integravimo funkcija ir](fiscal-integration-for-retail-channel.md) yra "Retail" SDK dalis. Pavyzdys yra **sprendimų saugyklos src\\ FiscalIntegration\\ SequentialSitctureNorway**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) aplanke (pvz., [paleidimo / 9.34 pavyzdys).](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34/src/FiscalIntegration/SequentialSignatureNorway) Pavyzdį [sudaro](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskalinio dokumento teikėjas ir fiskalinė jungtis, kuri yra "Commerce runtime" () plėtiniai CRT. Norėdami gauti daugiau informacijos apie tai, kaip naudoti "Retail SDK", [žr. "Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)[" architektūrą ir nepriklausomo pakavimo SDK sukūrimo pardavimo galimybių sukūrimą](../dev-itpro/build-pipeline.md).
+Norvegijos finansinio registracijos pavyzdys pagrįstas finansinio [integravimo funkcija](fiscal-integration-for-retail-channel.md) ir yra "Commerce SDK" dalis. Pavyzdys yra sprendimų saugyklos **src\\ FiscalIntegration\\ SequentialSikcijosnorway**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) aplanke. Pavyzdį [sudaro](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskalinio dokumento teikėjas ir fiskalinė jungtis, kuri yra "Commerce runtime" () plėtiniai CRT. Norėdami gauti daugiau informacijos apie "Commerce SDK" naudojimą, [žr. "Download Commerce SDK" pavyzdžius ir nuorodų paketus iš GitHub NuGet](../dev-itpro/retail-sdk/sdk-github.md)[ir nustatykite nepriklausomos pakuotės SDK pardavimo galimybių sukūrimą](../dev-itpro/build-pipeline.md).
 
 Atlikite finansinio registravimo nustatymo veiksmus, kurie aprašyti [nustatyti "Commerce" kanalų fiskalinę integraciją](./setting-up-fiscal-integration-for-retail-channel.md):
 
@@ -45,10 +43,10 @@ Vadovaukitės šiais veiksmais Norvegijos finansinio registravimo procesui "Comm
 1. Atsisiųskite finansinio dokumento teikėjo ir fiskalinio jungties konfigūracijos failus iš "Commerce SDK":
 
     1. Atidaryti sprendimų [Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) saugyklą.
-    1. Atidarykite paskutinę galima paleidimo šaką (pvz., **[paleidimas/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34)**).
+    1. Atidaryti paskutinę galimas paleidimo šakas.
     1. Atidarykite **src \> FiscalIntegration \> SequentialSi sunorway \> CommerceRuntime**.
-    1. **Atsisiųskite finansinio dokumento teikėjo konfigūracijos failą, kurį sudaro DocumentProvider.SequentialSignNorway \> Configuration \> DocumentProviderSequentialSinorwaySample.xml** (pvz., [leidimo / 9.34 failas](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.34/src/FiscalIntegration/SequentialSignatureNorway/CommerceRuntime/DocumentProvider.SequentialSignNorway/Configuration/DocumentProviderSequentialSignatureNorwaySample.xml)).
-    1. Atsisiųskite finansinio **jungties konfigūracijos failą, nurodytą Connector.SequentialSignNorway \> Configuration \> ConnectorSequentialSi parametrųNorwaySample.xml (pvz** ., [leidimo/9.34 failas](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.34/src/FiscalIntegration/SequentialSignatureNorway/CommerceRuntime/Connector.SequentialSignNorway/Configuration/ConnectorSequentialSignatureNorwaySample.xml)).
+    1. Atsisiųskite finansinio dokumento teikėjo konfigūracijos failą **, kurį sudaro DocumentProvider.SequentialSignNorway \> Configuration \> DocumentProviderSequentialSinorwaySample.xml**.
+    1. Atsisiųskite finansinio jungties konfigūracijos failą, kurį reikia **atidaryti per Connector.SequentialSignNorway \> Configuration \> ConnectorSequentialSi parametrųNorwaySample.xml**.
 
 1. Eikite į " **Retail" ir "Commerce \> Headquarters" nustatymo \> parametrų bendrai \> naudojamus parametrus**. Skirtuke **Bendra** nustatykite pasirinktį **Įgalinti finansų integravimą** kaip **Taip**.
 1. Eikite į **"Retail" ir "Commerce Channel" \> nustatymą "Fiscal integration \> Fiscal \>" jungtis ir įkelkite anksčiau atsisiųstą "Fiscal** Connector" konfigūracijos failą.
@@ -99,11 +97,11 @@ Po to turite sukonfigūruoti savo sertifikatų, saugomų rakto Vault arba vietin
 
 ### <a name="configure-channel-components"></a>Konfigūruoti kanalo komponentus
 
-### <a name="development-environment"></a>Programavimo aplinka
+#### <a name="development-environment"></a>Programavimo aplinka
 
 Norėdami nustatyti programavimo aplinką, kad būtų galima patikrinti ir išplėsti pavyzdį, atlikite šiuos veiksmus.
 
-1. Užduokite arba atsisiųskite [Dynamics 365 Commerce sprendimų](https://github.com/microsoft/Dynamics365Commerce.Solutions) saugyklą. Pasirinkite tinkamą paleidimo šakos versiją pagal savo SDK / programos versiją. Norėdami gauti daugiau informacijos, žr. ["Download Retail SDK" pavyzdžius ir nuorodų paketus iš GitHub ir NuGet](../dev-itpro/retail-sdk/sdk-github.md).
+1. Užduokite arba atsisiųskite [Dynamics 365 Commerce sprendimų](https://github.com/microsoft/Dynamics365Commerce.Solutions) saugyklą. Pasirinkite tinkamą paleidimo šakos versiją pagal savo SDK / programos versiją. Norėdami gauti daugiau informacijos, žr. ["Download Commerce SDK" pavyzdžius ir nuorodų paketus iš GitHub ir NuGet](../dev-itpro/retail-sdk/sdk-github.md).
 1. **Dalyje Dynamics365Commerce.Solutions** **\\ FiscalIntegration\\ SequentialSi siuntiniųnorway atidarykite sprendimą SequentialSi siuntiniųnorway** ir sukurkite jį.
 1. Įdiegti CRT plėtinius:
 
@@ -126,7 +124,7 @@ Norėdami nustatyti programavimo aplinką, kad būtų galima patikrinti ir išpl
             ModernPOS.SequentialSignNorway.Installer.exe install --verbosity 0
             ```
 
-### <a name="production-environment"></a>Gamybos aplinka
+#### <a name="production-environment"></a>Gamybos aplinka
 
 Norėdami sugeneruoti [ir](fiscal-integration-sample-build-pipeline.md) paleisti debesies skalės vienetą ir savitarnos diegiant finansinio integravimo pavyzdžio paketus, atlikite nurodytus veiksmus. SequentialSi katalogeNorway build-pipeline.jaml **šablono FAILĄ JAML** **galima rasti sprendimų saugyklos YAML_Files\\**[Dynamics 365 Commerce pardavimo galimybių aplanke.](https://github.com/microsoft/Dynamics365Commerce.Solutions)
 

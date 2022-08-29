@@ -6,22 +6,22 @@ ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 15831
-ms.assetid: 465893a5-6b4f-4c5f-b305-db071df2d33f
 ms.search.region: global
-ms.search.industry: Retail
-ms.author: yabinl
+ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0450dbaa37365705ca59fd2223c9d3866054c12a
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.custom: 15831
+ms.assetid: 465893a5-6b4f-4c5f-b305-db071df2d33f
+ms.search.industry: Retail
+ms.search.form: RetailTenderTypeTable
+ms.openlocfilehash: d16cdf237042471d367adb7081bf34e9c8a9460f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779575"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272828"
 ---
 # <a name="payment-methods"></a>Mokėjimo būdai
 
@@ -49,8 +49,8 @@ Norėdami nustatyti mokėjimo būdus, turite atlikti toliau nurodytus veiksmus.
 
 ## <a name="handle-change-tendering-for-payment-methods"></a>Tvarkyti mokėjimo būdų mokėjimo priemonių pokyčius
 
-Kai kurie mokėjimo būdai nepalaiko tiesioginio tiesioginio mokėjimo priemonių panaudojimo, jei lėšos atiteks klientams atliekant operacijas, skirtas pardavimui. Mokėjimo **priemonėje** keisti galima naudoti tik **·** grynųjų pinigų ir valiutos mokėjimo metodus. 
+Kai kurie mokėjimo būdai nepalaiko tiesioginio tiesioginio mokėjimo priemonių panaudojimo, jei lėšos atiteks klientams atliekant operacijas, skirtas pardavimui. Mokėjimo priemonėje **keisti** **galima** naudoti tik grynųjų pinigų ir valiutos mokėjimo metodus. 
 
-Jei norite tvarkyti atvejus, kai operacijos metu reikalingas mokėjimo priemonės keitimas, bet mokėjimo būdas jo nepalaiko, galite nurodyti mokėjimo **priemonės** keitimo būdą. Kai parduotuvei nustatote parduotuvės mokėjimo metodus, pasirinkite naudotiį mokėjimo būdą. Tada skyriaus **Keitimas lauke Mokėjimo priemonės keitimas įveskite mokėjimo priemonės keitimo mokėjimo** **·** pasirinktį. Pavyzdžiui, galite įvesti **1, jei norite** nurodyti, kad grynieji pinigai gali būti naudojami kaip mokėjimo priemonės keitimo pasirinktis.
+Jei norite tvarkyti atvejus, kai operacijos metu reikalingas mokėjimo priemonės keitimas, bet mokėjimo būdas jo nepalaiko, galite nurodyti mokėjimo **priemonės keitimo** būdą. Kai parduotuvei nustatote parduotuvės mokėjimo metodus, pasirinkite naudotiį mokėjimo būdą. Tada skyriaus Keitimas **lauke** Mokėjimo priemonės keitimas **įveskite** mokėjimo priemonės keitimo mokėjimo pasirinktį. Pavyzdžiui, galite įvesti 1, **jei norite nurodyti**, kad grynieji pinigai gali būti naudojami kaip mokėjimo priemonės keitimo pasirinktis.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

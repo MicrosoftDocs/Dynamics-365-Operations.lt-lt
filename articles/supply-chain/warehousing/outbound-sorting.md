@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 95afa46140de863ecdf61b0ef54e6d9e9ece91d7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ec7bc573329a0f8a37b2fd17dcb998ec161b04e8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897319"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336342"
 ---
 # <a name="outbound-sorting"></a>Siunčiamas rūšiavimas
 
@@ -30,7 +30,7 @@ ms.locfileid: "8897319"
 
 ## <a name="turn-on-the-outbound-sorting-feature"></a>Įjunkite Siunčiamo rūšiavimo funkciją
 
-Prieš naudodami šią funkciją, turite ją įjungti savo sistemoje. Administratoriai gali naudoti [Funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Ten ši funkcija pateikiama taip:
+Kad šią funkciją būtų galima naudoti, ją reikia įjungti jūsų sistemoje. Administratoriai gali naudoti [Funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Ten ši funkcija pateikiama taip:
 
 - **Modulis:** *Sandėlio valdymas*
 - **Funkcijos pavadinimas:** *Siunčiamas rūšiavimas*

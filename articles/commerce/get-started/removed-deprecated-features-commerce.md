@@ -1,8 +1,8 @@
 ---
 title: Pašalintos arba nebenaudojamos „Dynamics 365 Commerce“ funkcijos
 description: Šiame straipsnyje aprašomos priemonės, kurios buvo pašalintos arba suplanuotos pašalinti Dynamics 365 Commerce.
-author: josaw
-ms.date: 07/11/2022
+author: josaw1
+ms.date: 08/23/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a59d62ad846eed659fa4e70390ebafc40127df0f
-ms.sourcegitcommit: ef56b5d0ed26e373add5dec63168e08ade40573e
+ms.openlocfilehash: 59ffcc00d67f6538980dec8965f894eb51f7230d
+ms.sourcegitcommit: 649f1db26da8f20602f11180fc565b7c59eaf545
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "9138592"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337602"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Pašalintos arba nebenaudojamos „Dynamics 365 Commerce“ funkcijos
 
@@ -26,12 +26,44 @@ ms.locfileid: "9138592"
 Šiame straipsnyje aprašomos priemonės, kurios buvo pašalintos arba suplanuotos pašalinti Dynamics 365 Commerce.
 
 - *Pašalinta* funkcija nebėra įtraukta į produktą.
-- *Nerekomenduojama* funkcija nebėra aktyviai tobulinama ir gali būti pašalinta iš būsimo naujinio.
+- Pasenusi *funkcija nėra* aktyvi ir gali būti pašalinta ateityje į atnaujinimą.
 
 Šis sąrašas skirtas suteikti jums informacijos apie pašalintas ir nebenaudojamas funkcijas, kad galėtumėte geriau planuoti savo darbą. 
 
 > [!NOTE]
 > Išsami informacija apie finansų ir operacijų programėlių objektus pateikta techninės [nuorodos ataskaitose](/dynamics/s-e/). Galite palyginti skirtingas šių ataskaitų versijas ir sužinoti apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje finansų ir operacijų programėlių versijoje.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10029-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Commerce“ 10.0.29 versijoje
+
+### <a name="commerce-parameters-setting---allow-price-adjustments-to-increase-product-price"></a>"Commerce" parametrų nustatymas – leisti koreguoti kainą, kad būtų padidinta produkto kaina
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo/pašalinimo priežastis** | Turėjome šį parametrą kontroliuoti, ar kainos koregavimo funkcija leidžia padidinti produkto kainą. Kai šis parametras išjungtas, naudojant kainos koregavimo funkcijos organizacijas galima nustatyti tik produkto vieneto kainą, mažesnę nei jo bazinė kaina ir prekybos sutarties pardavimo kaina. Nustatome šio parametro nusidėvėjimą, nes kainos koregavimo funkcija buvo atnaujinta, kad palaikytumėte dviaigius koregavimus (padidėjimą arba sumažėjimą) langelyje. |
+| **Pakeitė kita funkcija?**   | Ne |
+| **Paveiktos produkto sritys**         | Kainodara ir nuolaidos |
+| **Visuotinio diegimo parinktis**              | Viskas |
+| **Būsena**                         | Pasenusi: numatyta, kad šis parametras įjungtas, nes "Commerce" versija 10.0.29 yra pašalinta 2023 m. spalio mėn. |
+
+### <a name="commerce-parameters-setting---enable-price-report-for-retail-store"></a>"Commerce" parametrų nustatymas – įgalinti parduotuvės kainos ataskaitą
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo/pašalinimo priežastis** | Turėjome šį parametrą kontroliuoti, ar kainos ataskaitos funkciją galima naudoti parduotuvės konfigūravimo formoje. Nustatome šio parametro nusidėvėjimą, nes parduotuvės konfigūravimo forma buvo atnaujinta taip, kad visada būtų galima naudoti kainos ataskaitos funkciją kaip standartinę funkciją. |
+| **Pakeitė kita funkcija?**   | Ne |
+| **Paveiktos produkto sritys**         | Kainodara ir nuolaidos |
+| **Visuotinio diegimo parinktis**              | Viskas |
+| **Būsena**                         | Pasenusi: šis parametras bus pašalintas 2023 m. spalio mėn. |
+
+### <a name="commerce-parameters-setting---use-todays-date-to-calculate-prices"></a>"Commerce" parametrų nustatymas – skaičiuojant kainas naudoti šiandienos datą
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Nerekomendavimo/pašalinimo priežastis** | Tiekimo grandinės valdymo (SCM) kainodaros sistema palaiko kainų skaičiavimą, pagrįstą pageidaujama siuntimo data arba pageidaujama gavimo data, kartu su šiandienos data. "Commerce" kainodaros modulis palaiko tik kainos skaičiavimą, pagrįstą šiandienos data. Klientams, kurie naudoja ir SCM, ir "Commerce" galimybes, pateikėme šį parametrą ir rekomenduojama, kad klientai visada jį nustatytų kaip "Taip **",** kad du kainų klientai galėtų veikti kartu. Nustatome šio parametro nusidėvėjimą, nes jis nekeičia skaičiavimo veikimo būdo ir yra perteklinis. |
+| **Pakeitė kita funkcija?**   | Ne |
+| **Paveiktos produkto sritys**         | Kainodara ir nuolaidos |
+| **Visuotinio diegimo parinktis**              | Viskas |
+| **Būsena**                         | Pasenusi: numatyta, kad šis parametras įjungtas, nes "Commerce" versija 10.0.29 yra pašalinta 2023 m. spalio mėn. |
 
 ## <a name="feature-deprecation-effective-july-2022"></a>Priemonės pasenusios 2022 m. liepos mėn.
 
@@ -39,26 +71,11 @@ ms.locfileid: "9138592"
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nerekomendavimo/pašalinimo priežastis** | Komanda Dynamics 365 Commerce išanalizvo Commernce analizės (Preview) priemonės naudojimą ir naudojimą, ir buvo priimtas sprendimas daugiau nebesikelti į priekį, kad priemonė būtų atstojama nuo bendro užimtumo.   |
-| **Pakeitė kita funkcija?**   | Šiuo metu "Commerce analytics" (Peržiūra) nebus pakeista kita funkcija ar sprendimu. Neapdorotų operacijų ir pagrindinių duomenų eksportavimas iš finansų ir operacijų programėlių į "Azure Data Pvm" išlieka pasiekiamas, [kaip paaiškinta finansų ir operacijų programėlių eksportavime į duomenis](../../fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake.md). Partneriai ir klientai gali sverti, kad duomenų srautas kuriamas pagal verslo poreikius skirtas analizės ataskaitas.
+| **Nerekomendavimo/pašalinimo priežastis** | Komanda Dynamics 365 Commerce išanalizvo "Commerce analytics" (Peržiūra) priemonės naudojimą ir naudojimą, be to, buvo priimtas sprendimas daugiau nebesikelti į priekį ir nustatyti funkciją bendro užimtumo.   |
+| **Pakeitė kita funkcija?**   | Šiuo metu "Commerce analytics" (Peržiūra) nebus pakeista kita funkcija ar sprendimas. Neapdorotų operacijų ir pagrindinių duomenų eksportavimas iš finansų ir operacijų programėlių į "Azure Data Pvm" išlieka pasiekiamas, [kaip paaiškinta finansų ir operacijų programėlių eksportavime į duomenis](../../fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake.md). Partneriai ir klientai gali sverti, kad duomenų srautas kuriamas pagal verslo poreikius skirtas analizės ataskaitas.
 | **Paveiktos produkto sritys**         | „Commerce“ analizė (peržiūros versija) |
 | **Visuotinio diegimo parinktis**              | Viskas |
-| **Būsena**                         | 2022 m. rugpjūčio 30 d. išmessime iš šios priemonės.  Nuo šios datos į priekį nebus atnaujinama dabartinėse ataskaitose, kurią Power BI pateikė "Commerce analytics" (peržiūra).     |
-
-
-## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Commerce“ 10.0.25 versijoje
-
-### <a name="modern-point-of-sale-mpos"></a>Modernusis elektroninis kasos aparatas (MPOS)
-
-Modernaus pardavimo taškų (MPOS) programa bus pasenusi "Commerce" versijoje 10.0.25 ir pakeista parduotuvės "Commerce" programa.
-
-| &nbsp;  | &nbsp; |
-|------------|--------------------|
-| **Nerekomendavimo/pašalinimo priežastis** | Parduotuvės programėlės yra tolydas, siūlantis Dynamics 365 Commerce cornerchannel. Mes nuolat atnaujiname, norėdami suteikti modernaus ir išmanios parduotuvės patirties, ir toliau modernizuoti savo sprendimą, iš naujo nustatome naujus pakeitimų rinkinius, kurie smarkiai pagerins IT operacijas ir vartotojų patirtį kartu su esamomis parduotuvės programomis, esamomis "Windows". Nauja parduotuvės komercijos programa yra esamo MPOS technologijos atnaujinimas. Tai pagerina našumą, patikimumą ir ilgalaikį "Windows" platformos palaikymą, todėl nereikia perpakuoti programos su kiekvienu naujuoju. |
-| **Pakeitė kita funkcija?**   |  [„Store Commerce“](../dev-itpro/store-commerce.md) |
-| **Paveiktos produkto sritys**         | Modernusis pardavimo taškas |
-| **Visuotinio diegimo parinktis**              | Viskas |
-| **Būsena**                         | Pasenusi: naudojant "Commerce" 10.0.25 versiją MPOS diegimo programa, išsiųsta per LCS virtualiuosius įrenginius (VMs) bus pašalinta iš "Windows 2023". |
+| **Būsena**                         | Ieškome šios priemonės išjungti iki 2022 metų rugpjūčio 30 d.  Nuo šios datos į priekį nebus atnaujinama dabartinėse ataskaitose, kurią Power BI pateikė "Commerce analytics" (peržiūra).     |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Commerce“ 10.0.21 versijoje
 
@@ -70,7 +87,7 @@ Modernaus pardavimo taškų (MPOS) programa bus pasenusi "Commerce" versijoje 10
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nerekomendavimo / pašalinimo priežastis** | <p>„Commerce" parametruose **esantis persidengiančių nuolaidų** nustatymai „Commerce“ parametruosi valdiklis, kaip „Commerce“ kainų variklis ieško ir nustato pasirinktinas persidengiančių nuolaidų derinius. Šiuo metu jis siūlo tris pasirinktis:<p><ul><li> **Geriausias našumas** – ši pasirinktis naudoja išplėstinį heuristikos algoritmą ir [ribinės vertės vertinimo](../optimal-combination-overlapping-discounts.md) metodą, siekiant nustatyti prioritetą, įvertinti ir nustatyti geriausią nuolaidų kombinaciją laiku.</li><li>**Subalansuotas skaičiavimas** – dabartinio kodo pagrindu ši pasirinktis veikia kaip ir **našumo našumo** pasirinktis. Todėl iš esmės tai yra pasikartojanti pasirinktis.</li><li>**Išsamus skaičiavimas** – ši pasirinktis naudoja seną algoritmą, kuris kainų skaičiavimo metu naudoja visas galimas nuolaidų kombinacijas. Užsakymams, kurie turi dideles eilutes ir kiekius, ši pasirinktis gali sukelti našumo problemų.</li></ul><p>Norėdami supaprastinti konfigūraciją, pagerinti našumą ir sumažinti incidentus, kuriuos sukėlė senasis algoritmas, visiškai pašalinsime persidengiančių **nuolaidų tvarkymo parametrą** ir atnaujinsime vidinę Komercijos kainodaros modulio logiką, kad dabar būtų naudojamas tik išplėstinis algoritmas (t. t. algoritmas, esantis be **geriausios našumo** pasirinkties).</p> |
+| **Nerekomendavimo / pašalinimo priežastis** | <p>„Commerce" parametruose **esantis persidengiančių nuolaidų** nustatymai „Commerce“ parametruosi valdiklis, kaip „Commerce“ kainų variklis ieško ir nustato pasirinktinas persidengiančių nuolaidų derinius. Šiuo metu jis siūlo tris pasirinktis:<p><ul><li> **Geriausias našumas** – ši pasirinktis naudoja išplėstinį heuristikos algoritmą ir [ribinės vertės vertinimo](../optimal-combination-overlapping-discounts.md) metodą, siekiant nustatyti prioritetą, įvertinti ir nustatyti geriausią nuolaidų kombinaciją laiku.</li><li>**Subalansuotas skaičiavimas** – dabartinio kodo pagrindu ši pasirinktis veikia kaip ir **našumo našumo** pasirinktis. Todėl iš esmės tai yra pasikartojanti pasirinktis.</li><li>**Išsamus skaičiavimas** – ši pasirinktis naudoja seną algoritmą, kuris kainų skaičiavimo metu naudoja visas galimas nuolaidų kombinacijas. Užsakymams, kurie turi dideles eilutes ir kiekius, ši pasirinktis gali sukelti našumo problemų.</li></ul><p>Norėdami palengvinti konfigūravimą, pagerinti našumą ir sumažinti seno algoritmo sukeliamus incidentus, **visiškai pašalinsime persidengiančių nuolaidų tvarkymo parametrą ir atnaujinsime vidinę Komercijos kainodaros modulio logiką, kad dabar būtų naudojamas tik išplėstinis algoritmas (t. t. algoritmas,** **esantis** be geriausios našumo pasirinkties).</p> |
 | **Pakeitė kita funkcija?**   | Ne. Rekomenduojame organizacijoms, kurios naudoja **subalansuotų skaičiavimų** ar **išsamių skaičiavimų** pasirinktį pakeisti į parinktį **Geriausias našumas** prieš panaudoant šią funkciją. |
 | **Paveiktos produkto sritys**         | Kainodara ir nuolaidos |
 | **Visuotinio diegimo parinktis**              | Visos |
@@ -109,7 +126,7 @@ Daugiau informacijos, žr.:
     + [„Cloud Scale Unit“](https://github.com/microsoft/Dynamics365Commerce.ScaleUnit)
     + [POS, CSU ir Hardware stotis](https://github.com/microsoft/Dynamics365Commerce.InStore)
 
-### <a name="modernpossln-and-cloudpossln-in-the-retail-sdk"></a>ModernPos.Sln ir CloudPos.sln būti mažmeninės prekybos SDK
+### <a name="modernpossln-and-cloudpossln-in-the-retail-sdk"></a>ModernPos.Sln ir CloudPos.sln mažmeninės prekybos SDK
 
 EKA plėtinio kūrimas naudojant ModernPos.sln, CloudPos.sln, EKA. Extension.csproj ir EKA aplankas yra pasenusias leidime 10.0.21. Tęskite toliau, naudokite nuo EKA nepriklausomos pakuotės SDK, skirtą EKA plėtinių.
 
@@ -127,11 +144,11 @@ EKA plėtinio kūrimas naudojant ModernPos.sln, CloudPos.sln, EKA. Extension.csp
 
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo/pašalinimo priežastis** | Pradėdami šiame leidime, **„Commerce“ grafiko kūrimo parametrai** formoje „Dynamics 365“ būstinėje, laukelis **Visas duomenų rinkinio kūrimo intervalas dienomis** nebegalios. Taip pat nuo šio leidimo laukelis bus vizualiai pašalintas taip, kad vertės keisti nepavyks. Vertė liks **0**. |
+| **Nebenaudojimo/pašalinimo priežastis** | Pradėdami šiame leidime, **„Commerce“ grafiko kūrimo parametrai** formoje „Dynamics 365“ būstinėje, laukelis **Visas duomenų rinkinio kūrimo intervalas dienomis** nebegalios. Laukas taip pat paleidžiamas šiame leidime, todėl laukas bus vizuališkai pašalintas, kad vertės būtų galima redaguoti. Vertė liks **0**. |
 | **Pakeitė kita funkcija?**   | Ne |
-| **Paveiktos produkto sritys**         | „Dynamics 365 Commerce” |
-| **Visuotinio diegimo parinktis**              | Visos|
-| **Būsena**                         | Nebenaudojama. Nenaudokite šio laukelio ir nekeiskite vertės jame.|
+| **Paveiktos produkto sritys**         | Dynamics 365 Commerce |
+| **Visuotinio diegimo parinktis**              | Viskas|
+| **Būsena**                         | Nerekomenduojama. Nenaudokite šio lauko arba pakeiskite jo vertę.|
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10015-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Commerce“ 10.0.15 versijoje
 
@@ -177,7 +194,7 @@ EKA plėtinio kūrimas naudojant ModernPos.sln, CloudPos.sln, EKA. Extension.csp
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Kompiuterinės įrangos plėtinys naudojantis „IHardwareStationController“ buvo pašalintas tam, kad būtų pateiktas supaprastintas plėtinio modelis. Naujos versijos turės tik „IController“ klasę be jokios papildomos klasės versijos ir taip bus išvengta priklausomybės nuo pagrindinių kompiuterinės įrangos stoties bibliotekų, nes ankstesnis plėtinys turėjo remtis keliomis bibliotekomis.) |
-| **Pakeitė kita funkcija?**   | Rekomenduojama naudoti „IController“ klasės plėtinio modelį importuojant „NuGet“ (Microsoft.Dynamics.Commerce.Hosting.Contracts) paketą. |
+| **Pakeitė kita funkcija?**   | Rekomenduojama naudoti IController NuGet klasės plėtinio modelį importuojant paketą (Microsoft.Dynamics.Commerce.Hosting.Contracts). |
 | **Paveiktos produkto sritys**         | Kompiuterinės įrangos stoties plėtiniai |
 | **Visuotinio diegimo parinktis**              | Visi / Viskas |
 | **Būsena**                         | Nebenaudojama: nuo 10.0.11 leidimo. |
@@ -187,18 +204,18 @@ EKA plėtinio kūrimas naudojant ModernPos.sln, CloudPos.sln, EKA. Extension.csp
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Operacijų paėmimas ir gavimas nebenaudojamas dėl naujos operacijų pertvarkos. |
-| **Pakeitė kita funkcija?**   | Taip. Jie pakeičiami dviem naujomis EKA operacijomis: gaunama operacija (804) ir siunčiama operacija (805).|
+| **Pakeitė kita funkcija?**   | Taip. Jis pakeistas dviem naujomis EKA operacijomis: gavimo operacija (804) ir siuntimo operacija (805).|
 | **Paveiktos produkto sritys**         | Elektroninio kasos aparato (EKA) programa |
 | **Visuotinio diegimo parinktis**              | Visi / Viskas |
 | **Būsena**                         | Nebenaudojama: nuo 10.0.10 versijos išleidimo paėmimo ir gavimo operacijos nebegaus naujų funkcijų naujinimų. Būsimuose leidimuose bus atliktos tik kritinių operacijos klaidų pataisos. Visi klientai skatinami pereiti prie naujų [gaunamų operacijų](../pos-inbound-inventory-operation.md) ir [siunčiamų operacijų](../pos-outbound-inventory-operation.md), kurios ir toliau bus mūsų ilgalaikio produktų veiksmų plano dalis. |
 
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-1007-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Commerce“ 10.0.7 versijoje
-### <a name="commerce-getproductavailabilities-and-getavailableinventorynearby-apis"></a>„Commerce” GetProductAvailabilities ir GetAvailableInventoryNearby API
+### <a name="commerce-getproductavailabilities-and-getavailableinventorynearby-apis"></a>Komercijos GetProductAvailabilities ir GetAvailableInventoryNearby APIs
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Buvo sukurtos naujos optimizuotos API, kad pakeistų GetProductAvailabilities ir GetAvailableInventoryNearby API. |
-| **Pakeitė kita funkcija?**   | Taip, jos pakeičiamos GetEstimatedAvailability ir GetEstimatedProductWarehouseAvailability API. |
+| **Nerekomendavimo/pašalinimo priežastis** | Buvo sukurtos naujos optimizuotos API, kad pakeistų GetProductAvailabilities ir GetAvailableInventoryNearby API. |
+| **Pakeitė kita funkcija?**   | Taip: jį pakeitė GetEstimatedAvailability ir GetEstimatedProductWarewareavailability APIs. |
 | **Paveiktos produkto sritys**         | „e-Commerce“ programos SDK |
 | **Visuotinio diegimo parinktis**              | Visi / Viskas |
 | **Būsena**                         | Nebenaudojama: nuo 10.0.7 versijos išleidimo nebebus GetProductAvailabilities ir GetAvailableInventoryNearby inžinerinių investicijų. Organizacijos, naudojančios šias API „e-Commerce“ diegimuose, turėtų konvertuoti į naujas GetEstimatedAvailability ir GetEstimatedProductWarehouseAvailability API ir įjungti [funkciją Optimizuotas produkto pasiekiamumo skaičiavimas](../calculated-inventory-retail-channels.md).  |

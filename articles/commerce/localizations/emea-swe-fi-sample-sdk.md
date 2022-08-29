@@ -7,14 +7,14 @@ ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
+ms.author: josaw
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 05a49de43282c449c7b99072d8ac3ac4a5f2a67f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fcc35a2203641b24fe4edd2ab34f2e4d5db9bb53
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870552"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324303"
 ---
 # <a name="deployment-guidelines-for-the-control-unit-integration-sample-for-sweden-legacy"></a>Švedijos (senesnių) kontrolės vieneto integravimo pavyzdžio diegimo rekomendacijos
 
@@ -261,7 +261,7 @@ Perkėlimo procesą turėtų sudaryti toliau pateikiami veiksmai.
 
 ### <a name="migration-in-a-development-environment"></a>Perkėlimas programavimo aplinkoje
 
-#### <a name="update-crt"></a>Naujinti CRT
+#### <a name="update-crt"></a>Atnaujinti CRT
 
 1. Suraskite **Runtime.Extensions.DocumentProvider.CleanCashSample** projektą ir sukurkite jį.
 2. Aplanke Runtime.Extensions.DocumentProvider.CleanCashSample talpyklos debug **\\ raskite failą Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll\\.** **·**
@@ -386,7 +386,7 @@ Perkėlimo procesą turėtų sudaryti toliau pateikiami veiksmai.
 
 ### <a name="migration-in-a-production-environment"></a>Perkėlimas gamybos aplinkoje
 
-#### <a name="update-crt"></a>Naujinti CRT
+#### <a name="update-crt"></a>Atnaujinti CRT
 
 1. Pašalinkite ankstesnį CRT plėtinį **iš Konfigūracijos failų CommerceRuntime.ext.config** **ir CommerceRuntime.MPOSOffline.Ext.config** **, esantį aplanke RetailSdk\\ Assets**.
 

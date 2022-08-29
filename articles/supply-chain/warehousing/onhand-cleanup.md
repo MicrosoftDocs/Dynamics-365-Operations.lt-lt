@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: a82a3b26f2bf7cb546383da047d18c2997569ca5
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: df20f00a639d237bf8446f24a2ad4cbbfcf36615
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065156"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334392"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Sandėlio valdymo turimų įrašų valymo užduotis
 
@@ -26,7 +26,7 @@ ms.locfileid: "9065156"
 
 Užklausų, naudojamų skaičiuojant turimas atsargas, efektyvumas priklauso nuo įtrauktų lentelių įrašų skaičius. Vienas iš būdų pagerinti efektyvumą yra sumažinti įrašų, kuriuos turi įvertinti duomenų bazė, skaičių.
 
-Šiame straipsnyje aprašoma turimo failo įrašų valymo užduotis, kuri panaikina nenaudojamus įrašus ir `InventSum` lenteles `WHSInventReserve`. Šiose lentelėse saugoma turima informacija apie prekes, kurios yra įjungtos atliekant sandėlio valdymo apdorojimą. (Šios prekės vadinamos WMS prekėmis.) Šio įrašo panaikinimas gali ženkliai pagerinti turimų skaičiavimų efektyvumą.
+Šiame straipsnyje aprašoma turimo failo įrašų valymo užduotis, kuri panaikina nenaudojamus įrašus ir `InventSum` lenteles`WHSInventReserve`. Šiose lentelėse saugoma turima informacija apie prekes, kurios yra įjungtos atliekant sandėlio valdymo apdorojimą. (Šios prekės vadinamos WMS prekėmis.) Šio įrašo panaikinimas gali ženkliai pagerinti turimų skaičiavimų efektyvumą.
 
 ## <a name="what-the-cleanup-job-does"></a>Ką atlieka valymo užduotis
 
@@ -39,7 +39,7 @@ Jei leidžiamos neigiamos fizinės atsargos, valymo užduočiai gali nepavykti p
 Turimų atsargų valymo užduotį galima atlikti dalyje **Atsargų valdymas \> Reguliarios užduotys \> Valyti \> Sandėlio valdymo turimų įrašų valymas**. Naudokite standartines užduoties nuostatas, norėdami valdyti užduoties vykdymo apimtį ir grafiką. Be to, suteikiami toliau nurodyti parametrai:
 
 - **Naikinti, jei neatnaujinta nurodytą dienų skaičių** – įveskite minimalų dienų skaičių, kurį turi laukti ši užduotis, prieš panaikindama turimą įrašo, kurio kiekis sumažėjo iki nulio. Naudokite šį parametrą, kad nepanaikintumėte vis dar naudojamų turimų įrašų. Jei norite, kad valymas būtų atliekamas kuo greičiau, įveskite *0* (nulis) arba palikite lauką tuščią.
-- **Maksimalus vykdymo laikas (valandomis)** – įveskite maksimalų valymo užduoties vykdymo laiką valandomis. Jei užduotis neužbaigiama per šį laikotarpį, atliktas darbas įrašomas ir užduotis išsijungia. Šis galimybė ypač aktuali atvejais, kai atsargos aktyviai naudojamos. Tokiais atvejais turite suplanuoti užduotį, kurią reikia paleisti, kai sistemos apkrova yra kuo mažesnė. Jei norite, kad paketinė užduotis tęstųsi, kol ji bus baigta, įveskite *0* (nulis) arba palikite lauką tuščią. Šis parametras galimas tik tada, kai [jūsų sistemoje įjungta susijusi funkcija](#max-execution-time).
+- **Maksimalus vykdymo laikas (valandomis)** – įveskite maksimalų valymo užduoties vykdymo laiką valandomis. Jei užduotis neužbaigiama per šį laikotarpį, atliktas darbas įrašomas ir užduotis išsijungia. Šis galimybė ypač aktuali atvejais, kai atsargos aktyviai naudojamos. Tokiais atvejais turite suplanuoti užduotį, kurią reikia paleisti, kai sistemos apkrova yra kuo mažesnė. Jei norite, kad paketinė užduotis tęstųsi, kol ji bus baigta, įveskite *0* (nulis) arba palikite lauką tuščią. Šis parametras galimas tik tada, jei jūsų [sistemoje įjungta susijusi funkcija](#max-execution-time).
 
 Nors užduotį galite vykdyti įprastomis darbo valandomis, rekomenduojame paleisti ją ne darbo valandomis. Tokiu būdu išvengsite konfliktų, kurių gali kilti, jei vartotojas dirba su įrašu, kuris tuo pačiu yra naikinamas.
 

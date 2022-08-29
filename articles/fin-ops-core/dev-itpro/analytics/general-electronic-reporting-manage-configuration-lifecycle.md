@@ -1,32 +1,32 @@
 ---
 title: Elektroninių ataskaitų (ER) konfigūracijų ciklo valdymas
 description: Šiame straipsnyje aprašoma, kaip valdyti "Dynamics 365 Finance" elektroninių ataskaitų (ER) konfigūracijų ciklą.
-author: NickSelin
+author: kfend
 ms.date: 07/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58801
-ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6a64908a167c09089a95f1d3faa825dcc63f064
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
-ms.translationtype: HT
+ms.custom: 58801
+ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
+ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
+ms.openlocfilehash: 0209679c9882d87edab68d043fba9e7b3400a2a2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109089"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337266"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Elektroninių ataskaitų (ER) konfigūracijų ciklo valdymas
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje aprašoma, kaip valdyti "Dynamics 365 Finance" elektroninių ataskaitų (ER) konfigūracijų ciklą.
+Šiame straipsnyje aprašoma, kaip valdyti "[Dynamics](general-electronic-reporting.md) 365 Finance" elektroninių ataskaitų (ER) [konfigūracijų](general-electronic-reporting.md#Configuration) ciklą.
 
 ## <a name="overview"></a>Apžvalga
 
@@ -84,7 +84,7 @@ Programavimo aplinkoje sukurtas ER konfigūracijas galima [įkelti](#data-persis
 
 ## <a name="data-persistence-consideration"></a>Duomenų pastovumo svarstymas
 
-Galite individualiai [importuoti](tasks/er-import-configuration-lifecycle-services.md) skirtingas ER [konfigūracijų](general-electronic-reporting.md#Configuration) [versijas](general-electronic-reporting.md#component-versioning) į savo „Finance” egzempliorių. Importavus naująją ER konfigūracijos versiją, sistema valdo šios konfigūracijos juodraščio versijos turinį:
+Į savo finansų [egzempliorių](tasks/er-import-configuration-lifecycle-services.md) galite atskirai importuoti skirtingas [ER](general-electronic-reporting.md#Configuration) konfigūracijos versijas. Importavus naująją ER konfigūracijos versiją, sistema valdo šios konfigūracijos juodraščio versijos turinį:
 
 - Kai importuota versija yra žemesnė nei didžiausia šios konfigūracijos versija dabartiniame „Finance” egzemplioriuje, šios konfigūracijos juodraščio versijos turinys nekinta.
 - Kai importuota versija yra aukštesnė nei bet kuri kita šios konfigūracijos versija dabartiniame „Finance” egzemplioriuje, importuotos versijos turinys yra nukopijuojamas į šios konfigūracijos juodraščio versiją, kad būtų galima toliau redaguoti paskutinę baigtą versiją.
@@ -105,6 +105,41 @@ Kai kuriais atvejais gali reikėti, kad sistema nepaisytų sukonfigūruotų būt
 
     > [!NOTE]
     > Šis parametras yra susijęs su konkrečiu vartotoju ir įmone.
+
+## <a name="dependencies-on-other-components"></a>Priklausomybės nuo kitų komponentų
+
+ER konfigūracijas galima konfigūruoti kaip priklausomas [nuo](er-download-configurations-global-repo.md#import-filtered-configurations) kitų konfigūracijų. Pavyzdžiui, [galite importuoti ER duomenų modelio konfigūraciją iš visuotinės saugyklos į savo "Microsoft" reguliavimo konfigūracijos tarnybas (RCS)](er-download-configurations-global-repo.md) arba "Dynamics 365" finansų egzempliorių, o tada sukurti naują [ER](er-overview-components.md#data-model-component)[formato](../../../finance/localizations/rcs-overview.md) [...](er-overview-components.md#format-component)[konfigūraciją, išvestą iš importuoto ER duomenų modelio konfigūracijos.](er-quick-start2-customize-report.md#DeriveProvidedFormat) Išvestinė ER formato konfigūracija bus priklausoma nuo pagrindinės ER duomenų modelio konfigūracijos.
+
+![Išvestinė ER formato konfigūracija konfigūracijos puslapyje.](./media/ger-configuration-lifecycle-img1.png)
+
+Baigę kurti formatą, galite pakeisti pradinės ER **formato konfigūracijos versijos būseną iš Juodraštis į** **Baigta**. Tada galėsite bendrai naudoti ER formato konfigūracijos užbaigtą versiją [publikuodami](../../../finance/localizations/rcs-global-repo-upload.md) ją visuotiniame saugykloje. Po to galite prieiti prie visuotinės saugyklos iš bet kurios RCS ar finansų debesies egzemplioriaus. Tada galite importuoti bet kurią ER konfigūracijos versiją, taikomą programai, iš visuotinės saugyklos į tą programą.
+
+![Publikuota ER formato konfigūracija konfigūracijos saugyklos puslapyje.](./media/ger-configuration-lifecycle-img2.png)
+
+Atsižvelgiant į konfigūracijos priklausomybę, kai ER formato konfigūraciją pasirenkate visuotinyje saugykloje, kad ją importuotų į naujai įdiegtą RCS arba finansų egzempliorių, pagrindinė ER duomenų modelio konfigūracija automatiškai randama visuotinėje saugykloje ir importuojama kartu su pasirinkta ER formato konfigūracija kaip pagrindinė konfigūracija.
+
+Taip pat galite eksportuoti savo ER formato konfigūracijos versiją iš dabartinės RCS ar finansų egzemplioriaus ir saugoti ją vietoje kaip XML failą.
+
+![Konfigūracijos puslapyje eksportuojama ER formato konfigūracijos versija kaip XML.](./media/ger-configuration-lifecycle-img3.png)
+
+**Finansų** versijose prieš 10.0.29 versiją, bandant importuoti ER formato konfigūracijos versiją iš to XML failo arba iš bet kurios kitos, ne visuotinės saugyklos, saugyklos į naujai įdiegtą RCS arba finansų egzempliorių, kuriame dar nėra ER konfigūracijų, bus pateikta ši išimtis, siekiant informuoti, kad nepavyksta gauti pagrindinės konfigūracijos:
+
+> Liko neišspręstų nuorodų<br>
+Negalima nustatyti objekto '\<imported configuration name\>' nuorodos į objektą 'Base' (\<globally unique identifier of the missed base configuration\>,\<version of the missed base configuration\>)
+
+![Importuojama ER formato konfigūracijos versija konfigūracijos saugyklos puslapyje.](./media/ger-configuration-lifecycle-img4.gif)
+
+**Versijoje 10.0.29** ir vėliau bandant importuoti tą pačią konfigūraciją nepavyko rasti pagrindinės konfigūracijos dabartiniame programos egzemplioriuje arba šaltinio saugykloje, kurią naudojate (jei taikoma), ER sistema automatiškai bandys rasti trūkstamos pagrindinės konfigūracijos pavadinimą visuotinės saugyklos talpykloje. Tada bus pateikiamas trūkstamos pagrindinės konfigūracijos pavadinimas ir visuotinai unikalus identifikatorius (GUID) leidžiamos išimties tekste.
+
+> Liko neišspręstų nuorodų<br>
+Negalima nustatyti objekto '\<imported configuration name\>' nuorodos į objektą 'Base' (\<name of the missed base configuration\>\<globally unique identifier of the missed base configuration\>;\<version of the missed base configuration\>)
+
+![Konfigūracijos saugyklos puslapio išimtis, kai nepavyko rasti pagrindinės konfigūracijos.](./media/ger-configuration-lifecycle-img5.png)
+
+Norėdami surasti pagrindinę konfigūraciją ir rankiniu būdu ją importuoti, galite naudoti pateiktą pavadinimą.
+
+> [!NOTE]
+> Ši [nauja](er-download-configurations-global-repo.md#open-configurations-repository)[pasirinktis](er-extended-format-lookup.md) veikia tik tada, kai bent vienas vartotojas jau užsiregistravo visuotinyje saugykloje naudodamas konfigūracijos saugyklos puslapį arba vieną iš dabartinio finansų egzemplioriaus visuotinio saugyklos peržvalgos laukų ir kai visuotinės saugyklos turinys yra talpykloje.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 8be79f259505c084a8680c453ec15a4cef1a890f
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
-ms.translationtype: HT
+ms.openlocfilehash: dd98b22a2dfcd8cad62bdef2d31ac2880b3422f8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124505"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334722"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Kas pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.26 versijoje (2022 m. kovo mėn.)?
 
@@ -35,7 +35,7 @@ Tolesnėje lentelėje pateiktos funkcijos, kuri yra šiame leidime. Mes galime a
 |---|---|---|---|
 | Atsargos ir logistika | [Turimų atsargų matomumo užklausa, kad būtų palaikomos patobulintos sandėlio valdymo prekės](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | [WMS prekių „Inventory Visibility“ palaikymas](../inventory/inventory-visibility-whs-support.md) | Priemonių valdymas:<br>*Įgalinti sandėlio prekes atsargų matomumo skiltyje* |
 | Atsargos ir logistika | [Prieinamų atsargų matomumo priedo atsargos](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [Turimų atsargų matomumo grafikai ir prieinamos atsargos](../inventory/inventory-visibility-available-to-promise.md) | Įgalina aptarnavimo konfigūracija |
-| Gamyba | [Gamybos laiko vykdymo sąsajos esamo svorio elementai](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [Kaip darbuotojai naudoja gamybos vietos vykdymo sąsają](../production-control/production-floor-execution-use.md) | Priemonių valdymas:<br>*(Peržiūros versija) Ataskaita apie esamo svorio prekes iš gamybos vietos vykdymo sąsajos* |
+| Gamyba | [Gamybos laiko vykdymo sąsajos esamo svorio elementai](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [Kaip darbuotojai naudoja gamybos vietos vykdymo sąsają](../production-control/production-floor-execution-use.md) | Priemonių valdymas:<br>*Ataskaita apie esamo svorio prekes iš gamybos vietos vykdymo sąsajos* |
 | Gamyba | Mano užduočių skirtukas gamybos vietos vykdymo sąsajoje <!-- KFM: Add link to release plan when available --> | [Kaip darbuotojai naudoja gamybos vietos vykdymo sąsają](../production-control/production-floor-execution-use.md) | Priemonių valdymas:<br>*Mano užduočių skirtukas gamybos vietos vykdymo sąsajoje* |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Funkcijos patobulinimai, įtraukti į šį leidimą
@@ -51,7 +51,6 @@ Jei norite įjungti arba išjungti bet kurią iš šių priemonių, tai turite a
 | Produkto informacijos valdymas | Išvalyti produkto atributų vertes | Ši funkcija įtraukia periodinę **užduotį**, pavadintą Valyti produkto atributų vertes, kurios valo produkto atributo verčių įrašus, kurie nebeatitinka jokio produkto per produkto kategoriją. |
 | Atsargų ir sandėlio valdymas | (Rusija) Užkirstas kelias neatitikimams išduodant pirkimo užsakymų, apimančių WMS prekes, GTD | Ši funkcija skirta tik rusiškai lokalizacijai. Neleidžiama vykdyti neatitikimų išduodant Rusijos muitinės deklaravimo numerius (GTD) importo pirkimo užsakymams, kuriuose yra prekių, įgalintų sandėlio valdymo procesams (WMS). GTD išdavimo procesas pakeičia kai kurias atsargų dimensijų vertes susijusiose į pasirinktinį žurnalą įtrauktų SF atsargų operacijose, dėl to gali nesutapti pirkimo užsakymo darbo įrašai ir pirkimo atsargų operacijos. Kai ši funkcija įgalinta, GTD išdavimo procesas sugeneruoja koregavimo darbą, dėl to tokie nesutapimai yra pašalinama. |
 | Sandėlio valdymas | Išplėstiniai GS1 brūkšninių kodų analizatoriai | Ši funkcija įtraukia išplėstinį GS1 simbolių duomenų analizatorių. Naujas analizatorius įdiegia GS1 bendrosios specifikacijos algoritmą, naudojamą GS1 simboliams išanalizuoti, ir pateikia bendresnio duomenų tikrinimo procesą. Daugiau informacijos ieškokite [GS1 brūkšninių kodų nuskaitymas](../warehousing/gs1-barcodes.md). |
-| Sandėlio valdymas | Nauji krovinio planavimo darbo srityje puslapiai | Įtraukia du naujus krovinio planavimo darbo vietos puslapius: **gaunamo krovinio planavimo darbo srityje** **ir siunčiamo krovinio planavimo darbo srityje**. |
 | Sandėlio valdymas | Programa „Warehouse Management“ – tuščia GTD vertė | Ši funkcija skirta tik rusiškai lokalizacijai. Joje darbuotojai, naudojantys sandėlio valdymo mobiliąją programą, prireikus gali palikti Rusijos muitinės deklaracijų numerius (GTD) tuščius. Jei GTD sekimo dimensija nustatyta taip, kad būtų leidžiamos tuščios vertės, sistema priims tuščias ATSARGŲ operacijų, kurios turimos turimos atsargos, GTD vertes. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Nauji ir naujinti dokumentų šaltiniai

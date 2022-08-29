@@ -1,28 +1,26 @@
 ---
 title: Elektroninių ataskaitų konfigūracijų tinkinimas elektroniniam dokumentui generuoti
 description: Šiame straipsnyje paaiškinama, kaip pritaikyti "Microsoft" elektroninių ataskaitų (ER) konfigūracijas, naudojamas norint sugeneruoti pasirinktinį elektroninį dokumentą.
-author: NickSelin
+author: kfend
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 30ef9a0fa9b61b1e2016f85407ec0ec8fb70a6c6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
+ms.openlocfilehash: cd3200bea07d622632dc5781638ec825c21233e4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854704"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278953"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Elektroninių ataskaitų konfigūracijų tinkinimas elektroniniam dokumentui generuoti
 
@@ -310,7 +308,7 @@ Jei esate elektroninių ataskaitų funkcinio konsultanto vaidmens vartotojas, ga
 5. Lauke **Pavadinimas** įveskite **SF modelis („Litware”)**.
 6. Pasirinkite **Kurti konfigūraciją**, norėdami įtraukti naują ER konfigūraciją.
 
-Dabar galite naudoti ER duomenų modelio dizaino įrankį, norėdami redaguoti ER konfigūracijos **SF modelis („Litware”)**, kurios [būsena](general-electronic-reporting.md#component-versioning) yra **Juodraštis**, 50.1 versiją.
+Dabar galite naudoti ER duomenų modelio konstruktorių, norėdami redaguoti SF modelio (Litware) **ER** **konfigūracijos Juodraštis 50.1** versiją.
 
 ![ER konfigūracijos 50.1 versija puslapyje Konfigūracijos.](./media/er-quick-start3-added-custom-model.png)
 
@@ -337,7 +335,7 @@ Turite modifikuoti jūsų pasirinktinį duomenų modelį įtraukdami naują lauk
 
 #### <a name="complete-a-custom-data-model-configuration"></a>Pasirinktinio duomenų modelio konfigūracijos užbaigimas
 
-Turite [užbaigti](general-electronic-reporting.md#component-versioning) jūsų darbą naudodami jūsų pasirinktinio ER duomenų modelio konfigūracijos 50.1 versiją, kad jis būtų pasiekiamas ir būtų galima įtraukti kitas pasirinktines ER konfigūracijas.
+Turite užbaigti jūsų darbą naudodami jūsų pasirinktinio ER duomenų modelio konfigūracijos 50.1 versiją, kad jis būtų pasiekiamas ir būtų galima įtraukti kitas pasirinktines ER konfigūracijas.
 
 1. Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Konfigūracijos**.
 2. Puslapio **Konfigūracijos** kairiosios srities konfigūracijos medyje išplėskite **SF modelis**, tada pasirinkite **SF modelis („Litware”)**.
@@ -394,7 +392,7 @@ Turite modifikuoti jūsų pasirinktinio modelio susiejimą ir nurodyti, kaip pas
 
 #### <a name="complete-a-custom-model-mapping-configuration"></a>Pasirinktinio modelio susiejimo konfigūracijos užbaigimas
 
-Turite [užbaigti](general-electronic-reporting.md#component-versioning) jūsų darbą naudodami jūsų pasirinktinio ER modelio susiejimo konfigūracijos 50.19.1 versiją, kad jis būtų pasiekiamas.
+Turite užbaigti jūsų darbą naudodami jūsų pasirinktinio ER modelio susiejimo konfigūracijos 50.19.1 versiją, kad jis būtų pasiekiamas.
 
 1. Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Konfigūracijos**.
 2. Puslapio **Konfigūracijos** kairiosios srities konfigūracijos medyje išplėskite **Kliento SF modelis** \> **Kliento SF modelio susiejimas**, tada pasirinkite **SF modelio susiejimas („Litware”)**.
@@ -428,7 +426,7 @@ Jei esate elektroninių ataskaitų funkcinio konsultanto vaidmens vartotojas, ga
 
 ![Pasirinktinės formato konfigūracijos įtraukimas puslapyje Konfigūracijos.](./media/er-quick-start3-adding-custom-format.png)
 
-Dabar galite naudoti ER operacijų dizaino įrankį, norėdami redaguoti ER konfigūracijos **PEPPOL pardavimo SF („Litware”)**, kurios [būsena](general-electronic-reporting.md#component-versioning) yra **Juodraštis**, 11.2.2.1 versiją.
+Dabar galite naudoti ER operacijų konstruktorių, kad galėtumėte redaguoti 11.2.2.1 **Sf (litware)** ER **konfigūracijos** versiją Juodraštis.
 
 ![ER konfigūracijos 11.2.2.1 versija puslapyje Konfigūracijos.](./media/er-quick-start3-added-custom-format.png)
 
@@ -463,7 +461,7 @@ Turite modifikuoti jūsų pasirinktinį formatą įtraukdami naują formato elem
 
 #### <a name="complete-a-custom-format-configuration"></a>Pasirinktinės formato konfigūracijos užbaigimas
 
-Turite [užbaigti](general-electronic-reporting.md#component-versioning) jūsų darbą naudodami jūsų pasirinktinės ER formato konfigūracijos 11.2.2.1 versiją, kad jis būtų pasiekiamas.
+Norėdami naudoti, turite užbaigti darbo su 11.2.2.1 versijos ER formato konfigūracijos versija.
 
 1. Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Konfigūracijos**.
 2. Puslapio **Konfigūracijos** kairiosios srities konfigūracijos medyje išplėskite **Kliento SF modelis** \> **UBL pardavimo SF** \> **PEPPOL pardavimo SF**, tada pasirinkite **PEPPOL pardavimo SF („Litware”)**.
@@ -650,7 +648,7 @@ Versijos 32.6.7.2 būsena pakeista iš **Juodraštis** į **Baigta**, o versija 
 3. Veiksmų srities grupėje **Dokumentas** pasirinkite **Siųsti** \> **Originalus**.
 
     > [!NOTE] 
-    > Kadangi dabar yra dvi ER formato konfigūracijos **PEPPOL pardavimo SF („Litware”)** versijos ir nė viena versija neturi [įsigaliojimo datos](general-electronic-reporting.md#component-date-effectivity) vertės, el. SF generuoti naudojama naujausia versija.
+    > Todėl, **kad dabar turite dvi Jav pardavimo SF (litware)** ER formato konfigūracijos versijas, todėl nė viena versija neturi galiojainės datos reikšmės, naujausia versija naudojama el. SF generuoti.
 
 4. Uždarykite puslapį **Laisvos formos SF**.
 

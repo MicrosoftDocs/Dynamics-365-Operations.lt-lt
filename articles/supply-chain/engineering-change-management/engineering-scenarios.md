@@ -2,7 +2,7 @@
 title: Inžinerinių keitimų valdymo funkcijos gairės
 description: Šiame straipsnyje pateikiamas pradžios ir pabaigos pradžios numeris, kuriame parodyta, kaip dirbti naudojant inžinerijos pakeitimų valdymą.
 author: t-benebo
-ms.date: 09/28/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ec5535013af9ccb253744e061de738155ac9ad22
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 65ff30632a54b0b7cadbfe663698d466d41abe47
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889641"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334902"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Inžinerinių keitimų valdymo funkcijos gairės
 
@@ -45,7 +45,7 @@ Prieš bandydami atlikti bet kuriuos likusius šio straipsnio veiksmus, vadovauk
 
 ### <a name="make-standard-demo-data-available"></a>Padarykite standartinius demonstracinius duomenis prieinamus
 
-Dirbkite su sistema, kurioje [standartiniai demonstraciniai duomenys įdiegti](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Standartiniai demonstraciniai duomenys įtraukia duomenis keliems demonstraciniams juridiniams asmenims (įmonėms ir organizacijoms). Kadangi dirbate per praktiką, naudosite įmonės parinkiklį dešinėje pusėje naršymo juostos, kad perjungtumėte tarp vienos bendrovės (*DEMF*) nustatytos kaip *inžinerijos organizacijos* ir kitos (*USMF*) kuri nustatyta kaip *veikianti organizacija*.
+Darbas sistemoje, kurioje įdiegti standartiniai [demonstraciniai](../../fin-ops-core/fin-ops/get-started/demo-data.md) duomenys. Standartiniai demonstraciniai duomenys įtraukia duomenis keliems demonstraciniams juridiniams asmenims (įmonėms ir organizacijoms). Kadangi dirbate per praktiką, naudosite įmonės parinkiklį dešinėje pusėje naršymo juostos, kad perjungtumėte tarp vienos bendrovės (*DEMF*) nustatytos kaip *inžinerijos organizacijos* ir kitos (*USMF*) kuri nustatyta kaip *veikianti organizacija*.
 
 ### <a name="set-up-an-engineering-organization"></a>Nustatykite inžinerijos organizaciją
 
@@ -284,7 +284,7 @@ Norėdami peržiūrėti produktą ir jį išleisti į *USMF* bendrovę, atlikite
 
 1. Rinkitės vertę **Produkto numerio** stulpelyje, kad atvertumėte **Produkto leidimo išsamios informacijos** puslapį. Atkreipkite dėmesį į tolesnę išsamią informaciją:
 
-    - „FastTab“ **Bendri** rodo informaciją apie produkto leidimą, tokią kaip leidžianti bendrovė (*DEMF* šiuo atveju), leidimo saitas (*1*) ir leidimo saitas (*1*). Kadangi nenurodėte gaunančio saito **Leidimo produktai** vedlyje, leidimo saito vertė nukopijuojama į gavimo saitą.
+    - „FastTab“ **Bendri** rodo informaciją apie produkto leidimą, tokią kaip leidžianti bendrovė (*DEMF* šiuo atveju), leidimo saitas (*1*) ir leidimo saitas (*1*). Kadangi produktų paleidimo vedlyje **nenu** nurodėte gavimo svetainės, išleidžianti vietos vertė nukopijuojama į gavimo vietą.
     - „FastTab“ **Leidimo išsami informacija** rodo informaciją apie produktą ir jo leidimo versiją. Čia galite keisti nustatymus, tokius kaip efektyvumo datos.
     - „FastTab“ **Maršrutas** rodo produkto maršrutą. Nepaisant to, šiame pavyzdyje neišleidote jokių maršrutų.
 

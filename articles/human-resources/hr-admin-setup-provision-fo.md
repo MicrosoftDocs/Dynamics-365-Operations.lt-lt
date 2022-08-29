@@ -1,5 +1,5 @@
 ---
-title: Personalo parengimas finansų ir operacijų infrastruktūrose
+title: „Human Resources“ parengimas finansų ir operacijų infrastruktūroje
 description: Šiame straipsnyje paaiškinamas naujos "Microsoft Dynamics 365 Human Resources " gamybos aplinkos parengimo procesas finansų ir operacijų infrastruktūrose.
 author: twheeloc
 ms.date: 01/07/2022
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 15060d8bdd598476081c22d7280319da3db0cb31
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
-ms.translationtype: HT
+ms.openlocfilehash: 2fd8176d16178ecc4ba667e5937f2cec2e0af2c3
+ms.sourcegitcommit: bd3b55e1af28e592c97b540de1e87cd8ba9c35a8
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178419"
+ms.lasthandoff: 08/03/2022
+ms.locfileid: "9221601"
 ---
-# <a name="provision-human-resources-in-the-finance-and-operations-infrastructure"></a>Personalo parengimas finansų ir operacijų infrastruktūrose
+# <a name="provision-human-resources-in-the-finance-and-operations-infrastructure"></a>„Human Resources“ parengimas finansų ir operacijų infrastruktūroje
 
 _**Taikoma: Finansų** ir operacijų programos infrastruktūros žmogiškieji ištekliai_ 
 
@@ -52,8 +52,8 @@ Papildomose pasirinktinose aplinkose yra keletas aplinkybių:
 - **Integravimas** – konfigūruokite ir patikrinkite integravimą, kuris gali apimti vietinius integravimą ar pasirinktinį integravimą, pvz., algalapio, pretendento sekimo sistemų ar išmokų sistemų ir teikėjų.
 - **Mokymas** – gali būti reikalinga atskira aplinka, sukonfigūruota su mokymo duomenų rinkinys, kad galėtumėte traukinys savo darbuotojams naudoti naująją sistemą. 
 - **Kelių etapų projektas** – gali reikėti papildomos aplinkos, kad būtų galima palaikyti konfigūraciją, duomenų perkėlimą, bandymą ar kitą veiklą projekto etape, suplanuotame po pradinio projekto etapo.
-- **Kūrimas** – finansų ir operacijų infrastruktūrose dabar galite išplėsti sprendimą ir kurti savo pritaikymus. Kiekvienas programuotojas turi naudoti savo programavimo aplinką. Norėdami gauti daugiau informacijos, žr. [Deploy ir pasiekite programavimo aplinkas](/fin-ops-core/dev-itpro/dev-tools/access-instances).
-- **AUKSINĖ** – naujų diegimų atveju paprastai naudojama atskira AUKSINĖ aplinka, kuri saugoma nesudėvusi konfigūracijoje ir duomenų perkėlme. Šią aplinką galima naudoti visoje diegimo metu, norint atnaujinti kitas aplinkas. Jis bus naudojamas kuriant naują gamybos aplinką, kurioje yra pagrindinė konfigūracija ir duomenų perkėlimas. Negalite įdiegti gamybos aplinkos finansų ir operacijų infrastruktūros, kol nebaigėte tiesioginio pasirengimo proceso. Daugiau informacijos rasite Pasiruošti [vykti.](/fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live)
+- **Kūrimas** – finansų ir operacijų infrastruktūrose dabar galite išplėsti sprendimą ir kurti savo pritaikymus. Kiekvienas programuotojas turi naudoti savo programavimo aplinką. Norėdami gauti daugiau informacijos, žr. [Deploy ir pasiekite programavimo aplinkas](../fin-ops-core/dev-itpro/dev-tools/access-instances.md).
+- **AUKSINĖ** – naujų diegimų atveju paprastai naudojama atskira AUKSINĖ aplinka, kuri saugoma nesudėvusi konfigūracijoje ir duomenų perkėlme. Šią aplinką galima naudoti visoje diegimo metu, norint atnaujinti kitas aplinkas. Jis bus naudojamas kuriant naują gamybos aplinką, kurioje yra pagrindinė konfigūracija ir duomenų perkėlimas. Negalite įdiegti gamybos aplinkos finansų ir operacijų infrastruktūros, kol nebaigėte tiesioginio pasirengimo proceso. Daugiau informacijos rasite Pasiruošti [vykti.](../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md)
 
 <!--NOTE: Need to come back and verify Tier-1 can be used and if a customer cannot purchase tier 3-5 need specific documentation about this.-->
 
@@ -66,24 +66,24 @@ Papildomose pasirinktinose aplinkose yra keletas aplinkybių:
 
 ## <a name="create-an-lcs-project"></a>LCS projekto kūrimas
 
-Norėdami naudoti LCS „Human Resources“ aplinkoms valdyti, pirma turite sukurti LCS projektą. Jei perkeliate savo personalo aplinką į finansų ir operacijų infrastruktūrą, turite sukurti naują LCS projektą, skirtas finansų ir operacijų programoms. Daugiau informacijos ieškokite Personalo [aplinkos perkėlimas](hr-admin-migrate-overview). Jei jau turite LCS projektą kitoms finansų ir operacijų programoms, galite įgalinti personalo funkcijas funkcijų valdymo **darbo** srityje. Daugiau informacijos žr. [Funkcijų valdymo apžvalga](/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Norėdami naudoti LCS „Human Resources“ aplinkoms valdyti, pirma turite sukurti LCS projektą. Jei perkeliate savo personalo aplinką į finansų ir operacijų infrastruktūrą, turite sukurti naują LCS projektą, skirtas finansų ir operacijų programoms. Jei jau turite LCS projektą kitoms finansų ir operacijų programoms, galite įgalinti personalo funkcijas funkcijų valdymo **darbo** srityje. Daugiau informacijos žr. [Funkcijų valdymo apžvalga](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-Kai naujas klientas pasirašo personalo valdymo abonementą, abonemente yra diegimo projekto darbo sritis. Klientui suaktyvinus tarnybą, nuomininkų administratorius turi prisiregistruoti <https://lcs.dynamics.com> naudodamas nuomininko abonementą. Projekto darbo sritis automatiškai sukuriama organizacijai. Norėdami gauti daugiau informacijos, finansų [ir operacijų programėlių klientams žr. vykdymo ciklo tarnybas](/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs) (LCS).
+Kai naujas klientas pasirašo personalo valdymo abonementą, abonemente yra diegimo projekto darbo sritis. Klientui suaktyvinus tarnybą, nuomininkų administratorius turi prisiregistruoti <https://lcs.dynamics.com> naudodamas nuomininko abonementą. Projekto darbo sritis automatiškai sukuriama organizacijai. Norėdami gauti daugiau informacijos, finansų [ir operacijų programėlių klientams žr. vykdymo ciklo tarnybas](../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md) (LCS).
 
 > [!NOTE]
 > Norint užtikrinti sėkmingą parengimą, abonementas, kurį naudojate personalo aplinkai konfigūruoti, turi būti priskirtas sistemos administratoriaus vaidmeniui arba sistemos pritaikymo priemonės vaidmeniui aplinkoje, **·** **·** Power Apps kuri susieta su personalo aplinka. Daugiau informacijos apie tai, kaip priskirti saugos vaidmenis vartotojams, žr Microsoft Power Platform. Vartotojo saugos [konfigūravimas pagal išteklius](/power-platform/admin/database-security).
 
-Kad būtų galima pradėti diegti aplinkas, būtina užbaigti LCS projekto įsk. procesą. Daugiau informacijos rasite Project [onboarding](/fin-ops-core/dev-itpro/lifecycle-services/project-onboarding). Daugiau informacijos apie LCS naudojimą ieškokite ciklo [tarnybų (LCS) vartotojo vadove](/fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide).
+Kad būtų galima pradėti diegti aplinkas, būtina užbaigti LCS projekto įsk. procesą. Daugiau informacijos rasite Project [onboarding](../fin-ops-core/dev-itpro/lifecycle-services/project-onboarding.md). Daugiau informacijos apie LCS naudojimą ieškokite ciklo [tarnybų (LCS) vartotojo vadove](../fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide.md).
 
 ## <a name="deploy-human-resources-environments"></a>Personalo aplinkos diegimas
 
 Norint debesyje įdiegti finansų ir operacijų programėles, įskaitant personalo valdymo programėles, reikia suprasti aplinką ir abonementą, kuriam iš naujo diegiate, kam galima atlikti užduotis ir kokius duomenis bei pritaikymus turite valdyti. Diegiant naujas aplinkas rekomenduojame vietoj įvardytąjį vartotoją naudoti tarnybos abonementą. Daugiau informacijos apie tai, kaip diegti aplinkas finansų ir operacijų infrastruktūrose, ieškokite debesies [diegimo apžvalga](/fin-ops-core/dev-itpro/deployment/cloud-deployment-overview).
 
-Norėdami finansų ir operacijų infrastruktūrose įdiegti personalo gamybos aplinką, turite užbaigti tiesioginio pasirengimo procesą. Daugiau informacijos rasite Pasiruošti [vykti.](/fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live) Šiame procese įtrauktas LCS abonemento įvertinimas. Daugiau informacijos ieškokite Abonemento [įvertinyme](/fin-ops-core/dev-itpro/lifecycle-services/subscription-estimator).
+Norėdami finansų ir operacijų infrastruktūrose įdiegti personalo gamybos aplinką, turite užbaigti tiesioginio pasirengimo procesą. Daugiau informacijos rasite Pasiruošti [vykti.](../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md) Šiame procese įtrauktas LCS abonemento įvertinimas. Daugiau informacijos ieškokite Abonemento [įvertinyme](../fin-ops-core/dev-itpro/lifecycle-services/subscription-estimator.md).
 
 ## <a name="integrate-microsoft-power-platform-with-human-resources"></a>Integruoti Microsoft Power Platform su personalo ištekliais
 
-Microsoft Power Platform suteikia "Dynamics 365" programų pajėgumų komplektą per administravimo Power Platform centrą. Galite integruoti ir išplėsti personalo duomenų naudojimą naudodami Microsoft Power Platform. Informacijos, kaip integruoti personalo išteklius, ieškokite integravimą Microsoft Power Platform su [Microsoft Power Platform finansų ir operacijų programėle](/fin-ops-core/dev-itpro/power-platform/overview).
+Microsoft Power Platform suteikia "Dynamics 365" programų pajėgumų komplektą per administravimo Power Platform centrą. Galite integruoti ir išplėsti personalo duomenų naudojimą naudodami Microsoft Power Platform. Informacijos, kaip integruoti personalo išteklius, ieškokite integravimą Microsoft Power Platform su [Microsoft Power Platform finansų ir operacijų programėle](../fin-ops-core/dev-itpro/power-platform/overview.md).
 
 ## <a name="supported-geographies"></a>Palaikomi geografiniai grafikai
 
@@ -96,8 +96,8 @@ Pagal numatytuosius nustatymus, aplinką sukūręs visuotinis administratorius t
 ## <a name="additional-resources"></a>Papildomi ištekliai
 Daugiau informacijos apie tai, kaip naudoti ir valdyti LCS projektus finansų ir operacijų programų infrastruktūrose, galite naudoti šiuos išteklius:
 
-- [„Lifecycle Services“ ištekliai](/fin-ops-core/dev-itpro/lifecycle-services/lcs.md)
-- [„Lifecycle Services“ (LCS) vartotojo vadovas](/fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide.md)
+- [„Lifecycle Services“ ištekliai](../fin-ops-core/dev-itpro/lifecycle-services/lcs.md)
+- [„Lifecycle Services“ (LCS) vartotojo vadovas](../fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide.md)
 - [Visuotinio savitarnos paslaugos diegimo apžvalga](../fin-ops-core/dev-itpro/deployment/infrastructure-stack.md)
 - [Duomenų bazės perkėlimo operacijų pagrindinis puslapis](../fin-ops-core/dev-itpro/database/dbmovement-operations.md)
 

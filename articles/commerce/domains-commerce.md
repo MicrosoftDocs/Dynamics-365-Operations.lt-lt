@@ -1,25 +1,25 @@
 ---
 title: „Dynamics 365 Commerce“ esantys domenai
 description: Šiame straipsnyje aprašoma, kaip tvarkomi domenai Microsoft Dynamics 365 Commerce.
-author: BrShoo
-ms.date: 05/10/2022
+author: BrianShook
+ms.date: 08/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: c48c8bd57d90a8c7d47bfa4263cd9ab38002629b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: retail
+ms.search.form: ''
+ms.openlocfilehash: 08d6d52175bb7a77259cbd38b15f466deeab0846
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848959"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337243"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>„Dynamics 365 Commerce“ esantys domenai
 
@@ -109,6 +109,10 @@ Galite imituoti kelis domenus naudodami domeno užklausos eilutės parametrus, e
 Norėdami nustatyti pasirinktinius domenus naudodami „Front Door Service“ arba CDN, turite dvi toliau pateiktas parinktis.
 
 - Nustatykite „Azure Front Door”, kad būtų galima valdyti sąsajos serverio srautą ir prisijungti prie savo „Commerce” aplinkos. Tai suteikia galimybę labiau kontroliuoti domenus ir sertifikatus bei išsamesnes saugos strategijas.
+
+> [!NOTE]
+> Jei naudojate išorinę CDN arba priekinių durų tarnybą, įsitikinkite, kad užklausa yra naudojama "Commerce" platformoje su "Commerce- pateikta" pagrindinio kompiuterio pavadinimu, bet su X-Yra Yra pagrindinis kompiuteris (XFH) antrašte \<custom-domain\>. Pvz., jei yra jūsų "Commerce" `xyz.dynamics365commerce.ms``www.fabrikam.com` galinis punktas, o pasirinktinis domenas yra, `xyz.dynamics365commerce.ms` reikia perduoti užklausos pagrindinio kompiuterio antraštę, o XFH antraštę –`www.fabrikam.com`.
+
 - Naudokite „Commerce” pateiktą „Azure Front Door” egzempliorių. Tam reikia koordinuoti veiksmus su „Dynamics 365 Commerce” komanda, kad būtų galima atlikti domeno tikrinimą ir gauti SSL sertifikatus savo gamybos domenui.
 
 Informacijos apie tai, kaip nustatyti CDN paslaugą tiesiogiai, žr. [Turinio pristatymo tinklo (CDN) palaikymo įtraukimas](add-cdn-support.md).
@@ -141,14 +145,18 @@ Jei domenai esami / aktyvūs, bus atlikti toliau pateikti veiksmai.
 
 ## <a name="apex-domains"></a>Viršūnės domenai
 
-„Commerce” teikiamas „Azure Front Door” egzempliorius nepalaiko viršūnės domenų (šakninių domenų, kuriuose nėra antrinių domenų). Viršūnės domenams išspręsti reikalingas IP adresas, o „Commerce Azure Front Door” egzempliorius egzistuoja tik su virtualiaisiais galiniais punktais. Norėdami naudoti viršūnės domeną, turite dvi toliau pateiktas parinktis.
+„Commerce” teikiamas „Azure Front Door” egzempliorius nepalaiko viršūnės domenų (šakninių domenų, kuriuose nėra antrinių domenų). Norint naudoti "Apex" domenus reikia nustatyti IP adresą, o "Commerce Azure Front Door" egzempliorius turi tik virtualiuosius galinius punktus. Norėdami naudoti apex domeną, turite šias pasirinktis:
 
 - **1 parinktis** – naudokite jūsų DNS teikėją, kad nukreiptumėte viršūnės domeną į „www” domeną. Pvz., fabrikam.com nukreipia į `www.fabrikam.com`, o `www.fabrikam.com` yra CNAME įrašas, nurodantis į „Commerce” nuomojamą „Azure Front Door” egzempliorių.
 
-- **2 parinktis** – nustatykite CDN / „Front Door” egzempliorių, kad būtų galima nuomoti viršūnės domeną.
+- **2 parinktis** – jei jūsų DNS tiekėjas palaiko ALIAS įrašus, galite nurodyti APEX domeną į priekinės durų galinį punktą. Taip užtikrinama, kad IP pakeitimas atspindėtų priekinio durų galinį punktą.
+  
+- **3 parinktis** – jei jūsų DNS tiekėjas nepalaiko PSEUDONIMO įrašų, tada turite nustatyti CDN arba priekinės durų egzempliorių savo vardu, kad nuoteistų "apex" domeną.
 
 > [!NOTE]
 > Jei naudojate „Azure Front Door”, taip pat turite nustatyti „Azure” DNS toje pačioje prenumeratoje. Viršūnės domenas, nuomojamas „Azure” DNS, gali nukreipti į jūsų „Azure Front Door” kaip į pseudonimo įrašą. Tai yra vienintelis sprendimas, nes viršūnės domenai visada turi nukreipti į IP adresą.
+  
+Jei turite klausimų dėl "Apex" domenų, kreipkitės į " [Microsoft" palaikymo tarnybą](https://support.microsoft.com/).
 
   ## <a name="additional-resources"></a>Papildomi ištekliai
 

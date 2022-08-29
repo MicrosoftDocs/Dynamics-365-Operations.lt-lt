@@ -2,27 +2,28 @@
 title: Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Vokietijai
 description: Šiame straipsnyje pateikta Vokietijos finansinio integravimo pavyzdžio apžvalga Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 08/17/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2020-5-29
-ms.openlocfilehash: a218989263580ea08947d3366b79e3b19b506375
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2020-05-29
+ms.openlocfilehash: c3fdc0c378ad57300213357eccd50d817e06789a
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867763"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313947"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Vokietijai
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Šiame straipsnyje pateikta Vokietijos finansinio integravimo pavyzdžio apžvalga Microsoft Dynamics 365 Commerce.
 
-Siekiant patenkinti vietinius finansinius reikalavimus grynųjų pinigų registrams Vokietijoje, Microsoft Dynamics 365 Commerce Vokietijos funkcionalume yra el. kasos aparato (EKA) ir išorinio finansinio registravimo tarnybos pavyzdys. Pavyzdys išplečia finansinio [integravimo funkciją](fiscal-integration-for-retail-channel.md). Jis remiasi [EFR (elektroninio finansinio registro)](https://www.efsta.eu/de/fiskalloesungen/deutschland)[sprendimu iš EFSTA](https://www.efsta.eu/de/) ir įgalina ryšį su EFR tarnyba per HTTPS protokolą. EFR tarnyba turi būti laikoma "Retail Hardware" stotis arba atskirame kompiuteryje, kurį galima prijungti iš "Hardware" stoties. Pavyzdys pateikiamas šaltinio kodo forma ir yra mažmeninės prekybos programinės įrangos kūrimo rinkinio (SDK) dalis.
+Siekiant patenkinti vietinius finansinius reikalavimus grynųjų pinigų registrams Vokietijoje, Dynamics 365 Commerce Vokietijos funkcionalume yra el. kasos aparato (EKA) ir išorinio finansinio registravimo tarnybos pavyzdys. Pavyzdys išplečia finansinio [integravimo funkciją](fiscal-integration-for-retail-channel.md). Jis remiasi [EFR (elektroninio finansinio registro)](https://www.efsta.eu/de/fiskalloesungen/deutschland)[sprendimu iš EFSTA](https://www.efsta.eu/de/) ir įgalina ryšį su EFR tarnyba per HTTPS protokolą. EFR tarnyba turi būti laikoma "Retail Hardware" stotis arba atskirame kompiuteryje, kurį galima prijungti iš "Hardware" stoties. Pavyzdys pateikiamas šaltinio kodo forma ir yra "Commerce" programinės įrangos kūrimo rinkinio (SDK) dalis.
 
 "Microsoft" neišleidžia jokios aparatūros, programinės įrangos ar dokumentacijos iš EFSTA. Norėdami gauti informacijos apie tai, kaip gauti EFR sprendimą ir jį valdyti, susisiekite su [EFSTA](https://www.efsta.eu/de/kontakt/kontakt).
 
@@ -48,7 +49,7 @@ Siekiant patenkinti vietinius finansinius reikalavimus grynųjų pinigų registr
 
         Saugos duomenys gaunami iš TSE kaip atsakymo dalis ir išsaugomi kanalo duomenų bazės operacijoje. Saugos duomenis sudaro ši informacija:
 
-        - TID
+        - Tid
         - Operacijos pradžios data ir laikas
         - Operacijos pabaigos data ir laikas
         - Parašo skaitiklis
@@ -78,7 +79,7 @@ Kvitų spausdinimas yra privalomas Vokietijoje. Visuose gavimuose turi būti ben
 - Informacija apie mokesčius, įskaitant bendras sumas pagal mokesčio tarifą
 - Saugos duomenys:
 
-    - TID
+    - Tid
     - Operacijos pradžios data ir laikas
     - Operacijos pabaigos data ir laikas
     - Parašo skaitiklis
@@ -163,7 +164,7 @@ Nustatyti EKA funkcijų šablonus. Kvitų **numeravimo** "FastTab" nustatykite k
 
 Galite konfigūruoti kalbos tekstą ir pasirinktinius laukus, kurie naudojami EKA kvitų formatuose. Numatytoji gavimo nustatymą sukūrusio vartotojo įmonė turėtų būti tas pats juridinis subjektas, kuriame sukurtas kalbos teksto nustatymas. Arba tas pats kalbos tekstas turėtų būti sukurtas ir vartotojo numatytoje įmonėje, ir parduotuvės juridiniame subjekte, kuriam sukurtas nustatymas.
 
-Kalbos teksto **puslapyje** pridėkite šiuos kvitų maketų pasirinktinių laukų žymių įrašus. Atkreipkite dėmesį **, kad** lentelėje **pateiktos kalbos ID,** **teksto ID** ir teksto vertės yra tik pavyzdžiai. Galite keisti juos, kad jie atitiktų jūsų poreikius. Tačiau jūsų naudojamas **teksto ID** vertės turi būti unikalios ir turi būti lygios arba didesnės nei 900001.
+Kalbos teksto **puslapyje** pridėkite šiuos kvitų maketų pasirinktinių laukų žymių įrašus. Atkreipkite dėmesį **, kad** lentelėje **pateiktos kalbos ID,** **teksto ID** ir teksto vertės yra tik pavyzdžiai. Juos galite pakeisti, kad jie atitiktų jūsų poreikius. Tačiau jūsų naudojamas **teksto ID** vertės turi būti unikalios ir turi būti lygios arba didesnės nei 900001.
 
 Šias EKA žymas įtraukite į **EKA** skyrių, kalbos **teksto** puslapyje.
 
@@ -248,12 +249,10 @@ Daugiau informacijos apie tai, kaip dirbti su kvitų formatais, ieškokite [Gavi
 
 ## <a name="set-up-fiscal-integration-for-germany"></a>Nustatyti Finansų integravimą Vokietijai
 
-Vokietijos finansinio registravimo tarnybos integravimo pavyzdys pagrįstas finansinio [integravimo funkcija ir](fiscal-integration-for-retail-channel.md) yra mažmeninės prekybos SDK dalis. Pavyzdys yra **src\\ FiscalIntegration\\ Efr**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) aplanke, kuris yra sprendimų saugykloje (pvz., [pavyzdys, esantis release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). Pavyzdį [sudaro](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskalinio dokumento teikėjas, kuris yra "Commerce Runtime (CRT) plėtinys, ir fiskalinė jungtis, kuri yra "Commerce Hardware Station" plėtinys. Norėdami gauti daugiau informacijos apie tai, kaip naudoti "Retail SDK", [žr. "Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)[" architektūrą ir nepriklausomo pakavimo SDK sukūrimo pardavimo galimybių sukūrimą](../dev-itpro/build-pipeline.md).
+Vokietijos finansinio registravimo tarnybos integravimo pavyzdys pagrįstas finansinio [integravimo funkcija ir](fiscal-integration-for-retail-channel.md) yra "Commerce SDK" dalis. Pavyzdys yra sprendimų saugyklos **src\\ FiscalIntegration\\ Efr**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) aplanke. Pavyzdį [sudaro](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskalinio dokumento teikėjas, kuris yra "Commerce Runtime (CRT) plėtinys, ir fiskalinė jungtis, kuri yra "Commerce Hardware Station" plėtinys. Norėdami gauti daugiau informacijos apie "Commerce SDK" naudojimą, [žr. "Download Commerce SDK" pavyzdžius ir nuorodų paketus iš GitHub NuGet](../dev-itpro/retail-sdk/sdk-github.md)[ir nustatykite nepriklausomos pakuotės SDK pardavimo galimybių sukūrimą](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> Dėl naujo nepriklausomo pakavimo [ir plėtinio modelio](../dev-itpro/build-pipeline.md) apribojimų, šiuo metu jo negalima naudoti šiame finansinio integravimo pavyzdyje. Turite naudoti ankstesnę "Retail SDK" versiją programavimo virtualiojoje kompiuteryje (VM) ciklo Microsoft Dynamics tarnybose (LCS). Daugiau informacijos ieškokite Vokietijos [(senesnės veiklos) finansinio integravimo pavyzdžio diegimo rekomendacijose](emea-deu-fi-sample-sdk.md).
->
-> Naujas nepriklausomas pakavimo ir plėtinio modelis, skirtas finansinio integravimo pavyzdžiui, planuojamas vėlesnėms versijoms.
+> [!NOTE]
+> Vokietijos finansinių registracijų tarnybos integravimo pavyzdys yra "Commerce SDK", kuris naudojamas "Commerce" versijoje 10.0.29. Naudojant "Commerce" 10.0.28 arba senesnę versiją, reikia naudoti ankstesnę "Retail SDK" versiją programavimo virtualiojoje kompiuteryje (VM) Microsoft Dynamics ciklo tarnybose (LCS). Daugiau informacijos ieškokite Vokietijos [(senesnės veiklos) finansinio integravimo pavyzdžio diegimo rekomendacijose](emea-deu-fi-sample-sdk.md).
 
 Atlikite finansinio integravimo nustatymo veiksmus, kaip aprašyta ["Commerce" kanalų finansinio integravimo nustatymas](setting-up-fiscal-integration-for-retail-channel.md):
 
@@ -276,18 +275,16 @@ Norėdami įjungti registravimo procesą, atlikite šiuos veiksmus norėdami nus
 1. Atsisiųsti finansinio dokumento teikėjo ir fiskalinio jungties konfigūracijos failus:
 
     1. Atidaryti sprendimų [Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) saugyklą.
-    1. Pasirinkite tinkamą paleidimo šakos versiją pagal savo SDK/programos versiją (pvz., **[paleidimas/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
+    1. Pasirinkite tinkamą paleidimo šakos versiją pagal savo SDK / programos versiją.
     1. Atidaryti **src \> FiscalIntegration \> Efr**.
-    1. Atsisiųskite finansinio **dokumento teikėjo konfigūracijos failą konfigūracijos faile Configurations \> DocumentProviders \> DocumentProviderFiscalEFRSampleGermany.xml (pvz** ., [paleidimo / 9.33 failas](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Efr/Configurations/DocumentProviders/DocumentProviderFiscalEFRSampleGermany.xml)).
-    1. Atsisiųskite finansinio jungties konfigūracijos **failą \>\> konfigūracijos failu konfigūracijos jungčių ConnectorEFRSample.xml** (pvz., [paleidimo / 9.33 failas](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Efr/Configurations/Connectors/ConnectorEFRSample.xml)).
+    1. Atsisiųskite finansinio dokumento teikėjo konfigūracijos failą konfigūracijos faile **Configurations \> DocumentProviders \> DocumentProviderFiscalEFRSampleGermany.xml**.
+    1. Atsisiųskite finansinio jungties konfigūracijos failą konfigūracijos **jungčių \>\> connectorEFRSample.xml.**
 
-    > [!WARNING]
-    > Dėl naujo nepriklausomo pakavimo [ir plėtinio modelio](../dev-itpro/build-pipeline.md) apribojimų, šiuo metu jo negalima naudoti šiame finansinio integravimo pavyzdyje. Turite naudoti ankstesnę "Retail SDK" versiją LCS programuotojo VM. Šio fiskalinio integravimo pavyzdžio konfigūracijos failai yra toliau esančiuuose "Retail" SDK, esantis LCS programuotojo VM, aplankuose:
+    > [!NOTE]
+    > Naudojant "Commerce" 10.0.28 arba ankstesnę versiją, LCS programuotojo VM turite naudoti ankstesnę "Retail SDK" versiją. Šio fiskalinio integravimo pavyzdžio konfigūracijos failai yra toliau esančiuuose "Retail" SDK, esantis LCS programuotojo VM, aplankuose:
     >
     > - **Iždo dokumentų teikėjo konfigūracijos failas:** RetailSdk\\ SampleExtensions CommerceRuntime\\ Extensions.DocumentProvider.EFRSample\\\\ konfigūracijos\\ DocumentProviderFiscalEFRSampleGermany.xml
     > - **Iždo jungties konfigūracijos failas:** RetailSdk\\ SampleExtensions\\ HardwareStation\\ extension.EFRSample\\ Configuration\\ ConnectorEFRSample.xml
-    > 
-    > Naujas nepriklausomas pakavimo ir plėtinio modelis, skirtas finansinio integravimo pavyzdžiui, planuojamas vėlesnėms versijoms.
 
 1. Eikite į **Mažmeninė prekyba ir prekyba \> „Headquarters“ sąranka \> Parametrai \> „Commerce“ bendrinami parametrai**. Skirtuke **Bendra** nustatykite pasirinktį **Įgalinti finansų integravimą** kaip **Taip**.
 1. Eikite į **"Retail" ir "Commerce \> Channel" \> nustatymą "Fiscal integration \> Fiscal"** dokumentų teikėjai ir įkelkite anksčiau atsisiųstą fiskalinio dokumento teikėjo konfigūracijos failą.
@@ -297,7 +294,7 @@ Norėdami įjungti registravimo procesą, atlikite šiuos veiksmus norėdami nus
 1. Eikite į " **Retail" ir "Commerce \> Channel" nustatymo \> "Fiscal integration \> Fiscal" jungties grupes**. Sukurkite naują anksčiau sukurto jungties funkcinių profilių finansinių jungčių grupę.
 1. Eikite į **"Retail" ir "Commerce \> Channel" nustatymo \> "Fiscal integration \> Fiscal" registracijos procesus**. Sukurkite naują finansinio registravimo procesą ir finansinio registravimo proceso veiksmą, tada pasirinkite anksčiau sukurtą finansinių jungčių grupę.
 1. Eikite į **Mažmeninį prekyba ir komercija \> Kanalo sąranka \> EKA sąranka \> EKA profiliai \> Funkcionalumo profiliai**. Pasirinkite funkcijų šabloną, susietą su parduotuve, kurioje turi būti suaktyvintas registracijos procesas. Finansinio registravimo **proceso "** FastTab" pasirinkite anksčiau sukurtą finansinio registravimo procesą.
-1. Eikite į **Mažmeninė prekyba ir prekyba \> Kanalo sąranka \> EKA sąranka \> EKA šablonai \> Aparatūros šablonai**. Pasirinkite aparatūros šabloną, susietą su aparatūros stotiu, prie kurios bus prijungtas fiskalinis spausdintuvas. **"FastTab" Iždo išoriniuose** įrenginiuose pasirinkite senesnę jungtį sukūrusį techninio profilio jungtį.
+1. Eikite į **Mažmeninė prekyba ir prekyba \> Kanalo sąranka \> EKA sąranka \> EKA šablonai \> Aparatūros šablonai**. Pasirinkite aparatūros šabloną, susietą su aparatūros stotyje, prie kurios bus prijungta iždo registracijos tarnyba. **"FastTab" Iždo išoriniuose** įrenginiuose pasirinkite senesnę jungtį sukūrusį techninio profilio jungtį.
 1. Atidarykite paskirstymo grafiką (**"Retail and Commerce Retail ir Commerce \> IT \> Distribution"** grafiką) **ir pasirinkite užduotis 1070** **ir 1090**, kad duomenys būtų perkelti į kanalo duomenų bazę.
 
 #### <a name="default-data-mapping"></a>Numatytųjų duomenų susiejimas
@@ -364,16 +361,15 @@ Toliau pateiktas numatytasis duomenų susiejimas yra įtrauktas į finansinio do
 
 ### <a name="configure-channel-components"></a>Konfigūruoti kanalo komponentus
 
-> [!WARNING]
-> Dėl naujo nepriklausomo pakavimo [ir plėtinio modelio](../dev-itpro/build-pipeline.md) apribojimų, šiuo metu jo negalima naudoti šiame finansinio integravimo pavyzdyje. Turite naudoti ankstesnę "Retail SDK" versiją LCS programuotojo VM. Daugiau informacijos ieškokite Vokietijos [(senesnės veiklos) finansinio integravimo pavyzdžio diegimo rekomendacijose](emea-deu-fi-sample-sdk.md).
->
-> Naujas nepriklausomas pakavimo ir plėtinio modelis, skirtas finansinio integravimo pavyzdžiui, planuojamas vėlesnėms versijoms.
+> [!NOTE]
+> - Vokietijos finansinių registracijų tarnybos integravimo pavyzdys yra "Commerce SDK", kuris naudojamas "Commerce" versijoje 10.0.29. Naudojant "Commerce" 10.0.28 arba ankstesnę versiją, LCS programuotojo VM turite naudoti ankstesnę "Retail SDK" versiją. Daugiau informacijos ieškokite Vokietijos [(senesnės veiklos) finansinio integravimo pavyzdžio diegimo rekomendacijose](emea-deu-fi-sample-sdk.md).
+> - Jūsų aplinkoje įdiegti "Commerce" pavyzdžiai nėra automatiškai atnaujinami, kai taikote "Commerce" komponentų aptarnavimo arba kokybės naujinimus. Reikiamus pavyzdžius turite atnaujinti neautomatiniu būdu.
 
 #### <a name="set-up-the-development-environment"></a>Programavimo aplinkos kūrimas
 
 Norėdami nustatyti programavimo aplinką, kad būtų galima patikrinti ir išplėsti pavyzdį, atlikite šiuos veiksmus.
 
-1. Užduokite arba atsisiųskite [Dynamics 365 Commerce sprendimų](https://github.com/microsoft/Dynamics365Commerce.Solutions) saugyklą. Pasirinkite tinkamą paleidimo šakos versiją pagal savo SDK / programos versiją. Norėdami gauti daugiau informacijos, žr. ["Download Retail SDK" pavyzdžius ir nuorodų paketus iš GitHub ir NuGet](../dev-itpro/retail-sdk/sdk-github.md).
+1. Užduokite arba atsisiųskite [Dynamics 365 Commerce sprendimų](https://github.com/microsoft/Dynamics365Commerce.Solutions) saugyklą. Pasirinkite tinkamą paleidimo šakos versiją pagal savo SDK / programos versiją. Norėdami gauti daugiau informacijos, žr. ["Download Commerce SDK" pavyzdžius ir nuorodų paketus iš GitHub ir NuGet](../dev-itpro/retail-sdk/sdk-github.md).
 1. Atidarykite EFR sprendimą Dynamics365Commerce.Solutions **FiscalIntegration\\ EFR.sln\\ ir sukurkite\\ jį.**
 1. Diegti "Commerce" vykdyklės plėtinius:
 
@@ -425,10 +421,10 @@ Norėdami sugeneruoti [ir](fiscal-integration-sample-build-pipeline.md) paleisti
 
 ## <a name="design-of-extensions"></a>Plėtinių dizainas
 
-Vokietijos finansinio registravimo tarnybos integravimo pavyzdys pagrįstas finansinio [integravimo funkcija ir](fiscal-integration-for-retail-channel.md) yra mažmeninės prekybos SDK dalis. Pavyzdys yra **src\\ FiscalIntegration\\ Efr**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) aplanke, kuris yra sprendimų saugykloje (pvz., [pavyzdys, esantis release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). Pavyzdį [sudaro](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskalinio dokumento teikėjas CRT, kuris yra plėtinys, ir fiskalinė jungtis, kuri yra "Commerce Hardware Station" plėtinys. Norėdami gauti daugiau informacijos apie tai, kaip naudoti "Retail SDK", [žr. "Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)[" architektūrą ir nepriklausomo pakavimo SDK sukūrimo pardavimo galimybių sukūrimą](../dev-itpro/build-pipeline.md).
+Vokietijos finansinio registravimo tarnybos integravimo pavyzdys pagrįstas finansinio [integravimo funkcija ir](fiscal-integration-for-retail-channel.md) yra "Commerce SDK" dalis. Pavyzdys yra sprendimų saugyklos **src\\ FiscalIntegration\\ Efr**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) aplanke. Pavyzdį [sudaro](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskalinio dokumento teikėjas CRT, kuris yra plėtinys, ir fiskalinė jungtis, kuri yra "Commerce Hardware Station" plėtinys. Norėdami gauti daugiau informacijos apie "Commerce SDK" naudojimą, [žr. "Download Commerce SDK" pavyzdžius ir nuorodų paketus iš GitHub NuGet](../dev-itpro/retail-sdk/retail-sdk-overview.md)[ir nustatykite nepriklausomos pakuotės SDK pardavimo galimybių sukūrimą](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> Dėl naujo nepriklausomo pakavimo [ir plėtinio modelio](../dev-itpro/build-pipeline.md) apribojimų, šiuo metu jo negalima naudoti šiame finansinio integravimo pavyzdyje. Turite naudoti ankstesnę "Retail SDK" versiją LCS programuotojo VM. Daugiau informacijos ieškokite Vokietijos [(senesnės veiklos) finansinio integravimo pavyzdžio diegimo rekomendacijose](emea-deu-fi-sample-sdk.md). Naujas nepriklausomas pakavimo ir plėtinio modelis, skirtas finansinio integravimo pavyzdžiui, planuojamas vėlesnėms versijoms.
+> [!NOTE]
+> Vokietijos finansinių registracijų tarnybos integravimo pavyzdys yra "Commerce SDK", kuris naudojamas "Commerce" versijoje 10.0.29. Naudojant "Commerce" 10.0.28 arba ankstesnę versiją, LCS programuotojo VM turite naudoti ankstesnę "Retail SDK" versiją. Daugiau informacijos ieškokite Vokietijos [(senesnės veiklos) finansinio integravimo pavyzdžio diegimo rekomendacijose](emea-deu-fi-sample-sdk.md).
 
 ### <a name="crt-extension-design"></a>CRT plėtinio dizainas
 

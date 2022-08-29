@@ -2,7 +2,7 @@
 title: Inžinerijos pakeitimų valdymo peržiūra (yra vaizdo įrašas)
 description: Šiame straipsnyje pateikiama inžinerinių pakeitimų valdymo apžvalga, kuri padeda suplanuoti ir valdyti produkto versijų valdymą bei tvarkyti produkto ciklus ir inžinerijos pakeitimus.
 author: t-benebo
-ms.date: 01/11/2022
+ms.date: 08/09/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3a27548fff9728c74814fb92438da1d0c17b5e2b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: b494e15488bed148119aed0e9d62ab1740f38add
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067399"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334872"
 ---
 # <a name="engineering-change-management-overview"></a>Inžinerijos keitimo valdymo apžvalga
 
@@ -76,16 +76,16 @@ Tada įjunkite konfigūracijos raktus atlikdami toliau nurodytus veiksmus. Pagal
 
 ### <a name="turn-on-additional-engineering-change-management-features"></a>Įjunkite papildomos inžinerijos keitimo valdymą savo sistemos funkcijoms
 
-Įjungus pagrindines inžinerijos keitimo valdymo priemones ir įgalinus jų konfigūracijos raktus, prie priemonių valdymo pridedama keletas papildomų ir pasirinktinių inžinerijos pakeitimų valdymo priemonių. Kiekviena iš šių priemonių pateikta inžinerinio **keitimo valdymo modulyje**. Šioje lentelėje aprašoma kiekviena pasirinktinė priemonė ir pateikiami saitai, kuriuose pateikiama daugiau informacijos. Kaip ir tiekimo grandinės valdymo versija 10.0.25 visos šios priemonės įjungiamos pagal numatytuosius nustatymus, tačiau jūs vis tiek galite pasirinkti jas išjungti.
+Įjungus pagrindines inžinerijos keitimo valdymo priemones ir įgalinus jų konfigūracijos raktus, prie priemonių valdymo pridedama keletas papildomų ir pasirinktinių inžinerijos pakeitimų valdymo priemonių. Kiekviena iš šių priemonių pateikta inžinerinio **keitimo valdymo modulyje**. Šioje lentelėje aprašoma kiekviena pasirinktinė priemonė ir pateikiami saitai, kuriuose pateikiama daugiau informacijos.
 
 | Funkcijos pavadinimas funkcijos valdyme | Aprašymas | Funkcijos būsena |
 |---|---|---|
-| Pakeitimų valdymo įjungimas esamiems produktams | <p>Ši priemonė leidžia konvertuoti esamus produktus į inžinerijos produktus, kad, naudodami inžinerinių pakeitimų valdymą, pradėtumėte juos valdyti.</p><p>- Dėl daugiau informacijos rasite [Pakeitimų valdymo įjungimas esamiems produktams](change-management-existing-products.md).</p> |
-| Inžinerijos pranešimai gamybai | <p>Jei produktas inžinerijos metu pakeičiamas, gali reikėti informuoti gamybą apie šiuos pakeitimus. Tokiu būdu gamybos darbuotojai gali imtis atitinkamų veiksmų, pvz., komponentų pakeitimo, komplektavimo specifikacijos (KS) pakeitimo arba maršruto pakeitimo. Ši priemonė leidžia informuoti gamybą apie produktų, kurie gaminami, pakeitimus.</p><p>Dėl daugiau informacijos, žr. [Valdyti keitimus inžinerijos produktams](engineering-change-management.md).</p> |
-| Patobulintas atributų paveldimumas inžinerinių pakeitimų valdymui | <p>Ši priemonė supaprastina atributų valdymą baigtoms prekėms ar tarpinėms prekėms. Kai ši funkcija įjungta, lengviau identifikuoti visus atributus, priklausančius prekei, ir galima pasirinkti atributus, kurie turėtų būti platinami iš tos prekės pirminėms prekės. Ši funkcija yra naudinga, kai, pavyzdžiui, vienas baigtos medžiagos komponentas yra dūžtas, pagal ar ištvirtęs, nes galite lengvai identifikuoti dūžtamą, panaudotus ar perduotos atributus ir išplatinti jį į baigtą naudą.</p><p>Inžinerijos atributai dėl daugiau informacijos, žr. [Inžinerijos atributai ir inžinerijos atributų paieška](engineering-attributes-and-search.md).</p> |
-| Produkto parengties patikros | <p>Funkcija leidžia Jums nustatyti pasirengimo patikrinimų strategijas standartiniams (neinžineriniams) produktams. Naudokite produkto pasirengimo tikrinimus, norėdami užtikrinti, kad kiekvienas produktas yra visiškai apibrėžtas ir kad visos būtinos strategijos yra sukonfigūruotos prieš produkto prieinamumą ir naudojimą operacijose. Jei šią funkciją išjungsite kurį laiką panaudodami, visi esami standartinių produktų pasirengimo tikrinimai bus panaikinti.</p><p>Dėl daugiau informacijos, žr. [Produkto parengimas](product-readiness.md).</p> |
-| Tvarkyti formulių ir jų sudedamųjų dalių keitimus | <p>Ši funkcija leidžia sekti formulės ingredientų, ingredientų sudėtiuose ir produktuose pakeitimus.</p><p>Daugiau informacijos rasite [Formulių ir jų ingredientų pakeitimų valdymas](manage-formula-changes.md).</p> |
-| Inžinierinių produktų variantų generavimas | <p>Ši priemonė leidžia generuoti inžinerijos produktų variantus, pagrįstus galima dimensijų vertėmis.</p><p>Daugiau informacijos ieškokite gamybos [produktų variantų gener kuriuos galima generuoti](engineering-variants.md).</p> |
+| Pakeitimų valdymo įjungimas esamiems produktams | <p>Ši priemonė leidžia konvertuoti esamus produktus į inžinerijos produktus, kad, naudodami inžinerinių pakeitimų valdymą, pradėtumėte juos valdyti.</p><p>- Dėl daugiau informacijos rasite [Pakeitimų valdymo įjungimas esamiems produktams](change-management-existing-products.md).</p> | Pagal numatytąją reikšmę kaip 10.0.25 versija. |
+| Inžinerijos pranešimai gamybai | <p>Jei produktas inžinerijos metu pakeičiamas, gali reikėti informuoti gamybą apie šiuos pakeitimus. Tokiu būdu gamybos darbuotojai gali imtis atitinkamų veiksmų, pvz., komponentų pakeitimo, komplektavimo specifikacijos (KS) pakeitimo arba maršruto pakeitimo. Ši priemonė leidžia informuoti gamybą apie produktų, kurie gaminami, pakeitimus.</p><p>Dėl daugiau informacijos, žr. [Valdyti keitimus inžinerijos produktams](engineering-change-management.md).</p> |  Pagal numatytąją reikšmę kaip 10.0.25 versija. |
+| Patobulintas atributų paveldimumas inžinerinių pakeitimų valdymui | <p>Ši priemonė supaprastina atributų valdymą baigtoms prekėms ar tarpinėms prekėms. Kai ši funkcija įjungta, lengviau identifikuoti visus atributus, priklausančius prekei, ir galima pasirinkti atributus, kurie turėtų būti platinami iš tos prekės pirminėms prekės. Ši funkcija yra naudinga, kai, pavyzdžiui, vienas baigtos medžiagos komponentas yra dūžtas, pagal ar ištvirtęs, nes galite lengvai identifikuoti dūžtamą, panaudotus ar perduotos atributus ir išplatinti jį į baigtą naudą.</p><p>Inžinerijos atributai dėl daugiau informacijos, žr. [Inžinerijos atributai ir inžinerijos atributų paieška](engineering-attributes-and-search.md).</p> |  Pagal numatytąją reikšmę kaip 10.0.25 versija. |
+| Produkto parengties patikros | <p>Funkcija leidžia Jums nustatyti pasirengimo patikrinimų strategijas standartiniams (neinžineriniams) produktams. Naudokite produkto pasirengimo tikrinimus, norėdami užtikrinti, kad kiekvienas produktas yra visiškai apibrėžtas ir kad visos būtinos strategijos yra sukonfigūruotos prieš produkto prieinamumą ir naudojimą operacijose. Jei šią funkciją išjungsite kurį laiką panaudodami, visi esami standartinių produktų pasirengimo tikrinimai bus panaikinti.</p><p>Dėl daugiau informacijos, žr. [Produkto parengimas](product-readiness.md).</p> |  Pagal numatytąją reikšmę kaip 10.0.25 versija. |
+| Tvarkyti formulių ir jų sudedamųjų dalių keitimus | <p>Ši funkcija leidžia sekti formulės ingredientų, ingredientų sudėtiuose ir produktuose pakeitimus.</p><p>Daugiau informacijos rasite [Formulių ir jų ingredientų pakeitimų valdymas](manage-formula-changes.md).</p> |  Pagal numatytąją reikšmę kaip 10.0.25 versija. |
+| Inžinierinių produktų variantų generavimas | <p>Ši priemonė leidžia generuoti inžinerijos produktų variantus, pagrįstus galima dimensijų vertėmis.</p><p>Daugiau informacijos ieškokite gamybos [produktų variantų gener kuriuos galima generuoti](engineering-variants.md).</p> |  Pagal numatytąją reikšmę kaip 10.0.25 versija. |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

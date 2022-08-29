@@ -14,18 +14,15 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 35fcb7c4068ff2f68970d9c0127491e4a63dab4c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dac3ad583be9e4cbd6eacbc6d228819bd298628b
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861079"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9323580"
 ---
 # <a name="create-a-working-time-calendar"></a>Darbo laiko kalendoriaus kūrimas
 
-
-> [!Important]
-> Šiame straipsnyje parodytos funkcijos šiuo metu yra galimos klientams autonominiu metu Dynamics 365 Human Resources. Kai kurios arba visos funkcijos bus prieinamos kaip būsimo „Finance“ infrastruktūros leidimo dalis po to, kai bus išleistas „Finance“ leidimas 10.0.26.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -49,7 +46,7 @@ Nustatykite bent vieną darbo kalendorių, kuriame parodytos darbo dienos ir val
 
 3. Dalyje **Generavimo pasirinktys** pasirinkite savo organizacijos darbo dienas ir įveskite darbo laiką. 
    - Norėdami pridėti švenčių ar nedarbo dienų, pasirinkite šalia dalies **Šventės ir darbo dienos** esantį mygtuką **Pridėti**.
-   - Norėdami pridėti ne darbo laiką, pvz., pietus arba pertraukas, pasirinkite **Pridėti** dalyje **NE DARBO LAIKAS** ir įveskite pavadinimą ir laiko intervalą.
+   - Norėdami įtraukti ne darbo laiką, pvz., priešpite ar pertraukas, **·** **pasirinkite Įtraukti dalyje Ne** darbo laikas ir įveskite pavadinimą bei laiko intervalą.
 
 4. Dalyje **Dienos** pasirinkite **Generuoti**, kad sugeneruotumėte dienų kalendorių. Įveskite kalendoriaus datų intervalą, tada pasirinkite **Generuoti dienas**.
 
@@ -67,7 +64,7 @@ Galite pridėti arba keisti šventes ir nedarbo dienas atskirai nuo darbo laiko 
 
 Galite pridėti arba keisti ne darbo laiką atskirai nuo darbo laiko kalendoriaus.
 
-1. Organizacijos administravimo **puslapyje** pasirinkite NE **DARBO LAIKĄ**.
+1. Puslapyje **Organizacijos administravimas** pasirinkite **Ne darbo laikas**.
 
 2. Pasirinkite **Naujas** ir įveskite ne darbo laiko pavadinimą bei laiko intervalą.
 

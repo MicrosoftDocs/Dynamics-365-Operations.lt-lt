@@ -13,19 +13,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f008c273a3088353c33ae8c4b0b3cbc6b274fbcf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2e3fa839b6e0f3cbaea8d2225b5a42ee8a368272
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901153"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337350"
 ---
 # <a name="benefits-management-overview"></a>Išmokų valdymo apžvalga
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Norėdami išlikti konkurencingi, turite pasiūlyti gausų išmokų rinkinį, kad pritrauktumėte ir išlaikytumėte savo geriausius darbuotojus. Be įprastų privalumų, pvz., sveikatos ir dantų priežiūros draudimo, taip pat galite siūlyti išplėstines paslaugas, pvz., įvaikinimo pagalbą, poilsio programas ir išmokas drabužiams. Išmokų valdymas programoje „Microsoft Dynamics 365 Human Resources“ – dinamiškas sprendimas, palaikantis daugybę išmokų parinkčių. „Human Resources“ taip pat apima lengvai naudojamas darbuotojų funkcijas, kuriomis demonstruojami jūsų pasiūlymai.
 
@@ -147,6 +142,16 @@ Tam, kad galėtumėte apdoroti gyvenimo įvykius, turite būti bent vieną kart�
 - [Gyvenimo įvykių apdorojimas](hr-benefits-process-life-events.md)
 - [Gyvenimo įvykių keitimų apdorojimas](hr-benefits-process-life-event-changes.md)
 - [Gyvenimo įvykių tinkamumo apdorojimas](hr-benefits-process-life-event-eligibility.md)
+
+Pasibaigus gyvenimo įvykio apdorojimui ir tol, kol laikotarpis yra atviras galiojimo įvykio registracijos laikotarpiui, darbuotojai gali pakeisti plano parinktis, kurios paveiktos gyvenimo įvykio. Administratoriai gali atlikti keitimus darbuotojų vardu. Pasibaigus registracijos laikotarpiui ir jokie nepatvirtinti plano tipai nėra susiję su gyvenimo įvykio operacija, operacija uždaroma.
+
+Visi planai, kuriems daro poveikį gyvenimo įvykis, turi būti pasirinkti arba atmesti, o tada patvirtinti. Jei planas neparinktas, jo atsisakyta ir jis nėra patvirtintas, gyvenimo įvykio operacija neuždaroma.
+
+Administratoriai gali rankiniu būdu uždaryti gyvenimo įvykio operaciją pagal tai, pasirinkdami ją, o tada pasirinkdami **Uždaryti**. Jei operacijoje yra nepatvirtintų planų ir administratorius nori jį uždaryti, gyvenimo įvykio sustabdymas gali apriboti tų planų redagavimus.
+
+Uždarytų galiojimo laiko įvykių panaikinti negalima.
+
+Administratoriai gali atidaryti operaciją iš naujo pagal laiką, pasirinkdami ją ir pasirinkdami Atidaryti iš **naujo**.
 
 ## <a name="rate-updates-optional"></a>Tarifų naujinimai (pasirinktinai)
 

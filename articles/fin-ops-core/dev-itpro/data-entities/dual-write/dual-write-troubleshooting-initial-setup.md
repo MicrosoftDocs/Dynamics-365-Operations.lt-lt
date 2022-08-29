@@ -5,22 +5,20 @@ author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2e2759ff15dd8d146c642fc0da90d1a38fe855d1
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: d33fc6f4895b53f16cc6957a3a2fc6b1abe90a2f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111207"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289521"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Problemų šalinimas pradinio nustatymo metu
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 Šiame straipsnyje pateikiama trikčių diagnostikos informacija, skirta dvigubo rašymo integravimui tarp finansų ir operacijų programėlių ir Dataverse. Tiksliau sakant, pateikiama informacija, kuri gali padėti išspręsti problemas, kurios gali kilti pradinės dvigubos rašymo integracijos sąrankos metu.
 
@@ -51,7 +49,7 @@ Susiejant dvigubo rašymo aplinką, veiksmas nepavyksta ir pateikiamas klaidos p
 
 *Nepavyko įrašyti ryšių rinkinio! Prekė tokiu pačiu raktu jau įtraukta.*
 
-Dvigubo rašymo funkcija nepalaiko kelių juridinių subjektų / įmonių tokiu pačiu pavadinimu. Pavyzdžiui, jei programoje „Dataverse” turite dvi įmones pavadinimu „DAT”, bus pateiktas šis klaidos pranešimas.
+Dvigubo rašymo funkcija nepalaiko kelių juridinių subjektų / įmonių tokiu pačiu pavadinimu. Pavyzdžiui, jei turite dvi įmones, kurių pavadinimas DAT Dataverse, bus pateiktas šis klaidos pranešimas.
 
 Norėdami atblokuoti klientą, pašalinkite besidubliuojančius įrašus programos „Dataverse” lentelėje **cdm_company**. Be to, jei lentelėje **cdm_company** yra įrašų tuščiu pavadinimu, pašalinkite arba pataisykite šiuos įrašus.
 
@@ -87,6 +85,19 @@ Yra du dalykai, dėl kurių gali kilti problema, kai aplinkos aptikti nepavyksta
 
 + Vartotojui, kuris buvo naudojamas prisijungti, nėra tas pats nuomininkas, kaip ir finansų ir operacijų egzempliorius.
 + Yra senesnių finansų ir operacijų egzempliorių, kurie "Microsoft" laikomi su surasti išdavimu. Norėdami tai ištaisyti, atnaujinkite finansų ir operacijų egzempliorių. Aplinką galima aptikti, naudojant bet kurį atnaujinimą.
+
+## <a name="403-forbidden-error-while-connections-are-being-created"></a>403 (draudžiama) klaida kuriant ryšius
+
+Kaip dvigubo rašymo susiejimo proceso dalis, Power Apps du ryšiai (*taip pat vadinami Apihub* ryšiais) sukuriami vartotojo vardu susietame aplinkoje Dataverse. Jei klientas neturi Power Apps aplinkos licencijos, ApiHub ryšių sukurti nepavyksta, rodoma 403 (Draudžiama). Čia yra klaidos pranešimo pavyzdys:
+
+> MSG=Nepavyko\[ nustatyti dvigubo rašymo aplinkos. Klaidos informacija: atsakymo būsenos kodas nerodo sėkmės: 403 (draudžiama). – atsakymo būsenos kodas nerodo sėkmės: 403 (Draudžiama).\] STACKTRACE =\[ į Microsoft.Dynamics.Integrator.ProjectManagementService.DualWrite.DualWriteConnectionSetProcessor.\<CreateDualWriteConnectionSetAsync\> d\_\_ 29.MoveNext() X:\\ bt\\ 1158727\\ repo\\ src\\ ProjectManagementService\\ DualWrite\\ DualWriteConnectionSetProcessor.cs:line 297 --- --- dėklo sekimo pabaiga iš ankstesnės vietos, kur buvo System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() System.Runtime.CompilerServices.TaskHoriter.HandleNonSuccessAndDebuggerNotification(Task task), Microsoft.Dynamics.Integrator.ProjectManagementService.Controllers.DualWriteEnvironmentManagementController.\<SetupDualWriteEnvironmentAsync\> d\_\_ 34.MoveNext() X:\\ bt\\ 1158727\\ repo\\ src\\ ProjectManagementService\\ Controllers\\ DualWriteEnvironmentManagementController.cs:line 265\]
+
+Ši klaida įvyksta dėl licencijos trūkumo Power Apps. Priskirkite vartotojui tinkamą licenciją (pvz., Power Apps Bandomasis 2 planas), kad vartotojas turėtų teisę kurti ryšius. Norėdami patikrinti licenciją, klientas gali eiti [į "Mano](https://portal.office.com/account/?ref=MeControl#subscriptions) sąskaitos" svetainę ir peržiūrėti dabar vartotojui priskirtas licencijas.
+
+Norėdami gauti daugiau informacijos Power Apps apie licenciją, žr. šiuos straipsnius:
+
+- [Licencijų priskyrimas vartotojams](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)
+- [Jūsų Power Apps organizacijos pirkimas](/power-platform/admin/signup-for-powerapps-admin)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
 

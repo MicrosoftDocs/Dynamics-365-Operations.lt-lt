@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 183d0f13a17ffac723fac6c4801bd187dd54e976
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2cb3ca03e0d9d7e5423a405f1eb0372e1c19588d
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888860"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227992"
 ---
 # <a name="configure-future-life-events"></a>Būsimų gyvenimo įvykių konfigūravimas
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Galite planuoti būsimus gyvenimo įvykius programoje „Dynamics 365 Human Resources“.
 
@@ -39,11 +40,12 @@ Galite planuoti būsimus gyvenimo įvykius programoje „Dynamics 365 Human Reso
    | Gyvenimo įvykis užregistruotas | Data ir laikas, kai gyvenimo įvykis yra užregistruotas. |
    | Žurnalo tipas | Nurodo, ar veiksmas yra vienas iš šių veiksmų:</br></br>- **Naujinti** – esamo įrašo, sekančio gyvenimo įvykius, keitimas</br></br>- **Įterpti** – naujo gyvenimo įvykio įrašo kūrimas |
    | Gyvenimo įvykio tipo ID | Unikalus gyvenimo įvykio tipo identifikatorius. |
-   | Gyvenimo įvykio tipas | Katalizatorius, skirtas atnaujinti darbuotojo išmokų registravimą. Norėdami gauti daugiau informacijos, žr. skyriuje Gyvenimo įvykių paleidikliai. |
+   | Gyvenimo įvykio tipas | Katalizatorius, skirtas atnaujinti darbuotojo išmokų registravimą. Daugiau informacijos rasite skyriuje Life Event Triggers. |
    | Būsena | Ar gyvenimo įvykis apdorotas ar neapdorotas. |
    | Eilutė | Būsimo gyvenimo įvykio eilutės numeris. |
 
 4. Pasirinkite **Įrašyti**. 
 
+Galite naikinti būsimus įvykius. Jei apdorotas būsimas įvykis panaikinamas, panaikinamas ir būsimas įrašas. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

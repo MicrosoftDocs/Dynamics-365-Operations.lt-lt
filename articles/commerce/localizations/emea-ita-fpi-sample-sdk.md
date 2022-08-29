@@ -2,25 +2,29 @@
 title: Italijos (senesnių) fiskalinio spausdintuvo integravimo pavyzdžio diegimo rekomendacijos
 description: Šiame straipsnyje pateikiamos Italijos fiskalinio spausdintuvo integravimo pavyzdžio diegimo iš "Retail" programinės įrangos Microsoft Dynamics 365 Commerce kūrimo rinkinio (SDK) gairės.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 08/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: bb07ca91c9e5bf1a79f672f9ba29b7bcc21688c6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2019-03-01
+ms.openlocfilehash: 46d42a2c2a5f8f40fc8b9693f26a182c8f2e6352
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848903"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337239"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>Italijos (senesnių) fiskalinio spausdintuvo integravimo pavyzdžio diegimo rekomendacijos
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-Šiame straipsnyje pateikiamos Microsoft Dynamics 365 Commerce gairės, kaip įdiegti Italijos fiskalinio spausdintuvo integravimo pavyzdį iš "Retail" programinės įrangos kūrimo rinkinio (SDK), kuris yra programuotojo virtualiojoje kompiuteryje (VM) Microsoft Dynamics ciklo tarnybose (LCS). Daugiau informacijos apie šį finansinio integravimo pavyzdį ieškokite Italijos iždo [dokumentų spausdintuvo integravimo pavyzdys](emea-ita-fpi-sample.md). 
+> [!IMPORTANT]
+> Vadovaukitės šiame straipsnyje rekomendacijomis tik tada, jei naudojate Microsoft Dynamics 365 Commerce 10.0.28 arba ankstesnę versiją. Pagal "Commerce" 10.0.29 versiją Italijos fiskalinio spausdintuvo integravimo pavyzdį galima rasti "Commerce" programinės įrangos kūrimo rinkinyje (SDK). Daugiau informacijos rasite Kanalo komponentų [konfigūravimas](./emea-ita-fpi-sample.md#configure-channel-components).
+
+Šiame straipsnyje pateikiamos Dynamics 365 Commerce gairės, kaip įdiegti Italijos fiskalinio spausdintuvo integravimo pavyzdį iš "Retail SDK" programuotojo virtualiojoje kompiuteryje (VM) Microsoft Dynamics ciklo tarnybose (LCS). Daugiau informacijos apie šį finansinio integravimo pavyzdį ieškokite Italijos iždo [dokumentų spausdintuvo integravimo pavyzdys](emea-ita-fpi-sample.md). 
 
 Italijos finansinio integravimo pavyzdys yra mažmeninės prekybos SDK dalis. Informacijos, kaip įdiegti ir naudoti SDK, ieškokite Mažmeninės prekybos programinės [įrangos kūrimo rinkinio (SDK) architektūroje](../dev-itpro/retail-sdk/retail-sdk-overview.md). Šį pavyzdį sudaro "Commerce Runtime (CRT) ir Hardware" stoties plėtiniai. Norėdami vykdyti šį pavyzdį, turite modifikuoti ir sukurti " CRT Hardware" stoties projektus. Rekomenduojame naudoti nesumoduliuotą "Retail SDK", kad būtų atlikti šiame straipsnyje aprašyti pakeitimai. Taip pat rekomenduojame naudoti šaltinio valdymo sistemą, pvz.Azure DevOps, kurioje dar nėra pakeistų failų.
 

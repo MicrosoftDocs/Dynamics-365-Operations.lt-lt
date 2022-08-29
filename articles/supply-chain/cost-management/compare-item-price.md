@@ -2,7 +2,7 @@
 title: Prekių saugojimo kainų palyginimo ataskaita
 description: Sužinokite, kaip sugeneruoti prekių saugojimo kainų palyginimo ataskaitą, tada peržiūrėkite ir (arba) eksportuokite rezultatą.
 author: JennySong-SH
-ms.date: 01/30/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c9e2ccbe613a4aab40a4f519bbb82a9175d46e72
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c6373679299b68413d75236ca8cc18ceba03e091
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846219"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334992"
 ---
 # <a name="compare-item-prices-storage-report"></a>Prekių saugojimo kainų palyginimo ataskaita
 
@@ -35,12 +35,9 @@ Ataskaitų rezultatai saugomi duomenų objekte **Lyginti prekių kainas**, kuris
 
 Ataskaita **Palyginti prekių saugojimo kainas** naudinga tais atvejais, kai rezultatas pateikia daug eilučių. Pavyzdžiui, rezultate gausite daug eilučių, jei yra daugiau nei 40 000 prekių, kurių įkainojimo versijos kaina yra laukianti prekės kaina.
 
-## <a name="enable-compare-item-prices-storage"></a>Prekių saugojimo kainų palyginimo įjungimas
+## <a name="turn-the-compare-item-prices-storage-feature-on-or-off"></a>Įjungti arba išjungti prekių kainų lyginimo saugojimo funkciją
 
-Kad galėtumėte naudoti šią funkciją, turite ją įjungti savo sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įgalinti ją, jei reikia. Čia funkcija yra nurodyta kaip:
-
-- **Modulis** – kaštų valdymas
-- **Funkcijos pavadinimas** — lyginti prekių saugojimo kainą
+Jei norite naudoti šią funkciją, ją turite įjungti savo sistemoje. Kaip ir tiekimo grandinės valdymo versija 10.0.29, ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.29 versiją, *·*[tada](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) administratoriai gali įjungti arba išjungti šią funkciją ieškodami prekių kainų saugojimo funkcijos funkcijų valdymo darbo srityje.
 
 ## <a name="generate-a-compare-item-prices-storage-report"></a>Generuoti prekių saugojimo kainų palyginimo ataskaitą
 

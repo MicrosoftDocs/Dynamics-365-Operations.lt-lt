@@ -2,25 +2,29 @@
 title: Vokietijos (senesnių) finansinių registracijų tarnybos integravimo pavyzdžio diegimo rekomendacijos
 description: Šiame straipsnyje pateikiamos Gairės dėl Vokietijos finansinio integravimo pavyzdžio diegimo iš "Retail" programinės įrangos Microsoft Dynamics 365 Commerce kūrimo rinkinio (SDK).
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 08/17/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 9f6ecc715e10538806998459b7fd837648494ad7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2019-03-01
+ms.openlocfilehash: 7315b6bb145ccdc5631a558af88de55660ebf877
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845842"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313861"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-germany-legacy"></a>Vokietijos (senesnių) finansinių registracijų tarnybos integravimo pavyzdžio diegimo rekomendacijos
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-Šiame straipsnyje pateikiamos Microsoft Dynamics 365 Commerce Gairės, kaip įdiegti Vokietijos finansinio registravimo tarnybos integravimo pavyzdį iš "Retail" programinės įrangos kūrimo rinkinio (SDK) kūrėjų virtualiojoje kompiuteryje (VM) Microsoft Dynamics ciklo tarnybose (LCS). Daugiau informacijos apie šį finansinio integravimo pavyzdį ieškokite Vokietijos [finansinių registracijos tarnybos integravimo pavyzdyje](emea-deu-fi-sample.md). 
+> [!IMPORTANT]
+> Šiame straipsnyje nurodytus nurodymus turite naudoti tik tada, jei naudojate Microsoft Dynamics 365 Commerce 10.0.28 arba ankstesnę versiją. Pagal "Commerce" 10.0.29 versiją Vokietijos finansinių registracijų tarnybos integravimo pavyzdys yra "Commerce" programinės įrangos kūrimo rinkinyje (SDK). Daugiau informacijos rasite Kanalo komponentų [konfigūravimas](./emea-deu-fi-sample.md#configure-channel-components).
+
+Šiame straipsnyje pateikiamos Dynamics 365 Commerce gairės, kaip įdiegti Vokietijos finansinio registravimo tarnybos integravimo pavyzdį iš "Retail SDK", kuris yra programuotojo virtualiojoje kompiuteryje (VM) Microsoft Dynamics ciklo tarnybose (LCS). Daugiau informacijos apie šį finansinio integravimo pavyzdį ieškokite Vokietijos [finansinių registracijos tarnybos integravimo pavyzdyje](emea-deu-fi-sample.md). 
 
 Vokietijos finansinio integravimo pavyzdys yra mažmeninės prekybos SDK dalis. Informacijos, kaip įdiegti ir naudoti SDK, ieškokite Mažmeninės prekybos programinės [įrangos kūrimo rinkinio (SDK) architektūroje](../dev-itpro/retail-sdk/retail-sdk-overview.md). Šį pavyzdį sudaro "Commerce Runtime (CRT) ir Hardware" stoties plėtiniai. Norėdami vykdyti šį pavyzdį, turite modifikuoti ir sukurti " CRT Hardware" stoties projektus. Rekomenduojame naudoti nesumoduliuotą "Retail SDK", kad būtų atlikti šiame straipsnyje aprašyti pakeitimai. Taip pat rekomenduojame naudoti šaltinio valdymo sistemą, pvz.Azure DevOps, kurioje dar nėra pakeistų failų.
 

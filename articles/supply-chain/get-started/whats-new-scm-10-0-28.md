@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 7e17127ff6ef6c52034b8aa5e0c8404772363ca9
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 5cca06517fbdcbdae6e54c106b113a83851240c8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186526"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334782"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10028-august-2022"></a>Naujienos ir pakeitimai „Dynamics 365 Supply Chain Management” 10.0.28 (2022 m. rugpjūtis)
 
@@ -34,9 +34,9 @@ Tolesnėje lentelėje pateiktos funkcijos, kuri yra šiame leidime. Mes galime a
 | Funkcijos sritis | Funkcija | Daugiau informacijos | Įjungė   |
 |---|---|---|---|
 | Atsargos ir logistika | [Įkainoti išlaidų integravimo objektai trečiosios šalies krovinių ekspeditoriams](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/landed-cost-integration-third-party-freight-forwarders) | [Gabenimo išlaidų objektų peržiūra](../landed-cost/landed-cost-entities-overview.md) | Įgalinta pagal numatytuosius nustatymus |
-| Planuojama | [Poreikio valdomas medžiagų poreikių planavimas (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | [Poreikio valdomas medžiagų poreikių planavimo peržiūra](../master-planning/planning-optimization/ddmrp-overview.md) | Priemonių valdymas:<br>*(Peržiūros versija) Planavimo optimizavimo DDMRP* |
-| Planuojama | [Galima pateikti atsargos planavimo optimizavimo palaikymas (CTP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | Jau greitai | Priemonių valdymas:<br>*(Peržiūros versija) Planavimo optimizavimo CTP* |
-| Planuojama | [Laikymo trukmės planavimo optimizavimo palaikymas](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | Jau greitai | Įgalinta pagal numatytuosius nustatymus |
+| Planuojama | [Žaliavų poreikių planavimas pagal paklausą (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | [Poreikio valdomas medžiagų poreikių planavimo peržiūra](../master-planning/planning-optimization/ddmrp-overview.md) | Priemonių valdymas:<br>*(Peržiūros versija) Planavimo optimizavimo DDMRP* |
+| Planuojama | [Galima pateikti atsargos planavimo optimizavimo palaikymas (CTP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | [Apskaičiuoti pardavimo užsakymo pristatymo datas naudojant CTP](../master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md) | Priemonių valdymas:<br>*(Peržiūros versija) Planavimo optimizavimo CTP* |
+| Planuojama | [Laikymo trukmės planavimo optimizavimo palaikymas](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | [Produktų, kurių laikymo laikas ribotas, bendrasis planavimas](../master-planning/planning-optimization/shelf-life.md) | Įgalinta pagal numatytuosius nustatymus |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Funkcijos patobulinimai, įtraukti į šį leidimą
 

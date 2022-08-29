@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 935c2e6cb45df193e6cbf70634f3561154c6fe38
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
+ms.openlocfilehash: 20a2ffb44f9b99800146e3365e6f0d6df8e9a75e
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178540"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324267"
 ---
 # <a name="copy-an-instance"></a>Egzemplioriaus kopijavimas
 
@@ -47,13 +47,14 @@ Kad nukopijuotumėte egzempliorių, atminkite šiuos patarimus:
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>„Human Resources“ duomenų bazės kopijavimo poveikis
 
+> [!Note]
+> Nuo 2022 m. rugpjūčio Microsoft Azure BLOB saugyklos dokumentai įtraukiami kopijuojant gamybos aplinką į sando dėžės aplinką. Visi pridėti dokumentai ir šablonai bus nukopijuoti iš šaltinio aplinkos į tikslinę aplinką.
+
 Šie įvykiai įvyksta, kai kopijuojate „Human Resources“ duomenų bazę:
 
 - Kopijavimo procesu trinama esama duomenų bazė, esanti paskirties aplinkoje. Kai kopijavimo procesas baigtas, negalėsite atkurti esamos duomenų bazės.
 
 - Paskirties aplinka nebus pasiekiama, kol nebus baigtas kopijavimo procesas.
-
-- Dokumentai, esantys „Microsoft Azure“ didelių dvejetainių objektų saugykloje, nėra kopijuojami iš vienos aplinkos į kitą. Todėl bet kurie pridėti dokumentai ir šablonai nebus kopijuojami ir liks šaltinio aplinkoje.
 
 - Visi vartotojai, išskyrus tuos, kurių saugos vaidmuo "Sistemos administratorius" ir kiti vidinių paslaugų vartotojų abonementai yra negalimi. Vartotojas administratorius gali panaikinti duomenis prieš tai, kai kitiems vartotojams neleidžiama grįžti į sistemą.
 

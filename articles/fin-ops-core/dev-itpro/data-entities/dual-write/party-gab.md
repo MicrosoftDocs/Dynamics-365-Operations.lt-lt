@@ -2,19 +2,19 @@
 title: Šalies ir bendros knygelės nustatymas
 description: Šiame straipsnyje aprašomos dvigubo rašymo šalies ir visuotinės adresų knygelės funkcijos.
 author: RamaKrishnamoorthy
-ms.date: 04/25/2022
+ms.date: 08/02/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 91b56d091f549838092bdefe1a6a763fde79a32c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7f06b6e69b76bf12092fdceca5b45a6750b52233
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892199"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228997"
 ---
 # <a name="party-and-global-address-book"></a>Šalies ir bendros knygelės nustatymas
 
@@ -119,11 +119,11 @@ Tinklelyje yra šie stulpeliai:
 
 Galite naudoti mygtuką **Naujas adresas** virš tinklelio, kad sukurtumėte tiek pašto adresų, kiek norite.
 
-Laukai **1 adresas ir 2 adresas, esantys sąskaitos formos skirtuke Suvestinė**, **atitinka** **pristatymo** **ir** **SF** **adresus**.
+Kliento įsipareigojimo programėlių atveju, kai vartotojas įveda adresus sąskaitų puslapio suvestinės skirtuke, 1 **adresas ir 2** **·** **adresas** atitinka pristatymo ir SF adresus.**·** **·** **·** Tačiau, kai vartotojas sukuria pašto adresą finansų ir operacijų programėlei, **pirmieji du kliento įrašo adresai bus rodomi laukuose Adresas1** **ir Adresas2**, **·** **o** vartotojas gali keisti adreso paskirtį į Pristatymas ir SF.
 
 ![Pašto adresų suvestinės skirtukas.](media/party-gab-image5.png)
 
-Laukeliai **Adresas 1**, **Adresas 2** ir **Adresas 3** skirtuke **Santrauka** formoje **Kontaktas** atitinka **Verslo**, **Pristatymo** bei **SF** adresus.
+Panašiai 1 **adresas,** 2 **adresas** ir 3 adresas, esantys **·** **·** **·** **kontakto puslapio suvestinės skirtuko lape, atitinka atitinkamai verslo,** **·** **pristatymo ir SF adresus.**
 
 ## <a name="electronic-addresses"></a>Elektroninio pašto adresai
 

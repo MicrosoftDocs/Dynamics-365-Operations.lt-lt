@@ -2,23 +2,26 @@
 title: Norvegijos grynųjų pinigų registrų diegimo gairės (iš senesni)
 description: Šis straipsnis yra diegimo vadovas, rodantis, kaip įgalinti Microsoft Dynamics 365 Commerce Norvegijos lokalizavimą.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/23/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
+ms.author: josaw
 ms.search.validFrom: 2018-2-28
-ms.openlocfilehash: 7a6450215f152779428d3b0fd83bf09761e2ad98
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fb597add48ac3508a88142e63d80f405b6b5f8b4
+ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894467"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9346051"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway-legacy"></a>Norvegijos grynųjų pinigų registrų diegimo gairės (iš senesni)
 
 [!include [banner](../includes/banner.md)]
+
+> [!WARNING]
+> Šis finansinio integravimo funkcijos pavyzdys nepasinaudos finansų integravimo [sistema](./fiscal-integration-for-retail-channel.md) ir vėlesniuose atnaujinimų metu bus pasenusi. Turėtumėte naudoti funkcijas [, kurios pagrįstos finansinio integravimo sistema](./emea-nor-fi-deployment.md).
 
 Šis straipsnis yra diegimo vadovas, rodantis, kaip įgalinti Microsoft Dynamics 365 Commerce Norvegijos lokalizavimą. Lokalizavimą sudaro keletas "Commerce" komponentų plėtinių. Pvz., plėtiniai leidžia kvituose spausdinti pasirinktinius laukus, registruoti papildomus audito įvykius, pardavimo operacijas ir mokėjimo operacijas elektroniniame kasos aparate (EKA), skaitmeniniu būdu pasirašyti pardavimo operacijas ir spausdinti X ir Z ataskaitas vietiniu formatu. Daugiau informacijos apie Norvegijos lokalizavimą ieškokite Norvegijos grynųjų [pinigų registro funkcija](./emea-nor-cash-registers.md).
 

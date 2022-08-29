@@ -2,27 +2,28 @@
 title: Fiskalinio spausdintuvo integracijos pavyzdys (Lenkija)
 description: Šiame straipsnyje pateikta Lenkijos finansinio integravimo pavyzdžio apžvalga Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2019-2-1
-ms.openlocfilehash: e71d7b342789e4cf2e7644a46bc847087063fc78
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2019-02-01.
+ms.openlocfilehash: 52710252d78d34c444de2d40e16423868b12b5c1
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876954"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337238"
 ---
 # <a name="fiscal-printer-integration-sample-for-poland"></a>Fiskalinio spausdintuvo integracijos pavyzdys (Lenkija)
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Šiame straipsnyje pateikta Lenkijos finansinio integravimo pavyzdžio apžvalga Microsoft Dynamics 365 Commerce.
 
-Lenkijos Dynamics 365 Commerce funkcijos apima pavyzdinį pardavimo galimybių (EKA) integravimą su fiskaliniu spausdintuvu. Pavyzdys išplečia fiskalinio [integravimo funkcijas](fiscal-integration-for-retail-channel.md) ir palaiko POSNET HD 2.02 [protokolą, skirtas iždo dokumentų spausdintuvams iš Posnet Polska S.A.](https://www.posnet.com.pl) Pavyzdys leidžia prisijungti prie fiskalinio spausdintuvo, kuris prijungtas per COM prievadą, naudojant prigimtinę programinės įrangos tvarkyklę. Jis buvo įdiegtas ir patikrintas naudojant programinės įrangos emuliatorių, kuris posnet pateiktą Posnet Hd FV EJ fiskaliniu spausdintuvu. Pavyzdys pateikiamas šaltinio kodo forma ir yra mažmeninės prekybos programinės įrangos kūrimo rinkinio (SDK) dalis.
+Lenkijos Dynamics 365 Commerce funkcijos apima pavyzdinį pardavimo galimybių (EKA) integravimą su fiskaliniu spausdintuvu. Pavyzdys išplečia fiskalinio [integravimo funkcijas](fiscal-integration-for-retail-channel.md) ir palaiko POSNET HD 2.02 [protokolą, skirtas iždo dokumentų spausdintuvams iš Posnet Polska S.A.](https://www.posnet.com.pl) Pavyzdys leidžia prisijungti prie fiskalinio spausdintuvo, kuris prijungtas per COM prievadą, naudojant prigimtinę programinės įrangos tvarkyklę. Jis buvo įdiegtas ir patikrintas naudojant programinės įrangos emuliatorių, kuris posnet pateiktą Posnet Hd FV EJ fiskaliniu spausdintuvu. Pavyzdys pateikiamas šaltinio kodo forma ir yra "Commerce" programinės įrangos kūrimo rinkinio (SDK) dalis.
 
 "Microsoft" neišleidžia jokios aparatūros, programinės įrangos ar dokumentacijos iš Posnet. Norėdami gauti informacijos apie tai, kaip gauti fiskalinį spausdintuvą ir jį valdyti, susisiekite [su Posnet Polska S.A.](https://www.posnet.com.pl)
 
@@ -97,12 +98,10 @@ Fiskalinio spausdintuvo integravimo pavyzdys vykdo šias taisykles, susijusias s
 
 ## <a name="set-up-fiscal-integration-for-poland"></a>Nustatyti finansų integravimą Lenkijai
 
-Lenkijos fiskalinio spausdintuvo integravimo pavyzdys pagrįstas finansinio [integravimo funkcija](fiscal-integration-for-retail-channel.md) ir yra "Retail SDK" dalis. Pavyzdys yra sprendimų **saugyklos src\\ FiscalIntegration\\ Posnet**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) aplanke (pvz., [išleidimo /9.33 pavyzdys](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Posnet)). Pavyzdį [sudaro](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskalinio dokumento teikėjas, kuris yra "Commerce Runtime (CRT) plėtinys, ir fiskalinė jungtis, kuri yra "Commerce Hardware Station" plėtinys. Norėdami gauti daugiau informacijos apie tai, kaip naudoti "Retail SDK", [žr. "Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)[" architektūrą ir nepriklausomo pakavimo SDK sukūrimo pardavimo galimybių sukūrimą](../dev-itpro/build-pipeline.md).
+Lenkijos fiskalinio spausdintuvo integravimo pavyzdys pagrįstas finansinio [integravimo funkcija](fiscal-integration-for-retail-channel.md) ir yra "Commerce SDK" dalis. Pavyzdys yra sprendimų saugyklos **src\\ FiscalIntegration\\ Posnet**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) aplanke. Pavyzdį [sudaro](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskalinio dokumento teikėjas, kuris yra "Commerce Runtime (CRT) plėtinys, ir fiskalinė jungtis, kuri yra "Commerce Hardware Station" plėtinys. Norėdami gauti daugiau informacijos apie "Commerce SDK" naudojimą, [žr. "Download Commerce SDK" pavyzdžius ir nuorodų paketus iš GitHub NuGet](../dev-itpro/retail-sdk/sdk-github.md)[ir nustatykite nepriklausomos pakuotės SDK pardavimo galimybių sukūrimą](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> Dėl naujo nepriklausomo pakavimo [ir plėtinio modelio](../dev-itpro/build-pipeline.md) apribojimų, šiuo metu jo negalima naudoti šiame finansinio integravimo pavyzdyje. Turite naudoti ankstesnę "Retail SDK" versiją programavimo virtualiojoje kompiuteryje (VM) ciklo Microsoft Dynamics tarnybose (LCS). Daugiau informacijos ieškokite Lenkijos ([senesnės programos) fiskalinio spausdintuvo integravimo pavyzdžio diegimo rekomendacijose](emea-pol-fpi-sample-sdk.md).
->
-> Naujas nepriklausomas pakavimo ir plėtinio modelis, skirtas finansinio integravimo pavyzdžiui, planuojamas vėlesnėms versijoms.
+> [!NOTE]
+> Lenkijos fiskalinio spausdintuvo integravimo pavyzdį galima rasti "Commerce SDK", kuris naudojamas "Commerce" versijoje 10.0.29. Naudojant "Commerce" 10.0.28 arba senesnę versiją, reikia naudoti ankstesnę "Retail SDK" versiją programavimo virtualiojoje kompiuteryje (VM) Microsoft Dynamics ciklo tarnybose (LCS). Daugiau informacijos ieškokite Lenkijos ([senesnės programos) fiskalinio spausdintuvo integravimo pavyzdžio diegimo rekomendacijose](emea-pol-fpi-sample-sdk.md).
 
 Atlikite finansinio integravimo nustatymo veiksmus, kaip aprašyta ["Commerce" kanalų finansinio integravimo nustatymas](setting-up-fiscal-integration-for-retail-channel.md).
 
@@ -119,18 +118,16 @@ Norėdami įjungti registravimo procesą, atlikite šiuos veiksmus norėdami nus
 1. Atsisiųsti finansinio dokumento teikėjo ir fiskalinio jungties konfigūracijos failus:
 
     1. Atidaryti sprendimų [Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) saugyklą.
-    1. Pasirinkite tinkamą paleidimo šakos versiją pagal savo SDK/programos versiją (pvz., **[paleidimas/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
+    1. Pasirinkite tinkamą paleidimo šakos versiją pagal savo SDK / programos versiją.
     1. Atidaryti **src \> FiscalIntegration \> Posnet**.
-    1. Atsisiųskite finansinio dokumento teikėjo konfigūracijos failą svetainėje CommerceRuntime **DocumentProvider.PosnetSample Configuration DocumentProviderPosnetSample.xml (pvz \>., failas, \> skirtas release/9.33 \>).**[...](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Posnet/CommerceRuntime/DocumentProvider.PosnetSample/Configuration/DocumentProviderPosnetSample.xml)
-    1. Atsisiųskite "Fiscal Connector" konfigūracijos **failą, kurį reikia atsisiųsti iš HardwareStationVzviceSample \>\> Configuration \> ConnectorPosnetThermalFVEJ.xml (pvz** ., [leidimo / 9.33 failas](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Posnet/HardwareStation/ThermalDeviceSample/Configuration/ConnectorPosnetThermalFVEJ.xml)).
+    1. Atsisiųskite finansinio dokumento teikėjo konfigūracijos failą **svetainėje CommerceRuntime \> DocumentProvider.PosnetSample \> Configuration \> DocumentProviderPosnetSample.xml**.
+    1. Atsisiųskite "Fiscal Connector" konfigūracijos failą, kuris yra **HardwareStationDevDeviceSample \>\> Configuration \> ConnectorPosnetThermalFVEJ.xml**.
 
-    > [!WARNING]
-    > Dėl naujo nepriklausomo pakavimo [ir plėtinio modelio](../dev-itpro/build-pipeline.md) apribojimų, šiuo metu jo negalima naudoti šiame finansinio integravimo pavyzdyje. Turite naudoti ankstesnę "Retail SDK" versiją LCS programuotojo VM. Šio fiskalinio integravimo pavyzdžio konfigūracijos failai yra toliau esančiuuose "Retail" SDK, esantis LCS programuotojo VM, aplankuose:
+    > [!NOTE]
+    > Naudojant "Commerce" 10.0.28 arba ankstesnę versiją, LCS programuotojo VM turite naudoti ankstesnę "Retail SDK" versiją. Šio fiskalinio integravimo pavyzdžio konfigūracijos failai yra toliau esančiuuose "Retail" SDK, esantis LCS programuotojo VM, aplankuose:
     >
     > - **Iždo dokumentų teikėjo konfigūracijos failas:** RetailSdk\\ SampleExtensions\\ CommerceRuntime\\ Extension.DocumentProvider.PosnetSample\\ Configuration\\ DocumentProviderPosnetSample.xml
     > - **Iždo jungties konfigūracijos failas:** RetailSdk\\ SampleExtensions\\ HardwareStation\\ extension.Posnet.PjDeviceSample\\ Configuration\\ ConnectorPosnetThermalFVEJ.xml
-    > 
-    > Naujas nepriklausomas pakavimo ir plėtinio modelis, skirtas finansinio integravimo pavyzdžiui, planuojamas vėlesnėms versijoms.
 
 1. Eikite į **Mažmeninė prekyba ir prekyba \> „Headquarters“ sąranka \> Parametrai \> „Commerce“ bendrinami parametrai**. Skirtuke **Bendra** nustatykite pasirinktį **Įgalinti finansų integravimą** kaip **Taip**.
 1. Eikite į **"Retail" ir "Commerce \> Channel" \> nustatymą "Fiscal integration \> Fiscal"** dokumentų teikėjai ir įkelkite anksčiau atsisiųstą fiskalinio dokumento teikėjo konfigūracijos failą.
@@ -173,16 +170,15 @@ Toliau pateiktas numatytasis duomenų susiejimas yra įtrauktas į finansinio do
 
 ### <a name="configure-channel-components"></a>Konfigūruoti kanalo komponentus
 
-> [!WARNING]
-> Dėl naujo nepriklausomo pakavimo [ir plėtinio modelio](../dev-itpro/build-pipeline.md) apribojimų, šiuo metu jo negalima naudoti šiame finansinio integravimo pavyzdyje. Turite naudoti ankstesnę "Retail SDK" versiją LCS programuotojo VM. Daugiau informacijos ieškokite Lenkijos ([senesnės programos) fiskalinio spausdintuvo integravimo pavyzdžio diegimo rekomendacijose](emea-pol-fpi-sample-sdk.md).
->
-> Naujas nepriklausomas pakavimo ir plėtinio modelis, skirtas finansinio integravimo pavyzdžiui, planuojamas vėlesnėms versijoms.
+> [!NOTE]
+> - Lenkijos fiskalinio spausdintuvo integravimo pavyzdį galima rasti "Commerce SDK", kuris naudojamas "Commerce" versijoje 10.0.29. Naudojant "Commerce" 10.0.28 arba ankstesnę versiją, LCS programuotojo VM turite naudoti ankstesnę "Retail SDK" versiją. Daugiau informacijos ieškokite Lenkijos ([senesnės programos) fiskalinio spausdintuvo integravimo pavyzdžio diegimo rekomendacijose](emea-pol-fpi-sample-sdk.md).
+> - Jūsų aplinkoje įdiegti "Commerce" pavyzdžiai nėra automatiškai atnaujinami, kai taikote "Commerce" komponentų aptarnavimo arba kokybės naujinimus. Reikiamus pavyzdžius turite atnaujinti neautomatiniu būdu.
 
 #### <a name="set-up-the-development-environment"></a>Programavimo aplinkos kūrimas
 
 Norėdami nustatyti programavimo aplinką, kad būtų galima patikrinti ir išplėsti pavyzdį, atlikite šiuos veiksmus.
 
-1. Užduokite arba atsisiųskite [Dynamics 365 Commerce sprendimų](https://github.com/microsoft/Dynamics365Commerce.Solutions) saugyklą. Pasirinkite tinkamą paleidimo šakos versiją pagal savo SDK / programos versiją. Norėdami gauti daugiau informacijos, žr. ["Download Retail SDK" pavyzdžius ir nuorodų paketus iš GitHub ir NuGet](../dev-itpro/retail-sdk/sdk-github.md).
+1. Užduokite arba atsisiųskite [Dynamics 365 Commerce sprendimų](https://github.com/microsoft/Dynamics365Commerce.Solutions) saugyklą. Pasirinkite tinkamą paleidimo šakos versiją pagal savo SDK / programos versiją. Norėdami gauti daugiau informacijos, žr. ["Download Commerce SDK" pavyzdžius ir nuorodų paketus iš GitHub ir NuGet](../dev-itpro/retail-sdk/sdk-github.md).
 1. Atidarykite finansinio spausdintuvo integravimo sprendimą **Dynamics365Commerce.Solutions\\ FiscalIntegration\\ Posnet Posnet.sln\\** ir sukurkite jį.
 1. Įdiegti CRT plėtinius:
 
@@ -220,10 +216,10 @@ Norėdami sugeneruoti [ir](fiscal-integration-sample-build-pipeline.md) paleisti
 
 ## <a name="design-of-extensions"></a>Plėtinių dizainas
 
-Lenkijos fiskalinio spausdintuvo integravimo pavyzdys pagrįstas finansinio [integravimo funkcija](fiscal-integration-for-retail-channel.md) ir yra "Retail SDK" dalis. Pavyzdys yra sprendimų **saugyklos src\\ FiscalIntegration\\ Posnet**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) aplanke (pvz., [išleidimo /9.33 pavyzdys](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Posnet)). Pavyzdį [sudaro](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskalinio dokumento teikėjas CRT, kuris yra plėtinys, ir fiskalinė jungtis, kuri yra "Commerce Hardware Station" plėtinys. Norėdami gauti daugiau informacijos apie tai, kaip naudoti "Retail SDK", [žr. "Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)[" architektūrą ir nepriklausomo pakavimo SDK sukūrimo pardavimo galimybių sukūrimą](../dev-itpro/build-pipeline.md).
+Lenkijos fiskalinio spausdintuvo integravimo pavyzdys pagrįstas finansinio [integravimo funkcija](fiscal-integration-for-retail-channel.md) ir yra "Commerce SDK" dalis. Pavyzdys yra sprendimų saugyklos **src\\ FiscalIntegration\\ Posnet**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) aplanke. Pavyzdį [sudaro](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskalinio dokumento teikėjas CRT, kuris yra plėtinys, ir fiskalinė jungtis, kuri yra "Commerce Hardware Station" plėtinys. Norėdami gauti daugiau informacijos apie "Commerce SDK" naudojimą, [žr. "Download Commerce SDK" pavyzdžius ir nuorodų paketus iš GitHub NuGet](../dev-itpro/retail-sdk/sdk-github.md)[ir nustatykite nepriklausomos pakuotės SDK pardavimo galimybių sukūrimą](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> Dėl naujo nepriklausomo pakavimo [ir plėtinio modelio](../dev-itpro/build-pipeline.md) apribojimų, šiuo metu jo negalima naudoti šiame finansinio integravimo pavyzdyje. Turite naudoti ankstesnę "Retail SDK" versiją LCS programuotojo VM. Daugiau informacijos ieškokite Lenkijos ([senesnės programos) fiskalinio spausdintuvo integravimo pavyzdžio diegimo rekomendacijose](emea-pol-fpi-sample-sdk.md). Naujas nepriklausomas pakavimo ir plėtinio modelis, skirtas finansinio integravimo pavyzdžiui, planuojamas vėlesnėms versijoms.
+> [!NOTE]
+> Lenkijos fiskalinio spausdintuvo integravimo pavyzdį galima rasti "Commerce SDK", kuris naudojamas "Commerce" versijoje 10.0.29. Naudojant "Commerce" 10.0.28 arba ankstesnę versiją, LCS programuotojo VM turite naudoti ankstesnę "Retail SDK" versiją. Daugiau informacijos ieškokite Lenkijos ([senesnės programos) fiskalinio spausdintuvo integravimo pavyzdžio diegimo rekomendacijose](emea-pol-fpi-sample-sdk.md).
 
 ### <a name="commerce-runtime-extension-design"></a>"Commerce Runtime" plėtinio dizainas
 

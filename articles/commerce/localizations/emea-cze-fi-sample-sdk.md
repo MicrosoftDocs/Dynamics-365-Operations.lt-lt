@@ -2,25 +2,29 @@
 title: Čekijos Respublikai (iš senesnių) skirtas finansinio registravimo tarnybos integravimo pavyzdžio diegimo rekomendacijos
 description: Šiame straipsnyje pateikiamos Čekijos Respublika finansinio integravimo pavyzdžio diegimo iš "Retail" programinės įrangos Microsoft Dynamics 365 Commerce kūrimo rinkinio (SDK) rekomendacijos.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 08/17/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 35584493cd2a4fecd5fc86d529ec43bb4ef97671
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2019-03-01
+ms.openlocfilehash: 8338b1e11e1bd4fe7482b914ac6bf5f60ebc2e36
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881769"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313835"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-the-czech-republic-legacy"></a>Čekijos Respublikai (iš senesnių) skirtas finansinio registravimo tarnybos integravimo pavyzdžio diegimo rekomendacijos
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-Šiame straipsnyje Microsoft Dynamics 365 Commerce pateikiamos Čekijos mokesčių registracijos tarnybos integravimo pavyzdžio diegimo iš "Retail" programinės įrangos kūrimo rinkinio (SDK) programuotojo virtualiojoje mašinos (VM) ciklo tarnybose (LCS) Microsoft Dynamics rekomendacijos. Daugiau informacijos apie šį finansinio integravimo pavyzdį ieškokite Čekijos [Respublika finansinio registravimo tarnybos integravimo pavyzdyje](emea-cze-fi-sample.md). 
+> [!IMPORTANT]
+> Šiame straipsnyje nurodytus nurodymus turite naudoti tik tada, jei naudojate Microsoft Dynamics 365 Commerce 10.0.28 arba ankstesnę versiją. Kaip ir "Commerce" 10.0.29 versiją Čekijos Respublika finansinio registravimo tarnybos integravimo pavyzdį galima rasti "Commerce" programinės įrangos kūrimo rinkinyje (SDK). Daugiau informacijos rasite Kanalo komponentų [konfigūravimas](./emea-cze-fi-sample.md#configure-channel-components).
+
+Šiame straipsnyje pateikiamos Dynamics 365 Commerce Gairės, kaip įdiegti Čekijos Respublikai skirtą finansinio registravimo tarnybos integravimo pavyzdį iš "Retail SDK", kuris yra programuotojo virtualiojoje mašinos (VM) Microsoft Dynamics ciklo tarnybose (LCS). Daugiau informacijos apie šį finansinio integravimo pavyzdį ieškokite Čekijos [Respublika finansinio registravimo tarnybos integravimo pavyzdyje](emea-cze-fi-sample.md). 
 
 Čekijos Respublikai skirtas finansinio integravimo pavyzdys yra mažmeninės prekybos SDK dalis. Informacijos, kaip įdiegti ir naudoti SDK, ieškokite Mažmeninės prekybos programinės [įrangos kūrimo rinkinio (SDK) architektūroje](../dev-itpro/retail-sdk/retail-sdk-overview.md). Šį pavyzdį sudaro "Commerce Runtime (CRT) ir Hardware" stoties plėtiniai. Norėdami vykdyti šį pavyzdį, turite modifikuoti ir sukurti " CRT Hardware" stoties projektus. Rekomenduojame naudoti nesumoduliuotą "Retail SDK", kad būtų atlikti šiame straipsnyje aprašyti pakeitimai. Taip pat rekomenduojame naudoti šaltinio valdymo sistemą, pvz.Azure DevOps, kurioje dar nėra pakeistų failų.
 

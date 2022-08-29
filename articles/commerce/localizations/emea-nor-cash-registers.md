@@ -2,19 +2,19 @@
 title: Kasos aparato funkcionalumas Norvegijai
 description: Šiame straipsnyje pateikta grynųjų pinigų registro funkcijų, kurios galimos Norvegijai Microsoft Dynamics 365 Commerce, apžvalga ir pateikiamos funkcijos nustatymo rekomendacijos.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/23/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
+ms.author: josaw
 ms.search.validFrom: 2017-10-31
-ms.openlocfilehash: 778a947f03866518219e9c0fa44660d66f19f53a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 30bd5ad8c1513c3d56cc4aa0a77b70fe38d31e0a
+ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906704"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9346024"
 ---
 # <a name="cash-register-functionality-for-norway"></a>Kasos aparato funkcionalumas Norvegijai
 
@@ -74,7 +74,7 @@ Skaitmeninio pasirašymo procese naudojamas RSA 1024 bitų raktas, kuris turi SH
 
 Parašas saugomas parduotuvės duomenų bazėje ir būstinės (HQ) duomenų bazėje kartu su operacijų duomenimis. Galite peržiūrėti operacijos parašą ir operacijos duomenis, kurie buvo naudojami jį generuojant, **parduotuvės** operacijų puslapio "FastTab **" Iždo operacijos**.
 
-#### <a name="receipts"></a>Gavimai
+#### <a name="receipts"></a>Kvitai
 
 Norvegijos kvituose gali būti papildomos informacijos, kuri buvo įdiegta naudojant pasirinktinius laukus:
 
@@ -117,6 +117,13 @@ Norėdami naudoti Norvegijai brastos funkcijos, turite atlikti šias užduotis:
 
 Taip pat turite nurodyti šiuos Norvegijos parametrus.
 
+### <a name="enable-features-for-norway"></a>Įjungti Norvegijos funkcijas
+
+"Commerce Headquarters" funkcijų valdymo **darbo** srityje turite įgalinti šias funkcijas:
+
+- (Norvegija) Įjungti papildomus audito įvykius EKA
+- (Norvegija) Įjungti papildomą informaciją EKA dienos pabaigos ataskaitose
+
 ### <a name="set-up-the-legal-entity"></a>Nustatyti juridinį subjektą
 
 Įsitikinkite, kad nurodytas juridinio subjekto pavadinimas. Šis vardas bus spausdinamas X ir Z ataskaitose.
@@ -145,7 +152,7 @@ Nustatykite **atitinkamą teisės spausdinti kvito** kopiją reikšmę:
 
 ### <a name="configure-custom-fields-so-that-they-can-be-used-in-receipt-formats-for-sales-receipts"></a>Konfigūruoti pasirinktinius laukus, kad juos būtų galima naudoti pardavimo kvitų kvitų formatuose
 
-Kalbos teksto **puslapyje** pridėkite šiuos kvitų maketų pasirinktinių laukų žymių įrašus. Atkreipkite dėmesį **, kad** lentelėje **pateiktos kalbos ID,** **teksto ID** ir teksto vertės yra tik pavyzdžiai. Galite keisti juos, kad jie atitiktų jūsų poreikius.
+Kalbos teksto **puslapyje** pridėkite šiuos kvitų maketų pasirinktinių laukų žymių įrašus. Atkreipkite dėmesį **, kad** lentelėje **pateiktos kalbos ID,** **teksto ID** ir teksto vertės yra tik pavyzdžiai. Juos galite pakeisti, kad jie atitiktų jūsų poreikius.
 
 | Kalbos ID | Tekstas                   | Teksto ID |
 |-------------|------------------------|---------|
