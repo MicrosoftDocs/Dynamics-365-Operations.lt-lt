@@ -1,24 +1,24 @@
 ---
 title: Storno apskaita
 description: Storno apskaita yra neigiamų skaičių naudojimo praktika, norint pakeisti pradinius žurnalo sąskaitos įrašus.
-author: ShylaThompson
+author: kfend
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 1219713
 ms.search.region: Czech Republic, Germany, Hungary, Latvia, Lithuania, Poland, Russia
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8bea5d5ec8069e78f3ed5e7d1d6a74ee28ce2dea1891ad71e410d4c309a79c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom: 1219713
+ms.openlocfilehash: 22958ba21cd04cf19a7c05f78781ac6c5662b9ef
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764214"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283876"
 ---
 # <a name="storno-accounting"></a>Storno apskaita
 
@@ -90,7 +90,7 @@ Atkreipkite dėmesį, kad atvirkštinių ir storno įrašų balansai yra lygūs.
 | Pirkimo sąskaita  | 102   | 0      | 102     |
 | Tiekėjo kodas | 0     | 102    | -102    |
 
-Dalinis Storno gali sukelti problemą pradinėje spausdinimo formoje. Jei esama skirtumo tarp originalaus dokumento datos ir „Storno“ datos, gali būti sunku gauti tikslią valiutos sumą. Dėl to, dalinis „Storno“ leidžiamas tik tam tikriems dokumentams. „Dynamics 365 Finance“ teikia dalinio Storno funkciją, skirtą tik dokumentams ir šalims / regionams, kuriuose ją galima naudoti.
+Dalinis Storno gali sukelti problemą pradinėje spausdinimo formoje. Jei esama skirtumo tarp originalaus dokumento datos ir „Storno“ datos, gali būti sunku gauti tikslią valiutos sumą. Dėl to, dalinis „Storno“ leidžiamas tik tam tikriems dokumentams. "Dynamics 365" finansai pateikia dalinio Storno funkcijas dokumentams ir šalims / regionams, kuriuose tai leidžiama.
 
 ## <a name="how-to-enter-storno-on-journal-lines"></a>Kaip įvesti „Storno“ žurnalų eilutėse
 Įveskite skolos ir kredito sumas su neigiamu ženklu žurnalo eilutėje tam, kad sukurtumėte „Storno“ įrašą. Laukelis **Taisymas** yra nustatomas publikavimo proceso metu. 

@@ -1,24 +1,24 @@
 ---
 title: Mokesčių skaičiavimo apžvalga
 description: Šiame straipsnyje paaiškinama bendroji mokesčių skaičiavimo galimybės apimtis ir funkcijos.
-author: wangchen
+author: EricWangChen
 ms.date: 03/02/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: TaxIntegrationTaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 817d7db5952f96fa741671166d88fffddaac84e9
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.search.form: TaxIntegrationTaxServiceParameters
+ms.openlocfilehash: 2765b922bcc58837c32973b7ca96e0d63eb8b9d6
+ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9166846"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9296000"
 ---
 # <a name="tax-calculation-overview"></a>Mokesčių skaičiavimo apžvalga
 
@@ -54,10 +54,15 @@ Mokesčių skaičiavimas yra įdiegtas toliau nurodytose „Azure" geografinėse
 
 - Azijos ir Ramiojo vandenyno regionas
 - Australija
+- Brazilija
 - Kanada
 - Europa
+- Prancūzija
+- Indija
 - Japonija
+- Pietų Afrika
 - Šveicarija
+- Jungtiniai Arabų Emyratai
 - Jungtinė Karalystė
 - Jungtinės Valstijos
 
@@ -80,6 +85,7 @@ Rekomenduojame importuoti ir nustatyti savo mokesčių skaičiavimo konfigūraci
 | 10.0.26         | Mokesčių skaičiavimo konfigūracija 40.54.234 |
 | 10.0.27         | Mokesčių skaičiavimo konfigūracija 40.54.234 |
 | 10.0.28         | Mokesčių skaičiavimo konfigūracija 40.54.234 |
+| 10.0.29         | Mokesčių skaičiavimo konfigūracija 40.55.236 |
 
 
 ## <a name="data-flow"></a>Duomenų srautas
@@ -149,11 +155,16 @@ Papildinį Mokesčių skaičiavimas galima įgalinti naudojant operacijas.
 - Tiekėjo mokėjimų žurnalas
 - Klientų mokėjimų žurnalas
 
+10.0.29 versijoje palaikomos tolesnės operacijos. 
+
+
+- Periodiniai žurnalai
+
 ## <a name="supported-countriesregions"></a>Palaikomos šalys / regionai
 
-Papildinį Mokesčių skaičiavimas gali įjungti juridinis subjektas. 
+Mokesčių skaičiavimą galima vykdyti naudojant palaikomas lokalizavimo priemones juridinio subjekto pagrindinio adreso šalyse / regionuose: 
 
-10.0.21 versijoje palaikomos tolesnės juridinio subjekto pagrindinio adreso šalys / regionai.
+Palaikoma 10.0.21 versijoje:
 
 - Austrija
 - Belgija
@@ -176,7 +187,7 @@ Papildinį Mokesčių skaičiavimas gali įjungti juridinis subjektas.
 - Jungtinė Karalystė
 - Jungtinės Valstijos
 
-10.0.22 versijoje palaikomos tolesnės juridinio subjekto pagrindinio adreso šalys / regionai.
+Palaikoma 10.0.22 versijoje:
 
 - Australija
 - Bahreinas
@@ -191,22 +202,24 @@ Papildinį Mokesčių skaičiavimas gali įjungti juridinis subjektas.
 - Pietų Afrika
 - Jungtiniai Arabų Emyratai
 
-10.0.23 versijoje palaikomos tolesnės juridinio subjekto pagrindinio adreso šalys / regionai.
+Palaikoma 10.0.23 versijoje:
 
 - Tailandas
 - Japonija
 - Malaizija
 - Singapūras
 
-10.0.24 versijoje palaikomos tolesnės juridinio subjekto pagrindinio adreso šalys / regionai.
+Palaikoma 10.0.24 versijoje:
 
 - Meksika
 
-10.0.26 versijoje palaikomos tolesnės juridinio subjekto pagrindinio adreso šalys / regionai.
+Palaikoma 10.0.26 versijoje:
 
 - Kinija
 - Čekijos Respublika
 - Ispanija
+
+Jei šalis / regionas nėra lokalizuotas Microsoft, mokesčių skaičiavimą taip pat galima įgalinti ir paleisti kartu su kitomis visuotinomis funkcijomis.
 
 ## <a name="related-resources"></a>Susiję ištekliai
 

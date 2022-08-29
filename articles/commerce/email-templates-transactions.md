@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9a4d67d901608e210b4060a655ce39f0ea707a52
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: cc3ad01c60324d751ee52d83d93fe59593775a00
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910555"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279574"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>El. laiškų šablonų, skirtų operacijų įvykiams, kūrimas
 
@@ -117,7 +117,29 @@ Užsakymo *užsakymo atšaukimas* tipas suaktyvinamas, kai užsakymas yra atšau
 
 ### <a name="customer-created"></a>Klientas sukurtas
 
-Užsakymo *sukurtas klientas* tipas suaktyvinamas, kai „Commerce Headquarters" sukuriamas naujas kliento objektas.
+Užsakymo *sukurtas klientas* tipas suaktyvinamas, kai „Commerce Headquarters" sukuriamas naujas kliento objektas. 
+
+Norėdami įgalinti kliento sukurtus pranešimus, "Commerce Headquarters" eikite į " **Retail" ir "Commerce \> Headquarters" nustatymo \> "Commerce" \> parametrai \> bendrieji parametrai**. El. **paštu siunčiamo pranešimo šablono** išplečiamajame sąraše pasirinkite el. paštu siunčiamo pranešimo šabloną, kuriame yra kliento sukurtas pranešimo tipas. 
+
+Pagal numatytuosius nustatymus kliento sukurti įvykiai įkeliami į būstinę naudojant paketinę **užduotį Sinchronizuoti klientus ir kanalų** užklausas. Jei norėdami siųsti šiuos įvykius norite naudoti "Real-time Service" iškvietimą, kliento sukurto šablono el. laiško ID nustatykite kaip **newCust**. Tačiau tai nerekomenduojama, nes realiuoju laiku atlikti aptarnavimo iškvietimai yra "fire ir pamiršta" iškvietimai ir jie neturi atsarginės ar kartojimo logikos, kurią teikia paketinės užduotys.
+
+> [!NOTE] 
+> Kai įgalinsite kliento sukurtus pranešimus, klientai, sukurti visuose juridinio subjekto kanaluose, gaus kliento sukurtą el. laišką. Šiuo metu kliento sukurti pranešimai negali būti apriboti vienu kanalu.  
+
+Kai iškviečiama per paketinę užduotį, kliento sukurtas pranešimo tipas palaiko šį vietos rezervavimo ženklą.
+
+| Vietos rezervavimo ženklo pavadinimas | Aprašymas                                                      |
+| ---------------- | ------------------------------------------------------------ |
+| customername     | Sąskaitą sukūrusio kliento vardas ir pavardė. |
+
+Kai iškviečiama iškviečiama realiuoju laiku, kliento sukurtas pranešimo tipas palaiko šiuos vietos rezervavimo ženklus.
+
+| Vietos rezervavimo ženklo pavadinimas | Aprašymas                                                      |
+| ---------------- | ------------------------------------------------------------ |
+| Vardas             | Sąskaitą sukūrusio kliento vardas ir pavardė. |
+| El. laiškas            | Sąskaitą sukūrusio kliento el. pašto adresas.    |
+| Telefonas            | Sąskaitą sukūrusio kliento telefono numeris.      |
+| URL              | URL, kurį pateikė klientas, kai jis sukūrė sąskaitą. |
 
 ### <a name="b2b-prospect-approved"></a>B2B potencialus klientas patvirtintas
 

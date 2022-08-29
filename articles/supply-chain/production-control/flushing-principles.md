@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 357ce65792ceef37abda523e7693069f1bc1ab43
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 89fd38ea6d2c1635e9d8974ab99c2e4cdae4d6be
+ms.sourcegitcommit: 8d072505f66f507aafbaae65bedf3b530eb6cb7b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065561"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9266435"
 ---
 # <a name="flushing-principles"></a>Sunaudojimo principai
 
@@ -56,7 +56,10 @@ Sunaudojimo principas Neautomatinis nurodo, kad medžiagų suvartojimo registrav
 Sunaudojimo principas Pradžia nurodo, kad medžiagos bus automatiškai suvartojamos pradėjus gamybos užsakymą. Suvartojamų medžiagų kiekis yra proporcingas pradžios kiekiui. Jei sunaudojimo principas Pradžia yra naudojamas kartu su gamybos vykdymo sistema, jį taip pat galima naudoti norint sunaudoti medžiagas, kai pradedama operacija arba vykdymo užduotis. Šis principas yra aktualus, jei, pavyzdžiui, suvartojimo nuokrypis yra žemas, medžiagos yra žemos vertės medžiagos, sekimo reikalavimų nėra arba operacijų apdorojimo laikas yra trumpas. 
 
 ### <a name="finish"></a>Baigti
-Sunaudojimo principas Pabaiga nurodo, kad medžiagos bus automatiškai suvartojamos, kai gamybos užsakymas paskelbiamas baigtu arba kai operacija, nustatyta vartoti medžiagas, užregistruojama kaip baigta. Suvartojamų medžiagų kiekis yra proporcingas kiekiui, kuris paskelbtas baigtu. Jei sunaudojimo principas Pabaiga yra naudojamas kartu su gamybos vykdymo sistema, jį taip pat galima naudoti norint sunaudoti medžiagas, kai baigiama operacija arba vykdymo užduotis. Šis principas yra aktualus tokiomis pačiomis sąlygomis kaip principas Pradžia. Tačiau principas Pabaiga skirtas operacijoms, kurių apdorojimo laikas yra ilgesnis, kai medžiagos neturėtų būti nustatytos į parinktį NG, kol operacija nebaigta. 
+Sunaudojimo principas Pabaiga nurodo, kad medžiagos bus automatiškai suvartojamos, kai gamybos užsakymas paskelbiamas baigtu arba kai operacija, nustatyta vartoti medžiagas, užregistruojama kaip baigta. Suvartojamų medžiagų kiekis yra proporcingas kiekiui, kuris paskelbtas baigtu. Jei sunaudojimo principas Pabaiga yra naudojamas kartu su gamybos vykdymo sistema, jį taip pat galima naudoti norint sunaudoti medžiagas, kai baigiama operacija arba vykdymo užduotis. Šis principas yra aktualus tokiomis pačiomis sąlygomis kaip principas Pradžia. Tačiau principas Pabaiga skirtas operacijoms, kurių apdorojimo laikas yra ilgesnis, kai medžiagos neturėtų būti nustatytos į parinktį NG, kol operacija nebaigta.
+
+> [!NOTE]
+> Negalite naudoti su planavimo prekėmis principo Baigti sunaudojimą. Todėl rekomenduojame naudoti principą Pradėti sunaudojimą. Planavimo prekių gamybos tipas *yra* planavimo prekė, o paketinių užsakymų, kurie sukurti planavimo prekėms, galima pranešti, kad baigti tik sudėtiiniai ir šalutinis produktai.
 
 ### <a name="available-at-location"></a>Yra vietoje
 Sunaudojimo principas Yra vietoje nurodo, kad medžiagos bus automatiškai suvartojamos, kai jos užregistruojamos kaip paimtos gamybai vykdyti. Medžiagos užregistruojamos kaip paimtos iš vietos, kai žaliavų paėmimo užduotis baigta arba kai medžiagų yra gamybos įvesties vietoje ir medžiagų eilutė išleidžiama į sandėlį. Proceso metu sugeneruojamas išrinkimo dokumentas užregistruojamas paketinėje užduotyje. Šis principas yra aktualus, jei, pavyzdžiui, vienam gamybos užsakymui priskirta daug išrinkimo veiklų. Tokiu atveju išrinkimo dokumento neautomatiškai naujinti nereikia ir galima matyti dabartinį NG balanso rodinį.

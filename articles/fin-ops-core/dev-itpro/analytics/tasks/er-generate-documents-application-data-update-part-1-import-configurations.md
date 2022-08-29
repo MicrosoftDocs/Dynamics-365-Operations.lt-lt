@@ -1,7 +1,7 @@
 ---
 title: Konfigūracijų, skirtų generuoti dokumentus, kuriuose yra prašymų duomenys, importavimas
-description: Norėdami atlikti šios procedūros veiksmus, pirmiausia turite atlikti procedūrą „ER konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu.“
-author: NickSelin
+description: Norėdami atlikti šios procedūros veiksmus, pirmiausia turite užbaigti procedūrą""ER Sukurkite konfigūracijos teikėją ir pažymėkite jį kaip aktyvų".
+author: kfend
 ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a75b268f2d8341c1a6dd0d3f1bd9dcb31d9084ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ccff17ad83b6840b5e8f327e24f8ac8a5e8ff620
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884147"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9290581"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Konfigūracijų, skirtų generuoti dokumentus, kuriuose yra prašymų duomenys, importavimas
 

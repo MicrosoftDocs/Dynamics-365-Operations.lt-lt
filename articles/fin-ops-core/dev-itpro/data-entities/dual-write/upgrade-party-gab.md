@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 02ab3675db0d78efa1e4e43188d79bb1e763a713
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 7141f9c7ae4e27013bd655ce78892fc44c181315
+ms.sourcegitcommit: e14648b01549bdc17998ffdef6cde273d4e78560
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111825"
+ms.lasthandoff: 08/09/2022
+ms.locfileid: "9242989"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Naujinimas į šalies ir visuotinės adresų knygelės modelį
 
@@ -270,18 +270,18 @@ Atnaujinimui atlikti reikia šio pasirengimo:
 8. Importuokite naujus **įrašus** į finansų ir operacijų programą.
 
     1. Atsisiųskite **FONewParty.csv failą** iš "Azure BLOB" saugyklos. Maršrutas yra **partybootstrapping/output/FONewParty.csv**.
-    2. Konvertuokite **FONewParty.csv** į "Excel" failą ir importuokite "Excel" failą į finansų ir operacijų programą. Taip pat, jei CSV importavimas veikia jums, galite importuoti .csv failo tiesiogiai. Atsižvelgiant į duomenų tūrį, šis veiksmas gali užtrukti kelias valandas. Daugiau informacijos rasite [Duomenų importavimo ir eksportavimo užduočių apžvalga](../data-import-export-job.md).
+    2. Konvertuokite **FONewParty.csv failą** į Excel failą ir importuokite "Excel" failą į finansų ir operacijų programą. Taip pat, jei CSV importavimas jums reikalingas, galite importuoti .csv failą tiesiogiai. Atsižvelgiant į duomenų tūrį, šis veiksmas gali užtrukti kelias valandas. Daugiau informacijos rasite [Duomenų importavimo ir eksportavimo užduočių apžvalga](../data-import-export-job.md).
 
     ![Dataverse Importuojami šalies įrašai.](media/data-factory-import-party.png)
 
-9. Duomenų gamyklos paleiskite šalies pašto adresą ir šalies elektroninio adreso šablonus, vieną po kito.
+9. Duomenų gamyklos paleiskite Šalies elektroninį adresą ir tada šalies pašto adresų šablonus, vieną po kito.
 
     + Įrašo pašto adreso šablonas įterpa visus pašto adreso įrašus **klientų** įsipareigojimo programoje ir susieja juos su atitinkamais sąskaitos, kontakto **ir** tiekėjo **įrašais**. Taip pat generuojami trys .csv failai: ImportFONewPostalAddressLocation.csv, ImportFONewPartyPostalAddress.csv ir ImportFONewPostalAddress.csv.
-    + Įrašo elektroninio adreso šablonas įterpa visus elektroninius adresus **klientų** įsipareigojimo programoje ir susieja juos su atitinkamais sąskaitos, kontakto **ir** tiekėjo **įrašais**. Taip pat sugeneruoja vieną .csv: ImportFONewElectronicAddress.csv.
+    + Įrašo elektroninio adreso šablonas įterpa visus elektroninius adresus **klientų** įsipareigojimo programoje ir susieja juos su atitinkamais sąskaitos, kontakto **ir** tiekėjo **įrašais**. Taip pat sugeneruoja vieną .csv failą: ImportFONewElectronicAddress.csv.
 
     ![Šalies pašto adreso ir šalies elektroninio adreso šablonų paleistis.](media/ADF-7.png)
 
-10. Norėdami atnaujinti finansų ir operacijų programą su šies duomenimis, turite konvertuoti .csv failus į Excel [darbaknygę ir importuoti juos į finansų ir operacijų programą](../data-import-export-job.md). Taip pat, jei CSV importavimas veikia jums, galite importuoti .csv rinkmenas tiesiogiai. Atsižvelgiant į tūrį, šis veiksmas gali užtrukti kelias valandas.
+10. Norėdami atnaujinti finansų ir operacijų programą naudodami šiuos duomenis, turite konvertuoti .csv failus į Excel [darbaknygę ir importuoti juos į finansų ir operacijų programą](../data-import-export-job.md). Taip pat, jei CSV importavimas veikia jums, galite importuoti .csv failus tiesiogiai. Atsižvelgiant į tūrį, šis veiksmas gali užtrukti kelias valandas.
 
     ![Sėkmingas importavimas.](media/ADF-8.png)
 
@@ -366,10 +366,10 @@ Atnaujinimui atlikti reikia šio pasirengimo:
 1. 1–6 žingsnius nustatykite įmones, kurios yra įgalintos dvigubo rašymo funkcijai, ir sukuria joms filtro sąlygą.
 2. 7–1–7–9 žingsniai nuskaito duomenis iš finansų ir operacijų programos bei klientų įsipareigojimo programos ir iš to etapo, kurį norite atnaujinti.
 3. 8–9 veiksmais palyginkite **sąskaitos**, **kontakto** ir tiekėjo įrašų tarp **finansų** ir operacijų programos ir kliento įsipareigojimo programos šalies numerį. Praleisti visi įrašai, kurie neturi įrašo numerio.
-4. 10 veiksmas sugeneruoja .csv įrašo, kuris turi būti sukurtas kliento įsipareigojimo programoje ir finansų ir operacijų programoje, sf failą.
+4. 10 veiksmas sugeneruoja du įrašų .csv failus, kurie turi būti sukurti kliento įsipareigojimo programoje ir finansų ir operacijų programoje.
 
-    - **PSTDSParty.csv** – šiame faile yra visi abiejų sistemų šalies įrašai, neatsižvelgiant į tai, ar įmonė įgalinta dvigubo rašymo funkcijai.
-    - **FONewParty.csv** – šiame faile yra žinotų įrašų (pvz., potencialaus kliento tipo Dataverse sąskaitų) subgrupė **·**.
+    - **PSTDSParty.csv** – šiame faile yra visi abiejų sistemų šalies įrašai, nepaisant to, ar įmonė įgalinta dvigubo rašymo funkcijai.
+    - **FONewParty.csv** – šiame faile yra žinomų įrašų (pvz., potencialaus kliento tipo sąskaitų Dataverse) submeniu **·**.
 
 5. 11 veiksmu sukuriamos klientų įsipareigojimo programos šalys.
 6. 12 veiksmas nuskaito visuotinai unikalius šalių identifikatorius (GUID) **iš** klientų įsipareigojimų programos ir etapų, kad vėliau jie būtų susieti su Sąskaita, **·** **Kontaktu** ir Tiekėjo įrašais.
@@ -385,9 +385,9 @@ Atnaujinimui atlikti reikia šio pasirengimo:
 1. 1–1–10 veiksmai nuskaito duomenis iš finansų ir operacijų programų ir klientų įsipareigojimo programos bei iš to etapo, kurį reikia atnaujinti.
 2. 2 veiksmas normalizuoja pašto adreso duomenis finansų ir operacijų programoje, sujungdamas pašto adresą ir šalies pašto adresą.
 3. 3 veiksmas: dublikatai ir sulietų sąskaitų, kontaktų ir tiekėjų adresų duomenys iš klientų įdarbinimo programos.
-4. 4 veiksmu sukuriamos .csv finansų ir operacijų programos rinkmenos, kad būtų galima kurti naujus adreso duomenis pagal sąskaitą, kontaktą ir tiekėjo adresus.
-5. 5–1 veiksmu sukuriamos .csv, kad kliento įsipareigojimo programai būtų sukurti visi adreso duomenys, remiantis finansų ir operacijų programa ir kliento įsipareigojimo programa.
-6. 5–2 veiksmas konvertuoja .csv rinkmenas į neautomatinį importavimo finansų ir operacijų importavimo formatą.
+4. 4 veiksmu sukuriami .csv failai, skirti finansų ir operacijų programai, kad būtų galima kurti naujus adreso duomenis pagal sąskaitą, kontaktą ir tiekėjo adresus.
+5. 5–1 veiksmu sukuriami .csv failai, skirti klientų įsipareigojimo programai, kad būtų sukurti visi adreso duomenys, remiantis finansų ir operacijų programa ir klientų įsipareigojimų programa.
+6. 5–2 veiksmai konvertuoja .csv failus į finansų ir operacijų importavimo formatą, kad būtų galima importuoti neautomatiniu būdu.
 
     - ImportFONewPostalAddressLocation.csv
     - ImportFONewPartyPostalAddress.csv
@@ -410,14 +410,14 @@ Atnaujinimui atlikti reikia šio pasirengimo:
     - Kurkite naujus klientų įsipareigojimo programos elektroninio adreso duomenis, paremtus elektroninio adreso, sąskaitos, kontakto ir tiekėjo adresais finansų ir operacijų programoje.
 
 5. 5–1 veiksmu importuojami elektroniniai adresai į klientų įsipareigojimo programą.
-6. 5–2 veiksmu sukuriamos .csv rinkmenos, iš kurių bus atnaujinami klientų įsipareigojimo programos sąskaitų ir kontaktų pagrindiniai adresai.
+6. 5–2 veiksmu sukuriami .csv failai, skirti klientų įdarbinimo programoje atnaujinti pirminius sąskaitų ir kontaktų adresus.
 7. 6–1–6–2 veiksmų importavimo sąskaitos ir pagrindiniai kontakto adresai klientų įsipareigojimo programoje.
 
 ## <a name="troubleshooting"></a>Trikčių šalinimas
 
 1. Jei procesas nepavyksta, iš naujo paleiskite duomenų gamyklos duomenis. Pradėti nuo trikties veiklos.
 2. Kai kurie failai, kuriuos sugeneravo duomenų gamyklos, gali būti naudojami duomenų tikrinimas.
-3. Duomenų gamyklos paleidžiamos remiantis .csv failais. Todėl jei kablelis įtraukiamas į bet kurią lauko vertę, jis gali pereiti prie rezultatų. Turite pašalinti visas lauko reikšmių kablelius.
+3. Duomenų gamyklos parametrai paleidžiami remiantis .csv failais. Todėl jei kablelis įtraukiamas į bet kurią lauko vertę, jis gali pereiti prie rezultatų. Turite pašalinti visas lauko reikšmių kablelius.
 4. Skirtuke **Stebėjimas** pateikiama informacija apie visus apdorotus veiksmus ir duomenis. Pasirinkite konkretų veiksmą jo suderinimui.
 
     ![Stebėjimo skirtukas.](media/data-factory-monitor.png)

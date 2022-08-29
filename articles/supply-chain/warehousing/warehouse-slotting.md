@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: a5ce900d7698c7d8211ce1e8b7d529ab79a28915
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bb86800f1491e8cb9ad629ed6cc1c76e9393e945
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897261"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336042"
 ---
 # <a name="warehouse-slotting"></a>Sandėlio intervalas
 
@@ -34,7 +34,7 @@ Keletas sandėlio vietų funkcijų yra prieinamos siekiant padėti sandėlio vad
 
 ## <a name="turn-on-the-warehouse-slotting-features"></a>Įjunkite sandėlio vietų funkcijas
 
-Prieš tai, kai galėsite jas naudoti, jos turi būti įjungtos jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus tam, kad patikrintų funkcijų būseną ir įjungtų jas, jei to reikia. Įjunkite tolesnes funkcijas, kaip būtina:
+Kad šias funkcijas galėsite naudoti, turite įjungti jas savo sistemai. Administratoriai gali naudoti [funkcijos valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus tam, kad patikrintų funkcijų būseną ir įjungtų jas, jei to reikia. Įjunkite tolesnes funkcijas, kaip būtina:
 
 - Sandėlio intervalo funkcija
 - Sandėlio vietos perduotiems užsakymams
@@ -284,7 +284,7 @@ Reikia nustatyti bent vieną vietos nurodymą, kad būtų palaikomi intervalo pa
 
 #### <a name="use-the-usmf-sample-data"></a>Naudoti USMF pavyzdinius duomenis
 
-Norėdami dirbti pagal šį scenarijų, naudojant nurodytus įrašų ir reikšmių pavyzdžius, standartiniai [demonstraciniai duomenys](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) turi būti įdiegti Jūsų sistemoje. Be to, turite pasirinkti **USMF** juridinį asmenį prieš pradedant.
+Norėdami dirbti pagal šį scenarijų, naudojant nurodytus įrašų ir reikšmių pavyzdžius, standartiniai [demonstraciniai duomenys](../../fin-ops-core/fin-ops/get-started/demo-data.md) turi būti įdiegti Jūsų sistemoje. Be to, turite pasirinkti **USMF** juridinį asmenį prieš pradedant.
 
 #### <a name="create-demand"></a>Kurti paklausą
 

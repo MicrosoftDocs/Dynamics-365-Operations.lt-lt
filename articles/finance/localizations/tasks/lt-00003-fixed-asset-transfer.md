@@ -1,24 +1,24 @@
 ---
 title: 'LT-00003: generuoti ilgalaikio turto perkėlimo iš vieno sandėlio į kitą dokumentą'
 description: Perkelkite ilgalaikį turtą iš vieno padalinio į kitą ir patvirtinkite perkėlimą su važtaraščiu.
-author: anasyash
+author: AdamTrukawka
 ms.date: 09/15/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: VehicleModelTable_W, LtInvoiceAutoNumberingGroups, LtInvoiceAutonumberingTable, AssetWarehouseTransfer, HcmWorkerLookUp, SysQueryForm, LtAssetPackingSlip, TransportationDocument, LogisticsPostalAddressLookup
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Lithuania
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7e24feee33a963e4c3db0e30bc82c731c0bdf70b
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.search.form: VehicleModelTable_W, LtInvoiceAutoNumberingGroups, LtInvoiceAutonumberingTable, AssetWarehouseTransfer, HcmWorkerLookUp, SysQueryForm, LtAssetPackingSlip, TransportationDocument, LogisticsPostalAddressLookup
+ms.openlocfilehash: fb2347177ffa6b8813d9b45a3fb58f84e06dc2a8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500261"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270567"
 ---
 # <a name="lt-00003-generate-a-fixed-asset-transfer-between-warehouses-document"></a>LT-00003: generuoti ilgalaikio turto perkėlimo iš vieno sandėlio į kitą dokumentą
 

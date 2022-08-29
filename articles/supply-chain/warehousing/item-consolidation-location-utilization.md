@@ -2,7 +2,7 @@
 title: Elemento konsolidavimas - vietos naudojimas
 description: Šiame straipsnyje pateikiama informacija apie funkcijas, kurios padeda sandėlio vadovams lengvai peržiūrėti ir filtruoti vietų sandėlyje tūrio matavimo naudojimą. Vadovai gali pasirinkti vietas ir sukurti inventoriaus judėjimo darbą tiesiai iš elemento konsolidavimo puslapio į konsoliduotus elementus ir taip pagerinti sandėlio vietos naudojimą.
 author: Mirzaab
-ms.date: 07/16/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 63fd8b209cb73843aae7324c805c5d0eb83b4ca4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d0e52769de3f200e2bb3060b3d9cb19dc0847b69
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849190"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336430"
 ---
 # <a name="item-consolidation---location-utilization"></a>Elemento konsolidavimas - vietos naudojimas
 
@@ -30,8 +30,8 @@ ms.locfileid: "8849190"
 
 Prieš naudodami šiame straipsnyje aprašytas funkcijas, turite įjungti jas savo sistemoje. Administratoriai gali naudoti [Savybių valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo srityje tam, kad patikrintų savybių būseną ir jas įjungtų, jei jos būtinos. Įjunkite toliau pateiktas savybes jų išvardijimo tvarka. (Abi savybės yra skirtos **Sandėlio valdymo** moduliui.)
 
-1. Sandėlio vietos būsena
-2. Prekės konsolidacijos vietos naudojimas
+1. *Sandėlio vietos būsena*<br>(Kaip ir tiekimo grandinės valdymo versija 10.0.29, ši funkcija yra privaloma ir jos išjungti negalima. Daugiau informacijos ieškokite Sandėlio [vietos būsena](warehouse-location-status.md).)
+2. *Prekės konsolidacijos vietos naudojimas*<br>(Kaip ir tiekimo grandinės valdymo versija 10.0.29, ši funkcija įjungiama pagal numatytąjį nustatymą.)
 
 ## <a name="warehouse-location-status"></a>Sandėlio vietos būsena
 

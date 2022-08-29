@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3642bb88d5b0570014513b64eef5fdab6d1ee9d3
-ms.sourcegitcommit: 5b721f6fc1ba4350b5bd0eae457f71d80246db42
+ms.openlocfilehash: 2f9d882340171173e5e503f8b5e3aa856e8544b0
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9181131"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306210"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Įgalinti mokesčių skaičiavimo konfigūracijos pagrindinių duomenų peržvalgą 
 
@@ -108,7 +108,7 @@ Dataverse naudoja programą Azure AD, kurią sukūrėte iškviesti finansų ir o
     - **Teikėjas** – nustatykite šį lauką **kaip NonAAD**.
     - **El** . paštas – **įveskite duomenų atvirkštinę** reikšmę ar kitą reikšmę. (Vertė nebūtinai turi būti galiojanti el. pašto sąskaita.)
 
-3. Priskirkite **vartotojui CDS virtualiojo** objekto programos saugos vaidmenį.
+3. Priskirkite **Dataverse vartotojui virtualiojo objekto** integravimo programos saugos vaidmenį.
 4. Pašalinkite visus kitus vaidmenis, įskaitant **sistemos vartotoją**.
 5. Eiti į sistemos **administravimo nustatymo** \> **programas** \> **Azure Active Directory, kurias** norite registruoti.Dataverse 
 6. Įtraukite eilutę, tada į kliento **ID** lauką įveskite **programos (kliento) ID** vertę, kurią pateikėte kaip anksčiau pastabą.
@@ -127,7 +127,7 @@ Turite pateikti finansų ir Dataverse operacijų programos egzempliorių, prie k
 
 2. Nustatymų **išplečiamajame** meniu pasirinkite **Administravimas**.
 
-    [![Administracija.](./media/tcs-dataverse-master-data-lookup-5.png)](./media/tcs-dataverse-master-data-lookup-5.png)
+    [![Administravimo.](./media/tcs-dataverse-master-data-lookup-5.png)](./media/tcs-dataverse-master-data-lookup-5.png)
 
 3. Pasirinkite virtualiojo **objekto duomenų šaltinius**.
 
@@ -199,17 +199,11 @@ Daugiau informacijos žr. skyriuje [Įgalinti Microsoft Dataverse virtualius obj
 
 ## <a name="set-up-the-connected-application-for-tax-calculation"></a><a name='set-up'></a> Nustatyti prijungtą mokesčių skaičiavimo programą
 
-1. RCS atidarykite funkcijų **valdymo darbo** sritį ir įgalinkite šias funkcijas:
-
-    - Elektroninių ataskaitų „Dataverse” duomenų šaltinių palaikymas
-    - Mokesčių tarnybos „Dataverse“ duomenų šaltinių palaikymas
-    - Globalizacijos funkcijos
-
-2. Eikite **į Elektroninę** ataskaitą, tada skyriuje Susieti **saitai** pasirinkite Sujungtos **programos**.
+1. Eikite **į Elektroninę** ataskaitą, tada skyriuje Susieti **saitai** pasirinkite Sujungtos **programos**.
 
     [![Prijungtos programos.](./media/tcs-dataverse-master-data-lookup-12.png)](./media/tcs-dataverse-master-data-lookup-12.png)
 
-3. Pasirinkite **Naujas**, jei norite pridėti įrašą, ir įveskite šią informaciją.
+2. Pasirinkite **Naujas**, jei norite pridėti įrašą, ir įveskite šią informaciją.
 
     - Dalyje **Pavadinimas**- įveskite pavadinimą.
     - **Tipas** – pasirinkite **Dataverse**.
@@ -217,12 +211,18 @@ Daugiau informacijos žr. skyriuje [Įgalinti Microsoft Dataverse virtualius obj
     - **Nuomininkas** – įveskite savo nuomininką.
     - **Pasirinktinis URL** – įveskite Dataverse URL ir prie jo priduokite **/api/duomenis/v9.1**.
 
-4. Pasirodame **dialogo** lange pasirinkite Tikrinti ryšį, tada pasirinkite Spustelėkite čia norėdami **prisijungti prie pasirinktos nuotolinės programos**.
+3. Pasirinkite **Tikrinti ryšį**, tada dialogo lange pasirinkite Spustelėkite čia norėdami **prisijungti prie pasirinktos nuotolinės programos**.
 
     [![Tikrinamas ryšys.](./media/tcs-dataverse-master-data-lookup-13.png)](./media/tcs-dataverse-master-data-lookup-13.png)
-5. Įsitikinkite, kad gavote "Sėkmės!" Pranešimas, nurodantis, kad ryšys sėkmingai nustatytas.
+4. Įsitikinkite, kad gavote "Sėkmės!" Pranešimas, nurodantis, kad ryšys sėkmingai nustatytas.
 
     [![Sėkmės pranešimas.](./media/tcs-dataverse-master-data-lookup-14.png)](./media/tcs-dataverse-master-data-lookup-14.png)
+    
+5. RCS atidarykite funkcijų **valdymo darbo** sritį ir įgalinkite šias funkcijas:
+
+    - Globalizacijos funkcijos
+    - Elektroninių ataskaitų „Dataverse” duomenų šaltinių palaikymas
+    - Mokesčių tarnybos „Dataverse“ duomenų šaltinių palaikymas
 
 ## <a name="import-and-set-up-the-dataverse-model-mapping-configuration"></a><a name='import'></a> Importuoti ir nustatyti modelio susiejimo Dataverse konfigūraciją
 

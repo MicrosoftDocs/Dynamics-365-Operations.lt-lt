@@ -2,7 +2,7 @@
 title: Konteinerių pakavimo strategijos
 description: Šiame straipsnyje aprašomi konteinerio pakavimo strategijų skirtumai ir pateikiami pavyzdžiai.
 author: GalynaFedorova
-ms.date: 06/11/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak, WHSContainerStructure, WHSContainerTable
 audience: Application User
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 46b4a007dafbd99e5f9b7231c07a148f8101d2a4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a9a0066abaa76294faebcb15d5091ba36e8a60d
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862372"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335772"
 ---
 # <a name="container-packing-strategies"></a>Konteinerių pakavimo strategijos
 
@@ -77,7 +77,7 @@ Naudodami šią funkciją galite susitvarkyti su scenarijais, kuriuose turite su
 
 #### <a name="turn-on-the-consolidate-shipments-feature-in-your-system"></a>Siuntų konsolidavimo funkcijos įjungimas sistemoje
 
-Šis scenarijus naudoja *Konsoliduoti siuntas* funkciją. Jei ši funkcija dar negalima jūsų sistemoje, turite įjungti ją naudodami [Funkcijų valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Šis scenarijus naudoja *Konsoliduoti siuntas* funkciją. Kaip ir tiekimo grandinės valdymo versija 10.0.29, ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.29 versiją, tada administratoriai gali įjungti arba išjungti šią funkciją ieškodami funkcijos Konsoliduoti *siuntas*[funkcijų](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) valdymo darbo srityje.
 
 #### <a name="make-demo-data-available"></a>Demonstracinių duomenų įgalinimas
 

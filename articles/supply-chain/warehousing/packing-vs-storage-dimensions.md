@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 85e40a0768174dcdc5d0fa2647b24cddccf01bdf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e2cfcc13f397f57413be1773683daf1f828beaf8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905492"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334452"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Skirtingų pakavimo ir saugojimo dimensijų nustatymas
 
@@ -37,7 +37,7 @@ Kai kurios prekės yra supakuotos arba saugomos taip, kad jums gali reikėti sek
 
 ## <a name="turn-on-the-packaging-product-dimensions-feature"></a>Produkto pakavimo dimensijų funkcijos įjungimas
 
-Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [Funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Ten ši funkcija pateikiama taip:
+Šią funkciją galėsite naudoti tik tada, kai ją įjungsite savo sistemoje. Administratoriai gali naudoti [Funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Ten ši funkcija pateikiama taip:
 
 - **Modulis:** *Sandėlio valdymas*
 - **Funkcijos pavadinimas:** *Produkto pakavimo dimensijos*
@@ -50,7 +50,7 @@ Prieš vykdydami pavyzdinį scenarijų, turite paruošti savo sistemą, kaip apr
 
 #### <a name="enable-demo-data"></a>Demonstracinių duomenų įgalinimas
 
-Norėdami dirbti pagal šį scenarijų, naudodami čia nurodytus demonstracinius įrašus ir vertes, turite būti sistemoje su įdiegtais standartiniais [demonstraciniais duomenimis](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Be to, prieš pradedant turite pasirinkti *„USMF”* juridinį subjektą.
+Norėdami dirbti pagal šį scenarijų, naudodami čia nurodytus demonstracinius įrašus ir vertes, turite būti sistemoje su įdiegtais standartiniais [demonstraciniais duomenimis](../../fin-ops-core/fin-ops/get-started/demo-data.md). Be to, prieš pradedant turite pasirinkti *„USMF”* juridinį subjektą.
 
 #### <a name="add-a-new-physical-dimension-to-a-product"></a>Produkto faktinės dimensijos įtraukimas
 

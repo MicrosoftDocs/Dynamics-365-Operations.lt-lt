@@ -2,7 +2,7 @@
 title: Laiko rezervai
 description: Šiame straipsnyje aprašoma, kaip laiko rezervus galima naudoti su "Microsoft" planavimo optimizavimo papildiniai Dynamics 365 Supply Chain Management.
 author: t-benebo
-ms.date: 09/14/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: c792c33edea9a7f4e2973383b1fcce5b4e8ec998
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 247b48afab68651cff0ce84c8268a1df35a15c02
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854245"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335202"
 ---
 # <a name="safety-margins"></a>Laiko rezervai
 
@@ -79,12 +79,9 @@ Atkreipkite dėmesį, kad kai taikomas išdavimo laiko rezervas, nesutampa susij
 
 ## <a name="set-up-safety-margins"></a>Laiko rezervų nustatymas
 
-### <a name="turn-on-safety-margins-in-feature-management"></a>Laiko rezervų įjungimas srityje Funkcijų valdymas
+### <a name="turn-safety-margins-on-or-off"></a>Įjungti arba išjungti saugos maržas
 
-Kad galėtumėte naudoti šią funkciją su planavimo optimizavimu, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [Funkcijos valdymas](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Ten ši funkcija pateikiama taip:
-
-- **Modulis:** _Bendrasis planavimas_
-- **Funkcijos pavadinimas:** _Planavimo optimizavimo laiko rezervai_
+Jei norite naudoti šią funkciją, ją turite įjungti savo sistemoje. Kaip ir tiekimo grandinės valdymo versija 10.0.29, ši funkcija yra privaloma ir jos išjungti negalima. Jei jūsų versija senesnė nei 10.0.29, tada *·*[administratoriai](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gali įjungti arba išjungti šią funkciją ieškodami planavimo optimizavimo funkcijos maržų funkcijų valdymo darbo srityje.
 
 ### <a name="define-safety-margins"></a>Laiko rezervų nustatymas
 

@@ -1,26 +1,26 @@
 ---
 title: Elektroninių ataskaitų (ER) paskirties vietos
 description: Šiame straipsnyje pateikiama informacija apie elektroninių ataskaitų paskirties vietų valdymą, palaikomų paskirties vietų tipus ir saugos aplinkybes.
-author: nselin
+author: kfend
 ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: DocuType, ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
-ms.author: mrolecki
+ms.author: filatovm
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: bc8ef4a5299e6daba79702fadd37284f752a54a7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.custom: 97423
+ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
+ms.search.form: DocuType, ERSolutionTable
+ms.openlocfilehash: 1718b9e32c1e9f34d38479b74d59af6233f82a8c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851083"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281974"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroninių ataskaitų (ER) paskirties vietos
 
@@ -118,7 +118,7 @@ Kai konfigūruojate pasirinkto formato failų paskirties vietas, konfigūruojate
 
 [![Konfigūracijos saitas.](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
 
-Tuo pat metu gali būti kelios formato [versijos](general-electronic-reporting.md#component-versioning), kurios buvo importuotos į dabartinį „Finance“ egzempliorių. Galite jas peržiūrėti, pasirinkę saitą **Konfigūracija**, kuris siūlomas pasirinkus lauką **Nuoroda**.
+Tuo pat metu gali būti kelios formato versijos, kurios buvo importuotos į dabartinį „Finance“ egzempliorių. Galite jas peržiūrėti, pasirinkę saitą **Konfigūracija**, kuris siūlomas pasirinkus lauką **Nuoroda**.
 
 [![Konfigūracijos versijos.](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
 
@@ -181,6 +181,16 @@ Kaip ir finansų **10.0.9** PDF dokumente, kuris sukurtas iš Excel išvesties, 
 
 Tik įprasti „Windows“ operacinės sistemos šriftai naudojami konvertuoti išvestį, kurioje nėra įdėtųjų šriftų.
 
+### <a name="resources"></a>Ištekliai
+
+Prieš naudojant finansų versiją 10.0.29, PDF konvertavimą galima atlikti tik už dabartinio finansų egzemplioriaus ribų. Sugeneruotas failas buvo išsiųstas iš finansų konvertavimo tarnybai, o ta tarnyba grąžino konvertuotą dokumentą. Tačiau, versijoje 10.0.29 **ir vėliau,** **be elektroninių ataskaitų siuntimo dokumentų konvertavimo iš formatų į PDF priemonę, Microsoft Office jūs galite įgalinti programos išteklių naudojimą, kad būtų galima konvertuoti PDF formato dokumentus iš Word į PDF** **formatą.** Ši funkcija leidžia sugeneruotus Word dokumentus konvertuoti į PDF formatą vietoje, naudojant dabartiniame finansų egzemplioriuje programos serverio išteklius. 
+
+Čia yra vietinio PDF konvertavimo pranašumai, **kai įgalinta funkcija Naudoti programos išteklius, norint atlikti DOKUMENTŲ konvertavimą iš Word į PDF** formatą:
+
+- Gaminamas PDF dokumentas nėra apribotas [maksimaliu](#limitations) puslapių skaičiumi.
+- Konvertuotame Word dokumente gali būti daug [turinio valdiklių](https://fix.lcs.dynamics.com/Issue/Details?bugId=647877&dbType=3).
+- Diegiant vietiniams diegimams interneto ryšys reikalingas.
+
 ### <a name="use-the-pdf-conversion-option"></a>PDF konvertavimo parinkties naudojimas
 
 Norėdami įjungti failo paskirties vietos PDF konvertavimą, pažymėkite žymės langelį **Konvertuoti į PDF**.
@@ -230,7 +240,7 @@ Išeigos išskleidimo parinktį galima konfigūruoti tik **Aplanko** tipo format
 - **Atskiri failai** – Pristatyti kiekvieną sugeneruoto suglaudinto failo failą kaip atskirą failą.
 
     > [!NOTE]
-    > Pasirinkus **Atskiri failai**, sugeneruota išvestis surenkama į atmintį suglaudintoje būsenoje. Todėl maksimalaus [failo dydžio apribojimas](er-compress-outbound-files.md) yra taikomas suglaudintai išeigai, kai realus failo dydis gali viršyti šią ribą. Rekomenduojame pasirinkti šią vertę, kai tikitės gana didelio sugeneruotos išeigos dydžio.
+    > Pasirinkus **Atskiri failai**, sugeneruota išvestis surenkama į atmintį suglaudintoje būsenoje. Todėl maksimalaus [failo dydžio apribojimas](er-compress-outbound-files.md) yra taikomas suglaudintai išeigai, kai realus failo dydis gali viršyti šią ribą. Rekomenduojame pasirinkti šią vertę, kai tikitės, kad sugeneruotos išeigos dydis bus gana didelis.
 
 [![Paskirties vietos konfigūravimas Aplanko formato komponentui.](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
 

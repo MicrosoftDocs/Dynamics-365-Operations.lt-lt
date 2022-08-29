@@ -1,25 +1,25 @@
 ---
 title: Sąrašo kategorijos ER funkcijų sąrašas
 description: Šiame straipsnyje pateikta informacija apie sąrašo funkcijas, kurias palaiko elektroninės ataskaitos (ER).
-author: NickSelin
+author: kfend
 ms.date: 04/01/2020
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b39da482578636d94faaa3117bd40a579f3ae636
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: 6c28445f731393857cdb0c75c1244e557b5ff4a4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869061"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277699"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>Sąrašo kategorijos ER funkcijų sąrašas
 
@@ -47,6 +47,7 @@ Naudojant modulio Elektroninės ataskaitos (ER) sąrašo funkcijas, galima išga
 | [ListOfFields](er-functions-list-listoffields.md)         | Ši funkcija pateikia tipo *Įrašų sąrašas* reikšmę, sukurtą pagal nurodyto tipo *Išvardijimas* arba *Konteineris (įrašas)* argumento struktūrą. |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | Ši funkcija pateikia tipo *Įrašų sąrašas* reikšmę, kurią sudaro tik pirmasis nurodyto sąrašo įrašas.|
 | [OrderBy](er-functions-list-orderby.md)                   | Ši funkcija nurodytą sąrašą pateikia kaip tipo *Įrašų sąrašas* reikšmę, jį surikiavus pagal nurodytus argumentus. Šiuos argumentus galima apibrėžti kaip išraiškas. |
+| [Kartoti](er-functions-list-repeat.md)                     | Ši funkcija sukuria įrašą, kuriame yra laukas, kurio vertė atitinka nurodytą įvestį. Tada grąžinamas naujas *įrašo* sąrašas, kuris kartojamas nurodytą kartų skaičių. |
 | [Atvirkštinis](er-functions-list-reverse.md)                   | Ši funkcija nurodytą sąrašą pateikia kaip tipo *Įrašų sąrašas* reikšmę, surikiuotą atvirkštine tvarka. |
 | [Skaidyti](er-functions-list-split.md)                       | Ši funkcija nurodytą įvesties eilutę išskaido į antrines eilutes ir rezultatą pateikia kaip naują tipo *Įrašų sąrašas* reikšmę. |
 | [SplitList](er-functions-list-splitlist.md)               | Ši funkcija nurodytą sąrašą išskaido į antrinius sąrašus (arba į paketus), iš kurių kiekviename būtų nurodytas įrašų skaičius. Tada grąžinamas rezultatas kaip nauja *Įrašų sąrašo* reikšmė, kurią sudaro paketai. |

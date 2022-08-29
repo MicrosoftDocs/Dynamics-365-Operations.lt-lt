@@ -12,16 +12,15 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.custom:
-- "106601"
+ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.form: FinancialReports
-ms.openlocfilehash: 30d00f50844f7ad040d3c054726b7cc1a7e85d01
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: d23d6afde0daa44b8527c624305bdfd0fb4cbd53
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9206389"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291895"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Finansinių ataskaitų stulpelių aprašai
 
@@ -548,7 +547,7 @@ Toliau pateikiamoje lentelėje rodomi ataskaitos rezultatai, kurie, dėl vartoto
 
 ### <a name="calculation-column-in-a-column-definition"></a>Skaičiavimo stulpelis yra stulpelio apibrėžimas
 
-Stulpelio apibrėžimo stulpelio tipas **CALC** palaiko langelio **Formulė** sudėtinius skaičiavimus ir gali apimti ženklus **+**, **-**, **\**ir*/** bei sakinius **IF / THEN / ELSE**. Skaičiavimo stulpelyje taip pat gali būti nuoroda į bet kurį kitą stulpelį, net paskesnius stulpelius. Be to, skaičiavimo stulpelyje taip pat gali būti nurodyti finansiniai metai ir laikotarpis, kad būtų palaikomos stulpelio antraštės. Skaičiavimo formulė gali būti iki 1024 raidinių-skaitinių simbolių ilgio. Norėdami pateikti skaičiavimo rezultatą procentais, naudokite specialų formato nepaisymą.
+Stulpelio apibrėžimo stulpelio tipas **CALC** palaiko langelio **Formulė** sudėtinius skaičiavimus ir gali apimti ženklus **+**, **-**, **\**_ ir _*/** bei sakinius **IF / THEN / ELSE**. Skaičiavimo stulpelyje taip pat gali būti nuoroda į bet kurį kitą stulpelį, net paskesnius stulpelius. Be to, skaičiavimo stulpelyje taip pat gali būti nurodyti finansiniai metai ir laikotarpis, kad būtų palaikomos stulpelio antraštės. Skaičiavimo formulė gali būti iki 1024 raidinių-skaitinių simbolių ilgio. Norėdami pateikti skaičiavimo rezultatą procentais, naudokite specialų formato nepaisymą.
 
 > [!NOTE]
 > Skaičiavimo formulių rezultatai neapima verčių nespausdinamuose stulpelių diapazonuose. Pavyzdžiui, **A:D** spausdina **0** (nulis), o nespausdinamų reikšmių **A+B+C** apskaičiuoja reikšmę.

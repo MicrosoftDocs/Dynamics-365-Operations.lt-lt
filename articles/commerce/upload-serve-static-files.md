@@ -1,25 +1,25 @@
 ---
 title: Statinių failų nusiuntimas ir pateikimas
 description: Šiame straipsnyje aprašoma, kaip įkelti statinį Microsoft Dynamics 365 Commerce failą į svetainės generatorių ir kaip sukurti pasirinktinį URL ir failo pavadinimą, kurį galima naudoti norint prašyti to failo.
-author: StuHarg
+author: bicyclingfool
 ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a1b14feba1466c3a5efc3b0ea66f20e9e818a8a5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: 8b30150d4187bbb0195bcb23960afe7389d56a5c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885327"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281945"
 ---
 # <a name="upload-and-serve-static-files"></a>Statinių failų nusiuntimas ir pateikimas
 

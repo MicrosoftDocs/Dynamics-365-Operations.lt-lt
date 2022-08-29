@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45195698b48d6a22697f99044a8ae49beaf7156e
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: HT
+ms.openlocfilehash: 4cce7ea0c06938d2ce038853a262f843ec76fe4c
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067280"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219665"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Sandėlio, kuriame veikia WMS, vietų konfigūravimas
 
@@ -39,7 +39,7 @@ ms.locfileid: "9067280"
 8. Uždarykite puslapį.
 
 ## <a name="define-a-location-format"></a>Vietos formato nustatymas
-1. Eikite į **Naršymo sritis > Moduliai > Sandėlio valdymas > Sąranka > Sandėlis > Vietos formatai**. Vietų formatai yra vardų sistema, naudojama siekiant sukurti unikalius ir nuoseklius sandėlyje naudojamų skirtingoms vietos talpyklos padėtims skirtus pavadinimus. Kaip vietos formatą gali būti naudinga naudoti skyriklius, kad būtų lengviau nustatyti vietos komponentus, pavyzdžiui, perėjimo numerį. Šiame pavyzdyje mes sukursime pavadinimą su keturiais komponentais. Šie komponentai gali būti, pavyzdžiui, perėjimas, stelažas, lentyna ir talpykla.
+1. Eikite į **Naršymo sritis > Moduliai > Sandėlio valdymas > Sąranka > Sandėlis > Vietos formatai**. Vietos formatai – tai pavadinimų sistema, naudojama kuriant unikalius ir nuoseklius skirtingų sandėlyje naudojamų vietos talpyklos pozicijų pavadinimus. Kaip vietos formatą gali būti naudinga naudoti skyriklius, kad būtų lengviau nustatyti vietos komponentus, pavyzdžiui, perėjimo numerį. Šiame pavyzdyje mes sukursime pavadinimą su keturiais komponentais. Šie komponentai gali būti, pavyzdžiui, perėjimas, stelažas, lentyna ir talpykla.
 2. Spustelėkite **Naujas**.
 3. Lauke **Vietos formatas** įveskite reikšmę.
 4. Lauke **Pavadinimas** įveskite reikšmę.

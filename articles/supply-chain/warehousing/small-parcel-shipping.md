@@ -2,7 +2,7 @@
 title: Mažų siuntinių siuntimas
 description: Šiame straipsnyje pateikiama informacija apie smulkiųjų siuntų siuntimo (SPS) funkciją. Ši funkcija leidžia „Microsoft Dynamics 365 Supply Chain Management” pateikti informaciją apie supakuotą konteinerį vežėjui ir gauti siuntimo žymę, siuntimo įkainį ir vežėjo pateiktą sekimo numerį.
 author: Mirzaab
-ms.date: 01/08/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 7bafd4a5118de5ca6025c6bd74fe436aa6abd1c8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b2adde2b81ed881a3c81193a2220fbe569069c7c
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855909"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336162"
 ---
 # <a name="small-parcel-shipping"></a>Mažų siuntinių siuntimas
 
@@ -34,12 +34,9 @@ Grąžintas siuntimo tarifas įtraukiamas į susietą pardavimo užsakymą kaip 
 
 Prieš pradedant naudotis SPS funkcija, turite įjungti SPS funkciją Funkcijų valdymo dalyje, pridėkite tarifų variklį, ir nustatykite **Transportavimo valdymas** ir **Sandėlio valdymas** modulius jam palaikyti.
 
-### <a name="turn-on-the-sps-feature"></a>SPS funkcijos įjungimas
+### <a name="turn-the-sps-feature-on-or-off"></a>Įjungti arba išjungti SPS funkciją
 
-Prieš naudodami SPS funkciją, turite ją įjungti savo sistemoje. Administratoriai gali naudoti [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo erdvę tam, kad patikrintų funkcijos būseną, ir jei būtina, ją įjungtų. Ten ši funkcija pateikiama taip:
-
-- **Modulis:** *Gabenimo valdymas*
-- **Funkcijos pavadinimas:** *Mažų siuntinių siuntimas*
+Jei norite naudoti šią funkciją, ją turite įjungti savo sistemoje. Kaip ir tiekimo grandinės valdymo versija 10.0.29, ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.29 versiją, *tada administratoriai gali įjungti arba išjungti šią funkciją ieškodami smulkiųjų*[siuntinių](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) siuntimo funkcijos funkcijų valdymo darbo srityje.
 
 ### <a name="deploy-and-set-up-rate-engines"></a>Tarifų mechanizmo įdiegimas ir konfigūravimas
 
@@ -81,7 +78,7 @@ Sukūrę ir įdiegę SPS tarifų mechanizmą, atlikite šiuos veiksmus, norėdam
 
 ### <a name="make-demo-data-available"></a>Demonstracinių duomenų įgalinimas
 
-Norėdami dirbti pagal šį scenarijų, naudojant čia nurodytus demonstracinius įrašus ir vertes, turite būti sistemoje, kurioje įdiegti standartiniai [demonstraciniai duomenys](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Be to, turite pasirinkti **USMF** juridinį asmenį prieš pradedant.
+Norėdami dirbti pagal šį scenarijų, naudojant čia nurodytus demonstracinius įrašus ir vertes, turite būti sistemoje, kurioje įdiegti standartiniai [demonstraciniai duomenys](../../fin-ops-core/fin-ops/get-started/demo-data.md). Be to, turite pasirinkti **USMF** juridinį asmenį prieš pradedant.
 
 ### <a name="set-up-the-scenario"></a>Scenarijaus nustatymas
 

@@ -2,7 +2,7 @@
 title: Pašalintos arba nebenaudojamos „Dynamics 365 Finance“ funkcijos
 description: Šiame straipsnyje aprašomos priemonės, kurios buvo pašalintos arba suplanuotos pašalinti iš "Dynamics 365 Finance".
 author: kfend
-ms.date: 03/21/2022
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ee084e84c052366bdf34fe1a1e697a32e456914b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: HT
+ms.openlocfilehash: 1b5282bc1fb4834d001cd2513664996a2f4cf4f0
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068929"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313890"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Pašalintos arba nebenaudojamos „Dynamics 365 Finance“ funkcijos
 
@@ -32,6 +32,31 @@ ms.locfileid: "9068929"
 
 > [!NOTE]
 > Išsami informacija apie finansų ir operacijų programėlių objektus pateikta techninės [nuorodos ataskaitose](/dynamics/s-e/global/axtechrefrep_61). Galite palyginti skirtingas šių ataskaitų versijas ir sužinoti apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje finansų ir operacijų programėlių versijoje.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Pašalintos arba nerekomenduojamos funkcijos, esančios „Finance“ 10.0.29 versijoje
+
+### <a name="stock-transfer-orders-that-have-tax-on-the-transfer-price"></a>Atsargų perkėlimo užsakymai, kurių perkėlimo kainai taikomas mokestis
+
+[Atsargų perkėlimo užsakymai, kurių perkėlimo kainai taikomas mokestis](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md)
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Nerekomendavimo/pašalinimo priežastis** | Pakeista patobulinta funkcija, Atsargų perkėlimo [užsakymai Indijai](../../finance/localizations/apac-ind-stock-transfer.md)|
+| **Pakeitė kita funkcija?**   | Taip |
+| **Paveiktos produkto sritys** | Prašymas |
+| **Visuotinio diegimo parinktis** | Viskas |
+| **Būsena** | Pasenusi: po 2023 m. balandžio mėn. atsargų perkėlimo užsakymai, kurie turi mokesčių už perkėlimo kainos funkciją, **nebegaus** palaikymo su pataisomis ir saugos pataisomis. Klientų bus prašoma naudoti patobulintą funkciją – atsargų [perkėlimo užsakymus Indijai](../../finance/localizations/apac-ind-stock-transfer.md). Po 2023 m. spalio mėn. atsargų perkėlimo užsakymai, **kurie** turi mokesčių už perkėlimo kainos funkciją, nebegalės būti prieinami, o klientų bus prašoma pereiti prie patobulintos funkcijos. |
+
+### <a name="bank-statement-import-and-export-of-positive-pay-file"></a>Banko išrašo importavimas ir teigiamo mokėjimo failo eksportavimas
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Nerekomendavimo/pašalinimo priežastis** |Pakeista patobulintų funkcijų, importuoti banko išrašus ir eksportuoti teigiamų išmokų failus.| 
+| **Pakeitė kita funkcija?**   | Taip |
+| **Paveiktos produkto sritys**         | Prašymas |
+| **Visuotinio diegimo parinktis**              | Viskas |
+| **Būsena**                         | Pasenusi: XSLT funkcija, skirta failams importuoti ir eksportuoti, daugiau nebepalaiko klaidų pataisų ir saugos pataisų. Klientai bus paprašyti naudoti patobulintą funkciją: [...](../../finance/accounts-payable/set-up-positive-pay-er.md)[nustatyti teigiamų mokėjimo failus naudojant elektronines ataskaitas ir nustatyti išplėstinį banko suderinimo importavimą naudojant elektronines ataskaitas.](../../finance/accounts-payable/import-bai2-er.md) Po 2022 m. rugsėjo mėn. XSLT funkcijos nebebus galimos, o klientų bus prašoma pereiti prie patobulintos funkcijos.|
+
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>Pašalintos arba nerekomenduojamos funkcijos, esančios „Finance“ 10.0.26 versijoje
 

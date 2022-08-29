@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9f571d353f99c91776424bc2fa3405f73b2bae0a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3bdd161815a15d5c39b3c0afc176a288c8d9055a
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885963"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306092"
 ---
 # <a name="inventory-visibility-tips"></a>Patarimai dėl atsargų matomumo
 
@@ -35,5 +35,8 @@ ms.locfileid: "8885963"
 - Šiuo [metu skaidinio](inventory-visibility-configuration.md#partition-configuration) konfigūraciją sudaro dvi pagrindinės dimensijos (`SiteId` ir `LocationId`), kurios nurodo, kaip paskirstomi duomenys. To paties skaidinio operacijos gali padidinti našumą už mažesnes išlaidas. Sprendimas apima šio skaidinio konfigūraciją pagal numatytuosius nustatymus. *Todėl jums nereikia jų patiems nurodyti*. Nepritaikykite numatytosios skaidinio konfigūracijos. Jei jį panaikinsite arba pakeisite, tikėtina, kad įvyko netikėta klaida.
 - Pagrindinės dimensijos, kurios nustatytos skaidinio konfigūracijoje, neturėtų būti apibrėžtos produkto indekso [hierarchijos konfigūracijoje](inventory-visibility-configuration.md#index-configuration).
 - Jūsų [produktų indeksų](inventory-visibility-configuration.md#index-configuration) hierarchijos konfigūracijoje turi būti bent viena indeksų hierarchija (pvz., `Empty` kurioje yra pagrindinė dimensija), kitu atveju užklausų atlikti nepavyks, nes bus klaida "Nenustatyta indekso hierarchija".
+- Duomenų šaltinis yra `@iv` iš anksto nustatytas duomenų šaltinis, o su prefiksu `@iv` apibrėžti faktiniai duomenys yra `@` iš anksto nustatyti duomenys. Šios priemonės yra iš anksto nustatyta paskirstymo funkcijos konfigūracija, todėl nekeiskite jų ar nenaikykite jų arba, tikėtina, kad įvyksta netikėtos klaidos naudojant paskirstymo funkciją.
+- Galite pridėti naujų faktinių matų prie iš anksto apskaičiuoto matavimo `@iv.@available_to_allocate`, tačiau jo pavadinimo keisti negalima.
+- Atkūrus tiekimo grandinės valdymo duomenų bazę, atkurtoje duomenų bazėje gali būti duomenų, kurie nebeatitinka anksčiau atsargų matomumo sinchronizuotų duomenų Dataverse. Dėl šių duomenų nenuoseklumo gali kilti sistemos klaidų ir kitų problemų. Todėl svarbu prieš atkurdami Dataverse tiekimo grandinės valdymo duomenų bazę visada išvalyti visus susijusius atsargų matomumo duomenis. Norėdami gauti daugiau informacijos, [prieš atkurdami Dataverse tiekimo grandinės valdymo duomenų bazę, išvalykite atsargų matomumo duomenis](inventory-visibility-setup.md#restore-environment-database).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -6,21 +6,21 @@ ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 106571
-ms.assetid: 895b5127-01d6-4495-b127-343387b743aa
 ms.search.region: Global
-ms.author: aolson
+ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3ede95ff196abab450a478fef9e024490d22e00f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 106571
+ms.assetid: 895b5127-01d6-4495-b127-343387b743aa
+ms.search.form: FinancialReports
+ms.openlocfilehash: 0bc0308fc6140a8b45de1b207a12307a6d731639
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906674"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291429"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Išplėstinės finansinių ataskaitų formatavimo parinktys
 
@@ -192,7 +192,7 @@ Eilutės aprašo langelis **Stulpelio apribojimas** turi kelis tikslus. Atsižve
 
 ## <a name="using-a-calculation-formula-in-a-row-definition"></a>Skaičiavimo formulės naudojimas eilutės apraše
 
-Skaičiavimo formulėje eilutės apraše gali būti operatoriai **+**, **-**, **\**, ir*/**, taip pat **IF / THEN / ELSE** sakiniai. Be to, skaičiavimas gali apimti atskirus langelius ir absoliučias sumas (faktinius skaičius, įtrauktus į formulę). Formulę gali sudaryti iki 1024 simbolių. Skaičiavimai negali būti taikomi eilutėms, kuriose yra tipo **Saitas su finansinėmis dimensijomis** (FD) langelių. Tačiau galite įtraukti iš eilės einančių eilučių skaičiavimus, neleisti tų eilučių spausdinti ir tada susumuoti skaičiavimo eilutes.
+Skaičiavimo formulėje eilutės apraše gali būti operatoriai **+**, **-**, **\**_, ir _*/**, taip pat **IF / THEN / ELSE** sakiniai. Be to, skaičiavimas gali apimti atskirus langelius ir absoliučias sumas (faktinius skaičius, įtrauktus į formulę). Formulę gali sudaryti iki 1024 simbolių. Skaičiavimai negali būti taikomi eilutėms, kuriose yra tipo **Saitas su finansinėmis dimensijomis** (FD) langelių. Tačiau galite įtraukti iš eilės einančių eilučių skaičiavimus, neleisti tų eilučių spausdinti ir tada susumuoti skaičiavimo eilutes.
 
 ### <a name="operators-in-a-calculation-formula"></a>Operatoriai skaičiavimo formulėje
 

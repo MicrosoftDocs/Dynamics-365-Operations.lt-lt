@@ -1,26 +1,26 @@
 ---
 title: Elektroninių ataskaitų komponentai
 description: Šiame straipsnyje aprašomi elektroninių ataskaitų (ER) komponentai.
-author: nselin
+author: kfend
 ms.date: 09/28/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58941
-ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
-ms.topic: overview
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2b8b197fdea0cd49fc5161a12b8f547cc1a27bf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58941
+ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
+ms.search.form: ERWorkspace
+ms.openlocfilehash: 4851374ca4943a84d35f063e0ee65b537ec3b6cd
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892456"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285038"
 ---
 # <a name="electronic-reporting-components"></a>Elektroninių ataskaitų komponentai
 
@@ -113,7 +113,7 @@ Norėdami paleisti vieną ER formato konfigūraciją ir importuoti duomenis iš 
 
 Palaikomas ER komponento versijos kūrimas. Toliau pateikta ER komponentų pakeitimų valdymo darbo eiga.
 
-1. Pradinė sukurta versija pažymima kaip **Juodraštis**. Šią versiją galima redaguoti ir ją galima tikrinti.
+1. Iš pradžių sukurta versija pažymėta kaip **Juodraštis**. Šią versiją galima redaguoti ir ją galima tikrinti.
 2. Versiją **Juodraštis** galima konvertuoti į versiją **Baigta**. Šią versija galima naudoti vietiniuose ataskaitų teikimo procesuose.
 3. Versiją **Baigta** galima konvertuoti į versiją **Bendrai naudojama**. Ši versija publikuojama „Microsoft Dynamics“ „Lifecycle Services“ (LCS) ir ją galima naudoti visuotiniuose ataskaitų teikimo procesuose.
 4. Versiją **Bendrai naudojama** galima konvertuoti į versiją **Nebenaudojama**. Tada šią versiją bus galima naikinti.
@@ -123,15 +123,37 @@ Kai versijos būsena yra **Baigta** arba **Bendrai naudojama**, galima keistis d
 - Komponentą galima išdėstyti eilutėmis XML formatu ir eksportuoti kaip failą XML formatu.
 - Komponentą galima sugrąžinti iš XML failo ir importuoti į programą kaip naują ER komponento versiją.
 
+Daugiau informacijos rasite importuokite [naują duomenų modelio konfigūraciją ir išvesto](er-quick-start1-new-solution.md#ImportDataModel)[formato užbaigtos versijos eksportavimą](er-calculated-field-type.md#export-completed-version-of-a-derived-format).
+
+### <a name="draft-versions-at-runtime"></a>Juodraščio versijos vykdyklėje
+
+Savo asmeniniuose ER sistemos vartotojo parametruose galite įgalinti parinktį, kuri leidžia nurodyti, ar ER konfigūracijos juodraščio versiją reikia naudoti vykdyklėje. Informacijos, kaip padaryti, kad jūsų **ER** konfigūracijų pasirinktis Vykdyti juodraštį būtų galima, [ieškokite pažymėti pasirinktinį formatą kaip vykdyklė](er-quick-start2-customize-report.md#MarkFormatRunnable).
+
+> [!NOTE]
+> ER vartotojo parametrai yra specifiniai įmonei ir vartotojui.
+
+### <a name="draft-format-versions-at-runtime"></a>Juodraščio formato versijos vykdyklėje
+
+Pagal numatytuosius nustatymus, kai paleidžiate ER sprendimą, jo formato komponentų juodraščio versijų nepaisoma. Todėl naudojama tik atitinkama versija, kurios būsena yra kita nei **Juodraštis**. Kartais galite norėti priversti ER naudoti juodraščio versijos savo ER formato konfigūraciją vykdyklėje. Pvz., kai į savo juodraščio versiją pristatote reikiamus pakeitimus, galite naudoti tą juodraščio versiją bandymo paleidimui atlikti. Tokiu būdu galite patikrinti savo pakeitimų teisingumą. Norėdami pradėti naudoti juodraščio formato versiją, turite [nustatyti](er-quick-start2-customize-report.md#MarkFormatRunnable)**atitinkamos** ER konfigūracijos pasirinktį Vykdyti juodraštį kaip **Taip.**
+
+### <a name="draft-model-mapping-versions-at-runtime"></a>Juodraščio modelio susiejimo versijos vykdyklėje
+
+Pagal numatytuosius nustatymus paleidus ER sprendimą visada naudojamos jo modelių susiejimo komponentų juodraščio versijos. Kartais galite norėti priversti ER nepaisyti jūsų ER modelio susiejimo konfigūracijos juodraščio versijos vykdyklėje. Versijoje **10.0.29** ir vėliau galite visada atsižvelgti į ER **modelio susiejimų funkcijos pasirinktį Vykdyti juodraštį, kad būtų galima valdyti modelio susiejimo versiją,** naudojamą vykdyklėje. Kai ši funkcija įgalinta, įvyksta toks veikimo būdas:
+
+- Kai modelio **susiejimo** konfigūracijos parinktis **Vykdyti** juodraštį nustatyta kaip Ne, didžiausia ne juodraščio versija, naudojama vykdyklėje. Išimtis pateikiama, jei konfigūracija dabartiniame finansų egzemplioriuje negalima.
+- Kai parinktis **Vykdyti juodraštį** nustatyta kaip **Taip**, jei modelio susiejimo konfigūracijai naudojama juodraščio versija vykdyklėje.
+
 ## <a name="component-date-effectivity"></a>Komponento galiojimo data
 
-ER komponento versijos turi galiojimo datą. Galite nustatyti ER komponento datą Galioja nuo, kad nurodytumėte datą, nuo kurios šis komponentas galioja ir jį galima naudoti ataskaitų teikimo procesuose. Programos seanso data naudojama apibrėžti, ar komponentas yra tinkamas vykdyti. Jei konkrečią dieną galioja konkreti versija, ataskaitų teikimo procesuose naudojama naujausia versija.
+ER formato komponentų versijos galioja nuo datos. Galite nustatyti ER formato komponento datą "galioja nuo", kad nurodydami datą, kada komponentas įsigalioja ataskaitų procesuose. Programos seanso data naudojama apibrėžti, ar komponentas yra tinkamas vykdyti. Jei konkrečią dieną galioja konkreti versija, ataskaitų teikimo procesuose naudojama naujausia versija.
 
 ## <a name="component-access"></a>Prieiga prie komponento
 
-Prieiga prie ER formato komponentų priklauso nuo Tarptautinės standartų organizacijos (ISO) valstybės / regiono kodo parametro. Kai šis pasirinktos formato konfigūracijos versijos parametras nenurodytas, formato komponentą galima pasiekti iš bet kurios įmonės vykdymo laiku. Jei šiame parametre yra ISO valstybės / regiono kodai, formatas komponentą galima pasiekti tik iš tų įmonių, kurių pagrindinis adresas nurodytas kaip vienas iš formato komponento ISO valstybės / regiono kodų.
+Prieiga prie ER formato ir modelio susiejimo komponentų vykdyklėje priklauso nuo Tarptautinės standartizavimo organizacijos (ISO) šalies/regiono kodo parametro. Jei pasirinktos formato arba modelio susiejimo konfigūracijos versijos parametras tuščias, formatą arba modelio susiejimo komponentą galima pasiekti iš bet kurios įmonės vykdyklėje. Jei parametre yra ISO šalies / regiono kodų, formato arba modelio susiejimo komponentą galima naudoti tik iš įmonių, kurių pagrindinis adresas nustatytas vienam iš formato komponento ISO šalies / regiono kodų.
 
-Skirtingos duomenų formato komponento versijos gali turėti skirtingus ISO valstybės / regiono kodų parametrus.
+Skirtingos formato arba modelio susiejimo komponento versijos gali turėti skirtingus ISO šalių / regionų kodų parametrus.
+
+Daugiau informacijos ieškokite nuo šalies [konteksto priklausomų ER modelio susiejimų konfigūravimas](er-country-dependent-model-mapping.md).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
 

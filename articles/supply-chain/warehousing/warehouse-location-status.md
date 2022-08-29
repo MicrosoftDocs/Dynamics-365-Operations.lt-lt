@@ -2,7 +2,7 @@
 title: Sandėlio vietos būsena
 description: Šiame straipsnyje pateikta sandėlio vietos būsenos priemonės apžvalga.
 author: Mirzaab
-ms.date: 07/01/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 6d04ca43895935329b711f2658360c41f611975e
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: HT
+ms.openlocfilehash: 9b12a7d6a7ce388c8fd049c4aef79ea57c82ae60
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065471"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336102"
 ---
 # <a name="warehouse-location-status"></a>Sandėlio vietos būsena
 
@@ -40,12 +40,9 @@ ms.locfileid: "9065471"
     - **Paėmimas** – Siuntimo operacijos buvo atliktos pagal vietą, nes ji paskutinį kartą buvo tuščia.
     - **Laikymas** – Gavimo operacijos buvo atliktos pagal vietą, nes ji paskutinį kartą buvo tuščia.
 
-## <a name="turn-on-the-warehouse-location-status-feature"></a>Sandėlio vietos funkcijos įjungimas
+## <a name="turn-the-warehouse-location-status-feature-on-or-off"></a>Įjungti arba išjungti sandėlio vietos būsenos funkciją
 
-Norėdami naudoti *Sandėlio vietos funkcijos* funkciją, įjunkite ją savo sistemoje. Administratoriai gali naudoti [funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, kad patikrintų funkcijos būseną ir įjungtų ją, kai reikia. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
-
-- **Modulis:** *sandėlio valdymas*
-- **Funkcijos pavadinimas:** *Sandėlio vietos būsena*
+Jei norite naudoti šią funkciją, ją turite įjungti savo sistemoje. Kaip ir tiekimo grandinės valdymo versija 10.0.29, ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.29 versiją, *·*[tada](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) administratoriai gali įjungti arba išjungti šią funkciją ieškodami sandėlio vietos būsenos funkcijos funkcijų valdymo darbo srityje.
 
 ## <a name="set-up-warehouse-location-status"></a>Nustatyti sandėlio vietos būseną
 
@@ -55,7 +52,7 @@ Prieš pradėdami dirbti pagal scenarijų, turite suaktyvinti pavyzdžio duomeni
 
 #### <a name="use-the-usmf-legal-entity"></a>Naudokite USMF juridinį subjektą
 
-Norėdami dirbti pagal pavyzdžio scenarijų, naudojant nurodytus įrašų ir reikšmių pavyzdžius, standartiniai [demonstraciniai duomenys](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) turi būti įdiegti Jūsų sistemoje. Be to, turite pasirinkti **USMF** juridinį asmenį prieš pradedant.
+Norėdami dirbti pagal pavyzdžio scenarijų, naudojant nurodytus įrašų ir reikšmių pavyzdžius, standartiniai [demonstraciniai duomenys](../../fin-ops-core/fin-ops/get-started/demo-data.md) turi būti įdiegti Jūsų sistemoje. Be to, turite pasirinkti **USMF** juridinį asmenį prieš pradedant.
 
 #### <a name="set-up-location-profiles"></a>Nustatyti vietų šablonus
 

@@ -1,30 +1,30 @@
 ---
 title: ER konfigūracijų kūrimas tam, kad sugeneruotuose failuose nebūtų rodomi KS simboliai
 description: Šiame straipsnyje paaiškinama, kaip konfigūruoti elektroninių ataskaitų (ER) formatą ataskaitoms, kurios sulaikyti pagal užsakymo žymę (KS), generuoti.
-author: NickSelin
+author: kfend
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EROperationDesigner
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d54ed105e4ff44ac2c48e2d1a4b8e12fbf6f9591
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: EROperationDesigner
+ms.openlocfilehash: a2ea132b51f2f451fbe81a9c7869bea84bf4017a
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847436"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324026"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>ER konfigūracijų kūrimas tam, kad sugeneruotuose failuose nebūtų rodomi KS simboliai
 
 [!include [banner](../includes/banner.md)]
 
-Galite sukurti [Elektroninių ataskaitų (ER)](general-electronic-reporting.md) [sprendimą](er-quick-start1-new-solution.md) siunčiamų dokumentų generavimui. Norint generuoti dokumentus kaip teksto arba XML failus, sprendimas turi apimti ER [konfigūraciją](general-electronic-reporting.md#Configuration), kurioje yra ER formato komponentas. Norint nurodyti [simbolio kodavimą](/windows/win32/intl/character-sets), atitinkantį simbolių rinkinį sugeneruotuose failuose, ER formate turi būti **Bendra\\Failas** formato elementas. Norėdami konfigūruoti ER formato komponentą, atidarykite ER konfigūracijos [juodraščio](general-electronic-reporting.md#component-versioning) versiją ER formato dizaino įrankyje ir pridėkite **Bendra\\Failas** elementą. Lauke **Kodavimas** nurodykite siunčiamų failų, kurios generuojami vykdymo aplinkoje naudojant šį komponentą, kodavimą.
+Galite sukurti [Elektroninių ataskaitų (ER)](general-electronic-reporting.md) [sprendimą](er-quick-start1-new-solution.md) siunčiamų dokumentų generavimui. Norint generuoti dokumentus kaip teksto arba XML failus, sprendimas turi apimti ER [konfigūraciją](general-electronic-reporting.md#Configuration), kurioje yra ER formato komponentas. Norint nurodyti [simbolio kodavimą](/windows/win32/intl/character-sets), atitinkantį simbolių rinkinį sugeneruotuose failuose, ER formate turi būti **Bendra\\Failas** formato elementas. Norėdami konfigūruoti ER formato komponentą, ER formato konstruktoriuje atidarykite ER konfigūracijos juodraščio versiją ir įtraukite bendrosios **rinkmenos\\** elementą. Lauke **Kodavimas** nurodykite siunčiamų failų, kurios generuojami vykdymo aplinkoje naudojant šį komponentą, kodavimą.
 
 > [!NOTE]
 > Jei formate yra neteisingas kodavimo pavadinimas, įrašant formato parametrų pakeitimus įvyksta klaida.

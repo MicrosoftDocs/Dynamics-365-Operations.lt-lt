@@ -2,7 +2,7 @@
 title: Bendrasis planavimas su įsigijimo prekybos sutartimis
 description: Šiame straipsnyje aprašoma, kaip planavimo optimizavimas gali rasti suplanuoto užsakymo tiekėjo ir (arba) gamybos laiką, remiantis geriausia kaina arba gamybos laiku, rastų pirkimo prekybos sutartyse.
 author: t-benebo
-ms.date: 06/29/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 29f0f44289e44b21cb304bd1f423d63f9f58f2db
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3797ee584cdb059a97670d532cf7e1a1163cc7ff
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873759"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335232"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Bendrasis planavimas su įsigijimo prekybos sutartimis
 
@@ -29,12 +29,9 @@ ms.locfileid: "8873759"
 
 Šiame straipsnyje aprašoma, kaip planavimo optimizavimas gali rasti suplanuoto užsakymo tiekėjo ir (arba) gamybos laiką, remiantis geriausia kaina arba gamybos laiku, kuris randamas tarp visų pirkimo prekybos sutarčių, nurodytų nurodytam produktui.
 
-## <a name="turn-on-the-purchase-trade-agreements-for-planning-optimization-feature"></a>Įjungti pirkimo prekybos sutartis, skirtas planavimo optimizavimo funkcijai
+## <a name="turn-the-purchase-trade-agreements-for-planning-optimization-feature-on-or-off"></a>Įjungti arba išjungti planavimo optimizavimo funkcijos pirkimo prekybos sutartis
 
-Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [Funkcijos valdymas](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Ten ši funkcija pateikiama taip:
-
-- **Modulis:** *Bendrasis planavimas*
-- **Funkcijos pavadinimas:** *pirkimo prekybos sutartis, skirta planavimo optimizavimui*
+Jei norite naudoti šią funkciją, ją turite įjungti savo sistemoje. Kaip ir tiekimo grandinės valdymo versija 10.0.29, ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.29 versiją, *·*[tada](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) administratoriai gali įjungti arba išjungti šią funkciją ieškodami pirkimo prekybos sutarčių planavimo optimizavimo funkcijos funkcijų valdymo darbo srityje.
 
 ## <a name="prepare-your-system-to-evaluate-purchase-trade-agreements-during-master-planning"></a>Paruoškite savo sistemą, kad galėtumėte įvertinti pirkimo prekybos sutartis bendrojo planavimo metu
 

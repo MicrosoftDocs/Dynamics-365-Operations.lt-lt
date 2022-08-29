@@ -1,26 +1,26 @@
 ---
 title: Grupuoti įrašus ir sujungti skaičiavimus naudojant GROUPBY duomenų šaltinius
 description: Šiame straipsnyje paaiškinama, kaip naudoti GROUPBY tipo duomenų šaltinius elektroninėse ataskaitose (ER).
-author: NickSelin
+author: kfend
 ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7b20b5db0794157560f27f15594a84083966642f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ERModelMappingDesigner, EROperationDesigner
+ms.openlocfilehash: 0e520705d2441ead5a68ec3284db74999b3d90b5
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861793"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277608"
 ---
 # <a name="group-records-and-aggregate-calculations-by-using-groupby-data-sources"></a>Grupuoti įrašus ir sujungti skaičiavimus naudojant GROUPBY duomenų šaltinius
 

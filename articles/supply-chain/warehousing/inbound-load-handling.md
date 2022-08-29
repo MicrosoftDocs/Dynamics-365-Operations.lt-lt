@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 43102cb867243a872a5d1df777d8c4102a48e235
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: HT
+ms.openlocfilehash: 38d5ba96690dd855556a7f69591ef5b9ee5f9d7b
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070326"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335682"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Pirkimo užsakymų gaunamų krovinių sandėlio tvarkymas
 
@@ -259,7 +259,7 @@ Kaip buvo aprašyta ankščiau, sistema siūlo dvi produkto gavimo registravimo 
 
 ### <a name="prepare-your-system-to-run-the-sample-scenarios"></a>Parenkite sistemą, kad būtų galima vykdyti pavyzdinius scenarijus
 
-Norėdami peržiūrėti šiame skyriuje aprašytus pavyzdinius scenarijus, pirmiausia turite įsitikinti, kad sistemoje yra įjungtos visos reikiamos funkcijos. Sistemoje taip pat turi būti reikiamų demonstracinių duomenų.
+Norėdami dirbti naudodami pavyzdius scenarijus, aprašytus šiame skyriuje, pirmiausia turite įsitikinti, kad visos reikiamos funkcijos jūsų sistemai įjungtos. Sistemoje taip pat turi būti reikiamų demonstracinių duomenų.
 
 #### <a name="turn-on-the-required-features"></a>Reikiamų funkcijų įjungimas
 
@@ -279,7 +279,7 @@ Norėdami peržiūrėti šiame skyriuje aprašytus pavyzdinius scenarijus, pirmi
 
 #### <a name="enable-sample-data"></a>Duomenų pavyzdžių įgalinimas
 
-Norėdami peržiūrėti šiuos scenarijus naudodami nurodytus įrašų ir reikšmių pavyzdžius, turite naudoti sistemą, kurioje įdiegti standartiniai demonstraciniai duomenys. Prieš pradėdami turite pasirinkti juridinį subjektą **USMF**.
+Norėdami dirbti naudodami šiuos scenarijus, naudodami nurodytus pavyzdinius įrašus ir reikšmes, turite naudoti sistemą, kurioje įdiegti standartiniai [demonstraciniai](../../fin-ops-core/fin-ops/get-started/demo-data.md) duomenys. Prieš pradėdami turite pasirinkti juridinį subjektą **USMF**.
 
 #### <a name="add-a-menu-item-for-receiving-load-items-when-a-mobile-device-is-used"></a>Meniu elemento, skirto krovinio prekėms gauti, įtraukimas, kai naudojamas mobilusis įrenginys
 

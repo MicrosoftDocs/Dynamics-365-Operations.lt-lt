@@ -2,7 +2,7 @@
 title: Bangos kūrimas ir apdorojimas
 description: Šiame straipsnyje aprašoma, kaip sukurti, apdoroti ir išleisti bangą, kad būtų sukurtas krovinio, siuntos, gamybos užsakymo arba "kanban" užsakymo paėmimo darbas.
 author: Mirzaab
-ms.date: 03/08/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 60bf4ab6944bd982e022ead6431adae417ddfb43
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 0466019990773ee93e063a255c15a7d64eecdf78
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9014625"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336012"
 ---
 # <a name="wave-creation-and-processing"></a>Bangos kūrimas ir apdorojimas
 
@@ -191,7 +191,7 @@ Naudokite puslapį **Išsami bangos paketinės užduoties informacija** norėdam
 
 ### <a name="turn-the-wave-batch-job-details-page-on-or-off"></a>Įjungti arba išjungti bangos paketinės užduoties informacijos puslapį
 
-Kaip ir tiekimo grandinės valdymo versija 10.0.25, **bangos** paketinės užduoties informacijos puslapis įjungtas pagal numatytuosius nustatymus. Administratoriai gali įjungti arba išjungti šią funkciją funkcijų *valdymo* darbo srityje ieškodami funkcijos Bangos paketinės [užduoties](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) informacija.
+Jei norite naudoti šią funkciją, ją turite įjungti savo sistemoje. Kaip ir tiekimo grandinės valdymo versija 10.0.25, funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymo versija 10.0.29, ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.29 versiją, tada *·*[administratoriai gali įjungti arba išjungti šią funkciją ieškodami paketinės bangos užduoties informacijos funkcijos funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo srityje.
 
 ### <a name="use-the-wave-batch-job-details-page"></a>Puslapio Išsami bangos paketinės užduoties informacija naudojimas
 

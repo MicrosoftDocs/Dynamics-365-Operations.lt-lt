@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0b21c0000f6bf1cbbb318c898a519e51ca7e9b8
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: HT
+ms.openlocfilehash: 741377a43e2bfe702b213647cc6460a3d6ad93fb
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068641"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218689"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Iš dalies rezervuotų perkėlimo užsakymų paketinis išleidimas
 
@@ -42,25 +42,22 @@ Kad, naudojant paketinę užduotį, užsakymą būtų galima iš dalies išleist
 
 Perkėlimo užsakymų ir pardavimo užsakymų įvykdymo strategijos nurodomos įmonės lygiu. Atsižvelgiant į įvykdymo strategijos sąranką, paketinio užsakymų išleidimo procesas bus patvirtintas arba atmestas. Tada užsakymai bus atitinkamai apdorojami.
 
--   Norėdami sukurti perkėlimo užsakymų ir pardavimo užsakymų įvykdymo strategijų, spustelėkite **Sandėlio valdymas** \> **Sąranka** \> **Išleidimas į sandėlį** \> **Įvykdymo strategija** ir sukurkite įvykdymo strategiją įvesdami pavadinimą bei aprašą.
-
--   Norėdami nurodyti įvykdymo koeficientą, reikšmės tipą ir pranešimą, kuris rodomas pažeidus įvykdymo strategiją, spustelėkite **Sandėlio valdymas** \> **Sąranka** \> **Išleidimas į sandėlį** \> **Įvykdymo strategija** ir nustatykite laukus **Įvykdymo koeficientas**, **Reikšmės tipas** bei **Pranešimas apie įvykdymo pažeidimą**.
+- Norėdami kurti perkėlimo užsakymų ir pardavimo užsakymų įvykdymo strategijas, **\>\>\> eikite į Sandėlio valdymo nustatymas Išleidimo į sandėlio įvykdymo** strategijas ir sukurkite įvykdymo strategiją įvesdami pavadinimą ir aprašymą.
+- Norėdami nurodyti įvykdymo koeficientą, vertės tipą ir pranešimą, kuris rodomas pažeidus įvykdymo strategiją, **\>\>\>** **eikite į sandėlio valdymo nustatymo išleidimą į sandėlio įvykdymo strategijas ir nustatykite įvykdymo koeficiento**,**·** **vertės tipo ir įvykdymo pažeidimo pranešimo** laukus.
 
 ### <a name="set-the-fulfillment-policies-for-transfer-orders-and-sales-orders"></a>Perkėlimo užsakymų ir pardavimo užsakymų įvykdymo strategijų nustatymas
 
--   Norėdami nustatyti perkėlimo užsakymų įvykdymo strategijas, spustelėkite **Atsargų valdymas** \> **Sąranka** \> **Atsargų ir sandėlio valdymo parametrai** \> **Perkėlimo užsakymai** \> **Sandėlio valdymas** ir pasirinkite perkėlimo užsakymo įvykdymo strategiją.
+- Norėdami nustatyti perkėlimo užsakymų įvykdymo strategijas, **\>\> eikite į Atsargų valdymo nustatymo atsargų ir sandėlio valdymo** parametrus, **·** **tada** sandėlio valdymo skyriaus skirtuke Perkėlimo užsakymai pasirinkite perkėlimo užsakymo vykdymo strategiją.
+- Norėdami nustatyti pardavimo užsakymų įvykdymo strategijas, **\>\>** eikite į Gautinų sumų nustatymo parametrus, **tada** skirtuke Sandėlio valdymas pasirinkite pardavimo užsakymo vykdymo strategiją.
 
--   Norėdami nustatyti pardavimo užsakymų įvykdymo strategijas, spustelėkite **Gautinos sumos** \> **Sąranka** \> **Gautinų sumų parametrai** \> **Sandėlio valdymas** ir pasirinkite pardavimo užsakymo įvykdymo strategiją.
-
-## <a name="allow-release-in-a-batch-and-specify-the-quantity-that-should-be-release-in-a-batch"></a>Paketinio išleidimo proceso leidimas ir kiekio, kurį reikia išleisti kaip paketą, nurodymas
+## <a name="allow-release-in-a-batch-and-specify-the-quantity-that-should-be-released-in-a-batch"></a>Leisti išleisti pakete ir nurodyti kiekį, kuris turėtų būti išleistas į paketą
 
 Užsakymai į sandėlį kaip paketas išleidžiami naudojant paketinę užduotį. Parametrai, atskiriantys užsakymus, kurie turi būti vykdomi naudojant paketinę užduotį, yra nustatomi pačioje paketinėje užduotyje.
 
 Parametras **Kiekis** nurodo, ar kaip paketas turi būti išleistas visas kiekis, ar fiziškai rezervuotas kiekis. Parametras **Leisti išleisti iš dalies išleistus užsakymus** nurodo, ar kaip paketas išleidžiami užsakymai turi būti patvirtinti, ar atmesti, jei jie buvo iš dalies išleisti anksčiau.
 
--   Norėdami nustatyti perkėlimo užsakymų parametrus **Kiekis** ir **Leisti išleisti iš dalies išleistus užsakymus**, spustelėkite **Sandėlio valdymas** \> **Išleidimas į sandėlį** \> **Automatinis perkėlimo užsakymų išleidimas**.
-
--   Norėdami nustatyti pardavimo užsakymų parametrus **Kiekis** ir **Leisti išleisti iš dalies išleistus užsakymus**, spustelėkite **Sandėlio valdymas** \> **Išleidimas į sandėlį** \> **Automatinis pardavimo užsakymų išleidimas**.
+- Norėdami nustatyti perkėlimo užsakymų kiekio ir **leisti** iš dalies išleistų užsakymų parametrus, **eikite** į Sandėlio valdymo paleidimas į sandėlį **Automatinis perkėlimo užsakymų paleidimas \>.\>**
+- Norėdami nustatyti pardavimo užsakymų kiekio ir **leisti** išleisti iš dalies išleistų užsakymų parametrus, **eikite** į Sandėlio valdymo paleidimas į sandėlį **Automatinis pardavimo užsakymų paleidimas \>.\>**
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

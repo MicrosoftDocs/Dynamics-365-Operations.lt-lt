@@ -14,19 +14,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 833d6cc131b3fb45d273b60ecf6778b2be31fc8a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 6ca14156c165ca3f536fc0120ebd03883284eb18
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687113"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337332"
 ---
 # <a name="plan-type-overview"></a>Plano tipo peržiūra
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Plano tipas yra konkrečių išmokų tipų aukščiausio lygio grupavimas. Kiekvienam plano tipui taikomas plano tipo kodas, kuriuo nustatomos plano tipo taisykles. Pavyzdžiui, **Pagrindiniam gyvybės** plano tipui bus priskiriamas **Gyvybės** plano tipo kodas, nes tai yra gyvybės draudimo plano rūšis ir turi atitikti taisykles, nustatytas **Gyvybės** plano tipo kodui. Kitas plano tipas gali būti **Papildomas gyvybės**. Šis plano tipas taip pat turės **Gyvybės** plano tipo kodą.
 
@@ -67,12 +64,12 @@ Plano tipas gali nurodyti padengimo pasirinktis. Padengimo parinktys nustatytos 
    | --- | --- |
    | **Plano tipas** | Plano tipas, dėl kurio konfigūruojamos gyvenimo įvykio parinktys. |
    | **Gyvenimo įvykio tipo ID** | Gyvenimo įvykio tipo ID. |
-   | **Leisti atšaukti** | Nurodo, ar darbuotojas gali atšaukti išmokų planą gyvenimo įvykio metu. |
    | **Keisti padengimo parinktį** | Nurodo, ar darbuotojas gali keisti padengimo parinktis gyvenimo įvykio metu. |
    | **Keisti į naują planą** | Nurodo, ar darbuotojas gali keisti planus gyvenimo įvykio metu. |
-   | **Planą atšaukti automatiškai** | Nurodo, ar planas automatiškai atšaukiamas gyvenimo įvykio metu. |
    | **Automatiškai pakartotinai atidaryti tinkamumo patikrą** | Nurodo, ar gyvenimo įvykio metu automatiškai pakartotinai atidaryti registracijos išmokoms gauti tinkamumo patikrą. |
-   | **Ataskaitų teikimo langas** | Nurodo gyvenimo įvykio ataskaitų teikimo langą dienomis. **Pastaba**. Jei neįvesite reikšmės, sistema laikys, kad ataskaitų lango reikšmė yra nulis ir gyvenimo įvykio neapdoros. |
+   | **Galiojimo įvykio registracijos laikotarpis** | Nurodo gyvenimo įvykio ataskaitų teikimo langą dienomis. **Pastaba**. Jei neįvesite reikšmės, sistema laikys, kad ataskaitų lango reikšmė yra nulis ir gyvenimo įvykio neapdoros. |
+   | **Redaguoja tik administratoriai** | Nurodo, ar administratoriai gali atšaukti ar redaguoti planą per visą gyvenimo įvykį. Darbuotojas negali atlikti jokių keitimų darbuotojų savitarnos **darbo** srityje. |
+   | **Planą atšaukti automatiškai** | Nurodo, ar planas turi būti automatiškai atšauktas per gyvenimo įvykį. Apdorous visą įvykį, automatinio atšaukimo **plano parinktis** išlaikys plano pasirinkimą. Bus pašalinta **tik** būsena **Patvirtinta arba** Išregistruota. Planas lieka pasirinktas. Todėl darbuotojai, kurie neatims plano pasirinkimų galiojimo įvykio registracijos laikotarpiu, neprarasite plano pasirinkimo. 
 
 5. Pasirinkite **Įrašyti**. 
 

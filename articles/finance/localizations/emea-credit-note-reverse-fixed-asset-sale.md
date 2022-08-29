@@ -1,25 +1,25 @@
 ---
 title: Ilgalaikio turto likvidavimas Estijoje ir Lietuvoje
 description: Šiame straipsnyje pateikta informacija apie ilgalaikio turto likvidavimo kredito pažymas, užregistruotas laisvos formos SF vartotojams Juridiniuose subjektuose Estija ir Lietuva.
-author: ShylaThompson
+author: mrolecki
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: CustFreeCreditNote_W, CustFreeInvoice
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 266944
 ms.search.region: Estonia, Lithuania
-ms.author: kfend
+ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c5849c7e1ab55ab074b579ed1aa765acd0fc5888
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 266944
+ms.search.form: CustFreeCreditNote_W, CustFreeInvoice
+ms.openlocfilehash: c76a8f98e880f02d2e59743b469c1e9906f9fd40
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910026"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267132"
 ---
 # <a name="fixed-assets-disposal-for-estonia-and-lithuania"></a>Ilgalaikio turto likvidavimas Estijoje ir Lietuvoje
 

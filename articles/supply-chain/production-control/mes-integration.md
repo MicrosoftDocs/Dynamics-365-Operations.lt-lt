@@ -2,7 +2,7 @@
 title: Integravimas trečiosios šalies gamybos vykdymo sistemose
 description: Šiame straipsnyje paaiškinama, kaip integruoti "Microsoft Dynamics 365 Supply Chain Management " į trečiosios šalies gamybos vykdymo sistemą (MES).
 author: johanhoffmann
-ms.date: 10/01/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 46f6db3dd9942131b379216e6fffe5551d6c8fc3
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 8629ef2581a114609d14999a3c1fc48b49c988e0
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068038"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336222"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Integravimas trečiosios šalies gamybos vykdymo sistemose
 
@@ -45,9 +45,7 @@ Prieš tai kai galėsite naudoti šią priemonę, administratorius turi įjungti
     1. Licencijos konfigūracijos **puslapyje** pažymėkite žymės langelį **Laikas ir lankomumas**.
     1. Išjungti priežiūros režimą, kaip aprašyta priežiūros [režimu](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)
 1. Eikite į **sistemos administravimo \> darbo sričių \> funkcijų valdymą**.
-1. Įjunkite toliau išvardytas priemones (taip pat žr. funkcijų [valdymo peržiūrą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)):
-    - **Modulis:** *Gamybos kontrolė*
-    - **Funkcijos pavadinimas: gamybos** *vykdymo sistemos integravimas*
+1. Norėdami įjungti [gamybos vykdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sistemos integravimo funkciją, naudokite *funkcijų valdymo darbo* sritį. (Kaip ir tiekimo grandinės valdymo versija 10.0.29, ši funkcija veikia pagal numatytąjį nustatymą.)
 
 ## <a name="processes-available-for-mes-integration"></a>Galimi MES integravimo procesai
 
@@ -152,7 +150,7 @@ Toliau pateikiamoje lentelėje rodomi laukai, kuriuos palaiko kiekviena `ReportF
 | `ProductionWarehouseId` | Pasirinktina | Eilutė |
 | `ProductionSiteId` | Pasirinktina | Eilutė |
 | `ProductionWarehouseLocationId` | Pasirinktina | Eilutė |
-| Nuo `InventoryDimension1` iki `InventoryDimension12` | Pasirinktina | Eilutė |
+| `InventoryDimension1`– `InventoryDimension12` | Pasirinktina | Eilutė |
 
 12 extensible dimensijų (`InventoryDimension1` per `InventoryDimension12`) reikalauja pritaikymo, bet ne visada naudojamos. Daugiau informacijos apie jas rasite naujų atsargų [dimensijų pridėjimas naudojant plėtinį](../../fin-ops-core/dev-itpro/extensibility/inventory-dimensions.md).
 

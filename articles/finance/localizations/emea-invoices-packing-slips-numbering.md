@@ -1,25 +1,25 @@
 ---
 title: SF ir važtaraščių numeravimas (Latvija ir Lietuva)
 description: Šiame straipsnyje paaiškinama, kaip nustatyti SF ir važtaraščių numeraciją, ir kaip nustatyti dokumentų savęs numeracijos diapazonus.
-author: ShylaThompson
+author: AdamTrukawka
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: LtInvoiceAutoNumberingGroups, LtInvoiceAutonumberingTable, NumberSequenceTableListPage
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 268484
 ms.search.region: Latvia, Lithuania
-ms.author: kfend
+ms.author: atrukawk
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3a78ab0ecc841343460e4d7c4d75c511328ce644
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 268484
+ms.search.form: LtInvoiceAutoNumberingGroups, LtInvoiceAutonumberingTable, NumberSequenceTableListPage
+ms.openlocfilehash: 172377a5a1ec87fe0c74f0068a78cc3c6accd774
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865492"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337373"
 ---
 # <a name="invoice-and-packing-slip-numbering-for-latvia-and-lithuania"></a>SF ir važtaraščių numeravimas (Latvija ir Lietuva)
 

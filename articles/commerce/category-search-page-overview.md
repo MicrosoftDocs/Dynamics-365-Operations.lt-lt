@@ -7,18 +7,18 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5e61db026649df8fe331d107bfbda8246fb9d5f9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.openlocfilehash: 1f2e4eb8825dd690f926f7f0bdfc39f1eb5fb83c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881857"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276379"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Numatytojo kategorijos nukreipimo puslapio ir ieškos rezultatų puslapio apžvalga
 
@@ -46,6 +46,12 @@ Toliau nurodyti esminiai kategorijos komponentai.
     - Produkto pavadinimas – \[Ž-A\]
     - Įverčiai – nuo mažiausio iki didžiausio
     - Įverčiai – nuo didžiausio iki mažiausio
+
+- **Išplėstinės rūšiavimo pasirinktys** naudojamos pagal svetainės reikalavimus, siekiant rūšiuoti produktus naudojant intelektualius kriterijus. Įgalinus [produkto rekomendacijas](product-recommendations.md), galimos šios rūšiavimo pasirinktys. Daugiau informacijos rasite produktų rekomendacijų [tipų](product-recommendations.md#types-of-product-recommendations) straipsnyje.
+
+    - Naujos
+    - Geriausia pardavimo kaina
+    - Populiaru
 
 - **Skaidymo į puslapius funkcija** svetainės lankytojams leidžia iš vieno į kategorijas suskirstytų produktų rezultatų puslapio pereiti į kitą puslapį.
 - **Bendras skaičius** – pateikiamas bendras kategorijoje nustatytų produktų skaičius.
@@ -78,7 +84,7 @@ Toliau nurodyti esminiai ieškos rezultatų puslapio komponentai.
 
 - **Produktų išdėstymo plytelėse** rodomi vartotojo ieškos produktai. Numatyta, kad šios plytelės rikiuojamos pagal debesų technologija paremtą vartotojo ieškos aktualumo balą.
 - **Tikslinimo priemonės ir pasirinkimų suvestinė** yra filtrai, kurie nurodo skaičių ir kuriuos naudojant galima tikslinti prekes. Prekybos vadovas jas konfigūruoja konfigūruodamas kanalų kategorijų ir produktų atributų metaduomenis.
-- **Rikiavimo parinktis** svetainės lankytojai naudoja produktams rikiuoti. Numatyta, kad galimos tolesnės rikiavimo parinktys.
+- **Standartinės rūšiavimo** pasirinktys naudojamos pagal svetainės reikalavimus produktams rūšiuoti. Numatyta, kad galimos tolesnės rikiavimo parinktys.
 
     - Kaina – nuo mažiausios iki didžiausios
     - Kaina – nuo didžiausios iki mažiausios
@@ -86,7 +92,16 @@ Toliau nurodyti esminiai ieškos rezultatų puslapio komponentai.
     - Produkto pavadinimas – \[Ž-A\]
     - Įverčiai – nuo mažiausio iki didžiausio
     - Įverčiai – nuo didžiausio iki mažiausio
-    - Numatytoji
+    - Numatytasis 
+    
+    > [!NOTE]
+    > Jei **nustatomos naršymo** hierarchijos produktų rodymo užsakymo vertės, rūšiuojant pagal numatytuosius nustatymus **kategorijos puslapyje paisomos rodymo užsakyme apibrėžtos vertės**. Kitu atveju bus rūšiuojant pagal produkto **numerį**.)
+    
+- **Išplėstinės rūšiavimo pasirinktys** naudojamos pagal svetainės reikalavimus, siekiant rūšiuoti produktus naudojant intelektualius kriterijus. Įgalinus [produkto rekomendacijas](product-recommendations.md), galimos šios rūšiavimo pasirinktys. Daugiau informacijos rasite produktų rekomendacijų [tipų](product-recommendations.md#types-of-product-recommendations) straipsnyje.
+
+    - Naujos
+    - Geriausia pardavimo kaina
+    - Populiaru
 
 - **Skaidymo į puslapius funkcija** svetainės lankytojams leidžia iš vieno į kategorijas suskirstytų produktų rezultatų puslapio pereiti į kitą puslapį.
 - **Bendras skaičius** – pateikiamas bendras kategorijoje nustatytų ir ieškos kriterijus atitinkančių produktų skaičius.
@@ -94,6 +109,8 @@ Toliau nurodyti esminiai ieškos rezultatų puslapio komponentai.
 >[!NOTE]
 >Šios debesų kompiuterijos ieškos galimybės prieinamos 10.0.8 versijoje. Įsitikinkite, kad dalyje **Prekybos parametrai > Konfigūracijos parametrai** yra įrašas, skirtas „Productsearch.UseAzureSearch” nustatytas kaip „true”. 
 ![Konfigūracijos parametrai debesies aplinkos ieškoje.](./media/CloudPoweredSearchConfigurationParameters.png)
+
+>Be to, norėdami naudoti išplėstinio rūšiavimo pasirinktis, tokias kaip naujas, geriausias pardavimas ir tendencija, [turite įgalinti produkto rekomendacijas](product-recommendations.md) savo aplinkai. Išplėstinės rūšiavimo pasirinktys galimos naudojant "Commerce SDK" 9.35+ versiją ir "Commerce" versiją 10.0.20.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

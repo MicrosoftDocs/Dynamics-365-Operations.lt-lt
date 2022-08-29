@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 3dd9f4930303b1e3506e613d5437613138944430
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1017527419acc2e4cb42b2bcb83131339d82b665
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8877311"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218889"
 ---
 # <a name="work-line-details"></a>Darbo eilutės informacija
 
@@ -52,7 +52,7 @@ Norėdami peržiūrėti darbo eilutės informacijos sąrašą, eikite į **Sand�
 
 ### <a name="make-sample-data-available"></a>Įgalinkite duomenų pavyzdį
 
-Norėdami dirbti su parodomąja versija, naudojant nurodytus įrašų ir reikšmių pavyzdžius, standartiniai [demonstraciniai duomenys](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) turi būti įdiegti Jūsų sistemoje. Be to, turite pasirinkti **USMF** juridinį asmenį prieš pradedant.
+Norėdami dirbti su parodomąja versija, naudojant nurodytus įrašų ir reikšmių pavyzdžius, standartiniai [demonstraciniai duomenys](../../fin-ops-core/fin-ops/get-started/demo-data.md) turi būti įdiegti Jūsų sistemoje. Be to, turite pasirinkti **USMF** juridinį asmenį prieš pradedant.
 
 Taip pat galite naudoti šią parodomąją versiją kaip vedlį darbui gamybos sistemoje. Tačiau Jūs turėsite keisti vertes ir galite neturėti kai kurių tipų būtinų įrašų, kuriuos suteikia standartiniai demonstraciniai duomenys.
 

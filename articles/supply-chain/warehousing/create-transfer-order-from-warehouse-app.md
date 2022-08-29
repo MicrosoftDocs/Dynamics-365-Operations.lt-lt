@@ -2,7 +2,7 @@
 title: Perkėlimo užsakymų kūrimas iš sandėlio programos
 description: Šiame straipsnyje aprašoma, kaip kurti ir apdoroti perkėlimo užsakymus naudojant sandėlio valdymo mobiliąją programą
 author: perlynne
-ms.date: 09/02/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b9edc2d94aa1f4850d2e7fe2b4bdd1b092be944f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 45cbf7aca431c19e58de75355579304baef3cf7d
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8877456"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336462"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Perkėlimo užsakymų kūrimas iš sandėlio programos
 
@@ -26,14 +26,14 @@ ms.locfileid: "8877456"
 
 Ši funkcija leidžia sandėlio darbuotojams kurti ir apdoroti perkėlimo užsakymus tiesiai iš sandėlio valdymo mobiliųjų įrenginių programėlės. Darbuotojas pirmiausia pasirenka paskirties sandėlį, o tada gali nuskaityti vieną ar daugiau numerio lentelių naudodami programą, kad į perkėlimo užsakymą būtų įtrauktos numerio lentelės. Kai sandėlio darbuotojas pasirenka **Užbaigti užsakymą**, paketinė užduotis sukuria reikiamą perkėlimo užsakymą ir užsakymo eilutes pagal turimas atsargas, užregistruotas toms numerio lentelėms.
 
-## <a name="turn-this-feature-on-or-off"></a><a name="enable-create-transfer-order-from-warehouse-app"></a> Įjungti arba išjungti šią funkciją
+## <a name="turn-on-this-feature-and-its-prerequisites"></a><a name="enable-create-transfer-order-from-warehouse-app"></a> Įjungti šią funkciją ir jos būtinąsias sąlygas
 
 Norėdami pasinaudoti šia funkcija, ją ir jos būtinąsias sąlygas turite įjungti savo sistemoje. Administratoriai gali naudoti [funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) puslapį, kad patikrintų funkcijos būseną ir įjungtų ją, jei reikia.
 
 1. Įgalinkite šias dvi priemones (nurodyta) funkcijų [valdymo darbo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) srityje. Kaip ir tiekimo grandinės valdymo versija 10.0.25, abi šios priemonės įjungiamos pagal numatytuosius nustatymus.
-    1. *Apdoroti sandėlio programos įvykius*
-    1. *Kurti ir apdoroti perkėlimo užsakymus naudojant sandėlio programą*
-1. Norėdami automatizuoti siunčiamų siuntų apdorojimą, turite įgalinti [siunčiamų siuntų patvirtinimo iš paketinių užduočių funkciją](confirm-outbound-shipments-from-batch-jobs.md).
+    1. *Apdoroti sandėlio programos įvykius*<br>(Kaip ir tiekimo grandinės valdymo versija 10.0.29, ši funkcija yra privaloma ir jos išjungti negalima.)
+    1. *Kurti ir apdoroti perkėlimo užsakymus naudojant sandėlio programą*<br>(Kaip ir tiekimo grandinės valdymo versija 10.0.29, ši funkcija yra privaloma ir jos išjungti negalima.)
+1. Norėdami automatizuoti siunčiamų siuntų apdorojimą, turite įgalinti [*siunčiamų siuntų patvirtinimo iš paketinių užduočių funkciją*](confirm-outbound-shipments-from-batch-jobs.md). (Kaip ir tiekimo grandinės valdymo versija 10.0.21, ši funkcija įjungiama pagal numatytąjį nustatymą. Kadangi tiekimo grandinės valdymas yra 10.0.25, ši funkcija yra privaloma ir jos išjungti negalima.)
 
 ## <a name="set-up-a-mobile-device-menu-item-to-create-transfer-orders"></a><a name="setup-warehouse-app-menu"></a>Mobiliojo įrenginio meniu elemento nustatymas perkėlimo užsakymams kurti
 
@@ -307,11 +307,11 @@ Ne, į perkėlimo užsakymą, kuriame yra sandėlio programos įvykis **Užbaigt
 
 #### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-management-mobile-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>Kaip rasti esamus perkėlimo užsakymus, kurie bus naudojami sandėlio valdymo mobiliųjų įrenginių programėlėje, naudojant mygtuką „Pasirinkti perkėlimo užsakymą”, jei užsakymas dar nesukurtas vidinio serverio sistemoje?
 
-Šiuo metu programoje negalima ieškoti perkėlimo užsakymų, bet galima rasti perkėlimo užsakymų numerius puslapyje **Sandėlio programos įvykiai**. Daugiau informacijos žr. [Užklausos dėl sandėlio programos įvykių pateikimas](#inquire-the-warehouse-app-events).
+Naudodami duomenų užklausos galimybę, galite nustatyti, kad darbuotojai galėtų ieškoti perkėlimo užsakymų numerių sandėlio valdymo [mobiliojoje](warehouse-app-data-inquiry.md) programoje. Pavyzdžiui, galite sukurti atsieto mobiliojo įrenginio meniu elementą, kuris pateikia užklausas apie duomenis, [rodomus](warehouse-app-detours.md) žiniatinklio kliento sandėlio app įvykių puslapyje (**) kaip** užsakymo Select order - MobileDeviceQueueMessageCollectionIdentifierId`WHSMobileDeviceQueueMessageCollection` veiksmo dalį.*·* Perkėlimo užsakymo numeris atitinka vertę, rodomą lauke **Identifikatorius**. Taip pat žr [. užklausą dėl sandėlio programų įvykių](#inquire-the-warehouse-app-events).
 
 #### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-management-mobile-app"></a>Ar galima rankiniu būdu pasirinkti perkėlimo užsakymo numerį, kuris bus naudojamas sandėlio valdymo mobiliųjų įrenginių programėlėje?
 
-Palaikomi tik automatiškai sugeneruoti perkėlimo užsakymų numeriai naudojant numeracijas.
+Palaikomi tik automatiškai sugeneruoti perkėlimo užsakymų numeriai naudojant numeracijas. Taip pat žiūrėkite atsakymą į ankstesnį klausimą, kaip nustatyti mygtuką **Pasirinkti perkėlimo** užsakymą. Daugiau informacijos apie perkėlimo užsakymo numerių ieškokite sandėlio [programų įvykių užklausoje](#inquire-the-warehouse-app-events).
 
 ### <a name="background-processing"></a>Foninis apdorojimas
 

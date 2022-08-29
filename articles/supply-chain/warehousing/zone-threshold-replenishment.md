@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: e3ec1f59e0b1d202d5591bfc1525c9034f4d8f45
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 44e7dfdbc980c5df6b9426515365611bc0de45c2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893126"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335952"
 ---
 # <a name="zone-threshold-replenishment"></a>Papildymo pagal zoną ribinės vertės
 
@@ -38,7 +38,7 @@ Skirtingai nei vieta pagrįstame min. / maks. papildyme, zona pagrįstame min. /
 
 ## <a name="turn-on-the-zone-threshold-replenishment-feature"></a>Papildymo pagal zoną ribinės vertės įjungimo funkcija
 
-Norėdami naudoti *Papildymo pagal zoną ribinės vertės* funkciją, įjunkite ją savo sistemoje. Administratoriai gali naudoti [funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, kad patikrintų funkcijos būseną ir įjungtų ją, kai reikia. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
+Prieš naudojant zonos ribinės *vertės papildymo* funkciją, ją reikia įjungti savo sistemoje. Administratoriai gali naudoti [funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, kad patikrintų funkcijos būseną ir įjungtų ją, kai reikia. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
 
 - **Modulis:** *sandėlio valdymas*
 - **Funkcijos pavadinimas** *Papildymo pagal zoną ribinės vertės*
@@ -262,7 +262,7 @@ Prieš pradėdami dirbti su scenarijumi, turite suaktyvinti duomenų pavyzdžius
 
 #### <a name="use-the-usmf-legal-entity"></a>Naudokite USMF juridinį subjektą
 
-Norėdami dirbti pagal šį scenarijų, naudojant nurodytus įrašų ir reikšmių pavyzdžius, standartiniai [demonstraciniai duomenys](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) turi būti įdiegti Jūsų sistemoje. Be to, turite pasirinkti **USMF** juridinį asmenį prieš pradedant.
+Norėdami dirbti pagal šį scenarijų, naudojant nurodytus įrašų ir reikšmių pavyzdžius, standartiniai [demonstraciniai duomenys](../../fin-ops-core/fin-ops/get-started/demo-data.md) turi būti įdiegti Jūsų sistemoje. Be to, turite pasirinkti **USMF** juridinį asmenį prieš pradedant.
 
 #### <a name="prepare-additional-sample-data"></a>Paruošti papildomus pavyzdžio duomenis
 

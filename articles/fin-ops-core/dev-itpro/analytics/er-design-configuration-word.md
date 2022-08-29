@@ -1,24 +1,26 @@
 ---
 title: Naujos ER konfigūracijos, skirtos ataskaitų generavimui „Word“ formatu, kūrimas
 description: Šiame straipsnyje paaiškinama, kaip vartotojai gali konfigūruoti naują elektroninių ataskaitų (ER) formatą, kad galėtų generuoti ataskaitas kaip Microsoft Word dokumentus.
-author: NickSelin
+author: kfend
 ms.date: 12/17/2020
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: caf87659ca4ceb7b25aa43e09893d2a0ef014884
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form:
+- ERWorkspace, ERSolutionTable, EROperationDesigner
+- LedgerJournalTable, LedgerJournalTransVendPaym
+ms.openlocfilehash: b56b328aa2a2b53dc177a02a4d453e5dbcb8340c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893018"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273345"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Naujos ER konfigūracijos, skirtos ataskaitų generavimui „Word“ formatu, kūrimas
 
@@ -35,7 +37,7 @@ Norėdami naudoti „Word” dokumentą kaip ataskaitų „Word” formatu šabl
 
 ![Formato konfigūracijos kūrimas puslapyje Konfigūracijos.](./media/er-design-configuration-word-image2.gif)
 
-Sprendimo ER formato komponente turi būti **„Excel”\\Failas** formato elementas ir jis turi būti susietas su „Word” dokumentu, kuris bus naudojamas kaip vykdymo aplinkoje sugeneruotų ataskaitų šablonas. Norėdami konfigūruoti ER formato komponentą, turite atidaryti sukurtos ER konfigūracijos [juodraščio](general-electronic-reporting.md#component-versioning) versiją ER formato dizaino įrankyje. Tada įtraukite **„Excel”\\Failas** elementą, pridėkite savo „Word” šabloną į redaguojamą ER formatą ir susiekite tą šabloną su **„Excel”\\Failas** elementu, kurį pridėjote.
+Sprendimo ER formato komponente turi būti **„Excel”\\Failas** formato elementas ir jis turi būti susietas su „Word” dokumentu, kuris bus naudojamas kaip vykdymo aplinkoje sugeneruotų ataskaitų šablonas. Norėdami konfigūruoti ER formato komponentą, turite atidaryti sukurtos ER konfigūracijos juodraščio versiją ER formato dizaino įrankyje. Tada įtraukite **„Excel”\\Failas** elementą, pridėkite savo „Word” šabloną į redaguojamą ER formatą ir susiekite tą šabloną su **„Excel”\\Failas** elementu, kurį pridėjote.
 
 > [!NOTE]
 > Kai pridedate šabloną, turite naudoti [dokumento tipą](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types), kuris buvo anksčiau [sukonfigūruotas](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) ER parametruose saugoti ER formatų šablonams.

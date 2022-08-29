@@ -2,7 +2,7 @@
 title: Warehouse Management mobiliųjų įrenginių programėlės skatinamų laukų konfigūravimo žingsniai
 description: Šiame straipsnyje aprašoma, kaip skatina ir išryškina konkrečią informaciją apie bet kuriuos sandėlio valdymo mobiliosios programos užduočių eigos žingsnius.
 author: Mirzaab
-ms.date: 10/15/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 5f5f24f47d0a2376be714f9208cd383cf3aacc07
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3451b1aec525cd0738af558b183f8676d20294a0
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857060"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336072"
 ---
 # <a name="configure-promoted-fields-for-steps-in-the-warehouse-management-mobile-app"></a>Warehouse Management mobiliųjų įrenginių programėlės skatinamų laukų konfigūravimo žingsniai
 
@@ -29,25 +29,12 @@ ms.locfileid: "8857060"
 
 ## <a name="enable-promoted-fields-in-your-system"></a>Įjunkite skatinamuosius laukus savo sistemoje
 
-Kad būtų galima nustatyti skatinamus laukus, turite atlikti toliau nurodytą procedūrą, kad įgalintumėte reikiamas funkcijas ir sugeneruotumėte reikiamų laukų pavadinimus Warehouse Management mobilių įrenginių programoje.
+Jei paleisite tiekimo grandinės valdymo versiją 10.0.28 ar ankstesne, prieš nustatę skatinamą lauką, turite atlikti toliau nurodytą procedūrą, kad įgalintumėte reikiamas funkcijas ir sugeneruotumėte būtinus laukų pavadinimus sandėlio valdymo mobiliųjų įrenginių programoje. Jei paleisite tiekimo grandinės valdymo 10.0.29 arba vėlesnę versiją, šios funkcijos yra privalomos ir negali būti išjungtas, todėl galite praleisti šią procedūrą.
 
-1. Eikite į **Sistemos administravimas \> Darbo sritys \> Funkcijų valdymas**.
-1. [**Funkcijų valdymas** darbo srityje](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), įgalinkite funkciją, išvardintą šia tvarka:
-
-    - **Modulis:** *Warehouse management*
-    - **Funkcijos pavadinimas:** *Sandėlio programos veiksmų instrukcija*
-
-    Daugiau informacijos apie *Warehouse programos veiksmų instrukcijų* funkciją žr. [Warehouse Management mobiliosios programos veiksmų pavadinimų ir instrukcijų pritaikymas](mobile-app-titles-instructions.md). Ši funkcija yra būtina *Warehouse Management programos skatinamų laukų* sąlyga.
-
-1. Įgalinkite nurodytą funkciją tokiu būdu:
-
-    - **Modulis:** *Warehouse management*
-    - **Priemonės pavadinimas:** *Warehouse programėlės skatinami laukai*
-
-    Ši funkcija yra šiame straipsnyje aprašyta funkcija.
-
-1. Warehouse Management mobiliojoje programėlėje atnaujinkite laukų pavadinimus eidami į **Warehouse Management \> Sąranka \> Mobilus įrenginys \> Warehouse programėlė** ir pasirinkite **Kurti numatytąjį nustatymą**. Daugiau informacijos rasite [Sandėlio valdymo mobiliųjų įrenginių programėlės laukų konfigūravimas](configure-app-field-names-priorities-warehouse.md).
-1. Pakartokite ankstesnį veiksmą su kiekvienu juridiniu subjektu (įmone), kuriame naudojate Warehouse Management mobiliąją programą.
+1. Eikite į **Sistemos administravimas \> Darbo sritys \> Funkcijų valdymas**. (Žr. [Funkcijų valdymo apžvalga](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), skirta daugiau informacijos apie šį puslapį.)
+1. Įsitikinkite, kad *sandėlio programos veiksmo* instrukcijų funkcija jūsų sistemai įjungta. Ši funkcija yra būtina *Warehouse Management programos skatinamų laukų* sąlyga. Kaip tiekimo grandinės valdymo versija 10.0.29, ji yra privaloma ir negali būti išjungta. Daugiau informacijos apie *Warehouse programos veiksmų instrukcijų* funkciją žr. [Warehouse Management mobiliosios programos veiksmų pavadinimų ir instrukcijų pritaikymas](mobile-app-titles-instructions.md).
+1. Įsitikinkite, kad *sandėlio programos skatinami* laukų funkcija jūsų sistemai įjungta. Tai šiame straipsnyje aprašyta funkcija. Kaip tiekimo grandinės valdymo versija 10.0.29, ji yra privaloma ir negali būti išjungta.
+1. Warehouse Management mobiliojoje programėlėje atnaujinkite laukų pavadinimus eidami į **Warehouse Management \> Sąranka \> Mobilus įrenginys \> Warehouse programėlė** ir pasirinkite **Kurti numatytąjį nustatymą**. Pakartokite šį veiksmą su kiekvienu juridiniu subjektu (įmone), kuriame naudojate sandėlio valdymo mobiliąją programą. Daugiau informacijos rasite [Sandėlio valdymo mobiliųjų įrenginių programėlės laukų konfigūravimas](configure-app-field-names-priorities-warehouse.md).
 
 ## <a name="configure-promoted-fields-from-a-menu-specific-override"></a>Konfigūruokite skatinamus laukus iš meniu specifinio keitimo
 
@@ -67,7 +54,7 @@ Naudokite toliau nurodytą procedūrą, kad nustatytumėte skatinamus laukus.
 
 ### <a name="enable-sample-data"></a>Duomenų pavyzdžių įgalinimas
 
-Norėdami naudoti nurodytų įrašų ir reikšmių pavyzdžius, dirbant pagal šį scenarijų, privalote naudoti sistemą, kurioje įdiegti standartiniai demonstraciniai duomenys. Prieš pradėdami turite pasirinkti juridinį subjektą **USMF**.
+Norėdami naudoti nurodytus pavyzdinius įrašus ir reikšmes, norėdami dirbti naudodami šį scenarijų, turite naudoti sistemą, kurioje įdiegti standartiniai [demonstraciniai](../../fin-ops-core/fin-ops/get-started/demo-data.md) duomenys. Prieš pradėdami turite pasirinkti juridinį subjektą **USMF**.
 
 ### <a name="configure-sales-picking-with-promoted-steps-on-the-license-plate-step"></a>Konfigūruokite pardavimų pasirinkimą naudojant skatinamus veiksmus licencijos lentelės veiksme.
 

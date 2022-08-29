@@ -1,25 +1,25 @@
 ---
 title: Bendrinimo tarp kelių kanalų įjungimas
 description: Šiame straipsnyje aprašoma, kaip įgalinti ir naudoti svetainės generatoriaus kryžminio kanalo Microsoft Dynamics 365 Commerce bendrinimo funkciją.
-author: psimolin
+author: josaw1
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
-ms.author: psimolin
+ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 637149c088cb87301018868e680537eb58b17852
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: c05da17327e61d6f61883ab97a403bf2cf8a68f1
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866009"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270079"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Bendrinimo tarp kelių kanalų įjungimas
 

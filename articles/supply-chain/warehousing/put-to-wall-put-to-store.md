@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: e020bd3973b8b56dd1e6f3e5bdc8cba32600f7f8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: af6dcb6d822ab14b0b4b881ca32626ea6eae4c28
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909649"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334513"
 ---
 # <a name="put-to-wall---put-to-store"></a>Dėjimas prie sienos - dėjimas į parduotuvę
 
@@ -32,7 +32,7 @@ Darbo srautas šiai funkcija valdo paimtą produktą į rūšiavimo vietos distr
 
 ## <a name="turn-on-the-outbound-sorting-feature"></a>Įjunkite Siunčiamo rūšiavimo funkciją
 
-Prieš jums pradedant naudoti *Dėjimo prie sienos - dėjimo į parduotuvę* funkciją, *Siunčiamo rūšiavimo* savybė jūsų sistemoje turi būti įjungta. Administratoriai gali naudoti [Funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Ten ši funkcija pateikiama taip:
+Prieš naudojant padėjimo *į* sienos funkciją, *reikia* įjungti sistemos siuntimo rūšiavimo funkciją. Administratoriai gali naudoti [Funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Ten ši funkcija pateikiama taip:
 
 - **Modulis:** *Sandėlio valdymas*
 - **Funkcijos pavadinimas:** *Siunčiamas rūšiavimas*

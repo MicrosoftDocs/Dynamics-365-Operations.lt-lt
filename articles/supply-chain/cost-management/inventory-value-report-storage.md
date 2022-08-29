@@ -2,7 +2,7 @@
 title: Atsargų vertės ataskaitos
 description: Šiame straipsnyje paaiškinama, kaip nustatyti, generuoti ir naudoti atsargų vertės ataskaitas. Šiose ataskaitose pateikiama informacija apie jūsų atsargų faktinius ir finansinius kiekius ir sumas.
 author: JennySong-SH
-ms.date: 10/19/2021
+ms.date: 08/05/2022
 ms.topic: article
 ms.search.form: InventValueProcess, InventValueReportSetup
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3128abb25fdb8f8e01b4d1fe153f5b5fff6cb706
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f97b5bd228c6f769438d50bb27950b8d8fbda3e8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854564"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334932"
 ---
 # <a name="inventory-value-reports"></a>Atsargų vertės ataskaitos
 
@@ -55,7 +55,7 @@ Atsargų **vertės ataskaitos saugojimo ataskaita yra naudinga**, kai išeigai y
 
 ## <a name="turn-the-inventory-value-report-storage-feature-on-or-off"></a>Įjungti arba išjungti atsargų vertės ataskaitos saugojimo priemonę
 
-Kaip ir tiekimo grandinės valdymo versija 10.0.25 ši funkcija įjungiama pagal numatytąjį nustatymą. Administratoriai šią funkciją gali įjungti arba išjungti *funkcijų* valdymo darbo srityje ieškodami atsargų vertės ataskaitos [saugojimo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) funkcijos.
+Jei norite naudoti šią funkciją, ją turite įjungti savo sistemoje. Kaip ir tiekimo grandinės valdymo versija 10.0.25, funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymo versija 10.0.29, ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.29 versiją, *·*[tada](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) administratoriai gali įjungti arba išjungti šią funkciją ieškodami atsargų vertės ataskaitos saugojimo funkcijos funkcijų valdymo darbo srityje.
 
 ## <a name="define-inventory-value-report-configurations"></a><a name="report-configuration"></a> Nustatyti atsargų vertės ataskaitų konfigūracijas
 

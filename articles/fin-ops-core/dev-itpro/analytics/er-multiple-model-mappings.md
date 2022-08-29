@@ -1,24 +1,24 @@
 ---
 title: Kelių vieno modelio šaknies išvestinių susiejimų tvarkymas
 description: Šiame straipsnyje paaiškinama, kaip valdyti kelis išvestinius susiejimus, sukonfigūruotus vienam modelio šakniniam modeliui.
-author: NickSelin
+author: kfend
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERModelMappingTable
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 960f5962ec1ea216e35feb0c282856bed95d079a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ERSolutionTable, ERModelMappingTable
+ms.openlocfilehash: 868d47ccfebb9a9753d93344c72b10ae4353b0e6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892485"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277515"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Kelių vieno modelio šaknies išvestinių susiejimų tvarkymas
 
@@ -106,7 +106,7 @@ Norėdami įtraukti standartines ER konfigūracijas į jūsų dabartinį „Fina
 3. Išplečiamojo dialogo lango **Kurti konfigūraciją** lauke **Nauja** pasirinkite **Išvesti iš pavadinimo: Sąskaitos faktūros susiejimo modelis, „Microsoft”**.
 4. Lauke **Pavadinimas** įveskite **Sąskaitos faktūros susiejimo modelis „Litware”**.
 5. Pasirinkite **Kurti konfigūraciją**.
-6. [Pažymėkite](er-quick-start2-customize-report.md#MarkFormatRunnable) išvestinio susiejimo [juodraščio](general-electronic-reporting.md#component-versioning) versiją kaip galimą naudoti vykdymo metu.
+6. [Pažymėkite](er-quick-start2-customize-report.md#MarkFormatRunnable) išvestinio susiejimo [juodraščio](general-electronic-reporting.md) versiją kaip galimą naudoti vykdymo metu.
 
     1. Veiksmų srities skirtuko **Konfigūracijos** grupėje **Išplėstiniai parametrai** pasirinkite **Vartotojo parametrai**.
     2. **Vartotojo parametrai** dialogo lange nustatykite **Leisti parametrus** parinktį į **Taip** ir pasirinkite **Gerai**.

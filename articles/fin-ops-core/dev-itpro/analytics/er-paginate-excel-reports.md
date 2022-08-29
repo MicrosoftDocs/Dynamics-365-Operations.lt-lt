@@ -1,26 +1,26 @@
 ---
 title: ER formato kūrimas sugeneruotų „Excel” dokumentų išdėstymui
 description: Šiame straipsnyje paaiškinama, kaip kurti elektroninių ataskaitų (ER) formatą, kuris pvz., generuojamas dokumentas Microsoft Excel.
-author: NickSelin
+author: kfend
 ms.date: 09/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: Version 10.0.22
-ms.openlocfilehash: e8edc8bba62f74b4f81d423cf75b5fb87c01e43f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
+ms.search.form: EROperationDesigner
+ms.openlocfilehash: e4a34dffda9e9b95f5d6c7ee382723663817ec6b
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909284"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285008"
 ---
 # <a name="design-an-er-format-to-paginate-generated-documents-in-excel"></a>ER formato kūrimas sugeneruotų „Excel” dokumentų išdėstymui
 
@@ -58,11 +58,11 @@ Norėdami įtraukti standartines [ER konfigūracijas į dabartinį "Dynamics 365
 5. Lauke **Pavadinimas** įveskite **„Intrastat“ ataskaita „Litware”**.
 6. Pasirinkite **Kurti konfigūraciją** naujo formato kūrimui.
 
-Sukuriama **„Intrastat” ataskaitos „Litware”** ER formato konfigūracijos 1.9.1 versija. Ši versija turi [būseną](general-electronic-reporting.md#component-versioning) **Juodraštis** ir ji gali būti redaguojama. Jūsų pritaikyto ER formato dabartinis turinys atitinka „Microsoft” pateikto formato turinį.
+Sukuriama **„Intrastat” ataskaitos „Litware”** ER formato konfigūracijos 1.9.1 versija. Šios versijos būsena yra Juodraštis **ir** ji gali būti redaguojama. Jūsų pritaikyto ER formato dabartinis turinys atitinka „Microsoft” pateikto formato turinį.
 
 ### <a name="make-the-custom-format-runnable"></a>Padarykite tinkintą formatą kaip vykdytiną
 
-Dabar, kai sukurta pirmoji jūsų pritaikyto formato versija, kurios būsena **Juodraštis**, formatą galite paleisti testavimui. Norėdami paleisti ataskaitą, apdorokite tiekėjo mokėjimą naudodami mokėjimo būdą, nurodantį jūsų pritaikytą ER formatą. Pagal numatytuosius nustatymus jums iškvietus ER formatą programoje tik būseną` **Baigta** ar **Bendrinta** turinčios versijos [bus svarstomos](general-electronic-reporting.md#component-versioning). Toks veikimas užtikrina, kad nebaigto dizaino ER formatai nebūtų naudojami. Tačiau, atliekant bandomuosius vykdymus, galite priversti programą naudoti ER formato **Juodraštis** būsenos versiją. Tokiu būdu galite koreguoti dabartinio formato versiją, jei reikia atlikti pakeitimus. Daugiau informacijos žr. [Taikomumas](electronic-reporting-destinations.md#applicability).
+Dabar, kai sukurta pirmoji jūsų pritaikyto formato versija, kurios būsena **Juodraštis**, formatą galite paleisti testavimui. Norėdami paleisti ataskaitą, apdorokite tiekėjo mokėjimą naudodami mokėjimo būdą, nurodantį jūsų pritaikytą ER formatą. Pagal numatytuosius nustatymus, kai iškiesite ER formatą iš programos, **bus** atsižvelgiama tik į versijas, kurių būsena yra **Baigta arba Bendrai** naudojama. Toks veikimas užtikrina, kad nebaigto dizaino ER formatai nebūtų naudojami. Tačiau, atliekant bandomuosius vykdymus, galite priversti programą naudoti ER formato **Juodraštis** būsenos versiją. Tokiu būdu galite koreguoti dabartinio formato versiją, jei reikia atlikti pakeitimus. Daugiau informacijos žr. [Taikomumas](electronic-reporting-destinations.md#applicability).
 
 Norėdami naudoti ER formato juodraščio versiją, turite aiškiai pažymėti ER formatą.
 

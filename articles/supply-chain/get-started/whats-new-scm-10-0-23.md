@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: ded645ebaea1230b68525c247ee91e3893211774
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
-ms.translationtype: HT
+ms.openlocfilehash: 1b45cc2ba26f60ab444edca6c513c581e8332a2a
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124535"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219131"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Kas naujo ar pasikeitusio „Dynamics 365 Supply Chain Management“ 10.0.23 (2022 m. sausio mėnesį)
 
@@ -55,7 +55,7 @@ Jei norite įjungti arba išjungti bet kurią iš šių priemonių, tai turite a
 | Atsargų ir sandėlio valdymas | (Rusija) Naudoti vertimus į vietinę kalbą šaliai arba regionui skirtose pirminėse formose atsargų valdymo skyriuje | Ši funkcija Rusijoje lokalizuotai Supply Chain Management leidžia naudoti produktų/ prekių pavadinimų ir matavimo vienetų vertimus rusų kalba šiuose atsargų spaudiniuose rusų kalba: skaičiavimo sąrašas (INV-3), skaičiavimo sąrašas (INV-5), skaičiavimo sąrašas (INV-6). |
 | Bendrasis planavimas | „Azure“ mašininio mokymo tarnyba poreikio prognozavimui | Ši funkcija įgalina "Azure" mašinos mokymosi tarnybą generuoti poreikio prognozes, pagrįstas praeities duomenimis. Daugiau informacijos rasite Poreikio [prognozės nustatymas](../master-planning/demand-forecasting-setup.md). |
 | Paraiškos | Valyti pirkimo užsakymo atnaujinimų istoriją | Ši funkcija leidžia išvalyti laikinus retrospektyvinius įrašus, susijusius su pirkimo užsakymo atnaujinimais. Ji į veiksmų sritį įtraukia naują mygtuką, pavadintą **Valyti pirkimo atnaujinimo retrospektyvą**, kuris yra puslapyje **Visi pirkimo užsakymai**. Pagal numatytuosius nustatymus ši funkcija įjungta. |
-| Gamybos kontrolė | (Peržiūros versija) Automatinis su sandėliu susietų medžiagų paėmimas automatiškai užregistruotiems paėmimo sąrašams | Ši funkcija leidžia automatiškai paimti ir išspręsti atsargų matmenis automatiškai užregistruotiems, išvestiniams ir atvirkštiniams paėmimo sąrašų žurnalams. |
+| Gamybos kontrolė | Automatinis su sandėliu susietų medžiagų paėmimas automatiškai užregistruotiems paėmimo sąrašams | Ši funkcija leidžia automatiškai paimti ir išspręsti atsargų matmenis automatiškai užregistruotiems, išvestiniams ir atvirkštiniams paėmimo sąrašų žurnalams. |
 | Gamybos kontrolė | Tikrinti žaliavų galiojimo pabaigą pagal suplanuoto suvartojimo datą | Ši priemonė pakeičia, kaip patikrinamos paketo galiojimo datos rezervuojant žaliavų paketą, kuris bus naudojamas gamybos metu. Įgalinus šią priemonę, paketo galiojimo data patikrinama pagal suplanuotą suvartojimo datą (žaliavų datą), kaip nustatyta gamybos BOM eilutėje arba paketo užsakymo formulės eilutėje. Kai ši funkcija išjungta, paketo galiojimo data patikrinama pagal suplanuotą gamybos arba paketinio užsakymo pristatymo datą (kaip anksčiau). |
 | Pardavimas ir rinkodara | Valyti pardavimo naujinimo istoriją pagal terminą | Ši funkcija leidžia nustatyti maksimalų įrašų amžių, kurį reikia išlaikyti, vykdant pardavimų atnaujinimo retrospektyvos **valymo periodinę** užduotį. Senesni įrašai bus panaikinti. Tai naudinga, kai nustatote, kad užduotis būtų vykdoma periodiškai, nes amžius visuomet apskaičiuojamas atsižvelgiant į užduoties vykdymo datą. Be šios priemonės galite nustatyti tik konkrečią seniausių išsaugoti tikrų įrašų datą. Daugiau informacijos rasite grafiko [pardavimo retrospektyvos duomenų išvalymą](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Pardavimas ir rinkodara | Pagerinti 100 populiariausių klientų ataskaitos našumą | Ši funkcija pagerina **100 geriausių** klientų ataskaitos našumą visada paleisdama ataskaitą visiems klientams (tai yra numatyta naudoti), o ne leisdama pasirinktines užklausas. Kai ši funkcija įgalinta, visi **Įrašai, kuriuos norite įtraukti** nustatymai yra išjungti **100 geriausių** ataskaitos dialogo lange. |

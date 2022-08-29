@@ -2,7 +2,7 @@
 title: Leistinas uždelsimo nuokrypis (neigiamos dienos)
 description: Šiame straipsnyje pateikiama informacija apie leidžiamo delsos nuokrypio skaičiavimą ir apie tai, kaip jis veikia suplanuoto užsakymo kūrimą planavimo optimizavime.
 author: t-benebo
-ms.date: 07/30/2021
+ms.date: 08/09/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,30 +10,37 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4bd6042f9dd33ba15773b251911e965cb870c5aa
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fa4d2d1506546cacf5f9a7ec936f17601c5727d2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865127"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335382"
 ---
 # <a name="delay-tolerance-negative-days"></a>Leistinas uždelsimo nuokrypis (neigiamos dienos)
 
 [!include [banner](../../includes/banner.md)]
 
-Leistino uždelsimo nuokrypio funkcija įgalina Planavimo optimizavimą atsižvelgti į **Neigiamų dienų** vertę, nustatytą padengimo grupėms. Ji naudojama norint pratęsti leistino uždelsimo nuokrypio laikotarpį, taikomą bendrojo planavimo metu. Tokiu būdu galite išvengti naujų tiekimo užsakymų kūrimo, jei po trumpo vėlavimo esamas tiekimas galės padengti poreikį. Funkcijos paskirtis – nustatyti, ar apsimoka kurti naują konkrečios paklausos tiekimo užsakymą.
+Leidžiamo vėlavimo funkcija įgalina **planavimo** optimizavimą atsižvelgti į neigiamų dienų vertę, nustatytą padengimo grupėms, prekių padengimui ir ( arba) visiems planams. Ji naudojama norint pratęsti leistino uždelsimo nuokrypio laikotarpį, taikomą bendrojo planavimo metu. Tokiu būdu galite išvengti naujų tiekimo užsakymų kūrimo, jei po trumpo vėlavimo esamas tiekimas galės padengti poreikį. Funkcijos paskirtis – nustatyti, ar apsimoka kurti naują konkrečios paklausos tiekimo užsakymą.
 
-## <a name="turn-on-the-feature-in-your-system"></a>Funkcijos įjungimas sistemoje
+## <a name="turn-delay-tolerance-features-on-or-off"></a>Įjungti arba išjungti leidžiamo delsos nuokrypio funkcijas
 
-Norėdami, kad jūsų sistemoje leistino uždelsimo nuokrypio funkcija būtų galima, eikite į [Funkcijų valdymas](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ir įjunkite *Negatyvios dienos Planavimo optimizavimui* funkciją.
+Jei norite, kad jūsų sistemoje būtų galima naudoti atidėjimo leistino nuokrypio funkcijas, [eikite](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) į Funkcijų valdymą ir įjunkite šias funkcijas:
+
+- *Neigiamos planavimo optimizavimo dienos* – ši funkcija leidžia padengimo grupių ir prekių padengimo neigiamų dienų parametrus. Kaip ir tiekimo grandinės valdymo versija 10.0.29, ši funkcija yra privaloma ir jos išjungti negalima.
+- *Gamybos pagal užsakymą tiekimo automatizavimas* – ši funkcija įgalina neigiamų dienų nustatymus pagrindiniuose planuose. (Daugiau informacijos žr. [Gamybos pagal užsakymą tiekimo automatizavimas](../make-to-order-supply-automation.md).)
 
 ## <a name="delay-tolerance-in-planning-optimization"></a>Leidžiamas atidėjimas Planavimo optimizavime
 
 Leistinas uždelsimo nuokrypis nurodo dienų skaičių po gamybos laiko, kurį galite laukti prieš užsakę naują papildymą, kai esamas tiekimas jau yra suplanuotas. Leistinas uždelsimo nuokrypis apibrėžiamas naudojant kalendorines, o ne darbo dienas.
 
-Bendrojo planavimo metu, kai sistema apskaičiuoja leistiną uždelsimo nuokrypį, atsižvelgiama į **Neigiamų dienų** nustatymą. Galite nustatyti **Neigiamų dienų** reikšmę **Padengimo grupių** arba **Prekės padengimo** puslapyje.
+Bendrojo planavimo metu, kai sistema apskaičiuoja leistiną uždelsimo nuokrypį, atsižvelgiama į **Neigiamų dienų** nustatymą. Galite nustatyti neigiamų **dienų vertę** padengimo **grupių puslapyje**, prekių padengimo **puslapyje** arba bendrojo **planų** puslapyje. Jei neigiamos dienos priskiriamos daugiau nei viename lygyje, sistema taiko šią hierarchiją, kad nuspręstų, kurį parametrą naudoti:
 
-Sistema susieja atidėjimo nuokrypio skaičiavimą su *anksčiausia papildymo data*, kuri yra lygi šiandienos datai pridėjus gamybos laiką. Leistinas uždelsimo nuokrypis apskaičiuojamas naudojant šią formulę, kurioje *maks()* suranda didesnę iš dviejų verčių:
+- Jei bendrojo plano puslapyje įgalintos neigiamos **dienos**, šis parametras panaikina visus kitus neigiamus dienų nustatymus, kai vykdomas planas.
+- Jei neigiamos dienos yra sukonfigūruotos prekių padengimo **puslapyje**, šis parametras panaikina padengimo grupės nustatymus.
+- Neigiamos dienos, kurios sukonfigūruotos padengimo **grupių** puslapyje, taikomos tik tada, jei atitinkamos prekės arba plano neigiamos dienos nebuvo sukonfigūruotos.
+
+Sistema susieja atidėjimo nuokrypio skaičiavimą su *anksčiausia papildymo data*, kuri yra lygi šiandienos datai pridėjus gamybos laiką. Leistinas uždelsimo nuokrypis apskaičiuojamas naudojant šią formulę *, kur max()* suranda didesnę iš dviejų verčių:
 
 *maks(Anksčiausia papildymo data, Poreikio terminas)* – *Poreikio terminas* + *Neigiamos dienos*
 

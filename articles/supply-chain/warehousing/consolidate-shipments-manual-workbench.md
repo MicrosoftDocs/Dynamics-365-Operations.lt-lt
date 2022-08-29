@@ -2,7 +2,7 @@
 title: Siuntų konsolidacija naudojant siuntų konsolidacijos darbo sritį
 description: Šiame straipsnyje pateikiama pasirinktis, kurioje į sandėlį išleidžiami keli užsakymai ir vėliau, naudojant siuntos konsolidavimo darbo dalį, konsoliduoti į siuntas.
 author: Mirzaab
-ms.date: 05/12/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 388066b9c81ecb63ac1f81b70dc4b168f3f4a71d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: db8dc5101b223a0033284d8e6c494721871809d8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888331"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335802"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Siuntų konsolidacija naudojant siuntų konsolidacijos darbo sritį
 
@@ -34,14 +34,11 @@ Scenarijus šiame straipsnyje nurodo vertes ir įrašus, kurie yra įtraukti į 
 
 Čia aprašytame scenarijuje laikoma, kad jūs jau įjungėte funkciją, atlikote pratimus, esančius [Siuntos konsolidacijos strategijų konfigūravimas](configure-shipment-consolidation-policies.md), ir sukūrėte ten aprašytas strategijas ir kitus įrašus. Nepamirškite atlikti šių pratimų prieš tęsdami darbą su šiuo scenarijumi.
 
-## <a name="turn-on-the-manual-shipment-consolidation-feature"></a>Neautomatinės siuntos konsolidacijos funkcijos įjungimas
+## <a name="turn-the-manual-shipment-consolidation-feature-on-or-off"></a>Įjungti arba išjungti siuntų konsolidavimo rankiniu būdu funkciją
 
-Kad galėtumėte naudoti funkciją *Neautomatinė siuntos konsolidacija*, turite ją įjungti jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
+Norint naudoti siuntų konsolidavimą neautomatiniu būdu, sistema turi būti įjungta. Kaip ir tiekimo grandinės valdymo versija 10.0.29, funkcija įjungiama pagal numatytąjį nustatymą. Administratoriai šią funkciją gali įjungti arba išjungti funkcijų *valdymo* darbo srityje ieškodami funkcijos Neautomatinis siuntų [konsolidavimas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-- **Modulis:** *sandėlio valdymas*
-- **Funkcijos pavadinimas:** *Neautomatinė siuntos konsolidacija*
-
-Kaip buvo minėta temoje [Siuntos konsolidacijos strategijų konfigūravimas](configure-shipment-consolidation-policies.md), prieš kurdami strategijas, taip pat turite įjungti funkciją *Konsoliduoti siuntą*. Tačiau jau turėjote atlikti šį veiksmą.
+Taip pat *turite* įjungti siuntos konsolidavimo funkciją, tik tada galėsite kurti strategijas (kaip ir Tiekimo grandinės valdymo versija 10.0.29, priemonė yra privaloma ir jos išjungti negalima). Daugiau informacijos rasite Siuntos konsolidavimo [strategijų konfigūravimas](configure-shipment-consolidation-policies.md).
 
 ## <a name="create-the-sales-orders-for-this-scenario"></a>Šio scenarijaus pardavimo užsakymų kūrimas
 

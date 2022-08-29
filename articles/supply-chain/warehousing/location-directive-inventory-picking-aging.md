@@ -2,7 +2,7 @@
 title: Vietos nurodymo atsargų paėmimo skirstymas pagal terminus
 description: Šiame straipsnyje paaiškinama, kaip išrinkimo metu naudoti "pirmasis į, pirmasis iš" (FIFO) ir "paskutinis į, pirmasis iš" (LIFO) vietos nustatymo strategijas.
 author: Mirzaab
-ms.date: 07/15/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 8b75907d01a029da1ed6a8224f8a7c0ca0230550
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: HT
+ms.openlocfilehash: 4ed1308ea36b731b156b518182846b60a59528d5
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068677"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335622"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Vietos nurodymo atsargų paėmimo skirstymas pagal terminus
 
@@ -34,8 +34,8 @@ Kai inventorius gaunamas pirmą kartą sandėlyje ar sukuriamas jame, sistema at
 
 Šios savybės įjungimui, įjunkite tolesnes savybes [savybių valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)tokia tvarka:
 
-1. Sandėlio vietos būsena
-1. Vietos nurodymo atsargų paėmimo skirstymas pagal terminus
+1. *Sandėlio vietos* būsena (10.0.29 versijoje ši funkcija yra privaloma ir jos išjungti negalima. Daugiau informacijos ieškokite Sandėlio [vietos būsena](warehouse-location-status.md).)
+1. *Vietos nurodymo atsargų paėmimo skirstymas pagal terminus*
 
 ## <a name="feature-requirements"></a>Savybių reikalavimai
 
@@ -50,7 +50,7 @@ Kai inventorius gaunamas pirmą kartą sandėlyje ar sukuriamas jame, sistema at
 
 ### <a name="make-sample-data-available"></a>Įgalinkite duomenų pavyzdį
 
-Norėdami dirbti pagal šiuos scenarijus, naudojant nurodytus įrašų ir reikšmių pavyzdžius, standartiniai [demonstraciniai duomenys](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) turi būti įdiegti Jūsų sistemoje. Be to, turite pasirinkti **USMF** juridinį subjektą prieš pradedant.
+Norėdami dirbti pagal šiuos scenarijus, naudojant nurodytus įrašų ir reikšmių pavyzdžius, standartiniai [demonstraciniai duomenys](../../fin-ops-core/fin-ops/get-started/demo-data.md) turi būti įdiegti Jūsų sistemoje. Be to, turite pasirinkti **USMF** juridinį subjektą prieš pradedant.
 
 Galite taip pat naudoti šiuos scenarijus kaip gaires savybės gamybos sistemoje naudojimui. Nepaisant to, tokiu atveju, turėsite pakeisti savo vertes kiekvienam šiame dokumente aprašytam nustatymui.
 

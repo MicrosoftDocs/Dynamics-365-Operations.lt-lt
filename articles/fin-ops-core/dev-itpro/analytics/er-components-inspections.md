@@ -1,26 +1,26 @@
 ---
 title: Sukonfigūruoto ER komponento patikrinimas, kad nekiltų vykdymo problemų
 description: Šiame straipsnyje paaiškinama, kaip patikrinti sukonfigūruotus elektroninių ataskaitų (ER) komponentus, kad išvengtumėte galių vykdymo problemų.
-author: NickSelin
+author: kfend
 ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c30f1a0d6ca4a50645bada39abbbf2f58777abb8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: ''
+ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
+ms.openlocfilehash: 53835bbceaa89793d890d8bc18921497c686e969
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864842"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277857"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Sukonfigūruoto ER komponento patikrinimas, kad nekiltų vykdymo problemų
 
@@ -30,8 +30,8 @@ Kiekvieną sukonfigūruotą [elektroninių ataskaitų (ER)](general-electronic-r
 
 Numatyta, kad ER konfigūracijos, apimančios anksčiau minėtus komponentus, tikrinimas automatiškai taikomas tolesniais atvejais.
 
-- [Naują](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) ER konfigūracijos [versiją](general-electronic-reporting.md#component-versioning) importuojate į savo Microsoft Dynamics 365 finansų egzempliorių.
-- Redaguojamos ER konfigūracijos [būseną](general-electronic-reporting.md#component-versioning) iš **Juodraštis** pakeičiate į **Baigta**.
+- [Naują](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) ER konfigūracijos versiją importuojate į savo Microsoft Dynamics 365 finansų egzempliorių.
+- Redaguojamo ER konfigūracijos būseną keičiate iš Juodraštis **į** **Baigtas**.
 - Redaguojamą ER konfigūraciją [pritaikote kitoje vietoje](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase), pritaikydami naują pagrindinę versiją.
 
 Galite tiesiogiai vykdyti šį tikrinimą. Pasirinkite vieną iš tolesnių trijų parinkčių ir atlikite nurodytus veiksmus.
@@ -770,7 +770,7 @@ Modifikuokite sukonfigūruotą formatą, pašalindami formato elemento **Stateme
 
 ## <a name="not-linked-template"></a><a id="i12"></a>Nesusietas šablonas
 
-Kai [neautomatiniu būdu](er-fillable-excel.md#manual-entry) konfigūruojate ER formato komponentą, kad, naudodamas šabloną, jis generuotų siunčiamą dokumentą, turite neautomatiniu būdu įtraukti elementą **„Excel“\\Failas**, įtraukti reikiamą šabloną kaip redaguojamojo komponento priedą ir pasirinkti šį priedą įtrauktame elemente **„Excel\\Failas**. Tokiu būdu nurodote, kad įtrauktas elementas užpildys pasirinktą šabloną vykdymo metu. Kai konfigūruojate formato komponento versiją srityje **Juodraštis** [būsena](general-electronic-reporting.md#component-versioning), kelis šablonus galite pridėti prie redaguojamo turinio, o tada kiekvieną šabloną pasirinkti **„Excel“\\failo** elemente ir vykdyti ER formatą. Tokiu būdu galite matyti, kaip vykdant užpildomi skirtingi šablonai. Jei turite šablonų, kurie nepasirinkti jokiuose elementuose **„Excel“\\Failas**, ER formato kūrimo įrankis jus įspėja, kad tie šablonai bus panaikinti redaguojamojo ER formato komponento versijoje, kai jo būsena iš **Juodraštis** bus pakeista į **Baigta**.
+Kai [neautomatiniu būdu](er-fillable-excel.md#manual-entry) konfigūruojate ER formato komponentą, kad, naudodamas šabloną, jis generuotų siunčiamą dokumentą, turite neautomatiniu būdu įtraukti elementą **„Excel“\\Failas**, įtraukti reikiamą šabloną kaip redaguojamojo komponento priedą ir pasirinkti šį priedą įtrauktame elemente **„Excel\\Failas**. Tokiu būdu nurodote, kad įtrauktas elementas užpildys pasirinktą šabloną vykdymo metu. Kai konfigūruojate **formato** komponento versiją būsenoje Juodraštis, **galite į redaguojamą komponentą įtraukti keletą šablonų ir pasirinkti kiekvieną "Excel\\**" failo elemento šabloną, kad būtų vykdomas ER formatas. Tokiu būdu galite matyti, kaip vykdant užpildomi skirtingi šablonai. Jei turite šablonų, kurie nepasirinkti jokiuose elementuose **„Excel“\\Failas**, ER formato kūrimo įrankis jus įspėja, kad tie šablonai bus panaikinti redaguojamojo ER formato komponento versijoje, kai jo būsena iš **Juodraštis** bus pakeista į **Baigta**.
 
 Toliau pateikti veiksmai rodo, kaip gali kilti ši problema.
 

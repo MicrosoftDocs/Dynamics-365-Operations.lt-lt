@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3478e8c712c7bcbfb8ace9e7b43f0d8d3cf4ac8a
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 2bb4115a486fbfe7287c9b183224699de4dfd456
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069159"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335532"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Pardavimo užsakymų siuntimas be sandėliavimo
 
@@ -45,7 +45,7 @@ ms.locfileid: "9069159"
 14. Pasirinkite **Keisti rodinį**.
 15. Pasirinkite **Antraštės rodinys**.
     - Jei visos užsakymo eilutės buvo visiškai išsiųstos, užsakymo būsena pasikeičia iš Atvira į Pristatyta.  
-    - Šiame pavyzdyje užsakymo eilutė išsiųsta iš dalies. Todėl užsakymo būsena išlieka Atidarytas.     
+    - Šiame pavyzdyje užsakymo eilutė išsiųsta iš dalies. Todėl užsakymo būsena lieka Atidaryta.     
     - Lauke **Dokumento būsena** nustatyta reikšmė Važtaraštis, nes bent viena iš užsakymo eilučių buvo išsiųsta.  
 16. Veiksmų srityje spustelėkite **Bendra**.
 17. Pasirinkite **Eilutės kiekis**.

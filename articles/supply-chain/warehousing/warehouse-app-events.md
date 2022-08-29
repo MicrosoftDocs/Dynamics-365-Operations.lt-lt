@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 41b9538d3064bad24c4c5c60d401605e47e9c655
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2dc24fed1ec71432d9e2a3e1cb5b366267c2938b
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905460"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218749"
 ---
 # <a name="warehouse-app-event-processing"></a>Sandėlio programos įvykių apdorojimas
 
@@ -28,7 +28,7 @@ ms.locfileid: "8905460"
 
 ## <a name="turn-the-process-warehouse-app-events-feature-on-or-off"></a>Įjungti arba išjungti funkciją Apdoroti sandėlio programos įvykius
 
-Kaip ir tiekimo grandinės valdymo versija 10.0.25 ši funkcija įjungiama pagal numatytąjį nustatymą. Administratoriai gali įjungti arba išjungti šią funkciją, naudodamiesi funkcijų *valdymo* darbo srityje funkcija Apdoroti sandėlio [app events](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Kaip ir tiekimo grandinės valdymo versija 10.0.25 ši funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymo versija 10.0.29, ši funkcija yra privaloma. Todėl jis įjungtas pagal numatytuosius nustatymus ir jo negalima išjungti dar kartą. Jei naudojate senesnę nei 10.0.29 versiją, *·*[administratoriai gali įjungti arba išjungti šią funkciją ieškodami proceso sandėlio programų įvykių funkcijos funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo srityje.
 
 ## <a name="set-up-a-batch-job-to-process-warehouse-app-events"></a>Sandėlio programos įvykių apdorojimo paketinės užduoties konfigūravimas
 

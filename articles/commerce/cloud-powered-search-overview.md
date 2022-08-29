@@ -7,18 +7,18 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8a3ab869eb9ddc0e73061bd2363cf9b3962da1e3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.openlocfilehash: ed80ff42ea5c6e6a904ea2855953d006f66aad37
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850361"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273672"
 ---
 # <a name="cloud-powered-search-overview"></a>Debesų technologija valdomos ieškos apžvalga
 
@@ -64,11 +64,14 @@ Toliau pateiktoje iliustracijoje parodytas pavyzdys, kuriame naudojama įtraukia
 
 ## <a name="sort"></a>Rūšiuoti
 
-Patobulintas rūšiavimas naudojant "Commerce" leidžia rūšiuoti, ieškoti ir naršyti ieškos rezultatus bei patikslinti juos pagal kainos, produkto pavadinimo ir produkto numerio kriterijus. Klientai rezultatus taip pat gali rikiuoti pagal tai, ar produktas yra naujas, geriausiai parduodamas ar neseniai įtrauktas.
+Rūšiavimo funkcijos leidžia klientams rūšiuoti, ieškoti ir naršyti kategorijų rezultatus bei patikslinti juos pagal, pvz., kainą, produkto pavadinimą ir produkto numerį. Jei jūsų aplinkoje [įgalinsite](product-recommendations.md) produkto rekomendacijas, klientai taip pat gali rūšiuoti rezultatus pagal išplėstinius rūšiavimo kriterijus, pvz., naują, geriausią pardavimą ir tendenciją.
+
 
 > [!NOTE]
 > Šios debesų kompiuterijos ieškos galimybės prieinamos 10.0.8 versijoje. Įsitikinkite, kad yra įrašas "ProductSearch.UseAzureSearch" ir "Commerce Parameters" nustatytas kaip "true" **> konfigūracijos parametrai**. 
 ![Konfigūracijos parametrai debesies aplinkos ieškoje.](./media/CloudPoweredSearchConfigurationParameters.png)
+>Išplėstinės rūšiavimo pasirinktys, pvz., naujas, geriausias pardavimas ir tendencija, galimos su "Commerce SSK" versija 9.35+ Dynamics 365 Commerce ir 10.0.20 paleidimu.  
+
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

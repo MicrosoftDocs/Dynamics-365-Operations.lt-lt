@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: db158e3b6ae76f69149db04096f99d3dc4251146
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a360b8beaad2bf6916c22765131e37f90e40282b
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895763"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306180"
 ---
-# <a name="use-the-inventory-visibility-app"></a>Naudoti „Inventory Visibility“ programą
+# <a name="use-the-inventory-visibility-app"></a>Naudokite programą „Inventory Visibility“
 
 [!include [banner](../includes/banner.md)]
 
@@ -70,10 +70,24 @@ Norėdami registruoti rezervavimo užklausą, turite įvesti vertę užklausos t
 
 ## <a name="inventory-summary"></a><a name="inventory-summary"></a>Atsargų suvestinė
 
-**Atsargų suvestinė** yra pritaikytas atsargų atsargų *sumos objekto rodinys* asmuo. Joje pateikiama produktų atsargų suvestinė kartu su visomis dimensijomis. Atsargų suvestinės duomenys periodiškai sinchronizuojami nuo atsargų matomumo kas 15 minučių. Norėdami matyti duomenis atsargų **suvestinės skirtuke,** turite įjungti funkciją *OnHandMostSpecificBackgroundService* **skirtuke Funkcijų valdymas ir pasirinkti** Naujinti konfigūraciją.**·**
+Atsargų **suvestinės puslapis** pateikia produktų atsargų suvestinę kartu su visomis dimensijomis. Tai pasirinktinis objekto Atsargų *atsargų suma* rodinys. Atsargų suvestinės duomenys periodiškai sinchronizuojami pagal atsargų matomumą.
+
+### <a name="enable-the-inventory-summary-and-set-the-synchronization-frequency"></a>Įgalinti atsargų suvestinę ir nustatyti sinchronizavimo dažnumą
+
+Norėdami įgalinti atsargų **suvestinės puslapį ir** nustatyti sinchronizavimo dažnumą, atlikite šiuos veiksmus:
+
+1. Atidarykite **Konfigūravimo** puslapį.
+1. Atidarykite **skirtuką Priemonių valdymas >** Parametrai.
+1. Nustatykite OnHandMostSpecificBackgroundService **funkcijos** perjungimo raktą kaip *Taip*.
+1. Įgalinus funkciją, tarnybos **konfigūravimo** **dalis tampa galima, o jos metu konfigūruojama OnHandMostSpecificBackgroundService** funkcija. Šis parametras leidžia pasirinkti dažnumą, kuriuo sinchronizuojami atsargų suvestinės duomenys. Naudokite stulpelio **Vertė** **mygtukus** **Aukštyn ir Žemyn,** norėdami pakeisti laiką tarp sinchronizavimų (kuris gali būti ne mažas kaip 5 minutės). Tada pasirinkite **Įrašyti**.
+1. Pasirinkite **Naujinti konfigūraciją,** kad įrašytumėte visus pakeitimus.
+
+![OnHandMostSpecificBackgroundService parametras](media/inventory-visibility-ohms-freq.PNG "OnHandMostSpecificBackgroundService parametras")
 
 > [!NOTE]
 > OnHandMostSpecificBackgroundService *funkcija* seka tik turimo produkto keitimus, kurie įvyko po to, kai buvo įjungta funkcija. Produktų, kurie nebuvo pakeisti nuo tada, kai įjungta funkcija, duomenys nebus sinchronizuoti iš atsargų tarnybos talpyklos į aplinką Dataverse. Jei jūsų **atsargų** suvestinės puslapis nerodo visos turimos informacijos, kurios tikitės, **eikite į Atsargų valdymo > Periodinės užduotys > Atsargų matomumo integravimas**, uždrauskite paketinę užduotį ir vėl ją įjunkite. Taip bus inicijuotas stūmiimas ir visi duomenys *bus sinchronizuoti su atsargų sumos objektu* per kitas 15 minučių. Jei norite naudoti šią priemonę, **rekomenduojame ją įjungti prieš kuriant turimų atsargų pakeitimus ir įgalinti atsargų matomumo integravimo paketinę** užduotį.
+
+### <a name="work-with-the-inventory-summary"></a>Darbas su atsargų suvestine
 
 Naudodami **išplėstinį filtrą**, kuris suteikia „Dataverse“, galite sukurti asmeninį rodinį, kuriame būtų rodomos jums svarbios eilutės. Išplėstinės filtro pasirinktys leidžia jums sukurti platų rodinių diapazoną – nuo paprasto iki kompleksinio. Jos taip pat leidžia į filtrus įtraukti sugrupuotas ir įdėtąsias sąlygas. Norėdami sužinoti daugiau apie tai, kaip naudoti **išplėstinį filtrą**, žr. [Redaguoti arba kurti asmeninius rodinius naudojant išplėstinius tinklelių filtrus](/powerapps/user/grid-filters-advanced).
 

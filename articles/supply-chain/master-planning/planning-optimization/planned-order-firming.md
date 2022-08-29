@@ -2,7 +2,7 @@
 title: Galutinai suplanuoti užsakymai
 description: Šiame straipsnyje paaiškinama, kaip patvirtinti suplanuotus užsakymus. Kai patvirtinami suplanuoti užsakymai, jie tampa faktiniais pirkimo užsakymais, perkėlimo užsakymais arba gamybos užsakymais.
 author: t-benebo
-ms.date: 04/22/2021
+ms.date: 08/09/2022
 ms.search.form: ReqTransPo, ReqTransFirmLog
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 24b5c6cb7e97924ebace8f7131a87e9bffea22e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7c8d5b7992c7955b9c5b1c7e773fdd467ccba6f9
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857524"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335352"
 ---
 # <a name="firm-planned-orders"></a>Galutinai suplanuoti užsakymai
 
@@ -37,19 +37,21 @@ Dauguma suplanuoto užsakymo funkcijų yra galimos visuose standartiniuose „Mi
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Įjungti arba išjungti suplanuotų užsakymų lygiagretųjį tvirtavimą
 
-Lygiagretus tvirtinimo procesas padeda pagreitinti tvirtinimo procesą, lygiagrečiai jį keliose gijose. Šis būdas gali būti naudingas, kai daugelis suplanuotų užsakymų yra patvirtinti. Norint naudotis šia funkcija, jūsų sistemai *turi būti* įjungta lygiagretaus suplanuotų užsakymų tvirtinimo funkcija. Kaip ir tiekimo grandinės valdymo versija 10.0.21 ši funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, [...](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)*šią funkciją galite įjungti arba išjungti nueidami į Funkcijų valdymą ir ieškodami lygiagrečio suplanuotų užsakymų tvirtinimo* funkcijos.
+Lygiagretus tvirtinimo procesas padeda pagreitinti tvirtinimo procesą, lygiagrečiai jį keliose gijose. Šis būdas gali būti naudingas, kai daugelis suplanuotų užsakymų yra patvirtinti. Norint naudotis šia funkcija, jūsų sistemai *turi būti* įjungta lygiagretaus suplanuotų užsakymų tvirtinimo funkcija. 
 
-### <a name="enable-planned-order-firming-with-filtering"></a>Įjungti suplanuoto užsakymo tvirtinimo naudojant filtravimą
+Kaip ir tiekimo grandinės valdymo versija 10.0.21 ši funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, [...](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)*šią funkciją galite įjungti arba išjungti nueidami į Funkcijų valdymą ir ieškodami lygiagrečio suplanuotų užsakymų tvirtinimo* funkcijos.
+
+### <a name="turn-planned-order-firming-with-filtering-on-or-off"></a>Įjungti arba išjungti suplanuoto užsakymo tvirtinimas filtruojant
 
 Suplanuotų užsakymų virtimas naudojant filtravimą leidžia nurodyti loginius kriterijus, pagal kuriuos galima pasirinkti, kuriuos suplanuotus užsakymus patvirtinti. Taip pat galite peržiūrėti, kurie suplanuoti užsakymai buvo pasirinkti, vykdyti procesą fone ir / arba suplanuoti jį kaip paketinę užduotį.
 
-Kaip ir tiekimo grandinės valdymo versija 10.0.25 ši funkcija įjungiama pagal numatytąjį nustatymą. Administratoriai šią funkciją gali įjungti arba išjungti ieškodami *suplanuoto* užsakymo tvirtinto pagal filtravimo funkciją [funkcijų valdymo darbo](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) srityje.
+Jei norite naudoti šią funkciją, ją turite įjungti savo sistemoje. Kaip ir tiekimo grandinės valdymo versija 10.0.25, funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymo versija 10.0.29, ši funkcija yra privaloma ir jos išjungti negalima. Jei jūsų versija senesnė nei 10.0.29, tada *·*[administratoriai](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gali įjungti arba išjungti šią funkciją ieškodami suplanuoto užsakymo tvirtinto su filtravimo priemone funkcijų valdymo darbo srityje.
 
-### <a name="enable-auto-firming-for-planning-optimization"></a>Įjungti automatinį planavimo optimizavimo patvirtinimą
+### <a name="turn-auto-firming-for-planning-optimization-on-or-off"></a>Įjungti arba išjungti planavimo optimizavimo automatinį tvirtinimas
 
 Automatinis patvirtinimas leidžia patvirtinti (tai yra, išleisti) suplanuotus užsakymus kaip bendrojo planavimo dalį per laiko tvorą pasirašymui. Automatinis virtimas visada palaikomas planavimo variklis, sukurtas „Supply Chain Management“. Tačiau norėdami naudoti ją ir „Planning Optimization“, turite įjungti funkciją.
 
-Norėdami, kad jūsų sistemoje šios funkcijos būtų galimos, eikite į „Planning Optimization“ Funkcijų [valdymas ir](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) įjunkite *suplanuotų užsakymų funkcijos pasirašymą su filtravimu* tvirtavimą. (Kaip ir tiekimo grandinės valdymo versija 10.0.21, ši funkcija įjungiama pagal numatytąjį nustatymą.)
+Kaip ir tiekimo grandinės valdymo versija 10.0.21 ši funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymo 10.0.29 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.29 versiją, [...](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)*šią* funkciją galite įjungti arba išjungti nueidami į funkcijų valdymą ir ieškodami automatinio planavimo optimizavimo funkcijos automatinio tvirtinimo.
 
 ## <a name="manually-firm-planned-orders"></a>Peržiūrėti suplanuotus užsakymus rankiniu būdu
 
@@ -67,8 +69,8 @@ Norėdami neautomatiniu būdu patvirtinti suplanuotus užsakymus, surandate ir p
 
     - **Naujinti žymėjimą** – Pasirinkti tvirtinant patvirtintus užsakymus naudojamą atsargų žymėjimo strategiją.
     - **Stabdyti virtimą, jei įvyksta klaida – nustatykite šią pasirinktį kaip Taip, norėdami sustabdyti visų pasirinktų suplanuotų užsakymų tvirtavimą, jei** viename iš jų įvyksta *klaida*. Ši pasirinktis turi būti nustatyta kaip *Ne*, **jei lygiagretinimo** tvirtinimo parinktis nustatyta kaip *Taip*.
-    - **Patvirtinti lygiagrečiai – ši pasirinktis galima tik jei jūsų sistemoje įjungta lygiagretaus suplanuotų užsakymų tvirtinimo funkcija ir jei pasirinkote du ar daugiau suplanuotų** [*užsakymų*](#enable-features) patvirtinti. Norėdami lygiagrečiai *vykdyti* tvirtinimo procesus, nustatykite jį Taip. Lygiagretus virtimas gali padėti pagerinti našumą.
-    - **Siūlų skaičius** – Ši parinktis įmanoma tik, jei [*Lygiagretaus suplanuotų užsakymų tvirtinimo* funkcija](#enable-features) įjungta jūsų sistemoje ir pasirinkote **Lygiagretaus tvirtinimo** parinktį *Taip*. Įveskite gijų skaičių, naudoti naudingą tvirtinimo procesui paralelizuoti. Informacijos, kaip naudoti šią pasirinktį bendrojo planavimo metu, ieškokite [Bendrojo planavimo našumo](../master-planning-performance.md#number-of-threads) patobulinime.
+    - **Patvirtinti lygiagrečiai** – [*·*](#enable-features) ši pasirinktis galima tik jei jūsų sistemai įjungta lygiagreti suplanuotų užsakymų tvirtinimo funkcija ir jei pasirinkote du ar daugiau suplanuotų užsakymų patvirtinti. Norėdami lygiagrečiai *vykdyti* tvirtinimo procesus, nustatykite jį Taip. Lygiagretus virtimas gali padėti pagerinti našumą.
+    - **Gijų skaičius –**[*ši* parinktis](#enable-features) galima tik jei jūsų sistemai įjungta funkcija Lygiagretus suplanuotų užsakymų virtimas ir **jei** nustatote parinktį Lygiagrečiai patvirtinti kaip *Taip.* Įveskite gijų skaičių, naudoti naudingą tvirtinimo procesui paralelizuoti. Informacijos, kaip naudoti šią pasirinktį bendrojo planavimo metu, ieškokite [Bendrojo planavimo našumo](../master-planning-performance.md#number-of-threads) patobulinime.
 
         > [!NOTE]
         > Vertės **Gijų skaičius** nustatymas *0* (nulis) padidina bendrojo pagrindinio planavimo vykdymo laiką. Todėl rekomenduojame visuomet nustatyti reikšmę, kuri yra daugiau nei 0.
@@ -97,7 +99,7 @@ Automatinis patvirtinimas leidžia patvirtinti (tai yra, išleisti) suplanuotus 
 > Patvirtinti išvestiniai užsakymai (subrangos pirkimo užsakymai) rodys būseną *Peržiūrima*, kai įgalintas atvejų keitimų sekimas.
 
 > [!IMPORTANT]
-> Prieš naudojant šiame skyriuje aprašytas funkciją naudojant planavimo optimizavimą, [*·*](#enable-features) jūsų sistemoje turi būti įjungtas planavimo optimizavimo funkcijos automatinis tvirtinimas, kaip aprašyta šio straipsnio pradžioje. Automatinį tvirtinimas visada galima naudoti su įtaisytuoju bendrojo planavimo moduliu.
+> Prieš naudojant šiame skyriuje aprašytas funkciją naudojant planavimo optimizavimą, [*·*](#enable-features) jūsų sistemai turi būti įjungtas automatinis planavimo optimizavimo funkcijos tvirtinimas, kaip aprašyta šio straipsnio pradžioje. Automatinį tvirtinimas visada galima naudoti su įtaisytuoju bendrojo planavimo moduliu.
 
 ### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>Automatinis virtimas „Planning Optimization“ ir įtaisytuoju planavimo moduliu
 
@@ -130,7 +132,7 @@ Užklausomis pagrįstas virtimas leidžia planuoti tvirtvirtį pagal iš anksto 
 Automatinį tvirtinimas galimas derinti su užklausa pagrįstu tvirtintoja. Pvz., užklausose pagrįstame tvirtintoje užduotyje yra laiko riba į priekį, kuri yra ilgesni nei atitinkamos automatinio užbaigimo padengimo konfigūracijos laiko riba. Todėl, užklausose pagrįsta virtimo užduotis apdoros suplanuotus užsakymus prieš suaktyvinant automatinį tvirtavimą. Galite pasinaudoti tokiu veikimo būdu, jei norite planuoti konkrečių tiekėjų užsakymus kitaip nei kitų tiekėjų panašių produktų užsakymus.
 
 > [!IMPORTANT]
-> Prieš naudojant šiame skyriuje apibūdintą priemonę, [*·*](#enable-features) jūsų sistemoje turi būti įjungtas suplanuoto užsakymo filtravimo priemonės suplanuoto užsakymo virtimas, kaip aprašyta šio straipsnio pradžioje.
+> Prieš naudojant šiame skyriuje aprašytas priemones, [*·*](#enable-features) jūsų sistemai turi būti įjungtas suplanuoto užsakymo virtimas naudojant filtravimo priemonę, kaip aprašyta šio straipsnio pradžioje.
 
 Norėdami patvirtinti suplanuotą užsakymą naudodami užklausa pagrįstą tvirtinto procesą, atlikite šiuos veiksmus.
 

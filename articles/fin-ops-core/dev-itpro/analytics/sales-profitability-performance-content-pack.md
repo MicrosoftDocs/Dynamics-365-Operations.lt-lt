@@ -12,16 +12,15 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.custom:
-- "260674"
+ms.custom: 260674
 ms.assetid: ab457f02-929e-4d34-b813-335be3092287
 ms.search.form: SalesProfitabilityPerformancePowerBI
-ms.openlocfilehash: 2a3e0a46656f54a423a3bdfb05b87e3b7ad68efd
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
-ms.translationtype: HT
+ms.openlocfilehash: 77271ad9f5a1d7c131e1d7750de280f0c70daaa4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9205608"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9274666"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>„Power BI“ turinys Pardavimo ir pelningumo našumas
 
@@ -77,7 +76,7 @@ Pelningumą galima analizuoti tolesniais būdais.
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
 Tolesniais duomenimis pildoma „Power BI“ turinio **Pardavimo ir pelningumo našumas** ataskaita. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objektų saugykloje. Objektų saugykla yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. [„Power BI“ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md).
 
-Agreguoti matavimo vienetai šiame turinyje yra agreguotų matavimo vienetų, kurie buvo pasiekiami „Microsoft Dynamics AX 2012“ ir „Microsoft Dynamics AX 2012 R3“ pardavimo kube, subrinkinys. Norint agreguotus kubo matavimo vienetus paruošti objektų saugykloje, juos reikia padaryti visuotinai įdiegiamus. Išsamesnės informacijos žr. tinklaraščio įraše [„Power BI“ integravimas su objekto parduotuve programoje „Dynamics“](/archive/blogs/dynamicsaxbi/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update) pateiktą procedūrą, kaip perkelti agreguotus matavimo vienetus į kitą vietą objekto parduotuvėje.
+Sujungti šio turinio matavimai yra sudedamųjų matavimų, Microsoft Dynamics AX kurie buvo galimi pardavimo kube 2012 ir 2012 Microsoft Dynamics AX R3, subgrupiniai matavimai. Norint agreguotus kubo matavimo vienetus paruošti objektų saugykloje, juos reikia padaryti visuotinai įdiegiamus. Išsamesnės informacijos žr. tinklaraščio įraše [„Power BI“ integravimas su objekto parduotuve programoje „Dynamics“](/archive/blogs/dynamicsaxbi/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update) pateiktą procedūrą, kaip perkelti agreguotus matavimo vienetus į kitą vietą objekto parduotuvėje.
 
 Kaip turinio pagrindas naudojami šie pagrindiniai agreguoti objekto Sąskaitos faktūros eilutės matavimo vienetai.
 
@@ -95,7 +94,7 @@ Tolesnėje lentelėje parodyti pagrindiniai agreguoti objekto Sąskaitos faktūr
 | Bruto marža      | SUM(bruto pelnas / (įplaukos - PVM (įtrauktas į kliento SF eilutės sumą)))             |
 | Praėjusių metų įplaukos | Praėjusių metų įplaukos = CALCULATE(SUM('SF eilutės'\[įplaukos\]), SAMEPERIODLASTYEAR(datos\[data\]) |
 
-Tolesnės pagrindinės pardavimo kubo dimensijos naudojamos kaip filtrai agreguotiems matavimo vienetams segmentuoti, kad būtų galima pasiekti didesnio detalumo ir gauti gilesnių analitinių įžvalgų.
+Toliau nurodytos pagrindinės pardavimo kubo dimensijos naudojamos kaip filtrai sujungtiems matavimams skaidyti, kad būtų galima pasiekti didesnio tikslumo ir gauti daugiau analitinių žinių.
 
 | Objektas           | Atributų pavyzdžiai                               |
 |------------------|------------------------------------------------------|

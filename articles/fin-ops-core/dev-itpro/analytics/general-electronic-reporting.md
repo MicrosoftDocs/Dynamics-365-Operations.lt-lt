@@ -1,28 +1,26 @@
 ---
 title: Elektroninių ataskaitų (ER) apžvalga
 description: Šiame straipsnyje pateikiama elektroninės ataskaitos įrankio apžvalga. Aprašomos pagrindinės koncepcijos, palaikomi scenarijai ir formatai, kurie yra sprendimo dalis.
-author: NickSelin
+author: kfend
 ms.date: 11/02/2021
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "58941"
-- intro-internal
-ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f3853e0c1da0a5abb3f92171370cc4aeabbd829
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.custom: 58941,  ""intro-internal
+ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
+ms.search.form: ERWorkspace
+ms.openlocfilehash: e94846dd565abb6de2c1f07532d285e28307e9a2
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109587"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269698"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroninių ataskaitų (ER) apžvalga
 
@@ -78,7 +76,7 @@ ER mechanizmas turi toliau nurodytas galimybes.
 
 [![ER pagrindinių duomenų srautas.](./media/ger-main-data-flow.jpg)](./media/ger-main-data-flow.jpg)
 
-### <a name="components"></a>Komponentai
+### <a name="component"></a>Komponentas
 
 Elektroninės ataskaitos (ER) palaiko šiuos komponentų tipus:
 
@@ -89,32 +87,7 @@ Elektroninės ataskaitos (ER) palaiko šiuos komponentų tipus:
 
 Daugiau informacijos žr. [Elektroninės ataskaitos komponentai](er-overview-components.md).
 
-
-#### <a name="component-versioning"></a>Komponento versijos kūrimas
-
-Palaikomas ER komponento versijos kūrimas. Toliau pateikta ER komponentų pakeitimų valdymo darbo eiga.
-
-1. Pradinė sukurta versija pažymima kaip **Juodraštis**. Šią versiją galima redaguoti ir ją galima tikrinti.
-2. Versiją **Juodraštis** galima konvertuoti į versiją **Baigta**. Šią versija galima naudoti vietiniuose ataskaitų teikimo procesuose.
-3. Versiją **Baigta** galima konvertuoti į versiją **Bendrai naudojama**. Ši versija publikuojama LCS ir ją galima naudoti visuotiniuose ataskaitų teikimo procesuose.
-4. Versiją **Bendrai naudojama** galima konvertuoti į versiją **Nebenaudojama**. Tada šią versiją bus galima naikinti.
-
-Kai versijos būsena yra **Baigta** arba **Bendrai naudojama**, galima keistis duomenimis dar kitu būdu. Jei komponento būsena yra viena iš šių, galima atlikti toliau nurodytus veiksmus.
-
-- Komponentą galima išdėstyti eilutėmis XML formatu ir eksportuoti kaip failą XML formatu.
-- Komponentą galima sugrąžinti iš XML failo ir importuoti į programą kaip naują ER komponento versiją.
-
-#### <a name="component-date-effectivity"></a>Komponento galiojimo data
-
-ER komponento versijos turi galiojimo datą. Galite nustatyti ER komponento datą **Galioja nuo**, kad nurodytumėte datą, nuo kurios šis komponentas galioja ir jį galima naudoti ataskaitų teikimo procesuose. Programos seanso data naudojama apibrėžti, ar komponentas yra tinkamas vykdyti. Jei konkrečią dieną galioja daugiau nei viena versija, ataskaitų teikimo procesuose naudojama naujausia versija.
-
-#### <a name="component-access"></a>Prieiga prie komponento
-
-Prieiga prie ER formato komponentų priklauso nuo ISO valstybės / regiono kodo parametro. Kai šis pasirinktos formato konfigūracijos versijos parametras nenurodytas, formato komponentą galima pasiekti iš bet kurios įmonės vykdymo metu. Kai šiame parametre yra ISO valstybės / regiono kodai, formatas komponentą galima pasiekti tik iš tų įmonių, kurių pagrindinis adresas nurodytas kaip vienas iš formato komponento ISO valstybės / regiono kodų.
-
-Skirtingos duomenų formato komponento versijos gali turėti skirtingus ISO valstybės / regiono kodų parametrus.
-
-#### <a name="configuration"></a><a name="Configuration"></a>Konfigūravimas
+### <a name="configuration"></a><a name="Configuration"></a>Konfigūravimas
 
 ER konfigūracija yra tam tikro ER komponento ER viršelis. Šis komponentas gali būti duomenų modelio komponentas arba formato komponentas. Konfigūracija gali apimti skirtingas ER komponento versijas. Kiekviena konfigūracija pažymėta kaip priklausanti konkrečiam konfigūracijos teikėjui. Konfigūracijos komponento versiją **Juodraštis** galima redaguoti, jei konfigūracijos savininkas pasirinktas kaip aktyvus teikėjas programos ER parametruose.
 
@@ -124,13 +97,13 @@ Sukurtoje formato konfigūracijoje yra formato komponentas. Pirminės modelio ko
 
 Programos įmonės bendrai naudoja ER konfigūraciją.
 
-#### <a name="provider"></a><a name="Provider"></a>Teikėjas
+### <a name="provider"></a><a name="Provider"></a>Teikėjas
 
 ER teikėjas yra šalies identifikatorius, naudojamas kiekvienos ER konfigūracijos autoriui (savininkui) nurodyti. ER suteikia galimybę valdyti konfigūracijos teikėjų sąrašą. Formato konfigūracijos, išleistos elektroniniams dokumentams kaip finansų ir operacijų sprendimo dalis, pažymėtos kaip "Microsoft **" konfigūracijos** teikėjo dalis.
 
 Norėdami sužinoti, kaip registruoti naują ER teikėją, paleiskite užduočių vedlį **ER: konfigūracijų teikėjo sukūrimas ir pažymėjimas aktyviu** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų / sprendimų komponentų (10677)** dalis).
 
-#### <a name="repository"></a><a name="Repository"></a>Saugykla
+### <a name="repository"></a><a name="Repository"></a>Saugykla
 
 ER saugykloje saugomos ER konfigūracijos. Šiuo metu palaikomos šių tipų ER saugyklos: 
 
@@ -145,7 +118,7 @@ Saugykloje **LCS bendrai naudojama biblioteka** suteikiama prieiga prie „Lifec
 
 **LCS projekto** saugykla suteikia prieigą prie tam tikro LCS projekto (LCS projekto turto bibliotekos), pasirinkto saugyklos registracijos metu, konfigūracijų sąrašo. ER suteikia galimybę nusiųsti bendrai naudojamas konfigūracijas iš dabartinio egzemplioriaus į konkrečią **LCS projekto** saugyklą. Taip pat galite importuoti konfigūracijas iš **LCS projektų** saugyklos į dabartinį jūsų finansų ir operacijų programėlių egzempliorių.
 
-Saugykla **Failų sistema** suteikia prieigą prie konfigūracijų, konkrečiame įrenginio vietinės failų sistemos aplanke, kuriame priglobta AOS tarnyba, esančių kaip XML failai, sąrašo. Reikiamas aplankas pasirenkamas saugyklos registracijos etapo metu. Konfigūracijas iš **Failų sistema** saugyklos galite importuoti į dabartinį egzempliorių. 
+Failų **sistemos** saugykla suteikia prieigą prie konfigūracijų, kurios laikomos kaip XML failai tam tikro kompiuterio, kuriame yra AOS tarnyba, vietiniame aplanke. Reikiamas aplankas pasirenkamas saugyklos registravimo etape. Konfigūracijas iš **Failų sistema** saugyklos galite importuoti į dabartinį egzempliorių. 
 
 Atminkite, kad šio tipo saugykla pasiekiama toliau nurodytose aplinkose.
 
@@ -162,7 +135,7 @@ Daugiau informacijos žr. [Elektroninių ataskaitų (ER) konfigūracijų importa
 
 Daugiau informacijos rasite [Elektroninių ataskaitų (ER) konfigūracijų importavimas iš konfigūravimo tarnybos bendrosios saugyklos](./er-download-configurations-global-repo.md).
 
-Naudojantis saugykla **Operacijų ištekliai** suteikiama prieiga prie konfigūracijų sąrašo, kurį „Microsoft“ kaip ER konfigūracijų teikėjas pirmiausia išleidžia kaip programos sprendimo dalį. Šias konfigūracijas galima importuoti į esamą egzempliorių ir naudoti elektroninėms ataskaitoms kurti arba pavyzdžio užduočių vadovams paleisti. Taip pat jas galima naudoti tolesniam lokalizavimui ir tinkinimui atlikti. Atkreipkite dėmesį į tai, kad importuojant naujausias „Microsoft“ ER konfigūracijose pateiktas versijas iš LCS bendrai naudojamo turto bibliotekos, būtina naudoti atitinkamą ER saugyklą.
+Naudojantis saugykla **Operacijų ištekliai** suteikiama prieiga prie konfigūracijų sąrašo, kurį „Microsoft“ kaip ER konfigūracijų teikėjas pirmiausia išleidžia kaip programos sprendimo dalį. Šias konfigūracijas galima importuoti į esamą egzempliorių ir naudoti elektroninėms ataskaitoms kurti arba pavyzdžio užduočių vadovams paleisti. Taip pat jas galima naudoti tolesniam lokalizavimui ir tinkinimui atlikti. Atkreipkite dėmesį, kad naujausias versijas, pateiktas "Microsoft ER" konfigūracijų, reikia importuoti iš LCS bendrinamo turto bibliotekos naudojant atitinkamą ER saugyklą.
 
 Galima registruoti atskirai kiekvieno dabartinio egzemplioriaus konfigūracijos teikėjo būtinas saugyklas **LCS projektas**, **Failų sistema** ir **„Regulatory Configuration Services” (RCS)**. Kiekvieną saugyklą galima priskirti konkrečiam konfigūracijos teikėjui.
 
@@ -265,6 +238,7 @@ ER suteikia galimybę automatiškai priimti naujausios pagrindinio komponento ve
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
+- [Elektroninių ataskaitų komponentai](er-overview-components.md)
 - [Elektroninių ataskaitų (ER) konfigūracijų kūrimas](electronic-reporting-configuration.md)
 - [Elektroninių ataskaitų (ER) konfigūracijų ciklo valdymas](general-electronic-reporting-manage-configuration-lifecycle.md)
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 13c9bf522ededb5896c5f8462bfe123e9a9edb2c
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: b4d0b09ea4bee58799a659217e2236fe74102949
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069249"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335442"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Sandėlio procesų kokybės valdymas
 
@@ -29,7 +29,7 @@ Funkcija _Sandėlio procesų kokybės valdymas_ išplečia pagrindinės kokybės
 
 ## <a name="turn-on-the-quality-management-for-warehouse-processes-feature"></a>Įjungti funkciją „Sandėlio procesų kokybės valdymas“
 
-Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
+Šią funkciją galėsite naudoti tik tada, kai ją įjungsite savo sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
 
 - **Modulis:** *sandėlio valdymas*
 - **Funkcijos pavadinimas:** *Sandėlio procesų kokybės valdymas*

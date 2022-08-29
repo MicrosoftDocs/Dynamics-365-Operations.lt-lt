@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ce81ed2ed79bfe5c7fff9724e14af150817af11f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 42c2c287e2a813f8bb07ce0c7f21f4224a217946
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895705"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306061"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>„Inventory Visibility“ diegimas ir nustatymas
 
@@ -43,7 +43,7 @@ Jei turite kokių klausimų apie šias būtinąsias sąlygas, susisiekite su pap
 
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>Įdiekite Inventoriaus matomumo papildinį
 
-Prieš įdiegsdami priedą, užregistruokite programą ir pridėkite kliento slaptažodį Azure Active Directory (Azure AD) pagal savo „Azure" abonementą. Instrukcijų ieškokite Registruoti [programą ir Pridėti kliento](/azure/active-directory/develop/quickstart-register-app) ir [Įtraukti kliento raktą](/azure/active-directory/develop/quickstart-register-app#add-a-certificate). Įsitikinkite, kad užsirašėte **Programos (kliento) ID**, **Kliento raktą**, ir **Nuomotojo ID** vertes, nes Jums jų reikės vėliau.
+Prieš įdiegsdami priedą, užregistruokite programą ir pridėkite kliento slaptažodį Azure Active Directory (Azure AD) pagal savo „Azure" abonementą. Instrukcijų ieškokite Registruoti [programą ir Pridėti kliento](/azure/active-directory/develop/quickstart-register-app) ir [Įtraukti kliento raktą](/azure/active-directory/develop/quickstart-register-app#add-a-certificate). Būtinai užsirašykite programos **(kliento) ID**, **·** **kliento slapto ir nuomininko ID** reikšmių pastabą, nes vėliau jų prireiks.
 
 > [!IMPORTANT]
 > Jei turite daugiau nei vieną LCS aplinką, kiekvienai iš jų Azure AD sukurkite kitą programą. Jei norėdami įdiegti atsargų matomumo priedą skirtingoms aplinkai naudojate tą patį programos ID ir nuomininko ID, atpažinimo ženklo išdavimas bus taikomas senesnėms aplinkai. Todėl galioja tik paskutinė įdiegtis.
@@ -88,20 +88,6 @@ Kai užregistruojate programą ir pridedate kliento slaptą seką, atlikite šiu
 >
 > 1. Baigę diegti grįžkite į LCS **puslapį ir bandykite dar kartą iš naujo įdiegti atsargų matomumo** priedą.
 
-## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Išdiekite Inventoriaus matomumo papildinį
-
-Norėdami pašalinti atsargų matomumo priedą, **Išdiegti** LCS puslapyje pasirinkite. Pašalinimo procesas pašalina atsargų matomumo priedą, išregistruojami iš LCS ir panaikinami visi laikini duomenys, saugomi atsargų matomumo duomenų talpykloje. Tačiau pirminiai atsargų duomenys, saugomi jūsų „Dataverse“ abonemente, nėra naikinami.
-
-Norėdami pašalinti savo abonemente saugomus atsargų duomenis, savo „Dataverse“ prenumeratoje atverkite [„Power Apps“](https://make.powerapps.com), rinkitės **Aplinka** naršymo juostoje ir rinkitės „Dataverse“ aplinką, kuri yra susieta su Jūsų LCS aplinka. Tada eikite į **sprendimus** ir panaikinkite šiuos penkis sprendimus šiame užsakyme:
-
-1. Atsargų matomumo programos inkaro sprendimas „Dynamics 365" sprendimuose
-1. „Dynamics 365" FNO SCM atsargų matomumo programų sprendimas
-1. Atsargų saugumo konfigūravimas
-1. Atsargų matomumo atskiras dėmuo
-1. „Dynamics 365" FNO SCM atsargų matomumo pagrindo sprendimas
-
-Kai panaikinate šiuos sprendimus, duomenys, saugomi lentelėse, taip pat bus panaikinti.
-
 ## <a name="set-up-inventory-visibility-in-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Nustatyti atsargų matomumą „Supply Chain Management“ dalyje
 
 ### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Aplinkos matomumo integravimo paketo diegimas
@@ -113,7 +99,7 @@ Jei naudojate „Supply Chain Management” 10.0.17 ar senesnę versiją, susisi
 >
 > Kodas įtrauktas į „Supply Chain Management” 10.0.18 versiją. Jei naudojate tą ar vėlesnę versiją, įdiegti nereikia.
 
-Įsitikinkite, kad šios priemonės yra įjungtos jūsų „Supply Chain Management” aplinkoje. (Numatyta, kad jos yra įjungtos.)
+Įsitikinkite, kad šios priemonės yra įjungtos jūsų „Supply Chain Management” aplinkoje. (Pagal numatytuosius nustatymus jos yra įjungtos.)
 
 | Funkcijos aprašymas | Kodo versija | Klasės kaitaliojimas |
 |---|---|---|
@@ -122,7 +108,7 @@ Jei naudojate „Supply Chain Management” 10.0.17 ar senesnę versiją, susisi
 
 ### <a name="set-up-inventory-visibility-integration"></a><a name="setup-inventory-visibility-integration"></a>Atsargų matomumo integravimo nustatymas
 
-Įdiegę priedą parenkite savo „Supply Chain Management“ sistemą dirbti su juo atlikdami nurodytus veiksmus.
+Įdiegę priedą paruoškite tiekimo grandinės valdymo sistemą dirbti su ja, atlikdami nurodytus veiksmus.
 
 1. „Supply Chain Management“ atverkite **[Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** darbo sritį ir tada įjunkite tokias funkcijas:
     - *Atsargų matomumo integravimas* – Būtinas.
@@ -135,10 +121,45 @@ Jei naudojate „Supply Chain Management” 10.0.17 ar senesnę versiją, susisi
 
 1. Jei įgalinote pasirinktinį *atsargų matomumo integravimą su rezervavimo korespondentinės* sąskaitos funkcija, atidarykite skirtuką **Rezervavimas ir atlikite** šiuos parametrus:
     - **Įgalinti rezervavimo korespondentinę sąskaitą** – nustatykite kaip *Taip*, norėdami įgalinti šią funkciją.
-    - **Rezervavimo korespondentinis modifikatorius** – pasirinkite atsargų operacijos būseną, kuri koresponduos rezervavimus, atliktas atsargų matomumo metu. Šis parametras nustato užsakymo apdorojimo etapą, kuris suaktyvina kompensavimus. Etapą seka užsakymo atsargų operacijos būsena. Pasirinkite vieną iš šių parinkčių:
+    - **Rezervavimo korespondentinis modifikatorius** – pasirinkite atsargų operacijos būseną, kuri koresponduos rezervavimus, atliktas atsargų matomumo metu. Šis parametras nustato užsakymo apdorojimo etapą, kuris suaktyvina kompensavimus. Etapą seka užsakymo atsargų operacijos būsena. Pasirinkite vieną iš šių pasirinkčių:
         - *Užsakyta* – kai operacijos būsena Yra, sukūrus užsakymą, *užsakymas* atsiųs korespondentinę užklausą. Korespondentinis kiekis bus sukurto užsakymo kiekis.
         - *Rezervas* – kai *operacijos būsena Rezervuota,* Užsakytas užsakymas siųs korespondentinę užklausą, kai ji rezervuota, paimta, užregistruotas važtaraštis arba išrašyta SF. Užklausa bus suaktyvinta tik vieną kartą, pirmojo žingsnio atveju, kai bus įvyksta nurodytas procesas. Korespondentinis kiekis bus kiekis, kai atsargų operacijos būsena atitinkamoje užsakymo eilutėje pasikeičia iš *Užsakyta* į *Rezervuota* (arba vėlesnė būsena).
 
 1. Eikite į **Atsargų valdymas \> Periodinis \> Atsargų matomumo integravimas** ir įjunkite užduotį. Visi atsargų keitimo įvykiai iš „Supply Chain Management” dabar bus užregistruoti atsargų matomumo srityje.
+
+## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Išdiekite Inventoriaus matomumo papildinį
+
+Norėdami pašalinti atsargų matomumo priedą, atlikite šiuos veiksmus:
+
+1. Prisijunkite prie „Supply Chain Management“.
+1. Pereikite prie **atsargų valdymo periodinio \> atsargų \> matomumo integravimo ir** išjunkite užduotį.
+1. Eikite į LCS ir atidarykite aplinkos, kurioje norite pašalinti priedą, puslapį ([taip pat žr. parinktį Atsargų matomumo priedas](#install-add-in)).
+1. Pasirinkite **Pašalinti**.
+1. Pašalinimo procesas dabar nutraukia atsargų matomumo priedą, išregistruojami iš LCS ir panaikinami laikini duomenys, saugomi atsargų matomumo duomenų talpykloje. Tačiau pirminiai atsargų duomenys, kurie buvo sinchronizuoti su jūsų abonementu Dataverse, vis dar saugomi ten. Norėdami panaikinti šį duomenis, atlikite likusią procedūrą.
+1. Atidarykite [Power Apps](https://make.powerapps.com).
+1. Naršymo **juostoje** pasirinkti Aplinką
+1. Pasirinkite aplinką Dataverse, priklijuota prie jūsų LCS aplinkos.
+1. Eikite **į** sprendimus ir panaikinkite šiuos sprendimus šia tvarka:
+    1. „Dynamics 365“ sprendimų „Inventory Visibility“ programos prieraišo sprendimas
+    1. „Dynamics 365" FNO SCM atsargų matomumo programų sprendimas
+    1. Atsargų saugumo konfigūravimas
+    1. Atsargų matomumo atskiras dėmuo
+    1. „Dynamics 365" FNO SCM atsargų matomumo pagrindo sprendimas
+
+    Kai panaikinate šiuos sprendimus, duomenys, saugomi lentelėse, taip pat bus panaikinti.
+
+> [!NOTE]
+> Jei atkursite tiekimo grandinės valdymo duomenų bazę, išdiegę atsargų matomumo priedą ir norėsite iš naujo įdiegti papildinį, įsitikinkite, Dataverse kad panaikinate senus savo abonemente saugomus atsargų matomumo duomenis (kaip aprašyta ankstesnėje procedūroje), prieš įdiegdami papildinį iš naujo. Taip išvengsite duomenų nenuoseklumo problemų, kurios kitu atveju galėtų įvykti.
+
+## <a name="clean-inventory-visibility-data-from-dataverse-before-restoring-the-supply-chain-management-database"></a><a name="restore-environment-database"></a> Prieš atkurdami tiekimo grandinės valdymo duomenų Dataverse bazę išvalykite atsargų matomumo duomenis
+
+Jei naudojate atsargų matomumą ir tada atkūrote tiekimo grandinės valdymo duomenų bazę, atkurtoje duomenų bazėje gali būti duomenų, kurie nebeatitinka anksčiau sinchronizuotų su atsargų matomumo duomenimis Dataverse. Dėl šių duomenų nenuoseklumo gali kilti sistemos klaidų ir kitų problemų. Todėl svarbu prieš atkurdami tiekimo grandinės Dataverse valdymo duomenų bazę visada išvalyti visus atsargų matomumo duomenis.
+
+Jei reikia atkurti tiekimo grandinės valdymo duomenų bazę, naudokite šią procedūrą:
+
+1. Pašalinti atsargų matomumo priedą ir pašalinti visus susijusius duomenis Dataverse, [kaip aprašyta "Šalinti atsargų matomumo priedą"](#uninstall-add-in)
+1. Atkurkite savo tiekimo grandinės valdymo duomenų bazę, pvz., [kaip aprašyta duomenų bazės tam tikrą laiką atkurti (PITR)](../../fin-ops-core/dev-itpro/database/database-point-in-time-restore.md)[arba į tam tikrą laikotarpį atkurta gamybos duomenų bazė į sandbox aplinką](../../fin-ops-core/dev-itpro/database/database-pitr-prod-sandbox.md).
+1. Jei vis tiek norite jį naudoti, [...](#install-add-in)[iš naujo įdiekite ir nustatykite atsargų matomumo priedą, kaip aprašyta priedo atsargų matomumo įdiegime ir Nustatyti atsargų matomumo integravimą](#setup-inventory-visibility-integration)
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

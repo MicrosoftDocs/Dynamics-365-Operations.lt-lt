@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c011938438be32e8a3169d90561ab329da32e32a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d39ce6e07a789ff4d605a01b1d5053be150d2727
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895473"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336252"
 ---
 # <a name="release-to-warehouse-rule"></a>Išleidimo į sandėlį taisyklė
 
@@ -30,14 +30,14 @@ Funkcija *Išleidimo į sandėlį taisyklė* suteikia lankstumo išleidimo į sa
 
 ### <a name="turn-on-the-feature"></a>Funkcijos įjungimas
 
-Norėdami naudoti *Išleidimo į sandėlį taisyklės* funkciją, įjunkite ją savo sistemoje. Administratoriai gali naudoti [funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, kad patikrintų funkcijos būseną ir įjungtų ją, kai reikia. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
+Prieš naudojant sandėlio *paleidimo taisyklės* priemonę, ją reikia įjungti jūsų sistemoje. Administratoriai gali naudoti [funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, kad patikrintų funkcijos būseną ir įjungtų ją, kai reikia. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
 
 - **Modulis:** *sandėlio valdymas*
 - **Funkcijos pavadinimas:** *Išleidimo į sandėlį taisyklė*
 
 ### <a name="initialize-the-feature"></a>Funkcijos inicijavimas
 
-Įjungę funkciją sistemoje, ją turite inicijuoti, kad taisyklė būtų nustatyta į tinkamą pradinę visų sandėlių būseną.
+Kai priemonė įjungta jūsų sistemai, turite ją inicijuoti, kad būtų nustatyta tinkama visų sandėlių pradinė būsena.
 
 - Sandėlių, neįgalintų sandėlio valdymui, taisyklė iš pradžių nustatoma kaip **Netaikoma**.
 - Sandėlių, įgalintų sandėlio valdymui, taisyklė iš pradžių nustatoma kaip **Leisti dalinę rezervaciją**
@@ -69,7 +69,7 @@ Po to, kai funkcija įjungta ir inicijuota, visi sandėliai turės pradinius nus
 
 ### <a name="make-sample-data-available"></a>Įgalinkite duomenų pavyzdį
 
-Norėdami dirbti pagal šiuos scenarijus, naudojant nurodytus įrašų ir reikšmių pavyzdžius, standartiniai [demonstraciniai duomenys](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) turi būti įdiegti Jūsų sistemoje. Be to, turite pasirinkti **USMF** juridinį asmenį prieš pradedant.
+Norėdami dirbti pagal šiuos scenarijus, naudojant nurodytus įrašų ir reikšmių pavyzdžius, standartiniai [demonstraciniai duomenys](../../fin-ops-core/fin-ops/get-started/demo-data.md) turi būti įdiegti Jūsų sistemoje. Be to, turite pasirinkti **USMF** juridinį asmenį prieš pradedant.
 
 Taip pat galite naudoti šiuos scenarijus kaip vedlį, kaip naudotis funkcija dirbant gamybos sistemoje. Tačiau tokiu atveju, Jūs turėsite keisti vertes ir galite neturėti kai kurių tipų būtinų įrašų, kuriuos suteikia standartiniai demonstraciniai duomenys.
 

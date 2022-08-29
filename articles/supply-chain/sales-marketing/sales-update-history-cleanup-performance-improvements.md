@@ -1,8 +1,8 @@
 ---
-title: Planuoti pardavimo retrospektyvos duomenų valymą
+title: Pardavimo retrospektyvos duomenų valymo planavimas
 description: Šiame straipsnyje aprašoma, kaip galima padėti pagerinti sistemos našumą, planuojant periodinę pardavimo atnaujinimo retrospektyvos valymo užduotį, kuri bus vykdoma įprastu intervalu.
 author: myvakalo
-ms.date: 03/21/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 1b2c9436fbb5020065f8f6ec30eedeca342d8aa9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e9a4dd5372afa8a0452449d1cb9121107e6e1610
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900831"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335510"
 ---
-# <a name="schedule-sales-history-data-cleanup"></a>Planuoti pardavimo retrospektyvos duomenų valymą
+# <a name="schedule-sales-history-data-cleanup"></a>Pardavimo retrospektyvos duomenų valymo planavimas
 
 [!include [banner](../includes/banner.md)]
 
@@ -42,7 +42,7 @@ Priemonė pagerina esamą valymo užduotį šiais būdais:
 
 Įgalinus šią priemonę, **Pardavimo atnaujinimo retrospektyvos valymo** paketinė užduotis (**Pardavimo ir rinkodaros \> Periodinė užduotis \> Valymas \> Pardavimo atnaujinimo retrospektyvos valymas**) bus vykdoma taip, kaip buvo anksčiau, tačiau geresniu veikimu ir daugiausiai 2 valandoms. Tai reiškia, kad gali tekti paleisti kelis kartus, kad išvalytumėte visus duomenis per tam tikrą saugojimo laikotarpį.
 
-Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
+Šią funkciją galėsite naudoti tik tada, kai ją įjungsite savo sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
 
 - **Modulis:** *Pardavimai ir rinkodara*
 - **Funkcijos pavadinimas:** *Pardavimo istorijos valymo našumo patobulinimai*
@@ -51,10 +51,7 @@ Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoj
 
 Naudojant *funkciją Valyti pardavimo naujinimo retrospektyvą* *pagal* amžiaus priemonę galima nurodyti didžiausią įrašų amžių, kuris bus naudojamas paleidus pardavimo atnaujinimo retrospektyvos valymo periodinę užduotį. Senesni įrašai bus panaikinti. Ši funkcija naudinga, kai nustatote, kad užduotis būtų vykdoma periodiškai, nes terminas visada apskaičiuojamas atsižvelgiant į užduoties vykdymo datą. Jei šios funkcijos nepasinaudosite, galite nustatyti tik seniausių įrašų, kuriuos norite saugoti, konkrečią datą.
 
-Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
-
-- **Modulis:** *Pardavimai ir rinkodara*
-- **Priemonės pavadinimas: valyti** *pardavimo naujinimo retrospektyvą pagal amžių*
+Jei norite naudoti šią funkciją, ją turite įjungti savo sistemoje. Kaip ir tiekimo grandinės valdymo versija 10.0.29, ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.29 versiją, *·*[tada](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) administratoriai gali įjungti arba išjungti šią funkciją ieškodami pardavimo naujinimo retrospektyvos pagal amžiaus funkciją funkcijų valdymo darbo srityje.
 
 ## <a name="set-up-and-schedule-the-sales-history-cleanup-periodic-task"></a>Nustatyti ir planuoti pardavimo retrospektyvos valymo periodinę užduotį
 

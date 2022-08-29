@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 3b4d691bbcf88cc73d10e3bb401710508ec641e1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1245d07436a9b57ee4f0402687e7a4367668cbfa
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893155"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336282"
 ---
 # <a name="replenishment-strategies"></a>Papildymo strategijos
 
@@ -36,7 +36,7 @@ Piko seansas yra vienas pavyzdys, kai *Maksimali vietos talpos* strategija yra s
 
 ## <a name="turn-on-the-replenish-to-max-based-on-stocking-limits-feature"></a>Įjunkite papildymą iki maksimalaus pagal talpos apribojimų funkciją
 
-Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [Funkcijos valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo erdvę tam, kad patikrintų funkcijos būseną ir ją įjungtų, jei jos reikia. Ten ši funkcija pateikiama taip:
+Šią funkciją galėsite naudoti tik tada, kai ją įjungsite savo sistemoje. Administratoriai gali naudoti [Funkcijos valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo erdvę tam, kad patikrintų funkcijos būseną ir ją įjungtų, jei jos reikia. Ten ši funkcija pateikiama taip:
 
 - **Modulis:** *Sandėlio valdymas*
 - **Funkcijos pavadinimas:** *Pildymas iki maksimalaus pagal talpos apribojimus*

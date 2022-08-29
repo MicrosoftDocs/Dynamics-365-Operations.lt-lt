@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 782b1b4995af09a63c483d2b81ed255a5c11803a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 784361f4e715921890ecff784b62935988732464
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846046"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335172"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Pavojingų medžiagų užklausos ir ataskaitos
 
@@ -101,11 +101,11 @@ Norėdami sugeneruoti ir atspausdinti šią ataskaitą, eikite į **Sandėlio va
 
 ## <a name="bill-of-lading-report"></a>Važtaraščio ataskaita
 
-Kai pavojingų medžiagų funkcija yra įjungta Jūsų sistemoje, ataskaitoje **važtaraštis** yra **Pavojingos medžiagos** stulpelis, kuriame nurodoma, ar krovinyje yra pavojingų medžiagų. Ši ataskaita, kaip įprastai, yra prieinama **Visi kroviniai** puslapyje.
+Kai jūsų sistemai įjungta pavojinga medžiagų funkcija, **·** **važtaraščio** ataskaitoje yra pavojingos medžiagos stulpelis, nurodantis, ar krovinys apima pavojingas medžiagas. Ši ataskaita, kaip įprastai, yra prieinama **Visi kroviniai** puslapyje.
 
 ## <a name="packing-list-report"></a>Pakavimo sąrašo ataskaita
 
-Kai pavojingų medžiagų funkcija yra įjungta Jūsų sistemoje, pakavimo sąrašuose yra papildoma informacija, susijusi su siuntimo spausdinimo tekstu prekei. Ši ataskaita, kaip įprastai, yra prieinama **Visi kroviniai** puslapyje.
+Kai jūsų sistemoje įjungta pavojinga medžiagų funkcija, į pakavimo sąrašus įtraukiama papildoma informacija, susijusi su prekės siuntimo spausdinimo tekstu. Ši ataskaita, kaip įprastai, yra prieinama **Visi kroviniai** puslapyje.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

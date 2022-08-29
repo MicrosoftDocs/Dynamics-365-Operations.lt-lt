@@ -1,8 +1,7 @@
 ---
 title: Lietuvai skirtas standartinis mokesčio audito failas (SAF-T)
 description: Šiame straipsnyje paaiškinama, kaip nustatyti ir sugeneruoti juridinių subjektų, kurių pagrindinis adresas Yra Lietuva, standartinį audito failą (BUS-T).
-author: liza-golub
-ms.author: elgolu
+author: AdamTrukawka
 ms.date: 09/20/2021
 ms.topic: article
 ms.prod: ''
@@ -10,14 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Lithuania
+ms.author: atrukawk
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c932a8eea70ff59d9cf7c4cb134769602e7f6c1b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9bf5164866c57d9b15b17edd5af5cc9aae8e09b4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894770"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9280672"
 ---
 # <a name="standard-audit-file-for-tax-saf-t-for-lithuania"></a>Lietuvai skirtas standartinis mokesčio audito failas (SAF-T)
 

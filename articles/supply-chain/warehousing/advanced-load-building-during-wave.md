@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3a630a7f388e0bbb6fee96e4de753b2380d305c3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c9d41645531fa4318289f32a564c34f0f92681df
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863772"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335862"
 ---
 # <a name="advanced-load-building-during-wave"></a>Papildomo krovinio kūrimas bangos metu
 
@@ -36,7 +36,7 @@ Norėdami naudoti šią funkciją, turite nustatyti sistemą taip:
 
 ## <a name="turn-on-advanced-wave-load-building-in-your-system"></a>Įjunkite papildomo bangos krovinio kūrimą savo sistemoje
 
-Prieš jums naudojantis papildomo bangos krovinio kūrimo funkcija, įjunkite dvi funkcijas savo sistemoje. Administratoriai gali naudoti [funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, kad patikrintų šių funkcijų būseną ir jas įjungtų, jei būtina. Darbo srityje **Funkcijų valdymas** funkcijos išvardintos šia tvarka:
+Prieš naudojant išplėstinio bangos krovinio kūrimą, jūsų sistemoje reikia įjungti dvi funkcijas. Administratoriai gali naudoti [funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, kad patikrintų šių funkcijų būseną ir jas įjungtų, jei būtina. Darbo srityje **Funkcijų valdymas** funkcijos išvardintos šia tvarka:
 
 - Bangos krovinio kūrimo funkcija:
 
@@ -50,7 +50,7 @@ Prieš jums naudojantis papildomo bangos krovinio kūrimo funkcija, įjunkite dv
 
 ### <a name="make-sample-data-available"></a>Įgalinkite duomenų pavyzdį
 
-Norėdami dirbti su parodomąja versija, naudojant nurodytus įrašų ir reikšmių pavyzdžius, standartiniai [demonstraciniai duomenys](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) turi būti įdiegti Jūsų sistemoje. Be to, turite pasirinkti **USMF** juridinį asmenį prieš pradedant.
+Norėdami dirbti su parodomąja versija, naudojant nurodytus įrašų ir reikšmių pavyzdžius, standartiniai [demonstraciniai duomenys](../../fin-ops-core/fin-ops/get-started/demo-data.md) turi būti įdiegti Jūsų sistemoje. Be to, turite pasirinkti **USMF** juridinį asmenį prieš pradedant.
 
 Taip pat galite naudoti šią parodomąją versiją kaip vedlį, kaip naudotis funkcija dirbant gamybos sistemoje. Tačiau tokiu atveju, Jūs turėsite keisti vertes ir galite neturėti kai kurių tipų būtinų įrašų, kuriuos suteikia standartiniai demonstraciniai duomenys.
 

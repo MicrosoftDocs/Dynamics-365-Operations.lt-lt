@@ -14,19 +14,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 77da3c05839d82860d715ca4e031ada69b99e3e3
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e1bae79e47c3fa695ac239320eeee17b1a480f18
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693898"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337334"
 ---
 # <a name="set-benefits-management-and-employee-self-service-parameters-for-all-companies"></a>Nustatykite Priedų valdymą ir Darbuotojo savitarnos parametrus visoms įmonėms
 
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Prieš tai, kai nustatysite priedų planus „Microsoft Dynamics 365 Human Resources“, turite sukonfigūruoti Priedų valdymo parametrus. Pagal šios parametrus nustatomos numatytosios vertės, priežasčių kodai ir kitos pasirinktys. 
 

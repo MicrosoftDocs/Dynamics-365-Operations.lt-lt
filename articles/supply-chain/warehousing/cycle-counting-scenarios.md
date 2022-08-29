@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4f6f3f2db6efcc4d4d6ae3d278751a230fca9a64
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 91a18b6deade6d67fce6b90308671910a4196104
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068603"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335742"
 ---
 # <a name="cycle-counting-example-scenarios"></a>Ciklo skaičiavimo pavyzdiniai scenarijai
 
@@ -32,7 +32,7 @@ Kiekvienas scenarijus šiame straipsnyje nurodo vertes ir įrašus, įtrauktus �
 
 ### <a name="turn-on-support-for-the-warehouse-management-mobile-app"></a>„Warehouse Management Mobile App“ palaikymo įjungimas
 
-Norint naudoti sandėlio valdymo mobiliąją programą, *jūsų sistemoje turi būti įjungti vartotojo parametrai,* piktogramos ir naujos sandėlio programos funkcijos veiksmų pavadinimai. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, *tada administratoriai gali įjungti arba išjungti šią funkciją ieškodami naujo sandėlio programos funkcijos vartotojo parametrų,*[piktogramų](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ir veiksmų pavadinimų funkcijų funkcijų valdymo darbo srityje.
+Norint naudoti sandėlio valdymo mobiliąją programą, *jūsų sistemai reikia įjungti vartotojo parametrus, piktogramas* ir naujos sandėlio programos funkcijos veiksmų pavadinimus. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.25 versiją, *tada administratoriai gali įjungti arba išjungti šią funkciją ieškodami naujo sandėlio programos funkcijos vartotojo parametrų,*[piktogramų](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ir veiksmų pavadinimų funkcijų funkcijų valdymo darbo srityje.
 
 ### <a name="prepare-demo-data-for-the-scenarios"></a><a name= "prepare-demo-data"></a>Paruoškite demonstracinius duomenis scenarijams
 

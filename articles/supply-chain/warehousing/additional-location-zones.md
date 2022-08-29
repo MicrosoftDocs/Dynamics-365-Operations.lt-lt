@@ -2,7 +2,7 @@
 title: Papildomos vietos zonos
 description: Šiame straipsnyje pateikta naujų vietos zonų, kurios buvo pridėtos prie "Microsoft", apžvalga Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 07/01/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: c20225cfb3c44fff955d0ad4e96c7fecf0ddf715
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 819330e0f6e6cd419da441f919d68ff996b6475c
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900657"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336522"
 ---
 # <a name="additional-location-zones"></a>Papildomos vietos zonos
 
@@ -32,7 +32,7 @@ Norint naudoti zonos laukus, papildomų nustatymų nereikia.
 
 ## <a name="turn-the-additional-location-zone-feature-on-or-off"></a>Įjungti arba išjungti papildomos vietos zonos funkciją
 
-Kaip ir tiekimo grandinės valdymo versija 10.0.25 ši funkcija įjungiama pagal numatytąjį nustatymą. Administratoriai gali įjungti arba išjungti šią funkciją ieškodami papildomos *vietos zonų* funkcijos funkcijų [valdymo darbo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) srityje.
+Jei norite naudoti šią funkciją, ją turite įjungti savo sistemoje. Kaip ir tiekimo grandinės valdymo versija 10.0.25, funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymo versija 10.0.29, ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.29 versiją, *·*[tada](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) administratoriai gali įjungti arba išjungti šią funkciją ieškodami papildomos vietos zonos funkcijos funkcijų valdymo darbo srityje.
 
 ## <a name="use-location-zones"></a>Vietos zonų naudojimas
 

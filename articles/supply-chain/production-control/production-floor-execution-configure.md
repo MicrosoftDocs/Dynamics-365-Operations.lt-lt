@@ -2,7 +2,7 @@
 title: Gamybos cecho vykdymo sąsajos konfigūravimas
 description: Šiame straipsnyje aprašoma, kaip sukurti vieną ar daugiau gamybos laiko vykdymo sąsajos konfigūracijų. Atidarius gamybos cecho vykdymo sąsają, ji automatiškai įkelia pasirinktą konfigūraciją ir užduoties filtrą, būdingus naršyklei ir įrenginiui. Konfigūracijoje nustatote strategijas, kurios turi būti taikomos konkrečiam naudojimui.
 author: johanhoffmann
-ms.date: 10/05/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f740b68128b90fc7c9ce2f74edc4f3c06f03debd
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
-ms.translationtype: HT
+ms.openlocfilehash: ae574e25c5ef0c1736ec13e2ee3fcc11b323721f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9167768"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336192"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Gamybos cecho vykdymo sąsajos konfigūravimas
 
@@ -35,7 +35,7 @@ Atidarius gamybos cecho vykdymo sąsają, ji automatiškai įkelia pasirinktą k
 
 ## <a name="turn-on-the-production-floor-execution-interface-and-its-related-optional-features"></a>Įjunkite gamybos aukšto vykdymo sąsają ir su ja susijusias pasirenkamas funkcijas
 
-Pati gamybos laiko vykdymo sąsaja ir keletas pasirinktinių šiame straipsnyje aprašytų parametrų turi būti įjungta sistemoje prieš naudojant juos. Naudokite [Funkcijos valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) puslapį tam, kad įjungtumėte bet kurią funkciją aprašyta tolesniuose poskyriuose.
+Pati gamybos laiko vykdymo sąsaja ir keletas pasirinktinių šiame straipsnyje aprašytų parametrų turi būti įjungta jūsų sistemai, kad būtų galima juos naudoti. Naudokite [Funkcijos valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) puslapį tam, kad įjungtumėte bet kurią funkciją aprašyta tolesniuose poskyriuose.
 
 ### <a name="the-production-floor-execution-interface"></a>Gamybos aukšto vykdymo sąsaja
 
@@ -63,63 +63,58 @@ Kaip ir tiekimo grandinės valdymo versija 10.0.21 ši funkcija įjungiama pagal
 
 ### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Turto valdymo funkcijos gamybos vietos vykdymo sąsajai
 
-Ši funkcija įtraukia turto valdymo skirtuką į gamybos vietos vykdymo sąsają. Darbuotojai gali naudoti šį skirtuką norėdami pasirinkti turtą, prijungtą prie įrenginio išteklių, kurie yra pasirinktame užduočių sąrašo filtre. Darbuotojas gali peržiūrėti pasirinkto įrenginio turto būseną ir sveikatą iš skaitiklio verčių (ne daugiau keturių pasirinktų skaitiklių). Norėdami naudoti šią funkciją, įjunkite tolesnę funkciją [Funkcijos valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Ši funkcija įtraukia turto valdymo skirtuką į gamybos vietos vykdymo sąsają. Darbuotojai gali naudoti šį skirtuką norėdami pasirinkti turtą, prijungtą prie įrenginio išteklių, kurie yra pasirinktame užduočių sąrašo filtre. Darbuotojas gali peržiūrėti pasirinkto įrenginio turto būseną ir sveikatą iš skaitiklio verčių (ne daugiau keturių pasirinktų skaitiklių).
 
-- *Turto valdymo funkcijos gamybos vietos vykdymo sąsajai*<br>(Kaip ir tiekimo grandinės valdymo versija 10.0.25, ši funkcija veikia pagal numatytąjį nustatymą.)
+Kaip ir tiekimo grandinės valdymo versija 10.0.25 ši funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymo versija 10.0.29, ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.29 versiją, *·*[tada](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) administratoriai gali įjungti arba išjungti šią funkciją ieškodami gamybos laiko vykdymo sąsajos funkcijos turto valdymo funkcijų funkcijų valdymo darbo srityje.
 
-### <a name="enable-job-search"></a>Užduoties ieškos įgalinimas
+### <a name="job-search"></a>Užduoties ieška
 
-Ši funkcija leidžia į užduočių sąrašą įtraukti ieškos lauką. Darbuotojai gali rasti konkrečią užduotį įvesdami užduoties ID arba rasti visas konkretaus užsakymo užduotis įvesdami užsakymo ID. Darbuotojai gali įvesti ID naudodami klaviatūrą arba nuskaitę brūkšninį kodą. Norėdami ją naudoti, įjunkite tolesnę funkciją [Funkcijos valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Ši funkcija leidžia į užduočių sąrašą įtraukti ieškos lauką. Darbuotojai gali rasti konkrečią užduotį įvesdami užduoties ID arba rasti visas konkretaus užsakymo užduotis įvesdami užsakymo ID. Darbuotojai gali įvesti ID naudodami klaviatūrą arba nuskaitę brūkšninį kodą.
 
-- *Gamybos vietos vykdymo sąsajos užduočių ieška*<br>(Kaip ir tiekimo grandinės valdymo versija 10.0.25, ši funkcija veikia pagal numatytąjį nustatymą.)
+Kaip ir tiekimo grandinės valdymo versija 10.0.25 ši funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymo versija 10.0.29, ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.29 versiją, *·*[tada](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) administratoriai gali įjungti arba išjungti šią funkciją ieškodami gamybos laiko vykdymo sąsajos funkcijos užduočių valdymo darbo srityje.
 
-### <a name="enable-reporting-on-co-products-and-by-products"></a>Sudėtinių ir šalutinių produktų ataskaitos įgalinimas.
+### <a name="report-on-co-products-and-by-products"></a>Sudėtiinių ir ant jų ataskaita
 
-Ši funkcija leidžia darbuotojams naudoti gamybos vietos vykdymo sąsają pateikti informaciją apie partijinių užsakymų eigą. Ši ataskaita apima ataskaitos teikimą apie sudėtinius ir šalutinius produktus. Jei norite naudoti šią funkciją, funkcijų valdymas įjunkite šią [funkciją](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Ši funkcija leidžia darbuotojams naudoti gamybos vietos vykdymo sąsają pateikti informaciją apie partijinių užsakymų eigą. Ši ataskaita apima ataskaitos teikimą apie sudėtinius ir šalutinius produktus.
 
-- *Ataskaita apie sudėtinius ir šalutinius produktus iš gamybos vietos vykdymo sąsajos*
+Jei norite naudoti šią funkciją, ją turite įjungti savo sistemoje. Kaip ir tiekimo grandinės valdymo versija 10.0.29, funkcija įjungiama pagal numatytąjį nustatymą. Administratoriai šią *funkciją*[gali įjungti arba išjungti ieškodami ataskaitų apie sudėtijus ir pagal produktus iš gamybos laiko vykdymo sąsajos funkcijos, kuri yra funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo srityje.
 
-### <a name="enable-the-display-of-full-serial-batch-and-license-plate-numbers"></a>Įgalinti visų serijos, paketo ir numerio lentelės numerių rodymą
+### <a name="display-full-serial-batch-and-license-plate-numbers"></a>Rodyti visus serijos, paketo ir numerio lentelės numerius
 
 Ši funkcija gamybos laiko vykdymo sąsajoje pagerina serijos, paketo ir numerio lentelės numerių sąrašų peržiūros patirtį. Ekrano pakeitimai iš kortelės rodinio, rodantis ribotą simbolių skaičių sąrašo rodinyje, kuriame yra pakankamai vietos, kad būtų galima parodyti visas vertes. Sąrašas taip pat siūlo galimybę ieškoti konkrečių skaičių.
 
+Jei norite naudoti šią funkciją, ją turite įjungti savo sistemoje. Kaip ir tiekimo grandinės valdymo versija 10.0.25, funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymo versija 10.0.29, ši funkcija yra privaloma ir jos išjungti negalima. Jei jūsų versija senesnė nei 10.0.29, tada *administratoriai gali įjungti arba išjungti šią funkciją ieškodami gamybos laiko vykdymo sąsajos funkcijos funkcijos rodyti visus serijos,*[paketo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ir numerio lentelės numerius funkcijų valdymo darbo srityje.
+
+
 Kaip ir tiekimo grandinės valdymo versija 10.0.25 ši funkcija įjungiama pagal numatytąjį nustatymą. Administratoriai šią *funkciją gali įjungti arba išjungti ieškodami gamybos laiko vykdymo sąsajos funkcijose rodyti visus serijos,*[paketo ir numerio lentelės numerius funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo srityje.
 
-### <a name="enable-registering-of-material-consumption"></a>Įjungti medžiagų suvartojimo registrą
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
+### <a name="register-material-consumption"></a>Medžiagų sunaudojimo registravimas
 
 Ši funkcija leidžia darbuotojams naudoti gamybos laiko vykdymo sąsają medžiagų suvartojimui, paketo numeriams ir serijos numeriams registruoti. Kai kurie gamintojai, ypač proceso pramonės šakose, turi aiškiai užregistruoti medžiagų kiekį, suvartojamą kiekvienam paketo ar gamybos užsakymui. Pavyzdžiui, darbuotojai gali naudoti svarstyklių skalę, kad galėtų sverti suvartojamą medžiagos kiekį. Kad būtų užtikrintas visos medžiagų kiekis, šios organizacijos taip pat turi užregistruoti paketų numerius, suvartotus kiekvienam produktui pagaminti.
 
 Yra dvi šios priemonės versijos. Viena palaiko prekes, *kurios neįgalintos* naudoti sandėlio valdymo procesų (WMS). Kita palaiko prekes, *kurios* įgalintos naudoti WMS. Norėdami naudoti šią funkciją, funkcijų valdymo dalyje (šia tvarka) įjunkite vieną arba abi funkcijas atsižvelgdami į tai, [ar](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) yra WMS įgalintos prekės:
 
-- *Registruoti medžiagų suvartojimą gamybos laiko vykdymo sąsajoje (ne WMS)*
-- *(Peržiūros versija) Užregistruokite medžiagų suvartojimą gamybos vietos vykdymo sąsajoje (veikia WMS)*
+- *Registruokite medžiagų suvartojimą gamybos vietos vykdymo sąsajoje (ne WMS)*
+- *Registruoti medžiagų suvartojimą gamybos laiko vykdymo sąsajoje (WMS įgalinta)*
 
 > [!IMPORTANT]
 > Galima naudoti tik ne WMS priemonę. Tačiau jei naudojate WMS, turite įgalinti abi funkcijas.
 
-### <a name="enable-reporting-on-catch-weight-items"></a>Įgalinti esamo svorio prekių ataskaitas
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
+### <a name="report-on-catch-weight-items"></a>Esamo svorio prekių ataskaita
 
 Darbuotojai gali naudoti gamybos laiko vykdymo sąsają esamo svorio prekių paketinių užsakymų vykdymo eigai pranešti. Paketiniai užsakymai kuriami pagal formules, kurias galima apibrėžti kaip esamo svorio prekes kaip sudėties prekes, sudėtinius produktus ir pagal produktus. Formulę taip pat galima apibrėžti, kad ji turėtų formulės eilutes, skirtas ingredientams, kurie apibrėžti kaip esamo svorio. Esamo svorio prekės turi sekti atsargas pagal du matavimo vienetus: esamo svorio kiekį ir atsargų kiekį. Pavyzdžiui, maisto pramonėje dėžes galima nurodyti kaip esamo svorio prekę, kur esamo svorio kiekis naudojamas dėžių kiekiui sekti, o atsargų kiekis naudojamas dėžių svoriui sekti.
 
 Jei norite naudoti šią funkciją, funkcijų valdymas įjunkite šią [funkciją](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
-- *(Peržiūros versija) Ataskaita apie esamo svorio prekes iš gamybos vietos vykdymo sąsajos*
+- *Ataskaita apie esamo svorio prekes iš gamybos vietos vykdymo sąsajos*
 
-### <a name="enable-the-my-day-dialog"></a>Įgalinti dialogo langą "Mano diena"
+### <a name="the-my-day-dialog"></a>Dialogo langas "Mano diena"
 
 Dialogo **lange Mano diena** darbuotojams pateikiama darbuotojų kasdieninių registracijų ir dabartinių apmokėto laiko, apmokėtų viršvalandžių, neatvykimo ir apmokėto neatvykimo balansų peržiūra.
 
-Jei norite naudoti šią funkciją, funkcijų valdymas įjunkite šią [funkciją](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Jei norite naudoti šią funkciją, ją turite įjungti savo sistemoje. Kaip ir tiekimo grandinės valdymo versija 10.0.29, funkcija įjungiama pagal numatytąjį nustatymą. Administratoriai šią funkciją gali įjungti *arba išjungti ieškodami rodinio "Mano diena", kad būtų galima naudoti gamybos laiko vykdymo sąsajos* funkciją funkcijų [valdymo darbo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) srityje.
 
-- *Gamybos vietos vykdymo sąsajos rodinys „Mano diena“*
-
-### <a name="enable-teams"></a>Įgalinti komandas
+### <a name="teams"></a>Komandos
 
 Kai tai pačiai gamybos užduočiai priskirti keli darbuotojai, jie gali sudaryti komandą. Komanda gali paskirti vieną darbuotoją kaip vadininką. Likę darbuotojai automatiškai tampa to vad vadymi asistentais. Gautai komandai užduoties būseną turi užregistruoti tik vadovas. Laiko įrašai taikomi visiems komandos nariams.
 
@@ -127,7 +122,7 @@ Jei norite naudoti šią funkciją, funkcijų valdymas įjunkite šią [funkcij�
 
 - *Gamybos komandos gamybos vietos vykdymo sąsajoje*
 
-### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>Įgalinti papildomą konfigūraciją gamybos laiko vykdymo sąsajoje
+### <a name="additional-configuration-in-the-production-floor-execution-interface"></a>Papildoma gamybos laiko vykdymo sąsajos konfigūracija
 
 Ši funkcija įtraukia toliau nurodytų funkcijų parametrus į gamybos laiko **vykdymo puslapio konfigūravimą**:
 
@@ -142,7 +137,6 @@ Informacija apie parametrų naudojimą pateikiama toliau šiame straipsnyje.
 Jei norite naudoti šią funkciją, funkcijų valdymas įjunkite šią [funkciją](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - *Papildoma konfigūracija gamybos vietos vykdymo sąsajoje*
-
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Darbas su gamybos cecho vykdymo konfigūracijomis
 

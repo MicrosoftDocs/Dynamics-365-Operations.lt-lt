@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 72cda7608d55414ee62bc7dcc1e02e28f6212aff
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 543afe2e689fa787158551bec64e2458141be71c
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899243"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220094"
 ---
 # <a name="replenishment-over-location-capacity"></a>Papildymas pagal vietos erdvę
 
@@ -41,7 +41,7 @@ Tam, kad šioje temoje aprašyta funkcija būtų prieinama jūsų sistemoje, įj
 
 ### <a name="enable-sample-data"></a>Duomenų pavyzdžių įgalinimas
 
-Tam, kad dirbtumėte su [pavyzdiniu scenarijumi](#example-scenario) naudodami pavyzdinius įrašus ir vertes nurodytas čia, turite būti sistemoje, kurioje standartiniai [demonstraciniai duomenys](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) yra įdiegti. Be to, turite pasirinkti **USMF** juridinį asmenį prieš pradedant.
+Tam, kad dirbtumėte su [pavyzdiniu scenarijumi](#example-scenario) naudodami pavyzdinius įrašus ir vertes nurodytas čia, turite būti sistemoje, kurioje standartiniai [demonstraciniai duomenys](../../fin-ops-core/fin-ops/get-started/demo-data.md) yra įdiegti. Be to, turite pasirinkti **USMF** juridinį asmenį prieš pradedant.
 
 ### <a name="location-profile"></a>Vietos profilis
 

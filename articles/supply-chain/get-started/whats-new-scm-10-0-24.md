@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: f8864ac22153908492b5e7c30a03617e6dc9d05a
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.openlocfilehash: 9b4b538e6d50013626739e19fee2a050b630bf7f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9166882"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334812"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.24 (2022 m. vasario mėn.)
 
@@ -46,9 +46,9 @@ Jei norite įjungti arba išjungti bet kurią iš šių priemonių, tai turite a
 | Modulis | Funkcijos pavadinimas funkcijos valdyme | Daugiau informacijos |
 |---|---|---|
 | Gamybos kontrolė | Gamybos užsakymų medžiagų pasiekiamumo pareikalavus patikra | Ši funkcija padeda greičiau atidaryti gamybos užsakymus **, kad būtų galima paleisti** puslapį, kurį galima pasiekti gamybos **laiko valdymo darbo** srityje. Be šios priemonės sistema automatiškai patikrina, ar visiems išvardytiems gamybos užsakymams medžiagos galimos iš karto, kai tik atidarote puslapį, o tai gali užtrukti, jei yra daug užsakymų. Kai ši funkcija įgalinta, sistema pateikia įrankių juostos mygtuką, kurį galite naudoti, norėdami inicijuoti medžiagų tikrinkite tik pasirinktus užsakymus ir, kai jų reikia. |
-| Gamybos kontrolė | Registruoti medžiagų suvartojimą gamybos laiko vykdymo sąsajoje (ne WMS) | Ši funkcija leidžia darbuotojams naudoti gamybos laiko vykdymo sąsają medžiagų suvartojimui, paketo numeriams ir serijos numeriams registruoti. Ši funkcija palaiko tik prekes, kurios neįgalintos naudoti sandėlio valdymo procesų (WMS). WMS įgalintų prekių palaikymas planuojamas būsimam paleidimui.<p>Kai kurie gamintojai, ypač proceso pramonės šakose, turi aiškiai registruoti kiekvienam paketui ar gamybos užsakymui suvartotų medžiagų kiekį. Pavyzdžiui, darbuotojai gali naudoti svarstyklių skalę, kad galėtų pasverti jų darbui suvartotų medžiagų kiekį. Siekiant užtikrinti visą medžiagų kiekį, šios organizacijos taip pat turi registruoti, kurie paketų numeriai buvo suvartoti gaminant kiekvieną produktą. |
+| Gamybos kontrolė | Registruokite medžiagų suvartojimą gamybos vietos vykdymo sąsajoje (ne WMS) | Ši funkcija leidžia darbuotojams naudoti gamybos laiko vykdymo sąsają medžiagų suvartojimui, paketo numeriams ir serijos numeriams registruoti. Ši funkcija palaiko tik prekes, kurios neįgalintos naudoti sandėlio valdymo procesų (WMS). WMS įgalintų prekių palaikymas planuojamas būsimam paleidimui.<p>Kai kurie gamintojai, ypač proceso pramonės šakose, turi aiškiai registruoti kiekvienam paketui ar gamybos užsakymui suvartotų medžiagų kiekį. Pavyzdžiui, darbuotojai gali naudoti svarstyklių skalę, kad galėtų pasverti jų darbui suvartotų medžiagų kiekį. Siekiant užtikrinti visą medžiagų kiekį, šios organizacijos taip pat turi registruoti, kurie paketų numeriai buvo suvartoti gaminant kiekvieną produktą. |
 | Gamybos kontrolė | Pranešti, kai bus baigta su sandėlio valdymo darbo krūviu debesies ir briaunos skalės įrenginyje | Ši funkcija leidžia darbuotojams naudoti sandėlio valdymo mobiliąją programą pranešti apie gamybos arba paketinį užsakymą kaip baigtą, kai programa veikia naudojant sandėlio valdymo darbo krūvį debesies arba kraštų skalės vienetais. Daugiau informacijos rasite Ataskaita kaip [baigta ir Padėti ant svarstyklių vieneto](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF). |
-| Sandėlio valdymas | Nauji krovinio planavimo darbo srityje puslapiai | Įgalina du naujus krovinio planavimo darbo srityje puslapius: **gaunamo krovinio planavimo darbo srityje** **ir siunčiamo krovinio planavimo darbo srityje**. |
+| Sandėlio valdymas | Nauji krovinio planavimo darbo srityje puslapiai | Įtraukia du naujus krovinio planavimo darbo vietos puslapius: **gaunamo krovinio planavimo darbo srityje** **ir siunčiamo krovinio planavimo darbo srityje**. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Nauji ir naujinti dokumentų šaltiniai
 

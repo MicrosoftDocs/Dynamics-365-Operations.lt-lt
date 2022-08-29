@@ -2,7 +2,7 @@
 title: Pirkimo sutartys
 description: Šiame straipsnyje pateikta informacija apie pirkimo sutartis. Pirkimo sutartis yra sutartis, kurią pasirašiusi organizacija įsipareigoja per tam tikrą laiką keliais pirkimo užsakymais įsigyti nurodytą kiekį arba sumą. Už šį įsipareigojimą pirkėjas gauna specialias kainas ir nuolaidas.
 author: GalynaFedorova
-ms.date: 06/20/2017
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a8e2c4fdf640f1a9a64c60afc978a4d5812182a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 188a71ec660787b0b942a3d3bf4967b747c4469f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669578"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335892"
 ---
 # <a name="purchase-agreements"></a>Pirkimo sutartys
 
@@ -41,7 +41,7 @@ Jei nenorite, kad jūsų pirkimo sutartis būtų naudojama ir patvirtinama, nust
 Galite nurodyti pirminį atsakingą darbininką ir antrinį atsakingą darbininką pirkimo sutarties klasifikacijoje. Šios vertės bus perkeltos į gautą pirkimo sutartį. Neprivalote įtraukti atsakingų darbininkų į pirkimo sutartį; juos galima keisti tiesiogiai kiekvienu konkrečiu atveju pačioje pirkimo sutartyje. Negalite nurodyti antrinio atsakingo darbininko nenurodę pirminio atsakingo darbininko, tačiau antrinio atsakingo darbininko nurodyti nebūtina. Negalima nurodyti to paties darbininko ir kaip pirminio, ir kaip antrinio atsakingo darbininko.
 
 > [!IMPORTANT]
-> Norint naudoti atsakingo asmens funkciją, ją reikia įjungti jūsų sistemoje. Kaip ir tiekimo grandinės valdymas 10.0.25 ši funkcija įjungiama pagal numatytąjį nustatymą. Administratoriai gali įjungti arba išjungti šią funkciją, ieškodami už *pirkimo sutartį atsakingo asmens funkcijos* funkcijų [valdymo darbo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) srityje.
+> Jei norite naudoti atsakingo asmens funkciją, ją turite įjungti savo sistemoje. Kaip ir tiekimo grandinės valdymo versija 10.0.25, funkcija įjungiama pagal numatytąjį nustatymą. Kaip ir tiekimo grandinės valdymo versija 10.0.29, ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.29 versiją, *·*[tada administratoriai gali įjungti arba išjungti šią funkciją ieškodami už pirkimo sutartį atsakingo šalies funkcijos funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo srityje.
 
 ## <a name="commitment-types"></a>Įsipareigojimo tipai
 Kiekviena pirkimo sutarties eilutė įpareigoja ką nors pirkti. Galite naudoti kelių pirkimo užsakymų (PU) eilutes, norėdami įvykdyti įsipareigojimą. Yra keturi įsipareigojimų tipai:

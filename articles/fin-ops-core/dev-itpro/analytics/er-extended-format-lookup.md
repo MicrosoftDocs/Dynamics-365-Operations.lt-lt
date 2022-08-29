@@ -1,26 +1,26 @@
 ---
 title: Elektroninių ataskaitų (ER) išplėstinė formatų peržvalga
 description: Šiame straipsnyje aprašoma, kaip ER formato nuorodą galima nustatyti ER formato peržvalga, kai reikalingas formatas saugomas visuotinė saugykla.
-author: NickSelin
+author: kfend
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERWorkspace
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ae544b8ed4e280ffcaf58d893056a4bf5169e379
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423
+ms.assetid: ''
+ms.search.form: ERSolutionTable, ERWorkspace
+ms.openlocfilehash: 624f5c347c27cc2075f9602087c1c49e84340565
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901654"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9274926"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Leidimo nustatyti ER formato nuorodą, pateikiančią užklausą dėl formato bendrojoje saugykloje, suteikimas vartotojams
 

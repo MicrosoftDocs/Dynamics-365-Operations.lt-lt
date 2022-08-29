@@ -1,5 +1,5 @@
 ---
-title: Registruoti prekes, įgalintas sandėlio valdymo procesams, naudojant prekių gavimo žurnalą
+title: Prekių, kurioms įjungti sandėliavimo valdymo procesai, registravimas naudojant prekių gavimo žurnalą
 description: Šiame straipsnyje pateikiamas scenarijus, kuris parodo, kaip registruoti prekes naudojant prekių gavimo žurnalą, kai naudojate sandėlio valdymo procesus (WMS).
 author: Mirzaab
 ms.date: 03/24/2021
@@ -14,14 +14,14 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5241c982675d6b9a9bc9596b8ac9ed2798903287
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: HT
+ms.openlocfilehash: 66fc9e21b79d70ec14750440c74d354bb8ec0695
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066974"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219605"
 ---
-# <a name="register-items-enabled-for-warehouse-management-processes-using-an-item-arrival-journal"></a>Registruoti prekes, įgalintas sandėlio valdymo procesams, naudojant prekių gavimo žurnalą
+# <a name="register-items-enabled-for-warehouse-management-processes-using-an-item-arrival-journal"></a>Prekių, kurioms įjungti sandėliavimo valdymo procesai, registravimas naudojant prekių gavimo žurnalą
 
 [!include [banner](../../includes/banner.md)]
 
@@ -29,7 +29,7 @@ ms.locfileid: "9066974"
 
 ## <a name="enable-sample-data"></a>Duomenų pavyzdžių įgalinimas
 
-Norėdami dirbti naudodami šiame straipsnyje nurodytus pavyzdinius įrašus ir reikšmes, turite naudoti sistemą, kurioje įdiegti standartiniai demonstraciniai duomenys, *ir prieš pradėdami turite pasirinkti USMF* juridinį subjektą.
+Norėdami dirbti naudodami šiame straipsnyje nurodytus pavyzdinius įrašus ir reikšmes, turite naudoti sistemą, [kurioje](../../../fin-ops-core/fin-ops/get-started/demo-data.md) įdiegti standartiniai demonstraciniai duomenys, *ir prieš pradėdami turite pasirinkti USMF* juridinį subjektą.
 
 Vietoj to, galite dirbti pagal šį scenarijų pakeisdami reikšmes iš jūsų duomenų, jeigu turite šiuos duomenis:
 

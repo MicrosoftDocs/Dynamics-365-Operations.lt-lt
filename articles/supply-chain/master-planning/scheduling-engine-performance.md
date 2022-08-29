@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f5ece3672bba352e02808248c91366539423d682
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ddc22bdd223eff513ff571501c599712ac78a7da
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854303"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219914"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Planavimo mechanizmo efektyvumo didinimas
 
@@ -294,7 +294,9 @@ Užuot naudojus lygiagrečias operacijas galima modeliuoti „virtualių“ išt
 
 ### <a name="route-with-quantity-of-resources-higher-than-1"></a>Maršrutas, kurio išteklių kiekis yra didesnis už 1
 
-Jeigu nustatytas operacijai reikalingų išteklių kiekis yra didesnis už vienetą, tada rezultatas bus toks pats kaip naudojant pirmines / antrines operacijas, nes mechanizmui siunčiamos kelios lygiagrečios užduotys. Tačiau šiuo atveju nėra galimybės naudoti konkrečius ištekliaus priskyrimus, nes kiekiui, kuris yra didesnis už vienetą, reikia, kad operacijai būtų taikomas daugiau nei vienas išteklius.
+Jei operacijai reikalingas išteklių kiekis yra didesnis nei vienas, rezultatai yra efektyviai tokie patys, kaip naudojant pirmines / antrines operacijas, nes į sistemą bus siunčiamos kelios lygiagrečios užduotys. Tačiau šiuo atveju negalima naudoti konkrečių išteklių priskyrimų, nes daugiau nei vienam ištekliui taikyti operaciją reikia daugiau nei vieno ištekliaus.
+
+Antrinė operacija, kurios išteklių apkrovos kiekis didesnis nei viena, reiškia, kad kiekvienam pirminės operacijos ištekliui reikalingas nurodytas antrinių išteklių kiekis. Pavyzdžiui, jei pirminės operacijos išteklių kiekis nustatytas kaip 2, o antrinės operacijos išteklių kiekis nustatytas kaip trys, tai iš viso yra šeši ištekliai, reikalingi antrinei operacijai.
 
 ### <a name="excessive-use-of-finite-capacity"></a>Didelis riboto pajėgumo naudojimas
 

@@ -2,7 +2,7 @@
 title: Atsargų blokavimas
 description: Šiame straipsnyje apžvelgiamas atsargų blokavimas, kuris yra „Supply Chain Management‟ kokybės tikrinimo proceso dalis. Naudodami atsargų blokavimą galite neleisti apdoroti ar vartoti prekių.
 author: yufeihuang
-ms.date: 03/02/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7a16c41b56b30098945a6fbdb02577624b6e173
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 83b5417dc24af85f09e6713f2b12fdc358f61d54
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857814"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334692"
 ---
 # <a name="inventory-blocking"></a>Atsargų blokavimas
 
@@ -96,11 +96,11 @@ Kai funkcija **Rezervuoti užsakytas prekes** išjungta, tikėtinų kvitų negal
 
 Atkreipkite dėmesį į dviejų atvejų operacijos būsenos ir dimensijų skirtumą. Dėl šios priežasties rekomenduojame įjungti parinktį **Rezervuoti užsakytas prekes**.
 
-### <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory-feature"></a>Išjungti numatomus gavimus iš kokybės užsakymų, kurie pavyzdžio yra užblokuotų atsargų funkcija
+## <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory"></a>Išjunkite numatomus kvitus iš kokybės užsakymų, kurie ima mėginius iš blokuojamų atsargų
 
 Kad atsargų operacijos būtų paprastesnės kokybės užsakymų, kurių atsargų pavyzdys užblokuotas dėl atsargų būsenos, atveju, sistema suteikia priemonę, kuri uždraus numatomus tokių kokybės užsakymų gavimus. Kadangi numatomą gavimą iš karto užblokuoja atsargų būsenos blokavimas, dėl šio pakeitimo turimų atsargų mažinti negalima.
 
-Ši funkcija išjungta pagal nutylėjimą. Administratoriai gali jį įjungti arba *išjungti*[ieškodami](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kokybės užsakymų, kurie pvz., užblokuotų atsargų funkcija funkcijų valdymo darbo srityje, numatomų gavimų iš kokybės užsakymų.
+Jei norite naudoti šią funkciją, ją turite įjungti savo sistemoje. Kaip ir tiekimo grandinės valdymo versija 10.0.29, funkcija įjungiama pagal numatytąjį nustatymą. Administratoriai šią funkciją *gali*[įjungti arba išjungti ieškodami kokybės užsakymų, kurie pvz., užblokuotų atsargų funkcija funkcijų valdymo darbo srityje, numatomų gavimų išjungimo.](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

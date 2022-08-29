@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 67c54f344ff7091f4a25198fdafa745c6c84d5d0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e1c1c274054ed1c14c9b3fc0595baa029bf3124d
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907151"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336372"
 ---
 # <a name="gs1-bar-codes"></a>GS1 brūkšniniai kodai
 
@@ -108,14 +108,14 @@ Kai duomenys išanalizuoti iš brūkšninio kodo, jie bus pateikti mobiliojo įr
 
 ## <a name="turn-on-the-gs1-feature"></a>GS1 funkcijos įjungimas
 
-Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
+Šią funkciją galėsite naudoti tik tada, kai ją įjungsite savo sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
 
 - **Modulis:** *Warehouse management*
-- **Priemonės pavadinimas: nuskaityti** *GS1 brūkšninius kodus*
+- **Funkcijos pavadinimas:** *GS1 brūkšninių kodų nuskaitymas*
 
 ### <a name="turn-on-the-enhanced-parser-for-gs1-barcodes-feature"></a>Įjungti išplėstinį GS1 brūkšninių kodų funkcijos analizatorių
 
-Jei naudojate GS1 brūkšninius kodus, *rekomenduojame įgalinti ir GS1 brūkšninių kodų funkcijos išplėstinį analizatorių*. Ši funkcija leidžia patobulintas GS1 brūkšninio kodo analizatoriaus diegimas. Jame pridėti šie patobulinimai:
+Jei naudojate GS1 brūkšninius kodus, *rekomenduojame įjungti ir GS1 brūkšninių kodų funkcijos išplėstinį analizatorių*. Ši funkcija leidžia patobulintas GS1 brūkšninio kodo analizatoriaus diegimas. Jame pridėti šie patobulinimai:
 
 - Jis atitinka GS1 bendrosios specifikacijos algoritmą, naudojamą simbolių duomenims išanalizuoti ir patikrinti, ar simbolio duomenys galioja pagal specifikaciją.
 - Nesvarbu, kad jūs norite nustatyti maksimalų identifikatoriaus **reikšmės** ilgį ir naudosite ilgiausią prefikso gretinimą naudojant sukonfigūruotus programos identifikatorius.
@@ -134,7 +134,7 @@ Norėdami nustatyti visuotines GS1 parinktis, atlikite tolesnius veiksmus.
 
     - **FVZ1 simbolis**, **Datamatrix** simbolis ir QR **kodo simbolis – nurodykite simbolius,** kurie turėtų būti suprantami kaip kiekvieno GS1 brūkšninio kodo tipo prefiksas.
     - **Grupės skyriklis** – nurodykite simbolį, kuris pakeičia ASCII grupės skyriklio simbolį.
-    - **Maksimalus identifikatoriaus ilgis** – nurodykite maksimalų leidžiamą programos identifikatoriaus simbolių skaičių. Šis laukas nėra būtinas, jei jūsų sistemoje *įjungta išplėstinė GS1* analizatoriaus funkcija.
+    - **Maksimalus identifikatoriaus ilgis** – nurodykite maksimalų leidžiamą programos identifikatoriaus simbolių skaičių. Šis laukas nėra būtinas, jei jūsų sistemai *įjungta išplėstinė GS1* analizatoriaus funkcija.
 
 > [!NOTE]
 > Prefiksai nurodo sistemai, kad brūkšninis kodas užkoduotas pagal GS1 standartą. Vienu metu įvairiais tikslais galima naudoti iki trijų prefiksų (**FNC1 simbolis**, **Duomenų matricos simbolis** ir **QR kodo simbolis**).

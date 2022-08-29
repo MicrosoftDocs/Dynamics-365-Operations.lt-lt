@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 2f1902ba76db59b61b0437eb3cd68ee94018b7c5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 55c83cdbc144f194fe80e8281a35ec7ff43d551e
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844474"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219944"
 ---
 # <a name="inventory-marking-with-planning-optimization"></a>Inventoriaus ženklinimas su „Planning Optimization“
 
@@ -43,9 +43,15 @@ Fiksavimas prasideda įskaitant atitinkamą ženklinimą, turimas rezervacijas i
 
 Kai patvirtinate suplanuotą užsakymą, **Patvirtinimo** teksto laukelis rodo **Naujinto ženklinimo** laukelį, kurį naudojate siekiant nustatyti ženklinimo parinktis užsakymams sukurtiems patvirtinimo metu. Pasirinkite vieną iš šių reikšmių:
 
-- **Ne** – Joks inventoriaus ženklinimas nėra taikomas.
-- **Standartinis** – Inventoriaus ženklinimas yra naujinamas pagal fiksavimą. Reikalavimo užsakymas (paklausa) yra ženklinamas pagal įgyvendinimo užsakymą (pasiūlą). Jei keletas kiekių lieka įgyvendinimo užsakyme, jis neženklinamas ir atitinkama informacija paliekama tuščia. Pavyzdžiui, jei pardavimo užsakymas 100 ea yra fiksuojamas pagal pirkimo užsakymą 150 ea, atitinkama informacija bus priskirta tik pardavimo užsakymui.
-- **Išplėstas** – Tiek reikalavimo užsakymas (paklausa), tiek įgyvendinimo užsakymas (pasiūla) bus paženklinti nepriklausomai nuo bet kokio kiekio, kuris lieka įgyvendinimo užsakyme. Pavyzdžiui, jei pardavimo užsakymas 100 ea yra fiksuojamas pagal pirkimo užsakymą 150 ea, atitinkama informacija bus priskirta tiek pardavimo užsakymui, tiek pirkimo užsakymui.
+- *Ne* – Joks inventoriaus ženklinimas nėra taikomas.
+- *Standartinis* – Inventoriaus ženklinimas yra naujinamas pagal fiksavimą. Reikalavimo užsakymas (paklausa) yra ženklinamas pagal įgyvendinimo užsakymą (pasiūlą). Jei keletas kiekių lieka įgyvendinimo užsakyme, jis neženklinamas ir atitinkama informacija paliekama tuščia. Pavyzdžiui, jei pardavimo užsakymas 100 ea yra fiksuojamas pagal pirkimo užsakymą 150 ea, atitinkama informacija bus priskirta tik pardavimo užsakymui.
+- *Išplėstas* – Tiek reikalavimo užsakymas (paklausa), tiek įgyvendinimo užsakymas (pasiūla) bus paženklinti nepriklausomai nuo bet kokio kiekio, kuris lieka įgyvendinimo užsakyme. Pavyzdžiui, jei pardavimo užsakymas 100 ea yra fiksuojamas pagal pirkimo užsakymą 150 ea, atitinkama informacija bus priskirta tiek pardavimo užsakymui, tiek pirkimo užsakymui.
+- *Vieno lygio standartas* – naudojamas vieno lygio žymėjimas. Vieno lygio žymėjimas žymi tik pagrindinę prekę, o ne jos komplektavimo specifikacijos (KS) komponentus. Todėl patvirtię galite palikti gamybos užsakymų komponentų priskyrimus kintamus. Naudojant vieno lygio žymėjimą sistema gali optimizuoti, kad sistema gali atlikti paskutiniųjų minučių poreikio pokyčius. Standartiniu *vieno* lygio žymėjimu poreikio užsakymai žymimi pagal jų įvykdymo užsakymus, bet įvykdymo užsakymai nepažymėti, jei yra likęs kiekis.
+- *Išplėstinis vieno* lygio – naudojamas vieno lygio žymėjimas. Išplėstinio *vieno* lygio žymėjimo metu poreikio užsakymai žymimi pagal jų įvykdymo užsakymus, o įvykdymo užsakymai visada žymimi, neatsižvelgiant į tai, ar liko kiekio.
 
+Norėdami nustatyti numatytąją žymėjimo pasirinktį savo sistemai, eikite į Bendrojo **planavimo \> nustatymo \> bendrojo planavimo parametrus**. Tada standartinio atnaujinimo **skirtuke** nustatykite **pageidaujamą** pasirinkties atnaujinimo žymėjimo lauką.
+
+> [!NOTE]
+> Vieno *lygio standartinio* ir *vieno lygio išplėstinės* *pasirinktys* galimos tik jei jūsų sistemoje įgalinta gamybos pagal užsakymą tiekimo automatizavimo funkcija. Daugiau informacijos apie šią funkciją ir apie tai, kaip ją įgalinti, ieškokite gamybos [pagal užsakymą tiekimo automatizavimą](../make-to-order-supply-automation.md).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

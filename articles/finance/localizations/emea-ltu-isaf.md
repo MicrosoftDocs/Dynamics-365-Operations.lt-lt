@@ -1,25 +1,25 @@
 ---
 title: Lietuvos i.SAF ataskaitos
 description: Šiame straipsnyje paaiškinama, kaip nustatyti ir dirbti su Lietuvos juridinių subjektų i.VZ ataskaita.
-author: LizaGolub
+author: AdamTrukawka
 ms.date: 03/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: TaxAuthority, TaxReportCollection, TaxReportVoucher, TaxTable
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 266884
 ms.search.region: Lithuania
-ms.author: kfend
+ms.author: atrukawk
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 309898791072994af07e183bed199e1f6cc89b5c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 266884
+ms.search.form: TaxAuthority, TaxReportCollection, TaxReportVoucher, TaxTable
+ms.openlocfilehash: 2c7d74e9a7d5d1630510125300c7bf6b71a2e6f8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893961"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292261"
 ---
 # <a name="isaf-reporting-for-lithuania"></a>Lietuvos i.SAF ataskaitos
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-13
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: ccc3a8c4b3d0649397b1d1f9139f7feebf39b02f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f79497a24a5b4dd501bb0d13d9eaca7e98672533
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852511"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306121"
 ---
 # <a name="inventory-visibility-inventory-allocation"></a>„Inventory Visibility“ atsargų paskirstymas
 
@@ -63,12 +63,11 @@ Atsargų paskirstymo priemonę sudaro šie komponentai:
 - Iš anksto nustatytas su paskirstymu susijęs duomenų šaltinis, faktiniai duomenys ir skaičiuojami duomenys.
 - Pritaikomos paskirstymo grupės, kurių didžiausias leidžiamas aštuonių lygių skaičius.
 - Paskirstymo programos programavimo sąsajų rinkinys (API):
-
-    - paskirstyti
-    - Perskirstyti
-    - nepaskirstyti
-    - Vartoti
-    - Užklausos
+  - paskirstyti
+  - Perskirstyti
+  - nepaskirstyti
+  - Vartoti
+  - Užklausos
 
 Paskirstymo funkcijos konfigūravimo procesas turi du veiksmus:
 
@@ -84,23 +83,26 @@ Duomenų šaltinis pavadintas `@iv`.
 Čia yra pradiniai faktiniai priemonės:
 
 - `@iv`
-
-    - `@allocated`
-    - `@cumulative_allocated`
-    - `@consumed`
-    - `@cumulative_consumed`
+  - `@allocated`
+  - `@cumulative_allocated`
+  - `@consumed`
+  - `@cumulative_consumed`
 
 Štai pradinių apskaičiuotų priemonių:
 
 - `@iv`
-
-    - `@iv.@available_to_allocate` = `??`– – `??``@iv.@allocated`
+  - `@iv.@available_to_allocate` = `??`– – `??``@iv.@allocated`
 
 ### <a name="add-other-physical-measures-to-the-available-to-allocate-calculated-measure"></a>Įtraukti kitus faktinius matus į prieinamą paskirstyti apskaičiuotą matą
 
 Norėdami naudoti paskirstymą, turite nustatyti skaičiuojamąjį matą, kurį galima paskirstyti (`@iv.@available_to_allocate`). Pavyzdžiui, turite duomenų `fno``onordered` šaltinį ir matą, `pos``inbound` duomenų šaltinį ir matą, taip pat norite atlikti turimos sumos ir `fno.onordered` kiekio paskirstymą `pos.inbound`. Šiuo atveju turėtų `@iv.@available_to_allocate` būti formulėje `pos.inbound``fno.onordered`. Čia pateikiamas pavyzdys:
 
 `@iv.@available_to_allocate` = `fno.onordered` + `pos.inbound`– `@iv.@allocated`
+
+> [!NOTE]
+> Duomenų šaltinis yra `@iv` iš anksto nustatytas duomenų šaltinis, o su prefiksu `@iv` apibrėžti faktiniai duomenys yra `@` iš anksto nustatyti duomenys. Šios priemonės yra iš anksto nustatyta paskirstymo funkcijos konfigūracija, todėl nekeiskite jų ar nenaikykite jų arba, tikėtina, kad įvyksta netikėtos klaidos naudojant paskirstymo funkciją.
+>
+> Galite pridėti naujų faktinių matų prie iš anksto apskaičiuoto matavimo `@iv.@available_to_allocate`, tačiau jo pavadinimo keisti negalima.
 
 ### <a name="change-the-allocation-group-name"></a>Paskirstymo grupės pavadinimo keitimas
 
@@ -136,7 +138,7 @@ Iškviesti `Allocate` API, norint paskirstyti konkrečių dimensijų turiinį pr
     "id": "string",
     "productId": "string",
     "dimensionDataSource": "string",
-    "targetGroups": {
+    "groups": {
         "groupA": "string",
         "groupB": "string",
         "groupC": "string"
@@ -157,7 +159,7 @@ Pavyzdžiui, produkto Tarkime, 1 vieta, 11 *vieta,* raudona spalva, *kanalas int
 {
     "id": "???",
     "productId": "Bike",
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"
@@ -176,7 +178,7 @@ Kiekis visada turi būti didesnis nei 0 (nulis).
 
 #### <a name="unallocate"></a>Nepaskirstyti
 
-`Unallocate` Naudokite API operacijai `Allocate` atšaukti. Neigiamas kiekis operacijoje neleistinas `Allocate`. Kūno yra `Unallocate` identiškas `Allocate`.
+`Unallocate` Naudokite API operacijai `Allocate` atšaukti. Neigiamas kiekis operacijoje neleistinas `Allocate`. Kūno yra `Unallocate` identiškas .`Allocate`
 
 #### <a name="reallocate"></a>Perskirstyti
 
@@ -192,7 +194,7 @@ Naudokite API, `Reallocate` norėdami perkelti kai kuriuos paskirstytus kiekius 
         "groupB": "string",
         "groupC": "string"
     },
-    "targetGroups": {
+    "groups": {
         "groupD": "string",
         "groupE": "string",
         "groupF": "string"
@@ -218,7 +220,7 @@ Pavyzdžiui, \[galite perkelti dvi dalis, kurių dimensijų vieta = 1, vieta = 1
         "customerGroup": "VIP",
         "region": "US"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "EU"
@@ -242,7 +244,7 @@ Pavyzdžiui, \[galite perkelti dvi dalis, kurių dimensijų vieta = 1, vieta = 1
     "id": "string",
     "productId": "string",
     "dimensionDataSource": "string",
-    "targetGroups": {
+    "groups": {
         "groupA": "string",
         "groupB": "string",
         "groupC": "string"
@@ -280,7 +282,7 @@ Dabar parduodamas trys atsiprašome, o jie paimti iš paskirstymo telkinio. Nor�
         "locationId": "11",
         "colorId": "red"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"
@@ -326,7 +328,7 @@ Kai norite naudoti 3 kiekį ir tiesiogiai rezervuoti šį kiekį, galite skambin
         "locationId": "11",
         "colorId": "red"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"

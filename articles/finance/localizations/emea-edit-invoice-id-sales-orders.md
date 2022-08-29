@@ -1,25 +1,25 @@
 ---
 title: Pardavimo užsakymų SF ID redagavimas (Rytų Europa)
 description: Šiame straipsnyje pateikta informacija apie gautinų sumų parametrus, kurie paveikia Čekijos Respublika, Estija, Vengrija, Lietuva, Latvija ir Lenkija važtaraščių ir SF numerius.
-author: ShylaThompson
+author: AdamTrukawka
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 268014
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland
-ms.author: kfend
+ms.author: atrukawk
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5c6bc70187680cdf0599c88fe36c25bea22ed0d8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 268014
+ms.search.form: CustParameters
+ms.openlocfilehash: 9cf6e077eb4ea3665204f38dc7602a290941967c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880638"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267736"
 ---
 # <a name="edit-invoice-ids-on-sales-orders-for-eastern-europe"></a>Pardavimo užsakymų SF ID redagavimas (Rytų Europa)
 

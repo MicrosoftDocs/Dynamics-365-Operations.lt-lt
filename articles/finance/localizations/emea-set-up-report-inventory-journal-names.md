@@ -1,25 +1,25 @@
 ---
 title: Atsargų žurnalo ataskaitos
 description: Kai naudojate konfigūruojamas atsargų ataskaitas, pagrįstas elektroninėmis ataskaitomis, turite nustatyti ryšį tarp konkrečios ataskaitos ir žurnalo tipo.
-author: anasyash
+author: AdamTrukawka
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: InventJournalName
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 265144
 ms.search.region: Estonia, Hungary, Latvia, Lithuania, Poland
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c2e1f8c534cf63ee65d29ccaa797c8a5a339a87b
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.custom: 265144
+ms.search.form: InventJournalName
+ms.openlocfilehash: 786cb792ad7f2acb10b451ebee3dfb247b287e8d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592464"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283432"
 ---
 # <a name="inventory-journal-reports"></a>Atsargų žurnalo ataskaitos
 

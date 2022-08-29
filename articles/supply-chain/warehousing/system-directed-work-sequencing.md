@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 8dfa7d8e3bdbfd74c6f95d8b79ac1b0698f73bd6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1dab8d8bdace046f0f061713600fd1eab69e7c12
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849132"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335472"
 ---
 # <a name="system-directed-work-sequencing"></a>Sistemos nurodyta darbo seka
 
@@ -35,7 +35,7 @@ Todėl ši funkcija leidžia tolimesnį prekių paėmimo procesų optimizavimą,
 
 ## <a name="turn-on-the-organization-wide-system-directed-work-sequencing-feature"></a>Organizacijoje naudojamos sistemos nurodytos darbo eigos funkcijos įjungimas
 
-Norėdami naudoti sistemos nurodytos darbo eigos funkciją, įjunkite ją savo sistemoje. Administratoriai gali naudoti [Funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Ten ši funkcija pateikiama taip:
+Kad būtų galima naudoti sistemos nurodyta darbo seką, jūsų sistemoje reikia įjungti funkciją. Administratoriai gali naudoti [Funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo sritį, norėdami sužinoti funkcijos būseną ir įjungti ją, jei reikia. Ten ši funkcija pateikiama taip:
 
 - **Modulis:** *Sandėlio valdymas*
 - **Funkcijos pavadinimas:** *Organizacijoje naudojama sistemos nurodyta darbo seka*
@@ -44,7 +44,7 @@ Norėdami naudoti sistemos nurodytos darbo eigos funkciją, įjunkite ją savo s
 
 ### <a name="make-demo-data-available"></a>Demonstracinių duomenų įgalinimas
 
-Norėdami dirbti naudodami scenarijų, naudodami šiame straipsnyje pateiktas vertes, turite dirbti su sistema, kurioje įdiegti standartiniai demonstraciniai duomenys. Taip pat, turite pasirinkti **USMF** juridinį subjektą. Scenarijus naudoja *51* sandėlio demonstracinius duomenis.
+Norėdami dirbti naudodami scenarijų, naudodami šiame straipsnyje pateiktas vertes, turite dirbti su sistema, kurioje įdiegti standartiniai [demonstraciniai](../../fin-ops-core/fin-ops/get-started/demo-data.md) duomenys. Taip pat, turite pasirinkti **USMF** juridinį subjektą. Scenarijus naudoja *51* sandėlio demonstracinius duomenis.
 
 > [!IMPORTANT]
 > Prieš išleisdami užsakymus į sandėlį, įsitikinkite, kad prekių paėmimo vietose pakanka atsargų visiems užsakymams.

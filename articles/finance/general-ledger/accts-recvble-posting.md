@@ -15,18 +15,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 492bbd31cae08a93cd68e5ce120d02a62141241b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0d679595a1f702c4e3ade138a87c817d245fcf79
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874580"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324336"
 ---
 # <a name="accounts-receivable-posting"></a>Gautinų sumų registravimas
 
 [!include [banner](../includes/banner.md)]
 
 Pirminis gautinų sumų modulio **registravimo** šablonas yra kliento registravimo šablonas. Šis registravimo šablonas nustato suminė sąskaitą, kuri naudojama, kai klientų balansai registruojami DK. Su suminė sąskaita yra pagrindinė sąskaita. Tai dar vadinama gautinų sumų prekybos sąskaita.
+
+Kliento **ir DK suderinimo** ataskaita gali būti naudojama užregistravimo metu, kad būtų padėti suderinti kliento ir DK sąskaitų balansus. Ataskaitoje naudojama informacija, kuri yra kliento registravimo šablono sum sąskaitoje. Ji nenaudos sumnės sąskaitos iš apskaitos, kuri sukuriama dokumentui. Jei užregistrę operacijas keičiate kliento registravimo šabloną arba klientų grupę, priskirtą klientui, ataskaitoje gali būti rodomi kliento ir DK sąskaitos balanso skirtumai. Norėdami peržiūrėti tik eilutes, kuriose yra skirtumų, ir visas eilutes, kurių kliento sąskaitos ir DK sąskaitos yra nulinės, **spausdindami** ataskaitą pasirinkite tik parametrą Skirtumai.
 
 Daugiau informacijos žr. [Kliento publikavimo profiliai](../accounts-receivable/customer-posting-profiles.md).
 

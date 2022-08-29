@@ -2,7 +2,7 @@
 title: Pašalintos arba nebenaudojamos „Dynamics 365 Supply Chain Management“ funkcijos
 description: Šiame straipsnyje aprašomos priemonės, kurios buvo pašalintos arba suplanuotos šalinti Dynamics 365 Supply Chain Management.
 author: kamaybac
-ms.date: 04/27/2021
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7c7dd90fea79ae83d238ed51b9ec1fc42e9e36b2
-ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
-ms.translationtype: HT
+ms.openlocfilehash: f70d05f5663d8249b2435ad353421c278692a9ac
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "9171522"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218810"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Pašalintos arba nebenaudojamos „Dynamics 365 Supply Chain Management“ funkcijos
 
@@ -33,6 +33,17 @@ ms.locfileid: "9171522"
 > [!NOTE]
 > Išsami informacija apie finansų ir operacijų programėlių objektus pateikta techninės [nuorodos ataskaitose](/dynamics/s-e/). Galite palyginti skirtingas šių ataskaitų versijas ir sužinoti apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje finansų ir operacijų programėlių versijoje.
 
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10029-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Supply Chain Management“ 10.0.29 versijoje
+
+### <a name="stock-transfer-orders-that-have-tax-on-the-transfer-price"></a>Atsargų perkėlimo užsakymai, kurių perkėlimo kainai taikomas mokestis
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Nerekomendavimo/pašalinimo priežastis** | Atsargų [perkėlimo užsakymai, kurie turi mokesčių už perkėlimo kainos](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md) funkciją, pakeičiami [Indijos atsargų perkėlimo užsakymais](../../finance/localizations/apac-ind-stock-transfer.md). |
+| **Pakeitė kita funkcija?**   | Taip, atsargų [perkėlimo užsakymai, kurie turi mokestį](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md)[už perkėlimo kainos funkciją, pakeičiami Indijos atsargų perkėlimo užsakymais](../../finance/localizations/apac-ind-stock-transfer.md). |
+| **Paveiktos produkto sritys** | Tiekimo grandinės valdymas – atsargos |
+| **Visuotinio diegimo parinktis** | Debesies ir vietinis |
+| **Būsena** | <p>Yra pasenusi. Atsargų *perkėlimo užsakymai, kurie turi mokesčių už perkėlimo kainos* funkciją, nepalaiko klaidų pataisų ir saugos pataisų.</p><p>Po 2023 m. balandžio mėn. klientų bus prašoma naudoti patobulintas funkcijas, *pagal numatytuosius nustatymus Indijos atsargų* perkėlimo užsakymus. Po 2023 m. spalio mėn. atsargų perkėlimo užsakymai, *kurie* turi mokesčių už perkėlimo kainos funkciją, nebegalės būti prieinami, *o* klientai bus paprašyti perkelti į patobulintus Indijos atsargų perkėlimo užsakymus.</p><p>Daugiau informacijos rasite Indijos atsargų [perkėlimo užsakymuose](../../finance/localizations/apac-ind-stock-transfer.md).</p> |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Supply Chain Management“ 10.0.19 versijoje
 

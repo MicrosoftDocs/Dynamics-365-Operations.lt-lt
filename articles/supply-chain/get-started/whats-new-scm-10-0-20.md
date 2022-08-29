@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 3465866df0d766b2300eb4fd1989c034cedbbb22
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
-ms.translationtype: HT
+ms.openlocfilehash: d99a7a7d0261ba0afd19efbb237dff329527723d
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9123815"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219161"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Naujienos ir pakeitimai „Dynamics 365 Supply Chain Management” 10.0.20 (2021 m. rugpjūtis)
 
@@ -49,7 +49,7 @@ Toliau pateiktoje lentelėje pateikti funkcijos patobulinimai, įtraukti į šį
 | Modulis | Funkcijos&nbsp;pavadinimas&nbsp;funkcijos&nbsp;valdyme | Daugiau informacijos |
 |---|---|---|
 | Bendrasis planavimas | Vienu metu vykdomas pakoreguotos poreikio prognozės įgaliojimas | Ši funkcija leidžia lygiagrečiai autorizuoti pakoreguotą poreikio prognozę iš **Pakoreguotos poreikio prognozės** puslapio. Šios funkcijos tikslas yra padidinti efektyvumą, kai autorizuojate didelį skaičių prognozių. Autorizuodamas vartotojas gali nurodyti **Gijų skaičių** autorizavimo dialogo lange. |
-| Bendrasis planavimas | (Peržiūros versija) Paketais valdomas tvirtinimas ir konsolidacija suplanuotiems nesupakuotiems ir supakuotiems paketiniams užsakymams | Ši funkcija leidžia naudoti paketines užduotis tvirtinant ir konsoliduojant suplanuotus nesupakuotus ir supakuotus užsakymus. |
+| Bendrasis planavimas | Paketais valdomas tvirtinimas ir konsolidacija suplanuotiems nesupakuotiems ir supakuotiems paketiniams užsakymams | Ši funkcija leidžia naudoti paketines užduotis tvirtinant ir konsoliduojant suplanuotus nesupakuotus ir supakuotus užsakymus. |
 | Gamybos kontrolė | Kopijuoti bendruosius maršrutus | Ši funkcija pagerina kopijavimo maršruto funkciją, leidžiančią vartotojams kopijuoti maršrutus, kurie nėra konkretūs prekei. Ji įgalina sistemą atnaujinti visą reikiamą informaciją (pavyzdžiui, svetainę, maršruto grupę, išteklių reikalavimus ir įvairius laikus) po to, kai maršruto kopijavimo funkcija buvo panaudota perrašyti maršrutui, dar nepriskirtam prie prekės. |
 | Gamybos kontrolė | Atnaujinti susijusius išteklių reikalavimus, kai keičiama maršruto operacija | Ši funkcija leidžia sistemai atnaujinti susijusius išteklių reikalavimus, kai vartotojas pakeičia esamo maršruto veiksmo operaciją. |
 | Produkto informacijos valdymas | Išankstinis komplektavimo specifikacijos ataskaitos apdorojimas, kad nesibaigtų skirtasis laikas | Dėl šios funkcijos komplektavimo specifikacijos ataskaita bus apdorota iš anksto. Taip išvengsite skirtojo laiko problemų, kai ataskaitoje bus didelė duomenų apkrova. |

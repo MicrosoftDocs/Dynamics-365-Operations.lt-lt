@@ -14,19 +14,15 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8569cabf72871396b9935a14a5637e5e645705fb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f9c107e31e58ba1302cd02e2e82aa405dda0fdef
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848232"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337335"
 ---
 # <a name="create-coverage-options"></a>Padengimo parinkčių kūrimas
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Padengimo galimybės nustato tai, kas turėtų būti apdraustas arba tai, koks padengimas yra galimas draudimo plane. Pavyzdžiui, medicininiame plane galite turėti **tik darbuotojas** parinktį, **darbuotojas + 1** parinktį ir **šeima** parinktį. Gyvybės draudimui galite pasiūlyti **1 x atlyginimo** arba **2 x atlyginimo** padengimą.
 
