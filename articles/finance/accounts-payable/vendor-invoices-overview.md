@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b88390085d86956c38c0fc167395509d0c54f860
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 565e45a1c396b9144b4a6437056a0040b2fbde1d
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894177"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228758"
 ---
 # <a name="vendor-invoices-overview"></a>Tiekėjų sąskaitų faktūrų apžvalga
 
@@ -71,10 +71,10 @@ Jūsų organizacija gali naudoti darbo eigas, kad galėtų valdyti tiekėjų SF 
 
 Toliau pateikiami keli būdai, kaip galima išvengti SF pateikimo į darbo eigą.
 
-- **Bendroji SF suma ir užregistruota bendroji suma nėra lygios.** Asmuo pateikęs SF gaus įspėjimą, kad bendros sumos nesutampa. Įspėjime pateikta galimybė taisyti balansus prieš pateikiant sąskaitą į darbo eigą dar kartą. Ši funkcija galima tik tada, kai parametras **Uždrausti pateikti į darbo eigą, kai sąskaitos faktūros ir registruotos sąskaitos faktūros sumos nesutampa** puslapyje **Funkcijų valdymas** yra įjungtas. 
-- **SF yra nepriskirtų išlaidų.** Asmuo, kuris pateikė SF, gaus įspėjimą, kad sąskaitoje yra nepriskirtų išlaidų, todėl jis galės pakoreguoti SF prieš pateikdamas ją į darbo eigą. Ši funkcija galima tik tada, kai parametras **Uždrausti pateikti į darbo eigą, kai tiekėjo SF yra nepriskirtų išlaidų** puslapyje **Funkcijų valdymas** yra įjungtas.
-- **SF numeris yra toks pats kaip kitos užregistruotos SF.** Asmuo, kuris pateikė sąskaitą faktūrą, gaus pranešimą, nurodantį, kad rasta SF su dublikato numeriu. Dublikato numeris gali būti pataisytas prieš iš naujo pateikiant SF darbo eigai. Šis pranešimas bus rodomas kai **Tikrinti sąskaitos numerį naudotą** parametras mokėtinose Sąskaitose yra nustatytas **Atmestas dublikatas**. Ši funkcija galima, jei parametras **Drausti pateikimą į darbo eigą, kai SF numerį jau turi kita užregistruota SF, o sistema nenustatyta, kad leistų priimti dubliuotus SF numerius** puslapyje **Funkcijų valdymas** yra įjungtas.
-- **Sąskaitoje faktūroje yra eilutė, kurioje SF kiekis yra mažesnis nei atitinkamas produkto gavimo kvitų kiekis.** Asmuo, kuris pateikia arba bando registruoti sąskaitą faktūrą, gaus pranešimą, kad kiekiai nėra lygūs. Šis pranešimas suteikia galimybę pataisyti vertes prieš pateikiant sąskaitą į darbo eigą dar kartą. Ši funkcija galima, jei **Tiekėjo sąskaitų faktūrų registravimo ir pateikimo darbo eigai** parametras yra įjungtas **Funkcijų valdymo** puslapyje, o **Registravimo ir pateikimo darbo eigai** parametras įjungtas **Mokėtinų sumų parametrų** puslapyje.
+- **Bendroji SF suma ir užregistruota bendroji suma nėra lygios.** SF pateikęs vartotojas gaus įspėjimą, kad bendrosios sumos nėra lygios. Šis įspėjimas suteikia vartotojui galimybę ištaisyti balansus prieš iš naujo pateikia SF darbo eigos sistemai. **·** **·** **·** **Ši** funkcija galima, jei parinktis Uždrausti pateikimą darbo eigai, kai bendroji SF suma ir registruota SF suma nėra lygūs parametrai funkcijų valdymo puslapyje ir darbo eigos pasirinktis, kai mokėtinų sumų parametrų puslapyje įjungti sąskaitos faktūros sumos ir užregistruotos sumos neatitinka parametro. 
+- **SF yra nepriskirtų išlaidų.** SF pateikęs vartotojas gaus įspėjimą, kad SF yra nepaskirstytų mokesčių. Tokiu būdu vartotojas gali pataisyti SF prieš dar kartą pateikti ją darbo eigos sistemai. **·** **·** **·** **Ši** funkcija galima, jei parinktis Uždrausti pateikimą darbo eigai yra nepaskirstytos išlaidos tiekėjo SF parametre, kuris yra funkcijų valdymo puslapyje ir darbo eigos pasirinktyje, kai mokėtinų sumų parametrų puslapyje yra nepaskirstytų mokesčių.
+- **SF numeris yra toks pats kaip kitos užregistruotos SF.** SF pateikęs vartotojas gaus įspėjimą, kad rasta SF su dublikato numeriu. Vartotojas gali pataisyti dublikato numerį prieš iš naujo pateikti SF darbo eigos sistemai. Įspėjimas bus rodomas, jei nustatytas **parametro Mokėtinos sumos** SF numerio tikrinimas kaip Atmesti **dublikatą**. Ši funkcija galima, jei parametras **Drausti pateikimą į darbo eigą, kai SF numerį jau turi kita užregistruota SF, o sistema nenustatyta, kad leistų priimti dubliuotus SF numerius** puslapyje **Funkcijų valdymas** yra įjungtas.
+- **Sąskaitoje faktūroje yra eilutė, kurioje SF kiekis yra mažesnis nei atitinkamas produkto gavimo kvitų kiekis.** VARTOTOJAS, kuris pateikia SF arba bando registruoti, gaus pranešimą, kad kiekiai nėra lygūs. Šis pranešimas suteikia vartotojui galimybę ištaisyti vertes prieš iš naujo pateikia SF darbo eigos sistemai. Ši funkcija galima **, jei puslapyje Funkcijų valdymas esantis blokuoti tiekėjo SF registravimą ir pateikimą į darbo eigos parametrą ir mokėtinų sumų parametrų puslapyje blokuoti registravimą ir pateikimą darbo eigai yra įjungtas** **·** **·** **·**.
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Tiekėjo SF ir produkto gavimo kvitų gretinimas
 
@@ -142,7 +142,7 @@ Kiekvienos operacijos ataskaitoje pateikiama ši informacija:
 Kai generuojate **Tiekėjo atvirų operacijų** ataskaitą, galimi šie numatytieji parametrai. Juos galite naudoti norėdami filtruoti duomenis, kurie bus įtraukti į ataskaitą.
 
 - **Neįtraukti būsimo sudengimo** – Pasirinkite šį žymės langelį, jei norite neįtraukti operacijų, kurios sudengtos po datos, įvestos laukelyje **Atviros operacijos per**.
-- **Atviros operacijos per** – įveskite datą, iki kurios norite įtraukti atviras operacijas. Jei neįvesite datos, šiame lauke bus nustatyta maksimali data. (Maksimali data yra vėliausia data, kurią sistema priims, 2154 m. gruodžio 31 d.) Pagal numatytuosius nustatymus, kitą kartą paleidus ataskaitą, šis laukas bus nustatytas pagal paskutinę įvestą datą.
+- **Atviros operacijos per** – įveskite datą, iki kurios norite įtraukti atviras operacijas. Jei neįvesite datos, šiame lauke bus nustatyta maksimali data. (Vėliausi data yra vėliausi data, kurią sistema priims, 2154 m. gruodžio 31 d.) Pagal numatytuosius nustatymus, kitą kartą paleidus ataskaitą, šis laukas bus nustatytas pagal paskutinę įvestą datą.
 
 Norėdami dar labiau sumažinti į ataskaitą įtrauktų operacijų duomenis, galite naudoti **Įtraukti įrašus** lauką.
 

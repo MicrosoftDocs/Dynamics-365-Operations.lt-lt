@@ -1,26 +1,26 @@
 ---
 title: ER formato kūrimas, kad būtų galima sugeneruoti „Excel” formato ataskaitą su į puslapių antraštes ar poraštes įdėtais vaizdais
 description: Šiame straipsnyje paaiškinama, kaip naudoti elektronines ataskaitas (ER) norint sugeneruoti verslo dokumentus, kurių puslapių antraštėse arba poraštėse yra vaizdų ir figūrų.
-author: NickSelin
+author: kfend
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1cfde60459e440c851edb97276321216b1654e40
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: EROperationDesigner, ERParameters
+ms.openlocfilehash: 5b46d92094bb3f2dab67a5cb2f0e1a34b05d52f0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854849"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281819"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>ER formato kūrimas, kad būtų galima sugeneruoti „Excel” formato ataskaitą su į puslapių antraštes ar poraštes įdėtais vaizdais
 
@@ -196,7 +196,7 @@ Pavyzdžiui, šiame skyriuje galite naudoti „Microsoft” teikiamas ER konfig�
 
 ![Pasirinktinio mokėjimo formato konfigūracijos kūrimas išplečiamajame dialogo lange Kurti konfigūraciją.](./media/er-embed-images-header-footer-excel-reports-add-derived-format.png)
 
-Sukuriama 240.112.1 versijos **Laisvos formos sąskaitos faktūros („Excel”) pasirinktinio** ER formato konfigūracija. Ši versija turi [būseną](general-electronic-reporting.md#component-versioning) **Juodraštis** ir ji gali būti redaguojama. Jūsų pritaikyto ER formato dabartinis turinys atitinka „Microsoft” pateikto formato turinį.
+Sukuriama 240.112.1 versijos **Laisvos formos sąskaitos faktūros („Excel”) pasirinktinio** ER formato konfigūracija. Šios versijos būsena yra Juodraštis **ir** ji gali būti redaguojama. Jūsų pritaikyto ER formato dabartinis turinys atitinka „Microsoft” pateikto formato turinį.
 
 ![Nauja ER formato konfigūracijos versija, sukurta Konfigūracijų puslapyje.](./media/er-embed-images-header-footer-excel-reports-derived-format-configuration1.png)
 
@@ -244,7 +244,7 @@ Sukonfigūruokite pasirinktinį formatą taip, kad įmonės logotipo vaizdas bū
 
 ### <a name="mark-the-custom-format-as-runnable"></a><a id="MarkFormatRunnable"></a>Pažymėkite tinkintą formatą kaip leistiną
 
-Kadangi pirmoji tinkinto formato versija, kurios būsena **Juodraštis**, buvo sukurta, formatą galite paleisti testavimui. Norėdami paleisti ataskaitą, apdorokite tiekėjo mokėjimą naudodami mokėjimo būdą, nurodantį jūsų pritaikytą ER formatą. Pagal numatytuosius nustatymus jums iškvietus ER formatą programoje tik būseną` **Baigta** ar **Bendrinta** turinčios versijos [bus svarstomos](general-electronic-reporting.md#component-versioning). Toks veikimas užtikrina, kad nebaigto dizaino ER formatai nebūtų naudojami. Tačiau, atliekant bandomuosius vykdymus, galite priversti programą naudoti ER formato **Juodraštis** būsenos versiją. Tokiu būdu galite koreguoti dabartinio formato versiją, jei reikia atlikti pakeitimus. Daugiau informacijos žr. [Taikomumas](electronic-reporting-destinations.md#applicability).
+Kadangi pirmoji tinkinto formato versija, kurios būsena **Juodraštis**, buvo sukurta, formatą galite paleisti testavimui. Norėdami paleisti ataskaitą, apdorokite tiekėjo mokėjimą naudodami mokėjimo būdą, nurodantį jūsų pritaikytą ER formatą. Pagal numatytuosius nustatymus, kai iškiesite ER formatą iš programos, **bus** atsižvelgiama tik į versijas, kurių būsena yra **Baigta arba Bendrai** naudojama. Toks veikimas užtikrina, kad nebaigto dizaino ER formatai nebūtų naudojami. Tačiau, atliekant bandomuosius vykdymus, galite priversti programą naudoti ER formato **Juodraštis** būsenos versiją. Tokiu būdu galite koreguoti dabartinio formato versiją, jei reikia atlikti pakeitimus. Daugiau informacijos žr. [Taikomumas](electronic-reporting-destinations.md#applicability).
 
 Norėdami naudoti ER formato juodraščio versiją, turite aiškiai pažymėti ER formatą.
 

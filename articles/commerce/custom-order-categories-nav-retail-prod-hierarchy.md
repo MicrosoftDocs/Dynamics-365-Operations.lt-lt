@@ -2,7 +2,7 @@
 title: Prekiaujančių subjektų rūšiavimo tvarkos keitimas
 description: Šiame straipsnyje paaiškinamos koncepcijos, susijusios su įvairių su preke susijusių objektų rodymo tvarka Dynamics 365 Commerce.
 author: josaw1
-ms.date: 08/05/2019
+ms.date: 08/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,27 +15,27 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4e7a7bd42b0ef72ae6bc3f52a8857602b6282907
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 80586597f4f60476b341e4cf1cfd90f3681e15c0
+ms.sourcegitcommit: 52e31b1ef2b3ed8675de931d06090cd57e057fc2
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847659"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9265842"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Prekiaujančių subjektų rūšiavimo tvarkos keitimas
 
 
 [!Include [banner](includes/banner.md)]
 
-Pardavėjai produktų atradimą laiko pirminiu įrankiu, skirtu bendrauti su klientais visuose kanaluose. Įvairios funkcijos gali padėti klientams lengviau atrasti produktus. Pavyzdžiui, jie gali naršyti po kategorijas, ieškoti ir filtruoti.
+Pardavėjai produktų atradimą laiko pirminiu įrankiu, skirtu bendrauti su klientais visuose kanaluose. Yra keletas priemonių, kurios gali padėti klientams lengvai atrasti produktus. Pavyzdžiui, klientai gali naršyti kategorijas, ieškoti ir filtruoti.
 
 Šiame straipsnyje paaiškinamos koncepcijos, susijusios su įvairių su preke susijusių objektų rodymo tvarka. Čia taip pat aiškinama, kaip pakeisti rūšiavimo tvarką.
 
 ## <a name="overview"></a>Apžvalga
 
-Patobulinta įvairių su prekybą susijusių subjektų rūšiavimo pagalba. Ši pagalba dabar geriau suderinta su esamais klientų scenarijais, kuriems seniau reikėjo plėtinių iš diegimo partnerių.
+Commerce rūšiuojant įvairius su atributais susijusius objektus sulygiuojami su esamais kliento scenarijais ir nebereikia diegimo partnerių plėtinių.
 
-Senesnėse nei 10.0.5 „Retail” versijose kategorijų rūšiavimas naršymo hierarchijoje buvo alfabetinis. Naujos pasirinktinės rūšiavimo tvarkos funkcijos leidžia prekybos vadybininkams konfigūruoti įvairių su prekyba susijusių subjektų tvarką visuose galutiniuose klientuose. Šiuos klientus sudaro centrinės būstinės (HQ) ir skambučių centrai.
+Naudojant "Commerce" 10.0.5 ir ankstesnes versijas, kategorijų rūšiavimo tvarka naršymo hierarchijoje buvo abėcėlės tvarka. Esama pasirinktinio rūšiavimo tvarkos funkcija leidžia prekybos vadovams konfigūruoti įvairių su preke susijusių subjektų rūšiavimo tvarką visuose galutiniame vartotojo klientuose. Šiuos klientus sudaro centrinės būstinės (HQ) ir skambučių centrai.
 
 ## <a name="configure-the-display-order-for-categories-in-the-product-hierarchy"></a>Produktų hierarchijos kategorijų rodymo tvarkos konfigūravimas
 
@@ -63,11 +63,11 @@ Prieš baigdami šią procedūrą, savo aplinkoje turi įdiegti demonstracinius 
 2. Sąraše pažymėkite hierarchiją **Mados naršymas**.
 3. Spustelėkite **Redaguoti kategorijos hierarchiją**.
 4. Spustelėkite **Redaguoti**.
-5. Medyje pažymėkite **Mada \> Drabužiai moterims \> Batai moterims**.
+5. Medyje pasirinkite Madingos **\> moterys moters \> rūbais**.
 6. Lauke **Rodymo tvarka** įveskite skaičių.
 7. Medyje pažymėkite **Mada \> Drabužiai moterims \> Viršutiniai drabužiai**.
 
-    Panašiai galite apibrėžti rūšiavimo tvarką antrinėse kategorijose.
+Taip pat galite nustatyti subkategorijų rūšiavimo tvarką.
 
 8. Medyje pažymėkite **Mada \> Drabužiai vyrams \> Laisvalaikio marškinėliai**.
 9. Lauke **Rodymo tvarka** įveskite skaičių.
@@ -84,7 +84,7 @@ Kanalo naršymo hierarchijos rodymo tvarka atsispindi HQ, kataloge ir kanaluose.
 ![POS su pasirinktai surūšiuotomis kategorijomis.](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
-> Pagal numatytuosius parametrus, pasirinktinio rūšiavimo tvarka yra išjungta. Kaip įjungti šią funkciją ir kitas funkcijas, žr. [Funkcijų valdymas](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
-
+> Pagal numatytuosius nustatymus **funkcija Įgalinti prekybos objektų** rodymo užsakymą išjungta. Funkcijų [valdymą naudokite](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), norėdami jį įjungti. Sureguliuoę funkciją iš paskirstymo grafiko **paleiskite visuotinę konfigūraciją -1110** CDX užduotį.
+> Jei jūsų kategorijų užsakymas EKA nėra atnaujintas, iš naujo suaktyvinkite įrenginį. Kategorijos informacija surenkama, kai vyksta įrenginio aktyvinimas, todėl įrenginiui gali reikėti atsisakyti kategorijos informacijos naudojant atnaujintus rodymo užsakymus. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

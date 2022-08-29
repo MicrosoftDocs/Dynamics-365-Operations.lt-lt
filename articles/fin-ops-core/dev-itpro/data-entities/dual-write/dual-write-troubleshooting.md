@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2f263e331d23ce0ddf60a4abc2467513aa342445
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: be3d72063ac18b9abea77d5aec6e230b0c930ae6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112371"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289367"
 ---
 # <a name="general-troubleshooting"></a>Bendroji trikčių šalinimo informacija
 
@@ -105,7 +105,7 @@ Naršyklės nustatymuose turi būti leidžiami trečiosios šalies sausainiai.
 2.  Jei pasirinkta "Blokuoti trečiosios šalies sausainius", "Blokuoti trečiosios šalies sausainius" arba "Blokuoti trečiosios šalies sausainius", eikite į "Sites", kuri visada gali naudoti sausainius, ir spustelėkite **Įtraukti**. 
 3.  Įtraukite finansų & operacijų programėlių svetainės pavadinimą – https://<your_FinOp_instance>.cloudax.dynamics.com. Įsitikinkite, kad pažymėsite žymės langelį "Visi sausainiai" tik šioje svetainėje. 
 
-### <a name="microsoft-edge-browser"></a>Microsoft Edge naršyklė
+### <a name="microsoft-edge-browser"></a>Microsoft Edge Naršyklės
 1.  Pereikite prie Parametrų – > Svetainės teisės - > sausainius ir svetainės duomenis.
 2.  Išjungti parinktį Blokuoti trečiosios šalies sausainius.  
 
@@ -166,7 +166,7 @@ Palaikymo komandai gali reikėti peržiūrėti tinklo sekimus, siekiant diagnozu
 3. Vykdykite savo scenarijų ir atsižvelkite į registruojamas užklausas.
 4. Dešiniuoju pelės mygtuku spustelėkite įrašus ir pasirinkite **Įrašyti viską kaip HAR su turiniu**.
 
-### <a name="microsoft-edge-browser"></a>Microsoft Edge naršyklė
+### <a name="microsoft-edge-browser"></a>Microsoft Edge Naršyklės
 
 1. Atidarytame skirtuke paspauskite **F12** arba pasirinkite **Programavimo įrankiai**, kad atidarytumėte programavimo įrankius.
 2. Atidarykite skirtuką **Tinklas**.

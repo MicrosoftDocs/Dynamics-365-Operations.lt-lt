@@ -7,14 +7,14 @@ ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
+ms.author: josaw
 ms.search.validFrom: 2019-10-08
-ms.openlocfilehash: 11ce0b146f2e64092b0d03dc7416660d76380cd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3376e6a901b692371a44b5c74c1e6b4afd0cd573
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885407"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275072"
 ---
 # <a name="control-unit-integration-sample-for-sweden"></a>Švedijos kontrolės įtaiso integracijos pavyzdys
 
@@ -95,7 +95,7 @@ Daugiau informacijos apie tai, kaip dirbti su kvitų formatais, žr. Kvitų [ša
 Švedijos kontrolės vieneto integravimo pavyzdys remiasi finansinio [integravimo funkcija ir](fiscal-integration-for-retail-channel.md) yra "Retail SDK" dalis. Pavyzdys yra sprendimų **saugyklos src\\ FiscalIntegration\\ CleanCash**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) aplanke (pvz., [išleidimo / 9.33 pavyzdys](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/CleanCash)). Pavyzdį [sudaro](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskalinio dokumento teikėjas, kuris yra "Commerce Runtime (CRT) plėtinys, ir fiskalinė jungtis, kuri yra "Commerce Hardware Station" plėtinys. Norėdami gauti daugiau informacijos apie tai, kaip naudoti "Retail SDK", [žr. "Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)[" architektūrą ir nepriklausomo pakavimo SDK sukūrimo pardavimo galimybių sukūrimą](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
-> Dėl naujo nepriklausomo pakavimo [ir plėtinio modelio](../dev-itpro/build-pipeline.md) apribojimų, šiuo metu jo negalima naudoti šiame finansinio integravimo pavyzdyje. Turite naudoti ankstesnę "Retail SDK" versiją programavimo virtualiojoje kompiuteryje (VM) ciklo Microsoft Dynamics tarnybose (LCS). Daugiau informacijos ieškokite Švedijos [(senesnės gamybos) valdymo vieneto integravimo pavyzdžio diegimo rekomendacijose](emea-swe-fi-sample-sdk.md).
+> Dėl naujo nepriklausomo pakavimo [ir plėtinio modelio](../dev-itpro/build-pipeline.md) apribojimų, šiuo metu jo negalima naudoti šiame finansinio integravimo pavyzdyje. Turite naudoti ankstesnę "Retail SDK" versiją programavimo virtualiojoje kompiuteryje (VM) ciklo Microsoft Dynamics tarnybose (LCS). Daugiau informacijos ieškokite Švedijos ([senesnės gamybos) valdymo vieneto integravimo pavyzdžio diegimo rekomendacijose](emea-swe-fi-sample-sdk.md).
 >
 > Naujas nepriklausomas pakavimo ir plėtinio modelis, skirtas finansinio integravimo pavyzdžiui, planuojamas vėlesnėms versijoms.
 
@@ -172,7 +172,7 @@ Toliau pateiktas numatytasis duomenų susiejimas yra įtrauktas į finansinio do
 ### <a name="configure-channel-components"></a>Konfigūruoti kanalo komponentus
 
 > [!WARNING]
-> Dėl naujo nepriklausomo pakavimo [ir plėtinio modelio](../dev-itpro/build-pipeline.md) apribojimų, šiuo metu jo negalima naudoti šiame finansinio integravimo pavyzdyje. Turite naudoti ankstesnę "Retail SDK" versiją LCS programuotojo VM. Daugiau informacijos ieškokite Švedijos [(senesnės gamybos) valdymo vieneto integravimo pavyzdžio diegimo rekomendacijose](emea-swe-fi-sample-sdk.md).
+> Dėl naujo nepriklausomo pakavimo [ir plėtinio modelio](../dev-itpro/build-pipeline.md) apribojimų, šiuo metu jo negalima naudoti šiame finansinio integravimo pavyzdyje. Turite naudoti ankstesnę "Retail SDK" versiją LCS programuotojo VM. Daugiau informacijos ieškokite Švedijos ([senesnės gamybos) valdymo vieneto integravimo pavyzdžio diegimo rekomendacijose](emea-swe-fi-sample-sdk.md).
 >
 > Naujas nepriklausomas pakavimo ir plėtinio modelis, skirtas finansinio integravimo pavyzdžiui, planuojamas vėlesnėms versijoms.
 
@@ -221,7 +221,7 @@ Norėdami sugeneruoti [ir](fiscal-integration-sample-build-pipeline.md) paleisti
 Švedijos kontrolės vieneto integravimo pavyzdys remiasi finansinio [integravimo funkcija ir](fiscal-integration-for-retail-channel.md) yra "Retail SDK" dalis. Pavyzdys yra sprendimų **saugyklos src\\ FiscalIntegration\\ CleanCash**[Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) aplanke (pvz., [išleidimo / 9.33 pavyzdys](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/CleanCash)). Pavyzdį [sudaro](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) fiskalinio dokumento teikėjas CRT, kuris yra plėtinys, ir fiskalinė jungtis, kuri yra "Commerce Hardware Station" plėtinys. Norėdami gauti daugiau informacijos apie tai, kaip naudoti "Retail SDK", [žr. "Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)[" architektūrą ir nepriklausomo pakavimo SDK sukūrimo pardavimo galimybių sukūrimą](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
-> Dėl naujo nepriklausomo pakavimo [ir plėtinio modelio](../dev-itpro/build-pipeline.md) apribojimų, šiuo metu jo negalima naudoti šiame finansinio integravimo pavyzdyje. Turite naudoti ankstesnę "Retail SDK" versiją LCS programuotojo VM. Daugiau informacijos ieškokite Švedijos [(senesnės gamybos) valdymo vieneto integravimo pavyzdžio diegimo rekomendacijose](emea-swe-fi-sample-sdk.md). Naujas nepriklausomas pakavimo ir plėtinio modelis, skirtas finansinio integravimo pavyzdžiui, planuojamas vėlesnėms versijoms.
+> Dėl naujo nepriklausomo pakavimo [ir plėtinio modelio](../dev-itpro/build-pipeline.md) apribojimų, šiuo metu jo negalima naudoti šiame finansinio integravimo pavyzdyje. Turite naudoti ankstesnę "Retail SDK" versiją LCS programuotojo VM. Daugiau informacijos ieškokite Švedijos ([senesnės gamybos) valdymo vieneto integravimo pavyzdžio diegimo rekomendacijose](emea-swe-fi-sample-sdk.md). Naujas nepriklausomas pakavimo ir plėtinio modelis, skirtas finansinio integravimo pavyzdžiui, planuojamas vėlesnėms versijoms.
 
 ### <a name="crt-extension-design"></a>CRT plėtinio dizainas
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a420a0a366e454df14d5fe994691829bc7950306
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 901683f2176189ce2f4186b4f9b3b5c64ec9f2b1
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895202"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227782"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Išankstinio mokėjimo sąskaitos faktūros ir išankstiniai mokėjimai
 
@@ -78,6 +78,8 @@ Išankstinis mokėjimas gali būti pašalintas iš pirkimo užsakymo, nebent jū
 Norėdami įrašyti tiekėjo išankstinio apmokėjimo SF, eikite į tiekėjo SF puslapį, pasirinkdami išankstinio apmokėjimo SF pasirinktį pirkimo užsakymų puslapyje Mokėtinos sumos Bendrieji pirkimo **užsakymai** **Visi** **pirkimo** (**užsakymai \> SF \> skirtukas \> Išankstinio \> apmokėjimo \> SF**). Įveskite informaciją apie išankstinio mokėjimo SF, įskaitant SF numerį. Išankstinio mokėjimo SF kiekių keisti negalima. Jei tiekėjas išrašė SF dalį išankstinio mokėjimo vertės, kuri nurodyta pirkimo užsakyme, sumos, galite atnaujinti vieneto kainą, kad atspindėtų dalinę vertę.
 
 Publikuojant išankstinio mokėjimo sąskaitą, bus naujinamas tiekėjo balansas ir išankstinio mokėjimo sąskaita. Bus **atnaujinta ir** išankstinio apmokėjimo prašymo vertė išankstinio apmokėjimo apibrėžime, kuris yra pirkimo užsakyme. Užregistruoti išankstinio mokėjimo kvito numatytieji finansinės dimensijos įrašai bus paimti iš pirkimo užsakymo antraštės informacijos.
+
+Jei tiekėjo **išankstinio** **mokėjimo** SF funkcijos, kurios yra funkcijų valdymo puslapyje, SF eilutėse užrakinti finansines dimensijas, išankstinio apmokėjimo antraštėje arba eilutėse dimensijų atnaujinti negalima. 
 
 ## <a name="post-and-settle-payments-for-the-prepayment-invoice"></a>Registruoti ir sudengti išankstinio mokėjimo SF mokėjimus
 Po to išankstinio apmokėjimo SF bus sumokėta iš **mokėjimų žurnalo** puslapio. Norėdami pasiekti mokėjimo žurnalus, spustelėkite **Mokėtinų sumų \> žurnalų \> mokėjimų mokėjimų \> žurnalas**. Užregistrus mokėjimo sudengimą išankstinio mokėjimo SF, bus atnaujinta pirkimo užsakymo išankstinio **apmokėjimo** prašymo likusi vertė.

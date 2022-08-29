@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 109adcc4e8b49c665bd14ecab2b7cc56cebd2291
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: db6c46d471e3b54982132df3e4819236833cf4a8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878491"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292141"
 ---
 # <a name="set-up-an-email-notification-profile"></a>El. paštu siunčiamo pranešimo šablono nustatymas
 
@@ -31,17 +31,9 @@ Kurdami kanalus galite nustatyti el. paštu siunčiamo pranešimo profilį. El. 
 
 Papildomos informacijos apie tai, kaip konfigūruoti el. paštą, žr. [El. laiškų konfigūravimas ir siuntimas](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
-## <a name="create-an-email-notification-profile"></a>El. paštu siunčiamų pranešimų šablono kūrimas
 
-Norėdami sukurti el. paštu siunčiamų pranešimų šabloną, atlikite tolesnius veiksmus.
 
-1. Naršymo srityje eikite į **Moduliai \> Mažmeninė prekyba ir prekyba \> Būstinės sąranka \>„Commerce“ el. paštu siunčiamų pranešimų šablonas**.
-1. Veiksmų srityje spustelėkite **Naujas**.
-1. Lauke **El. paštu siunčiamų pranešimų šablonas** įveskite šablono pavadinimą.
-1. Lauke **Aprašas** įveskite tinkamą aprašą.
-1. Jungiklį **Aktyvusis** nustatykite į **Taip**.
-
-### <a name="create-an-email-template"></a>El. laiško šablono kūrimas
+## <a name="create-an-email-template"></a>El. laiško šablono kūrimas
 
 Kad būtų galima įgalinti el. paštu siunčiamo pranešimo tipą, "Commerce Headquarters" turite sukurti kiekvieno pranešimo tipo, kurį norite palaikyti, organizacijos el. laiško šabloną. Šiame šablone nustatomas kiekvienos palaikomos kalbos el. laiško subjektas, siuntėjas, numatytoji kalba ir el. laiško tekstas.
 
@@ -63,29 +55,37 @@ Toliau pateiktame vaizde parodyti keli el. pašto šablonų parametrų pavyzdži
 
 Daugiau informacijos apie el. laiškų šablonų kūrimą rasite operacijų [įvykių el. laiškų šablonų kūrimas](email-templates-transactions.md). 
 
-### <a name="create-an-email-event"></a>El. laiško įvykio kūrimas
+## <a name="create-an-email-notification-profile"></a>El. paštu siunčiamų pranešimų šablono kūrimas
+
+Norėdami kurti el. paštu siunčiamo pranešimo šabloną būstinėje, atlikite šiuos veiksmus.
+
+1. Naršymo srityje eikite į **Moduliai \> Mažmeninė prekyba ir prekyba \> Būstinės sąranka \>„Commerce“ el. paštu siunčiamų pranešimų šablonas**.
+1. Veiksmų srityje pasirinkite **Nauja**.
+1. Lauke **El. paštu siunčiamų pranešimų šablonas** įveskite šablono pavadinimą.
+1. Lauke **Aprašas** įveskite tinkamą aprašą.
+1. Jungiklį **Aktyvusis** nustatykite į **Taip**.
+
+## <a name="add-a-notification-type"></a>Įtraukti pranešimo tipą
 
 Norėdami sukurti el. laiško įvykį, atlikite toliau nurodytus veiksmus.
 
 1. Naršymo srityje eikite į **Moduliai \> Mažmeninė prekyba ir prekyba \> Būstinės sąranka \>„Commerce“ el. paštu siunčiamų pranešimų šablonas**.
-1. Sąraše raskite ir pasirinkite norimą įrašą. 
-1. Išplečiamajame sąraše **El. pašto ID** pasirinkite el. laiško šabloną.
+1. Mažmeninės prekybos **el. paštu siunčiamo pranešimo** parametruose pasirinkite **Naujas**.
 1. Išplečiamajame sąraše pasirinkite tinkamą parinktį **El. paštu siunčiamo pranešimo tipas**.
-1. Pažymėkite žymės langelį **Aktyvusis**.
+1. Pasirinkite el. laiško šabloną, kurį sukūrėte pirmiau **, iš išplečiamojo sąrašo El. pašto ID**.
+1. Pažymėkite žymės **langelį Aktyvus**.
 1. Veiksmų srityje pasirinkite **Įrašyti**.
 
 Toliau pateiktame vaizde parodyti keli įvykių pranešimų parametrų pavyzdžiai.
 
 ![Įvykio pranešimo parametrai.](media/email-notification-profile.png)
 
-> [!NOTE]
-> Kliento sukurtas pranešimo tipas reikalauja tinkinimo, kad būtų galima siųsti el. paštu siunčiamą pranešimą.
 
-### <a name="schedule-a-recurring-email-notification-process-job"></a>Suplanuoti pasikartojančio el. paštu siunčiamo pranešimo proceso užduotį
+## <a name="schedule-a-recurring-email-notification-process-job"></a>Suplanuoti pasikartojančio el. paštu siunčiamo pranešimo proceso užduotį
 
 Norėdami išsiųsti el. paštu siunčiamus pranešimus, turite paleisti mažmeninės **prekybos užsakymo el. paštu siunčiamų pranešimų** užduotį.
 
-Norėdami nustatyti mažmeninės prekybos užsakymo **el. paštu siunčiamo pranešimo** užduotį "Commerce Headquarters", jei to dar nepadarėte, atlikite šiuos veiksmus.
+Norėdami nustatyti paketinę užduotį būstinėje operacijų el. laiškams siųsti, atlikite šiuos veiksmus.
 
 1. Eiti į "**Retail" ir "Commerce \> Retail" ir "Commerce IT" el \>. laišką ir pranešimus Siųsti el \>. paštu.**
 1. Mažmeninės prekybos **užsakymo el. paštu siunčiamo pranešimo dialogo** lange pasirinkite **Pasikartojimas**.
@@ -94,9 +94,9 @@ Norėdami nustatyti mažmeninės prekybos užsakymo **el. paštu siunčiamo pran
 1. Pasirinkite Gerai **,** norėdami grįžti į mažmeninės prekybos užsakymo **el. paštu siunčiamo pranešimo** dialogo langą.
 1. Norėdami **baigti** užduoties nustatymą, pasirinkite Gerai.
 
-### <a name="next-steps"></a>Kiti veiksmai
+## <a name="next-steps"></a>Kiti veiksmai
 
-Kad galėtumėte siųsti laiškus, turite sukonfigūruoti siunčiamo pašto paslaugą ir nustatyti paketinę užduotį. Norėdami gauti daugiau informacijos, žr. [El. laiškų konfigūravimas ir siuntimas](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
+Kad būtų galima siųsti el. laiškus, turite sukonfigūruoti savo siunčiamų pašto paslaugą. Norėdami gauti daugiau informacijos, žr. [El. laiškų konfigūravimas ir siuntimas](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

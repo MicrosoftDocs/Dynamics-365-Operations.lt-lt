@@ -1,26 +1,26 @@
 ---
 title: Globalizavimo funkcijų bendrai naudoti su kitomis organizacijomis
 description: Šiame straipsnyje paaiškinama, kaip globalizavimo priemones bendrai naudoti su išorinėmis organizacijomis.
-author: dkalyuzh
+author: gionoder
 ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ae6e4cc59ff14197e41bb2db8d1f49afed67e95e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: 07c6dcd0be346d118bf5c470c5183bad3c961e06
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874407"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275263"
 ---
 # <a name="share-globalization-features-with-other-organizations"></a>Globalizavimo funkcijų bendrai naudoti su kitomis organizacijomis
 

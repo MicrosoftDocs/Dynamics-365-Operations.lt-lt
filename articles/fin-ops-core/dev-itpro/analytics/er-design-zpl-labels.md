@@ -1,26 +1,26 @@
 ---
 title: Naujo ER sprendimo, skirto spausdinti ZPL žymes, kūrimas
 description: Šiame straipsnyje paaiškinama, kaip sukurti naują elektroninių ataskaitų (ER) sprendimą spausdinant Javų programavimo kalbos (ZPL) žymes.
-author: NickSelin
+author: kfend
 ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERFormatDestinationTable
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2022-02-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: f861fe63c6d7d00d0a9f84d33c0d1b1b23735b61
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423
+ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
+ms.search.form: ERSolutionTable, ERFormatDestinationTable
+ms.openlocfilehash: 7ef83cf4822ca129af3ca01fa6ddd05219fee0d7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845721"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9271770"
 ---
 # <a name="design-a-new-er-solution-to-print-zpl-labels"></a>Naujo ER sprendimo, skirto spausdinti ZPL žymes, kūrimas
 
@@ -138,7 +138,7 @@ Duomenų šaltinio **formulės dizainerio** puslapyje ER formulė, kuri naudojam
 
 Toliau pateiktame pavyzdyje naudojant ZPL žymių spausdintuvo iasuliatoriaus programą, kad būtų galima peržiūrėti ekrane sugeneruotas etiketes. Norėdami įgalinti šią pasirinktį, atlikite šiuos veiksmus.
 
-1. Įtraukite [spausdintuvo](er-destination-type-print.md) ER **paskirties** vietą į sandėlio vietos ŽYMų ER formatą ir sukonfigūruokite ją, kad sugeneruotas žymes būtų galima siųsti iš finansų į dokumentų [maršruto agentą (DRA)](install-document-routing-agent.md).
+1. Įtraukite [spausdintuvo](er-destination-type-print.md) ER **paskirties** vietą į sandėlio vietos ŽYMų ER formatą ir sukonfigūruokite ją, kad iš finansų siųsti dokumentų [maršruto agentui (DRA)](install-document-routing-agent.md) sugeneruotas žymes.
 2. Įdiekite ir sukonfigūruokite DRA pagal sugeneruotas žymas iš finansų į vietinį spausdintuvą, kuris pasiekiamas iš dabartinės darbo vietos.
 3. Įtraukite vietinį spausdintuvą į dabartinę darbo vietą ir sukonfigūruokite, kad iš DRA sugeneruotos etiketės būtų perduodamos į spausdintuvo iždatoriaus programą.
 4. Įdiekite spausdintuvo iždatoriaus programą kaip "Chrom" interneto naršyklės plėtinį ir sukonfigūruokite ją, kad sugeneruotos etiketės būtų perduodamos iš vietinio spausdintuvo į žiniatinklio tarnybą, kuri atvaizduos sugeneruotas etiketes ir grąžins jas į spausdintuvo iždą peržiūrai.

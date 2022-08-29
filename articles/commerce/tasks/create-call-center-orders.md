@@ -1,8 +1,8 @@
 ---
 title: Skambučių centro užsakymų kūrimas
-description: Ši procedūra padeda ieškoti kliento, kurti naują užsakymą, ieškoti produkto ir surinkti mokėjimą iš kliento.
+description: Šis straipsnis rodo pavyzdį, kaip skambučių centro vartotojas ieško kliento, sukuria naują užsakymą, ieško produkto ir renka mokėjimą iš kliento Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 08/29/2018
+ms.date: 08/05/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -14,51 +14,72 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 78cccabb206d938b850e70b7e8057e20cc6158e1d154fc4876de7918dbe44d87
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16d483896ce131e9a7bc60ab5ea7b8fa01a3bea8
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730664"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228516"
 ---
 # <a name="create-call-center-orders"></a>Skambučių centro užsakymų kūrimas
 
 [!include [banner](../includes/banner.md)]
 
-Ši procedūra padeda ieškoti kliento, kurti naują užsakymą, ieškoti produkto ir surinkti mokėjimą iš kliento. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT ir ji yra skirta pardavimo užsakymo klerkui. Išankstinės sąlygos: vartotojas, vykdantis procedūrą, yra nustatomas kaip skambučių centro vartotojas ir skelbiamas Fabrikam pusės metų katalogas su bent vienu šaltinio kodu jame.
+Šis straipsnis rodo pavyzdį, kaip skambučių centro vartotojas ieško kliento, sukuria naują užsakymą, ieško produkto ir renka mokėjimą iš kliento Microsoft Dynamics 365 Commerce. Procedūros metu naudojama US YRA demonstracinių duomenų įmonė ir ji skirta pardavimo užsakymo klerkas. 
+
+## <a name="prerequisites"></a>Būtinieji komponentai
+
+Procedūrą pabaigęs vartotojas turi būti nustatytas kaip skambučių centro vartotojas. Pasirinktinai Fabrikam pusmetinį katalogą galima publikuoti su bent vienu šaltinio kodu.
+
+### <a name="add-yourself-as-a-call-center-user"></a>Pridėti save kaip skambučių centro vartotoją
+
+Norėdami save pridėti kaip skambučių centro vartotoją, atlikite šiuos veiksmus.
+
+1. "Commerce Headquarters" eikite į mažmeninės **prekybos ir komercijos \> kanalų \> skambučių \> centrus Visi skambučių centrai**.
+1. Lauke Vartotojai **pasirinkite** Kanalo **vartotojai**.
+1. Veiksmų srityje pasirinkite **Naujas**.
+1. Lauke Vartotojo **ID** įveskite savo vartotojo ID.
+1. **Lauke Pavadinimas** įveskite savo vartotojo vardą. Vartotojo vardas gali būti toks pat kaip vartotojo ID.
+1. Veiksmų srityje pasirinkite **Įrašyti**.
+1. Grįžkite į **mažmeninės prekybos ir komercijos \> kanalų \> skambučių centrus \> Visi skambučių centrai**.
+1. Pasirinkite skambučių centro mažmeninės prekybos kanalo ID.
+1. Patvirtinkite, kad **parinktis Įgalinti užsakymo** baigimą nustatyta kaip **Taip**. Jei pasirinktis nematoma, šį veiksmą galite praleisti.
+
+## <a name="complete-the-example-call-center-procedure"></a>Užbaigti skambučių centro procedūros pavyzdį
+
+Norėdami užbaigti skambučių centro procedūros pavyzdį, atlikite šiuos žingsnius.
 
 1. Eikite į **Mažmeninė prekyba ir prekyba \> Klientai \> Klientų aptarnavimas**.
-2. Lauke **Ieškos tekstas** įveskite kliento ieškos kriterijus.
-    * Atlikdami šio pavyzdžio procedūrą įveskite „Karen“ ir pasirinkite **skirtuką**.  
-3. Pasirinkite Ieškoti.
-    * Kadangi demonstraciniuose duomenyse tik yra tik vienas klientas vardu Karen, šis rezultatas bus automatiškai pažymėtas.  
-4. Pasirinkite **Naujas pardavimo užsakymas**.
-5. Išplėskite arba sutraukite antraštės sekciją **Pardavimo užsakymas**.
-6. Pasirinkite katalogo šaltinio kodą.
-    * Jei nėra jokių aktyvių šaltinio kodų, galite praleisti šį veiksmą.  
-7. Pasirinkite **Pridėti eilutę**.
-8. Lauke **Prekės numeris** įveskite prekės ieškos terminą.
-    * Atlikdami šio pavyzdžio procedūrą, įveskite dalinį prekės numerį „8111“ ir paspauskite skirtuką. Pasirodys prekės ieškos langas.  
-9. Pasirinkite produktą, kurį norite įtraukti į pardavimo užsakymą.
-10. Įveskite pardavimo kiekį.
-11. Pasirinkite **Kurti**.
-12. Pasirinkite **Baigti**, norėdami užfiksuoti kliento mokėjimą.
-13. Pasirinkite **Įtraukti**.
-    * Parinktis Įtraukti saitą yra skirtuke Mokėjimai. Išplėskite skirtuką Mokėjimai, jei jis sutrauktas.  
-14. Pasirinkite mokėjimo būdą.
-    * Atlikdami šią procedūrą, parinkite grynųjų pinigų mokėjimo metodą.  
-15. Uždarykite puslapį.
-16. Įveskite sumą.
-    * Atlikdami šią procedūrą, įveskite sumą, lygią užsakymo balansui, kuris rodomas puslapyje Pardavimo užsakymo suvestinė, kairėje sumos lauko pusėje. Šis veiksmas leis įvykdyti užsakymą kaip visiškai apmokėtą.  
-17. Pasirinkite **Gerai**.
-18. Pasirinkite **Pateikti**.
+1. Skirtuke **Kliento** ieška įveskite ieškos kriterijus, pagal kuriuos norite ieškoti kliento. Kaip pavyzdį įveskite **Karen**.
+1. Pasirinkite **Ieškoti**. Atsiranda **kliento ieškos** dialogo langas ir pateikiami ieškos rezultatai.
+1. Pasirinkite Kliento įrašą, kuriam **karen Turi** būti **2001** m. kliento kodas, tada pasirinkite **Pasirinkti**.
+1. Veiksmų srityje pasirinkite Naujas **pardavimo užsakymas**.
+1. Dešinėje pasirinkite skirtuką **Antraštė**.
+1. Pristatymo "**FastTab**", pristatymo **būdo lauke**, pasirinkite **99 standartą**.
+
+    ![Pristatymo būdo pasirinkimas.](../media/Select_Mode_of_Delivery.png)
+
+1. Dešinėje pasirinkite skirtuką **Eilutės**.
+1. Pardavimo užsakymo **eilučių** skyriuje, naujoje naujos pardavimo eilutės eilutėje, **lauke** Prekės numeris įveskite prekės, kurios norite ieškoti, numerį. Kaip šiame pavyzdyje procedūrą įveskite **81327**, tada išplečiamajame sąraše pasirinkite produktą, kad jį pridėtumėte prie pardavimo užsakymo.
+1. **Lauke Kiekis** įveskite pardavimo kiekį.
+1. **Lauke Šaltinio kodas** pasirinkite katalogo šaltinio kodą. Jei aktyvių šaltinio kodų nėra, šį veiksmą galite praleisti.
+1. Veiksmų srityje pasirinkite Baigti **, kad būtų** fiksuojatas kliento mokėjimas. Šiuo veiksmu atidaromas **pardavimo užsakymo** suvestinės dialogo langas, kuriame rodoma bendra mokėtina suma. Veiksmas taip pat suaktyvina visų išlaidų, pvz., siuntimo ir tvarkymo, skaičiavimą ir rodo juos **pardavimo užsakymo suvestinės dialogo** lange.
+
+    ![Užbaigti mygtuką.](../media/Complete_button.png)
+
+1. Dialogo lango **Pardavimo užsakymo suvestinė** mokėjimų **·** "FastTab" pasirinkite Įtraukti **, kad būtų** fiksuojami mokėjimai.
+
+    ![Pardavimo užsakymo suvestinės dialogo langas.](../media/order_summary.png)
+
+1. **Lauke Mokėjimo būdas pasirinkite** mokėjimo būdą, kurį **rasite dialogo lange** Įvesti kliento mokėjimo informaciją. Šiame pavyzdyje atlikti pasirinkite Grynieji **pinigai**.
+1. **Mokėjimo sumos lauke** įveskite mokėjimo sumą. Šiame pavyzdyje įveskite **120,00**, lygų užsakymo balansui, **kuris rodomas pardavimo užsakymo suvestinės** dialogo lange. Įvesdami šią sumą, galite užpildyti užsakymą kaip visiškai apmokėtą.
+1. Pasirinkite **Gerai**.
+1. Pasirinkite **Pateikti**.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Tinkinti perlaidų el. paštus pagal pristatymo būdą](../customize-email-delivery-mode.md)
 
 [Pristatymo režimo keitimas EKA](../pos-change-delivery-mode.md)
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

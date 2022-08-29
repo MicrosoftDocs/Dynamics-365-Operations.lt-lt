@@ -1,27 +1,27 @@
 ---
 title: Atvežamų atsargų operacija EKA
 description: Šiame straipsnyje aprašomi point of sale (EKA) gaunamų atsargų operacijos pajėgumai.
-author: hhaines
+author: hhainesms
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fbabcaafee74b4d0a1ca8ef79de94376a7764aa3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.search.form: ''
+ms.openlocfilehash: 3099f03ba2da8a367953ad0d25ee884e41ff9deb
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858887"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288358"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Atvežamų atsargų operacija EKA
 
@@ -141,7 +141,7 @@ Pirkimo užsakymo eilutės pristatymo trūkumo nuokrypio procentai gali būti i�
 
 Po to, kai organizacija užbaigia konfigūruoti pirkimo užsakymo pristatymo trūkumą, EKA vartotojai matys naują parinktį **Uždaryti likusį kiekį** srityje **Išsami informacija**, kai pasirinks operacijos **Gaunamos atsargos** gaunamo pirkimo užsakymo eilutę. Jei vartotojas uždaro likusį kiekį, EKA atlieka patvirtinimą, kad patikrintų, ar uždaromas kiekis yra mažesnis nei pristatymo trūkumo nuokrypio procentas, nurodytas pirkimo užsakymo eilutėje. Jei viršytas pristatymo trūkumo nuokrypio procentas, rodomas klaidos pranešimas ir vartotojas negalės uždaryti likusio kiekio, kol anksčiau gautas kiekis ir **Gaunama dabar** kiekis neatitiks arba viršys minimalų kiekį, kurį reikia gauti remiantis pristatymo trūkumo nuokrypio procentu. 
 
-Kai pirkimo užsakymo eilutėje įjungta parinktis **Uždaryti likusį kiekį**, vartotojui užbaigus gavimą atliekant veiksmą **Baigti gavimą**, uždarymo užklausa taip pat siunčiama į „Commerce“ pagrindinį komponentą, o bet koks negautas šios užsakymo eilutės kiekis bus atšauktas. Šiuo metu laikoma, kad eilutė yra visiškai gauta. 
+Kai **pirkimo** užsakymo eilutėje įjungta parinktis **Uždaryti** likusį kiekį, vartotojui užbaigus gavimą naudojant veiksmą Baigti gavimą, į "Commerce Headquarters" siunčiama ir užklausa uždaryti likusį kiekį, o visas negautas šios užsakymo eilutės kiekis bus atšauktas. Šiuo metu laikoma, kad eilutė yra visiškai gauta. 
 
 ### <a name="receiving-location-controlled-items"></a>Pagal vietą kontroliuojamų prekių gavimas
 
@@ -155,15 +155,13 @@ Jei reikia, galite pasirinkti **Gauti viską** programos juostoje, kad greitai p
 
 ### <a name="receipt-of-unplanned-items-on-purchase-orders"></a>Neplanuotų prekių kvitas ant pirkimo užsakymų
 
-„Commerce” versijoje 10.0.14 ir vėlesnėje, vartotojai gali gauti prekę, kuri iš pradžių nebuvo pirkimo užsakyme. Kad įgalintumėte šią funkciją, įjunkite **Pridėti eilutes į pirkimo užsakymą elektroninio kasos aparato gavimo metu**.  
-
-Ši funkcija veikia tik pirkimo užsakymo gavimui. Neįmanoma gauti prekių, pagal perkėlimo užsakymus, kai prekės prieš tai nebuvo užsakytos ir išsiųstos iš siuntimo sandėlio.
+„Commerce” versijoje 10.0.14 ir vėlesnėje, vartotojai gali gauti prekę, kuri iš pradžių nebuvo pirkimo užsakyme. Ši funkcija veikia tik pirkimo užsakymo gavimui. Neįmanoma gauti prekių, pagal perkėlimo užsakymus, kai prekės prieš tai nebuvo užsakytos ir išsiųstos iš siuntimo sandėlio.
 
 Vartotojai negali pridėti naujų prekių į pirkimo užsakymą EKA gavimo metu, jei pirkimo užsakymas [keisti valdymo darbo eigą](../supply-chain/procurement/purchase-order-approval-confirmation.md) yra įgalintas prekybos būstinėje (PB). Kad įgalintumėte pakeitimų tvarkymą, pirmiausia visi pirkimo užsakymo pakeitimai privalo būti patvirtinti prieš leidžiant gavimą. Kadangi šis procesas leidžia gavėjui pridėti naujas eilutes į pirkimo užsakymą, gavimas bus nesėkmingas, jei pakeitimų tvarkymo darbo eiga bus įjungta. Jei pakeitimų tvarkymas yra įgalintas visiems pirkimo užsakymams arba tiekėjui, susietu su pirkimo užsakymu, kuris yra aktyviai gaunamas EKA, vartotojas negali pridėti naujų prekių į pirkimo užsakymą EKA gavimo metu.
 
 Funkcija, įgalinanti pridėti eilutes, negali būti naudojama kaip apėjimo būdas gauti papildomus prekių kiekius, kurie jau įtraukti į pirkimo užsakymą. Per didelis gavimas yra tvarkomas per standartinius [per didelis gavimas](#over-receiving-validations) parametrus, pritaikytus pirkimo užsakymo produkto eilutei.
 
-Jeigu funkcija **Pridėti eilutes į pirkimo užsakymą EKA gavimo metu** yra įgalinta ir vartotojas gauna kartu su EKA **Grįžtama operacija**, jeigu vartotojas nuskaito ar įveda prekės brūkšninį kodą ar numerį, kuris nėra atpažintas kaip prekė, esanti dabartiniame pirkimo užsakyme, bet yra atpažintas kaip tinkama prekė, tuomet vartotojas gauna pranešimą apie prekės įtraukimą į pirkimo užsakymą. Jei vartotojas prideda prekę į pirkimo užsakymą, kiekis įvestas į **Gaunama dabar** laikomas pirkimo užsakymo eilutei užsakytu kiekiu.
+**Kai** vartotojas gauna gavimo operaciją EKA, jei vartotojas nuskaito arba nuskaito produkto brūkšninį kodą ar produkto numerį, kuris atpažįstamas kaip tinkama prekė, bet neatpažįstamas kaip dabartinio pirkimo užsakymo prekė, vartotojas gauna pranešimą, kuriame raginama jas įtraukti prekę į pirkimo užsakymą. Jei vartotojas prideda prekę į pirkimo užsakymą, kiekis įvestas į **Gaunama dabar** laikomas pirkimo užsakymo eilutei užsakytu kiekiu.
 
 Kai pirkimo užsakymo kvitas yra užbaigtas ir pateiktas HQ apdorojimui, yra sukuriamos įtrauktos eilutės pirkimo užsakymo pagrindiniame dokumente. Pirkimo užsakymo eilutėje, esančioje HQ, bus **Įtraukė EKA** žymė ant pirkimo užsakymo eilutės skirtuko **Bendra**. **Įtraukė EKA** žymė nurodo, kad pirkimo užsakymo eilutė buvo pridėta EKA gavimo proceso metu ir tai nebuvo eilutė ant pirkimo užsakymo prieš EKA gavimą.
 
