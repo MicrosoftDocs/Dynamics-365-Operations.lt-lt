@@ -10,13 +10,15 @@
           items:
             - name: Kas nauja ar pasikeitė finansų ir operacijų programose
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Kas nauja ar pasikeitė „Platform“ naujinimuose
+            - name: Kas nauja ar pasikeitė platformos naujinimuose
               items:
-                - name: Kas nauja ar pasikeitė „Platform“ naujinimų pagrindiniame puslapyje
+                - name: Kas nauja ar pasikeitė platformos naujinimų pagrindiniame puslapyje
                   href: get-started/whats-new-home-page.md
-                - name: "„Platform“ naujinimai, skirti 10.0.28 versijai (2022\_m. rugpjūčio mėn.)"
+                - name: "Platformos naujinimai, skirti 10.0.29 versijai (2022\_m. spalio mėn.)"
+                  href: get-started/whats-new-platform-updates-10-0-29.md
+                - name: "Platformos naujinimai, skirti 10.0.28 versijai (2022\_m. rugpjūčio mėn.)"
                   href: get-started/whats-new-platform-updates-10-0-28.md
-                - name: "„Platform updates“, skirti 10.0.27 versijai (2022\_m. liepos mėn.)"
+                - name: "Platformos naujinimai, skirti 10.0.27 versijai (2022\_m. liepos mėn.)"
                   href: get-started/whats-new-platform-updates-10-0-27.md
             - name: Pašalintos arba nerekomenduojamos funkcijos
               items:
@@ -384,7 +386,7 @@
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
                     - name: Vietinių aplinkų nustatymas ir diegimas (41 ar naujesnis „Platform“ naujinimas)
                       href: deployment/setup-deploy-on-premises-pu41.md
-                    - name: Vietinių aplinkų nustatymas ir diegimas (12–40 „Platform“ naujinimai)
+                    - name: Vietinių aplinkų nustatymas ir diegimas (12–40 platformos naujinimai)
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: „Retail“ kanalų komponentų vietinėje aplinkoje diegimo veiksmai
                       href: deployment/deploy-retail-onprem.md
@@ -1090,6 +1092,8 @@
                           href: data-entities/dual-write/link-your-environment.md
                         - name: Objekto schemos įjungimas dvigubam rašymui
                           href: data-entities/dual-write/enable-entity-map.md
+                    - name: Penkių minučių trukmės seanso pertraukos įjungimas dvigubo rašymo seansams
+                      href: data-entities/dual-write/5-minute-mode.md
                     - name: Atskirtas dvigubo rašymo programos tvarkymo paketas
                       href: data-entities/dual-write/separated-solutions.md
                     - name: Dvigubo rašymo valiutos duomenų tipo perkėlimas

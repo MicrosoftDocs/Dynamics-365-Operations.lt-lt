@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Kas nauja ar pasikeitė „Human Resources”
               items:
+                - name: DUK apie „Human Resources 10.0.29“ (sujungta infrastruktūra)
+                  href: ./get-started/whats-new-changed-10-0-29.md
                 - name: DUK apie „Human Resources 10.0.28“ (sujungta infrastruktūra)
                   href: ./get-started/whats-new-changed-10.0.28.md
                 - name: DUK apie „Human Resources 10.0.27“ (sujungta infrastruktūra)
@@ -604,6 +606,10 @@
                   href: hr-benefits-setup-parameters-per-company.md
                 - name: Išmokų valdymo ir darbuotojų savitarnos parametrų nustatymas visoms įmonėms
                   href: hr-benefits-setup-parameters.md
+                - name: Administratoriaus teisių gyvenimo įvykiams konfigūravimas
+                  href: admin-life-events.md
+                - name: El. paštu siunčiamų pranešimų apie išmokas konfigūravimas
+                  href: hr-email-notifications.md
                 - name: Tinkamumo taisyklių ir parinkčių konfigūravimas
                   href: hr-benefits-setup-eligibility-rules.md
                 - name: Asmeninio kontakto tinkamumo parinkčių konfigūravimas

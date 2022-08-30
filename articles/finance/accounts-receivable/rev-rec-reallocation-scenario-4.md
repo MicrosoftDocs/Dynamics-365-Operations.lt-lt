@@ -1,24 +1,24 @@
 ---
 title: Įplaukų pripažinimo perskirstymas – 4 scenarijus
 description: Šiame straipsnyje aptariamas perskirstymo scenarijus, kai iš esamo pardavimo užsakymo, kuriam išrašyta dalinė SF, pašalinama eilutė. Šis scenarijus pateikia tą patį rezultatą, nepaisant to, ar eilutė pašalinta iš pardavimo užsakymo ar nustatyta būsena Atšaukta.
-author: kweekley
+author: bking
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: bking
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 06e6322ff55259b5c59d570b73199591ab46c767
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8ec28460319e7bfabe82261ee4ed7861c4b6eb11
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891672"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348274"
 ---
 # <a name="revenue-recognition-reallocation--scenario-4"></a>Įplaukų pripažinimo perskirstymas – 4 scenarijus
 

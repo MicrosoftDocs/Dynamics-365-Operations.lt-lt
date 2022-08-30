@@ -1,24 +1,24 @@
 ---
 title: Įplaukų pripažinimo grupavimai
 description: Šiame straipsnyje aprašomos grupavimo funkcijos, įtrauktos į įplaukų pripažinimo galimybę gautinose sumose. Grupavimas apima pirminę prekę ir keletą sudedamųjų prekių.
-author: kweekley
+author: bking
 ms.date: 01/04/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: bking
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 478fdfc69514fba829deb63b4e2904ff3fe1e199
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9b33906fd1907ce476eec5ba36ab243aa072cf6f
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876302"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348304"
 ---
 # <a name="revenue-recognition-bundles"></a>Įplaukų pripažinimo grupavimai
 

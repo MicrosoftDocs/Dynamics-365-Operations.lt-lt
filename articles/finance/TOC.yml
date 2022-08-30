@@ -12,6 +12,8 @@
               items:
                 - name: Kas nauja ar pasikeitė „Finance“ pagrindiniame puslapyje
                   href: get-started/whats-new-home-page.md
+                - name: „Finance 10.0.29“ (spalis)
+                  href: get-started/whats-new-changed-10-0-29.md
                 - name: „Finance 10.0.28“ (rugpjūtis)
                   href: get-started/whats-new-changed-10-0-28.md
                 - name: „Finance 10.0.27“ (liepa)
@@ -62,9 +64,11 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/finance
                 - name: Gaukite pranešimus apie paslaugų naujinimus
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/finance
+                - name: Iniciatyvūs kokybės atnaujinimai
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/finance
                 - name: Duomenų užduočių automatizavimas
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/finance
-                - name: 'ISV sprendimų teikimas, naudojant „One Version“'
+                - name: 'ISV sprendimų teikimas, naudojant vieną versiją'
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?context=/dynamics365/context/finance
                 - name: Vartotojo priėmimo bandymų kūrimas ir automatizavimas
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?context=/dynamics365/context/finance
@@ -1114,6 +1118,8 @@
                       href: general-ledger/tasks/process-ledger-allocation-journal.md
                     - name: Žurnalų įrašų ar operacijų peržiūra
                       href: general-ledger/tasks/view-journal-entries-or-transactions.md
+                    - name: Leisti redaguoti didžiosios knygos kvitų vidinius duomenis
+                      href: general-ledger/allow-edits-internal-data-gl-vouchers.md
                     - name: Susijusio vidinės įmonės kvito iš žurnalo peržiūra
                       href: general-ledger/tasks/view-related-intercompany-voucher-journal.md
                     - name: Žurnalo eilučių ir dokumentų publikavimas iš „Excel‟
@@ -1568,14 +1574,20 @@
                           href: localizations/e-invoicing-bra-get-started.md?context=/dynamics365/context/finance
                         - name: Darbo su elektroninių SF išrašymu Egiptui pradžia
                           href: localizations/e-invoicing-eg-get-started.md?context=/dynamics365/context/finance
+                        - name: Darbo su elektroninių SF išrašymu Prancūzijai pradžia
+                          href: localizations/e-invoicing-fr-get-started.md?context=/dynamics365/context/finance
                         - name: Darbo su elektroninių SF išrašymu Meksikai pradžia
                           href: localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/finance
+                        - name: Darbo su elektroninių SF išrašymu Lenkijai pradžia
+                          href: localizations/e-invoicing-pol-get-started.md?context=/dynamics365/context/finance
                         - name: Darbo su elektroninių SF išrašymu Saudo Arabijai pradžia
-                          href: localizations/e-invoicing-sa-get-started.md
+                          href: localizations/e-invoicing-sa-get-started.md?context=/dynamics365/context/finance
+                        - name: Elektroninių SF išrašymo paslaugos parengimas Saudo Arabijoje
+                          href: localizations/e-invoicing-sa-onboarding.md?context=/dynamics365/context/finance
                         - name: Tiesioginio Italijos „FatturaPA“ integravimo su SDI nustatymas
-                          href: localizations/e-invoicing-ita-fatturapa-get-started.md
+                          href: localizations/e-invoicing-ita-fatturapa-get-started.md?context=/dynamics365/context/finance
                         - name: Elektroninių SF išrašymo paslaugos naudojimas tiekėjo sąskaitoms faktūroms importuoti
-                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md
+                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md?context=/dynamics365/context/finance
                     - name: Elektroninių SF išrašymo DUK
                       href: localizations/e-invoicing-faq.md?context=/dynamics365/context/finance
                 - name: Mokesčių skaičiavimas
@@ -1648,6 +1660,10 @@
                           items:
                             - name: PVM deklaracija
                               href: localizations/emea-nor-vat-declaration.md
+                        - name: Lenkija ataskaitos
+                          items:
+                            - name: PVM deklaracija
+                              href: localizations/emea-pol-vat-declaration.md
                         - name: Ispanijos ataskaitos
                           items:
                             - name: 'Tiesioginis PVM informacijos tiekimas („Suministro Inmediato de Información del IVA”, SII)'
@@ -1714,6 +1730,8 @@
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: PVM tiekėjo sąskaitoje faktūroje skaičiavimas ir koregavimas
                       href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: PVM koregavimas naudojant bendruosius žurnalus
+                      href: general-ledger/adjust-sales-tax-via-general-journals.md
                     - name: Mokesčių skaičiavimo žurnale atidėjimo įjungimas
                       href: general-ledger/enable-delayed-tax-calculation.md
                     - name: PVM mokėjimo kūrimas
@@ -1770,6 +1788,8 @@
                           href: general-ledger/global-withholding-tax-overview.md
                         - name: Visuotinio išskaitomo mokesčio nustatymas
                           href: general-ledger/set-up-global-withholding-tax.md
+                        - name: Visuotinio išskaitomo mokesčio valiutos kurso tipo ir datos tipo nustatymo įjungimas
+                          href: general-ledger/global-withholding-tax-currency-exchange-rate-date-type-setup.md
                         - name: Išskaitomas mokestis pirkimo operacijose
                           href: general-ledger/withholding-tax-in-purchase-transactions.md
                         - name: Išskaitomas mokestis pardavimo operacijose
@@ -1948,6 +1968,8 @@
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
                     - name: NF-e XML failų kaip priedų perkėlimas
                       href: localizations/latam-bra-nf-e-move-xml-as-attachment.md
+                    - name: NT2021.004 – maketo ir tikrinimo atnaujinimai elektroniniame finansiniame dokumente (NF-e)
+                      href: localizations/latam-bra-nfe-nt2021.004.md
                     - name: NT2020.005 – maketo ir tikrinimo atnaujinimai elektroniniame finansiniame dokumente (NF-e)
                       href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: 'NT2020.006 – tarpinio pardavimo skaitmeninė platforma, skirta NF-e'
@@ -2552,6 +2574,8 @@
                       href: localizations/apac-ind-news-letter-10-0-00.md
                 - name: Apskaitos programinės įrangos įrašų sekimas ir žurnalų redagavimas
                   href: localizations/apac-ind-audit-trail-edit-logs-accounting-software.md
+                - name: Elektroninės sąskaitos faktūros Indijoje
+                  href: localizations/apac-ind-e-invoices.md
                 - name: Netiesioginiai mokesčiai
                   items:
                     - name: Indijos GST
@@ -3548,6 +3572,10 @@
                           href: localizations/rus-set-up-inventory-profile.md
                         - name: Atsargų šablono naudojimas dokumentuose ir užklausose
                           href: localizations/rus-use-inventory-profile-documents-queries.md
+                    - name: Muito apmokėjimas
+                      items:
+                        - name: Darbas su muito apmokėjimu
+                          href: localizations/rus-work-with-customs-clearance.md
                 - name: Ataskaitos
                   items:
                     - name: Finansinės ataskaitos
@@ -3576,6 +3604,8 @@
                       href: localizations/rus-company-divisions.md
                     - name: Rusijos adresų formatai ir importavimas iš FIAS
                       href: localizations/rus-russian-address-format-and-import-from-FIAS.md
+                    - name: Importavimas iš valstybės adresų registro (GAR)
+                      href: localizations/rus-russian-address-format-import-gar.md
                 - name: Atidėjimai
                   items:
                     - name: Atidėjimų nustatymas
@@ -4069,9 +4099,11 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/finance
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/finance
-                        - name: Atšaukti
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/finance
+                        - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/finance
-                        - name: Skaidyti
+                        - name: Split
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?context=/dynamics365/context/finance
                         - name: SplitList
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlist.md?context=/dynamics365/context/finance

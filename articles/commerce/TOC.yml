@@ -12,6 +12,8 @@
               items:
                 - name: Kas nauja ar pasikeitė „Commerce“ pagrindiniame puslapyje
                   href: get-started/whats-new-home-page.md
+                - name: „Commerce 10.0.29“ (2022 m. spalio mėn.)
+                  href: get-started/whats-new-commerce-10-0-29.md
                 - name: „Commerce 10.0.28“ (2022 m. liepos mėn.)
                   href: get-started/whats-new-commerce-10-0-28.md
                 - name: „Commerce 10.0.27“ (2022 m. liepos mėn.)
@@ -60,9 +62,11 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/commerce
                 - name: Gaukite pranešimus apie paslaugų naujinimus
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/commerce
+                - name: Iniciatyvūs kokybės atnaujinimai
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/commerce
                 - name: Duomenų užduočių automatizavimas
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/commerce
-                - name: 'ISV sprendimų teikimas, naudojant „One Version“'
+                - name: 'ISV sprendimų teikimas, naudojant vieną versiją'
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?context=/dynamics365/context/commerce
                 - name: Vartotojo priėmimo bandymų kūrimas ir automatizavimas
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?context=/dynamics365/context/commerce
@@ -422,6 +426,8 @@
                       href: hide-non-carrier-modes.md
                     - name: Užduočių įrašymo priemonė ir MPOS bei „Cloud POS“ žinynas
                       href: task-recorder-retail-pos.md
+                    - name: 'Konfigūruoti CPOS, kad būtų galima naudoti pasirinktinę „Azure AD“ programą'
+                      href: cpos-custom-aad.md
                     - name: Išoriniai aparatūros įrenginiai
                       items:
                         - name: Išorinis įrenginys
@@ -698,8 +704,8 @@
                   href: prevent-discounts.md
                 - name: Nuolaidos pagal mokėjimo priemonę
                   href: tender_based_discounts.md
-                - name: Siuntimo nuolaidos apžvalga
-                  href: retail-shipping-discount.md
+                - name: Siuntimo nuolaida
+                  href: shipping-discount.md
                 - name: Dovanų su pirkimo skatinimais konfigūracija
                   href: gift-with-purchase.md
                 - name: Kuponų nustatymas
@@ -714,6 +720,10 @@
                   href: tasks/category-pricing-rules-trade-agreements.md
                 - name: Tikslios kainos ir nuolaidos skaičiavimo atidėjimas
                   href: delayed-price-calculation.md
+                - name: Kainodaros funkcijos EKA
+                  href: pos-pricing-functions.md
+                - name: „Commerce“ kainodaros API
+                  href: pricing-apis.md
             - name: Rekomendacijos
               items:
                 - name: Produktų rekomendacijų apžvalga
@@ -872,6 +882,8 @@
               href: async-customer-mode.md
             - name: Asinchroninių klientų konvertavimas į sinchroninius klientus
               href: convert-async-to-sync.md
+            - name: DUK apie asinchroninį kliento kūrimo režimą
+              href: async-customer-mode-faq.md
             - name: Ryšiai su klientais
               items:
                 - name: Ryšių su klientais apžvalga
@@ -1252,6 +1264,10 @@
                       href: product-collection-module-overview.md
                     - name: Sparčiosios peržiūros modulis
                       href: quick-view-module.md
+                - name: Produktų palyginimo moduliai
+                  items:
+                    - name: Produktų palyginimo moduliai
+                      href: product-comparison-modules.md
                 - name: Naršymo moduliai
                   items:
                     - name: Naršymo kelio modulis
@@ -1272,7 +1288,11 @@
                   items:
                     - name: Sutikimo dėl slapukų modulis
                       href: cookie-consent-module.md
-            - name: Ieškoti
+                - name: Pokalbio moduliai
+                  items:
+                    - name: „Commerce“ pokalbių modulis
+                      href: commerce-chat-module.md
+            - name: Paieška
               items:
                 - name: Numatytojo kategorijos nukreipimo puslapio ir ieškos rezultatų puslapio apžvalga
                   href: category-search-page-overview.md
@@ -1404,8 +1424,6 @@
               items:
                 - name: 'Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Austrijai'
                   href: localizations/emea-aut-fi-sample.md
-                - name: Visuotinio kasos aparatų diegimo gairės (Austrija)
-                  href: localizations/emea-aut-deployment.md
                 - name: 'Fiskalinės integracijos pavyzdžio, skirto Austrijai, visuotinio diegimo gairės (senstelėjusios)'
                   href: localizations/emea-aut-fi-sample-sdk.md
             - name: Brazilija
@@ -1502,6 +1520,8 @@
                   href: localizations/emea-nor-cash-registers.md
                 - name: Kasos aparatų diegimo gairės
                   href: localizations/emea-nor-fi-deployment.md
+                - name: Perkėlimas iš senstelėjusių funkcijų Norvegijai
+                  href: localizations/emea-nor-fi-migration.md
                 - name: Kasos aparatų diegimo gairės (senstelėjusios)
                   href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: Rusija
@@ -1764,9 +1784,11 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/commerce
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/commerce
-                        - name: Atšaukti
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/commerce
+                        - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/commerce
-                        - name: Skaidyti
+                        - name: Split
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?context=/dynamics365/context/commerce
                         - name: SplitList
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlist.md?context=/dynamics365/context/commerce
@@ -2476,13 +2498,13 @@
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?context=/dynamics365/context/commerce
             - name: "Datos\_/ laiko duomenys ir laiko juostos"
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?context=/dynamics365/context/commerce
-        - name: Programavimas
+        - name: Plėtra
           items:
             - name: Kryžminis sprendimas
               items:
                 - name: „Commerce SDK“ apžvalga
                   items:
-                    - name: Pavyzdžiai ir nuorodų paketai
+                    - name: „Commerce SDK“ pavyzdžių ir nuorodų paketų atsisiuntimas
                       href: dev-itpro/retail-sdk/sdk-github.md
                     - name: Senesnių „Retail SDK“ perkėlimas
                       href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
