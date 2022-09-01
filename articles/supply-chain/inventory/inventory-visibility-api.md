@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 25f6539616d4567249e1d1eb4297090176526fde
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 23f4c52b6d1d8c1af927a2c21455d6e24b24408a
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902030"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357647"
 ---
 # <a name="inventory-visibility-public-apis"></a>Atsargų matomumo viešos API
 
@@ -98,16 +98,16 @@ Gaukite saugos paslaugų žymą atlikdami taip.
 1. Prisijunkite prie „Azure” portalo ir naudokite jį rasti `clientId` ir `clientSecret` vertes Jūsų „Dynamics 365 Supply Chain Management“ programa.
 1. Iškvieskite „Azure AD” atpažinimo ženklą (`aadToken`) pateikdami HTTP užklausą su šiomis ypatybes:
 
-   - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+   - **URL:**`https://login.microsoftonline.com/${aadTenantId}/oauth2/v2.0/token`
    - **Metodas:** `GET`
    - **Teksto turinys (formos duomenys):**
 
-     | Raktas           | Reikšmė                                |
-     | ------------- | ------------------------------------ |
-     | „client_id”     | „${aadAppId}“                          |
-     | „client_secret” | „${aadAppSecret}“                      |
-     | „grant_type”    | „client_credentials”                   |
-     | ištekliai      | „0cdb527f-a8d1-4bf8-9436-b352c68682b2“ |
+     | Raktas           | Reikšmė                                            |
+     | ------------- | -------------------------------------------------|
+     | „client_id”     | „${aadAppId}“                                      |
+     | „client_secret” | „${aadAppSecret}“                                  |
+     | „grant_type”    | „client_credentials”                               |
+     | Taikymo sritis         | 0cdb527f-a8d1-4bf8-9436-b352c68682b2/.numatytieji    |
 
    Kaip atsakymą turėtumėte „Azure AD“ gauti (`aadToken`) atpažinimo ženklą. Ji turi atitikti šį pavyzdį.
 
@@ -116,9 +116,6 @@ Gaukite saugos paslaugų žymą atlikdami taip.
        "token_type": "Bearer",
        "expires_in": "3599",
        "ext_expires_in": "3599",
-       "expires_on": "1610466645",
-       "not_before": "1610462745",
-       "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
        "access_token": "eyJ0eX...8WQ"
    }
    ```
@@ -131,7 +128,7 @@ Gaukite saugos paslaugų žymą atlikdami taip.
        "client_assertion_type": "aad_app",
        "client_assertion": "{Your_AADToken}",
        "scope": "https://inventoryservice.operations365.dynamics.com/.default",
-       "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
+       "context": "{$LCS_environment_id}",
        "context_type": "finops-env"
    }
    ```
@@ -517,7 +514,7 @@ Body:
 Šioje užklausos dalyje vis dar `dimensionDataSource` yra pasirinktinis parametras. Jei jo nėra, ji bus `filters` laikoma *bazinėmis dimensijomis*. Yra keturi privalomi `filters` laukai: `organizationId`, `productId` ir `siteId`, `locationId`.
 
 - `organizationId` turi būti tik viena vertė, bet ji vis dar masyve.
-- `productId` gali būti viena ar daugiau verčių. Jei yra tuščias masyvas, bus pateiktos visų produktų grąžintos.
+- `productId` gali būti viena arba daugiau verčių. Jei yra tuščias masyvas, bus pateiktos visų produktų grąžintos.
 - `siteId` ir `locationId` yra naudojami atsargų matomumui skaldyti. Galite nurodyti daugiau nei vieną `siteId` ir `locationId` vertę *turimos užklausos* užklausoje. Dabartiniame leidime turite nurodyti ir vertes, `siteId` ir `locationId` vertes.
 
 Parametras `groupByValues` turi būti nurodytas indeksavimo konfigūracijoje. Daugiau informacijos, žr. [Produkto indekso hierarchijos konfigūracija](./inventory-visibility-configuration.md#index-configuration).

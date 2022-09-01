@@ -2,7 +2,7 @@
 title: Duomenų importavimo ir eksportavimo užduočių apžvalga
 description: Norėdami kurti ir valdyti duomenų importavimo bei eksportavimo užduotis, naudokite darbo sritį Duomenų valdymas.
 author: peakerbl
-ms.date: 04/25/2022
+ms.date: 08/26/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18a15928eef4d7158f778729506d691dd587e013
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.openlocfilehash: a03f8fd0fa05a1400c69a2da8867dee135ad06a1
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109469"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357610"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Duomenų importavimo ir eksportavimo užduočių apžvalga
 
@@ -76,6 +76,19 @@ Pasirinkę objektą, turite pasirinkti duomenų, kurie bus eksportuojami arba im
 
 > [!NOTE]
 > XML formato failams būtinai naudokite tik teisėtus simbolius. Išsamesnės informacijos apie galiojančius simbolius žr. [XML 1.0 galiojančius simbolius](https://www.w3.org/TR/2006/REC-xml-20060816/Overview.html#charsets/). XML 1.0 neleidžia naudoti jokių valdiklio simbolių, išskyrus skirtukus, grąžinimų grąžinimus ir eilučių kanalus. Neleistinų simbolių pavyzdžiai yra laužtiniai skliaustai, skliaustai ir pasvirieji brūkšniai. 
+
+Užuot naudojus konkrečią kodų lentelę, naudoti Unicode, norint importuoti arba eksportuoti duomenis. Tai padės pateikti tinkamiausius rezultatus ir pašalinti duomenų valdymo užduotis, kurių nepavyksta, nes jose yra Unicode simbolių. Visi sistemos nustatyti šaltinio duomenų formatai, naudojanti Unicode, **šaltinio pavadinime turi Unicode**. Unicode formatas taikomas pasirenkant Unicode kodavimo **ANSI** **kodų** lentelę kaip kodų lentelę regiono parametrų skirtuke. Pasirinkite vieną iš šių Unicode kodų puslapių:
+
+| Kodų lentelė | Rodomas pavadinimas                |
+|-----------|-----------------------------|
+| 1200      | Unicode                     |
+| 12000     | Unicode (UTF-32)            |
+| 12001     | Unicode (UTF-32 Big-Endian) |
+| 1201      | Unicode (Big-Endian)        |
+| 65000     | Unicode (UTF-7)             |
+| 65001     | Unicode (UTF-8)             |
+
+Daugiau informacijos apie kodų puslapius ieškokite Kodų [puslapio identifikatoriai](/windows/win32/intl/code-page-identifiers/).
 
 ### <a name="sequence-the-entities"></a>Objektų sekos nustatymas
 Objektų seka gali būti nustatyta duomenų šablone arba importavimo ir eksportavimo užduotyse. Vykdydami užduotį, kurioje yra daugiau nei vienas duomenų objektas, turite įsitikinti, kad nustatyta teisinga duomenų objektų seka. Objektų seka pirmiausia nustatoma todėl, kad galėtumėte valdyti tarp objektų esančias funkcines priklausomybes. Jei objektai funkcinių priklausomybių neturi, galima suplanuoti juos importuoti arba eksportuoti lygiagrečiai. 

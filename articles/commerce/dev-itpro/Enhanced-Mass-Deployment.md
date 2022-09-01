@@ -2,19 +2,19 @@
 title: Masinis patvirtintų „Commerce“ savitarnos komponentų diegimas
 description: Šiame straipsnyje paaiškinama, kaip naudoti savitarnos komponentų diegimo sistemą, kad jos automatiškai įdiegtų ir įdiegtų paslaugas.
 author: jashanno
-ms.date: 05/11/2022
+ms.date: 08/31/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: a679d78db3ad5bd9cccbd4ab6a7026bd07890f55
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 66a711aff90221e594f4b2a0df3735eac93d0c9b
+ms.sourcegitcommit: 09d4805aea6d148de47c8ca38d8244bbce9786ce
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898584"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "9387025"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>Masinis patvirtintų „Commerce“ savitarnos komponentų diegimas
 
@@ -34,53 +34,53 @@ ms.locfileid: "8898584"
 
 | Skyriklis                 | Aprašymas |
 |---------------------------|-------------|
-| --AadTokenIssuerPrefix | "Microsoft" () atpažinimo ženklo Azure Active Directory išdavėjo Azure AD prefiksas. |
+| -AadTokenIssuerPrefix | "Microsoft" () atpažinimo ženklo Azure Active Directory išdavėjo Azure AD prefiksas. |
 | -AsyncClientAadClientId | Kliento Azure AD ID, kurį turi naudoti "Async" klientas ryšio su "Headquarters" metu. |
-| --AsyncClientAppInsclientsInstrumentationKey | "Async" kliento AppInsights instrumentavimo raktas. |
-| --AsyncClientCertFullPath | Visiškai suformatuotas URN maršrutas, naudojantis nykščio atspaudą kaip "Async Azure AD " kliento tapatybės sertifikato vietos ieškos metriką, kuri turi būti naudojama autentifikuoti ryšiui su "Headquarters". Pavyzdžiui, yra `store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` teisingai suformatuotas URL. Reikšmė bus **\<MyThumbprint\>** pakeista sertifikato nykščio atspaudu, kuris turi būti naudojamas. Nenaudokite šio parametro kartu su parametru **-AsyncClientCertThumbprint**. |
-| --AsyncClientCertThumbprint | "Async" kliento tapatybės sertifikato, kurį reikia naudoti ryšio su " Azure AD Headquarters" nykščio atspaudas, kuris turi būti naudojamas autentifikuoti. Šis nykščio atspaudas bus **naudojamas ieškoti LocalMachine / Mano** parduotuvės vietoje ir siekiant rasti tinkamą naudotiną sertifikatą. Nenaudokite šio parametro kartu su parametru **-AsyncClientCertFullPath**. |
-| --ClientAppInsprogramsInstrumentationKey | AppInsights Kliento instrumentavimo raktas. |
-| --CloudPosAppInsininkaisInstrumentationKey | Debesies EKA AppInsights instrumento raktas. |
-| --Config | Konfigūracijos failas, kuris turėtų būti naudojamas diegiant. Failo vardo pavyzdys yra **Contoso.CommerceScaleUnit.xml**. |
-| --CposAadClientId | Kliento Azure AD ID, kurį turi naudoti "Cloud POS" aktyvinant įrenginį. Šio parametro nereikia norint įdiegti vietiniame kompiuteryje. |
+| -AsyncClientAppInsclientsInstrumentationKey | "Async" kliento AppInsights instrumentavimo raktas. |
+| -AsyncClientCertFullPath | Visiškai suformatuotas URN maršrutas, naudojantis nykščio atspaudą kaip "Async Azure AD " kliento tapatybės sertifikato vietos ieškos metriką, kuri turi būti naudojama autentifikuoti ryšiui su "Headquarters". Pavyzdžiui, yra `store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` teisingai suformatuotas URL. Reikšmė bus **\<MyThumbprint\>** pakeista sertifikato nykščio atspaudu, kuris turi būti naudojamas. Nenaudokite šio parametro kartu su parametru **-AsyncClientCertThumbprint**. |
+| -AsyncClientCertThumbprint | "Async" kliento tapatybės sertifikato, kurį reikia naudoti ryšio su " Azure AD Headquarters" nykščio atspaudas, kuris turi būti naudojamas autentifikuoti. Šis nykščio atspaudas bus **naudojamas ieškoti LocalMachine / Mano** parduotuvės vietoje ir siekiant rasti tinkamą naudotiną sertifikatą. Nenaudokite šio parametro kartu su parametru **-AsyncClientCertFullPath**. |
+| -ClientAppIns turi būtiInstrumentationKey | AppInsights Kliento instrumentavimo raktas. |
+| – CloudPosAppInsprogramsInstrumentationKey | Debesies EKA AppInsights instrumento raktas. |
+| Konfigūruoti (kada konfigūruoti) | Konfigūracijos failas, kuris turėtų būti naudojamas diegiant. Failo vardo pavyzdys yra **Contoso.CommerceScaleUnit.xml**. |
+| -CposAadClientId | Kliento Azure AD ID, kurį turi naudoti "Cloud POS" aktyvinant įrenginį. Šio parametro nereikia norint įdiegti vietiniame kompiuteryje. |
 | –Įrenginys | Įrenginio ID, kaip parodyta programos **Headquarters** puslapyje Įrenginiai. |
-| --EnvironmentId | Aplinkos ID. |
-| --HardwareStationAppInsininkaisInstrumentationKey | Aparatūros stoties AppInsights instrumentinės įrangos raktas. |
-| –- Diegti | Parametras, nurodantis, ar turi būti įdiegtas šios diegimo programos komponentas. Šis parametras nebūtinas. |
-| --InstallOffline | Naudojant "Modern POS" šis parametras nurodo, kad autonominė duomenų bazė taip pat turi būti įdiegta ir sukonfigūruota. Taip pat **naudokite parametrą -SQLServerName**. Kitu atveju diegimo programa bandys rasti numatytąjį egzempliorių, kuris atitiktų būtinuosius komponentus. |
+| –EnvironmentId | Aplinkos ID. |
+| -HardwareStationAppInsininkaisInstrumentationKey | Aparatūros stoties AppInsights instrumentinės įrangos raktas. |
+| Diegti | Parametras, nurodantis, ar turi būti įdiegtas šios diegimo programos komponentas. Šio parametro reikia norint atlikti diegimą, jis neturi būti priekinio brūkšnio simbolio. |
+| -InstallOffline | Naudojant "Modern POS" šis parametras nurodo, kad autonominė duomenų bazė taip pat turi būti įdiegta ir sukonfigūruota. Taip pat **naudokite parametrą -SQLServerName**. Kitu atveju diegimo programa bandys rasti numatytąjį egzempliorių, kuris atitiktų būtinuosius komponentus. |
 | – prievadas | Prievadas, kurį reikia susieti su virtualiojo katalogo "Retail Server" ir naudoti. Jei prievadas nustatytas, bus naudojamas numatytasis prievadas 443. |
-| –-registras | Registro ID, kaip parodyta kasos **aparatų puslapyje**, būstinėje. |
-| --RetailServerAadClientId | Kliento Azure AD ID, kurį turi naudoti "Retail Server" ryšio su "Headquarters" metu. |
-| --RetailServerAadResourceId | "Retail Server" Azure AD programos išteklių ID, kuris turi būti naudojamas aktyvinant įrenginį. Šio parametro nereikia norint įdiegti vietiniame kompiuteryje. |
-| --RetailServerCertFullPath | Visiškai suformatuotas URN maršrutas, naudojantis nykščio atspaudą kaip "Retail Server Azure AD " tapatybės sertifikato ieškos metriką, kurią reikia naudoti norint autentifikuoti ryšiui su "Headquarters". Pavyzdžiui, teisingai `store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` suformatuotas URLN, kur vertė bus **\<MyThumbprint\>** pakeista sertifikato nykščio atspaudu, kuris turi būti naudojamas. Nenaudokite šio parametro kartu su parametru **-RetailServerCertThumbprint**. |
-| --RetailServerCertThumbprint | "Retail Server" tapatybės sertifikato nykščio atspaudas, kurį reikia naudoti norint autentifikuoti Azure AD ryšį su "Headquarters". Šis nykščio atspaudas bus **naudojamas ieškoti LocalMachine / Mano** parduotuvės vietoje ir siekiant rasti tinkamą naudotiną sertifikatą. Nenaudokite šio parametro kartu su parametru **-RetailServerCertFullPath**. |
-| -RetailServerURL(-RetailServerURL) | "Retail Server" URL, kurį turi naudoti diegimo programa. (Šis URL taip pat vadinamas "Commerce Scale Unit" \[CSU\] URL.) "Modern POS" ši vertė bus naudojama aktyvinant įrenginį. |
+| –Registras | Registro ID, kaip parodyta kasos **aparatų puslapyje**, būstinėje. |
+| -RetailServerAadClientId | Kliento Azure AD ID, kurį turi naudoti "Retail Server" ryšio su "Headquarters" metu. |
+| -RetailServerAadResourceId | "Retail Server" Azure AD programos išteklių ID, kuris turi būti naudojamas aktyvinant įrenginį. Šio parametro nereikia norint įdiegti vietiniame kompiuteryje. |
+| –RetailServerCertFullPath | Visiškai suformatuotas URN maršrutas, naudojantis nykščio atspaudą kaip "Retail Server Azure AD " tapatybės sertifikato ieškos metriką, kurią reikia naudoti norint autentifikuoti ryšiui su "Headquarters". Pavyzdžiui, teisingai `store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` suformatuotas URLN, kur vertė bus **\<MyThumbprint\>** pakeista sertifikato nykščio atspaudu, kuris turi būti naudojamas. Nenaudokite šio parametro kartu su parametru **-RetailServerCertThumbprint**. |
+| –RetailServerCertThumbprint | "Retail Server" tapatybės sertifikato nykščio atspaudas, kurį reikia naudoti norint autentifikuoti Azure AD ryšį su "Headquarters". Šis nykščio atspaudas bus **naudojamas ieškoti LocalMachine / Mano** parduotuvės vietoje ir siekiant rasti tinkamą naudotiną sertifikatą. Nenaudokite šio parametro kartu su parametru **-RetailServerCertFullPath**. |
+| -RetailServerURL | "Retail Server" URL, kurį turi naudoti diegimo programa. (Šis URL taip pat vadinamas "Commerce Scale Unit" \[CSU\] URL.) "Modern POS" ši vertė bus naudojama aktyvinant įrenginį. |
 | -SkipAadCredentialsCheck| Switch, kuris nurodo, ar Azure AD reikia praleisti kredencialų būtinųjų komponentų tikrinimus. Numatytoji reikšmė yra **klaidinga**. |
-| --SkipCertCheck | Raktas, nurodantis, ar reikia praleisti sertifikato būtinųjų komponentų tikrinimus. Numatytoji reikšmė yra **klaidinga**. |
-| -SkipiisCheck | Switch, kuris nurodo, ar turi būti praleisti informacinių interneto paslaugų (IIS) būtinųjų komponentų tikrinimai. Numatytoji reikšmė yra **klaidinga**. |
-| --SkipNetFrameworkCheck | Switch, kuris nurodo, ar reikia praleisti ".NET Framework" būtinųjų komponentų tikrinimus. Numatytoji reikšmė yra **klaidinga**. |
-| --SkipScaleUnitCheck | Perjungimo raktas, nurodantis, ar turi būti praleistas įdiegtų komponentų sveikatos tikrinimas. Numatytoji reikšmė yra **klaidinga**. |
-| --SkipsChannelCheck | Switch, kuris nurodo, ar reikia praleisti saugius kanalo būtinuosius tikrinimus. Numatytoji reikšmė yra **klaidinga**. |
-| -SkipSqlFullTextCheck(-SkipSqlFullTextCheck) | Raktas, nurodantis, ar reikia praleisti SQL serverio būtinojo komponento, kuriam reikia viso teksto ieškos, tikrinimą. Numatytoji reikšmė yra **klaidinga**. |
+| –SkipCertCheck | Raktas, nurodantis, ar reikia praleisti sertifikato būtinųjų komponentų tikrinimus. Numatytoji reikšmė yra **klaidinga**. |
+| -SkipIisCheck | Switch, kuris nurodo, ar turi būti praleisti informacinių interneto paslaugų (IIS) būtinųjų komponentų tikrinimai. Numatytoji reikšmė yra **klaidinga**. |
+| -SkipNetFrameworkCheck | Switch, kuris nurodo, ar reikia praleisti ".NET Framework" būtinųjų komponentų tikrinimus. Numatytoji reikšmė yra **klaidinga**. |
+| -SkipScaleUnit Turi būti tikrinta | Perjungimo raktas, nurodantis, ar turi būti praleistas įdiegtų komponentų sveikatos tikrinimas. Numatytoji reikšmė yra **klaidinga**. |
+| -SkipsChannelCheck | Switch, kuris nurodo, ar reikia praleisti saugius kanalo būtinuosius tikrinimus. Numatytoji reikšmė yra **klaidinga**. |
+| -SkipSqlFullTextCheck | Raktas, nurodantis, ar reikia praleisti SQL serverio būtinojo komponento, kuriam reikia viso teksto ieškos, tikrinimą. Numatytoji reikšmė yra **klaidinga**. |
 | -SkipSqlServerCheck | Raktas, nurodantis, ar turi būti praleisti SQL serverio būtinųjų komponentų tikrinimai. Numatytoji reikšmė yra **klaidinga**. |
-| --SqlServerName | SQL serverio pavadinimas. Jei pavadinimas nenurodytas, diegimo programa bandys rasti numatytąjį egzempliorių. |
-| --SslcertFullPath | Visiškai suformatuotas URN maršrutas, naudojantis nykščio atspaudą kaip sertifikato vietos paieškos metriką, kurią reikia naudoti HTTP srautui į svarstyklių vienetą šifruoti. Pavyzdžiui, teisingai `store:\/\/My\/LocalMachine\?FindByThumbprint\=\<MyThumbprint\>` suformatuotas URLN, kur vertė bus **\<MyThumbprint\>** pakeista sertifikato nykščio atspaudu, kuris turi būti naudojamas. Nenaudokite šio parametro kartu su parametru **-SslCertThumbprint**. |
-| --SslCertThumbprint | Sertifikato, kurį naudojant reikia šifruoti HTTP srautą iki svarstyklių vieneto, nykščio atspaudas. Šis nykščio atspaudas bus **naudojamas ieškoti LocalMachine / Mano** parduotuvės vietoje ir siekiant rasti tinkamą naudotiną sertifikatą. Nenaudokite šio parametro kartu su parametru **-SslCertFullPath**. |
-| --StoreSystemAosUrl | Būstinės (AOS) URL. |
-| --StoreSystemChannelDatabaseId | Kanalo duomenų bazės ID (pavadinimas). |
-| --TenantId | Nuomininko Azure AD ID. |
-| --TransactionServiceAzureAuthority | "Transaction Service" Azure AD institucija. |
-| --TransactionServiceAzureResource | "Transaction Service" Azure AD išteklius. |
+| -SqlServerName | SQL serverio pavadinimas. Jei pavadinimas nenurodytas, diegimo programa bandys rasti numatytąjį egzempliorių. |
+| -SslcertFullPath | Visiškai suformatuotas URN maršrutas, naudojantis nykščio atspaudą kaip sertifikato vietos paieškos metriką, kurią reikia naudoti HTTP srautui į svarstyklių vienetą šifruoti. Pavyzdžiui, teisingai `store:\/\/My\/LocalMachine\?FindByThumbprint\=\<MyThumbprint\>` suformatuotas URLN, kur vertė bus **\<MyThumbprint\>** pakeista sertifikato nykščio atspaudu, kuris turi būti naudojamas. Nenaudokite šio parametro kartu su parametru **-SslCertThumbprint**. |
+| -SslCertThumbprint | Sertifikato, kurį naudojant reikia šifruoti HTTP srautą iki svarstyklių vieneto, nykščio atspaudas. Šis nykščio atspaudas bus **naudojamas ieškoti LocalMachine / Mano** parduotuvės vietoje ir siekiant rasti tinkamą naudotiną sertifikatą. Nenaudokite šio parametro kartu su parametru **-SslCertFullPath**. |
+| -StoreSystemAosUrl | Būstinės (AOS) URL. |
+| -StoreSystemChannelDatabaseId | Kanalo duomenų bazės ID (pavadinimas). |
+| -TenantId | Nuomininko Azure AD ID. |
+| -TransactionServiceAzureAuthority | "Transaction Service" Azure AD institucija. |
+| -TransactionServiceAzureResource | "Transaction Service" Azure AD išteklius. |
 | -TrustSqlServerCertificate | Raktas, nurodantis, ar užmegzti ryšį su SQL serveriu reikia pasitikima serverio sertifikatu. Siekiant išvengti saugos rizikos, diegiant gamybą čia niekada neturėtų būti tiek vertė, kuri **yra teisinga**. Numatytoji reikšmė yra **klaidinga**. |
-| --Daugiažodis | Registravimosi lygis, reikalaujamas diegiant. Paprastai ši vertė neturi būti naudojama. |
-| --WindowsPhoneAppInsininkaisInstrumentationKey | Aparatūros stoties AppInsights instrumentinės įrangos raktas. |
+| -Daugiažodis | Registravimosi lygis, reikalaujamas diegiant. Paprastai ši vertė neturi būti naudojama. |
+| -WindowsPhoneAppInsprogramsInstrumentationKey | Aparatūros stoties AppInsights instrumentinės įrangos raktas. |
 
 ## <a name="general-overview"></a>Bendroji peržiūra
 
 Nauja savitarnos diegimo diegimo priemonių sistema turi įvairių funkcijų ir patobulinimų. Nauja sistema šiuo metu sugeneruoja tik "Modern POS", aparatūros stoties ir CSU (savitarnos), diegimo programa. Svarbu suprasti, kad užantspauduotos diegimo programos naudoja pagrindinę komandų eilutę, kuri turėtų atrodyti panašiai kaip pateikta toliau pateiktame pavyzdyje. 
  
 ```Console
-<Component Installer Name>.exe install --<Parameter Name> "<Parameter Information>"
+<Component Installer Name>.exe install -<Parameter Name> "<Parameter Information>"
 ```
 
 Diegimo programai reikia parametrų **diegimo** (arba **šalinimo**, norint pašalinti įdiegtį) ir bet kokius to diegimo parametrus. **Parametro** pavadinime turi būti visi reikalingi parametrai, pvz., registras, CSU URL ar sertifikato informacija. **Parametrų** informacija turi apimti bet kokią papildomą informaciją apie parametrus.
@@ -110,6 +110,9 @@ Norint perkelti iš senų savitarnos sistemos komponentų diegimo programų į n
 
 Svarbu pašalinti seną savitarnos "Modern POS" komponentą. Norėdami gauti daugiau informacijos, peržiūrėkite anksčiau šiame straipsnyje nurodytus perkėlimo veiksmus.
 
+> [!NOTE]
+> Viename kompiuteryje, pvz., programavimo topologijoje ar demonstracinę aplinką, arba kai "Commerce Scale Unit" ir "Modern POS" yra įdiegti tame pačiame kompiuteryje, galima nustatyti, kad "Store Commerce" nebegalės baigti aktyvinti įrenginio. Ši problema kyla dėl to, kad "Store Commerce" negali iš naujo skambinti tam pačiam kompiuteriui (t.vz., išk ryšys su tuo pačiu kompiuteriu). Kol tai niekada neturėtų būti gamybos parametrų scenarijus, problema gali būti sumažinta įgalinant AppContainer ciklo atšaukimo išimtį, kad būtų galimi ryšiai su tuo pačiu kompiuteriu. Įvairios programos yra viešai prieinamos, kad padėtų įgalinti šį ciklo atjungią. Daugiau informacijos apie ciklo atsarginį ryšį žr. Kaip įgalinti [loopback ir šalinti tinklo atskyrimo triktis](/previous-versions/windows/apps/hh780593(v=win.10)). Svarbu suprasti, kad loopback gali būti saugos rizika, todėl nerekomenduojama naudoti loopback, nebent to reikia.
+
 ### <a name="examples-of-silent-deployment"></a>Tyliojo diegimo pavyzdžiai
 
 Šiame skyriuje pateikiami komandų, kurios naudojamos "Modern POS" įdiegti, pavyzdžiai.
@@ -121,7 +124,7 @@ Svarbu pašalinti seną savitarnos "Modern POS" komponentą. Norėdami gauti dau
 Šioje pagrindinei komandai rodoma galimų pasirinkčių, jei reikia įdiegti, atveju. Rekomenduojama šią komandą naudoti pirmą kartą tikrinant arba naudojant diegimo programą.
 
 ```Console
-CommerceModernPOS.exe --help install
+CommerceModernPOS.exe -help install
 ```
 
 > [!NOTE]
@@ -130,13 +133,13 @@ CommerceModernPOS.exe --help install
 Toliau pateikta komanda nurodo visus parametrus, kurie turi būti naudojami įrenginio aktyvinimo metu įdiegus "Modern POS" programą. Šiame pavyzdyje naudojamasĖs-3 **registras**, kuris paprastai naudojamas demonstracinių Dynamics 365 Commerce duomenų vertė.
 
 ```Console
-CommerceModernPOS.exe install --Register "Houston-3" --Device "Houston-3" --RetailServerURL "https://MyDynamics365CommerceURL.dynamics.com/Commerce"
+CommerceModernPOS.exe install -Register "Houston-3" -Device "Houston-3" -RetailServerURL "https://MyDynamics365CommerceURL.dynamics.com/Commerce"
 ```
 
 Toliau nurodyta komanda nurodo parametrus, kuriuos reikia naudoti norint įdiegti ir konfigūruoti autonominę duomenų bazę. SQL serveris nurodomas kartu su konfigūracijos failu, kuris turi būti naudojamas.
 
 ```Console
-CommerceModernPOS.exe install --InstallOffline --SQLServerName "SQLExpress" --Config "ModernPOS.Houston-3.xml"
+CommerceModernPOS.exe install -InstallOffline -SQLServerName "SQLExpress" -Config "ModernPOS.Houston-3.xml"
 ```
 
 Norint pasiekti norimus diegimo rezultatus, galima maišyti ir suderinti šias sąvokas.
@@ -148,7 +151,7 @@ Norint pasiekti norimus diegimo rezultatus, galima maišyti ir suderinti šias s
 Svarbu pašalinti seną savitarnos aparatūros stoties komponentą. Norėdami gauti daugiau informacijos, peržiūrėkite anksčiau šiame straipsnyje nurodytus perkėlimo veiksmus. Nebėra prekybininko sąskaitos informacijos įrankio. Prekybininko sąskaitos informacija įdiegiama, kai EKA terminalas yra susietas su aparatūros stotyje. Tikrinant šią diegimo programą pirmą kartą, labai rekomenduojama vykdyti šią komandą:
 
 ```Console
-CommerceHardwareStation.exe --help install
+CommerceHardwareStation.exe -help install
 ```
 
 ### <a name="examples-of-silent-deployment"></a>Tyliojo diegimo pavyzdžiai
@@ -162,7 +165,7 @@ CommerceHardwareStation.exe --help install
 Toliau nurodyta pagrindinė komanda vykdo vykdomųjų failų diegimo programą.
 
 ```Console
-HardwareStation.exe install --Port 443 --StoreSystemAOSURL "https://MyDynamics365CommerceURL.dynamics.com/" --StoreSystemChannelDatabaseID "Houston" --SSLCertThumbprint "MySSLCertificateThumbprintOftenHasNumbers"
+HardwareStation.exe install -Port 443 -StoreSystemAOSURL "https://MyDynamics365CommerceURL.dynamics.com/" -StoreSystemChannelDatabaseID "Houston" -SSLCertThumbprint "MySSLCertificateThumbprintOftenHasNumbers"
 ```
 
 > [!NOTE]
@@ -174,7 +177,7 @@ Toliau pateikiama komanda nurodo visus parametrus, kurių reikia norint praleist
 > Nerekomenduojama praleisti tikrinimų nepatarus iš anksto arba programavimo situacijose.
 
 ```Console
-HardwareStation.exe install --SkipFirewallUpdate --SkipOPOSCheck --SkipVersionCheck --SkipURLCheck --Config "HardwareStation.Houston.xml"
+HardwareStation.exe install -SkipFirewallUpdate -SkipOPOSCheck -SkipVersionCheck -SkipURLCheck -Config "HardwareStation.Houston.xml"
 ```
 
 Kaip įprasta, norint pasiekti norimus diegimo rezultatus, įprasta maišyti ir atitikti šias sąvokas.
@@ -184,7 +187,7 @@ Kaip įprasta, norint pasiekti norimus diegimo rezultatus, įprasta maišyti ir 
 Tikrinant šią diegimo programą pirmą kartą, labai rekomenduojama vykdyti šią komandą:
 
 ```Console
-CommerceStoreScaleUnitSetup.exe --help install
+CommerceStoreScaleUnitSetup.exe -help install
 ```
 
 ### <a name="before-you-begin"></a>Prieš pradedant
@@ -202,7 +205,7 @@ Yra labai svarbu pašalinti seną savitarnos CSU (savitarnos) komponentą. Norė
 Lyginant su kitomis savitarnos įdiegtimis, "Commerce Scale Unit" (CSU) yra sudėtingesnė ir tam reikia daug papildomos informacijos. Toliau nurodyta komanda yra minimali komanda (su parametrais), reikalinga vykdomai failų diegimo programai paleisti, kai nėra konfigūracijos failo.
 
 ```Console
-CommerceScaleUnit.exe install --port 446 --SSLCertThumbprint "MySSLCertificateThumbprintOftenHasNumbers" --RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" --AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" --RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" --CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" --RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" --TrustSqlServerCertificate --Config "Contoso.StoreSystemSetup.xml"
+CommerceScaleUnit.exe install -port 446 -SSLCertThumbprint "MySSLCertificateThumbprintOftenHasNumbers" -RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" -AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" -RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" -CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" -RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" -TrustSqlServerCertificate -Config "Contoso.StoreSystemSetup.xml"
 ```
 
 > [!NOTE]
@@ -211,7 +214,7 @@ CommerceScaleUnit.exe install --port 446 --SSLCertThumbprint "MySSLCertificateTh
 Toliau pateikta komanda yra išsamesnė komanda, kuri vykdo vykdomojo failo diegimo programą su kai kuriais alternatyviais parametrais.
 
 ```Console
-CommerceScaleUnit.exe install --Port 446 --SSLCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --AsyncClientCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" --AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" --RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" --CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" --RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" --TrustSqlServerCertificate --Verbosity 0 --Config "Contoso.StoreSystemSetup.xml"
+CommerceScaleUnit.exe install -Port 446 -SSLCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" -AsyncClientCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" -RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" -AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" -RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" -CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" -RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" -TrustSqlServerCertificate -Verbosity 0 -Config "Contoso.StoreSystemSetup.xml"
 ```
 
 Toliau pateikta komanda nurodo parametrus, būtinus norint praleisti būtinųjų komponentų tikrinimus atliekant standartinį diegimą. 
@@ -221,7 +224,7 @@ Toliau pateikta komanda nurodo parametrus, būtinus norint praleisti būtinųjų
 
 
 ```Console
-CommerceScaleUnit.exe installer --skipscaleunithealthcheck --skipcertcheck --skipaadcredentialscheck --skipschannelcheck --skipiischeck --skipnetcorebundlecheck --skipsqlservercheck --skipnetframeworkcheck --skipversioncheck --skipurlcheck --Config "Contoso.StoreSystemSetup.xml" --SSLCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --AsyncClientCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" --AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" --RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" --CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" --RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" --TrustSqlServerCertificate
+CommerceScaleUnit.exe installer -skipscaleunithealthcheck -skipcertcheck -skipaadcredentialscheck -skipschannelcheck -skipiischeck -skipnetcorebundlecheck -skipsqlservercheck -skipnetframeworkcheck -skipversioncheck -skipurlcheck -Config "Contoso.StoreSystemSetup.xml" -SSLCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" -AsyncClientCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" -RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" -AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" -RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" -CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" -RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" -TrustSqlServerCertificate
 ```
 
 Norint pasiekti norimus diegimo rezultatus, galima maišyti ir suderinti šias sąvokas.

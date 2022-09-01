@@ -2,7 +2,7 @@
 title: Elektroninių ataskaitų (ER) paskirties vietos
 description: Šiame straipsnyje pateikiama informacija apie elektroninių ataskaitų paskirties vietų valdymą, palaikomų paskirties vietų tipus ir saugos aplinkybes.
 author: kfend
-ms.date: 05/18/2022
+ms.date: 08/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.1
 ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.form: DocuType, ERSolutionTable
-ms.openlocfilehash: 1718b9e32c1e9f34d38479b74d59af6233f82a8c
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: HT
+ms.openlocfilehash: b1bf6289e80769dfe8858f307cbb9b217b42dbb4
+ms.sourcegitcommit: f2edc193003564c5bee1747f9c2b800feee342bd
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281974"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9360985"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroninių ataskaitų (ER) paskirties vietos
 
@@ -247,6 +247,52 @@ Išeigos išskleidimo parinktį galima konfigūruoti tik **Aplanko** tipo format
 ### <a name="limitations"></a>Apribojimai
 
 Jei nustatote lauką **Siųsti aplanką kaip** į **Atskiri failai** komponentui **Aplankas**, kuriame yra kitų įdėtųjų **Aplanko** komponentų, nustatymas nėra rekursyviai taikomas įdėtiems **Aplanko** komponentams.
+
+## <a name="change-page-layout-properties-of-a-template"></a><a name="change-page-layout-properties-of-a-template"></a> Keisti šablono puslapio maketo ypatybes
+
+Galite konfigūruoti ER paskirties vietą ER Microsoft Office formato komponentui, sukurtas naudoti šabloną (Excel arba Word) formatu ataskaitos generavimui. Jei neturite šio formato savininko, o reikia pakeisti formato šablono puslapio maketo ypatybes finansų versijose iki versijos 10.0.29, turite sukurti išvestinį formatą ir modifikuoti šablono ypatybes. Tada turite išlaikyti išvestinį formato konfigūraciją. Tačiau 10.0.29 ir vėlesnėje versijoje galite keisti šablono maketo ypatybes vykdyklėje, kad išvengtumėte išvestinio formato konfigūracijos kūrimo ir priežiūros. Norėdami tai padaryti, nustatykite norimas ypatybes kaip sukonfigūruotos ER paskirties vietos parametrų dalį. Kai vykdote ER formatą ir vykdote ER paskirties vietą, sukonfigūruotą naudoti tam tikras puslapio maketo ypatybes, vykdomos paskirties vietos puslapio maketo ypatybės vertės taikomos jūsų naudojamam šablonui, pakeičiant pradinio šablono ypatybes. Galite konfigūruoti skirtingas paskirties vietas, skirtas to paties formato komponentui, konfigūruodami skirtingas naudojamas šablono puslapio maketo ypatybes.
+
+Toliau nurodytas ypatybes galima konfigūruoti ER paskirties vietoje, skirtos formato komponentui, kuris sukurtas naudoti šabloną Excel arba Word formatu:
+
+- Puslapio padėtis
+    - Vertikali
+    - Horizontali
+- Popieriaus dydis
+    - A3
+    - A4
+    - A5
+    - B4
+    - B5
+    - „Executive“
+    - Teisinė informacija
+    - „Letter“
+    - „Statement“
+    - „Tabloid“
+- Puslapių paraštės
+    - Viršuje
+        - Antraštė
+    - Apačioje
+        - Poraštė
+    - Kairėje
+    - Dešinėje
+
+> [!NOTE]
+> Tokiu būdu sukonfigūruoto [šablono puslapio padėtis turi būti sulygiuota su PDF](#select-a-page-orientation-for-pdf-conversion) konvertavimo puslapio padėtis, jei PDF konvertavimas sukonfigūruotas.
+
+Norėdami nustatyti puslapio paraštes, turite pasirinkti ilgio vienetą:
+
+- Coliai
+- Centimetrai
+- Milimetrai
+
+![Nustatykite puslapio maketo ypatybes elektroninių ataskaitų paskirties puslapyje.](./media/er_destinations-set-page-layout-properties.png)
+
+> [!TIP]
+> Kai maržos vertė nurodoma centimetrais ir nurodoma keliais dešimtainėmis dalimis, ji apvalinama vykdymo metu iki artimiausios vertės, naudojant 1 dešimtainį skyriklį.
+>
+> Kai maržos vertė paskiriama milimetrais ir nurodoma dešimtainėmis dalimis, ji Excel vykdymo metu apvalinama iki artimiausio sveikojo skaičiaus be dešimtainio kablelio.
+>
+> Kai maržos vertė paskiriama milimetrais ir nurodoma keliais dešimtainėmis dalimis, word apdorojimo metu ji apvalinama iki artimiausios vertės su viena dešimtaine dalimi.
 
 ## <a name="security-considerations"></a>Saugos klausimai
 

@@ -2,7 +2,7 @@
 title: Spartieji klavišai
 description: Šiame straipsnyje pateikta sparčiųjų klavišų derinių, kuriuos galima naudoti dirbant su finansų ir operacijų programėle, apžvalga.
 author: jasongre
-ms.date: 07/12/2022
+ms.date: 08/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67e1904807dfe5122de3d3ead97c2e2c11ed213d
-ms.sourcegitcommit: bd2d6a86a7fd4b4f6f86656998f7a8844f949e42
+ms.openlocfilehash: 04abaeada458e05df3de045d9c7a715040b7bfa4
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "9140446"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357597"
 ---
 # <a name="keyboard-shortcuts"></a>Spartieji klavišai
 
@@ -135,10 +135,10 @@ Vartotojai gali atrasti šiuo metu galimas nuorodas tiesiai iš vartotojo sąsaj
 | Horizontalioji slinktis                                                                                                   | Shift + pelės ratas             |
 | Perkelti į kitą / ankstesnį stulpelį                                                                                       | Tab / Shift + Tab                 |
 | Perkelti į kitą / ankstesnę eilutę                                                                                          | Rodyklė žemyn / rodyklė aukštyn           |
-| Perkelti į kitą / ankstesnę eilutę nepasirinkus<blockquote>[!NOTE] Šis spartusis klavišas taikomas tik žymint kelis elementus.</blockquote> | „Ctrl“ + rodyklė aukštyn / „Ctrl“ + rodyklė žemyn |
-| Pasirinkti / išvalyti dabartinę eilutę<blockquote>[!NOTE] Šis spartusis klavišas taikomas tik žymint kelis elementus.</blockquote>                    | Ctrl + tarpo klavišas / Ctrl + spustelėjimas         |
-| Į pasirinktą rinkinį įtraukti kitą / ankstesnę eilutę<blockquote>[!NOTE] Šis spartusis klavišas taikomas tik žymint kelis elementus.</blockquote>   | Shift+Space                     |
-| Į pasirinktą rinkinį įtraukti eilučių intervalą<blockquote>[!NOTE] Šis spartusis klavišas taikomas tik žymint kelis elementus.</blockquote>         | Shift + spustelėjimas                     |
+| Perkelti į kitą / ankstesnę eilutę nepasirinkus<br><br>**Pastaba:** ši nuoroda taikoma tik keleto pasirinkinių scenarijams. | „Ctrl“ + rodyklė aukštyn / „Ctrl“ + rodyklė žemyn |
+| Pasirinkti / išvalyti dabartinę eilutę<br><br>**Pastaba:** ši nuoroda taikoma tik keleto pasirinkinių scenarijams.                   | Ctrl + tarpo klavišas / Ctrl + spustelėjimas         |
+| Į pasirinktą rinkinį įtraukti kitą / ankstesnę eilutę<br><br>**Pastaba:** ši nuoroda taikoma tik keleto pasirinkinių scenarijams.  | Shift+Space                     |
+| Į pasirinktą rinkinį įtraukti eilučių intervalą<br><br>**Pastaba:** ši nuoroda taikoma tik keleto pasirinkinių scenarijams.         | Shift + spustelėjimas                     |
 | Eiti į kitą / ankstesnį duomenų puslapį                                                                                   | „Page up“ / „Page down“             |
 | Kurti naują eilutę tinklelio apačioje                                                                             | Rodyklė žemyn (nuo paskutinės eilutės)  |
 | Perkelti į pirmą įrašą                                                                                               | CTRL + HOME                       |
@@ -148,7 +148,7 @@ Vartotojai gali atrasti šiuo metu galimas nuorodas tiesiai iš vartotojo sąsaj
 | Perkelti į kitą eilutę                                                                                            | Alt+Shift+M, L                  |
 | Perkelti į ankstesnę eilutę                                                                                        | Alt+Shift+M, P                  |
 | Perkelti į pirmą įrašą                                                                                           | Alt+Shift+M, N                  |
-| Vykdyti numatytąjį tinklelio veiksmą<blockquote>[!NOTE] Šis spartusis klavišas įjungiamas, kai įvesties vieta yra langelyje su hipersaitu ir visi to stulpelio langeliai yra su hipersaitais.</blockquote> | Enter                           |
+| Vykdyti numatytąjį tinklelio veiksmą<br><br>**Pastaba: ši** nuoroda įgalinta, kai aktyvinti langelį, kuriame yra hipersaitas, o visi to stulpelio langeliai turi hipersaitus. | Enter                           |
 | Perkelti įvesties vietą iš pasirinktos eilutės į antraštės eilutę ir atvirkščiai                                                               | Alt + Shift + H                     |
 | Padidinti / sumažinti dabartinį stulpelį (įvesties vietą nustatant antraštės eilutėje)                                                  | Rodyklė dešinėn / rodyklė kairėn        |
 | Perkelti dabartinį stulpelį į paskesne/ankstesne padėtį (su židiniu antraštės eilutėje)                                   | CTRL + Shift + rodyklė dešinėn / Ctrl + shift + rodyklė kairėn |
