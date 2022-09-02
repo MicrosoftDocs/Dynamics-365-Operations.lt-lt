@@ -466,6 +466,8 @@
                           items:
                             - name: Išorinių dovanų kortelių palaikymas
                               href: dev-itpro/gift-card.md
+                            - name: Dovanų kortelių duomenų bendrinimas tarp įmonių
+                              href: dev-itpro/data-sharing-gift-cards.md
                     - name: RSAT
                       items:
                         - name: Testavimo įrašymo priemonė ir „Cloud POS“ skirtas „Regression Suite Automation Tool“
