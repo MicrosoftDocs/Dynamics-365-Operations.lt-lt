@@ -2,7 +2,7 @@
 title: Atsargų parametrų taikymas
 description: Šiame straipsnyje aprašomi atsargų parametrai ir aprašoma, kaip juos taikyti Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/15/2021
+ms.date: 08/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: ''
-ms.openlocfilehash: bc55715b7c74f3b572459dd1aa7d409b7175535b
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 49310a44f8b9c636734e04d4eed9445384b55791
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287598"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405326"
 ---
 # <a name="apply-inventory-settings"></a>Atsargų parametrų taikymas
 
@@ -51,12 +51,12 @@ Programoje „Commerce“ atsargų parametrai apibrėžiami **Svetainės paramet
     > [!IMPORTANT] 
     > Kelių **sandėlių parametrų atsargų lygis** pasiekiamas naudojant „Commerce" 10.0.19 versiją. Jei atnaujinate iš senesnės „Commerce” versijos, turite rankiniu būdu atnaujinti failą appsettings.json. Dėl nurodymų, žr. [SDK ir modulio bibliotekos naujinimai](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
-- **Produktų sąrašo puslapių atsargų parametrai** – šis parametras apibrėžia, kaip produktai, kurių nėra atsargose, rodomi produktų sąrašuose, kurie atvaizduojami produktų rinkimo ir ieškos rezultatų moduliuose. Galimos vertės yra **Rodyti užsakymą su kitais produktais**, **Slėpti atsargų produktus iš sąrašo**, ir **Rodyti produktus ne atsargose sąrašo pabaigoje**. Norėdami naudoti šį parametrą, pirmiausia turite sukonfigūruoti kelis būtinuosius parametrus „Commerce Headquarters". Daugiau informacijos ieškokite [modulyje Įgalinti atsargų supratimą apie ieškos rezultatus](search-result-module.md#enable-inventory-awareness-for-the-search-results-module).
+- **Produktų sąrašo puslapių atsargų parametrai** – šis parametras apibrėžia, kaip produktai, kurių nėra atsargose, rodomi produktų sąrašuose, kurie atvaizduojami produktų rinkimo ir ieškos rezultatų moduliuose. Galimos vertės yra **Rodyti užsakymą su kitais produktais**, **Slėpti atsargų produktus iš sąrašo**, ir **Rodyti produktus ne atsargose sąrašo pabaigoje**. Norėdami naudoti šį parametrą, pirmiausia turite sukonfigūruoti kelis būtinuosius parametrus „Commerce Headquarters". Daugiau informacijos ieškokite atsargų [produktų sąraše](inventory-aware-product-listing.md).
 
     > [!IMPORTANT] 
     > Kelių **Atsargų parametrų produkto sąrašo puslapiuose** pasiekiamas naudojant „Commerce" 10.0.20 versiją. Jei atnaujinate iš senesnės „Commerce” versijos, turite rankiniu būdu atnaujinti failą appsettings.json. Dėl nurodymų, žr. [SDK ir modulio bibliotekos naujinimai](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
-- **Atsargų diapazonai** – šis parametras apibrėžia atsargų diapazonus, kurie bus rodomi dėl svetainės moduliuose. Jis taikomas tik tuo atveju, jei reikšmės **Iš viso pasiekiama** arba **Fiziškai pasiekiama** pasirinktos parametrui **Atsargų lygio pagrindas**. Galimos vertės yra **Visos**, **Mažai ir nebėra** ir **Nebėra**.
+- **Atsargų diapazonai** – šis parametras apibrėžia atsargų diapazono pranešimus, kurie rodomi svetainės moduliuose. Jis taikomas tik tuo atveju, jei reikšmės **Iš viso pasiekiama** arba **Fiziškai pasiekiama** pasirinktos parametrui **Atsargų lygio pagrindas**. Galimos vertės yra **Visos**, **Mažai ir nebėra** ir **Nebėra**.
 
     - Pasirinkus **Visos** bus rodomi pranešimai apie visus atsargų diapazonus nuo „yra atsargų“ (pranešimas „Yra“) iki „nebėra atsargų“ (pranešimas „nebėra atsargų“).
     - Pasirinkus **Mažai ir nebėra** bus rodomi pranešimai apie visus atsargų diapazonus, išskyrus „yra atsargų“ (pranešimas „Yra“).

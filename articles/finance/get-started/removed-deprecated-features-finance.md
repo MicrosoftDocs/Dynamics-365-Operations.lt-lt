@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 1b5282bc1fb4834d001cd2513664996a2f4cf4f0
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: 83fa9d0a08d4d9ec171aeee685d39bba46e5687d
+ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313890"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410456"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Pašalintos arba nebenaudojamos „Dynamics 365 Finance“ funkcijos
 
@@ -33,6 +33,20 @@ ms.locfileid: "9313890"
 > [!NOTE]
 > Išsami informacija apie finansų ir operacijų programėlių objektus pateikta techninės [nuorodos ataskaitose](/dynamics/s-e/global/axtechrefrep_61). Galite palyginti skirtingas šių ataskaitų versijas ir sužinoti apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje finansų ir operacijų programėlių versijoje.
 
+## <a name="features-removed-or-deprecated-in-the-finance-10030-release"></a>Pašalintos arba nerekomenduojamos funkcijos, esančios „Finance“ 10.0.30 versijoje
+
+### <a name="revenue-recognition"></a>Įplaukų pripažinimas
+
+[Įplaukų pripažinimas](../../finance/accounts-receivable/revenue-recognition-overview.md)
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Nerekomendavimo/pašalinimo priežastis** |Pakeista patobulintos funkcijos, abonementinis [atsiskaitymas](../../finance/accounts-receivable/subscription-billing-summary.md)
+| **Pakeitė kita funkcija?**   | Taip |
+| **Paveiktos produkto sritys** | Taikymas |
+| **Visuotinio diegimo parinktis** | Viskas |
+| **Būsena** | Pasenusi: po 2023 m. balandžio mėn. "Dynamics 365 Finance" įplaukų atpažinimo funkcijos nebegaus palaikymo su pataisymais. Klientų bus prašoma naudoti patobulintą funkciją – abonemento [sąskaitas](../../finance/accounts-receivable/subscription-billing-summary.md). 2023 m. spalio mėn. Įplaukų pripažinimo priemonė nebebus galima. Klientų bus prašoma pereiti prie patobulintos abonemento atsiskaitymo funkcijos.|
+
 ## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Pašalintos arba nerekomenduojamos funkcijos, esančios „Finance“ 10.0.29 versijoje
 
 ### <a name="stock-transfer-orders-that-have-tax-on-the-transfer-price"></a>Atsargų perkėlimo užsakymai, kurių perkėlimo kainai taikomas mokestis
@@ -43,7 +57,7 @@ ms.locfileid: "9313890"
 |---|---|
 | **Nerekomendavimo/pašalinimo priežastis** | Pakeista patobulinta funkcija, Atsargų perkėlimo [užsakymai Indijai](../../finance/localizations/apac-ind-stock-transfer.md)|
 | **Pakeitė kita funkcija?**   | Taip |
-| **Paveiktos produkto sritys** | Prašymas |
+| **Paveiktos produkto sritys** | Taikymas |
 | **Visuotinio diegimo parinktis** | Viskas |
 | **Būsena** | Pasenusi: po 2023 m. balandžio mėn. atsargų perkėlimo užsakymai, kurie turi mokesčių už perkėlimo kainos funkciją, **nebegaus** palaikymo su pataisomis ir saugos pataisomis. Klientų bus prašoma naudoti patobulintą funkciją – atsargų [perkėlimo užsakymus Indijai](../../finance/localizations/apac-ind-stock-transfer.md). Po 2023 m. spalio mėn. atsargų perkėlimo užsakymai, **kurie** turi mokesčių už perkėlimo kainos funkciją, nebegalės būti prieinami, o klientų bus prašoma pereiti prie patobulintos funkcijos. |
 
@@ -53,7 +67,7 @@ ms.locfileid: "9313890"
 |---|---|
 | **Nerekomendavimo/pašalinimo priežastis** |Pakeista patobulintų funkcijų, importuoti banko išrašus ir eksportuoti teigiamų išmokų failus.| 
 | **Pakeitė kita funkcija?**   | Taip |
-| **Paveiktos produkto sritys**         | Prašymas |
+| **Paveiktos produkto sritys**         | Taikymas |
 | **Visuotinio diegimo parinktis**              | Viskas |
 | **Būsena**                         | Pasenusi: XSLT funkcija, skirta failams importuoti ir eksportuoti, daugiau nebepalaiko klaidų pataisų ir saugos pataisų. Klientai bus paprašyti naudoti patobulintą funkciją: [...](../../finance/accounts-payable/set-up-positive-pay-er.md)[nustatyti teigiamų mokėjimo failus naudojant elektronines ataskaitas ir nustatyti išplėstinį banko suderinimo importavimą naudojant elektronines ataskaitas.](../../finance/accounts-payable/import-bai2-er.md) Po 2022 m. rugsėjo mėn. XSLT funkcijos nebebus galimos, o klientų bus prašoma pereiti prie patobulintos funkcijos.|
 
@@ -68,7 +82,7 @@ ms.locfileid: "9313890"
 |------------|--------------------|
 | **Nerekomendavimo/pašalinimo priežastis** | Pakeista nauju PVM deklaracijos dizainu, Suomijos [PVM deklaracija](../localizations/emea-fin-vat-declaration.md). |
 | **Pakeitė kita funkcija?**   | Taip |
-| **Paveiktos produkto sritys**         | Prašymas |
+| **Paveiktos produkto sritys**         | Taikymas |
 | **Visuotinio diegimo parinktis**              | Viskas |
 | **Būsena**                         | Pasenusi: iki 2023 m. kovo 1 d. planuojame nebepalaikome Suomijos PVM ataskaitos (Suomijos ataskaitos maketo). Nauji **PVM deklaracijos TXT (FI**) ir **PVM deklaracijos Excel (FI)** elektroninių ataskaitų (ER) formatai pateikiami pagal mokesčių **deklaracijos** modelį. |
 
@@ -82,7 +96,7 @@ ms.locfileid: "9313890"
 |------------|--------------------|
 | **Nerekomendavimo/pašalinimo priežastis** | Pakeista nauju PVM deklaracijos dizainu, [Švedijos PVM deklaracija](../localizations/emea-swe-vat-declaration-sweden.md) |
 | **Pakeitė kita funkcija?**   | Taip |
-| **Paveiktos produkto sritys**         | Prašymas |
+| **Paveiktos produkto sritys**         | Taikymas |
 | **Visuotinio diegimo parinktis**              | Viskas |
 | **Būsena**                         | Pasenusi: iki 2022 m. gruodžio 1 d. planuojame nebepalaikome Švedijos PVM ataskaitos (švediškos ataskaitos maketo). Nauji **PVM deklaracijos XML (SE**) ir **PVM deklaracijos Excel (SE)** elektroninių ataskaitų (ER) formatai pateikiami pagal mokesčių **deklaracijos** modelį. |
 
@@ -94,7 +108,7 @@ ms.locfileid: "9313890"
 |------------|--------------------|
 | **Nerekomendavimo/pašalinimo priežastis** | Pakeista nauju PVM deklaracijos dizainu, [Austrijos PVM deklaracija](../localizations/emea-aut-vat-declaration-austria.md) |
 | **Pakeitė kita funkcija?**   | Taip |
-| **Paveiktos produkto sritys**         | Prašymas |
+| **Paveiktos produkto sritys**         | Taikymas |
 | **Visuotinio diegimo parinktis**              | Viskas |
 | **Būsena**                         | Pasenusi: iki 2022 **m. gruodžio 1 d. planuojame nebepalaikome PVM deklaracijos (AT) elektroninės ataskaitos (ER)** formato pagal **PVM deklaracijos modelį**. Nauji **PVM deklaracijos XML (AT) ir** **PVM deklaracijos Excel (AT)** formatai pateikiami mokesčių **deklaracijos modelyje**. |
 
@@ -108,7 +122,7 @@ ms.locfileid: "9313890"
 |------------|--------------------|
 | **Nerekomendavimo/pašalinimo priežastis** | Pakeista nauju PVM deklaracijos dizainu, [Vokietijos PVM deklaracija](../localizations/emea-deu-vat-declaration-germany.md) |
 | **Pakeitė kita funkcija?**   | Taip |
-| **Paveiktos produkto sritys**         | Prašymas |
+| **Paveiktos produkto sritys**         | Taikymas |
 | **Visuotinio diegimo parinktis**              | Viskas |
 | **Būsena**                         | Pasenusi: iki 2022 **m. gruodžio 1 d. planuojame nebepalaikome Elster (DE)** **ir Elster** modelio elektroninių ataskaitų (ER) formatų. Nauji **PVM deklaracijos XML (DE) ir** **PVM deklaracijos Excel (DE)** formatai pateikiami pagal mokesčių **deklaracijos** modelį. |
 
@@ -120,7 +134,7 @@ ms.locfileid: "9313890"
 |------------|--------------------|
 | **Nerekomendavimo/pašalinimo priežastis** | Pakeista nauju PVM deklaracijos dizainu, [Olandijos PVM deklaracija](../localizations/emea-nl-vat-declaration-netherlands.md) |
 | **Pakeitė kita funkcija?**   | Taip |
-| **Paveiktos produkto sritys**         | Prašymas |
+| **Paveiktos produkto sritys**         | Taikymas |
 | **Visuotinio diegimo parinktis**              | Viskas |
 | **Būsena**                         | Pasenęs: iki 2022 **m. gruodžio 1 d. planuojame nebepalaikome OB deklaracijos (NL) ir OB** deklaracijos modelio elektroninių ataskaitų (ER) **formatų**. Nauji **PVM deklaracijos XML (NL) ir** **PVM deklaracijos Excel (NL)** formatai pateikiami mokesčių **deklaracijos modelyje**. |
 

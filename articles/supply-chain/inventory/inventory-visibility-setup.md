@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 42c2c287e2a813f8bb07ce0c7f21f4224a217946
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: eb17f24b90933dac0f875bb0ef2d5039a240b197
+ms.sourcegitcommit: 1ca4ad100f868d518f3634dca445c9878962108e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306061"
+ms.lasthandoff: 09/01/2022
+ms.locfileid: "9388547"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>„Inventory Visibility“ diegimas ir nustatymas
 
@@ -56,7 +56,9 @@ Kai užregistruojate programą ir pridedate kliento slaptą seką, atlikite šiu
 1. Aplinkos puslapyje slinkite žemyn, kol pamatysite skyrių **Aplinkos priedai** skyriuje **„Power Platform“ integravimas** skyriuje. Ten galite rasti aplinkos „Dataverse“ pavadinimą. „Dataverse“ patvirtinkite, kad aplinkos pavadinimas yra tas, kurį norite naudoti atsargų matomumui.
 
     > [!NOTE]
-    > Šiuo metu „Dataverse“ palaikomos tik aplinkos, kurios sukurtos naudojant LCS. Jei jūsų aplinka „Dataverse“ buvo sukurta kokiu nors kitu būdu (pavyzdžiui, naudojant „Power Apps“ administravimo centrą), ir jei ji susieta su jūsų „Supply Chain Management“ aplinka, pirmiausia turite susisiekti su atsargų matomumo produktų komanda, kad išspręskite susiejimo [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) problemą. Galite tada įdiekti Inventoriaus matomumo papildinį.
+    > Šiuo metu „Dataverse“ palaikomos tik aplinkos, kurios sukurtos naudojant LCS. Jei jūsų Dataverse aplinka buvo sukurta kokiu nors kitu būdu (pavyzdžiui, PowerApps naudojant administravimo centrą) ir jei ji susieta su jūsų tiekimo grandinės valdymo aplinka, pirmiausia, prieš diegdami atsargų matomumo priedą, turite išspręsti susiejimo problemą.
+    >
+    > Gali būti, kad jūsų dvigubo rašymo aplinka susieta su egzemplioriumi Dataverse, o LCS nėra nustatyta Power Platform integruoti. Šis susiejimo neatitikimas gali sukelti netikėtą veikimo būdą. Rekomenduojame LCS aplinkos informacija atitinka tai, prie ko prijungi naudojate dvigubo rašymo būdu, kad tą patį ryšį galėtų naudoti verslo įvykiai, virtualios lentelės ir priedai. Informacijos [apie tai, kaip išspręsti susiejimo](../../fin-ops-core/dev-itpro/data-entities/dual-write/lcs-setup.md#linking-mismatch) problemą, rasite susiejimų neatitikimą. Išsprendę susiejimo problemą galite toliau diegti atsargų matomumą.
 
 1. Skyriuje **Aplinkos papildiniai** pasirinkite **Diegti naują papildinį**.
 
@@ -140,11 +142,11 @@ Norėdami pašalinti atsargų matomumo priedą, atlikite šiuos veiksmus:
 1. Naršymo **juostoje** pasirinkti Aplinką
 1. Pasirinkite aplinką Dataverse, priklijuota prie jūsų LCS aplinkos.
 1. Eikite **į** sprendimus ir panaikinkite šiuos sprendimus šia tvarka:
-    1. „Dynamics 365“ sprendimų „Inventory Visibility“ programos prieraišo sprendimas
-    1. „Dynamics 365" FNO SCM atsargų matomumo programų sprendimas
-    1. Atsargų saugumo konfigūravimas
-    1. Atsargų matomumo atskiras dėmuo
-    1. „Dynamics 365" FNO SCM atsargų matomumo pagrindo sprendimas
+    1. "Dynamics 365" atsargų matomumas – prieraišo žymę
+    1. "Dynamics 365" atsargų matomumas – programa
+    1. "Dynamics 365" atsargų matomumas – valdikliai
+    1. "Dynamics 365" atsargų matomumas – dimensijos
+    1. "Dynamics 365" atsargų matomumas – pagrindinis
 
     Kai panaikinate šiuos sprendimus, duomenys, saugomi lentelėse, taip pat bus panaikinti.
 

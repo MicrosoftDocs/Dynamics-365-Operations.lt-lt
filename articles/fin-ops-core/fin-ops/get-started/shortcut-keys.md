@@ -2,7 +2,7 @@
 title: Spartieji klavišai
 description: Šiame straipsnyje pateikta sparčiųjų klavišų derinių, kuriuos galima naudoti dirbant su finansų ir operacijų programėle, apžvalga.
 author: jasongre
-ms.date: 08/26/2022
+ms.date: 08/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04abaeada458e05df3de045d9c7a715040b7bfa4
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: a5bf22228749a725baa66ee3094f670c60f0f39a
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357597"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405444"
 ---
 # <a name="keyboard-shortcuts"></a>Spartieji klavišai
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
@@ -87,10 +88,12 @@ Vartotojai gali atrasti šiuo metu galimas nuorodas tiesiai iš vartotojo sąsaj
 | Atidaryti filtro sritį (ar persijungti tarp filtro srities ir pagrindinės formos, jei filtro sritis jau atidaryta) | „Alt“ + M, F arba „Ctrl“ + F3       |
 | Uždaryti filtro sritį (filtro sričiai esant suaktyvintai)                                                               | Esc                      |
 | Atidaryti išplėstinį filtravimą / rūšiavimą                                                                                        | Ctrl + Shift + F3            |
+| Taikyti spartųjį filtrą (kai židinis yra spartusis filtras)                                                              | Įvesti                    |
+| Taikyti tinklelio filtrą (kai židinis yra stulpelio antraštės filtro lauke)                                             | Įvesti                    |
 
 ## <a name="form-shortcuts"></a>Formos spartieji klavišai
 
-| Norint tai padaryti                                    | Spausti             |
+| Norėdami tai padaryti                                    | Paspauskite              |
 |-----------------------------------------------|-------------------|
 | Kurti naują įrašą                           | Alt + N             |
 | Įrašo naikinimas                               | Alt + Del arba Alt + F9 |
@@ -160,9 +163,10 @@ Vartotojai gali atrasti šiuo metu galimas nuorodas tiesiai iš vartotojo sąsaj
 | Norėdami tai padaryti                                                                   | Paspauskite                          |
 |------------------------------------------------------------------------------|-------------------------------|
 | Atidaryti hipersaitą                                                           | „Ctrl“ + „Enter“                    |
+| Atidaryti hipersaitą (kai aktyvinti tik skaitomą valdiklį)<br><br>**Pastaba:** šis spartusis klavišas taikomas tik tada **, kai yra įgalintas sparčiųjų klavišų ir peržvalgos valdiklių** funkcijos sąveika su klaviatūra                   | Įvesti    |
 | Įvesti seanso datą į datos lauką.                                       | D                             |
 | Įvesti dabartinę datą į datos lauką                                       | A                             |
-| Atidaryti peržvalgą, pasirinktinio įvedimo lauką, datos parinkiklį, išplečiamąjį dialogo langą                         | „Alt“ + rodyklė žemyn                |
+| Atidaryti peržvalgą, pasirinktinio įvedimo lauką, datos parinkiklį, išplečiamąjį dialogo langą                         | „Alt“ + rodyklė žemyn<br><br>Įvesti (kai įgalinta **sparčiųjų klavišų ir peržvalgos valdiklių** funkcijos sąveika su klaviatūra)                |
 | Uždaryti peržvalgą, pasirinktinio įvedimo lauką, datos parinkiklį, išplečiamąjį dialogo langą                        | Esc                           |
 | Suaktyvinti peržvalgą (kai peržvalga jau atidaryta)                   | „Alt“ + rodyklė žemyn                |
 | Atidarykite valdiklio patobulintą peržiūrą                                          | „Alt“ + rodyklė aukštyn                  |

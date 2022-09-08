@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 5cca06517fbdcbdae6e54c106b113a83851240c8
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: bbbd524020690b84fce34facaaa3047853fb2641
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334782"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9404437"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10028-august-2022"></a>Naujienos ir pakeitimai „Dynamics 365 Supply Chain Management” 10.0.28 (2022 m. rugpjūtis)
 
@@ -35,8 +35,8 @@ Tolesnėje lentelėje pateiktos funkcijos, kuri yra šiame leidime. Mes galime a
 |---|---|---|---|
 | Atsargos ir logistika | [Įkainoti išlaidų integravimo objektai trečiosios šalies krovinių ekspeditoriams](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/landed-cost-integration-third-party-freight-forwarders) | [Gabenimo išlaidų objektų peržiūra](../landed-cost/landed-cost-entities-overview.md) | Įgalinta pagal numatytuosius nustatymus |
 | Planuojama | [Žaliavų poreikių planavimas pagal paklausą (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | [Poreikio valdomas medžiagų poreikių planavimo peržiūra](../master-planning/planning-optimization/ddmrp-overview.md) | Priemonių valdymas:<br>*(Peržiūros versija) Planavimo optimizavimo DDMRP* |
-| Planuojama | [Galima pateikti atsargos planavimo optimizavimo palaikymas (CTP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | [Apskaičiuoti pardavimo užsakymo pristatymo datas naudojant CTP](../master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md) | Priemonių valdymas:<br>*(Peržiūros versija) Planavimo optimizavimo CTP* |
-| Planuojama | [Laikymo trukmės planavimo optimizavimo palaikymas](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | [Produktų, kurių laikymo laikas ribotas, bendrasis planavimas](../master-planning/planning-optimization/shelf-life.md) | Įgalinta pagal numatytuosius nustatymus |
+| Planuojama | [Galima pateikti atsargos planavimo optimizavimo palaikymas (CTP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | [Pardavimo užsakymo pristatymo datų skaičiavimas naudojant CTP](../master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md) | Priemonių valdymas:<br>*(Peržiūros versija) Planavimo optimizavimo CTP* |
+| Planuojama | [Laikymo trukmės planavimo optimizavimo palaikymas](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | [Produktų, kurių laikymo trukmė ribota, bendrasis planavimas](../master-planning/planning-optimization/shelf-life.md) | Įgalinta pagal numatytuosius nustatymus |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Funkcijos patobulinimai, įtraukti į šį leidimą
 
@@ -50,7 +50,7 @@ Jei norite įjungti arba išjungti bet kurią iš šių priemonių, tai turite a
 | Atsargų ir sandėlio valdymas | (Indija) Taikant perdavimo kainos taisykles, nepaisykite vietos, kai parinktis „Iš sandėlio kodo“ nustatyta kaip „Visi“ | <p>Ši funkcija taikoma tik Indijoje lokalizavimui. Dėl to atsargų perkėlimų prekių perkėlimo kainų nustatymo procesas yra svarbesnis.</p><p>Perkėlimo kainas galite nustatyti sukonfigūruodami kiekvieną prekę su perkėlimo kainų taisyklėmis. Vienas būdas atlikti šią konfigūraciją yra įtraukti taisyklės eilutę, kur lauko **Iš sandėlio** kodas reikšmė yra *Visi*. Šis parametras nurodo, kad eilutės nustatyta perkėlimo kaina turi būti taikoma neatsižvelgiant į sandėlį, iš kur paimta prekė. Įgalinus šią funkciją, perkėlimo kainų taisyklės, kuriose lauke **Iš** sandėlio kodo nustatyta kaip Visi *, nepaisys* parametro **Vietos**. Todėl taisyklė bus taikoma nepaisant perkėlimo užsakyme nurodytos vietos. Taip greičiausiai tikimasi, nes vieta saugojimo dimensijų hierarchijoje yra žemiau sandėlio.</p><p>Be šios funkcijos sistema tai taikys šio tipo taisykles tik tada, kai perkėlimo užsakymo vieta tiksliai atitiks vietą, nustatytą taisyklei. (Jei taisyklei nustatyta tuščia vieta, sistema tai taikys taisyklę tik perkėlimo užsakymams, kurie taip pat turi tuščią vietos reikšmę.)</p> |
 | Atsargų ir sandėlio valdymas | Turimų atsargų ataskaitos duomenų valymas | Ši priemonė leidžia išvalyti duomenis, kurie naudojami kuriant turimų atsargų *ataskaitų saugojimo* ataskaitas. |
 | Gamybos kontrolė | Priskirkite projekto veiklas paslaugų sutarties ir paslaugų užsakymo eilutėms | Ši priemonė įtraukia lauką, pavadintą **Projekto** veikla, į aptarnavimo sutartį ir aptarnavimo užsakymo eilutes, kad galėtumėte nustatyti jų projekto veiklą. Ši funkcija padės išvengti blokavimo klaidų, kai registruojate aptarnavimo valdymo projektų žurnalus, kuriuose reikalaujama nustatyti projekto veiklą.  |
-| Sandėlio valdymas | Administratoriaus arba panašių patikimų vartotojų perkėlimo eilutės išrinkimo rankiniu būdu paslauga | Ši funkcija leidžia administratoriams rankiniu būdu išrinkti atsargų operacijas, susijusias su perkėlimo eilutėmis. Šios eilutės apima eilutes, kurios jau išleistos į sandėlį. Administratoriai šį paėmimą turi atlikti tik išskirtiniais atvejais, pvz., kai sistema yra sugadintos būsenos. |
+| Sandėlio valdymas | Administratoriaus arba panašių patikimų vartotojų perkėlimo eilutės išrinkimo rankiniu būdu paslauga | Ši funkcija leidžia administratoriams rankiniu būdu išrinkti atsargų operacijas, susijusias su perkėlimo eilutėmis. Šios eilutės apima eilutes, kurios jau išleistos į sandėlį. Administratoriai šį paėmimą turi atlikti tik išskirtiniais atvejais, pvz., kai sistema yra sugadintos būsenos. Norėdami gauti daugiau informacijos, žr. rankiniu [būdu tvarkyti pardavimo ir perkėlimo eilutės paėmimo išimtis](../warehousing/manual-order-line-picking-exception-handling.md). |
 
 ## <a name="new-and-updated-documentation-resources"></a>Nauji ir naujinti dokumentų šaltiniai
 

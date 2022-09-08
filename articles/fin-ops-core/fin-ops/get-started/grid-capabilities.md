@@ -2,7 +2,7 @@
 title: Tinklelio charakteristikos
 description: Šiame straipsnyje aprašomos kelios galinga tinklelio valdiklio funkcijos. Norėdami turėti prieigą prie šių galimybių, turite įjungti naują tinklelio funkcija.
 author: jasongre
-ms.date: 08/09/2022
+ms.date: 08/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a8968a1263dfafd67b07b4beb78c51493e95756e
-ms.sourcegitcommit: 47534a943f87a9931066e28f5d59323776e6ac65
+ms.openlocfilehash: 096f441d39dde0f322ed117ab35a6a4641a38a93
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9258954"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405471"
 ---
 # <a name="grid-capabilities"></a>Tinklelio charakteristikos
 
@@ -178,20 +178,22 @@ Funkcija **Naujo tinklelio valdymas** yra prieinama tiesiogiai funkcijų valdyme
 
 Numatyta, kad ši priemonė pradėta įgalinti versijoje 10.0.21. Tikslinis jis yra privalomas 2022 m. spalio mėn.
 
-## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Kūrėjas] Individualių puslapių pasirinkimas naudojant naują tinklelį 
+## <a name="developer-topics"></a>Programuotojo temos
+
+### <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Kūrėjas] Individualių puslapių pasirinkimas naudojant naują tinklelį 
 Jei jūsų organizacija atranda puslapį, kuris turi tam tikrų problemų naudodama naują tinklelį, API yra prieinama tam, kad leistų individualiai formuoti naudojant ankstesnio tinklelio valdymą ir leidžiant jūsų sistemos likusiai daliai naudoti naujo tinklelio valdymą. Individualaus puslapio rodymui iš naujojo tinklelio, į formą įtraukite tolesnius skambinimo viešinimus `super()` naudodami `run()` metodą.
 
 ```this.forceLegacyGrid();```
 
 Api galiausiai bus pasenusi ir bus leidžiama pašalinti senesnius tinklelio valdiklius. Tačiau jis bus galimas mažiausiai 12 mėnesių po to, kai bus pasisenęs. Jei sprendžiant tam tikras problemas reikia naudoti šią API, praneškite apie jas „Microsoft”.
 
-### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Norint pasirinkti puslapį naudoti naują tinklelį, prieš tai pasirinkus tinklelį
+#### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Norint pasirinkti puslapį naudoti naują tinklelį, prieš tai pasirinkus tinklelį
 Jei esate pasirinkę atskirą puslapį naudoti naują tinklelį, vėliau, išspręsę susijusias problemas, galite norėti iš naujo įgalinti naują tinklelį. Norėdami tai padaryti, tiesiog reikia pašalinti `forceLegacyGrid()` iškvietimą. Pakeitimas įsigalios tik tada, kai:
 
 - **Aplinkos pakartotinis diegimas**: kai aplinka atnaujinama ir diegiama iš naujo, lentelė, kurioje saugomi puslapiai, kurie atsijungė nuo naujo tinklelio (FormControlReactGridState) automatiškai išvalomi.
 - **Neautomatinis lentelės išvalymas**: programavimo scenarijuose turėsite naudoti SQL norėdami išvalyti lentelę FormControlReactGridState, tada iš naujo paleisti AOS. Šiuo veiksmų deriniu bus iš naujo nustatytas puslapių, kurie buvo pasirinkti iš naujo tinklelio, kaupimas talpykloje.
 
-## <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Programuotojas] Atskirų tinklelių pasirinkimas už sistemos galimybių neįvedimo
+### <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Programuotojas] Atskirų tinklelių pasirinkimas už sistemos galimybių neįvedimo
 Kai kurie scenarijai iškilo taip, kad neuždirbtų *savęs* ir nedirbtų prie mygtukyno sistemos pajėgumo. (Pvz., kai kurie kodai, kurie paleidžiami, kai patikrinama eilutė, sukelia duomenų šaltinio tyrimų paleidimą, todėl tyrimas gali sugadinti neįvestus esamų eilučių redagavimus.) Jei jūsų organizacija apranda tokį scenarijų, GALIMA naudoti API, kuris leidžia programuotojui pasirinkti atskirą tinklelį be nesinchroninio eilutės tikrinimo ir grįžti prie senesnio veikimo būdo.
 
 Kai asinchroninis eilučių tikrinimas išjungtas tinklelyje, vartotojai negali kurti naujos eilutės arba perkelti į kitą esamą eilutę tinklelyje, kol yra dabartinės eilutės tikrinimo problemų. Kadangi šis veiksmas turi įtakos, lentelės negali būti įklijuotos iš Excel į finansų ir operacijų tinklelius.
@@ -204,13 +206,18 @@ Norėdami pasirinkti atskirą tinklelį patikrinti asinchroniškai, `super()` po
 > - Šis iškvietimas turėtų būti iškviestas tik išskirtiniais atvejais ir neturėtų būti visų tinklelių norma.
 > - Mes nerekomenduojame perjungiti šios API vykdymo metu po formos krovinio.
 
-## <a name="developer-size-to-available-width-columns"></a>[Kūrėjas] Iki galimo pločio dydžio stulpeliai
+### <a name="developer-size-to-available-width-columns"></a>[Kūrėjas] Iki galimo pločio dydžio stulpeliai
 Jei kūrėjas nustato **WidthMode** ypatybę į **SizeToAvailable** stulpeliams naujame tinklelyje, tie stulpeliai iš pradžių turi tokį plotį, kokį jie turėtų, jei ypatybė būtų nustatyta į **SizeToContent**. Tačiau jie ištempiami, norint tinklelyje naudoti bet kokį galimą papildomą plotį. Jei ypatybė nustatyta į **SizeToAvailable** keliems stulpeliams, visi šie stulpeliai bendrai naudoja bet kokį galimą papildomą plotį tinklelyje. Tačiau, jei vartotojas rankiniu būdu keičia vieno iš šių stulpelių dydį, stulpelis tampa statiniu. Jis išliks tokio pločio ir nebebus ištempiamas, kad būtų galima naudoti galimą papildomą tinklelio plotį.
 
-## <a name="developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key"></a>[Programuotojas] Stulpelio, kuris gauna pradinį židinį, kai naujos eilutės kuriamos naudojant rodyklės žemyn klavišą, nurodymas
+### <a name="developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key"></a>[Programuotojas] Stulpelio, kuris gauna pradinį židinį, kai naujos eilutės kuriamos naudojant rodyklės žemyn klavišą, nurodymas
 [Kaip](#differences-when-entering-data-ahead-of-the-system) buvo aptarta skirtumus įvedant duomenis už sistemos skyriaus, jei galimybė Įvesti **anksčiau** už sistemos, o vartotojas sukuria naują eilutę naudodamas rodyklės žemyn raktą, numatytoji veikimo būdas yra įtraukti židinį į pirmą naujos eilutės stulpelį. Ši patirtis gali skirtis nuo patirties senesnime tinklelyje arba **pasirinkus** mygtuką Naujas.
 
 Vartotojai ir organizacijos gali kurti įrašytus rodinius, optimizuotus įvesti duomenis. (Pvz., galite užsakyti stulpelius taip, kad pirmasis stulpelis būtų tas, kuriame norite pradėti įvesti duomenis.) Be to, kaip ir 10.0.29 versiją, **organizacijos gali koreguoti šį elgseną, naudodamas pasirinktąControlOnCreate()** metodą. Šis būdas leidžia programuotojui nurodyti stulpelį, kuris turi gauti pradinį židinį, kai nauja eilutė sukuriama naudojant rodyklės **žemyn** raktą. Kaip įvestį, ši API paima valdiklio ID, atitinkantį stulpelį, į kurį turėtų būti skiriamas pradinis dėmesys.
+
+### <a name="developer-handling-grids-with-non-react-extensible-controls"></a>[Programuotojas] Tinklelių tvarkymas su neišeks taisomais valdikliais
+Kai tinklelis įkeliamas, jei sistema aptinka extensible valdiklį, kuris nėra pagrįstas pagal sistema, sistema verčiau atvaizduoti senesnį tinklelį. Kai vartotojas pirmą kartą aptinka šią situaciją, bus rodomas pranešimas, nurodantis, kad puslapį reikia atnaujinti. Po to šis puslapis automatiškai įkels senesnį tinklelį be jokių papildomų pranešimų vartotojams, kol nebus atnaujinta kita sistema. 
+
+Norėdami visam laikui pakeisti šią situaciją, extensible control autoriai gali sukurti valdiklio, naudotinas tinklelyje, versiją.  Sukūrę valdiklio X++ **klasę galite pereiti naudodami atributą FormReactControlAttribute**, kad būtų galima nurodyti šio valdiklio įkėlimo grupės vietą. Žiūrėkite `SegmentedEntryControl` klasę kaip pavyzdį.  
 
 ## <a name="known-issues"></a>Žinomos problemos
 Šiame skyriuje pateikiamas žinomų naujo tinklelio valdiklio problemų sąrašas.
@@ -218,9 +225,12 @@ Vartotojai ir organizacijos gali kurti įrašytus rodinius, optimizuotus įvesti
 ### <a name="open-issues"></a>Atviros problemos
 - Įjungus **Naujo tinklelio valdymo** funkciją, kai kurie puslapiai ir toliau naudos esamą tinklelio valdymą. Tai atsitiks esant tokiai situacijai:
  
-    - Kortelės sąrašas egzistuoja puslapyje, kuris yra apdorojamas daugelyje stulpelių.
-    - Grupuotų kortelių sąrašas egzistuoja puslapyje.
-    - Tinklelio stulpelis su ne reaktyviu išplečiamu valdymu.
+    - [Išspręsta] Puslapyje, kuris pateikiamas keliuose stulpeliuose, yra kortelių sąrašas.
+        - Šį kortelių sąrašo tipą palaiko naujo tinklelio **valdiklis**, kuris prasideda versijoje 10.0.30. Šiuo tikslu galima pašalinti bet kokį forceLegacyGrid() naudojimą. 
+    - [Išspręsta] Puslapyje yra sugrupuotų kortelių sąrašas.
+        - Sugrupuotų kortelių sąrašus palaiko naujo tinklelio **valdiklis,** pradedant nuo versijos 10.0.30. Šiuo tikslu galima pašalinti bet kokį forceLegacyGrid() naudojimą. 
+    - [Išspręsta] Tinklelio stulpelis, kuriame yra neeksploštas valdiklis.
+        - Extensible controls gali pateikti pagal jų valdymo versiją, kuri bus įkelta į tinklelį, ir koreguoti jų valdiklio apibrėžimą, kad būtų įkeltas šis valdiklis, kai naudojamas tinklelyje. Išsamesnės informacijos žr. atitinkamoje programuotojo sekcijoje. 
 
     Kai vartotojas pirmą kartą susiduria su viena iš šių situacijų, bus rodomas pranešimas dėl puslapio atnaujinimo. Šiai žinutei pasirodžius, puslapis ir toliau naudos esamą tinklelį visiems naudotojams iki kitos produkto naujinimo versijos. Geresnis šių scenarijų valdymas taip, kad naujas tinklelis gali būti naudojamas, bus svarstomas tolesniuose naujinimuose.
 

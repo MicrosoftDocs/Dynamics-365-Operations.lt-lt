@@ -13,31 +13,31 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9a5c0cc988141b102cf3659ab4599e025f8f4640
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b1e2036e4e7a8a47d6df029f285df7aca0fa74e6
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907180"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9404431"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>Darbo sandėlyje atšaukimas dėl išimčių tvarkymo
 
 [!include [banner](../includes/banner.md)]
 
-„Microsoft Dynamics 365 Supply Chain Management“ darbo atšaukimo funkcija leidžia administratoriui atšaukti konkretų vykdomą sandėlio darbą, kuris yra blokuojamas sistemos arba kurio negalima baigti dėl išimtinių aplinkybių. Ši funkcija yra patraukli ir saugi alternatyva SQL koreguojamiems scenarijams, kurie nustato prieštaringus duomenis. Tačiau, kadangi šie scenarijai įprastai yra reikalaujami iš IT profesionalų, darbo atšaukimo funkciją gali naudoti įmonės vartotojai, turintys administratoriaus teises.
+"Microsoft Dynamics 365 Supply Chain Management " darbo atšaukimo funkcija leidžia administratoriui atšaukti konkretų sandėlio darbą, kuris šiuo metu vyksta, bet kurį blokuoja sistema arba kurį galima atlikti dėl išskirtinių aplinkybių. Ši funkcija yra patraukli ir saugi alternatyva SQL koreguojamiems scenarijams, kurie nustato prieštaringus duomenis. Tačiau, kadangi šių scenarijų paprastai reikalauja IT specialistai, atšauktų darbų funkciją gali naudoti įmonės vartotojai, kurie turi administratoriaus teises.
 
-Darbo atšaukimo funkciją galite pasiekti **Sandėlio valdymas** \> **Periodinės užduotys** \> **Valyti \> Atšaukti darbą**. Dialogo lange **Atšaukti darbą** nurodykite darbo, kurį norite atšaukti, ID ir pasirinkite **Gerai**.
+Galite pasiekti atšauktų darbo funkcijų sandėlio valdymo **periodines** \> **užduotis Valyti** \> **\> darbą.** Dialogo lange **Atšaukti darbą** nurodykite darbo, kurį norite atšaukti, ID ir pasirinkite **Gerai**.
 
 ## <a name="warehouse-work-that-can-be-canceled"></a>Sandėlio darbas, kurį galima atšaukti
 
 Atliekant sandėlio paėmimo veiksmus, darbuotojas gali susidurti su situacijomis, kuriose jis užregistravo kiekius, paimtus iš saugojimo vietos į vartotojo vietą, tačiau negali užregistruoti padėjimo veiksmo. Nesuderinami sandėlio duomenys dažnai, bet ne visada yra priežastis, kodėl darbas blokuojamas.
 
-Skirtingai nuo įprastos atšaukimo funkcijos, kurią galima pasiekti naudojant darbo antraštėje esantį mygtuką **Atšaukti**, darbo atšaukimo funkcija nereikalauja, kad paskutinio užbaigto darbo eilutė būtų **padėjimo** tipo darbo eilutė. Kitaip tariant, dirbant su darbo atšaukimo funkcija, atšaukimo logika gali būti vykdoma, net jei darbo eilutėje nurodytas prekių kiekis yra vartotojo vietoje.
+Skirtingai nei įprasto **atšaukimo** funkcijos, kurias galima pasiekti naudojant mygtuką Atšaukti darbo antraštėje, **naudojant darbo atšaukimo darbo funkcijas nebūtina, kad paskutinė užbaigto darbo eilutė būtų padėjus tipo darbo** eilutė. Kitaip tariant, norint atšaukti darbo funkciją, atšaukimo logiką galima vykdyti net jei prekės kiekis darbo eilutėje yra vartotojo vietoje.
 
 > [!NOTE]
-> Esant darbui, kurį reikia atšaukti dėl darbinių priežasčių, sandėlio vartotojai turi toliau naudoti įprastinę atšaukimo funkciją darbo puslapyje.
+> Dėl veikimo priežasčių reikia atšaukti darbą, sandėlio vartotojai turi ir toliau naudoti įprastas atšaukimo funkcijas darbo puslapyje.
 
-Naudojant darbo atšaukimo funkciją galima atšaukti tik darbus, kurių tipas yra **Pardavimas**, **Perkėlimo išdavimas**, **Žaliavų paėmimas** arba **Papildymas**. Atšaukimo logika nebus vykdoma sušaldytos žaliavos paėmimo darbui arba darbui, kurį galima atšaukti naudojant įprastą atšaukimo funkciją (žr. ankstesnę pastabą).
+Tik pardavimo, perkėlimo **išdavimo** **·**, **žaliavų** **paėmimo** arba papildymo tipo darbą galima atšaukti naudojant darbo atšaukimo funkciją. Atšaukimo logika nebus vykdoma sušaldytų žaliavų paėmimo darbu arba darbu, kurį galima atšaukti naudojant reguliarią atšaukimo funkciją (žr. ankstesnę pastabą).
 
 Norint atblokuoti darbą, sistema atšaukia likusias darbo eilutes ir nustato sandėlio duomenis, susietus su vartotojo nurodytu darbo ID. Tada galės būti tęsiami bet kokie įprasti sandėlio tvarkymo veiksmai, susiję su paveiktu prekių kiekiu.
 

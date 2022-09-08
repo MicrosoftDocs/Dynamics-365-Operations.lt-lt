@@ -10,18 +10,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 115708ce9e71c35feb1cf370ead556847e04cbd2
-ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
+ms.openlocfilehash: a0fa081b0110682af1fcda50b0c912dc5d03fa73
+ms.sourcegitcommit: 29af4c9d9968bbfa4c19fee9de34fed309f6d38b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9324210"
+ms.lasthandoff: 09/01/2022
+ms.locfileid: "9388454"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Kas nauja ar pasikeitė „Warehouse Management“ mobiliųjų įrenginių programėlėje
 
 [!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiamos naujos funkcijos, pataisos, patobulinimai ir žinomos kiekvienos "Microsoft" išleistos sandėlio valdymo mobiliosios programos versijos problemos Dynamics 365 Supply Chain Management.
+
+## <a name="version-20320"></a>2.0.32.0 versija
+
+Šioje versijoje pristatomos toliau pateiktos naujos funkcijos, klaidų taisymai ir patobulinimai:
+
+- Padidintas stabilumą.
 
 ## <a name="version-20310"></a>2.0.31.0 versija
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 89036920cc8738e2948ec1a78aafc4b35fff87fa
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d6aa5a0cb49e5871a50a2ac5ac2c29cc09e232fc
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219101"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9404436"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Kas nauja arba pasikeitė „Dynamics 365 Supply Chain Management” 10.0.25 versijoje (2022 m. balandžio mėn.)?
 
@@ -34,7 +34,7 @@ Tolesnėje lentelėje pateiktos funkcijos, kuri yra šiame leidime. Mes galime a
 | Funkcijos sritis | Funkcija | Daugiau informacijos | Įjungė   |
 |---|---|---|---|
 | Atsargos&nbsp;ir&nbsp;logistika | [Pavojingų medžiagų patobulinimai](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/hazardous-materials-enhancements) | Jau greitai | Priemonių valdymas:<br>*Pavojingų medžiagų patobulinimai* |
-| Atsargos&nbsp;ir&nbsp;logistika | [Pakavimo vietų pakavimo darbas](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | [Siunčiamų konteinerių pakavimo ir siuntų apdorojimo darbas](../warehousing/packing-work.md) | Priemonių valdymas:<br>*Pakavimo vietų pakavimo darbas* |
+| Atsargos&nbsp;ir&nbsp;logistika | [Pakavimo vietų pakavimo darbas](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | [Siunčiamų konteinerių pakavimo ir siuntų apdorojimo pakavimo darbas](../warehousing/packing-work.md) | Priemonių valdymas:<br>*Pakavimo vietų pakavimo darbas* |
 | Atsargos&nbsp;ir&nbsp;logistika | [Nuskaityti brūkšninius kodus sandėlyje naudojant GS1 formato standartus](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1 brūkšniniai kodai ir QR kodai](../warehousing/gs1-barcodes.md) | Priemonių valdymas:<br>*Nuskaityti GS1 brūkšninius kodus* |
 | Gamyba | [Medžiagų suvartojimas ir rezervavimas gamybos laiko vykdymo sąsajoje](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Kaip darbuotojai naudoja gamybos vietos vykdymo sąsają](../production-control/production-floor-execution-use.md) | Priemonių valdymas:<br>*Registruokite medžiagų suvartojimą gamybos vietos vykdymo sąsajoje (ne WMS)*<br><br>Ir (arba):<br><br>Priemonių valdymas:<br>*(Peržiūros versija) Užregistruokite medžiagų suvartojimą gamybos vietos vykdymo sąsajoje (veikia WMS)* |
 | Planuojama | [Planavimo optimizavimo centralizuota kalendoriaus priežiūra](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-centralized-calendar-maintenance) | [Kalendoriai ir bendrasis planavimas](../master-planning/supply-chain-calendars-master-planning.md) | Įgalinta pagal numatytuosius nustatymus |
@@ -161,7 +161,7 @@ Lentelėje taip pat pateikiamos priemonės, kurios anksčiau buvo viešos perži
 | Sandėlio valdymas | [Vietos numerio lentelės padėtis](../warehousing/location-license-plate-positioning.md) | Privalomas |
 | Sandėlio valdymas | [Vietos produkto dimensijos maišymas](../warehousing/location-product-dimension-mixing.md) | Privalomas |
 | Sandėlio valdymas | Įgalinkite mobiliojo įrenginio atsargų judėjimo atsargų būsenos lauko redagavimą | Privalomas |
-| Sandėlio valdymas | Administratoriaus arba panašių patikimų vartotojų pardavimo eilutės išrinkimo rankiniu būdu paslauga | Privalomas |
+| Sandėlio valdymas | [Administratoriaus arba panašių patikimų vartotojų pardavimo eilutės išrinkimo rankiniu būdu paslauga](../warehousing/manual-order-line-picking-exception-handling.md) | Privalomas |
 | Sandėlio valdymas | [Neleiskite, kad perduotos užsakymo siuntos numerio lentelės būtų naudojamos kituose sandėliuose nei paskirties sandėlis](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md) | Privalomas |
 | Sandėlio valdymas | Paraginti išspręsti dviprasmiškus „Vieta / NL“ pavadinimus | Privalomas |
 | Sandėlio valdymas | [Kokybės patikra](../warehousing/quality-check.md) | Privalomas |

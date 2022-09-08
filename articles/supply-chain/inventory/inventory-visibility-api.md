@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 23f4c52b6d1d8c1af927a2c21455d6e24b24408a
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: 14812fc201ba1038a78ea3317686dbe189ffa687
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357647"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423601"
 ---
 # <a name="inventory-visibility-public-apis"></a>Atsargų matomumo viešos API
 
@@ -41,6 +41,8 @@ Toliau pateiktoje lentelėje nurodytos API esamos parinktys:
 | /api/aplinka/{environmentId}/stovintis/{inventorySystem}/bendras | Skelbti | [Nustatyti/nepaisyti turimos informacijos kiekių](#set-onhand-quantities) |
 | /api/aplinka/{environmentId}/turi būti/rezervavimas | Skelbti | [Kurti vieną rezervavimo įvykį](#create-one-reservation-event) |
 | /api/aplinka/{environmentId}/turi būti/rezervavimas/bendras | Skelbti | [Kurti kelis rezervuoti įvykius](#create-multiple-reservation-events) |
+| / API / aplinka /{environmentId} turi būti / nereservis | Registruoti | [Atšaukti vieną rezervavimo įvykį](#reverse-one-reservation-event) |
+| / API / aplinka / turi{environmentId} būti / rezervuoti / buferinė dalis | Registruoti | [Atšaukti kelis rezervavimo įvykius](#reverse-multiple-reservation-events) |
 | / API / aplinka /{environmentId} turimi / pakeisti | Registruoti | [Kurti vieną suplanuotą turimos informacijos pakeitimą](inventory-visibility-available-to-promise.md) |
 | / API / aplinka /{environmentId} turimi / perplanuotas / masinis pardavimas | Registruoti | [Kurti kelis suplanuotus turimos informacijos keitimus](inventory-visibility-available-to-promise.md) |
 | /api/aplinka/{environmentId}/turi būti/indekso užklausa | Registruoti | [Užklausa naudojant skelbimo metodą](#query-with-post-method) |
@@ -56,7 +58,7 @@ Toliau pateiktoje lentelėje nurodytos API esamos parinktys:
 > 
 > Masinis API gali pateikti ne daugiau kaip 512 kiekvienos užklausos įrašų.
 
-„Microsoft" pateikė "out-of-box *Paštininko* užklausų rinkinį. Šį rinkinį galite importuoti į savo *paštininko* rango programinę įrangą naudodami šį bendrai naudojamą saitą: <https://www.getpostman.com/collections/ad8a1322f953f88d9a55>.
+„Microsoft" pateikė "out-of-box *Paštininko* užklausų rinkinį. Šį rinkinį galite importuoti į savo *paštininko* rango programinę įrangą naudodami šį bendrai naudojamą saitą: <https://www.getpostman.com/collections/95a57891aff1c5f2a7c2>.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Rasti galinį punktą pagal „Lifecycle Services“ aplinką
 
@@ -146,7 +148,7 @@ Gaukite saugos paslaugų žymą atlikdami taip.
    - **HTTP antraštė:** įtraukite API versiją. (Raktas `Api-Version`yra, o vertė yra `1.0` .)
    - **Teksto turinys:** įtraukite JSON užklausą, kurią sukūrėte ankstesniu veiksmu.
 
-   Kaip atsakymą turėtumėte (`access_token`) atsakymas. Turite naudoti šį žetoną dėl to jums reikia geresnės žymos siekiant iškviesti inventoriaus papildinio API. Toliau pateikiamas pavyzdys.
+   Kaip atsakymą turėtumėte (`access_token`) atsakymas. Turite naudoti šį žetoną dėl to jums reikia geresnės žymos siekiant iškviesti inventoriaus papildinio API. Čia pateikiamas pavyzdys.
 
    ```json
    {
@@ -168,9 +170,9 @@ Yra du API, skirti turimos informacijos keitimo įvykiams kurti:
 
 Šioje lentelėje apibendrinama kiekvieno JSON turinio lauko reikšmė.
 
-| Lauko ID | Aprašas |
+| Lauko ID | Aprašymas |
 |---|---|
-| `id` | Unikalus ID konkrečiam keitimo įvykiui. Šis ID naudojamas siekiant užtikrinti, kad jei komunikacija su paslaugomis nepavyksta publikavimo metu, pakartotinis pateikimo įvykis nevyks tame pačiame taške sistemai skaičiuojant dukart. |
+| `id` | Unikalus ID konkrečiam keitimo įvykiui. Jei dėl aptarnavimo trikties įvyksta pakartotinis pranešimas, šis ID naudojamas norint užtikrinti, kad sistemoje to paties įvykio nebus du kartus suskaičiuota. |
 | `organizationId` | Organizacijos identifikatorius susietas su įvykiu. Ši vertė patalpina „Supply Chain Management“ organizacijas ar duomenų srities. |
 | `productId` | Produkto identifikatorius. |
 | `quantities` | Kiekis turi būti pakeistas pagal turimą kiekį. Pavyzdžiui, jei į lentyną įtraukiama 10 naujų knygų, ši vertė bus `quantities:{ shelf:{ received: 10 }}`. Jei iš lentynos arba parduodamos pašalinamos trys knygos, ši vertė bus `quantities:{ shelf:{ sold: 3 }}`. |
@@ -178,7 +180,7 @@ Yra du API, skirti turimos informacijos keitimo įvykiams kurti:
 | `dimensions` | Dinaminis rakto verčių poros. Vertės yra susietos su kai kurioms „Supply Chain Management“ dimensijoms. Tačiau galite įtraukti ir pasirinktines dimensijas (pvz.,, _Šaltinis_) ad nurodydami, ar įvykis įvyko iš „Supply Chain Management“ ar iš išorinės sistemos. |
 
 > [!NOTE]
-> Skaidinio `SiteId` ir `LocationId` konfigūraciją [konstruktorius ir parametrai](inventory-visibility-configuration.md#partition-configuration). Todėl kurdami turimos prekės pakeitimo įvykius, nustatytą ar perrašydami turimus kiekius arba kurdami rezervavimo įvykius, turite juos nurodyti dimensijose.
+> Skaidinio `siteId` ir `locationId` konfigūraciją [konstruktorius ir parametrai](inventory-visibility-configuration.md#partition-configuration). Todėl kurdami turimos prekės pakeitimo įvykius, nustatytą ar perrašydami turimus kiekius arba kurdami rezervavimo įvykius, turite juos nurodyti dimensijose.
 
 ### <a name="create-one-on-hand-change-event"></a><a name="create-one-onhand-change-event"></a>Kurti vieną turimos informacijos pakeitimo įvykį
 
@@ -216,14 +218,14 @@ Body:
 ```json
 {
     "id": "123456",
-    "organizationId": "usmf",
+    "organizationId": "SCM_IV",
     "productId": "T-shirt",
     "dimensionDataSource": "pos",
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "PosMachineId": "0001",
-        "ColorId": "Red"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "posMachineId": "0001",
+        "colorId": "red"
     },
     "quantities": {
         "pos": {
@@ -238,12 +240,12 @@ Body:
 ```json
 {
     "id": "123456",
-    "organizationId": "usmf",
-    "productId": "T-shirt",
+    "organizationId": "SCM_IV",
+    "productId": "iv_postman_product",
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "ColorId": "Red"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "colorId": "red"
     },
     "quantities": {
         "pos": {
@@ -293,13 +295,13 @@ Body:
 [
     {
         "id": "123456",
-        "organizationId": "usmf",
-        "productId": "T-shirt",
+        "organizationId": "SCM_IV",
+        "productId": "iv_postman_product_1",
         "dimensionDataSource": "pos",
         "dimensions": {
-            "PosSiteId": "1",
-            "PosLocationId": "11",
-            "PosMachineId&quot;: &quot;0001"
+            "posSiteId": "posSite1",
+            "posLocationId": "posLocation1",
+            "posMachineId&quot;: &quot;0001"
         },
         "quantities": {
             "pos": { "inbound": 1 }
@@ -307,12 +309,12 @@ Body:
     },
     {
         "id": "654321",
-        "organizationId": "usmf",
-        "productId": "Pants",
+        "organizationId": "SCM_IV",
+        "productId": "iv_postman_product_2",
         "dimensions": {
-            "SiteId": "1",
-            "LocationId": "11",
-            "ColorId&quot;: &quot;black"
+            "siteId": "iv_postman_site",
+            "locationId": "iv_postman_location",
+            "colorId&quot;: &quot;black"
         },
         "quantities": {
             "pos": { "outbound": 3 }
@@ -362,13 +364,13 @@ Body:
 [
     {
         "id": "123456",
-        "organizationId": "usmf",
+        "organizationId": "SCM_IV",
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
-             "PosSiteId": "1",
-            "PosLocationId": "11",
-            "PosMachineId": "0001"
+            "posSiteId": "iv_postman_site",
+            "posLocationId": "iv_postman_location",
+            "posMachineId": "0001"
         },
         "quantities": {
             "pos": {
@@ -381,7 +383,7 @@ Body:
 
 ## <a name="create-reservation-events"></a>Kurti vieną rezervavimo įvykiai
 
-Norėdami naudoti *rezervo* API, turite atidaryti rezervavimo funkciją ir baigti konfigūruoti rezervavimą. Dėl daugiau informacijos, žr. [Rezervavimo konfigūracija (pasirinkti)](inventory-visibility-configuration.md#reservation-configuration).
+Norėdami naudoti rezervo *API*, turite įjungti rezervavimo funkciją ir baigti konfigūruoti rezervavimą. Dėl daugiau informacijos, žr. [Rezervavimo konfigūracija (pasirinkti)](inventory-visibility-configuration.md#reservation-configuration).
 
 ### <a name="create-one-reservation-event"></a><a name="create-one-reservation-event"></a>Kurti vieną rezervavimo įvykį
 
@@ -389,7 +391,7 @@ Rezervuoti galima pagal skirtingus duomenų šaltinio parametrus. Norėdami konf
 
 Kai iškiesite rezervavimo API, galite valdyti rezervavimo tikrinimą nurodydami parametrą Boolean `ifCheckAvailForReserv` užklausos body. Vertė, `True` kuri reiškia, kad būtinas tikrinimas, o `False` vertė reiškia, kad tikrinimas nebūtinas. Numatytoji vertė yra `True`.
 
-Jei norite atšaukti rezervavimą ar nereservuoti nurodytų atsargų kiekių, nustatykite neigiamą kiekio vertę ir nustatykite parametrą praleisti `ifCheckAvailForReserv` ir `False` tikrinimą.
+Jei norite atšaukti rezervavimą ar nereservuoti nurodytų atsargų kiekių, `ifCheckAvailForReserv``False` nustatykite neigiamą kiekio vertę ir nustatykite parametrą praleisti tikrinimą. Taip pat yra skirtoji nerealizuoto API, norint tai padaryti. Skirtumas yra tik toks pat, kaip du API iškvie čiami. Lengviau atšaukti konkretų rezervavimo įvykį naudojant `reservationId` nereserve *API*. Daugiau informacijos rasite vieno rezervavimo [_įvykio skyriaus nepaisyme_](#reverse-reservation-events).
 
 ```txt
 Path:
@@ -427,24 +429,36 @@ Body:
 ```json
 {
     "id": "reserve-0",
-    "organizationId": "usmf",
-    "productId": "T-shirt",
+    "organizationId": "SCM_IV",
+    "productId": "iv_postman_product",
     "quantity": 1,
     "quantityDataSource": "iv",
-    "modifier": "softreservordered",
+    "modifier": "softReservOrdered",
     "ifCheckAvailForReserv": true,
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "ColorId": "Red",
-        "SizeId&quot;: &quot;Small"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "colorId": "red",
+        "sizeId&quot;: &quot;small"
     }
 }
 ```
 
+Šiame pavyzdyje pateikiamas sėkmingas atsakymas.
+
+```json
+{
+    "reservationId": "RESERVATION_ID",
+    "id": "ohre~id-822-232959-524",
+    "processingStatus": "success",
+    "message": "",
+    "statusCode": 200
+}
+``` 
+
 ### <a name="create-multiple-reservation-events"></a><a name="create-multiple-reservation-events"></a>Kurti kelis rezervuoti įvykius
 
-Api yra masinis vieno [įvykio API variantas](#create-one-reservation-event).
+Api yra masinis vieno [įvykio API variantas](#create-reservation-events).
 
 ```txt
 Path:
@@ -480,9 +494,107 @@ Body:
     ]
 ```
 
+## <a name="reverse-reservation-events"></a>Atšaukti rezervavimo įvykius
+
+Nereserve *API* naudojama kaip rezervavimo įvykių atvirkštinė [*·*](#create-reservation-events) operacija. Tai leidžia atšaukti rezervavimo įvykį, kuris nurodytas pagal rezervavimo `reservationId` kiekį arba sumažinti.
+
+### <a name="reverse-one-reservation-event"></a><a name="reverse-one-reservation-event"></a> Atšaukti vieną rezervavimo įvykį
+
+Kai sukuriamas rezervavimas `reservationId`, jis bus įtrauktas į atsakymo tekstas. Norėdami atšaukti rezervavimą, `reservationId` turite pateikti tą patį ir tą patį ir `organizationId``dimensions` naudoti rezervavimo API iškvietimui. Galiausiai nurodykite `OffsetQty` vertę, kuri nurodo prekių skaičių, kuris bus atlaisvinęs nuo ankstesnio rezervavimo. Rezervavimas gali būti visiškai arba iš dalies atšauktas, priklausomai nuo nurodytos.`OffsetQty` Pavyzdžiui, jei rezervuota *100* prekių vienetų, `OffsetQty: 10` galite nurodyti nereservuoti *10* pradinės rezervuotos sumos vienetų.
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/unreserve
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        id: string,
+        organizationId: string,
+        reservationId: string,
+        dimensions: {
+            [key:string]: string,
+        },
+        OffsetQty: number
+    }
+```
+
+Šis kodas rodo turinio pavyzdį.
+
+```json
+{
+    "id": "unreserve-0",
+    "organizationId": "SCM_IV",
+    "reservationId": "RESERVATION_ID",
+    "dimensions": {
+        "siteid":"iv_postman_site",
+        "locationid":"iv_postman_location",
+        "ColorId": "red",
+        "SizeId&quot;: &quot;small"
+    },
+    "OffsetQty": 1
+}
+```
+
+Šis kodas rodo sėkmingo atsakymo kūno pavyzdį.
+
+```json
+{
+    "reservationId": "RESERVATION_ID",
+    "totalInvalidOffsetQtyByReservId": 0,
+    "id": "ohoe~id-823-11744-883",
+    "processingStatus": "success",
+    "message": "",
+    "statusCode": 200
+}
+```
+
+> [!NOTE]
+> Atsakymo body, kai `OffsetQty` ji mažesnė arba lygi rezervavimo kiekiui, `processingStatus` bus "*sėkminga*" `totalInvalidOffsetQtyByReservId` ir bus *0*.
+>
+> Jei `OffsetQty` ji didesnė nei rezervuota suma, `processingStatus` bus "*partialSuccess*" `totalInvalidOffsetQtyByReservId` ir bus skirtumas tarp `OffsetQty` rezervuotos sumos ir.
+>
+>Pavyzdžiui, jei rezervavimo kiekis yra *10*, o `OffsetQty` vertė – *12*, `totalInvalidOffsetQtyByReservId` būtų *2*.
+
+### <a name="reverse-multiple-reservation-events"></a><a name="reverse-multiple-reservation-events"></a> Atšaukti kelis rezervavimo įvykius
+
+Api yra masinis vieno [įvykio API variantas](#reverse-one-reservation-event).
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/unreserve/bulk
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    [      
+        {
+            id: string,
+            organizationId: string,
+            reservationId: string,
+            dimensions: {
+                [key:string]: string,
+            },
+            OffsetQty: number
+        }
+        ...
+    ]
+```
+
 ## <a name="query-on-hand"></a>Turimos užklausos
 
-Norėdami surasti _dabartinius_ savo produktų turimų atsargų duomenis, naudokite turimų atsargų API užklausą. API šiuo metu palaiko iki 100 atskirų prekių užklausą pagal `ProductID` vertę. Šioje `SiteID` užklausoje `LocationID` dar galima nurodyti keletą verčių. Maksimali riba apibrėžiama kaip `NumOf(SiteID) * NumOf(LocationID) <= 100`.
+Norėdami surasti *dabartinius* savo produktų turimų atsargų duomenis, naudokite turimų atsargų API užklausą. API šiuo metu palaiko užklausas iki 5000 atskirų prekių pagal `productID` vertę. Šioje `siteID` užklausoje `locationID` dar galima nurodyti keletą verčių. Maksimali riba apibrėžiama šioje lygtyje:
+
+*NumOf(SiteID) \* NumOf(LocationID) <= 100*.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Užklausa naudojant skelbimo metodą
 
@@ -517,7 +629,7 @@ Body:
 - `productId` gali būti viena arba daugiau verčių. Jei yra tuščias masyvas, bus pateiktos visų produktų grąžintos.
 - `siteId` ir `locationId` yra naudojami atsargų matomumui skaldyti. Galite nurodyti daugiau nei vieną `siteId` ir `locationId` vertę *turimos užklausos* užklausoje. Dabartiniame leidime turite nurodyti ir vertes, `siteId` ir `locationId` vertes.
 
-Parametras `groupByValues` turi būti nurodytas indeksavimo konfigūracijoje. Daugiau informacijos, žr. [Produkto indekso hierarchijos konfigūracija](./inventory-visibility-configuration.md#index-configuration).
+Rekomenduojame naudoti parametrą indeksavimo `groupByValues` konfigūracijai sekti. Daugiau informacijos, žr. [Produkto indekso hierarchijos konfigūracija](./inventory-visibility-configuration.md#index-configuration).
 
 Parametras `returnNegative` kontroliuoja, ar rezultatuose yra neigiamų įrašų.
 
@@ -530,13 +642,13 @@ Parametras `returnNegative` kontroliuoja, ar rezultatuose yra neigiamų įrašų
 {
     "dimensionDataSource": "pos",
     "filters": {
-        "organizationId": ["usmf"],
-        "productId": ["T-shirt"],
-        "siteId": ["1"],
-        "LocationId": ["11"],
-        "ColorId": ["Red"]
+        "organizationId": ["SCM_IV"],
+        "productId": ["iv_postman_product"],
+        "siteId": ["iv_postman_site"],
+        "locationId": ["iv_postman_location"],
+        "colorId": ["red"]
     },
-    "groupByValues": ["ColorId", "SizeId"],
+    "groupByValues": ["colorId", "sizeId"],
     "returnNegative": true
 }
 ```
@@ -546,12 +658,12 @@ Toliau pateikiamas pavyzdys rodo, kaip pateikti užklausą apie visus produktus 
 ```json
 {
     "filters": {
-        "organizationId": ["usmf"],
+        "organizationId": ["SCM_IV"],
         "productId": [],
-        "siteId": ["1"],
-        "LocationId": ["11"],
+        "siteId": ["iv_postman_site"],
+        "locationId": ["iv_postman_location"],
     },
-    "groupByValues": ["ColorId", "SizeId"],
+    "groupByValues": ["colorId", "sizeId"],
     "returnNegative": true
 }
 ```
@@ -574,10 +686,10 @@ Query(Url Parameters):
     [Filters]
 ```
 
-Čia pateikiamas URL gauti pavyzdys. Ši gavimo užklausa yra lygiai tokia pati, kaip ir anksčiau pateiktas skelbimo pavyzdys.
+Čia pavyzdys gauti URL. Ši gavimo užklausa yra lygiai tokia pati, kaip ir anksčiau pateiktas skelbimo pavyzdys.
 
 ```txt
-/api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand?organizationId=SCM_IV&productId=iv_postman_product&siteId=iv_postman_site&locationId=iv_postman_location&colorId=red&groupBy=colorId,sizeId&returnNegative=true
 ```
 
 ## <a name="available-to-promise"></a>Prieinamos atsargos

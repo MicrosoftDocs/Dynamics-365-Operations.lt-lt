@@ -13,18 +13,18 @@ ms.author: atrukawk
 ms.search.validFrom: 2021-09-23
 ms.dyn365.ops.version: 10.0.20
 ms.search.form: ''
-ms.openlocfilehash: ed07ae9784da3ca721fcb25a9c5a14c4f75f2e59
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 39cf4eb7eef1a83abeb7bd44fa7b2abefee0806e
+ms.sourcegitcommit: 8eb0cafe5ad20be2c4fff684e88d7d3f2249f820
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277377"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "9409670"
 ---
 # <a name="reference-original-invoices-in-credit-notes-vendor-invoices"></a>Nuorodos į pradines SF kredito pažymose (tiekėjo sąskaitos)
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje aprašoma, kaip kurti nuorodą į originalią SF, kai kuriate kredito pažymą.
+Kai kuriose šalyse ir regionuose teisinių reikalavimų, dėl išspausdintų kredito pažymų ar ataskaitų paskaitų, yra nuorodos į pradines SF. Šiame straipsnyje aprašoma, kaip kurti nuorodą į originalią SF, kai kuriate kredito pažymą.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
@@ -44,11 +44,17 @@ Funkcijų valdymo **darbo srityje** įgalinkite funkciją **Įgalinti tiekėjo S
 
 ## <a name="define-a-reference-to-an-original-invoice"></a>Nustatyti nuorodą į originalią sąskaitą
 
+Apibrėžiant originalios SF nuorodą, įtraukiami šie aukšto lygio veiksmai:
+1. Sukurkite ir užregistruokite tiekėjo SF.
+2. Sukurkite tiekėjo kredito pažymą.
+3. Norėdami susieti SF su kredito pažyma, naudokite kredito SF išrašymo mygtuką.
+4. Registruokite kredito pažymą.
+
 Naudokite tolesnes procedūras, kad nustatytumėte nuorodą į originalią sąskaitą konkrečiuose verslo dokumento tipuose.
 
 ### <a name="vendor-credit-note-purchase-order"></a>Tiekėjo kredito pažyma (pirkimo užsakymas)
 
-1. Eikite į **Mokėtinos sumos** \> **Pirkimo užsakymai** \> **Visi pirkimo užsakymai**.
+1. Eikite į **Mokėtinos sumos** > **Pirkimo užsakymai** > **Visi pirkimo užsakymai**.
 2. Kurti naują pirkimo užsakymą arba naudoti esamą, norint sukurti kredito pažymą.
 3. Veiksmų juostoje **Sąskaitos** skirtuke, **Įžanga** grupėje, rinkitės **Kredito sąskaitos išrašymas**.
 4. Įveskite priežastį siekiant taisyti ir rinkitės priežastį taisymui.

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9bb87382de0e124ccd906018443a3918e35fb5bd
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 3cfeea4899e79a76f433912bce72f54dc08c54d8
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286580"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9424001"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-commerce"></a>„Dynamics 365 Commerce“ naudotojų mokymosi katalogas
 
@@ -29,16 +29,15 @@ Su kitomis finansų ir operacijų programėle bendrai naudojamų priemonių ieš
 
 ## <a name="get-started"></a>Pradėta<a name="get-started"></a>
 
-| Turinys | Aprašymas  | Formatas   | Ilgis    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
-| [Sužinokite apie „Microsoft Dynamics 365“ ir „Power Platform“ naudą verslui](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/)   | Ši mokymosi patirtis jus nusiųs į kelionę, kuri prasideda rodant jums, kaip skaitmeninė transformacija ir verslo programos galios gali pakeisti jūsų verslą. Mes aprašysime, kaip „Dynamics 365“ ir „Power Platform“ jums padeda priimti sprendimus turint informaciją pagal jūsų organizacijos tikslus ir poreikius, per keturių blokų skaitmeninę transformaciją - modernią, vientisą, protingą ir pritaikomą. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 6,5 valandos |
+| Turinys | Aprašymas | Formatas | Ilgis |
+|---------|-------------|--------|--------|
 | [Darbo su „Dynamics 365 Commerce“ pradžia](/learn/paths/get-started-dynamics-365-commerce/)| „Dynamics 365 Commerce“, paremtas patikrintomis „Dynamics 365 Retail“ galimybėmis, pristato išsamų daugiakanalį sprendimą, vienijantį operacijų skyrių, parduotuvę, skambučių centrą ir skaitmeninę patirtį. Programoje „Dynamics 365 Commerce“ galite formuoti lojalumą prekės ženklui, naudojant suasmenintus kliento įtraukimo būdus, didinti įplaukas, siekiant pagerinti darbuotojų produktyvumą, optimizuoti operacijas, siekiant sumažinti išlaidas ir valdyti tiekimo grandinės efektyvumą, galiausiai užtikrinti geresnius verslo rezultatus. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 2 valandos |
 | [Darbo su „Dynamics 365 Fraud Protection“ pradžia](/learn/modules/get-started-fraud-protection/)| „Dynamics 365 Fraud Protection“ yra debesimi pagrįstas sprendimas sukurtas el. prekybai, plytų ir skiedinio parduotuvėms ir vieno kanalo prekeiviams siekiant padėti apsaugoti jų pajamas ir reputaciją suteikiant įrankius ir galimybes mažinti apgaulę ir piktnaudžiavimą, sumažinti operacines išlaidas ir padidinti priimamus mokesčius, taip apsaugant naudotojų paskyras nuo apgaulės poveikio. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 35 minučių |
 
 ## <a name="commerce"></a>„Commerce“<a name="commerce"></a>
 
-| Turinys | aprašymas  | Formatuoti   | Ilgis    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
+| Turinys | aprašymas | Formatuoti | Ilgis |
+|---------|-------------|--------|--------|
 | [Konfigūruoti ir dirbti su vieno kanalo būtinosiomis sąlygomis „Dynamics 365 Commerce“](/learn/paths/configure-work-omnichannel-prequisites-commerce/)| Prieš sukuriant ir naudojant bet kokį „Dynamics 365 Commerce“ kanalą, esama kelių būtinųjų sąlygų, kurias privalu nustatyti. Šis mokymosi kelias aprašo būtinųjų sąlygų konfigūravimą siekiant atlikti sėkmingas perlaidas komercijos kanaluose ir darbo su elementu būdą.| Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 6,5 valandos |
 | [Konfigūruoti ir naudoti prekybos tašką (EKA) „Dynamics 365 Commerce“](/learn/paths/configure-use-pos-commerce/) | Perlaidos duomenys sukuriami elektroniniame kasos aparate (EKA) ir tuomet atnaujinami į „Dynamics 365 Commerce“ štabą apdorojimui. Mokymosi kelias aprašo, kaip diegti ir aktyvuoti POS, taip pat, kaip sukurti dienos perlaidas jame. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 4,5 valandos |
 | [Valdyti kliento įtraukimą ir apsipirkimo patirtį „Dynamics 365 Commerce“](/learn/paths/manage-customer-engagement-shopping-experience-commerce/) | Kliento įsitraukimo valdymas ir apsipirkimo gerinimo patirtis padeda klientams atlikti geresnius įsigijimo sprendimus ir sukurti lojalumą prekybininko prekės ženklų pasitikėjimui, kuris galiausiai leidžia padidinti pajamas. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 4,5 valandos |
@@ -47,10 +46,8 @@ Su kitomis finansų ir operacijų programėle bendrai naudojamų priemonių ieš
 
 ## <a name="e-commerce"></a>El. prekyba<a name="e-commerce"></a>
 
-| Turinys | aprašymas  | Formatuoti   | Ilgis    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
+| Turinys | aprašymas | Formatuoti | Ilgis |
+|---------|-------------|--------|--------|
 | [Konfigūruoti ir dirbti su el. prekyba „Dynamics 365 Commerce“](/learn/paths/configure-work-e-commerce/) | „Dynamics 365 Commerce“ interneto kanalai ir el. prekybos vieta leidžia prekybininkams sukurti jų prekės ženklo buvimą internete. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 4 valandos   |
 
-
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

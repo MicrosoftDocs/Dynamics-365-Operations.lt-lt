@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 576d8d5d0cad09aed40f1ceb9ce5682816c0f666
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: 8d8fe042d7c56b86a5a7c92cc24480f573a2ea8a
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306325"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423575"
 ---
 # <a name="configure-inventory-visibility"></a>„Inventory Visibility“ konfigūravimas
 
@@ -303,13 +303,13 @@ Sprendimas apima šio skaidinio konfigūraciją pagal numatytuosius nustatymus. 
 
 Dažniausiai turimų atsargų užklausa nebus tik aukščiausias "bendras" lygis. Vietoje to jūs galite norėti matyti rezultatus, kurie yra sujungti pagal atsargų dimensijas.
 
-Atsargų matomumas suteikia lankstumo, informuodamas apie tai, kaip nustatote _indeksus_. Šie indeksai remiasi dimensija arba dimensijų kombinacija. Indeksą sudaro *rinkinio numeris*, *dimensija* ir *hierarchija*, kaip nurodyta šioje lentelėje.
+Atsargų matomumas suteikia lankstumo, leisdamas _jums_ nustatyti indeksus, kad jūsų užklausos būtų našumui pagerinti. Šie indeksai remiasi dimensija arba dimensijų kombinacija. Indeksą sudaro *rinkinio numeris*, *dimensija* ir *hierarchija*, kaip nurodyta šioje lentelėje.
 
 | Pavadinimas / vardas ir (arba) pavardė | Aprašas |
 |---|---|
 | Nustatyti numerį | Dimensijos, priklausančios tam pačiam rinkinio (indeksui), bus sugrupuotos ir joms bus priskirtas tas pats rinkinio numeris. |
 | Dimensija | Pagrindinės dimensijos, pagal kurias sujungiamas užklausos rezultatas. |
-| Hierarchija | Hierarchija naudojama apibrėžti palaikomas dimensijų kombinacijas, kurių galima užklausti. Pvz., nustatote dimensijų rinkinį, kuriame yra hierarchijos seka `(ColorId, SizeId, StyleId)`. Šiuo atveju sistema palaiko užklausas apie keturias dimensijų kombinacijas. Pirmasis derinys yra tuščias, antrasis `(ColorId)`, trečiasis yra `(ColorId, SizeId)`, o ketvirtasis yra `(ColorId, SizeId, StyleId)`. Nepalaikomos kitos kombinacijos. Daugiau informacijos ieškokite šiame pavyzdyje. |
+| Hierarchija | Hierarchija leidžia padidinti konkrečių dimensijų kombinacijų našumą, kai naudojama užklausos parametruose filtruoti ir grupuoti pagal užklausas. Pavyzdžiui, jei nustatote dimensijų `(ColorId, SizeId, StyleId)` rinkinį su hierarchijos seka, sistema gali apdoroti užklausas, susijusias su keturiomis dimensijų kombinacijomis, greičiau. Pirmasis derinys yra tuščias, antrasis `(ColorId)`, trečiasis yra `(ColorId, SizeId)`, o ketvirtasis yra `(ColorId, SizeId, StyleId)`. Kitos kombinacijos nebus dar nesusiduotos. Filtrai ribojami pagal užsakymą, bet turi būti šių dimensijų viduje, jei norite pagerinti jų našumą. Daugiau informacijos ieškokite šiame pavyzdyje. |
 
 Norėdami nustatyti savo produkto hierarchijos indeksą, atlikite šiuos žingsnius.
 
@@ -319,14 +319,13 @@ Norėdami nustatyti savo produkto hierarchijos indeksą, atlikite šiuos žingsn
 1. Numatyta, kad pateikiamas indeksų sąrašas. Norėdami modifikuoti esamą indeksą, atitinkamo **Redaguoti** ar **Įtraukti** skyriuje pasirinkite Redaguoti arba Įtraukti. Norėdami sukurti naują indeksų rinkinį, pasirinkite **Naujas indeksų rinkinys**. Kiekvienai eilutei iš kiekvieno indeksų rinkinio **dimensijos** lauke pasirinkite iš pagrindinės dimensijos sąrašo. Automatiškai generuojamos šių laukų vertės:
 
     - **Nustatyti numerį** – Dimensijos, priklausančios tam pačiam grupės (indeksui), bus sugrupuotos ir joms bus priskirtas tas pats rinkinio numeris.
-    - **Hierarchija** – Hierarchija naudojama apibrėžti palaikomas dimensijų kombinacijas, kurių galima užklausti dimensijos grupėje (indeksas). Pavyzdžiui, jei nustatote dimensijų grupę, kuri *turi hierarchijos seką Stilius*, *Spalva* *ir Dydis*, sistema palaiko trijų užklausų grupių rezultatą. Pirmoji grupė yra tik stilius. Antroji grupė yra stiliaus ir spalvos derinys. O trečioji grupė yra stiliaus, spalvos ir dydžio kombinacija. Nepalaikomos kitos kombinacijos.
+    - **Hierarchija** – hierarchija padidina konkrečių dimensijų kombinacijų našumą, kai naudojama filtruoti ir grupuoti pagal užklausos parametrus.
 
 > [!TIP]
 > Nustatydami indeksų hierarchiją atmeskite keletą patarimų:
 >
 > - Pagrindinės dimensijos, kurios nustatytos skaidinio konfigūracijoje, neturi būti apibrėžtos indekso konfigūracijose. Jei pagrindinė dimensija iš naujo nustatoma indekso konfigūracijoje, pagal šį indeksą užklausos negalėsite pateikti.
 > - Jei jums reikia pateikti užklausą apie atsargas, kurios sujungiamos pagal visus dimensijų derinius, tada nustatykite vieną indeksą, kuriame yra pagrindinė dimensija `Empty`.
-> - Turi būti bent viena indeksų hierarchija (pvz., `Empty` kurioje yra pagrindinė dimensija), kitu atveju užklausose nebus pateikta klaida "Nenustatyta indekso hierarchija".
 
 ### <a name="example"></a>Pavyzdys
 

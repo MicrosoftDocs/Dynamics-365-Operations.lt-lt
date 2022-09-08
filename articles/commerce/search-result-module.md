@@ -2,7 +2,7 @@
 title: Ieškos rezultatų modulis
 description: Šiame straipsnyje aprašomi ieškos rezultatų moduliai ir aprašoma, kaip įtraukti juos į svetainės puslapius Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 05/18/2022
+ms.date: 08/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
 ms.search.industry: ''
 ms.search.form: ''
-ms.openlocfilehash: d10e9ed78dfc90833ff3c09021f863f6ef0b80d9
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: eeb7cd0769fcb866a3d7dcc03e8e87daf24b2c5d
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286816"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405299"
 ---
 # <a name="search-results-module"></a>Ieškos rezultatų modulis
 
@@ -86,48 +86,16 @@ Norėdami įtraukti ieškos rezultatų modulį į svetainės generatoriaus kateg
 1. Dalyje **Peržiūrėti ir baigti** peržiūrėkite puslapio konfigūraciją. Jei reikia redaguoti puslapio informaciją, pasirinkite **Atgal**. Jei puslapio informacija teisinga, pasirinkite Kurti **puslapį**.
 1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 
-## <a name="enable-inventory-awareness-for-the-search-results-module"></a>Įgalinkite atsargų supratimą ieškos rezultatų moduliui
+## <a name="inventory-aware-search-results-module"></a>Atsargų žinomos ieškos rezultatų modulis
 
-Klientai paprastai tikisi, kad el. komercijos svetainė bus žinoma apie atsargas naršymo metu, kad galėtų nuspręsti, ką daryti, jei nėra produkto atsargų. Ieškos rezultatų modulis gali būti sukonfigūruotas įtraukti atsargų duomenis ir suteikti tokią patirtį:
+Ieškos rezultatų modulis gali būti sukonfigūruotas įtraukti atsargų duomenis ir suteikti tokią patirtį:
 
-- Rodyti atsargų prieinamumo žymę kartu su produktu.
+- Kartu su produktais rodyti atsargų lygio etiketes.
 - Slėpti ne atsargose produktus iš produktų sąrašo.
-- Rodyti produktus, kurie nėra atsargose, produktų sąrašo pabaigoje.
-- Filtruoti ieškos rezultatų produktus pagal atsargų lygį.
+- Rodyti ne atsargose produktus produktų sąrašo pabaigoje.
+- Palaiko atsargų produktų filtravimą.
 
-Norėdami įgalinti šią patirtį, pirmiausia turite **įgalinti patobulintą el. komercijos** produktų aptikimo funkciją, kad ji būtų žinoma apie atsargas funkcijų **valdymo darbo** srityje.
-
-> [!NOTE]
-> Išplėstinio **el. komercijos** produktų aptikimo, kuris turi informacijos apie atsargas, funkciją galima naudoti "Commerce" 10.0.20 versijoje ir vėliau.
-
-Atsargų produktų paieška naudoja produkto atributus atsargų prieinamumo informacijai gauti. Kad ši funkcija būtų būtina, turi būti sukurti skirti produkto atributai, į juos turi būti įvesti atsargų duomenys ir jie turi būti įtraukti į interneto kanalą. 
-
-Norėdami sukurti skirtus produkto atributus, kad būtų galima palaikyti atsargų žinomos ieškos rezultatų modulį, atlikite šiuos veiksmus.
-
-1. Būstinę eikite į " **Retail" ir "Commerce \> Retail" ir "Commerce IT \> Products" ir atsargas**.
-1. Pasirinkite ir atidarykite **automatiškai įvesti produkto atributus atsargų lygiu**.
-1. Dialogo lange įveskite šią informaciją:
-
-    1. Lauke Produkto **atributas ir tipo pavadinimas** nurodykite paskirto produkto atributo, kuris bus sukurtas atsargų duomenims fiksuoti, pavadinimą.
-    1. Lauke Atsargų **prieinamumas pagal lauką** pasirinkite kiekio tipą, pagal kurį turėtų būti skaičiuojamas atsargų lygis (pvz., **Faktiškai turima**). 
-
-1. Vykdyti užduotį fone. Dėl to, kad produktų atsargų pakeitimai vyksta klientų aplinkoje, primygtinai rekomenduojame suplanuoti šią užduotį kaip paketinį procesą.
-
-> [!NOTE]
-> Norėdami nuosekliai apskaičiuoti atsargų lygį jūsų el. komercijos svetainėje visuose puslapiuose ir moduliuose, **nepamirškite** pasirinkti to paties kiekio tipo pagal "Commerce **Headquarters**" parametrą ir atsargų lygį, pagrįstą "Commerce Site Builder" nustatymu. Norėdami gauti daugiau informacijos apie atsargų parametrų taikymą svetainės kurime, žr. [Atsargų nustatymų taikymas](inventory-settings.md).
-
-Norėdami konfigūruoti interneto kanalo produkto atributus, atlikite šiuos veiksmus. 
-
-1. Būstinėje eikite į "Retail" **ir "Commerce Channel" \> nustatymo kanalo \> kategorijas ir produktų atributus**.
-1. Pasirinkite interneto kanalą, norėdami įgalinti žinotų atsargų ieškos rezultatų modulį.
-1. Pasirinkite ir atidarykite susietą atributų grupę, tada prie jos pridėkite naujai sukurtą produkto atributą.
-1. Jei "Commerce" versijos yra prieš 10.0.27 leidimą, **pasirinkite Nustatyti atributo metaduomenis**, pasirinkite naujai pridėtą produkto atributą, **tada** įjunkite atributą Rodyti kanale, **·** **·** **Galima** patikslinti ir užklausti parinktis.
-1. Eikite į **"Retail" ir "Commerce \> Retail" ir "Commerce IT \> Distribution**" grafiką ir vykdykite **užduotį 1150 (Katalogas**). Jei suplanuojate **produkto** atributų su atsargų lygio užduotimi kaip paketinį procesą, rekomenduojame taip pat suplanuoti 1150 užduotį kaip paketinį procesą, kuris vykdomas tuo pačiu dažnumu.
-
-> [!NOTE]
-> Produktų, kurie rodomi paieškos rezultatų modulyje, atsargų lygis rodomas bendrojo produkto lygyje, o ne atskirų variantų lygyje. Jis turi tik dvi galimas vertes: "Turima" ir "Atsargų nėra". Faktinė vertės žymė nuskaitoma iš atsargų lygio [šablono apibrėžimo](inventory-buffers-levels.md). Bendrasis produktas laikomas atsargose tik tada, kai visų jo variantų nėra atsargose.
-
-Atlikus visus ankstesnius konfigūravimo veiksmus, ieškos rezultatų puslapiuose esantys tikslinimo priemonės rodys atsargomis pagrįstus filtrus, o ieškos rezultatų modulis pateiks atsargų duomenis po užsakymo. Tada "Commerce" svetainės generatoriuje galite konfigūruoti **Produktų sąrašo puslapių atsargų** parametrus kad būtų galima valdyti, kaip ieškos rezultatų modulis rodo ne turimų atsargų produktus. Daugiau informacijos žr. [Atsargų parametrų taikymas](inventory-settings.md).
+Norėdami įgalinti šią patirtį, pirmiausia **turite įgalinti patobulinto el. komercijos** produktų aptikimo funkciją, kad ji būtų žinoma apie atsargas, o tada sukonfigūruoti keletą būtinųjų parametrų "Commerce Headquarters". Daugiau informacijos ieškokite atsargų [produktų sąraše](inventory-aware-product-listing.md).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
