@@ -12,6 +12,8 @@
               items:
                 - name: Kas nauja ar pasikeitė „Finance“ pagrindiniame puslapyje
                   href: get-started/whats-new-home-page.md
+                - name: „Finance 10.0.30“ (lapkritis)
+                  href: get-started/whats-new-changed-10-0-30.md
                 - name: „Finance 10.0.29“ (spalis)
                   href: get-started/whats-new-changed-10-0-29.md
                 - name: „Finance 10.0.28“ (rugpjūtis)
@@ -1138,6 +1140,8 @@
                       href: general-ledger/subledger-transfer.md
                     - name: Apskaitos šaltinių naršyklė
                       href: accounts-payable/accounting-source-explorer.md
+                    - name: 'Dokumentai, laukiantys apskaitos'
+                      href: general-ledger/documents-pending-accounting.md
             - name: Ataskaitos ir užklausos
               items:
                 - name: Žurnalo įrašų ir operacijų peržiūra

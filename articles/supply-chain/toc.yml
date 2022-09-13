@@ -3413,8 +3413,6 @@
                       href: warehousing/packing-work.md
                     - name: Trumpalaikio išrinkimo elementų perskirstymo nustatymas
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                    - name: Darbo sandėlyje atšaukimas dėl išimčių tvarkymo
-                      href: warehousing/cancel-warehouse-work.md
                     - name: Sistemos nurodyta darbo seka
                       href: warehousing/system-directed-work-sequencing.md
                     - name: Paėmimo eilutės grupavimas
@@ -3431,6 +3429,10 @@
                       href: warehousing/put-to-wall-put-to-store.md
                     - name: Siunčiamo darbo krūvio vizualizavimas
                       href: warehousing/outbound-workload-visualization.md
+                    - name: Pardavimo ir perkėlimo eilutės išrinkimo išimčių tvarkymas rankiniu būdu
+                      href: warehousing/manual-order-line-picking-exception-handling.md
+                    - name: Darbo sandėlyje atšaukimas dėl išimčių tvarkymo
+                      href: warehousing/cancel-warehouse-work.md
                 - name: Papildymas
                   items:
                     - name: Papildymo apžvalga

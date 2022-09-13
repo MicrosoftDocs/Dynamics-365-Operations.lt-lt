@@ -12,6 +12,8 @@
               items:
                 - name: Kas nauja ar pasikeitė „Commerce“ pagrindiniame puslapyje
                   href: get-started/whats-new-home-page.md
+                - name: „Commerce 10.0.30“ (2022 m. lapkričio mėn.)
+                  href: get-started/whats-new-commerce-10-0-30.md
                 - name: „Commerce 10.0.29“ (2022 m. spalio mėn.)
                   href: get-started/whats-new-commerce-10-0-29.md
                 - name: „Commerce 10.0.28“ (2022 m. liepos mėn.)
@@ -702,18 +704,16 @@
                   href: optimal-combination-overlapping-discounts.md
                 - name: Kanalui būdingų nuolaidų nustatymas
                   href: define-channel-specific-discounts.md
-                - name: Nuolaidų nesuteikimo mažmeninės prekybos produktams parinktys
-                  href: prevent-discounts.md
                 - name: Nuolaidos pagal mokėjimo priemonę
                   href: tender_based_discounts.md
                 - name: Siuntimo nuolaida
                   href: shipping-discount.md
                 - name: Dovanų su pirkimo skatinimais konfigūracija
                   href: gift-with-purchase.md
-                - name: Kuponų nustatymas
-                  href: retail-coupons.md
-                - name: Nuolaidų rodymas EKA
-                  href: discounts-pos.md
+                - name: Kuponai
+                  href: coupons.md
+                - name: Įkainių parametrai
+                  href: price-settings.md
                 - name: Kainų ataskaitos
                   href: price-report.md
                 - name: Konkretaus kanalo prekybos sutarčių kūrimas
@@ -800,6 +800,8 @@
                       href: calculated-inventory-retail-channels.md
                     - name: Atsargų peržvalgos operacija EKA
                       href: pos-inventory-lookup-operation.md
+                    - name: Žiniomis apie atsargas pagrįstas produktų sąrašas
+                      href: inventory-aware-product-listing.md
                 - name: Pirkimo užsakymai
                   items:
                     - name: Pirkimo užsakymų apžvalga
