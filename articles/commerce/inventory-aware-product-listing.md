@@ -1,5 +1,5 @@
 ---
-title: Žinotų atsargų produktų sąrašas
+title: Žiniomis apie atsargas pagrįstas produktų sąrašas
 description: Šiame straipsnyje aprašoma, kaip organizacijos gali konfigūruoti produktų sąrašų puslapius savo Microsoft Dynamics 365 Commerce el. komercijos svetainėje, kad būtų žinoma apie atsargas.
 author: boycez
 ms.date: 08/31/2022
@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: boycez
 ms.search.validFrom: 2022-08-23
-ms.openlocfilehash: e33a4dd8650ee2e371c51c5a19e955f2d2bdade2
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 2a65dedf2da62fcd92169077d75a0f3b7832a86d
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405520"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473744"
 ---
-# <a name="inventory-aware-product-listing"></a>Žinotų atsargų produktų sąrašas
+# <a name="inventory-aware-product-listing"></a>Žiniomis apie atsargas pagrįstas produktų sąrašas
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Šiame straipsnyje aprašoma, kaip organizacijos gali konfigūruoti produktų sąrašų puslapius savo Microsoft Dynamics 365 Commerce el. komercijos svetainėje, kad būtų žinoma apie atsargas. Produktų sąrašo puslapiai apima kategorijos pagal puslapius ir ieškos rezultatų puslapius.
 

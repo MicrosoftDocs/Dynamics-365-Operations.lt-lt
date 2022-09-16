@@ -1,5 +1,5 @@
 ---
-title: EKA kainos funkcijos
+title: Kainodaros funkcijos EKA
 description: Šiame straipsnyje aprašomos įvairios kainos ir nuolaidos funkcijos point Microsoft Dynamics 365 Commerce point of sale (EKA) programoje.
 author: boycez
 ms.date: 08/12/2022
@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: 2022-07-14
-ms.openlocfilehash: 92bbc3b81b889f106dc113528afbdc37d1106ff3
-ms.sourcegitcommit: 924dbcdc6b03f6a7ae3a07378ec405fd15c7e359
+ms.openlocfilehash: 210798ac192ee251594ec8ff9d23dab31ec2043e
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2022
-ms.locfileid: "9293655"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473693"
 ---
-# <a name="pricing-functions-in-pos"></a>EKA kainos funkcijos
+# <a name="pricing-functions-in-pos"></a>Kainodaros funkcijos EKA
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Šiame straipsnyje aprašomos įvairios kainos ir nuolaidos funkcijos point Microsoft Dynamics 365 Commerce point of sale (EKA) programoje.
 

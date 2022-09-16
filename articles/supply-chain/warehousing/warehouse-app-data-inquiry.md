@@ -1,5 +1,5 @@
 ---
-title: Užklausti duomenis naudojant sandėlio valdymo mobiliąją programą
+title: Duomenų užklausa naudojant „Warehouse Management“ mobiliosios programėlės apėjimus
 description: Šiame straipsnyje aprašoma, kaip konfigūruoti duomenų užklausos mobiliojo įrenginio meniu elementus ir naudoti juos kaip atsietų elementų dalį.
 author: perlynne
 ms.date: 08/09/2022
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: cc013e962b4da803764f16e451b1d433666e75c2
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 39677ebfb9babeb7246ece4d27ab1813435ca12e
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336612"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427854"
 ---
-# <a name="query-data-using-warehouse-management-mobile-app-detours"></a>Užklausti duomenis naudojant sandėlio valdymo mobiliąją programą
+# <a name="query-data-using-warehouse-management-mobile-app-detours"></a>Duomenų užklausa naudojant „Warehouse Management“ mobiliosios programėlės apėjimus
 
 [!include [banner](../includes/banner.md)]
 
@@ -268,6 +268,6 @@ Norėdami patikrinti savo naują mobiliosios programos sąranką, atlikite šiuo
     ![Pirkimo gavimas naudojant PU peržvalgą pagal tiekėją, 2 pavyzdys.](media/wma-purchase-receive-lookup-po-vendor-detours.png "Pirkimo gavimas naudojant PU peržvalgą pagal tiekėją, 2 pavyzdys")
 
 > [!TIP]
-> Užuot **paleidę** gavimo srautą, atlikdami peržvalgą iš pirkimo gavimo meniu elemento, galite pradėti nuo užklausų srauto (**\>\> pagrindinis užklausos peržvalgos POS** pagal tiekėją) ir iškviesti pasižiūrėti, kaip vykdyti norimą srautą, pasirinkdami vieną iš kortelių sąraše. Norėdami naudoti šį būdą, galite **nurodyti** **nuo puslapio Mobiliojo įrenginio veiksmai reikšmę, kurios veiksmo ID** *vertė yra GenericDataInquiryList.* Dėl to, kad šis srautas yra apgaulė, negalite iš jo iškviesti daugiau atsietų srauto. Todėl kai įeisite į prekės numerio įrašo ekraną, pvz., peržvalga jame nebus galima, nes sistema šiuo metu palaiko tik vieną detos lygį.
+> Užuot **paleidę** gavimo srautą, atlikdami peržvalgą iš pirkimo gavimo meniu elemento, galite pradėti nuo užklausų srauto (**\>\> pagrindinis užklausos peržvalgos POS** pagal tiekėją) ir iškviesti pasižiūrėti, kaip vykdyti norimą srautą, pasirinkdami vieną iš kortelių sąraše. Norėdami naudoti šį būdą, galite **nurodyti** **nuo puslapio Mobiliojo įrenginio veiksmai reikšmę, kurios veiksmo ID** *vertė yra GenericDataInquiryList.* Jei jūsų [*sistemai įjungta sandėlio*](warehouse-app-detours.md) valdymo mobiliosios programos funkcijos kelių lygių funkcija, galite įtraukti ir papildomą atsieimą, jei reikia (ši funkcija įtraukia dviejų lygių palaikymą ir gali būti pritaikyta, kad būtų palaikomi papildomi lygiai).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
-title: Užduočių tvarkymas
+title: Užduočių valdymas
 description: Šiame straipsnyje paaiškinama užduočių valdymo funkcija, kurią galima naudoti "Microsoft"Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 12/20/2021
+ms.date: 09/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,16 +12,16 @@ ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2021-29-11
+ms.search.validFrom: 2022-06-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c567f6d74e6ff87a72ff3b8663ca3a291dff3abb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 29b547ff4f55b572ab774e7e70949ec8cb53ef42
+ms.sourcegitcommit: 167f73a834629752c6b79c312d744e52df7f0927
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897870"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9445900"
 ---
-# <a name="task-management"></a>Užduočių tvarkymas
+# <a name="task-management"></a>Užduočių valdymas
 
 [!INCLUDE [PEAP](../includes/peap-1.md)]
 
@@ -69,7 +69,13 @@ Visuose trijuose skirtukuose personalo asistentai ir vadybininkai gali atlikti �
 
 Galite sukurti užduotis atskirai ir pakartotinai naudoti jas keliuose kontroliniuose sąraše. Norėdami sukurti užduotį, puslapio **Inboarding setup** skirtuke **Užduotys** pasirinkite **Nauja**.
 
+Galite priskirti sukurtą užduotį keliems kontroliniams sąrašui **, pasirinkdami užduotį ir meniu pasirinkdami Taikyti kontroliniams** sąrašui.
+
 Taip pat galite pridėti užduotis tiesiogiai į kontrolinį sąrašą. Norėdami įtraukti užduotį į kontrolinį sąrašą, **skirtuko Kontrolinis sąrašas puslapyje Inboarding setup** **sukurkite** naują kontrolinį sąrašą, kad įtraukumėte užduotį, arba įtraukite užduotį į esamą kontrolinį sąrašą.
+
+Norėdami redaguoti užduotį bibliotekoje, užduočių **bibliotekos** meniu pasirinkite Redaguoti. Jei užduotis susieta su bet kuriuo kontroliniu sąrašu, tie kontroliniai sąrašai bus rodomi užduoties **redagavimo** puslapyje. Jei norite, kad bet kuriame kontroliniame sąraše išvardytos užduotys būtų atnaujintos naudojant redagavimus, **pasirinkite tuos kontrolinius sąrašus skyriuje Taikyti kontroliniams sąrašas**.
+
+Norėdami panaikinti užduotis iš bibliotekos, pasirinkite parinktį **Naikinti**. Jei užduotis susieta su bet kuriuo kontroliniu sąrašu, šiuo veiksmu užduotis nebus ištrinta iš to kontrolinio sąrašo. Užduotis turi būti pašalinta iš kontrolinio sąrašo atskirame veiksme.
 
 > [!NOTE]
 > Jei užduotį įtraukiate tiesiogiai į kontrolinį sąrašą, negalite jos pakartotinai naudoti kituose kontroliniuose sąrašų.
@@ -133,7 +139,15 @@ Kompleksinės užduotys gali reikalauti kelių žingsnių arba asmeniui, atlieka
 
 ## <a name="setting-up-checklists"></a>Kontrolinių sąrašų nustatymas
 
-Kontrolinis sąrašas yra užduočių grupė. Galite sukurti tiek kontrolinių sąrašų, kiek jums reikia, ir tas pačias užduotis galite priskirti keliems kontroliniams sąrašui. Kai kuriate kontrolinį sąrašą, nurodote savininką ir kalendorių.
+Kontrolinis sąrašas yra užduočių grupė. Galite sukurti tiek kontrolinių sąrašų, kiek jums reikia, ir tas pačias užduotis galite priskirti keliems kontroliniams sąrašui.
+
+Norėdami kontroliniame sąraše sukurti naują užduotį, užduočių **meniu** juostoje **pasirinkite** Nauja. Kai sukuriate naują užduotį, galite pasirinkti ją įtraukti į užduočių biblioteką, kad ji būtų bendrai naudojama keliuose kontroliniuose sąraše. Užduotį į biblioteką galite įtraukti tik tada, jei parinktis **Taikyti užduotį bibliotekai** nustatyta kaip **Taip**. Jeigu užduotį įtraukiate į užduočių biblioteką, **ją taip pat galite įtraukti į kitus kontrolinius sąrašus tuo pat metu pasirinkdami tuos kontrolinius sąrašus skyriuje Taikyti kontroliniams sąrašas**. Jei neįtrauksite užduoties į biblioteką, ji bus tik kontroliniame sąraše, kuriame ją sukursite.
+
+Norėdami kontroliniame sąraše redaguoti užduotį, pasirinkite **Redaguoti**. Jei užduotis susieta su bet kuriuo kontroliniu sąrašu, tie kontroliniai sąrašai bus rodomi užduoties **redagavimo** puslapyje. Jei norite, kad kitų kontrolinių sąrašų užduotys būtų atnaujintos naudojant redagavimus, **pasirinkite tuos kontrolinius sąrašus skyriuje Taikyti kontroliniams sąrašas**.
+
+Norėdami pašalinti užduotis iš kontrolinio sąrašo, pasirinkite **Pašalinti**. Šis veiksmas tik pašalina užduotis iš kontrolinio sąrašo. Ji nenaikintų jų iš užduočių bibliotekos. Norėdami panaikinti užduotį iš bibliotekos, eikite į užduočių bibliotekos puslapį ir pasirinkite **Naikinti**.
+
+Kai kuriate kontrolinį sąrašą, nurodote savininką ir kalendorių.
 
 Jei užduoties **priskyrimo** **tipo** laukas nustatytas kaip Pareigos, **·** **Vadybininkas** arba Grupė, tačiau joks konkretus asmuo negali būti išvestas iš priskyrimo tipo, užduotis bus priskirta kontrolinio sąrašo savininkui. Štai keletas situacijų, kai užduotys bus priskirtos kontrolinio sąrašo savininkui, pavyzdžių:
 
@@ -166,7 +180,7 @@ Sukūrus priskyrimo grupę, ją galima pasirinkti kuriant užduotį. Norėdami p
 
 Įjungus, iškuosepant ar pereinant į ėjimas į lentą gali būti įtraukta daug užduočių. Kad būtų lengviau kontroliniams sąrašui priskirti visas reikiamas užduotis, galite sukurti pasirinktines užduočių grupes, kurios skirstys susijusias užduotis į kategorijas. Pavyzdžiui, personalo, IT ir algalapio padaliniai turi atlikti konkrečias užduotis, kad pasamdyti naują darbuotoją. Todėl jūs sukuriate šias užduočių grupes: PERSONALAS **·**, **IT** ir **Algalapis**. Tada, kai sukuriate užduotį, galite su ja susieti vieną iš tų užduočių grupių.
 
-Norėdami į kontrolinį sąrašą įtraukti užduotį, užduočių sąrašą galite filtruoti pagal užduočių grupę, prie kurios priskirta norima užduotis. Pavyzdžiui, kai sukuriate kontrolinio sąrašo šabloną, galite filtruoti sąrašą, kad būtų rodomi tik IT užduotys, priskirtos IT **užduočių** grupei. Todėl galite užtikrinti, kad bus pasirinktos tik atitinkamos IT užduotys.
+Norėdami į kontrolinį sąrašą įtraukti užduotį, užduočių sąrašą galite filtruoti pagal užduočių grupę, prie kurios priskirta norima užduotis. Pavyzdžiui, kai sukuriate kontrolinio sąrašo šabloną, galite filtruoti sąrašą, kad būtų rodomos tik IT užduotys, priskirtos IT **užduočių** grupei. Todėl galite užtikrinti, kad bus pasirinktos tik atitinkamos IT užduotys.
 
 ## <a name="using-checklists"></a>Kontrolinių sąrašų naudojimas
 

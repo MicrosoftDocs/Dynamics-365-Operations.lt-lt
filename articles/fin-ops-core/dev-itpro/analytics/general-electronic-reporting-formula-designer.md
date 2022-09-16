@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
-ms.openlocfilehash: 3620fa886fd4b609a0f1f08b2338ab725065efe7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 283c882300ece460c18ffebe572238e7629f8dee
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287935"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476814"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Elektroninių ataskaitų (ER) formulių kūrimo įrankis
 
@@ -137,7 +137,29 @@ Tolesnė iliustracija nurodo šio tipo išraiškas. (**ISO20022 kredito perdavim
 > 
 > Remiantis šia sąranka, į kiekvieno skolininko mokėjimo generuojamą pranešimą, XML elementą **Ustrd** bus įtrauktas arba mokėjimo pastabų tekstas, arba, kai toks tekstas yra tuščias, kableliais atskirtų sąskaitų faktūrų numerių, naudojamų atliekant šį mokėjimą, tekstas.
 
-## <a name="validation-of-configured-formulas"></a><a name="TestFormula"></a>Sukonfigūruotų formulių tikrinimas
+## <a name="assistance-in-formulas-writing"></a>Pagalba rašant formules
+
+### <a name="data-sources-navigator"></a>Duomenų šaltiniai, datų šaltiniai
+
+Galite redaguoti formulę, kuri rodo susistemuotų duomenų šaltinio elementą. Kai sukonfigūravote savo ER [parametrus](relative-path-data-bindings-er-models-format.md), norėdami pateikti susistemuoto duomenų šaltinio elemento maršrutą kaip santykinį maršrutą, formulėje rodomas ženklas "at" (@), [o](er-formula-language.md#relative-path) ne likusi hierarchinės medžio struktūros, kuri naudojama, absoliučiojo maršruto dalis. Ši likusi absoliučiojo maršruto dalis nurodyta kaip pirminis redaguojamo maršruto elementas. **Finansų versijoje 10.0.30** ir vėliau, **formulės** kūrimo puslapio duomenų šaltinių srityje galite **pasirinkti** pasirinktį Pereiti į @**norėdami nustatyti duomenų šaltinių medžio žymeklį prie elemento,** kuris yra redaguojamo elemento pirminis elementas. Visų sutrauktų didėjimo tvarkančių elementų struktūra bus automatiškai ir, kai reikės, rekursiškai išplėsta. Šis išplėtimas gali padėti greitai vizualizuoti pagrindinį redaguojamo elemento elementą, stebėti redaguojamo elemento dukterinį elementą duomenų šaltinio medyje ir, jei reikia, naudoti kiekvieną iš jų redaguojamoje formulėje.
+
+![Naudokite pasirinktį "Eiti į @", norėdami duomenų šaltinių medžio žymeklį perkelti į elementą, kuris yra redaguojamo elemento pirminis elementas formulės konstruktoriaus puslapyje.](./media/er_formula-designer-data-sources-navigator.gif)
+
+### <a name="data-sources-picker"></a>Duomenų šaltinių parinkiklis
+
+Formulės dizaino **įrankio** puslapio kairėje **duomenų** šaltinio srityje pasirinkite duomenų šaltinio, kurį norite pateikti redaguojamoje formulėje, elementą. Tada pasirinkite **Įtraukti duomenų šaltinį**. Atkreipkite dėmesį, kad pasirinktas elementas įtraukiamas į redaguojamos formulės tekstą.
+
+> [!TIP]
+> Kai numatytąjoje formulės **rengyklėje** naudojate pasirinktį Įtraukti duomenų šaltinį, pasirinktas elementas visada pridedamas prie formulės teksto pabaigos. Kai tą patį darote išplėstinės [formulės](er-advanced-formula-editor.md) rengyklėje, pasirinktas elementas įterpiamas į dabartinės žymeklio vietos formulės tekstą.
+
+### <a name="built-in-functions-picker"></a>Įtaisytųjų funkcijų parinkiklis
+
+Formulės dizaino **įrankio** puslapio dešinėje **srityje** Funkcijos pasirinkite ER įtaisytą funkciją, kurią norite įtraukti į redaguojamą formulę. Tada pasirinkite **Įtraukti funkciją**. Atkreipkite dėmesį, kad pasirinkta funkcija įtraukiama į redaguojamos formulės tekstą.
+
+> [!TIP]
+> Kai numatytąjoje formulės **rengyklėje** naudojate pasirinktį Įtraukti funkciją, pasirinkta funkcija visada pridedama prie formulės teksto pabaigos. Kai tą patį darote išplėstinės [formulės](er-advanced-formula-editor.md) rengyklėje, pasirinkta funkcija yra įterpiama į formulės tekstą esama žymeklio vietoje.
+
+### <a name="validation-of-configured-formulas"></a><a name="TestFormula"></a>Sukonfigūruotų formulių tikrinimas
 
 Puslapyje **Formulių kūrimo įrankis** pasirinkite **Bandymas**, kad patikrintumėte, kaip veikia sukonfigūruota formulė.
 

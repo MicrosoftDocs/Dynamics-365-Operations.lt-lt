@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 83fa9d0a08d4d9ec171aeee685d39bba46e5687d
-ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
+ms.openlocfilehash: 070c61df14db4d2538b129b01defd4b82db0b8a7
+ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410456"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9462307"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Pašalintos arba nebenaudojamos „Dynamics 365 Finance“ funkcijos
 
@@ -45,7 +45,7 @@ ms.locfileid: "9410456"
 | **Pakeitė kita funkcija?**   | Taip |
 | **Paveiktos produkto sritys** | Taikymas |
 | **Visuotinio diegimo parinktis** | Viskas |
-| **Būsena** | Pasenusi: po 2023 m. balandžio mėn. "Dynamics 365 Finance" įplaukų atpažinimo funkcijos nebegaus palaikymo su pataisymais. Klientų bus prašoma naudoti patobulintą funkciją – abonemento [sąskaitas](../../finance/accounts-receivable/subscription-billing-summary.md). 2023 m. spalio mėn. Įplaukų pripažinimo priemonė nebebus galima. Klientų bus prašoma pereiti prie patobulintos abonemento atsiskaitymo funkcijos.|
+| **Būsena** | Pasenusi: po 2023 m. balandžio mėn. "Dynamics 365 Finance" įplaukų atpažinimo funkcijos nebegaus palaikymo su pataisymais. Klientų bus prašoma naudoti patobulintą funkciją – abonemento [sąskaitas](../../finance/accounts-receivable/subscription-billing-summary.md). 2023 m. spalio mėn. Įplaukų pripažinimo priemonė nebebus galima. Klientų bus prašoma pereiti prie patobulintos abonemento atsiskaitymo funkcijos. Grupavimo funkcijai kaip įplaukų atpažinimo daliai šiuo metu nėra suplanuoto pakeitimo funkcijos.|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Pašalintos arba nerekomenduojamos funkcijos, esančios „Finance“ 10.0.29 versijoje
 

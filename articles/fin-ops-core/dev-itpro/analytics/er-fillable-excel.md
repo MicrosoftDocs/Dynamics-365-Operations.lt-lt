@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.form: EROperationDesigner, ERParameters
-ms.openlocfilehash: 2feadf8e196936220cf557989cae40b742447d99
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: ff44226b7deb15bc673d121d62cad44309b5d78b
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280931"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476833"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfigūracijos, skirtos dokumentams „Excel“ formatu generuoti, kūrimas
 
@@ -186,6 +186,9 @@ Kai komponentas **Langelis** yra sukonfigūruojamas taip, kad reikšmė būtų �
 
 > [!NOTE]
 > Laikoma, kad kiekvieno „Excel“ paveikslėlio ir figūros viršutinis kairysis kampas fiksuojamas prie konkretaus „Excel“ langelio arba diapazono. Jei norite dubliuoti „Excel“ paveikslėlį arba figūrą, turite sukonfigūruoti langelį arba diapazoną, prie kurio jis fiksuojamas, kaip dubliuojamą langelį arba diapazoną.
+
+> [!TIP]
+> Jei ketinate naudoti vaizdą su pasirinktiniu dydžio keitimo ir vaizdo koeficientu apdorojimo metu, rekomenduojame nustatyti pasirinktį Pagrindinio "Excel" failo komponento paveikslėlių dydžio keitimas į Taip, **·**[jei norite taikyti dydžio keitimo ir vaizdo formatą kaip to vaizdo vietos rezervavimo ženklą naudojamame "Excel](#excel-file-component)**·**" šablone.
 
 Norėdami sužinoti daugiau, kaip įterpti paveikslėlius ir figūras, žr. [Vaizdų ir figūrų įterpimas generuojamuose dokumentuose naudojant ER](electronic-reporting-embed-images-shapes.md).
 

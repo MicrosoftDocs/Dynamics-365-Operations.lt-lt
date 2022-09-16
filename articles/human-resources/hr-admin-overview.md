@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ec214ef4ebb6ecb72c1684c515df25d3c2403c14
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.openlocfilehash: 1784b3c57bf1e6145085482d9068fad39ababc17
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027145"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475644"
 ---
 # <a name="administration-overview"></a>Administravimo apžvalga
 
@@ -46,10 +46,10 @@ ms.locfileid: "9027145"
   - [Integravimo su „Dayforce“ konfigūravimas](hr-admin-integration-dayforce.md)
   - [Pasikartojančių duomenų eksportavimo programos kūrimas](hr-admin-integration-recurring-data-export.md)
   - Integravimas su „Office“
-    - [„Office“ integravimo mokomoji programa](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [Objekto duomenų naujinimas programoje „Excel“](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [Atidarymo programoje „Excel“ patirčių kūrimas](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [„Office“ integravimo trikčių šalinimas](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [„Office“ integravimo mokomoji programa](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Objekto duomenų naujinimas programoje „Excel“](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Atidarymo programoje „Excel“ patirčių kūrimas](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [„Office“ integravimo trikčių šalinimas](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
 
 - [Funkcijų valdymas](hr-admin-manage-features.md)
 
@@ -100,7 +100,7 @@ ms.locfileid: "9027145"
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 ### <a name="elearning-courses"></a>El. mokymosi kursai
-Internetinių kursų ir mokymų ieškokite [Dynamics 365 Human Resources, esančiame Microsoft Learn](/learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
+Jei norite vykdyti internetinius kursus ir kursus, ištikrinkite [Dynamics 365 Human Resources](/learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
 
 ### <a name="videos"></a>Vaizdo įrašai
 

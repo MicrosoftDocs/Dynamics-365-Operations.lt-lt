@@ -1,5 +1,5 @@
 ---
-title: Buferio šablonas ir lygiai
+title: Kaupimo profilis ir lygiai
 description: Šiame straipsnyje pateikta informacija apie buferio šablonus ir lygius, kurie nustato minimalius ir maksimalius atsargų lygius, kurie turi būti kiekvieno iššiavimo taško atžvilgiu.
 author: t-benebo
 ms.date: 06/30/2022
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: dd72332abefd31fd391ff66931a5abae0efb08de
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 57ee6206da926d0dbf62f562197538bfcdd41148
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186590"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428150"
 ---
-# <a name="buffer-profile-and-levels"></a>Buferio šablonas ir lygiai
+# <a name="buffer-profile-and-levels"></a>Kaupimo profilis ir lygiai
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
@@ -77,6 +77,14 @@ Ankstesniame pavyzdyje, jei šiandien yra birželio 11 d. rytas, ADU per ankstes
 
 - **ADU (praeitis)** = (29 + 11 + 23) ÷ 3 = 21
 
+Skaičiuojant vidutinį dienos naudojimą (buvusią), atsižvelgiama į šias operacijas:
+
+- Operacijos, kurios daugina prekės kiekį (lentelėje `inventtrans`, kur kiekis mažesnis už nulį)
+- Operacijos, kurių būsena Užsakyta *, Rezervuota* *ir Rezervuota* faktiškai *,* Paimta *·*, *Atskaityta* arba *Parduota*
+- Operacijos, datuoti pasirinktu atgaliniu laikotarpiu (vidutinis praėjusis dienos naudojimo laikotarpis)
+- Operacijos, kurios nėra sandėlio darbas, sulaikavimas, pardavimo pasiūlymai arba išrašai (`WHSWork`, `WHSQuarantine``SalesQuotation`, ir )`Statement`
+- Operacijos, kurios nėra perkėlimo žurnalai, o tos pačios padengimo dimensijos
+
 ### <a name="average-daily-usage-forward"></a>Vidutinis kasdienis naudojimas (pirmyn)
 
 Naujam produktui gali būti, kad nėra buvusių naudojimo duomenų. Todėl galbūt jūs norėsite naudoti ir prognozuotas ADU, kurie bus pirmyn (pvz., pagal prognozuotą poreikį). Šiame pavyzdyje parodyta, kaip veikia šis būdas, kai skaičiavimas vyksta trimis dienomis į ateitį (įskaitant šiandien).
@@ -86,6 +94,11 @@ Naujam produktui gali būti, kad nėra buvusių naudojimo duomenų. Todėl galb�
 Ankstesniame pavyzdyje, jei šiandien yra birželio 11 d. rytas, ADU, per kitas tris dienas (birželio 11 d., 12 ir 13 d.) yra 21,66.
 
 - **ADU (pirmyn)** = (18 + 18 + 29) ÷ 3 = 21,66
+
+Skaičiuojant vidutinį kasdienį naudojimą (į priekį) atsižvelgiama į šias operacijas:
+
+- Prekės, kurios pagrindiniame plane pasirinkta prognozė, prognozės operacijos
+- Operacijos, datuoti pasirinktu laikotarpiu į priekį (vidutinis kasdienis naudojimas į priekį)
 
 ### <a name="average-daily-usage-blended"></a>Vidutinis kasdienis naudojimas (sumaišytas)
 
@@ -169,7 +182,7 @@ Norėdami nustatyti iššiamo taško buferio vertes, atlikite šiuos veiksmus.
 
 1. Eikite į **Produkto informacijos valdymas \> Produktai \> Išleisti produktai**.
 1. Pasirinkite išleistą prekę, kuri nustatyta kaip iššiavimo taškas. (Daugiau informacijos žr. [Atsargų padėties valdymas](ddmrp-inventory-positioning.md).)
-1. Veiksmų srities skirtuke Planas **pasirinkite** Prekės **padengimas**.
+1. Veiksmų srities skirtuke Planas **pasirinkite Prekės padengimas** **.**
 1. Prekių padengimo **puslapyje** pasirinkite prekės padengimo įrašą, kuris sukuria iššipimo tašką. (Šiame įraše bus rodomas padengimo grupės, nustatytos sukurti atsišiejimo taškus, pavadinimas.)
 1. Pasirinkite skirtuką **Bendra**.
 1. Jei norite, kad sistema perskaičiuotų buferio vertes kiekvieną dieną arba kas savaitę, remdamasi savo pardavimo retrospektyva, prognozėmis ir padengimo grupės parametrais, atlikite šiuos veiksmus:

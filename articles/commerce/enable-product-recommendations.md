@@ -2,7 +2,7 @@
 title: Įjungti produktų rekomendacijas
 description: Šiame straipsnyje paaiškinama, kaip pateikti produktų rekomendacijas, pagrįstas klientų tyrimų– įrenginių mokymosi (AI-AIF) Microsoft Dynamics 365 Commerce rezultatais.
 author: bebeale
-ms.date: 08/31/2021
+ms.date: 09/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3dceec9e8e994a81b43cd5d1bd13970f2d246f40
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fc1b43fa70e6652d38b1141e2d93cf323f70a756
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892076"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460027"
 ---
 # <a name="enable-product-recommendations"></a>Įjungti produktų rekomendacijas
 
@@ -36,12 +36,19 @@ ms.locfileid: "8892076"
 1. Patvirtinkite, kad „Azure AD” tapatybės konfigūracijoje yra rekomendacijų įrašas. Toliau pateikiama daugiau informacijos apie tai, kaip atlikti šį veiksmą.
 1. Įsitikinkite, kad objekto saugyklos kasdienis „Azure Data Lake Storage“ atnaujinimas į Gen2 yra suplanuotas. Daugiau informacijos žr. [Užtikrinkite, kad objektų saugyklos atnaujinimas buvo automatizuotas](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 1. Įgalinkite objektų parduotuvės „RetailSale" matavimus. Norėdami sužinoti daugiau apie šį sąrankos procesą, žr. [Darbas su priemonėmis](/dynamics365/ai/customer-insights/pm-measures).
+1. Įsitikinkite, kad jūsų aplinka sukonfigūravo jau palaikomuose regionuose, kuriuose palaikomi regionai, pavyzdžiui:
+
+    - **Palaikomi rodyti regionai:** EU/US/CA/AU.
+    - **Palaikomi regionuose regionuose:** JAV / CA / AU. Jei esantys regionai neatitinka vieno iš esamų palaikomų regionų, rekomendacijų tarnyba parinks artimiausią palaikomą regioną.
 
 Užbaigę aukščiau aprašytus veiksmus, būsite pasiruošę įgalinti rekomendacijas.
 
+> [!NOTE]
+> Yra žinoma problema, kai rekomendacijos nepasirodo po to, kai šie veiksmai yra atlikti. Ši problema kyla dėl duomenų srauto problemų aplinkoje. Jei jūsų aplinkoje nerodyti rekomendacijų rezultatų, [sukonfigūruokite alternatyvius rekomendacijų paslaugos duomenis, atlikite veiksmus, aprašytus nustatyti alternatyvų rekomendacijų duomenų srautą](set-up-alternate-data-flow.md). Norėdami atlikti šiuos veiksmus turite turėti "Azure" administratoriaus teises. Jei jums reikia pagalbos, susisiekite su savo FastTrack atstovu.
+
 ## <a name="azure-ad-identity-configuration"></a>„Azure AD” tapatybės konfigūracija
 
-Šis veiksmas būtinas visiems klientams, kurie naudoja infrastruktūrą kaip paslaugos (IaaS) konfigūraciją. „Azure AD“ Tapatybės konfigūracija yra automatinė klientams, kurie paleisti, bet rekomenduojama patikrinti, ar parametras „Azure Service Fabric“ sukonfigūruotas kaip tikėtasi.
+Šis veiksmas būtinas tik klientams, kurie vykdo infrastruktūrą kaip paslaugos (IaaS) konfigūraciją. Azure AD tapatybės konfigūracija yra automatinė klientams, kurie paleidžia Azure Service Fabric programą, bet mes rekomenduojame patikrinti, ar parametras sukonfigūruotas kaip tikėtasi.
 
 ### <a name="setup"></a>Sąranka
 
@@ -94,9 +101,11 @@ Norėdami daugiau sužinoti apie personalizuotas rekomendacijas, žr. [Personali
 
 [„Azure Data Lake Storage“ įgalinimas „Dynamics 365 Commerce“ aplinkoje](enable-adls-environment.md)
 
-[Personalizuotų rekomendacijų įjungimas](personalized-recommendations.md)
+[Nustatyti alternatyvų rekomendacijų duomenų srautą](set-up-alternate-data-flow.md)
 
-[Įjungti „apsipirkti panašia mada“ rekomendacijas](shop-similar-looks.md)
+[Įgalinti asmeniniams poreikiams pritaikytas rekomendacijas](personalized-recommendations.md)
+
+[Įjungti „pirkti panašios išvaizdos“ rekomendacijas](shop-similar-looks.md)
 
 [Personalizuotų rekomendacijų atsisakymas](personalization-gdpr.md)
 
@@ -111,6 +120,7 @@ Norėdami daugiau sužinoti apie personalizuotas rekomendacijas, žr. [Personali
 [Rekomendacijų su demonstraciniais duomenimis kūrimas](product-recommendations-demo-data.md)
 
 [DUK apie produktų rekomendacijas](faq-recommendations.md)
+
 
 
 

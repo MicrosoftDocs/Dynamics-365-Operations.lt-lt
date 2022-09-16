@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: d95cd9b55f473bed2e3fe69e63837040385f03ac
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.openlocfilehash: 316650de19d3275f2c60c79c10d6ac8a8c79e1aa
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334752"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427880"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10029-october-2022"></a>Peržiūros versija Dynamics 365 Supply Chain Management 10.0.29 (2022 m. spalis)
 
@@ -38,8 +38,8 @@ Tolesnėje lentelėje pateiktos funkcijos, kuri yra šiame leidime. Mes galime a
 | Atsargos ir logistika | [Iš anksto įkelti supaprastintą turimų atsargų sąrašus](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | Jau greitai | Įgalinta pagal numatytuosius nustatymus |
 | Tiekimo automatizavimas pagal užsakymą | [Tiekimo automatizavimas pagal užsakymą](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-to-order-supply-automation) | [Tiekimo automatizavimas pagal užsakymą](../master-planning/make-to-order-supply-automation.md) | Priemonių valdymas:<br>*Tiekimo automatizavimas pagal užsakymą* |
 | Planuojama | [Peržiūrėti ir taikyti išsamias DDMRP žinias](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/view-apply-detailed-insights-ddmrp) | [Poreikio valdomas medžiagų poreikių planavimo peržiūra](../master-planning/planning-optimization/ddmrp-overview.md) | Priemonių valdymas:<br>*(Peržiūros versija) Planavimo optimizavimo DDMRP* |
-| Gamybos kontrolė | [Padaryti baigtas prekes faktiškai pasiekiamas prieš registruojant į žurnalus](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-finished-goods-physically-before-posting) | [Padaryti baigtas prekes faktiškai pasiekiamas prieš registruojant į žurnalus](../production-control/deferred-posting.md) | Priemonių valdymas:<br>*(Peržiūros versija) Padarykite užbaigtas prekes fiziškai prieinamas prieš paskelbdami žurnaluose* |
-| Sandėlio valdymas | [Ieškoti atitinkamų duomenų sandėlio mobilioje programoje](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/look-up-relevant-data-within-warehouse-mobile-app) | [Užklausti duomenis naudojant sandėlio valdymo mobiliąją programą](../warehousing/warehouse-app-data-inquiry.md) | Priemonių valdymas:<br>*„Warehouse Management“ programos duomenų užklausos srautas* |
+| Gamybos kontrolė | [Padarykite užbaigtas prekes fiziškai prieinamas prieš paskelbdami žurnaluose](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-finished-goods-physically-before-posting) | [Padarykite užbaigtas prekes fiziškai prieinamas prieš paskelbdami žurnaluose](../production-control/deferred-posting.md) | Priemonių valdymas:<br>*(Peržiūros versija) Padarykite užbaigtas prekes fiziškai prieinamas prieš paskelbdami žurnaluose* |
+| Sandėlio valdymas | [Ieškoti atitinkamų duomenų sandėlio mobilioje programoje](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/look-up-relevant-data-within-warehouse-mobile-app) | [Duomenų užklausa naudojant „Warehouse Management“ mobiliosios programėlės apėjimus](../warehousing/warehouse-app-data-inquiry.md) | Priemonių valdymas:<br>*„Warehouse Management“ programos duomenų užklausos srautas* |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Funkcijos patobulinimai, įtraukti į šį leidimą
 
@@ -62,9 +62,9 @@ Neseniai įtraukėme arba pastebimai atnaujinome šiuos žinyno straipsnius. Ši
 
 | Funkcijos sritis | Nauji arba atnaujinti straipsniai |
 |---|---|
-| Bendrasis planavimas, CTP | [Apskaičiuoti pardavimo užsakymo pristatymo datas naudojant CTP](../master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md) |
+| Bendrasis planavimas, CTP | [Pardavimo užsakymo pristatymo datų skaičiavimas naudojant CTP](../master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md) |
 | Bendrasis planavimas, DDMRP | [Poreikio valdomas medžiagų poreikių planavimo peržiūra](../master-planning/planning-optimization/ddmrp-overview.md)<br>[Įjunkite savo sistemos DDMRP funkciją](../master-planning/planning-optimization/ddmrp-enable.md)<br>[Atsargų registravimas](../master-planning/planning-optimization/ddmrp-inventory-positioning.md)<br>[Kaupimo profilis ir lygiai](../master-planning/planning-optimization/ddmrp-buffer-profile-and-levels.md)<br>[Poreikio planavimas](../master-planning/planning-optimization/ddmrp-planning.md)<br>[Vaizdinis ir bendrasis vykdymas](../master-planning/planning-optimization/ddmrp-visual-and-collaborative-execution.md) |
-| Sandėlio valdymas | [Pakuoti konteinerius siuntai](../warehousing/packing-containers.md)<br>[Siunčiamų konteinerių pakavimo ir siuntų apdorojimo darbas](../warehousing/packing-work.md) |
+| Sandėlio valdymas | [Konteinerių pakavimas siuntimui](../warehousing/packing-containers.md)<br>[Siunčiamų konteinerių pakavimo ir siuntų apdorojimo pakavimo darbas](../warehousing/packing-work.md) |
 
 ## <a name="feature-state-changes-in-this-release"></a>Šiame leidime yra funkcijų būsenos pakeitimai
 
@@ -205,7 +205,7 @@ Lentelėje taip pat pateikiamos priemonės, kurios anksčiau buvo viešos perži
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Finansų ir operacijų programėlių platformos naujinimai
 
-„Microsoft Dynamics 365 Supply Chain Management“ 10.0.29 versijoje yra platformos naujinimų. Norėdami sužinoti daugiau, žr. [finansų ir operacijų programėlių 10.0.29 versijos (2022 m. birželio mėn.) platformos naujinimus](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-29.md). <!--KFM: Confirm link -->
+„Microsoft Dynamics 365 Supply Chain Management“ 10.0.29 versijoje yra platformos naujinimų. Norėdami sužinoti daugiau, žr. [finansų ir operacijų programėlių 10.0.29 versijos platformos naujinimus (2022 m. spalio mėn.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-29.md).
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai
 

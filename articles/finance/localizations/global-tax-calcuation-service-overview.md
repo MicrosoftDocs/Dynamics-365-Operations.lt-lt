@@ -2,7 +2,7 @@
 title: Mokesčių skaičiavimo apžvalga
 description: Šiame straipsnyje paaiškinama bendroji mokesčių skaičiavimo galimybės apimtis ir funkcijos.
 author: EricWangChen
-ms.date: 03/02/2022
+ms.date: 09/08/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: 2765b922bcc58837c32973b7ca96e0d63eb8b9d6
-ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
+ms.openlocfilehash: a193db82b2b079c1e10fbfb6bfde7aa43b18bc4a
+ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9296000"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "9465172"
 ---
 # <a name="tax-calculation-overview"></a>Mokesčių skaičiavimo apžvalga
 
@@ -74,18 +74,10 @@ Rekomenduojame importuoti ir nustatyti savo mokesčių skaičiavimo konfigūraci
 
 | Finansų arba tiekimo grandinės valdymo versija | Mokesčių konfigūracijos versija               |
 | --------------- | --------------------------------------- |
-| 10.0.18         | Mokesčių konfigūracija – Europa 30.12.82     |
-| 10.0.19         | Mokesčių skaičiavimo konfigūracija 36.38.193 |
-| 10.0.20         | Mokesčių skaičiavimo konfigūracija 40.43.208 |
-| 10.0.21         | Mokesčių skaičiavimo konfigūracija 40.48.215 |
-| 10.0.22         | Mokesčių skaičiavimo konfigūracija 40.48.215 |
-| 10.0.23         | Mokesčių skaičiavimo konfigūracija 40.50.221 |
-| 10.0.24         | Mokesčių skaičiavimo konfigūracija 40.50.225 |
-| 10.0.25         | Mokesčių skaičiavimo konfigūracija 40.50.225 |
-| 10.0.26         | Mokesčių skaičiavimo konfigūracija 40.54.234 |
-| 10.0.27         | Mokesčių skaičiavimo konfigūracija 40.54.234 |
-| 10.0.28         | Mokesčių skaičiavimo konfigūracija 40.54.234 |
+| 10.0.30         | Mokesčių skaičiavimo konfigūracija 40.55.239 |
 | 10.0.29         | Mokesčių skaičiavimo konfigūracija 40.55.236 |
+| 10.0.28         | Mokesčių skaičiavimo konfigūracija 40.54.234 |
+| 10.0.27         | Mokesčių skaičiavimo konfigūracija 40.54.234 |
 
 
 ## <a name="data-flow"></a>Duomenų srautas
@@ -104,120 +96,27 @@ Rekomenduojame importuoti ir nustatyti savo mokesčių skaičiavimo konfigūraci
 
 Papildinį Mokesčių skaičiavimas galima įgalinti naudojant operacijas. 
 
-10.0.21 versijoje palaikomos tolesnės operacijos. 
+Šioje lentelėje išvardijamos atitinkamoje versijoje palaikomos operacijos.
 
-- Pardavimas
-
-    - Pardavimo pasiūlymas
-    - Pardavimo užsakymas
-    - Patvirtinimas
-    - Išrinkimo dokumentas
-    - Važtaraštis
-    - Pardavimo sąskaita faktūra
-    - Kredito sąskaita
-    - Grąžinimo užsakymas
-    - Antraštės įvairūs keitimai
-    - Įvairių išlaidų eilutė
-
-- Pirkimas
-
-    - Pirkimo užsakymas
-    - Patvirtinimas
-    - Gavimų sąrašas
-    - Gavimo dokumentas
-    - Pirkimo SF
-    - Antraštės įvairūs keitimai
-    - Įvairių išlaidų eilutė
-    - Kredito sąskaita
-    - Grąžinimo užsakymas
-    - Pirkimo paraiška
-    - Papildomos pirkimo paraiškos eilutės išlaidos
-    - Pasiūlymo patvirtinimas
-    - Pasiūlymo patvirtinimo antraštės papildomos išlaidos
-    - Pasiūlymo patvirtinimo eilutės papildomos išlaidos
-
-- Atsargos
-
-    - Perlaidos užsakymas - siuntimas
-    - Perlaidos užsakymas - gavimas
-
-10.0.23 versijoje palaikomos tolesnės operacijos. 
-
-- Laisvos formos sąskaita faktūra
-
-10.0.26 versijoje palaikomos tolesnės operacijos. 
-
-- Pagrindiniai žurnalai
-- Tiekėjo SF žurnalas
-
-10.0.28 versijoje palaikomos tolesnės operacijos. 
-
-- Tiekėjo mokėjimų žurnalas
-- Klientų mokėjimų žurnalas
-
-10.0.29 versijoje palaikomos tolesnės operacijos. 
-
-
-- Periodiniai žurnalai
+| Versija | Operacijos |
+|---------|--------------|
+| 10.0.29 | Periodiniai žurnalai |
+| 10.0.28 | Tiekėjo mokėjimų žurnalas<br> Klientų mokėjimų žurnalas | 
+| 10.0.26 | Pagrindiniai žurnalai<br> Tiekėjo SF žurnalas |
+| 10.0.23 | Laisvos formos sąskaita faktūra |
+| 10.0.21| Pardavimas<br><ul><li>Pardavimo pasiūlymas</li><li>Pardavimo užsakymas</li><li>Patvirtinimas</li><li>Išrinkimo dokumentas</li><li>Važtaraštis</li><li>Pardavimo sąskaita faktūra</li><li>Kredito sąskaita</li><li>Grąžinimo užsakymas</li><li>Antraštės įvairūs keitimai</li><li>Įvairių išlaidų eilutė</li></ul>Pirkimas<br><ul><li>Pirkimo užsakymas</li><li>Patvirtinimas</li><li>Gavimų sąrašas</li><li>Gavimo dokumentas</li><li>Pirkimo SF</li><li>Antraštės įvairūs keitimai</li><li>Įvairių išlaidų eilutė</li><li>Kredito sąskaita</li><li>Grąžinimo užsakymas</li><li>Pirkimo paraiška</li><li>Papildomos pirkimo paraiškos eilutės išlaidos</li><li>Pasiūlymo patvirtinimas</li><li>Pasiūlymo patvirtinimo antraštės papildomos išlaidos</li><li>Pasiūlymo patvirtinimo eilutės papildomos išlaidos</li></ul>Inventorizacijos<ul><li>Perlaidos užsakymas - siuntimas</li><li>Perlaidos užsakymas - gavimas</li></ul>|
 
 ## <a name="supported-countriesregions"></a>Palaikomos šalys / regionai
 
-Mokesčių skaičiavimą galima vykdyti naudojant palaikomas lokalizavimo priemones juridinio subjekto pagrindinio adreso šalyse / regionuose: 
+Mokesčių skaičiavimą galima paleisti naudojant palaikomas lokalizavimo priemones. Šioje lentelėje išvardijamos juridinio subjekto pagrindinio adreso šalys / regionai.
 
-Palaikoma 10.0.21 versijoje:
-
-- Austrija
-- Belgija
-- Danija
-- Estija
-- Suomija
-- Prancūzija
-- Vokietija
-- Vengrija
-- Islandija
-- Airija
-- Italija
-- Latvija
-- Lietuva
-- Nyderlandai
-- Norvegija
-- Lenkija
-- Švedija
-- Šveicarija
-- Jungtinė Karalystė
-- Jungtinės Valstijos
-
-Palaikoma 10.0.22 versijoje:
-
-- Australija
-- Bahreinas
-- Kanada
-- Egiptas
-- Honkongo SAR
-- Kuveitas
-- Naujoji Zelandija
-- Omanas
-- Kataras
-- Saudo Arabijos
-- Pietų Afrika
-- Jungtiniai Arabų Emyratai
-
-Palaikoma 10.0.23 versijoje:
-
-- Tailandas
-- Japonija
-- Malaizija
-- Singapūras
-
-Palaikoma 10.0.24 versijoje:
-
-- Meksika
-
-Palaikoma 10.0.26 versijoje:
-
-- Kinija
-- Čekijos Respublika
-- Ispanija
+| Versija | Šalis / regionas |
+|---------|----------------|
+| 10.0.26 | - Kinija <br>- Čekijos Respublika<br>- Ispanija |
+| 10.0.24 | Meksika |
+| 10.0.23 | – Tailandas <br>- Japonija <br>– Malaizija <br>- Singapūras |
+| 10.0.22 | – Australija<br>– Bahreinas <br>- Kanada<br>- – Egiptas <br>– Honkongo SAR <br>– Kuveitas <br>- Naujoji Zelandija <br>– Omanas <br>- Kataras <br>- Saudo Arabų <br>– Pietų Afrika <br>- Jungtiniai Arabų Emyratai |
+| 10.0.21 | - Austrija <br>- Belgija <br>- Danija <br>– Estija <br>- Suomija <br>- Prancūzija <br>- Vokietija <br>– Vengrija <br>- Islandija <br>– Airija <br>- Italija <br>– Latvija <br>– Lietuva <br>- Nyderlandai <br>- Norvegija <br>– Lenkija <br>- Švedija <br>- Šveicarija <br>- Jungtinė Karalystė <br>- Jungtinės Valstijos |
 
 Jei šalis / regionas nėra lokalizuotas Microsoft, mokesčių skaičiavimą taip pat galima įgalinti ir paleisti kartu su kitomis visuotinomis funkcijomis.
 

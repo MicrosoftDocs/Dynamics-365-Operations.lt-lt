@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 16381,  ""intro-internal
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.form: SystemParameters
-ms.openlocfilehash: f9095db85e38598ac03b4c77c3fa3be9f450ec02
-ms.sourcegitcommit: 78d41eeef0a8a8e94ed502bd89778414231a31ae
+ms.openlocfilehash: 19e1659a5fb91c7cb8916b1a8b6238038df29287
+ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9305232"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9462363"
 ---
 # <a name="help-system"></a>Žinyno sistema
 
@@ -40,18 +40,18 @@ Visose šiose programose konkretaus produkto žinyną galite pasiekti srityje **
 
 ![Sritis Žinynas.](./media/help-pane-ops-help.png)
 
-## <a name="help-on-docsmicrosoftcom"></a>Žinynas adresu docs.microsoft.com
+## <a name="help-on-microsoft-docs"></a>Microsoft Docs žinynas
 
-Svetainė docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](/dynamics365/)) yra numatytasis anksčiau išvardytų programų produktų dokumentacijos šaltinis. Šioje svetainėje siūlomos tolesnės funkcijos.
+"Microsoft" dokumentų ([Microsoft Dynamics 365](/dynamics365/) dokumentų) yra numatytasis anksčiau išvardytų programėlių produktų dokumentacijos šaltinis. Šioje svetainėje siūlomos tolesnės funkcijos.
 
 - **Prieiga prie naujausio turinio** – svetainė suteikia „Microsoft“ greitesnį ir lankstesnį būdą produktų dokumentacijai kurti, pateikti ir atnaujinti. Todėl jūs turite lengvą prieigą prie naujausios techninės informacijos.
 - **Ekspertų parašytas turinys** – svetainėje pateikiamą turinį gali pildyti bendruomenės nariai tiek „Microsoft‟ viduje, tiek išorėje.
 
-Turinį galite rasti svetainėje docs.microsoft.com naudodami bet kurį ieškos modulį. Jei norite geriausių rezultatų, rekomenduojame naudoti svetainės iešką, pvz., **site:docs.microsoft.com dynamics 365 „ieškos terminas“**.
+Galite rasti Microsoft dokumentų turinį naudodami bet kurį ieškos sistemą. Jei norite geriausių rezultatų, rekomenduojame naudoti svetainės iešką, pvz., **site:docs.microsoft.com dynamics 365 „ieškos terminas“**.
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Pranešimai apie keitimus naudojant RSS informacijos santraukas
 
-Norėdami užsiprenumeruoti visų atnaujinimų, kurie atlikti duomenų docs.microsoft.com finansų ir operacijų programėlėse, turinio, prenumeruoti visus atnaujinimus, naudokite šį saitą:
+Norėdami prenumeruoti VISŲ ATNAUJINimų, kurie pateikti "Microsoft" techniniuose dokumentuose, visuose finansų ir operacijų programėlių dokumentuose, kanalus, naudokite šį saitą:
 
 [RSS informacijos santrauka](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
@@ -87,7 +87,7 @@ Galite prisidėti prie dokumentacijos kūrimo ir redagavimo. Norėdami pradėti,
 
 Vaizdo įrašas [Kaip prisidėti prie „Microsoft Dynamics 365“ dokumentacijos kūrimo](https://youtu.be/m5djioozRbg) (esantis prieš tai) įtrauktas į „Microsoft Dynamics 365“ kanalą, esantį „YouTube“.
 
-Daugiau informacijos žr. [dokumentų bendraautoriaus vadovą](/contribute), kurį publikuoja komanda, sukūrusi docs.microsoft.com svetainę.
+Norėdami gauti daugiau informacijos, žr [. "Microsoft Docs](/contribute)" dokumentą, kurį skelbia Microsoft dokumentų svetainę paskelbusi komanda.
 
 > [!NOTE]
 > Šiuo metu galima prisidėti tik prie turinio anglų kalba.
@@ -166,13 +166,13 @@ Galite sukurti pasirinktinių užduočių vedlių ir tokiu būdu sukurti vartoto
 
 Šioje lentelėje pateikiamos mūsų svetainės. Prie svetainių, prie kurių pavadinimo yra žvaigždutė (\*), reikia prisijungti naudojant paskyrą, susietą su paslaugų teikimo planu.
 
-| Vieta | aprašymas |
+| Svetainė | Aprašymas |
 |------|-------------|
-| [Docs.microsoft.com](/dynamics365/) | Šioje svetainėje laikomi visi „Dynamics 365‟ produktų dokumentai arba saitai į juos. |
+| [Microsoft Dynamics 365 dokumentai](/dynamics365/) | Šioje svetainėje laikomi visi „Dynamics 365‟ produktų dokumentai arba saitai į juos. |
 | [„Microsoft Learn“](/learn/) | Ši svetainė yra nemokama „Microsoft“ el. mokymosi svetainė. |
 | [Microsoft Dynamics„ Lifecycle Services“ (LCS)](https://lcs.dynamics.com/)\* | Ši svetainė suteikia debesimi paremtą bendradarbiavimo darbo sritį, kurią naudodami klientai ir partneriai gali valdyti projektus – nuo priešpardaviminės veiklos iki įgyvendinimo ir operacijų. Tai naudinga visais įgyvendinimo etapais. |
 | [Palaikymo tinklaraštis](https://aka.ms/AXSupportBlog) | Šioje svetainėje pateikiama patarimų, kuriuos skelbia palaikymo komanda. |
-| [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | Šioje svetainėje laikomas ankstesnių leidimų turinys. |
+| [Ankstesnės versijos](/previous-versions/dynamics/) | Šioje svetainėje laikomas ankstesnių leidimų turinys. |
 | [„Dynamics‟ bendruomenė](https://community.dynamics.com/) | Šioje svetainėje saugomi tinklaraščiai, forumai ir vaizdo įrašai. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Šioje svetainėje pateikiama vertinimo ir pardavimo informacija. |
 
@@ -180,4 +180,3 @@ Galite sukurti pasirinktinių užduočių vedlių ir tokiu būdu sukurti vartoto
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

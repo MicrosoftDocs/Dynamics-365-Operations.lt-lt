@@ -2,7 +2,7 @@
 title: Sukonfigūruoto ER komponento patikrinimas, kad nekiltų vykdymo problemų
 description: Šiame straipsnyje paaiškinama, kaip patikrinti sukonfigūruotus elektroninių ataskaitų (ER) komponentus, kad išvengtumėte galių vykdymo problemų.
 author: kfend
-ms.date: 01/03/2022
+ms.date: 09/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.custom: 220314
 ms.assetid: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
-ms.openlocfilehash: 53835bbceaa89793d890d8bc18921497c686e969
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 1ca59d6c26dbcf065adb952409da30002d951f62
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277857"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476860"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Sukonfigūruoto ER komponento patikrinimas, kad nekiltų vykdymo problemų
 
@@ -243,6 +243,15 @@ Toliau pateikiamoje lentelėje apžvelgiami ER suteikiami patikrinimai. Norėdam
 <td>
 <p>Funkcijos ORDERBY sąrašo išraiška užklausų nepalaiko.</p>
 <p><b>Vykdyklės klaida:</b> rūšiavimas nepalaikomas. Norėdami apie tai gauti daugiau informacijos, patvirtinkite konfigūraciją.</p>
+</td>
+</tr>
+<tr>
+<td><a href='#i19'>Nebenaudojatas programos artefaktas</a></td>
+<td>Duomenų vientisumas</td>
+<td>Perspėjimas</td>
+<td>
+<p>&lt; Elemento maršrutas&gt; yra pažymėtas kaip pasenęs.<br>arba<br>Elemento maršrutas &lt;&gt; yra pažymėtas kaip pasenęs (-as) su pranešimo &lt; tekstu &gt;.</p>
+<p><b>Vykdyklės klaidos pavyzdys:</b> klasės maršrutas&lt;&gt; nerastas.</p>
 </td>
 </tr>
 </tbody>
@@ -942,6 +951,36 @@ Užuot **·** **į** tiekėjo duomenų šaltinį įdėję įdėtmąjį apskaiči
 #### <a name="option-2"></a>2 pasirinktis
 
 Keisti FilteredVendors **duomenų šaltinio išraišką** iš į `ORDERBY("Query", Vendor, Vendor.AccountNum)``ORDERBY("InMemory", Vendor, Vendor.AccountNum)`. Patariame pakeisti lentelės, kurioje yra didelis duomenų kiekis (operacijų lentelė), išraišką, nes bus išrinkti visi įrašai ir atmintyje bus užsakyta reikiamas įrašas. Todėl, naudojant šį metodą, gali suprastėti našumas.
+
+## <a name="obsolete-application-artifact"></a><a id="i19"></a> Nebenaudojatas programos artefaktas
+
+Kurdami ER modelio susiejimo komponentą arba ER formato komponentą, galite konfigūruoti ER išraišką, kad ER iškviestų programos artefaktui, pavyzdžiui, duomenų bazės lentelei, klasės metodui ir t. t. Jei finansinė versija 10.0.30 arba vėlesnė, galite priversti ER įspėti jus, kad nurodytas programos artefaktas šaltinio kode yra pažymėtas kaip pasenęs. Šis įspėjimas gali būti naudingas, nes paprastai nebenaudojami artefaktai galiausiai pašalinami iš šaltinio kodo. Informuojant apie artefakto būseną galima sustabdyti nebenaudojamo artefakto redagavimo ER komponente, prieš šalinant iš šaltinio kodo, padedant išvengti klaidų iškvietime neesamų programos artefaktų iš ER komponento.
+
+Įgalinkite **nebenaudojamus** **elektroninių** ataskaitų duomenų šaltinių funkcijos elementus funkcijų valdymo darbo srityje, kad pradėtumėte vertinti nebenaudojamą programos artefaktų atributą redaguojamo ER komponento patikrinimo metu. Dabar pasenęs atributas vertinamas dėl šių programos artefaktų tipų:
+
+- Duomenų bazės lentelė
+    - Lentelės laukas
+    - Lentelės metodas
+- Programos klasė
+    - Klasės metodas
+
+> [!NOTE]
+> Duomenų šaltinio, kuris nurodo nebenaudojamą artefakmą, redaguojamo ER komponento patikrinimo metu rodomas perspėjimas tik tada, kai šis duomenų šaltinis naudojamas bent viename šio ER komponento susiejime.
+
+> [!TIP]
+> [Kai klasė SysObsoleteAttribute](../dev-ref/xpp-attribute-classes.md#sysobsoleteattribute) naudojama norint informuoti kompiliatoriaus perspėjimo **pranešimus**, o ne klaidas, patikrinimo perspėjime pateikiama informacija, nurodyta šaltinio kodo įspėjime dizaino laiku modelio susiejimo konstruktoriaus arba formato dizaino įrankio puslapio informacijos "FastTab **·** **·**".
+
+Šioje iliustracijoje rodomas tikrinimo įspėjimas, kuris įvyksta, kai pasenęs `DEL_Email``CompanyInfo` programos lentelės laukas yra susietas su duomenų modelio lauku naudojant sukonfigūruotą duomenų `company` šaltinį.
+
+![Peržiūrėkite tikrinimo įspėjimus informacijos "FastTab", kuris yra modelio susiejimo dizaino įrankio puslapyje.](./media/er-components-inspections-19a.png)
+
+### <a name="automatic-resolution"></a>Automatinis sprendimas
+
+Nėra parinkties šiai problemai išspręsti automatiškai.
+
+### <a name="manual-resolution"></a>Neautomatinis sprendimas
+
+Modifikuokite sukonfigūruotą modelio susiejimą ar formatą pašalindami visus susiejimus su duomenų šaltiniu, kuris nurodo nebenaudojantį programos artefaktu.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

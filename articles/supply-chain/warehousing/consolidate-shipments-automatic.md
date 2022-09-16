@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 36eb5e788d0473e2fec2214e9aa7e245304347e3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ba8e9790a5b7eb00b20fba19f452118e1f05fed0
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8875078"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428260"
 ---
 # <a name="consolidate-shipments-released-to-the-warehouse-using-automatic-release-of-sales-orders"></a>Siuntų, išleistų į sandėlį naudojant automatinį pardavimo užsakymų išleidimą, konsolidacija
 
@@ -313,7 +313,7 @@ Baigę turėtumėte matyti, kad buvo sukurtos keturios siuntos.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-- [Siuntos konsolidacijos strategijos](about-shipment-consolidation-policies.md)
+- [Siuntos konsolidavimo strategijų peržiūra](about-shipment-consolidation-policies.md)
 - [Siuntos konsolidacijos strategijų konfigūravimas](configure-shipment-consolidation-policies.md)
 
 

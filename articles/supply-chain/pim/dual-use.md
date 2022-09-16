@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 02b154b9ea849c6b905d76edb256c4106b254acd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5147a837be91aab519c373e624acc036f9293641
+ms.sourcegitcommit: 555de844b8ba02fe095c28a2d447fc7c441ae549
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878909"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460554"
 ---
 # <a name="dual-use-goods"></a>Dvigubo naudojimo prekės
 
@@ -85,7 +85,14 @@ Produkto kaip dvigubo panaudojimo prekės nustatymui ir dvigubo panaudojimo kate
 1. **Užsienio prekybos** „FastTab“, nustatykite **Dvigubo naudojimo produktų** parinktį į **Taip** tam, kad nustatytumėte esamą produktą kaip dvigubo panaudojimo prekę.
 1. Nustatykite **Dvigubo panaudojimo kodo** laukelį, kuris taikomas dabartiniam produktui. (Jūs šį kodą nustatėte **Dvigubo panaudojimo kategorijų** puslapyje.)
 
-Šis nustatymas yra tikrinamas, kai kuriate prekybos užsakymą.
+> [!NOTE]
+>
+> Sistema atlieka šiuos dvigubo naudojimo tikrinimus, kai generuoja pardavimo patvirtinimą:
+>
+> 1. Ar užsakyme yra dvigubo naudojimo prekių?
+> 1. Jei taip, ar paskirties šaliai reikia dvigubo naudojimo sertifikatų?
+> 1. Jei taip, ar yra kiekvienos paskirties šalies dvigubo naudojimo prekių sertifikatai ir ar šie sertifikatai galioja patvirtintas siuntimo datas?
+> 1. Jei atsakymai į 1 ir 2 klausimus yra "Taip", o atsakymas į 3 klausimą yra "Ne", sistema rodo perspėjimą, norint informuoti vartotoją, kad viena ar daugiau dvigubo naudojimo prekių pardavimo užsakyme trūksta dvigubo naudojimo sertifikatų. Vartotojas tikriausiai turėtų įsigyti reikiamus sertifikatus ir bandyti dar kartą, bet vietoj to galėtų nepaisyti įspėjimo ir, jei norite, tęsti pardavimo patvirtinimą.
 
 ## <a name="set-up-dual-use-certificates"></a>Dvigubo panaudojimo sertifikatų nustatymas
 

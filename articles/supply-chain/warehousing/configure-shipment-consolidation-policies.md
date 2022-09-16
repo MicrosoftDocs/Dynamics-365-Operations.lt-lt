@@ -2,7 +2,7 @@
 title: Siuntos konsolidacijos strategijų konfigūravimas
 description: Šiame straipsnyje paaiškinama, kaip nustatyti numatytąsias ir pasirinktines siuntos konsolidavimo strategijas.
 author: Mirzaab
-ms.date: 08/09/2022
+ms.date: 09/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 4583d523811cb41518a0a4dae0d67398d64cab44
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 0312d425d2ebc5311e894030423a916b90f1881a
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336499"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427988"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Siuntos konsolidacijos strategijų konfigūravimas
 
@@ -28,75 +28,49 @@ Siuntos konsolidacijos procesas, naudojantis siuntos konsolidacijos strategijas,
 
 Scenarijai, pateikti šiame straipsnyje, parodo, kaip nustatyti numatytąsias ir pasirinktines siuntos konsolidavimo strategijas.
 
-## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>Siuntos konsolidacijos strategijų funkcijos įjungimas
+> [!WARNING]
+> Jei atnaujinsite "Microsoft Dynamics 365 Supply Chain Management " sistemą, kurioje naudojate siuntos konsolidavimo funkciją, konsolidavimas gali nustoti veikti taip, kaip tikitės, nebent vadovausitės čia pateikta patarimami.
+>
+> Tiekimo grandinės valdymo *diegimuose* **, kuriuose siuntos konsolidavimo strategijos priemonė išjungta,** įgalinate siuntos konsolidavimą naudodami kiekvieno atskiro sandėlio konsoliduotos siuntos parametrus išleidžiant į sandėlį. Ši funkcija privaloma versijoje 10.0.29. Kai jis įjungtas, **konsoliduota** siunta išleidžiant ją į sandėlį tampa paslėpta, *o* funkcija pakeičiama siuntos konsolidavimo strategija, aprašytomis šiame straipsnyje. Kiekviena strategija nustato konsolidavimo taisykles ir pateikia užklausą, kuri kontroliuoja, kur taikoma strategija. Kai pirmą kartą įjungsite funkciją, siuntos konsolidavimo strategijų puslapyje nebus nurodyta **jokia siuntos konsolidavimo** strategija. Kai strategijos apibrėžiamos, sistema naudoja senesnį veikimo būdą. Todėl kiekvienas esamas sandėlis laikosi jos **Konsoliduotos siuntos išleidžiant į** sandėlį parametro, net jei šis parametras dabar paslėptas. Tačiau, kai sukuriate bent vieną siuntos konsolidavimo strategiją, **konsoliduotos** siuntos išleidžiant į sandėlį parametrai nebegalioja, o konsolidavimo funkciją visiškai kontroliuoja strategijos.
+>
+> Nustačius bent vieną siuntos konsolidavimo strategiją, sistema kiekvieną kartą, kai užsakymas išleidžiamas į sandėlį, patikrins konsolidavimo strategijas. Sistema apdoroja strategijas naudodama rangą, kuris apibrėžiamas kiekvienos strategijos strategijos **sekos** verte. Ji taiko pirmąją strategiją, pagal kurią užklausa atitinka naują užsakymą. Jei jokios užklausos nesutampa su užsakymu, kiekviena užsakymo eilutė sugeneruoja atskirą siuntą, turiinę vieną krovinio eilutę. Todėl, kaip atsarginę, rekomenduojame sukurti numatytąją strategiją, kuri taikoma visiems sandėliams ir grupėms pagal užsakymo numerį. Suteikti šiai atsarginei strategijai **aukščiausią** strategijos sekos reikšmę, kad ji būtų apdorota paskutinė.
+>
+> Norėdami perkurti senstelėjusį elgseną, turite sukurti strategiją, kuri negrupuoti pagal užsakymo numerį ir kuri turi užklausos kriterijus, kuriuose nurodyti visi atitinkami sandėliai.
 
-> [!IMPORTANT]
-> Pirmame [scenarijuje](#scenario-1), kuris aprašytas šiame straipsnyje, pirmiausia turėsite nustatyti sandėlį, kad jis naudos ankstesnę siuntos konsolidavimo priemonę. Tada padarysite siuntos konsolidacijos strategijas pasiekiamomis. Tokiu būdu galite išbandyti naujinimo scenarijaus veikimą. Jeigu planuojate naudoti demonstracinių duomenų aplinką pirmojo scenarijaus vykdyme, neįjunkite funkcijos prieš scenarijaus vykdymą.
+## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>Siuntos konsolidacijos strategijų funkcijos įjungimas
 
 Norėdami naudoti siuntos *konsolidavimo strategijos* funkciją, ją turite įjungti savo sistemoje. Kaip ir tiekimo grandinės valdymo versija 10.0.29, ši funkcija yra privaloma ir jos išjungti negalima. Jei naudojate senesnę nei 10.0.29 versiją, tada *·*[administratoriai gali įjungti arba išjungti šią funkciją ieškodami siuntos konsolidavimo strategijų funkcijos funkcijų valdymo](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) darbo srityje.
 
-## <a name="make-demo-data-available"></a>Demonstracinių duomenų įgalinimas
+## <a name="set-up-your-initial-consolidation-policies"></a><a name="initial-policies"></a> Nustatykite pradines konsolidacijos strategijas
 
-Kiekvienas scenarijus šiame straipsnyje nurodo vertes ir įrašus, kurie yra įtraukti į standartinius demonstracinius duomenis, kurie pateikiami "Microsoft"Dynamics 365 Supply Chain Management. Jei norite naudoti čia pateiktas reikšmes atlikdami pratimus, įsitikinkite, kad dirbate aplinkoje, kurioje įdiegti demonstraciniai duomenys, ir prieš pradėdami nustatykite juridinį subjektą į **USMF**.
-
-## <a name="scenario-1-configure-default-shipment-consolidation-policies"></a><a name="scenario-1"></a>1 scenarijus: numatytųjų siuntos konsolidacijos strategijų konfigūravimas
-
-Yra du toliau pateikti atvejai, kai turite sukonfigūruoti mažiausią numatytųjų strategijų skaičių įjungę funkciją *Siuntos konsolidacijos strategijos*.
-
-- Naujinate aplinką, kurioje jau yra duomenų.
-- Nustatote visiškai naują aplinką.
-
-### <a name="upgrade-an-environment-where-warehouses-are-already-configured-for-cross-order-consolidation"></a>Aplinkos, kurioje sandėliai jau sukonfigūruoti kelių užsakymų konsolidacijai, naujinimas
-
-Pradėjus šią procedūrą, funkcija *Siuntos konsolidacijos strategijos* turi būti išjungta, kad būtų galima imituoti aplinką, kurioje jau buvo naudojama pagrindinė kelių užsakymų konsolidacijos funkcija. Tada galėsite naudoti funkcijų valdymą funkcijai įjungti, kad sužinotumėte, kaip po naujinimo nustatyti siuntos konsolidacijos strategijas.
-
-Atlikite tolesnius veiksmus, norėdami nustatyti numatytąsias siuntos konsolidacijos strategijas aplinkoje, kurioje sandėliai jau sukonfigūruoti kelių užsakymų konsolidacijai.
-
-1. Eikite į **Sandėlio valdymas \> Sąranka \> Sandėlis \> Sandėliai**.
-1. Sąraše raskite ir atidarykite pageidaujamą sandėlio įrašą (pavyzdžiui, *24* sandėlį **USMF** demonstraciniuose duomenyse).
-1. Veiksmų srityje pasirinkite **Redaguoti**.
-1. „FastTab” **Sandėlis** nustatykite parinktį **Konsoliduoti siuntą išleidžiant ją į sandėlį** į *Taip*.
-1. Pakartokite 2–4 žingsnius visiems kitiems sandėliams, kuriems būtina konsolidacija.
-1. Uždarykite puslapį.
-1. Eikite į **Sandėlio valdymas \> Sąranka \> Išleidimas į sandėlį \> Siuntos konsolidacijos strategijos**. Jums gali reikėti atnaujinti naršyklę, kad, įjungę funkciją, matytumėte naują meniu elementą **Siuntos konsolidacijos strategijos**.
-1. Veiksmų srityje pasirinkite **Kurti numatytąją sąranką**, kad sukurtumėte tolesnes strategijas.
-
-    - **CrossOrder** strategija, skirta *pardavimo užsakymų* strategijos tipui (jei turite bent vieną sandėlį, nustatytą naudoti ankstesnę konsolidacijos funkciją)
-    - **Numatytoji** strategija, skirta *pardavimo užsakymų* strategijos tipui
-    - **Numatytoji** strategija, skirta *perkėlimo išdavimo* strategijos tipui
-    - **CrossOrder** strategija, skirta *perkėlimo išdavimo* strategijos tipui (jei turite bent vieną sandėlį, nustatytą naudoti ankstesnę konsolidacijos funkciją)
-
-    > [!NOTE]
-    > - Abi **kelių užsakymų** strategijos tą patį laukų rinkinį laiko ankstesne logika, išskyrus užsakymo numerio lauką. (Šis laukas naudojamas norint konsoliduoti eilutes į siuntas, remiantis tokiais veiksniais kaip sandėlis, pristatymo transportavimo būdas ir adresas.)
-    > - Abi **numatytosios** strategijos tą patį laukų rinkinį laiko ankstesne logika, įskaitant užsakymo numerio lauką. (Šis laukas naudojamas norint konsoliduoti eilutes į siuntas, remiantis tokiais veiksniais kaip užsakymo numeris, sandėlis, pristatymo transportavimo būdas ir adresas.)
-
-1. Pasirinkite **CrossOrder** strategiją, skirtą *pardavimo užsakymų* strategijos tipui, tada veiksmų srityje pasirinkite **Redaguoti užklausą**.
-1. Atkreipkite dėmesį, kad užklausos rengyklės dialogo lange išvardyti sandėliai, kurių parinktis **Konsoliduoti siuntą išleidžiant ją į sandėlį** nustatyta į *Taip*. Todėl jie įtraukiami į užklausą.
-
-### <a name="create-default-policies-for-a-new-environment"></a>Numatytųjų naujos aplinkos strategijų kūrimas
-
-Atlikite tolesnius veiksmus, norėdami nustatyti numatytąsias siuntos konsolidacijos strategijas visiškai naujoje aplinkoje.
+Jei dirbate su *nauja* sistema arba sistema, kurioje pirmą kartą ką tik įjungta siuntos konsolidavimo strategijų funkcija, norėdami nustatyti pradines siuntos konsolidavimo strategijas, atlikite šiuos veiksmus.
 
 1. Eikite į **Sandėlio valdymas \> Sąranka \> Išleidimas į sandėlį \> Siuntos konsolidacijos strategijos**.
 1. Veiksmų srityje pasirinkite **Kurti numatytąją sąranką**, kad sukurtumėte tolesnes strategijas.
 
-    - **Numatytoji** strategija, skirta *pardavimo užsakymų* strategijos tipui
-    - **Numatytoji** strategija, skirta *perkėlimo išdavimo* strategijos tipui
+    - Strategija, kurios tipas Pardavimo *užsakymų* strategija *yra* Numatytoji.
+    - Strategija, kurios tipas Perkėlimo *išdavimo* strategija *yra* numatytoji.
+    - Strategija, kurios perkėlimo išdavimo *strategijos tipo pavadinimas* CrossOrder *·*. (Ši strategija sukuriama tik tada, jei esate turėję bent vieną sandėlį, kuriame yra senesnė nei **Įgalintas siuntos konsolidavimas išleidžiant į sandėlį** .)
+    - Strategija, kurios tipas yra *Pardavimo užsakymų strategijos* pavadinimas *CrossOrder*. (Ši strategija sukuriama tik tada, jei esate turėję bent vieną sandėlį, kuriame yra senesnė nei **Įgalintas siuntos konsolidavimas išleidžiant į sandėlį** .)
 
     > [!NOTE]
-    > Abi **numatytosios** strategijos tą patį laukų rinkinį laiko ankstesne logika, įskaitant užsakymo numerio lauką. (Šis laukas naudojamas norint konsoliduoti eilutes į siuntas, remiantis tokiais veiksniais kaip užsakymo numeris, sandėlis, pristatymo transportavimo būdas ir adresas.)
+    > - Abi *CrossOrder strategijos* turi atsižvelgti į tą patį laukų rinkinį kaip ir ankstesnė logika. Tačiau jie taip pat atsižvelkite į užsakymo numerio lauką. (Šis laukas naudojamas norint konsoliduoti eilutes į siuntas, remiantis tokiais veiksniais kaip sandėlis, pristatymo transportavimo būdas ir adresas.)
+    > - Abi *numatytosios* strategijos turi atsižvelgti į tą patį laukų rinkinį kaip ir ankstesnė logika. Tačiau jie taip pat atsižvelkite į užsakymo numerio lauką. (Šis laukas naudojamas norint konsoliduoti eilutes į siuntas, remiantis tokiais veiksniais kaip užsakymo numeris, sandėlis, pristatymo transportavimo būdas ir adresas.)
 
-## <a name="scenario-2-configure-custom-shipment-consolidation-policies"></a>2 scenarijus: pasirinktinių siuntos konsolidacijos strategijų konfigūravimas
+1. Jei sistema pardavimo užsakymų *strategijos tipui sugeneravo* *CrossOrder* strategiją, pasirinkite ją, tada veiksmų srityje pasirinkite Redaguoti **užklausą**. Užklausų doroklyje galite matyti, kuriems **iš** jūsų sandėlių anksčiau buvo įgalinti sandėlio parametrai Konsoliduoti siuntą išleidžiant į sandėlį. Todėl ši strategija iš naujo sukurs ankstesnius šių sandėlių parametrus.
+1. Pritaikykite naujas numatytąsias strategijas pagal tai, kaip reikia, pridėdami arba pašalindami laukus ir (arba) redaguodami užklausas. Taip pat galite įtraukti tiek naujų strategijų, kiek jums reikia. Pavyzdžių, kurie parodo, kaip pritaikyti ir konfigūruoti savo strategijas, ieškokite toliau šiame straipsnyje pateiktame pavyzdyje.
 
-Šis scenarijus nurodo, kaip nustatyti pasirinktines siuntos konsolidacijos strategijas. Pasirinktinės strategijos gali palaikyti sudėtingus verslo poreikius, kai siuntos konsolidacija priklauso nuo kelių sąlygų. Kiekviename tolesniame šio scenarijaus strategijos pavyzdyje įtrauktas trumpas verslo atvejo aprašymas. Šias pavyzdines strategijas reikia nustatyti seka, užtikrinančia piramidės tipo užklausų vertinimą. (Kitaip tariant, strategijos, turinčios daugiausiai sąlygų, turi būti vertinamos kaip turinčios didžiausią prioritetą.)
+## <a name="scenario-configure-custom-shipment-consolidation-policies"></a>Scenarijus: konfigūruoti pasirinktines siuntimo konsolidavimo strategijas
 
-### <a name="turn-on-the-feature-and-prepare-master-data-for-this-scenario"></a>Funkcijos įjungimas ir šio scenarijaus bendrųjų duomenų rengimas
+Šiame scenarijuje pateikiamas pavyzdys, kuriame parodyta, kaip nustatyti pasirinktines siuntos konsolidavimo strategijas ir patikrinti jas naudojant demonstracinius duomenis. Pasirinktinės strategijos gali palaikyti sudėtingus verslo poreikius, kai siuntos konsolidacija priklauso nuo kelių sąlygų. Kiekviename tolesniame šio scenarijaus strategijos pavyzdyje įtrauktas trumpas verslo atvejo aprašymas. Šias pavyzdines strategijas reikia nustatyti seka, užtikrinančia piramidės tipo užklausų vertinimą. (Kitaip tariant, strategijos, turinčios daugiausiai sąlygų, turi būti vertinamos kaip turinčios didžiausią prioritetą.)
 
-Kad galėtumėte pradėti šiame scenarijuje pateiktus pratimus, turite įjungti funkciją ir parengti bendruosius duomenis, reikalingus norint filtruoti, kaip aprašyta tolesniuose poskirsniuose. (Šios būtinosios sąlygos taip pat taikomos scenarijams, pateiktiems [Scenarijų, kaip naudoti siuntos konsolidacijos strategijas, pavyzdžiai](#example-scenarios).)
+### <a name="make-demo-data-available"></a>Demonstracinių duomenų įgalinimas
 
-#### <a name="turn-on-the-feature-and-create-the-default-policies"></a>Funkcijos įjungimas ir numatytųjų strategijų kūrimas
+Šis scenarijus nurodo vertes ir įrašus, įtrauktus į standartinius demonstracinius [duomenis](../../fin-ops-core/fin-ops/get-started/demo-data.md), kurie pateikiami tiekimo grandinės valdymui. Jei norite naudoti čia pateiktas reikšmes atlikdami pratimus, įsitikinkite, kad dirbate aplinkoje, kurioje įdiegti demonstraciniai duomenys, ir prieš pradėdami nustatykite juridinį subjektą į *USMF*.
 
-Norėdami įjungti funkciją, naudokite funkcijų valdymą, jei jos dar neįjungėte, ir sukurkite numatytąsias konsolidacijos strategijas, aprašytas [1 scenarijuje](#scenario-1).
+### <a name="prepare-master-data-for-this-scenario"></a>Parengti šio scenarijaus pagrindinius duomenis
+
+Prieš pradėdami atlikti šio scenarijaus užduotis, turite paruošti pagrindinius duomenis, reikalingus filtravimui atlikti, kaip aprašyta toliau aprašytus poskyrius. (Šios būtinosios sąlygos taip pat taikomos scenarijams, kurie išvardyti [Pavyzdiniai scenarijai, kaip naudoti siuntos konsolidavimo strategijų skyrių](#example-scenarios) .)
 
 #### <a name="create-two-new-product-filter-codes"></a>Dviejų naujų produktų filtravimo kodų kūrimas
 
@@ -152,7 +126,7 @@ Norėdami įjungti funkciją, naudokite funkcijų valdymą, jei jos dar neįjung
 1. Eikite į **Pardavimas ir rinkodara \> Klientai \> Visi klientai**.
 1. Atidarykite klientą, kurio sąskaitos numeris yra *US-003*.
 1. „FastTab” **Pardavimo užsakymo numatytieji nustatymai** nustatykite lauką **Pardavimo užsakymų telkinys** į ką tik sukurtą užsakymų telkinį.
-1. Uždarykite puslapį ir pakartokite 4 ir 5 veiksmus klientui, kurio sąskaitos numeris yra *US-004*.
+1. Uždarykite puslapį, tada pakartokite 4 ir 5 žingsnius kliento, kuris turi sąskaitos numerį *JAV-004*.
 
 ### <a name="create-example-policy-1"></a>1 strategijos pavyzdžio kūrimas
 
@@ -300,7 +274,7 @@ Atlikite šiuos veiksmus, norėdami sukurti šio verslo atvejo siuntos konsolida
 - Konsolidacija su atviromis siuntomis yra išjungta.
 - Konsolidacija atliekama užsakymuose naudojant laukus, pasirinktus pagal numatytąją „CrossOrder“ strategiją (kad būtų dubliuotas pirmiau naudotas žymės langelis **Konsoliduoti siuntą išleidžiant ją į sandėlį**).
 
-Paprastai šis verslo atvejis gali būti sprendžiamas naudojant numatytąsias strategijas, kurias sukūrėte [1 scenarijuje](#scenario-1). Tačiau taip pat galite rankiniu būdu sukurti panašias strategijas atlikdami tolesnius veiksmus.
+Paprastai šis verslo atvejis gali būti išspręstas naudojant numatytąsias strategijas, kurias sukūrėte pradinėse [konsolidacijos strategijose](#initial-policies). Tačiau taip pat galite rankiniu būdu sukurti panašias strategijas atlikdami tolesnius veiksmus.
 
 1. Eikite į **Sandėlio valdymas \> Sąranka \> Išleidimas į sandėlį \> Siuntos konsolidacijos strategijos**.
 1. Nustatykite lauką **Strategijos tipas** į *Pardavimo užsakymai*.
@@ -345,7 +319,7 @@ Toliau pateiktame scenarijuje iliustruojama, kaip galite naudoti siuntos konsoli
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-- [Siuntos konsolidacijos strategijos](about-shipment-consolidation-policies.md)
+- [Siuntos konsolidavimo strategijų peržiūra](about-shipment-consolidation-policies.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

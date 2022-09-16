@@ -2,7 +2,7 @@
 title: Išorinis įrenginys
 description: Šiame straipsnyje paaiškinamos su "Commerce Peripherals" susijusios koncepcijos.
 author: BrianShook
-ms.date: 03/01/2022
+ms.date: 09/08/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -12,12 +12,12 @@ ms.custom:
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 641b45390477c8c5e6239709f7c91887a403fbaf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b3113626b18ad7f074c808d7631d13b09071bef2
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880086"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460000"
 ---
 # <a name="peripherals"></a>Išorinis įrenginys
 
@@ -25,7 +25,7 @@ ms.locfileid: "8880086"
 
 Šiame straipsnyje paaiškinamos koncepcijos, susijusios su išoriniais parduotuvės įrenginiais. Joje apibūdinti įvairūs būdai, kaip išorinius įrenginius galima prijungti prie elektroninio kasos aparato (EKA), ir komponentai, skirti valdyti ryšį su EKA.
 
-## <a name="concepts"></a>Koncepcijos
+## <a name="concepts"></a>Sąvokos
 
 ### <a name="pos-registers"></a>EKA registrai
 
@@ -59,7 +59,7 @@ Išoriniai EKA įrenginiai yra tokie įrenginiai, kurie tiesiogiai palaiko EKA f
 
 ### <a name="hardware-station"></a>Aparatūros stotis
 
-Naršymas: eikite į mažmeninės **prekybos ir komercijos \> kanalų \> parduotuves \> visos parduotuvės**. Pasirinkite parduotuvę, tada pasirinkite " **FastTab" Aparatūros** stotis. Nustatymas **Aparatūros stotis** yra kanalo lygio nustatymas, naudojamas apibrėžti egzemplioriams, kuriuose bus įdiegta išorinių įrenginių logika. Šis nustatymas kanalo lygiu taikomas aparatūros stoties charakteristikoms nustatyti. Jis taip pat naudojamas norint pateikti aparatūros stočių, kurios galimos „Modern POS“ egzemplioriams pasirinktoje parduotuvėje, sąrašą. Aparatūros stotis yra įmontuota į „Windows“ ir „Android“ šiuolaikines „Modern POS“ programas. Be to, aparatūros stotį galima atskirai įdiegti kaip atskirą „Microsoft“ informacinių interneto paslaugų (IIS) programą. Tokiu atveju prieiga galima per tinklą.
+Naršymas: eikite į mažmeninės **prekybos ir komercijos \> kanalų \> parduotuves \> visos parduotuvės**. Pasirinkite parduotuvę, tada pasirinkite " **FastTab" Aparatūros** stotis. Nustatymas **Aparatūros stotis** yra kanalo lygio nustatymas, naudojamas apibrėžti egzemplioriams, kuriuose bus įdiegta išorinių įrenginių logika. Šis nustatymas kanalo lygiu taikomas aparatūros stoties charakteristikoms nustatyti. Jis taip pat naudojamas norint pateikti aparatūros stočių, kurios galimos „Modern POS“ egzemplioriams pasirinktoje parduotuvėje, sąrašą. Aparatūros stotis yra įmontuota į „Windows“ ir „Android“ šiuolaikines „Modern POS“ programas. Be to, aparatūros stotį galima atskirai įdiegti kaip atskirą „Microsoft“ informacinių interneto paslaugų (IIS) programą. Šiuo atveju, tai galima pasiekti per tinklą.
 
 ### <a name="hardware-profile"></a>Aparatūros šablonas
 
@@ -123,12 +123,12 @@ Norint užtikrinti, kad su „Commerce“ būtų naudojamas didžiausias prietai
 
 ### <a name="windows"></a>„Windows“
 
-EKA kvitų spausdinimas optimizuotas OEKA. OEKA yra daug greitesnis nei spausdinimas per „Windows“. Todėl pravartu naudoti OEKA, ypač aplinkose, kur spausdinami 40 stulpelių kvitai ir operacijų tempas turi būti greitas. Su dauguma įrenginių naudosite OEKA valdiklius. Tačiau, kai kurie OEKA kvitų spausdintuvai palaiko ir „Windows“ tvarkykles. Naudodami „Windows“ tvarkyklę, galite pasiekti naujausius šriftus ir tinkle vieną spausdintuvą susieti su keliais kasos aparatais. Tačiau, yra ir „Windows“ tvarkyklių naudojimo trūkumų. Toliau pateikiami keletas trūkumų pavyzdžių:
+EKA kvitų spausdinimas optimizuotas OEKA. OEKA yra daug greitesnis nei spausdinimas per „Windows“. Todėl pravartu naudoti OEKA, ypač aplinkose, kur spausdinami 40 stulpelių kvitai ir operacijų tempas turi būti greitas. Daugumai įrenginių galima naudoti OEKA valdiklius. Tačiau, kai kurie OEKA kvitų spausdintuvai palaiko ir „Windows“ tvarkykles. Naudodami „Windows“ tvarkyklę, galite pasiekti naujausius šriftus ir tinkle vieną spausdintuvą susieti su keliais kasos aparatais. Tačiau, yra ir „Windows“ tvarkyklių naudojimo trūkumų. Toliau pateikiami keletas trūkumų pavyzdžių:
 
 -   Kai naudojamos „Windows“ tvarkyklės, vaizdai sugeneruojami prieš spausdinant. Todėl spausdinama lėčiau, nei su tais spausdintuvais, su kuriais naudojami OEKA valdikliai.
 -   Įrenginiai, kurie yra prijungti per spausdintuvą („nuosekliąja grandine“) gali netinkamai veikti, kai naudojamos „Windows“ tvarkyklės. Pavyzdžiui, kasos stalčius gali neatidaryti arba kvitų spausdintuvas gali neveikti taip, kaip tikitės.
 -   OEKA palaiko ir platesnį kvitų spausdintuvams būdingų kintamųjų rinkinį, pvz., popieriaus nuplėšimas arba kvito spausdinimas.
--   „IIS“ aparatūros stotis nepalaiko „Windows“ spausdintuvų. 
+-   "Windows" spausdintuvai nepalaikomi naudojant IIS aparatūros stotį. 
 
 Jei naudojamame „Windows“ spausdintuve yra OPOS valdikliai, jis vis tiek turėtų tinkamai veikti „Commerce“.
 
@@ -142,9 +142,12 @@ Jei yra EKA išorinių įrenginių, daug ŠIO įrenginio galima prijungti ir atp
 
 Į Windows įtraukiama papildomų EKA išorinių įrenginių klasių, pvz., kasos stalčių ir kvitų spausdintuvų klasių. Laukiama šių naujų įrenginių klasių palaikymo „Modern POS“.
 
+> [!NOTE] 
+> Kai kurie ŠIOK įrenginiai gali būti nerealizuoti ar nepatikėti, kai valdo "Windows 10" maitinimo valdymo funkcija, vadinama [PREKIŲ pasirinktiniu sustabdymu](/windows-hardware/drivers/usbcon/usb-selective-suspend). Jei išorinisIKLIS tampa nereaguojamasis, gali reikėti išjungti to įrenginio atrankinę sustabdymo priemonę. Norėdami gauti daugiau informacijos, žr. įgalinant atrankinį [sustabdymą](/windows-hardware/drivers/usbcon/usb-selective-suspend#enabling-selective-suspend). 
+
 ### <a name="keyboard-wedge"></a>Klavišinis kredito kortelių skaitytuvas
 
-Klavišinio kredito kortelių skaitytuvo įrenginiai siunčia duomenis į kompiuterį taip, tarsi šie duomenys būtų įvesti klaviatūra. Todėl, pagal numatytuosius parametrus, aktyvus EKA laukas priims nuskaitytus arba perbraukus gautus duomenis. Kai kuriais atvejais, toks būdas lemia tai, kad netinkamo tipo duomenys nuskaitomi į netinkamą lauką. Pvz., brūkšninis kodas gali būti nuskaitytas į tą lauką, kuris skirtas įvesti kredito kortelės duomenis. Daugeliu atveju EKA veikia logika, kuri nustato, ar nuskaityti arba perbraukus gauti duomenys yra brūkšninis kodas, ar perbraukimas kortele. Todėl duomenys tvarkomi tinkamai. Tačiau, kai įrenginiai nustatomi kaip OEKA, o ne klavišiniai kredito kortelių skaitytuvų įrenginiai, galima geriau kontroliuoti tai, kaip naudojami iš šių įrenginių gauti duomenys, nes daugiau „žinoma“ apie tą įrenginį, iš kurio tie duomenys gauti. Pvz., duomenys iš brūkšninio kodo skaitytuvo automatiškai atpažįstami kaip brūkšninis kodas, o susietas įrašas duomenų bazėje randamas lengviau ir greičiau, nei naudojant bendrąją eilutės iešką, kaip tai daroma naudojant klavišinius kredito kortelių skaitytuvų įrenginius.
+Klavišinio kredito kortelių skaitytuvo įrenginiai siunčia duomenis į kompiuterį taip, tarsi šie duomenys būtų įvesti klaviatūra. Todėl, pagal numatytuosius parametrus, aktyvus EKA laukas priims nuskaitytus arba perbraukus gautus duomenis. Kai kuriais atvejais, toks būdas lemia tai, kad netinkamo tipo duomenys nuskaitomi į netinkamą lauką. Pvz., brūkšninis kodas gali būti nuskaitytas į tą lauką, kuris skirtas įvesti kredito kortelės duomenis. Daugeliu atvejų EKA logika nurodo, ar nuskaityti ar perbraukti duomenys yra brūkšninis kodas ar perbraukimas kortele. Todėl duomenys tvarkomi tinkamai. Tačiau, kai įrenginiai nustatomi kaip OEKA, o ne klaviatūros klavišų rinkimo įrenginiai, yra daugiau valdymo priemonių, kaip galima suvartojami tų įrenginių duomenis, nes daugiau informacijos apie įrenginį, iš kurio gauti duomenys. Pvz., duomenys iš brūkšninio kodo skaitytuvo automatiškai atpažįstami kaip brūkšninis kodas, o susietas įrašas duomenų bazėje randamas lengviau ir greičiau, nei naudojant bendrąją eilutės iešką, kaip tai daroma naudojant klavišinius kredito kortelių skaitytuvų įrenginius.
 
 > [!NOTE]
 > Kai klaviatūros skaitytuvai yra naudojami EKA, jie turi būti užprogramuoti siųsti grįžimą į eilutės pradžią arba įvykį **Įvesti** po paskutinio nuskaityto simbolio. Jei ši konfigūracija neatlikta, klaviatūros skaitytuvai neveiks tinkamai. Išsamios informacijos apie tai, kaip sujungti grįžimo į eilutės pradžią įvykį, ieškokite jūsų įrenginio gamintojo suteiktoje dokumentacijoje.  
@@ -176,7 +179,7 @@ Taip pat kartais vadinama IIS aparatūros stotyje, IIS reiškia, kad EKA program
 
 Bendrai naudojama aparatūros stotis gali būti naudojama leisti keliems pardavimo klientams bendrai naudoti išorinius įrenginius arba naudoti fiksuotam išorinių įrenginių komplektui viename pardavimo punkte valdyti. 
 
-Kai aparatūros stotis naudojama palaikyti periferinių įrenginių pasidalijimą tarp kelių EKA klientų, turėtų būti naudojami tik grynųjų pinigų stalčiai, kvitų spausdintuvai ir mokėjimo terminalai. Negalima tiesiogiai prijungti atskirų brūkšninio kodo skaitytuvų, MSR, eilutės rodymų arba kitų įrenginių. Kitu atveju, kai keli EKA įrenginiai tuo pačiu metu bandys reikalauti patvirtinti tuos išorinius įrenginius, kils nesuderinamumų. Štai kaip tvarkomi palaikomų įrenginių nesuderinamumai:
+Kai aparatūros stotis naudojama palaikyti periferinių įrenginių pasidalijimą tarp kelių EKA klientų, turėtų būti naudojami tik grynųjų pinigų stalčiai, kvitų spausdintuvai ir mokėjimo terminalai. Negalima tiesiogiai prijungti atskirų brūkšninio kodo skaitytuvų, MSR, eilutės rodymų arba kitų įrenginių. Kitu atveju, kai keli EKA įrenginiai tuo pačiu metu bandys reikalauti patvirtinti tuos išorinius įrenginius, kils nesuderinamumų. Toliau aprašoma, kaip valdomi palaikomų įrenginių nesuderinamumai:
 
 -   **Kasos stalčius** – kasos stalčius atidarytas per įvykį, kuris išsiųstas į įrenginį. Kasos stalčius iškviečtas, kol stalčius jau atidarytas. Kasos stalčius, naudojamas bendrai naudojamos aparatūros stoties konfigūracijoje, aparatūros **šablone turi** būti nustatytas kaip Bendrai naudojamas. Šis nustatymas neleidžia EKA tikrinti, ar kasos stalčius jau yra atidarytas, kai išsiunčia atvirą komandą.
 -   **Kvitų spausdintuvas** – jei dvi kvitų spausdinimo komandos tuo pačiu metu išsiunčiamos į aparatūros stotį, atsižvelgiant į įrenginį, viena iš komandų gali būti prarasta. Kai kuriuose prietaisuose yra vidinė atmintis arba telkinys, galintis padėti išvengti šios problemos. Jei spausdinimo komanda nėra sėkminga, kasininkas gauna klaidos pranešimą ir gali iš naujo bandyti atlikti komandą iš EKA.
@@ -597,7 +600,7 @@ Pagal numatytuosius parametrus išjungtos SSL ir visos TLS versijos, išskyrus T
         -   SSL 3.0Client:Enabled=0
         -   SSL 2.0Server:Enabled=0
         -   SSL 2.0Client:Enabled=0
--   Neturi būti atidarytų jokių papildomų tinklo prievadų, nebent jie yra reikalingi dėl žinomų, nurodytų priežasčių.
+-   Negali būti atidarytas joks papildomas tinklo prievadas, nebent jie būtini dėl žinomų nurodytų priežasčių.
 -   Kryžminės kilmės išteklių bendrinimas turi būti išjungtas ir turi būti nurodyta leidžiama kilmė, kuri priimta.
 -   Reikia naudoti tik patikimas sertifikavimo tarnybas sertifikatams gauti, kurie bus naudojami kompiuteriuose, vykdančiuose aparatūros stotį.
 
@@ -619,7 +622,7 @@ Toliau nurodyti išoriniai įrenginiai buvo išbandyti naudojant IPC aparatūros
 | „Epson“        | TM-T88V  | OEKA      |                         |
 | „Epson“        | TM-T88IV | OEKA      |                         |
 | „HP“           | H300     | OEKA      | Teikiamas USB             |
-| „Star“         | TSP650II | Pasirinktinai    | Prijungtas per tinklą   |
+| „Star“         | TSP650II | Pasirinktinis    | Prijungtas per tinklą   |
 | „Star“         | mPOP     | OEKA      | Prijungtas per „Bluetooth“ |
 | Toshiba      | HSP100   | OEKA      |                         |
 | Toshiba      | HSP150   | OEKA      |                         |
@@ -690,7 +693,7 @@ Toliau nurodyti išoriniai įrenginiai buvo išbandyti naudojant paskirtą (ne b
 | „Epson“        | TM-T88V  | OEKA      |                         |
 | „Epson“        | TM-T88IV | OEKA      |                         |
 | „HP“           | H300     | OEKA      | Teikiamas USB             |
-| „Star“         | TSP650II | Pasirinktinai    | Prijungtas per tinklą   |
+| „Star“         | TSP650II | Pasirinktinis    | Prijungtas per tinklą   |
 | „Star“         | mPOP     | OEKA      | Prijungtas per „Bluetooth“ |
 | Toshiba      | HSP100   | OEKA      |                         |
 | Toshiba      | HSP150   | OEKA      |                         |

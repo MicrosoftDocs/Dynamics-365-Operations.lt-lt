@@ -2,19 +2,19 @@
 title: „Dynamics 365 Commerce“ esantys domenai
 description: Šiame straipsnyje aprašoma, kaip tvarkomi domenai Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 08/19/2022
+ms.date: 09/09/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: fd2fdc82fe62e56e18f54138e07b663a18802d66
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 132aec92d2b3d2765dd6bd261fb4182f8aae679a
+ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405502"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "9465199"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>„Dynamics 365 Commerce“ esantys domenai
 
@@ -144,9 +144,9 @@ Jei domenai esami / aktyvūs, bus atlikti toliau pateikti veiksmai.
 
 - **1 parinktis** – naudokite jūsų DNS teikėją, kad nukreiptumėte viršūnės domeną į „www” domeną. Pvz., fabrikam.com nukreipia į `www.fabrikam.com`, o `www.fabrikam.com` yra CNAME įrašas, nurodantis į „Commerce” nuomojamą „Azure Front Door” egzempliorių.
 
-- **2 parinktis** – jei jūsų DNS tiekėjas palaiko ALIAS įrašus, galite nurodyti APEX domeną į priekinės durų galinį punktą. Taip užtikrinama, kad IP pakeitimas atspindėtų priekinio durų galinį punktą.
+- **2 parinktis** – jei jūsų DNS tiekėjas palaiko ALIAS įrašus, galite nurodyti "Apex" domeną į "Azure Front Door" galinį punktą, kuris užtikrina, kad galinio punkto IP pakeitimas bus rodomas. "Azure" priekinės saugyklos egzempliorius turi būti iš jūsų pagrindinio kompiuterio.
   
-- **3 parinktis** – jei jūsų DNS tiekėjas nepalaiko PSEUDONIMO įrašų, tada turite nustatyti CDN arba priekinės durų egzempliorių savo vardu, kad nuoteistų "apex" domeną.
+- **3 parinktis** – jei jūsų DNS tiekėjas nepalaiko PSEUDONIMO įrašų, tada turite pakeisti savo DNS tiekėją į "Azure DNS" ir patiems nuo pagrindinio kompiuterio nuoduoti "Azure" DNS ir "Azure" priekinės saugyklos egzempliorių.
 
 > [!NOTE]
 > Jei naudojate „Azure Front Door”, taip pat turite nustatyti „Azure” DNS toje pačioje prenumeratoje. Viršūnės domenas, nuomojamas „Azure” DNS, gali nukreipti į jūsų „Azure Front Door” kaip į pseudonimo įrašą. Tai yra vienintelis sprendimas, nes viršūnės domenai visada turi nukreipti į IP adresą.

@@ -2,7 +2,7 @@
 title: Produktų rekomendacijų įtraukimas į EKA
 description: Šiame straipsnyje aprašoma, kaip naudoti produkto rekomendacijas point of sale (EKA) įrenginyje.
 author: bebeale
-ms.date: 05/26/2020
+ms.date: 09/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 442ae540b04588afd9aeb37a92c6ceb92c05a9ba
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 170e2bf18aefc79a796620818c7100ff8e6e689a
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872804"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460062"
 ---
 # <a name="add-product-recommendations-on-pos"></a>Produktų rekomendacijų įtraukimas į EKA
 
@@ -37,7 +37,7 @@ Produktų rekomendacijas galima naudoti taikant toliau nurodytus EKA scenarijus.
 
 1. Puslapyje **Produkto informacija**:
 
-    - Jeigu parduotuvės atstovas puslapyje **Produkto informacija** apsilanko skirtinguose kanaluose žiūrėdamas į ankstesnes operacijas, rekomendacijų tarnyba siūlo papildomų prekių, kurios gali būti perkamos kartu.
+    - Jei parduotuvė susieja apsilankymus **produkto** informacijos puslapyje, kai jie ieško ankstesnių operacijų skirtinguose kanaluose, rekomendacijų tarnyba siūlo papildomas prekes, kurios tikriausiai bus nupirktos kartu. Priklausomai nuo papildomų paslaugos priedų, mažmenininkai, be pritaikytų rekomendacijų vartotojams, **·** **kurie** turi ankstesnę pirkimo retrospektyvą, gali rodyti rekomendacijas apie panašią parduotuvės išvaizdą ir parduotuvės panašias produkto aprašymo rekomendacijas.
 
     [![Rekomendacijos puslapyje Produkto informacija.](./media/proddetails.png)](./media/proddetails.png)
 
@@ -50,21 +50,17 @@ Produktų rekomendacijas galima naudoti taikant toliau nurodytus EKA scenarijus.
 
     [![Rekomendacijos puslapyje Operacijos.](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-## <a name="configure-commerce-to-enable-pos-recommendations"></a>Konfigūruokite „Commerce“, kad įgalintumėte EKA rekomendacijas
+## <a name="configure-commerce-to-enable-pos-recommendations"></a>Konfigūruokite „Commerce“, kad įgalintumėte EKA rekomendacijas 
 
-Norėdami nustatyti produktų rekomendacijas, atlikite toliau pateikiamus veiksmus.
+Norėdami nustatyti produkto rekomendacijas, patvirtinkite, kad baigėte "Commerce" produktų rekomendacijų parengimo procesą, atlikite veiksmus, nurodytus produkto [rekomendacijose įgalinti](../commerce/enable-product-recommendations.md). Pagal numatytuosius nustatymus, rekomendacijos **rodomos** **ir** produkto informacijos puslapyje, ir kliento informacijos puslapyje po to, kai užbaigsite atidėjimo veiksmus ir duomenys bus sėkmingai parinkti. 
 
-1. Užtikrinkite, kad jūsų tarnyba buvo atnaujinta į **10.0.6 komponavimo versiją.**
-2. Sekite instrukcijas, kaip [įgalinti produktų rekomendacijas](../commerce/enable-product-recommendations.md) jūsų verslui.
-3. Nebūtina: norėdami, kad rekomendacijos būtų rodomos operacijos ekrane, eikite į dalį **Ekrano išdėstymas**, pasirinkite savo ekrano išdėstymą, paleiskite **ekrano išdėstymo kūrimo priemonę**, o po to kur reikia perkelkite **rekomendacijų** valdiklį.
-4. Eikite į **„Commerce“ parametrai**, pasirinkite **Mašininis mokymas** ir skyriuje **Įgalinti EKA rekomendacijas** pasirinkite **Taip**.
-5. Norėdami pamatyti rekomendacijas naudodami EKA, paleiskite visuotinės konfigūracijos užduotį **1110**. Norėdami, kad būtų rodomi EKA ekrano išdėstymo kūrimo priemonei atlikti pakeitimai, paleiskite kanalo konfigūracijos užduotį **1070**.
+## <a name="add-recommendations-to-the-transaction-screen"></a>Rekomendacijų įtraukimas į operacijų ekraną
 
-## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>Trikčių šalinimas, kai funkcija Produktų rekomendacijos jau įjungta
+1. Norėdami pridėti rekomendacijas į operacijų ekraną, atlikite veiksmus, aprašytus [prie operacijos ekrano pridėti rekomendacijas](add-recommendations-control-pos-screen.md).
+1. Norėdami atsižvelgti į EKA ekrano maketo dizaino įrankio pakeitimus, **paleiskite kanalo konfigūravimo 1070** užduotį "Commerce Headquarters".
 
-- Eikite į **„Commerce“ parametrai** \> **Rekomendacijų sąrašai** \> **Išjungti produkto rekomendacijas** ir paleiskite **Bendra konfigūracijos užduotis\[9999\]**. 
-- Jei, naudodami **ekrano maketo dizaino įrankį**, į savo operacijų ekraną įtraukėte **rekomendacijų valdiklį**, jį taip pat pašalinkite.
-- Jei turite papildomų klausimų, norėdami gauti daugiau informacijos peržiūrėkite [Produkto rekomendacijų DUK](../commerce/faq-recommendations.md).
+> [!NOTE] 
+> Jei norite įgalinti EKA rekomendacijas naudodami RecoMock kableliais atskirtų verčių (CSV) failą, prieš konfigūruokite maketo tvarkytuvą, turite įdiegti CSV Microsoft Dynamics failą į ciklo tarnybų (LCS) turto biblioteką. Jei naudojate RecoMock CSV failą, jums nereikia įgalinti rekomendacijų. CSV failas galimas tik demonstraciniu tikslu. Rekomenduojama klientams arba sprendimų architektams, norintiems pateikti parodomųjų sąrašų išvaizdą nepirkant papildomų atsargų saugojimo vieneto (SKU).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

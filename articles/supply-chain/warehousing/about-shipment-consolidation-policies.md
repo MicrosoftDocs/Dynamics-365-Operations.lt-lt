@@ -1,5 +1,5 @@
 ---
-title: Siuntos konsolidacijos strategijos
+title: Siuntos konsolidavimo strategijų peržiūra
 description: Šiame straipsnyje pateikiama funkcijų, kurios suteikia lankstią siuntos konsolidavimo strategijų konfigūraciją, apžvalga.
 author: Mirzaab
 ms.date: 05/12/2020
@@ -13,14 +13,14 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 27f5d52dac2e428655f1b16908ff796ed9d02e82
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7113fc635a7c01e4b9cc44898daa3d2617058b6b
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903904"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427934"
 ---
-# <a name="shipment-consolidation-policies"></a>Siuntos konsolidacijos strategijos
+# <a name="shipment-consolidation-policies-overview"></a>Siuntos konsolidavimo strategijų peržiūra
 
 [!include [banner](../includes/banner.md)]
 
@@ -38,7 +38,7 @@ Prieš įvedant siuntos konsolidacijos strategijas, konsolidacijos funkcija egzi
 
 Užklausos naudojamos norint nustatyti taikomą siuntos konsolidacijos strategiją, o tada redaguojamas laukų rinkinys nurodo, kaip krovinio eilutės sugrupuojamos siuntos lygiu. (Šis šablonas panašus į šabloną, pagal kurį veikia bangos šablonai.) Be to, į kiekvieną strategiją įtraukta parinktis **Konsoliduoti su esamomis siuntomis**. Įjungus šią parinktį, procedūra *Išleisti į sandėlį* randa siuntas konsolidavimui ieškodama esamose siuntose, sukurtose pagal tą pačią konsolidacijos strategiją. Tokiu atveju sistema pasirinks esamą siuntą arba krovinį, o ne kurs naują. Tačiau sistema vykdys konsolidaciją tik su esamomis siuntomis, kurių būsena yra *Atvira*; siuntos, kurios priklauso bangos išleidimui ir kurių būsena yra *Išleista* arba aukštesnė, nebus laikomos konsolidacijos tikslais.
 
-Kai siuntos konsolidacijos strategijos prieinamos, parametras **Konsoliduoti siuntą išleidžiant ją į sandėlį**, kuris anksčiau buvo pasiekiamas nustatymo puslapyje **Sandėliai**, paslepiamas. Kad būtų lengviau pereiti prie naujos siuntos konsolidacijos funkcijos, funkcija puslapyje **Siuntos konsolidacijos strategijos** sukuria numatytąją strategiją, kuri automatiškai įtraukia seną esamų sandėlių parametrą. Sukūrus numatytąją strategiją, į parametrą **Konsoliduoti siuntą išleidžiant ją į sandėlį** nustatymo puslapyje **Sandėliai** nebebus atsižvelgiama.
+Kai jūsų *sistemai įjungta* siuntos konsolidavimo strategijos funkcija, paslėpkite konsoliduoti siuntą išleidžiant į sandėlį parametrą, **·** **kuris anksčiau buvo galimas** sandėlių nustatymo puslapyje. Norėdami pereiti prie naujos siuntos konsolidavimo funkcijos, **siuntos** konsolidavimo strategijų puslapyje galite sukurti numatytąją strategiją, kuri automatiškai įtraukia senus esamų sandėlių nustatymus. Sukūrus numatytąją strategiją, į parametrą **Konsoliduoti siuntą išleidžiant ją į sandėlį** nustatymo puslapyje **Sandėliai** nebebus atsižvelgiama. Daugiau informacijos rasite Siuntos konsolidavimo [strategijų konfigūravimas](configure-shipment-consolidation-policies.md).
 
 Galite naudoti puslapį **Išleisti į sandėlį**, kad galėtumėte neautomatiniu būdu perrašyti taikomą konsolidacijos strategiją taip pat, kaip perrašomos įvykdymo strategijos.
 

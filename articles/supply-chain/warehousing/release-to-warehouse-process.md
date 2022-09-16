@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: c3280b2e39d7af5ca99cad703cad6ecc7b307bff
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: caa38c4ed1c7fb8cf1ead3ba6534f8405a5ff57f
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893184"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428042"
 ---
 # <a name="release-to-warehouse"></a>Išleisti į sandėlį
 
@@ -34,7 +34,7 @@ Krovinys yra pardavimo užsakymo ar perkėlimo užsakymo eilučių, sugrupuotų 
 
 Sandėlio *darbas* yra bet kuri sandėlio operacija, kurią atlieka sandėlio darbuotojas. Paprastai sandėlio darbo operacijas sudaro mažiausiai du veiksmai vienas po kito: sandėlio darbuotojas paima turimas atsargas vienoje vietoje ir tada padeda paimtas atsargas kitoje vietoje.
 
-Paleidus užsakymą į sandėlį, sistema sukuria krovinio eilutes ir *siuntas bei* grupes į siuntas. Siuntos konsolidavimo procesas leidžia automatizuotą siuntos konsolidavimą išleidimo į sandėlį proceso metu. - Norėdami gauti daugiau informacijos, žr. [Siuntų konsolidavimo strategijos](about-shipment-consolidation-policies.md).
+Paleidus užsakymą į sandėlį, sistema sukuria krovinio eilutes ir *siuntas bei* grupes į siuntas. Siuntos konsolidavimo procesas leidžia automatizuotą siuntos konsolidavimą išleidimo į sandėlį proceso metu. Daugiau informacijos ieškokite Siuntos konsolidavimo [strategijų peržiūra](about-shipment-consolidation-policies.md).
 
 Sistema naudoja *bangas*, kad kurdama siuntos paėmimo darbą ir krovinius. Turi būti galimas bangos, kurią norite sukurti, tipo bangos *šablonas ir užsakymo* eilutės sandėlio bangos šablonas. Bangos šablono *Siuntimas* tipas yra naudojamas siekiant siųsti bangos šabloną pardavimo ir perkėlimo užsakymo prekių siuntimui.
 

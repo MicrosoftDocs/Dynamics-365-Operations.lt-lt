@@ -1,5 +1,5 @@
 ---
-title: Produktų, kurių laikymo laikas ribotas, bendrasis planavimas
+title: Produktų, kurių laikymo trukmė ribota, bendrasis planavimas
 description: Šiame straipsnyje aprašoma, kaip nustatyti ir naudoti planavimo priemones, atsižvelgiama į nebaigtų produktų laikymo trukmę.
 author: t-benebo
 ms.date: 08/10/2022
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 95c905cbcc3c057dbccf2b7d6e894b1e99ddfba5
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 68a1ba2bfe90aaf0462917c405d483fa12bf8126
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337360"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428227"
 ---
-# <a name="master-planning-for-products-with-limited-shelf-life"></a>Produktų, kurių laikymo laikas ribotas, bendrasis planavimas
+# <a name="master-planning-for-products-with-limited-shelf-life"></a>Produktų, kurių laikymo trukmė ribota, bendrasis planavimas
 
 [!include [banner](../../includes/banner.md)]
 
@@ -298,8 +298,6 @@ Toliau pateikta iliustracija rodo šio pavyzdžio laiko juostą.
 ![4 pavyzdys: Paprastasis FEFO, laikotarpis, gamybos laikas, priklauso nuo kiekio.](media/fefo-example-4.png "4 pavyzdys: Paprastasis FEFO, laikotarpis, gamybos laikas, priklauso nuo kiekio")
 
 ## <a name="example-5-simple-fefo-requirement-10-negative-days"></a>5 pavyzdys: PaprastasIS FEFO, reikalavimas, 10 neigiamų dienų
-
-<!-- KFM: This is more of a negative days example than a shelf life example. We should point out more explicitly how shelf life affects this situation (or maybe otherwise remove this example). -->
 
 Šis pavyzdys rodo, kaip veikia laikymo trukmė, kai prekei pridedamas daug neigiamų dienų. Neigiamos dienos yra dienų skaičius, kurį norite laukti prieš užsakę prekės, kurios atsargų neigiamas, papildymą. Sistema nesukuria tiekimo, nebent viršijamas neigiamų dienų skaičius.
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c13ecca9523707ef3df5fdb97dc4cbd79478258d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 65467fd9525ae8fb5a65a9316b7307f611fa6e42
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850676"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475618"
 ---
 # <a name="intercompany-planning"></a>Vidinės įmonės planavimas
 
@@ -45,8 +45,8 @@ Jei vykdote pagrindinį planavimą iš pagrindinio plano, kuris apima suplanuot�
 
 Siekiant naudoti vidinės įmonės planavimą, turite parengti savo sistemą tokiu būdu:
 
-1. Atitinkami produktai turi būti išleisti visose atitinkamose įmonėse. Daugiau informacijos rasite [Konfigūruoti ir naudoti vidinės įmonės prekybą „Dynamics 365 Supply Chain Management“](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) „Microsoft Learn” platformoje.
-1. Pagal srovę paklausa turi būti padengta pirkimo formos tiekėjo, kuris turi vidinės įmonės sąsają su pagal srovės įmonę ir atitinkamą numatytojo inventoriaus matmenis (vietą ir sandėlį) klientui. Daugiau informacijos rasite [Konfigūruoti ir naudoti vidinės įmonės prekybą „Dynamics 365 Supply Chain Management“](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) „Microsoft Learn” platformoje.
+1. Atitinkami produktai turi būti išleisti visose atitinkamose įmonėse. Daugiau informacijos ieškokite Vidinės įmonės [prekybos konfigūravimas ir naudojimas Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
+1. Pagal srovę paklausa turi būti padengta pirkimo formos tiekėjo, kuris turi vidinės įmonės sąsają su pagal srovės įmonę ir atitinkamą numatytojo inventoriaus matmenis (vietą ir sandėlį) klientui. Daugiau informacijos ieškokite Vidinės įmonės [prekybos konfigūravimas ir naudojimas Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
 1. Pagrindinis planavimas prieš srovės įmonės turi apimti suplanuotą palei srovės paklausą ir atitinkamą įmonę bei pagrindinis planavimas turi būti nurodytas palei srovės planuose.
 
 ## <a name="include-planned-downstream-demand"></a>Įtraukti proceso pabaigoje suplanuotą poreikį
@@ -85,6 +85,5 @@ Tolesnis paveikslėlis rodo, kaip šis pavyzdys gali būti rodomas **Kelių lygi
 Tolesnis paveikslėlis rodo, kaip šis pavyzdys gali būti rodomas **Kelių lygių fiksavimo** puslapyje suplanuotos gamybos užsakymui.
 
 ![Vidinės įmonės pavyzdys apimantis tris įmones.](media/IntercompanyPlanning2.png)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

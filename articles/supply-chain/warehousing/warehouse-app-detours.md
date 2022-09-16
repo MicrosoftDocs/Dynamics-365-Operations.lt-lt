@@ -2,7 +2,7 @@
 title: Mobiliojo įrenginio meniu elementų aplinkinių veiksmų konfigūravimas
 description: Šiame straipsnyje aprašoma, kaip konfigūruoti meniu elementų elementus, kad darbuotojai galėtų dirbti su dabartine užduotimi, atlikti kitą užduotį, o tada grįžti prie pradinės užduoties neprarasdami jokios informacijos.
 author: Mirzaab
-ms.date: 08/09/2022
+ms.date: 09/01/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
-ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 50f899cd7f28a4b7fd23db5f049de02896e8d8e9
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.dyn365.ops.version: 10.0.30
+ms.openlocfilehash: d8d3d434077fdb145291e2298055f692b78db3d6
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336132"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428069"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Mobiliojo įrenginio meniu elementų aplinkinių veiksmų konfigūravimas
 
@@ -35,8 +35,11 @@ Kad būtų galima konfigūruoti veiksmų apylankas mobiliojo įrenginio meniu el
 
 1. Eikite į **Sistemos administravimas \> Darbo sritys \> Funkcijų valdymas**.
 1. Įsitikinkite, kad *sandėlio programos veiksmo* instrukcijų funkcija jūsų sistemai įjungta. Kaip ir tiekimo grandinės valdymo versija 10.0.29 ši funkcija įjungiama pagal numatytąjį nustatymą. Daugiau informacijos apie *Warehouse programos veiksmų instrukcijų* funkciją žr. [Warehouse Management mobiliosios programos veiksmų pavadinimų ir instrukcijų pritaikymas](mobile-app-titles-instructions.md). Ši funkcija yra būtina *Warehouse Management programos apylankos* sąlyga.
-1. Įjungti sandėlio *valdymo programos de informacijos* funkciją. Ši funkcija yra tokia, kuri aprašyta šiame straipsnyje. Kaip ir tiekimo grandinės valdymo versija 10.0.29, ji įjungta pagal numatytąjį nustatymą.
-1. Jei sandėlio *valdymo programos funkcijų funkcija nebuvo įjungta,* **\>\>\>** **atnaujinkite laukų pavadinimus sandėlio valdymo mobiliųjų įrenginių programoje, nuėję į Sandėlio valdymo nustatymo mobiliojo įrenginio programos laukų pavadinimus** ir pasirinkdami Kurti numatytąjį nustatymą. Pakartokite šį veiksmą su kiekvienu juridiniu subjektu (įmone), kuriame naudojate sandėlio valdymo mobiliąją programą. Daugiau informacijos rasite [Sandėlio valdymo mobiliųjų įrenginių programėlės laukų konfigūravimas](configure-app-field-names-priorities-warehouse.md).
+1. Įjunkite toliau nurodytas funkcijas, kurios suteikia šiame straipsnyje aprašytas funkcijas:
+    - *„Warehouse Management“ programos apėjimas*<br>(Kaip ir tiekimo grandinės valdymo versija 10.0.29, ši funkcija įjungiama pagal numatytąjį nustatymą.)
+    - *„Warehouse Management“ mobiliųjų įrenginių programos kelių lygių apėjimas*
+1. Jei sandėlio *valdymo* programa neveikia ir (*arba) kelių lygių funkcijos sandėlio valdymo mobiliųjų įrenginių funkcijose dar neįjungtos, atnaujinkite laukų pavadinimus sandėlio valdymo mobiliųjų įrenginių programoje pereidami* **į Sandėlio valdymo sandėlio \>\> programų \>** **laukų pavadinimus** ir pasirinkdami Kurti numatytąjį nustatymą. Daugiau informacijos rasite [Sandėlio valdymo mobiliųjų įrenginių programėlės laukų konfigūravimas](configure-app-field-names-priorities-warehouse.md).
+1. Pakartokite ankstesnį veiksmą su kiekvienu juridiniu subjektu (įmone), kuriame naudojate Warehouse Management mobiliąją programą.
 
 ## <a name="configure-a-detour-from-a-menu-specific-override"></a>Konfigūruoti apylanką iš meniu specifinio keitimo
 
@@ -147,3 +150,6 @@ Apylanka dabar yra visiškai sukonfigūruota. Mygtukas pradėti **Judėjimo** ap
 1. Atkreipkite dėmesį, kad licencijos lentelė buvo nukopijuota iš pasirinktos kortelės. Patvirtinkite vertę.
 1. Dabar, norėdami baigti judėjimą, galite vadovautis standartiniu užduočių srautu. Kai darbas baigtas, atidarykite veiksmų meniu ir pasirinkite **Atšaukti**.
 1. Jūs būsite grąžintas į **Vietos užklausos** puslapį. Atkreipkite dėmesį, kad vertės nėra atnaujinamos automatiškai. Todėl turite rankiniu būdu atnaujinti puslapį, kad pamatytumėte perkėlimo pakeitimus.
+
+> [!NOTE]
+> Sandėlio *valdymo* mobiliosios programos funkcijos kelių lygių apibrėžimai leidžia jums nustatyti kelių lygių mokėjimo priemones (deimą), o tai leis darbuotojams peršokti iš esamos darbo vietos du kartus ir vėl grįžti atgal. Ši priemonė palaiko du langelio iššifravimo lygius, o jei reikia, `WHSWorkUserSessionState` sukurdami lentelėje kodo plėtinius galite pritaikyti savo sistemą, kad ji palaikytų tris ar daugiau lygių atsietų.

@@ -11,12 +11,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: a4a36d773e0790747c017dca35492af5caf410ab
-ms.sourcegitcommit: 61be5f43c9678e9f12b4a90410876b4a179ac585
+ms.openlocfilehash: f9d21de3e498b293394835d5cf564899338b9c18
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9427082"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9474021"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>„Commerce Scale Unit“ (debesyje) inicijavimas
 
@@ -73,6 +73,7 @@ Jei naudojate "Tier-2" sandų dėžę arba gamybos aplinką, kurioje yra 8.1.2.x
 | EMEA            | Šiaurės Europa        | Bendrai prieinama    |  Komentarų nėra. |
 | EMEA            | Pietų Jk            | Bendrai prieinama |    Komentarų nėra.                          |
 | EMEA            | UK West             | Bendrai prieinama |    Komentarų nėra.                          |
+| Jae             | JAE Šiaurės           | Ribotas pajėgumas    | Reikalauja patvirtinimo proceso. |
 
 Diegimas ribotuose pajėgumų regionuose yra ypač apribotas. Diegimo užklausos įvertinamos kiekvienu atveju atskirai. Jei turite verslo išteklių, kuriuos reikia įdiegti riboto pajėgumo regionuose, galite pateikti palaikymo užklausą, kurią reikia įtraukti į laukimo sąrašą. Šiuo metu pajėgumų ribotieji sritys šiuo metu neleidžia diegti "Commerce Scale Unit". 
 
