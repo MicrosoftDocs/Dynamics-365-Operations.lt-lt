@@ -12,6 +12,8 @@
               items:
                 - name: Kas nauja ar pasikeitė „Supply Chain Management“ pagrindinis puslapis
                   href: get-started/whats-new-home-page.md
+                - name: „Supply Chain Management 10.0.30“ (2022 m. lapkričio mėn.)
+                  href: get-started/whats-new-scm-10-0-30.md
                 - name: „Supply Chain Management 10.0.29“ (2022 m. spalio mėn.)
                   href: get-started/whats-new-scm-10-0-29.md
                 - name: „Supply Chain Management 10.0.28“ (2022 m. rugpjūčio mėn.)
@@ -1697,9 +1699,9 @@
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
             - name: Atsargų operacijų archyvavimas
               href: inventory/archive-inventory-transactions.md
-            - name: Atsargų matomumo papildinys
+            - name: „Inventory Visibility“ papildinys
               items:
-                - name: Atsargų matomumo papildinio apžvalga
+                - name: „Inventory Visibility“ papildinio apžvalga
                   href: inventory/inventory-visibility.md
                 - name: „Inventory Visibility“ diegimas ir nustatymas
                   href: inventory/inventory-visibility-setup.md
@@ -1715,11 +1717,33 @@
                   href: inventory/inventory-visibility-allocation.md
                 - name: Turimų „Inventory Visibility“ grafikas ir prieinamos atsargos
                   href: inventory/inventory-visibility-available-to-promise.md
-                - name: Atsargų matomumo viešos API
+                - name: „Inventory Visibility“ viešos API
                   href: inventory/inventory-visibility-api.md
-                - name: Patarimai dėl atsargų matomumo
+                - name: „Inventory Visibility“ patarimai
                   href: inventory/inventory-visibility-tips.md
-        - name: IoT įžvalgos
+        - name: Sensor Data Intelligence
+          items:
+            - name: „Sensor Data Intelligence“ pagrindinis puslapis
+              href: sensor-data-intelligence/sdi-home-page.md
+            - name: „Sensor Data Intelligence“ įjungimas jūsų sistemoje
+              href: sensor-data-intelligence/sdi-enable-feature.md
+            - name: „IoT“ sprendimo diegimas „Azure“
+              href: sensor-data-intelligence/sdi-deploy-iot-solution-on-azure.md
+            - name: „Sensor Data Intelligence“ parametrai
+              href: sensor-data-intelligence/sdi-parameters.md
+            - name: Imituojamo jutiklio nustatymas bandymo tikslais
+              href: sensor-data-intelligence/sdi-set-up-simulated-sensor.md
+            - name: Turto prastovos scenarijus
+              href: sensor-data-intelligence/sdi-scenario-asset-downtime.md
+            - name: Turto prastovos priežiūros scenarijus
+              href: sensor-data-intelligence/sdi-scenario-asset-maintenance.md
+            - name: Įrenginio būsenos scenarijus
+              href: sensor-data-intelligence/sdi-scenario-equipment-downtime.md
+            - name: Produkto kokybės scenarijus
+              href: sensor-data-intelligence/sdi-scenario-product-quality.md
+            - name: Gamybos atidėjimų scenarijus
+              href: sensor-data-intelligence/sdi-scenario-production-delays.md
+        - name: „IoT” įžvalgos
           items:
             - name: Pagrindinis IoT įžvalgų puslapis
               href: iot/iot-intelligence-home-page.md
@@ -1940,7 +1964,7 @@
                 - name: Kaštų kontrolė
                   href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Išlaidų valdymas
-                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=/dynamics365/supply-chain/toc.json
                 - name: Turimos atsargos
                   href: inventory/inventory-on-hand-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Sąskaitų faktūrų patvirtinimai
@@ -1948,11 +1972,11 @@
                 - name: Mano komanda
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: „Project“ mobiliųjų programų apžvalga
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=/dynamics365/supply-chain/toc.json
                 - name: Projekto laiko įrašas
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=/dynamics365/supply-chain/toc.json
                 - name: '"Project Timesheet"'
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=/dynamics365/supply-chain/toc.json
                 - name: Pirkimo užsakymo patvirtinimas
                   href: procurement/purchase-order-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Pardavimo užsakymai
@@ -3463,7 +3487,7 @@
                       href: warehousing/small-parcel-shipping.md
                 - name: Siuntos konsolidacijos strategijos
                   items:
-                    - name: Siuntos konsolidacijos strategijos
+                    - name: Siuntos konsolidacijos strategijos apžvalga
                       href: warehousing/about-shipment-consolidation-policies.md
                     - name: Siuntos konsolidacijos strategijų konfigūravimas
                       href: warehousing/configure-shipment-consolidation-policies.md

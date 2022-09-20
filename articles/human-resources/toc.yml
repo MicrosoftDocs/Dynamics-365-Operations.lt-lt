@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Kas nauja ar pasikeitė „Human Resources”
               items:
+                - name: DUK apie „Human Resources 10.0.30“ (sujungta infrastruktūra)
+                  href: ./get-started/whats-new-changed-10-0-30.md
                 - name: DUK apie „Human Resources 10.0.29“ (sujungta infrastruktūra)
                   href: ./get-started/whats-new-changed-10-0-29.md
                 - name: DUK apie „Human Resources 10.0.28“ (sujungta infrastruktūra)
@@ -478,6 +480,8 @@
               href: hr-personnel-modify-reporting-relationships-position.md
             - name: Supaprastintas darbuotojo duomenų įvedimas
               href: stream-employee-entry.md
+            - name: Antraštės valdiklio pritaikymas asmeniniams poreikiams
+              href: hr-worker-header-control.md
             - name: Darbininko informacijos įvedimas
               href: hr-personnel-enter-worker-information.md
             - name: Neįdarbinti darbininkai

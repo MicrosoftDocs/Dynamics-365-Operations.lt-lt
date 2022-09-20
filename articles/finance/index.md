@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9299a0ef4def8a41620ada24e8b13d7b41ed7cb7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a51a601f6e283c5f6d7298b1cf342056707ebbb8
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887896"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475589"
 ---
 # <a name="finance-home-page"></a>„Finance“ pagrindinis puslapis
 
@@ -41,7 +41,7 @@ Pasirinkite funkcijų sritį, apie kurią norite sužinoti daugiau.
         - [Kaštų apskaita](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [Finansinės ataskaitos](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
+        - [Finansinės ataskaitos](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [Ilgalaikis turtas](fixed-assets/fixed-assets.md)
         - [Finance insights](finance-insights/finance-insights-home-page.md)
         - [Didžioji knyga ir finansinės ataskaitos](general-ledger/general-ledger.md) 
@@ -64,7 +64,7 @@ Peržiūrėkite mokomuosius vaizdo įrašus, kuriuos dabar galite rasti [„Micr
 
 ### <a name="countryregion-functionality"></a>Konkrečioms šalims / regionams skirtos funkcijos
 
-Šalies/regiono įstatymai turi įtakos mokesčių sąrankai ir kitoms finansų valdymo sritims. Norėdami sužinoti apie konkrečioms šalims/regionams skirtas funkcijas, žr. [Lokalizavimo ir reguliavimo priemonės](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json).
+Šalies/regiono įstatymai turi įtakos mokesčių sąrankai ir kitoms finansų valdymo sritims. Norėdami sužinoti apie konkrečioms šalims/regionams skirtas funkcijas, žr. [Lokalizavimo ir reguliavimo priemonės](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json).
 
 ### <a name="additional-content"></a>Papildomas turinys
 
@@ -80,6 +80,6 @@ Informaciją apie pirkimo, atsargų ir gamybos pajėgumus žr. [pagrindiniame �
 
 ## <a name="elearning-courses"></a>El. mokymosi kursai
 
-Internetinių kursų ir mokymų ieškokite [„Dynamics 365 Finance“, adresu Microsoft Learn](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
+Internetinių kursų ir mokymų ieškokite [„Dynamics 365 Finance“ mokomojoje medžiagoje](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
