@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b611abb2d68d93178d0c26ba40b22f1b8d26b191
-ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
+ms.openlocfilehash: c55d0891ed37d63f89ee09759965ac443db20dc6
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9203116"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542250"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Mokesčių funkcijų palaikymas perkėlimo užsakymams
 
@@ -63,7 +63,7 @@ Norėdami nustatyti su perkėlimo užsakymu susijusių mokesčių, atlikite šiu
         7. Pasirinkite **Įrašyti**.
         
         Sukurkite mokesčio kodą **„BE-RC+21“**.
-        1. Pasirinkite **Pridėti**, įveskite **„BE-RC-21“** PVM kodo **lauke**.
+        1. Pasirinkite **Įtraukti**, įveskite **BE-RC+21** mokesčio **kodo** lauke.
         2. Pasirinkite **pagal grynąją** sumą mokesčio **komponento** lauke.
         3. Pasirinkite **Įrašyti**.
         4. Pasirinkite **Įtraukti** **Reitingavimo** lentelėje.

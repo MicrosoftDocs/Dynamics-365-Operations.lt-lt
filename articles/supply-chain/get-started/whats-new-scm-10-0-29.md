@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 316650de19d3275f2c60c79c10d6ac8a8c79e1aa
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
-ms.translationtype: HT
+ms.openlocfilehash: 5a87fb4ac2d01ef3b188b63dfc98bcfac2daf033
+ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9427880"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9520756"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10029-october-2022"></a>Peržiūros versija Dynamics 365 Supply Chain Management 10.0.29 (2022 m. spalis)
 
@@ -35,7 +35,7 @@ Tolesnėje lentelėje pateiktos funkcijos, kuri yra šiame leidime. Mes galime a
 | Funkcijos sritis | Funkcija | Daugiau informacijos | Įjungė   |
 |---|---|---|---|
 | Atsargos ir logistika | [Paskirstyti ir rezervuoti WMS prekes atsargų matomume](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/allocate-reserve-whs-items-inventory-visibility) | Jau greitai | Įgalinta pagal numatytuosius nustatymus |
-| Atsargos ir logistika | [Iš anksto įkelti supaprastintą turimų atsargų sąrašus](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | Jau greitai | Įgalinta pagal numatytuosius nustatymus |
+| Atsargos ir logistika | [Iš anksto įkelti supaprastintą turimų atsargų sąrašus](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | [Naudokite programą „Inventory Visibility“](../inventory/inventory-visibility-power-platform.md) | Įgalina aptarnavimo konfigūracija |
 | Tiekimo automatizavimas pagal užsakymą | [Tiekimo automatizavimas pagal užsakymą](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-to-order-supply-automation) | [Tiekimo automatizavimas pagal užsakymą](../master-planning/make-to-order-supply-automation.md) | Priemonių valdymas:<br>*Tiekimo automatizavimas pagal užsakymą* |
 | Planuojama | [Peržiūrėti ir taikyti išsamias DDMRP žinias](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/view-apply-detailed-insights-ddmrp) | [Poreikio valdomas medžiagų poreikių planavimo peržiūra](../master-planning/planning-optimization/ddmrp-overview.md) | Priemonių valdymas:<br>*(Peržiūros versija) Planavimo optimizavimo DDMRP* |
 | Gamybos kontrolė | [Padarykite užbaigtas prekes fiziškai prieinamas prieš paskelbdami žurnaluose](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-finished-goods-physically-before-posting) | [Padarykite užbaigtas prekes fiziškai prieinamas prieš paskelbdami žurnaluose](../production-control/deferred-posting.md) | Priemonių valdymas:<br>*(Peržiūros versija) Padarykite užbaigtas prekes fiziškai prieinamas prieš paskelbdami žurnaluose* |
@@ -49,7 +49,7 @@ Jei norite įjungti arba išjungti bet kurią iš šių priemonių, tai turite a
 
 | Modulis | Funkcijos pavadinimas funkcijos valdyme | Daugiau informacijos |
 |---|---|---|
-| Kaštų valdymas | Sudėties produkto laukiančios kainos skaičiavimo optimizavimas | Ši priemonė ištaiso nesuderinamumą, kuris kartais gali įvykti, kai sudėtiniame produkte kainos apskaičiuojamos naudojant keletą gijų. Dėl to sistema užtikrina, kad kiekviena sudėtijo produkto kaina būtų skaičiuojama tik vieną kartą. Tada šio skaičiavimo rezultatas naudojamas kaip visų kitų skaičiavimų įvestis. Jei laukiama kaina jau yra, naudojama ši kaina. |
+| Kaštų valdymas | Bendrojo produkto optimizavimas laukia kainos apskaičiavimo | Ši priemonė ištaiso nesuderinamumą, kuris kartais gali įvykti, kai sudėtiniame produkte kainos apskaičiuojamos naudojant keletą gijų. Dėl to sistema užtikrina, kad kiekviena sudėtijo produkto kaina būtų skaičiuojama tik vieną kartą. Tada šio skaičiavimo rezultatas naudojamas kaip visų kitų skaičiavimų įvestis. Jei laukiama kaina jau yra, naudojama ši kaina. |
 | Bendrasis planavimas | Planavimo optimizavimo grupės operacijos | Ši funkcija gali padėti sumažinti suplanuotų užsakymų, sugeneruotų siekiant pateikti vieną pardavimo užsakymo eilutę, skaičių, kai naudojate planavimo optimizavimą. Kai ši funkcija įjungta, planavimo optimizavimas visas užsakymo eilutės atsargų operacijas sugrupuos į vieną viso kiekio reikalavimą. (Šis veikimo būdas atitinka įtaisyto planavimo modulio veikimo būdą.) Tiekimas ir poreikis grupuojami atskirai. Todėl priemonė padeda sumažinti operacijos apimtį, kai skaidote operacijas ir kai naudojate dimensijas (pvz., paketo numerius ar serijos numerius), kurios nėra padengimo dimensijos. |
 | Paraiškos | Sulaikyti tiekėją pirkimo užsakymams | Ši funkcija leidžia sulaikyti tiekėją pirkimo užsakymams. Jis įtraukia naują pirkimo užsakymo sulaikymas *tipą*, kuris pažymi pirkimo užsakymų tiekėją kaip sulaikytą. Negalėsite sukurti naujų pirkimo užsakymų tiekėjams, kurie sulaikyti pirkimo užsakymams, bet vis tiek galėsite toliau tęsti bet kokias atviras SF arba mokėjimus tiems tiekėjams. |
 | Pardavimas ir rinkodara | Skaičiuoti eilutės grynąją sumą importuojant | Ši funkcija leidžia kontroliuoti, *ar* sistema turi perskaičiuoti eilučių *sumas*, kai importuojate duomenis naudodami pardavimo užsakymo eilutes, *pardavimo* pasiūlymo eilutes ar grąžinimo užsakymo eilučių objektą, naudodami OData ar dvigubo rašymo funkciją. Jis veikia tik **tada**, kai taip pat turite prekybos sutarties vertinimo strategijų, kurios apriboja pardavimo užsakymo eilučių, pardavimo pasiūlymo eilučių ir (arba) grąžinimo užsakymų eilučių grynosios sumos lauko pakeitimus. Jis įtraukia parametrą, vadinamą **Skaičiuoti eilutės grynąją** **sumą į gautinų sumų nustatymo >, > parametrų** puslapyje. Kai šis parametras nustatytas kaip *Taip*, sistema, kai reikės, visada perskaičiuos eilučių sumas (tokiu būdu neatsižvelgdama į bet kokią eilutės grynosios sumos prekybos sutarties vertinimo strategiją). Kai parametras *nustatytas* kaip Ne, sistema niekada automatiškai apskaičiuos grynąją eilutės sumą, net jei įeinant į eilutės kainą, kiekį ir (arba) nuolaidą būtų galima perskaičiuoti eilutės grynąją sumą. Numatyta, kad ši funkcija įgalinta, o pirmiausia nustato **Eilutės grynosios sumos skaičiavimo** reikšmę *Taip*. *Parametras* Atitinka sistemos veikimo būdą prieš 10.0.23 versiją ir pateiktas iš anksto, kad palaiky būtų palaikomi senesni integravimo scenarijai.<br><br>Daugiau informacijos rasite eilutės [grynųjų sumų perskaičiavimą importuojant pardavimo užsakymus, pasiūlymus ir grąžinimus](../sales-marketing/calc-line-net-amounts-import.md). |

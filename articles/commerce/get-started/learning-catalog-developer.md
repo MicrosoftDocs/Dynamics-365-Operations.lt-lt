@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 0d1b018557cb576f8cc50000b86c5baabc738e44
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: 4334c147dc2ae1f55e9af13bec7eaf6143f26c9c
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9423918"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9538949"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-developers"></a>„Dynamics 365 Commerce“ kūrėjų mokymosi katalogas
 
@@ -31,13 +31,13 @@ Su kitomis finansų ir operacijų programėle bendrai naudojamų priemonių ieš
 
 | Turinys | Aprašymas | Formatas | Ilgis |
 |---------|-------------|--------|--------|
-| [Darbo su „Dynamics 365 Commerce“ pradžia](/learn/paths/get-started-dynamics-365-commerce/)                                                              | „Dynamics 365 Commerce“, paremtas patikrintomis „Dynamics 365 Retail“ galimybėmis, pristato išsamų daugiakanalį sprendimą, vienijantį operacijų skyrių, parduotuvę, skambučių centrą ir skaitmeninę patirtį. „Dynamics 365 Commerce“ leidžia jums sukurti prekės ženklo lojalumą per personalizuotą kliento įtraukimą, padidinti pajamas su pagerintu darbuotojo produktyvumu, optimizuoti operacijas išlaidų sumažinimui ir vykdyti tiekimo grandinės efektyvumą, galiausiai gauti geresnius verslo rezultatus. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 2 valandos   |
-| [Darbo su „Dynamics 365 Fraud Protection“ pradžia](/learn/modules/get-started-fraud-protection/)| „Dynamics 365 Fraud Protection“ yra debesimi pagrįstas sprendimas sukurtas el. prekybai, plytų ir skiedinio parduotuvėms ir vieno kanalo prekeiviams siekiant padėti apsaugoti jų pajamas ir reputaciją suteikiant įrankius ir galimybes mažinti apgaulę ir piktnaudžiavimą, sumažinti operacines išlaidas ir padidinti priimamus mokesčius, taip apsaugant naudotojų paskyras nuo apgaulės poveikio. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 35 minučių |
+| [Darbo su „Dynamics 365 Commerce“ pradžia](/training/paths/get-started-dynamics-365-commerce/)                                                              | „Dynamics 365 Commerce“, paremtas patikrintomis „Dynamics 365 Retail“ galimybėmis, pristato išsamų daugiakanalį sprendimą, vienijantį operacijų skyrių, parduotuvę, skambučių centrą ir skaitmeninę patirtį. „Dynamics 365 Commerce“ leidžia jums sukurti prekės ženklo lojalumą per personalizuotą kliento įtraukimą, padidinti pajamas su pagerintu darbuotojo produktyvumu, optimizuoti operacijas išlaidų sumažinimui ir vykdyti tiekimo grandinės efektyvumą, galiausiai gauti geresnius verslo rezultatus. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 2 valandos   |
+| [Darbo su „Dynamics 365 Fraud Protection“ pradžia](/training/modules/get-started-fraud-protection/)| „Dynamics 365 Fraud Protection“ yra debesimi pagrįstas sprendimas sukurtas el. prekybai, plytų ir skiedinio parduotuvėms ir vieno kanalo prekeiviams siekiant padėti apsaugoti jų pajamas ir reputaciją suteikiant įrankius ir galimybes mažinti apgaulę ir piktnaudžiavimą, sumažinti operacines išlaidas ir padidinti priimamus mokesčius, taip apsaugant naudotojų paskyras nuo apgaulės poveikio. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 35 minučių |
 
 ## <a name="commerce"></a>„Commerce”<a name="commerce"></a>
 
 | Turinys | aprašymas | Formatuoti | Ilgis |
 |---------|-------------|--------|--------|
-| [„Dynamics 365 Commerce“ diegimas ir išplėtimas](/learn/paths/deploy-dynamics-365-commerce/) | Šis mokymosi kelias aprašo, kaip diegti „Dynamics 365 Commerce“ aplinkas ir vykdyti etapą po įgalinimo žingsnių sėkmingam prekybos įgyvendinimui naudojant tinkamą topologiją visų prekybininkų skirtingiems verslo poreikiams. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi kelias | 5 valandos |
+| [„Dynamics 365 Commerce“ diegimas ir išplėtimas](/training/paths/deploy-dynamics-365-commerce/) | Šis mokymosi kelias aprašo, kaip diegti „Dynamics 365 Commerce“ aplinkas ir vykdyti etapą po įgalinimo žingsnių sėkmingam prekybos įgyvendinimui naudojant tinkamą topologiją visų prekybininkų skirtingiems verslo poreikiams. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi kelias | 5 valandos |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

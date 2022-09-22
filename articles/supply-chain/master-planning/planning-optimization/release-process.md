@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 5e8b4ab74bf973a131499799efa66e9c7fe9d5be
-ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
+ms.openlocfilehash: 2f91c46367ee2f881476a496555f15454c9f6baa
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9404442"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542326"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Planavimo optimizavimo išleidimo procesas ir išleidimo retrospektyva
 
@@ -30,6 +30,8 @@ Atnaujinant Planavimo optimizavimą, pagrindinis planavimas gali veikti lėčiau
 Aplinkos, kurios naudoja Planavimo optimizavimą, automatiškai gauna naujausią leidimą. Nereikia jokio vartotojo veiksmo: paslauga atnaujinama automatiškai. Tačiau kai kurie lūžio pakeitimo funkcionalumai nevisada automatiškai įstūmiami į aplinkas. Pagal numatytuosius nustatymus visi pakeitimai, kurie laikomi lūžio atveju, yra išjungiami ir turi būti aiškiai įjungti naudojant [priemonių valdymą](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Todėl šie pakeitimai nebus rodomi aplinkose, kol nepasirinksite juos įgalinti.
 
 Kadangi atnaujinant Planavimo optimizavimą jūsų aplinkoje pranešimai nerodomai, todėl norėdami nustatyti, kada buvo išleisti pakeitimai ir kokią funkciją jie turi, galite peržiūrėti toliau pateiktoje lentelėje pateiktas išleidimo pastabas. Šioje lentelėje pateikiami keitimai, kurie buvo išleisti Planavimo optimizavimui, neatsižvelgiant į tai, ar šie pakeitimai yra susieti su funkcijų valdymo priemone, ir paleidimo data.
+
+<!-- KFM: Add this? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> 
 
 | Pakeitimai | Funkcijų valdymo duomenys | Išleidimo datos |
 |---|---|---|

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 633daba553b1544c2caa788f4cec1da4c1da6960
-ms.sourcegitcommit: 7af116c60f3a94671a7a80c04097d70180754930
+ms.openlocfilehash: f9c85c4fbcc3c66d6cc4c65431b76c31cbb7aebf
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9347295"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542358"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planavimo optimizavimo tinkamumo analizė
 
@@ -62,7 +62,7 @@ Tolesnėje lentelėje pateikiami skirtingi rezultatai, rodomi po tinkamumo anali
 | --- | --- | --- | --- |
 | Veiksmai | Padengimo grupės su veiksmų skaičiavimu įjungtos: *\#* | Dabar ši funkcija yra palaikoma. | Palaikoma |
 | Pagrindiniai kalendoriai | Kalendoriai, naudojantys pagrindinį kalendorių: *\#* | Dabar ši funkcija yra palaikoma. | Palaikoma | 
-| Paketo perdavimo kodai | Neaktyvaus pagrindinio paketo perdavimas:*\#* | Ši funkcija laukia patvirtinimo. Šiuo metu paketo perdavimo kodai nepaisomi, kai įjungtas planavimo optimizavimas. | 2022 išleidimo banga 2 |
+| Paketo perdavimo kodai | Neaktyvaus pagrindinio paketo perdavimas:*\#* | Ši funkcija laukia patvirtinimo. Šiuo metu paketo perdavimo kodai nepaisomi, kai įjungtas planavimo optimizavimas. | 2022 išleidimo banga 2 <!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> |
 | Galimos pateikti atsargos (CTP) | Numatytieji užsakymo parametrai su pristatymo datos valdymu, nustatytu į CTP: *\#* | Tiekimo grandinės valdymo 10.0.28 ir naujesnio proceso, kuris vadinamas CTP *planavimo optimizavimui,* leidžia patvirtinti siuntimo ir gavimo datas po dinaminio plano vykdymo. Senesnių tiekimo grandinės valdymo versijų senesnio CTP parametro nepaisoma, kai įgalintas planavimo optimizavimas. | Palaikoma |
 | Kopijuoti statinį į dinaminį planą | Kopijavimas statinio į dinaminį planą yra įjungtas bendrojo planavimo parametruose. | Planavimo optimizavimas nekopijuoja statinio plano į dinaminį planą, neatsižvelgiant į šį parametrą. Paprastai ši koncepcija yra mažiau aktuali dėl planavimo optimizavimo teikiamo greičio ir visiško regeneravimo. Jei naudojami du ar daugiau planų, turėtų būti suaktyvintas kiekvieno plano bendrasis planavimas. | Netaikoma |
 | Patvirtinimas | Padengimo grupės su nustatyta automatinio patvirtinimo laiko riba:*\#* | 10.0.7 ar vėlesnėje versijoje patvirtinimas palaikomas kaip atskira patvirtinimo paketinė užduotis po to, kai bendrasis planavimas yra baigtas (jei [funkcijų valdyme](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) įjungta funkcija *Automatinis planavimo optimizavimo patvirtinimas*). Atkreipkite dėmesį, kad automatinis planavimo optimizavimo patvirtinimas yra pagrįstas užsakymo data (pradžios data), o ne poreikio data (pabaigos data). Taip užtikrinama, kad suplanuotų užsakymų patvirtinimas įvyktų laiku, tačiau į patvirtinimo laiko ribą nereikia įterpti gamybos laiko. | Palaikoma |

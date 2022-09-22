@@ -2,7 +2,7 @@
 title: Atnaujinimo procesas
 description: „Microsoft Dynamics 365 Human Resources“ yra tipiška programinės įrangos nuomos paslauga („SaaS“), teikianti nepertraukiamus, bekontakčius paslaugų naujinimus, skirtus programai ir platformai keisti.
 author: twheeloc
-ms.date: 09/01/2020
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 25889f9d4a7ffb4f155b7b7c12ec3b21a44a4710
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
+ms.openlocfilehash: 71815866ef9674f317b7f08ecf2a65b465ddfff3
+ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178450"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9520816"
 ---
 # <a name="update-process"></a>Atnaujinimo procesas
 
 _**Taikoma:** žmogiškieji ištekliai autonominėje infrastruktūrose_ 
 
 > [!NOTE]
-> Nuo 2022 m. liepos mėn. naujų personalo aplinkos negali būti sukurtos atskiras personalo infrastruktūrą ir Microsoft Dynamics naujus ciklo tarnybų (LCS) projektus. Klientai gali įdiegti personalo aplinkas finansų ir operacijų infrastruktūrose. Daugiau informacijos ieškokite Finansų [ir operacijų infrastruktūros personalo parengimas](/hr-admin-setup-provision-fo.md).
+> Nuo 2022 m. liepos mėn. naujų personalo aplinkos negali būti sukurtos atskiras personalo infrastruktūrą ir Microsoft Dynamics naujus ciklo tarnybų (LCS) projektus. Klientai gali įdiegti personalo aplinkas finansų ir operacijų infrastruktūrose. Daugiau informacijos ieškokite Finansų [ir operacijų infrastruktūros personalo parengimas](hr-admin-setup-provision-fo.md).
 
 > [!IMPORTANT]
-> Finansų ir operacijų programos infrastruktūros naujinimo ir karštųjų pataisų procesas skiriasi nuo autonominio personalo naujinimo ir karštųjų pataisų proceso. Daugiau informacijos apie atnaujinimo procesą ieškokite Procesas, [skirtas pereiti prie vėliausio finansų ir operacijų naujinimo](../fin-ops-core/dev-itpro/migration-upgrade/upgrade-latest-update.md). Norėdami gauti daugiau informacijos apie karštąsias pataisas, [žr. atsisiuntimo naujinimus iš ciklo tarnybų (LCS)](/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs.md). 
+> Finansų ir operacijų programos infrastruktūros naujinimo ir karštųjų pataisų procesas skiriasi nuo autonominio personalo naujinimo ir karštųjų pataisų proceso. Daugiau informacijos apie atnaujinimo procesą ieškokite Procesas, [skirtas pereiti prie vėliausio finansų ir operacijų naujinimo](../fin-ops-core/dev-itpro/migration-upgrade/upgrade-latest-update.md). Norėdami gauti daugiau informacijos apie karštąsias pataisas, [žr. atsisiuntimo naujinimus iš ciklo tarnybų (LCS).](/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs.md) 
 
 „Microsoft Dynamics 365 Human Resources“ yra puiki programinės įrangos nuomos paslauga („SaaS“), teikianti nepertraukiamus, bekontakčius paslaugų naujinimus. Šiuose naujinimuose yra programos ir platformų keitimų, kurie dažnai teikia esminius paslaugų pagerinimus, įskaitant reguliavimo naujinimus.
 

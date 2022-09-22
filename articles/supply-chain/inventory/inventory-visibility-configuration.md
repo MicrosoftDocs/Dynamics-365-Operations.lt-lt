@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8d8fe042d7c56b86a5a7c92cc24480f573a2ea8a
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: 61819d9c5af64b58697e07be85beebc084ae5935
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9423575"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542292"
 ---
 # <a name="configure-inventory-visibility"></a>„Inventory Visibility“ konfigūravimas
 
@@ -53,6 +53,7 @@ Atsargų matomumo priedas prie jūsų diegimo prideda keletą naujų „Power Ap
 |---|---|
 | *OnHandReservation* | Ši funkcija leidžia kurti rezervavimus, naudoti rezervavimus ir (arba) nereservuoti nurodytų atsargų kiekių naudojant atsargų matomumą. Dėl daugiau informacijos, žr. [Inventoriaus matomumo rezervavimas](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | Ši priemonė pateikia produktų atsargų suvestinę kartu su visomis dimensijomis. Atsargų suvestinės duomenys bus periodiškai sinchronizuojami pagal atsargų matomumą. Numatytasis sinchronizavimo dažnumas yra vienas po 15 minučių ir gali būti nustatytas kaip didelis kas 5 minutes. Daugiau informacijos ieškokite Atsargų [suvestinė](inventory-visibility-power-platform.md#inventory-summary). |
+| *onHandIndexQueryPreloadBackgroundService* | Ši funkcija leidžia iš anksto įkelti turimų atsargų matomumo užklausas, kad būtų galima surinkti turimų atsargų sąrašus su iš anksto pasirinktomis dimensijomis. Numatytasis sinchronizavimo dažnumas yra kas 15 minučių. Daugiau informacijos ieškokite Atsargų [suvestinė.](inventory-visibility-power-platform.md#preload-the-inventory-visibility-onhand-query) |
 | *OnhandChangeSchedule* | Ši pasirinktinė priemonė įgalina turimo atsargų pakeitimo grafiką ir prieinamų atsargų (ATP) priemones. Daugiau informacijos rasite atsargų matomumo [turimų atsargų keitimo grafike ir prieinamose atsargose](inventory-visibility-available-to-promise.md). |
 | *Paskirstymas* | Ši pasirinktinė funkcija leidžia atsargų matomumui apsaugoti (žiedinis) ir perpardavimo valdymas. Daugiau informacijos rasite atsargų [matomumo atsargų paskirstyme](inventory-visibility-allocation.md). |
 | *Įgalinti sandėlio prekes atsargų matomumo skiltyje* | Ši pasirinktinė funkcija įgalina atsargų matomumą palaikyti prekes, kurios įgalintos sandėlio valdymo procesuose (WMS). Daugiau informacijos ieškokite WMS [prekių atsargų matomumo palaikymas](inventory-visibility-whs-support.md). |

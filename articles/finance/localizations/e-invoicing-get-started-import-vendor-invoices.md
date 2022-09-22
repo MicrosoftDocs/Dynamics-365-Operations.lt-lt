@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 10.0.12
 ms.custom: 97423,  ""intro-internal
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: c98f33345b37a72c4099f01e37c82e27002ac687
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0195dc528f2fe6bf62efbf03f8706ea90f4a4fc4
+ms.sourcegitcommit: a5a4c45bb265758c6e5c3483c8552503b1799a89
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9283152"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524751"
 ---
 # <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Elektroninių SF išrašymo paslaugos naudojimas tiekėjo sąskaitoms faktūroms importuoti
 
@@ -107,7 +107,8 @@ Norėdami nustatyti skirtingus tiekėjo SF importavimo tipus, atlikite veiksmus,
 2. Pasirinkite **Kliento SF konteksto modelį** ir tada rinkitės **Kurti konfigūraciją** > **Išvesti iš vardo: Kliento SF konteksto modelis, „Microsoft“** tam, kad sukurtumėte išvestą konfigūravimą.
 3. Versijoje **Šablonas** rinkitės **Kūrėjas** ir medyje **Duomenų modelio** pasirinkite **Susieti modelį su duomenų šaltiniu**.
 4. Medyje **Aprašai** pasirinkite **Duomenų kanalas** ir pasirinkite **Konstruktorius**.
-5. **Duomenų šaltinių** medyje išplėskite duomenų **$Context\_Kanalas** konteinerį. Vertės **lauke** pasirinkite Redaguoti ir įveskite duomenų kanalo **pavadinimą**. Kanalas įveskite NFe (kanalo pavadinimą, nurodytą RCS elektroninių SF išrašymo priemonės duomenų kanalo konfigūracijoje). 
+5. **Duomenų šaltinių** medyje išplėskite duomenų **$Context\_Kanalas** konteinerį. 
+6. Vertės lauke **pasirinkite** Redaguoti **formulę** > **ir** įveskite duomenų kanalo pavadinimą. Kanalas įveskite NFe (kanalo pavadinimą, nurodytą RCS elektroninių SF išrašymo priemonės duomenų kanalo konfigūracijoje). 
 7. Pasirinkite **Išsaugoti** ir uždarykite puslapį.
 8. Uždarykite puslapį.
 9. Pasirinkite išvestinį konfigūravimą, kurį ką tik sukūrėte iš **kliento SF konteksto modelio** „FastTab“ **Versijos** pasirinkite **Keisti būseną** > **baigta**.
