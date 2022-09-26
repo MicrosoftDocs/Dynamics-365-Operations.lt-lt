@@ -18,8 +18,6 @@
                   href: get-started/whats-new-commerce-10-0-29.md
                 - name: „Commerce 10.0.28“ (2022 m. liepos mėn.)
                   href: get-started/whats-new-commerce-10-0-28.md
-                - name: „Commerce 10.0.27“ (2022 m. liepos mėn.)
-                  href: get-started/whats-new-commerce-10-0-27.md
             - name: Pašalintos arba nerekomenduojamos funkcijos
               items:
                 - name: 'Pašalintos arba nerekomenduojamos funkcijos, pagrindinis puslapis'
@@ -1384,10 +1382,12 @@
               href: store-performance-information.md
             - name: 'Naujumo, dažnumo ir piniginės (RFM) analizės nustatymas'
               href: set-up-rfm-analysis.md
-            - name: „Microsoft Clarity“ nustatymas „Dynamics 36 Commerce“
+            - name: „Microsoft Clarity“ nustatymas „Dynamics 365 Commerce“
               href: set-up-clarity.md
-        - name: Globalizacija
+        - name: Globalization Studio
           items:
+            - name: „Globalization Studio“ apžvalga
+              href: ../finance/localizations/globalization-studio-overview.md?context=/dynamics365/context/commerce
             - name: „Commerce“ kanalo fiskalinės integracijos peržiūra
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: „Commerce“ kanalo fiskalinės integracijos nustatymas

@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-29.md
                 - name: "Platformos naujinimai, skirti 10.0.28 versijai (2022\_m. rugpjūčio mėn.)"
                   href: get-started/whats-new-platform-updates-10-0-28.md
-                - name: "Platformos naujinimai, skirti 10.0.27 versijai (2022\_m. liepos mėn.)"
-                  href: get-started/whats-new-platform-updates-10-0-27.md
             - name: Pašalintos arba nerekomenduojamos funkcijos
               items:
                 - name: 'Pašalintos arba nerekomenduojamos funkcijos, pagrindinis puslapis'
@@ -510,6 +508,8 @@
                   href: dev-tools/access-instances.md
                 - name: Vieno bloko programavimo aplinkų konfigūravimas
                   href: dev-tools/configure-developer-vm.md
+                - name: Vieno bloko programavimo aplinkų apsaugojimas
+                  href: dev-tools/secure-developer-vm.md
                 - name: 'DUK apie kūrimo ir komponavimo VM, nesuteikiančias administravimo prieigos'
                   href: sysadmin/VMs-no-admin-access.md
                 - name: Nustatyti atsisiunčiamą VHD pirmam naudojimui
