@@ -1624,8 +1624,6 @@
                   href: sysadmin/security-reports.md
                 - name: Naujų vartotojų kūrimas
                   href: sysadmin/tasks/create-new-users.md
-                - name: Vartotojo seanso valdymas
-                  href: sysadmin/user-session-management.md
                 - name: Prieigos blokavimas pagal vietą su „Azure AD“ sąlygine prieiga
                   href: /power-platform/admin/restrict-access-online-trusted-ip-rules?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
                 - name: Masinis vartotojų importavimas

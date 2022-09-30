@@ -1801,9 +1801,11 @@
                   href: master-planning/planning-optimization/production-planning.md
                 - name: 'Produktų, kurių laikymo trukmė ribota, bendrasis planavimas'
                   href: master-planning/planning-optimization/shelf-life.md
-                - name: Planavimas su neribotu pajėgumu
+                - name: Grafiko sudarymas su neribotu pajėgumu
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
-                - name: Planavimas su išteklių pasirinkimu pagal pajėgumą
+                - name: Riboto pajėgumo planavimas ir tvarkaraščio sudarymas
+                  href: master-planning/planning-optimization/finite-capacity.md
+                - name: Tvarkaraščio sudarymas su išteklių pasirinkimu pagal pajėgumą
                   href: master-planning/planning-optimization/capability-based-scheduling.md
                 - name: Prioritetu grindžiamas planavimas
                   href: master-planning/planning-optimization/priority-based-planning.md
