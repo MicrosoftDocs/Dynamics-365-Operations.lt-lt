@@ -16,18 +16,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2022-00-02
 ms.dyn365.ops.version: AX 10.0.29
-ms.openlocfilehash: 365316b204b6d76fa6ee6b2402fefee50c8ff3ef
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 3ac4af8c131e35d9a499d0d558c7cce1d4872b37
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220717"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573284"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-france"></a>Pradėti naudoti Prancūzijos elektroninių SF išrašymo priedą
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Šiame straipsnyje pateikiama informacija, kuri padės jums pradėti nuo Prancūzijos elektroninių SF išrašymo. Tai padės jums atlikti konfigūravimo veiksmus, kurie priklauso nuo šalies kontrolės konfigūracijos tarnybos (RCS). Šie veiksmai papildo veiksmus, aprašytus dalyje [Darbo pradžia, naudojant elektroninės SF išrašymo priedą](e-invoicing-get-started.md).
 

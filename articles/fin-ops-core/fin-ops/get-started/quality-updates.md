@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 985800aad3711a1b28613f0f82585b4d592cdf58
-ms.sourcegitcommit: de989037d83393bea013cd58c061159765305b4f
+ms.openlocfilehash: c2d26b7c5e110d05806c064e15a3ad2af34d0fbd
+ms.sourcegitcommit: fde2867524b6a851628185cbdeee60a6ad918d08
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473611"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "9592052"
 ---
 # <a name="proactive-quality-updates"></a>Iniciatyvūs kokybės atnaujinimai
 
@@ -57,7 +57,7 @@ Proceso pakeitimų rinkinys įgyvendintas prieš suaktyvinus aktyvią kokybės n
 - **Schema** – įrankis užtikrina, kad kokybės naujinimo versijos apima tik schemos pakeitimus, kurie gali būti taikomi paslaugai internete. Šis būdas padės išlaikyti galimybę taikyti atnaujinimą beveik nulinio nulio laiku.
 - **Padidintas pokytis per** daug – šiuo metu yra papildomas proceso žingsnis, skirtas patvirtinti įtraukimo į kokybės naujinimą pakeitimus. Papildomas veiksmas bus padidintas, kad būtų sumažintas galimas regresijų potencialas. Kokybės naujinimų pakeitimai negali būti atlikti, todėl padidintas keitimų skaičius padės užtikrinti, kad šį tikslą atitiksime.
 - **Matomumas** – mes išsiųsime pranešimus el. paštu ir ciklo tarnybose (LCS) dėl būsimų aktyvių kokybės naujinimų. Be to, palaikymo komandos ir galimi klientai galės matyti, kur sėkmingai įdiegti kokybės atnaujinimai.
-- **Versijos atsarginis** – skrydžio sistema bus naudojama norint sugrupuoti visus aktyvių kokybės atnaujinimų pakeitimus. Jei po iniciatyvaus diegimo reikia atsarginio diegimo, jį galima atlikti naudojant skrydžio sistemą.
+- **Neišlaikytas per** skrydžio numerį – skrydžio metu bus naudojamas kodams keisti bet kada, kai tai taikoma kokybės atnaujinimo klaidai taisyti arba naudoti esamą funkciją, susijusią su pataisa. Jei po aktyviai diegimo reikia atsarginio ar išjungimo keitimo, jį galima atlikti naudojant skrydžio sistemą, kad būtų išvengta tolimesnių trikčių.
 - **Sandbox sinchronizavimo** paskirtis – mažiau nei 20 procentų klientų šiuo metu turi keletą sanddėlių ir išlaikyti vieną sandų dėžę įdiegtą, kur versija atitinka gamybą, kad būtų padedama šalinti triktis. Jei klientas naudoja sandbox, kad galėtų patikrinti naujesnę versiją, o ne jų gamybą, tą sandinę bus gauti tos naujesnės versijos kokybės naujinimai.
 
 ## <a name="what-is-the-rollout-roadmap-for-quality-updates"></a>Koks kokybės naujinimų iškeitimų kokybės atnaujinimas?
@@ -69,7 +69,7 @@ Per kitą šešių mėnesių laikotarpį palaipsniui didinsime sandbox aplinkos,
 Kadangi klientai reguliariai gaus mažesnius mokėjimo krūvius, tikitės, kad dabartinis procesas taps paprastesnis. Mes koreguosime atnaujinimo diegimo dažnumą, nes pademonstruosime galimybę vykdyti procesą be jokios galimybės. Šis procesas jau efektyviai veikia mūsų platformai Dataverse ir programoms ir pateikia numatomus paslaugų kokybės patobulinimus. Norime atlikti tą patį žingsnį į priekį ir finansų, ir operacijų programoms.
 
 ## <a name="when-will-quality-updates-start-for-production-environments"></a>Kada bus pradėti gamybos aplinkos kokybės naujinimai?
-Šiuo metu kokybės atnaujinimai yra tik tiksliniai sand. langeliai. Gamybos aplinkos bus pradedamos naujinti po 2022 m. lapkričio mėn.
+Šiuo metu kokybės atnaujinimai yra tik tiksliniai sand. langeliai. Mes atnaujinsime šią vietą gamybos aplinkos pradžios data, kai bus daugiau konkrečių duomenų ir metrikos iš aktyvių sandėlio atnaujinimų ir nustatyti gamybos pasirengimą.
 
 ## <a name="what-is-the-schedule-for-sandbox-quality-updates"></a>Koks sand dėžės kokybės naujinimų grafikas?
 Norėdami gauti informacijos apie tamsaus regiono valandas, [žr. Kas yra aktyvių kokybės naujinimų grafikas](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-is-the-schedule-for-proactive-quality-updates)?

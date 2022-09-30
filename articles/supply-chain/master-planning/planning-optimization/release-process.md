@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2f91c46367ee2f881476a496555f15454c9f6baa
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: da97490cb065365a0502aa82c63205d5c34da9eb
+ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542326"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "9591883"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Planavimo optimizavimo išleidimo procesas ir išleidimo retrospektyva
 
@@ -35,6 +35,7 @@ Kadangi atnaujinant Planavimo optimizavimą jūsų aplinkoje pranešimai nerodom
 
 | Pakeitimai | Funkcijų valdymo duomenys | Išleidimo datos |
 |---|---|---|
+| <p> Išteklių planavimo, kai pajėgumas ribotas, palaikymas. <p>Bendras našumas, kokybės ir stabilumo patobulinimai. | Funkcijos valdyti nereikia. | 2022 m. rugsėjo 19–23 d. |
 | <p>Bendras našumas, kokybės ir stabilumo patobulinimai. | Funkcijos valdyti nereikia. | 2022 m. rugpjūčio 29 d. – rugsėjo 3 d. |
 | <p>Bendras našumas, kokybės ir stabilumo patobulinimai.<p>[Planavimo optimizavimo centralizuota kalendoriaus priežiūra](../supply-chain-calendars-master-planning.md)<p>[Esamo tiekimo optimizavimo pasiūlymų planavimas](../action-messages.md)<p>[Subrangos planavimo optimizavimo palaikymas](../../production-control/manage-subcontract-work-production.md) | Funkcijos valdyti nereikia. | 2022 m. kovo 7–11 d. |
 | <p>Įtrauktas gamybos užsakymų planavimo prioritetas. | Prieinamas su versija 10.0.25 *kaip funkcijos, pavadintos prioriteto valdoma mRP palaikavimu planavimo optimizavimui, dalis*. | 2021 m. lapkričio 12–18 d. |

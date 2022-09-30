@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 26fc6518f0b4eae815e047db1dbaadd7c56a2e67
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 6e346c6ff881d3a33743196b45247493fd19ed1d
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220718"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573257"
 ---
 # <a name="allow-edits-to-internal-data-on-general-ledger-vouchers"></a>Leisti redaguoti didžiosios knygos kvitų vidinius duomenis
 
 [!include[banner](../includes/banner.md)]
-[!include[banner](../includes/preview-banner.md)]
 
 
 Kai DK registruojate apskaitos įrašus, aprašymo **laukas** dažnai naudojamas vidinėms pastaboms arba dokumentacijai saugoti. Jei informacija neteisinga, dėl jos gali kilti painiavos, o laikotarpio pabaigos uždarymas gali būti sudėtingiau. Naudojant šią priemonę apskaitos vadovas arba apskaitos prižiūrėtojas gali ištaisyti klaidas **redaguodami** DK užregistruotų kvitų aprašymo lauką.
@@ -84,7 +83,7 @@ Vidinio **kvito duomenų** redagavimo puslapyje rodomi šie kiekvienos pasirinkt
    
     Tokiu būdu atidarydami užklausą galite sutelkti dėmesį į visus redagavimus, kurie buvo atlikti viename kvito įraše.
   
-  - Eiti į** DK** > periodinių **užduočių kvitų** > **redagavimų įrašo sekimą**. Dialogo lange įveskite kriterijus, pagal kuriuos nurodysite kvitus, kurių redagavimus norite peržiūrėti. Norėdami peržiūrėti visų kvitų žurnalų sekimą, palikite kriterijus tuščius ir pasirinkite **Gerai**. 
+  - Eiti į **DK** > periodinių **užduočių kvitų** > **redagavimų įrašo sekimą**. Dialogo lange įveskite kriterijus, pagal kuriuos nurodysite kvitus, kurių redagavimus norite peržiūrėti. Norėdami peržiūrėti visų kvitų žurnalų sekimą, palikite kriterijus tuščius ir pasirinkite **Gerai**. 
     
     Tokiu būdu atidarydami užklausą galite filtruoti redagavimus, kurie buvo padaryti konkrečia data arba tam tikro vartotojo.
 

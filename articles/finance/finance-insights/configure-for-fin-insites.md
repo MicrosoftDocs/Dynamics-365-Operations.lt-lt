@@ -2,7 +2,7 @@
 title: Finansų žinių konfigūracija
 description: Šiame straipsnyje paaiškinami konfigūravimo veiksmai, kurie įgalins jūsų sistemą naudoti galimybes, galimas finansų žinių bazėse.
 author: ShivamPandey-msft
-ms.date: 01/27/2022
+ms.date: 09/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ac0f0cb078b6e202540fadbff337a01379febc8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 05bf5fe5a5ff86bbf52ed58ee6b1e84c15bf2c1e
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861422"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573200"
 ---
 # <a name="configuration-for-finance-insights"></a>Finansų žinių konfigūracija
 
@@ -39,7 +39,7 @@ Norėdami talpinti aplinkas, atlikite šiuos veiksmus.
 1. LCS sukurkite arba atnaujinkite "Dynamics 365" finansų aplinką. Aplinkai reikia programos 10.0.21 arba naujesnės versijos.
 
     > [!NOTE]
-    > Aplinka turi būti didelio užimtumo (HA) aplinka. (Šis aplinkos tipas dar vadinamas 2 pakopos aplinka.) Norėdami gauti daugiau informacijos, žr. [Aplinkos planavimas](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+    > Aplinka turi būti didelio užimtumo (HA) aplinka. (Šis aplinkos tipas dar vadinamas 2 pakopos aplinka.) Norėdami gauti daugiau informacijos, žr. [Aplinkos planavimas](/fin-ops-core/fin-ops/imp-lifecycle/environment-planning).
 
 2. Jei konfigūruojate finansų žinių apdorojimo informaciją sandūrų aplinkoje, prieš numatant gali tekti nukopijuoti gamybos duomenis į tą aplinką. Numatymo modelis naudoja kelių metų duomenis numatymams sukurti. "Contoso" demonstraciniai duomenys neturi pakankamai praeities duomenų, kad būtų galima iš anksto parengti numatymo modelį. 
 
@@ -51,13 +51,16 @@ Patikrinkite, ar baigtas šis nustatymas:
 
 - Turite sistemos **administratoriaus ir** sistemos **pritaikymo vartotojo** prieigą maitinimo portalo administravimo centre.
 - "Dynamics 365" finansų arba ekvivalentinės licencijos taikoma vartotojui, diegiantiems finansų žinių priedą.
+- Šios programėlės Azure AD užregistruotos Azure AD.
 
-Šios programėlės Azure AD užregistruotos Azure AD.
+    |  Taikymas                             | Programos ID                               |
+    |------------------------------------------|--------------------------------------|
+    | „Microsoft Dynamics ERP Microservices CDS“ | „703e2651-d3fc-48f5-942c-74274233dba8“ |
 
-|  Prašymas                             | Programos ID                               |
-|------------------------------------------|--------------------------------------|
-| „Microsoft Dynamics ERP Microservices CDS“ | „703e2651-d3fc-48f5-942c-74274233dba8“ |
-    
+    Norėdami patikrinti, ar prašymas užregistruotas Azure AD, patikrinkite **visų prašymų** sąrašą. Daugiau informacijos rasite Peržiūrėkite [įmonės programas](/azure/active-directory/manage-apps/view-applications-portal).
+  
+    Jei programa neužregistruota, susisiekite su Azure AD palaikymo tarnyba.
+  
 ## <a name="configure-dataverse"></a>Konfigūruoti „Dataverse“
 
 Norėdami sukonfigūruoti „Finance insights“, „Dataverse“ atlikite šiuos veiksmus.

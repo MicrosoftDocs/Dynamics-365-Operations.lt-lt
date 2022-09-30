@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 1ee354a1c3d9b45eb12eeb3a6a29f2a6d5e4c34c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 331c714663d212471b72f1558e6183452ef7f394
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846921"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573178"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>„Finance insights“ apie nustatymą trikčių šalinimas
 
@@ -88,10 +88,14 @@ Turi būti atlikti šie veiksmai.
 - Patikrinkite, ar "Dynamics 365" finansų arba ekvivalentinės licencijos yra taikomos papildinį diegiantiems vartotojams.
 - Patikrinkite, ar užregistruota Azure AD ši programa Azure AD: 
 
-  | Prašymas                  | Programos ID           |
-  | ---------------------------- | ---------------- |
-  | „Microsoft Dynamics ERP Microservices CDS“ | „703e2651-d3fc-48f5-942c-74274233dba8“ | 
+    | Taikymas                  | Programos ID           |
+    | ---------------------------- | ---------------- |
+    | „Microsoft Dynamics ERP Microservices CDS“ | „703e2651-d3fc-48f5-942c-74274233dba8“ | 
   
+    Norėdami patikrinti, ar prašymas užregistruotas Azure AD, patikrinkite **visų prašymų** sąrašą. Daugiau informacijos rasite Peržiūrėkite [įmonės programas](/azure/active-directory/manage-apps/view-applications-portal).
+  
+    Jei programa neužregistruota, susisiekite su Azure AD palaikymo tarnyba.
+
 ## <a name="symptom-error-we-didnt-find-any-data-for-the-selected-filter-range-please-select-a-different-filter-range-and-try-again"></a>Požymis: klaida, "Neradome jokių pasirinkto filtro diapazono duomenų. Pasirinkite kitą filtro diapazoną ir bandykite dar kartą." 
 
 ### <a name="resolution"></a>Paaiškinimas

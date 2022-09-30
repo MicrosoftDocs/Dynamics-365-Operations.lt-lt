@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f9c85c4fbcc3c66d6cc4c65431b76c31cbb7aebf
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: 7e32b3ed6ed96de7193cc496e0630969137cd0c1
+ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542358"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "9591856"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planavimo optimizavimo tinkamumo analizė
 
@@ -94,7 +94,7 @@ Tolesnėje lentelėje pateikiami skirtingi rezultatai, rodomi po tinkamumo anali
 | Gamyba | Formulės versijos su išeiga: *\#* | Ši funkcija laukia patvirtinimo. Šiuo metu išeigos, susietos su formulės versija, nepaisoma, kai įjungtas planavimo optimizavimas. | 2022 išleidimo banga 2 |
 | Gamyba | Planai su sekomis: *\#* | Ši funkcija laukia patvirtinimo. Šiuo metu sekos nepaisoma, kai įjungtas planavimo optimizavimas, neatsižvelgiant į šį parametrą. | 2022 išleidimo banga 2 |
 | Gamyba | Paleisti gamybos užsakymai, kurie nepradėti, buvo suplanuoti pradėti anksčiau nei šiandien: *\#* | Ši funkcija laukia patvirtinimo. Šiuo metu, jei gamybos užsakymas vėluoja, bendrojo planavimo metu bus laikoma, kad jis bus baigtas šiandien. Tai aktualu išleistiems gamybos užsakymais, kurių pristatymo data yra praėjusi, tačiau užsakymai dar nėra baigti. | Būsima banga |
-| Gamyba | Ištekliai numatyti esant ribotai talpai: *\#* | Ši funkcija laukia patvirtinimo. Šiuo metu išteklių, suplanuotų esant ribotam pajėgumui, nepaisoma, kai įjungtas planavimo optimizavimas. Planavimas atliekamas pagal numatytąjį produkto gamybos laiką. | 2022 išleidimo banga 2 |
+| Gamyba | Ištekliai numatyti esant ribotai talpai: *\#* | Dabar ši funkcija yra palaikoma.| Palaikoma |
 | Gamyba | Maršrutai, naudojami planuojant: *\#* | Ši funkcija palaikoma. | Palaikoma |
 | Gamyba | Pardavimo linijos rezervavimas naudojant išskleidimą: *\#* | Pardavimo eilutės rezervavimas, naudojantis išskleidimą, nepalaikomas, kai įjungtas planavimo optimizavimas. | Būsima banga |
 | Gamyba | Planavimas išskleidžiant gamybos užsakymus: *\#* | Planavimas, naudojantis gamybos užsakymų išskleidimą, nepalaikomas, kai įjungtas planavimo optimizavimas. Gamybos užsakymai gali būti suplanuoti atskirai. | Būsima banga |

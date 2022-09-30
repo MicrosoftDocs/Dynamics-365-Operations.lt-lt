@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: 66a711aff90221e594f4b2a0df3735eac93d0c9b
-ms.sourcegitcommit: 09d4805aea6d148de47c8ca38d8244bbce9786ce
+ms.openlocfilehash: 426473c14cdf9e171810aafd97dbb1afd5988b2f
+ms.sourcegitcommit: 24673493d14f2045a08fe7240689bee34e099cb5
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "9387025"
+ms.lasthandoff: 09/24/2022
+ms.locfileid: "9589095"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>Masinis patvirtintų „Commerce“ savitarnos komponentų diegimas
 
@@ -41,15 +41,15 @@ ms.locfileid: "9387025"
 | -AsyncClientCertThumbprint | "Async" kliento tapatybės sertifikato, kurį reikia naudoti ryšio su " Azure AD Headquarters" nykščio atspaudas, kuris turi būti naudojamas autentifikuoti. Šis nykščio atspaudas bus **naudojamas ieškoti LocalMachine / Mano** parduotuvės vietoje ir siekiant rasti tinkamą naudotiną sertifikatą. Nenaudokite šio parametro kartu su parametru **-AsyncClientCertFullPath**. |
 | -ClientAppIns turi būtiInstrumentationKey | AppInsights Kliento instrumentavimo raktas. |
 | – CloudPosAppInsprogramsInstrumentationKey | Debesies EKA AppInsights instrumento raktas. |
-| Konfigūruoti (kada konfigūruoti) | Konfigūracijos failas, kuris turėtų būti naudojamas diegiant. Failo vardo pavyzdys yra **Contoso.CommerceScaleUnit.xml**. |
+| -Config | Konfigūracijos failas, kuris turėtų būti naudojamas diegiant. Failo vardo pavyzdys yra **Contoso.CommerceScaleUnit.xml**. |
 | -CposAadClientId | Kliento Azure AD ID, kurį turi naudoti "Cloud POS" aktyvinant įrenginį. Šio parametro nereikia norint įdiegti vietiniame kompiuteryje. |
-| –Įrenginys | Įrenginio ID, kaip parodyta programos **Headquarters** puslapyje Įrenginiai. |
+| -Įrenginio | Įrenginio ID, kaip parodyta programos **Headquarters** puslapyje Įrenginiai. |
 | –EnvironmentId | Aplinkos ID. |
 | -HardwareStationAppInsininkaisInstrumentationKey | Aparatūros stoties AppInsights instrumentinės įrangos raktas. |
 | Diegti | Parametras, nurodantis, ar turi būti įdiegtas šios diegimo programos komponentas. Šio parametro reikia norint atlikti diegimą, jis neturi būti priekinio brūkšnio simbolio. |
-| -InstallOffline | Naudojant "Modern POS" šis parametras nurodo, kad autonominė duomenų bazė taip pat turi būti įdiegta ir sukonfigūruota. Taip pat **naudokite parametrą -SQLServerName**. Kitu atveju diegimo programa bandys rasti numatytąjį egzempliorių, kuris atitiktų būtinuosius komponentus. |
-| – prievadas | Prievadas, kurį reikia susieti su virtualiojo katalogo "Retail Server" ir naudoti. Jei prievadas nustatytas, bus naudojamas numatytasis prievadas 443. |
-| –Registras | Registro ID, kaip parodyta kasos **aparatų puslapyje**, būstinėje. |
+| -InstallOffline | Naudojant "Modern POS" šis parametras nurodo, kad autonominė duomenų bazė taip pat turi būti įdiegta ir sukonfigūruota. Taip pat **naudokite parametrą -SQLServerName**. Kitu atveju diegimo programa bandys rasti numatytąjį egzempliorių, kuris atitiktų būtinuosius komponentus. Naudojant (Azure Active Directory) autentifikavimą Azure AD EKA ne tinkle funkcija neveikia, nes interneto ryšys reikalingas visada. |
+| -Uosto | Prievadas, kurį reikia susieti su virtualiojo katalogo "Retail Server" ir naudoti. Jei prievadas nustatytas, bus naudojamas numatytasis prievadas 443. |
+| -Užsiregistruok | Registro ID, kaip parodyta kasos **aparatų puslapyje**, būstinėje. |
 | -RetailServerAadClientId | Kliento Azure AD ID, kurį turi naudoti "Retail Server" ryšio su "Headquarters" metu. |
 | -RetailServerAadResourceId | "Retail Server" Azure AD programos išteklių ID, kuris turi būti naudojamas aktyvinant įrenginį. Šio parametro nereikia norint įdiegti vietiniame kompiuteryje. |
 | –RetailServerCertFullPath | Visiškai suformatuotas URN maršrutas, naudojantis nykščio atspaudą kaip "Retail Server Azure AD " tapatybės sertifikato ieškos metriką, kurią reikia naudoti norint autentifikuoti ryšiui su "Headquarters". Pavyzdžiui, teisingai `store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` suformatuotas URLN, kur vertė bus **\<MyThumbprint\>** pakeista sertifikato nykščio atspaudu, kuris turi būti naudojamas. Nenaudokite šio parametro kartu su parametru **-RetailServerCertThumbprint**. |

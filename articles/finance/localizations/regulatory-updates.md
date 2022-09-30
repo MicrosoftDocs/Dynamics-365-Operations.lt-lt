@@ -2,7 +2,7 @@
 title: Reglamentavimo naujinimai
 description: Šiame straipsnyje pateikiamas suplanuotų ir išleistų 365 finansų reguliavimo Microsoft Dynamics naujinimų sąrašas.
 author: VStamberg
-ms.date: 04/18/2022
+ms.date: 09/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 129e4e1d44018da206d0e797dcfd389c9e6adeba
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: fdfc10ea5bf330c3a739f8dfe86c56f16ca2c69e
+ms.sourcegitcommit: 2290799408b7567a97601bc4158f814d5bfd844c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9206202"
+ms.lasthandoff: 09/28/2022
+ms.locfileid: "9596241"
 ---
 # <a name="regulatory-updates"></a>Reglamentavimo naujinimai
 
@@ -39,19 +39,14 @@ Naujausių reglamentavimo naujinių planų ieškokite toliau pateiktoje lentelė
 
 |Šalis|Išleidimo data|Leidimo versija|Reguliavimo naujinimas|
 |--------------------|---------------|-------|-------| 
-|      Brazilija         |   2022 m. kovo mėn.    | 10.0.27        |    ICMS-DIFAL operacijų paėmimas iš mokesčių mokėtojų mokesčių mokėtojų (papildoma teisė Nr. 190/22)  |
-|      Brazilija         |   2022 m. kovo mėn.         | 10.0.27         |    NF-e NT2021.004 v1.00 – maketo ir tikrinimo taisyklių atnaujinimai  |
-|      Brazilija         |   2022 m. kovo mėn.         | 10.0.27         |    NF-e NT2021.004 v1.00 – maketo ir tikrinimo taisyklių naujinimai – mažmeninė prekyba  |
-|      Brazilija         |   balandžio mėn. 2022 d.         | 10.0.27HF, 10.0.28         |    "SPED ECF" – 8 MAKETAS  |
-|      Rytų Europa         |   Liepos 2022 d.         | 10.0.27HF, 10.0.28HF, 10.0.29         |    Didžiosios knygos išrašas pagal pagrindinę sąskaitą  |
-|      Lietuva|   2022 m. vasario mėn. | 10.0.27 | i.VZ.VZ., 2022-01-01 Dynamics 365 Finance" iš "2022-01-01 Yra:  |
-|      Meksika         |   2022 m. kovo mėn.      | 10.0.27      |   CFDI formatų 4.0 versija (SF ir mokėjimai)  |
-|      Meksika         |   2022 m. vasario mėn.      | 10.0.27      |   Nuo 2022 m. sausio 1 d. įsigalioja CFDI 4.0 versija, kurios galiojimo laikotarpis yra tarp 3.3 ir 4.0 versijos, kuri trunka nuo 2022 m. sausio 1 d. iki birželio 30 d.  |
-|      Meksika         |   2022 m. kovo mėn.      | 10.0.27      |   CFDI formatų 4.0 versija (išskaitoma)  |
-|      Lenkija          |   balandžio mėn. 2022 d.     | 10.0.27HF, 10.0.28     |   JPK_FA 4 versiją, pradedant nuo balandžio 1 d 2022JPK_V7M – nauja schemos versija nuo 2022 m. sausio mėn. |
-|      Rusija          |   2022 m. birželio mėn.     | 10.0.27    |  Ataskaita apie operacijas, kurioms yra nustatyti sekami produktai (nurašomos nupirktos sekamos prekės, pvz., monitoriai, dažymai ir biuro baldai savoms reikmėms)|
-|      Singapūras      |   Liepos 2022 d.| 10.0.27HF, 10.0.28HF, 10.0.29 | IRAS audito failas (IAF) TXT formatu|
-|      Ispanija      |   2022 m. kovo mėn.| 10.0.27 | PVM deklaracijos modelis 303 pakeitimus 2022 m. sausio 1 d. "Dynamics 365" finansuose|
+|      Brazilija         |   balandžio mėn. 2022 d.         | 10.0.28         |    "SPED ECF" – 8 MAKETAS  |
+|      Brazilija         |   2022 m. birželio mėn.         | 10.0.30 val.         |    EFD ICMS IPI – 3.0.9 versija  |
+|      Brazilija         |   2022 m. rugpjūčio mėn.         | 10.0.30         |    NF-e NT2021.004 v1.31 – maketo ir tikrinimo taisyklių atnaujinimai  |
+|      Rytų Europa         |   Liepos 2022 d.         | 10.0.28HF, 10.0.29         |    Didžiosios knygos išrašas pagal pagrindinę sąskaitą  |
+|      Vengrija         |   Liepos 2022 d.         | 10.0.30         |    PVM deklaracija XML (2065A) ir peržiūra programoje "Excel". XML (2065M) pirkimo SF priedas  |
+|      Lenkija          |   balandžio mėn. 2022 d.     | 10.0.28     |   JPK_FA 4 versiją, pradedant nuo 2022 m. balandžio 1 d. |
+|      Rusija          |   2022 m. birželio mėn.     | 10.0.29    |  Importuoti adreso duomenis iš valstybės adresų registro (INKITĖS)|
+|      Singapūras      |   Liepos 2022 d.| 10.0.28HF, 10.0.29 | IRAS audito failas (IAF) TXT formatu|
 
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
