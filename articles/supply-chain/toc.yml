@@ -1747,20 +1747,10 @@
               href: sensor-data-intelligence/sdi-scenario-product-quality.md
             - name: Gamybos atidėjimų scenarijus
               href: sensor-data-intelligence/sdi-scenario-production-delays.md
-        - name: „IoT” įžvalgos
+        - name: IoT įžvalgos
           items:
-            - name: Pagrindinis IoT įžvalgų puslapis
+            - name: IoT įžvalgos dabar pakeistos „Sensor Data Intelligence“
               href: iot/iot-intelligence-home-page.md
-            - name: „Azure“ išteklių nustatymas
-              href: iot/iot-azure-setup.md
-            - name: IoT telkinio pranešimo schemų formatai
-              href: iot/iot-schema-format.md
-            - name: Metrikos nustatymas
-              href: iot/iot-metrics-setup.md
-            - name: Scenarijaus nustatymas
-              href: iot/iot-scenario-setup.md
-            - name: Stebėjimas ir valdymas
-              href: iot/iot-management.md
         - name: Bendrasis planavimas
           items:
             - name: Pagrindinis bendrojo planavimo puslapis
