@@ -2,19 +2,19 @@
 title: "\"Commerce\" kanalų finansinio integravimo apžvalga"
 description: Šiame straipsnyje pateikta finansinio integravimo galimybių, kurios galimos dalyje, apžvalga Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 0a56df2a463153c6c3986ce84907e25ea7d965b8
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 1812405db3c1e58eaf7cd1df3896f786e7bf026f
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286505"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631246"
 ---
 # <a name="fiscal-integration-overview-for-commerce-channels"></a>"Commerce" kanalų finansinio integravimo apžvalga
 
@@ -95,16 +95,20 @@ Toliau pateikti pavyzdžiai rodo įprastų finansinių įrenginių arba tarnybų
 
 Fiskalinės integracijos sistema teikia toliau nurodytas parinktis, skirtas spręsti problemas, kylančias fiskalinės registracijos metu.
 
-- **Kartoti** – operatoriai gali naudoti šią parinktį, kai problemą galima išspręsti greitai ir fiskalinę registraciją galima vykdyti iš naujo. Pvz., šią parinktį galima naudoti, kai finansinis įrenginys yra neprijungtas, fiskaliniame spausdintuve nėra popieriaus arba yra fiskaliniame spausdintuve kilo popieriaus strigtis.
-- **Atšaukti** – ši parinktis operatoriams suteikia galimybę atidėti dabartinės operacijos arba įvykio fiskalinę registraciją, jei ji nepavyksta. Po registracija atidedama, operatorius gali tęsti darbą EKA ir baigti bet kokią operaciją, kuriai fiskalinė registracija nėra būtina. Kai EKA įvyksta bet koks įvykis, kuriam būtina fiskalinė registracija (pvz., atidaroma nauja operacija), automatiškai parodomas klaidų tvarkymo dialogo langas, kuris praneša operatoriui, kad ankstesnė operacija nebuvo tinkamai užregistruota, ir pateikia klaidų tvarkymo parinktis.
-- **Praleisti** – operatoriai gali naudoti šią parinktį, kai tam tikromis aplinkybėmis galima praleisti fiskalinę registraciją ir reguliarias operacijas galima tęsti EKA. Pvz., šią parinktį galima naudoti, kai pardavimo operaciją, kurios fiskalinė registracija nepavyko, galima registruoti specialiame popieriniame žurnale.
-- **Pažymėti kaip užregistruotą** – operatoriai gali naudoti šią parinktį, kai operacija iš tikrųjų buvo užregistruota finansiniame įrenginyje (pavyzdžiui, išspausdintas finansinis kvitas), bet kilo problema, kai finansinis atsakymas buvo įrašomas kanalo duomenų bazėje.
-- **Atidėti** – operatoriai gali naudoti šią pasirinktį, kai operacija nebuvo užregistruota dėl to, kad registracijos paslauga nebuvo galima. 
+- **Kartoti –** operatorius gali naudoti šią pasirinktį, kai triktį galima greitai išspręsti, o ataskaitinę registraciją galima vykdyti iš naujo. Pvz., šią parinktį galima naudoti, kai finansinis įrenginys yra neprijungtas, fiskaliniame spausdintuve nėra popieriaus arba yra fiskaliniame spausdintuve kilo popieriaus strigtis.
+- **Atšaukti** – ši parinktis leidžia operatoriui atidėti dabartinės operacijos arba įvykio fiskalinę registraciją, jei ji nepavyko. Atidėus registraciją operatorius gali toliau dirbti su EKA ir gali užbaigti bet kokias operacijas, kurių fiskalinė registracija nebūtina. Kai EKA įvyksta bet koks įvykis, kuriam būtina fiskalinė registracija (pvz., atidaroma nauja operacija), automatiškai parodomas klaidų tvarkymo dialogo langas, kuris praneša operatoriui, kad ankstesnė operacija nebuvo tinkamai užregistruota, ir pateikia klaidų tvarkymo parinktis.
+- **Praleisti** – operatorius gali naudoti šią pasirinktį, kai neįmanoma atlikti dabartinės operacijos ar įvykio fiskalinės registracijos, pvz., jei fiskalinis spausdintuvas nepa užsakytas, **o** mokesčių registracija gali būti praleista tam tikrose sąlygose. Pvz., šią parinktį galima naudoti, kai pardavimo operaciją, kurios fiskalinė registracija nepavyko, galima registruoti specialiame popieriniame žurnale. Praleidus fiskalinę registraciją EKA galima tęsti reguliarias operacijas. 
+- **Pažymėti kaip** užregistruotą – operatorius gali naudoti šią pasirinktį, kai dabartinė operacija ar įvykis faktiškai buvo užregistruotas fiskalinyje įrenginyje, pvz., išspausdintas finansinis kvitas, tačiau, įrašant fiskalinį atsakymą į kanalų duomenų bazę, įvyksta triktis. Pažymėdami dabartinę operaciją ar įvykį kaip užregistruotą, EKA galima tęsti reguliarias operacijas.
+- **Atidėti** – operatorius gali naudoti **šią** pasirinktį, kai operacija neregistruota, nes registravimo įrenginys arba paslauga negalimi ir taikomos šios sąlygos:
+    - Yra atsarginė finansinio registravimo parinktis ir galima tęsti dabartinės operacijos finansinio registravimo procesą. Pvz., vietinis finansinis [įrenginys](./latam-bra-cf-e-sat.md#scenario-4-make-a-cash-and-carry-sale-of-goods-by-using-sat-as-contingency-mode) gali būti atsarginė interneto finansinio registravimo paslaugos parinktis, kai paslauga negalima.
+    - Fiskalinę registraciją galima užbaigti vėliau, naudojant kitas priemones nei finansinio integravimo sistema. Pavyzdžiui, atidėtos operacijos vėliau gali būti finansinio registravimo pakete, naudojant [atskiras funkcijas](./latam-bra-nfce.md#scenario-3-make-a-cash-and-carry-sale-of-goods-in-offline-contingency-mode).
+    
+    Atidėtą dabartinę operaciją ar įvykį EKA galima tęsti reguliarias operacijas.
 
-> [!NOTE]
-> Prieš **pradedant** naudoti, **pasirinktis** Praleisti, **Pažymėti** kaip registruotas ir Atidėti turi būti suaktyvintos finansinio registravimo procese. Be to, operatoriams turi būti suteiktos atitinkamos teisės.
+> [!WARNING]
+> Pasirinktys **Praleisti**, **Pažymėti kaip užregistruotos** ir Atidėtos **turi** būti laikomos pasirinktimis nelaimės atveju ir naudojamos tik išskirtiniais atvejais. Aptarkite šias klaidų tvarkymo pasirinktis su savo juridiniu ar mokesčių mokėtojo mokesčiu ir prieš įjungdami jas taikykite gerai. Prieš pradedant naudoti, pasirinktys turi būti suaktyvintos finansinio registravimo procese. Norėdami įsitikinti, kad operatoriai jų reguliariai nenaudos, operatoriams turi būti suteiktos atitinkamos teisės.
 
-Pasirinktys **Praleisti**, **·** **Pažymėti** kaip užregistruotos ir Atidėti įgalina informacijos kodus, kad būtų galima fiksuoti konkrečią informaciją apie triktį, pvz., trikties priežastį, arba pagrindimą praleisti fiskalinę registraciją arba pažymėti operaciją kaip užregistruotą. Daugiau informacijos apie tai, kaip nustatyti klaidų tvarlymo parametrus, žr. [Klaidų tvarkymo parametrai](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+Fiskalinė [operacija](#storing-fiscal-response-in-fiscal-transaction) sukuriama, **kai pasirinkta pasirinktis Praleisti** **,** **Pažymėti** kaip registruota arba Atidėti, bet fiskalinėje operacijoje nėra finansinio atsakymo. Tai leidžia fiksuoti finansinio registravimo trikties įvykį. Šios pasirinktys taip pat įgalina informacijos kodus fiksuoti konkrečią informaciją apie triktį, pvz., klaidos priežastį, arba pagrindimą praleisti fiskalinę registraciją arba pažymėti operaciją kaip užregistruotą. Daugiau informacijos apie tai, kaip nustatyti klaidų tvarlymo parametrus, žr. [Klaidų tvarkymo parametrai](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
 ### <a name="optional-fiscal-registration"></a>Nebūtina fiskalinė registracija
 
@@ -112,11 +116,7 @@ Fiskalinė registracija gali būti privaloma tik atliekant tam tikras operacijas
 
 ### <a name="manually-rerun-fiscal-registration"></a>Rankiniu būdu iš naujo vykdyti iždo registravimą
 
-Jei įvykus klaidai (pvz., klaidų tvarkymo dialogo lange operatoriui paspaudus **Atšaukti**) operacijos arba įvykio fiskalinė registracija atidėta, suaktyvinę atitinkamą operaciją galite patys iš naujo paleisti fiskalinę registraciją. Daugiau informacijos rasite [Rankinio atidėtos fiskalinės registracijos vykdymo įgalinimas](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
-
-### <a name="postpone-option"></a>Atidėti pasirinktį
-
-Naudodami **pasirinktį** Atidėti galite tęsti finansinio registravimo procesą, jei dabartinis žingsnis nepavyksta. Jį galima naudoti, kai yra finansinio registravimo atsarginės kopijos pasirinktis.
+Jei operacijos ar įvykio finansinis registravimas atidėtas po trikties (pvz., jei klaidų tvarkymo dialogo lange operatorius **pasirinkote** Atšaukti), galite rankiniu būdu iš naujo paleisti fiskalinę registraciją iškviečiama atitinkama operacija. Daugiau informacijos ieškokite Įgalinti atidėtų [finansinių duomenų registracijos vykdymą rankiniu būdu](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 
 ### <a name="fiscal-registration-health-check"></a>Fiskalinės registracijos būsenos patikra
 
@@ -138,7 +138,7 @@ Jei būsenos patikros rezultatai neigiami, EKA rodomas būsenos patikros dialogo
 
 ## <a name="storing-fiscal-response-in-fiscal-transaction"></a>Finansinio atsakymo saugojimas finansinėje operacijoje
 
-Kai operacijos arba įvykio fiskalinė registracija sėkminga, finansinė operacija sukuriama kanalo duomenų bazėje ir susiejama su pradine operacija arba įvykiu. Be to, pasirenkama nepavykusios finansinės registracijos parinktis **Praleisti** arba **Pažymėti kaip užregistruotą**, ši informacija yra saugoma finansinėje operacijoje. Finansinėje operacijoje saugomas finansinis atsakymas iš finansinio įrenginio ar tarnybos. Jei fiskalinės registracijos procesą sudaro keli etapai, finansinė operacija sukuriamas atliekant kiekvieną proceso veiksmą, po kurio registracija pavyko arba nepavyko.
+Kai operacijos arba įvykio fiskalinė registracija sėkminga, finansinė operacija sukuriama kanalo duomenų bazėje ir susiejama su pradine operacija arba įvykiu. Panašiai, jei **pasirinktis Praleisti**, **Pažymėti kaip registruotą** **arba Atidėti nepavykusią** fiskalinę registraciją, ši informacija bus saugoma finansinioje operacijoje. Finansinėje operacijoje saugomas finansinis atsakymas iš finansinio įrenginio ar tarnybos. Jei fiskalinės registracijos procesą sudaro keli etapai, finansinė operacija sukuriamas atliekant kiekvieną proceso veiksmą, po kurio registracija pavyko arba nepavyko.
 
 *P užduotis* perkelia finansines operacijas į Būstinę kartu su operacijomis. Puslapio **Parduotuvės operacijos** „FastTab“ **Finansinės operacijos** galite peržiūrėti finansines operacijas, susietas su operacijomis.
 

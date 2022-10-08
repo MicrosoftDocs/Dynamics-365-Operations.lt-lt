@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: c2d26b7c5e110d05806c064e15a3ad2af34d0fbd
-ms.sourcegitcommit: fde2867524b6a851628185cbdeee60a6ad918d08
+ms.openlocfilehash: 54fd52f27a4169c5b6fed6045a5540cfd47bdd51
+ms.sourcegitcommit: 3ef31670b579a34dcde4ec86541a202d2ac2f9c5
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/26/2022
-ms.locfileid: "9592052"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "9637051"
 ---
 # <a name="proactive-quality-updates"></a>Iniciatyvūs kokybės atnaujinimai
 
@@ -71,11 +71,42 @@ Kadangi klientai reguliariai gaus mažesnius mokėjimo krūvius, tikitės, kad d
 ## <a name="when-will-quality-updates-start-for-production-environments"></a>Kada bus pradėti gamybos aplinkos kokybės naujinimai?
 Šiuo metu kokybės atnaujinimai yra tik tiksliniai sand. langeliai. Mes atnaujinsime šią vietą gamybos aplinkos pradžios data, kai bus daugiau konkrečių duomenų ir metrikos iš aktyvių sandėlio atnaujinimų ir nustatyti gamybos pasirengimą.
 
-## <a name="what-is-the-schedule-for-sandbox-quality-updates"></a>Koks sand dėžės kokybės naujinimų grafikas?
-Norėdami gauti informacijos apie tamsaus regiono valandas, [žr. Kas yra aktyvių kokybės naujinimų grafikas](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-is-the-schedule-for-proactive-quality-updates)?
+## <a name="what-is-the-schedule-for-sandbox-proactive-quality-updates"></a>Koks sandėlio aktyvių kokybės naujinimų grafikas?
+Norėdami gauti informacijos apie tamsaus regiono valandas, žr. [Kokie yra suplanuoti priežiūros langai pagal regioną](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows)?
+
+### <a name="proactive-quality-update-release-10028"></a>Aktyvus kokybės naujinimo paleidimas: 10.0.28
+**Programos versija: 10.0.1265.89 atitinkamas**
+**naujausias žinių bazės straipsnis: 745340**
+
+| Stotis | Regionai | Baigtas grafikas| Būsimų sand. dėžių grafikas
+|---|---|---|---|
+| 1 stotis | Kanados centrinis centras, Kanados rytų, Prancūzijos centrinis bankas, Indijos centras, Norvegijos rytų, Šveicarijos West | Nuo 2022 m. rugsėjo 15 d. iki rugsėjo 18 d., o nuo 2022 m. rugsėjo 19 d. iki rugsėjo 22 d. | 2022 m. spalio 7 d. iki spalio 10 d. |
+| 2 stotis | Prancūzijos Pietų, Indijos Pietų, Norvegijos West, Šveicarijos Šiaurės, Pietų Afrikos Šiaurės, Australijos Rytų, UK Pietų, JAE Šiaurės, Japonijos Rytų, Australijos Pietų Rytų, Pietų Rytų Azijos | 2022 m. rugsėjo 25 d. iki rugsėjo 28 d. | 2022 m. spalio 7 d. iki spalio 10 d. |
+| 3 stotis | Rytų Azijos, UK West, Japan West, Brazilijos Pietų, West Europe, Rytų JAV, JAE centrinis centras | 2022 m. rugsėjo 26 d. iki rugsėjo 29 d. | 2022 m. spalio 7 d. iki spalio 10 d. |
+| 4 stotis | Šiaurės Europa, Centrinė JAV, West US | Nuo 2022 m. rugsėjo 28 d. iki spalio 1 d. | 2022 m. spalio 7 d. iki spalio 10 d. |
+| 5 stotis | Dod, Vyriausybės bendruomenės debesis, Kinija | Nesuplanuota | Nesuplanuota |
+
+### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a> Aktyvus kokybės atnaujinimo paleidimas: 10.0.29
+| Stotis | Regionai | Būsimų sand. dėžių grafikas
+|---|---|---|
+| 1 stotis | Kanados centrinis centras, Kanados rytų, Prancūzijos centrinis bankas, Indijos centras, Norvegijos rytų, Šveicarijos West | 2022 m. spalio 14 d. iki spalio 17 d. |
+| 2 stotis | Prancūzijos Pietų, Indijos Pietų, Norvegijos West, Šveicarijos Šiaurės, Pietų Afrikos Šiaurės, Australijos Rytų, UK Pietų, JAE Šiaurės, Japonijos Rytų, Australijos Pietų Rytų, Pietų Rytų Azijos | 2022 m. spalio 15 d. iki spalio 18 d. |
+| 3 stotis | Rytų Azijos, UK West, Japan West, Brazilijos Pietų, West Europe, Rytų JAV, JAE centrinis centras | 2022 m. spalio 16 d. iki spalio 19 d. |
+| 4 stotis | Šiaurės Europa, Centrinė JAV, West US | 2022 m. spalio 17 d. iki spalio 20 d. |
+| 5 stotis | Dod, Vyriausybės bendruomenės debesis, Kinija | Nesuplanuota |
+
+> [!IMPORTANT] 
+> Iš anksto per penkias darbo dienas "Microsoft" atnaujins ankstesnį planą ir siųs pranešimus el. paštu į aplinkos rinkinį, kuriame numatyta gauti šiuos kokybės naujinimus. Ankstesnis grafikas taikomas tik aplinkai, kuri buvo paskelbta apie būsimą atnaujinimą. Norėdami gauti informacijos apie tamsaus regiono valandas, žr. [Kokie yra suplanuoti priežiūros langai pagal regioną](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows)?
+>
+> Kiekvienoje regiono grupėje ar *stotis*, kurioje šiuo metu planuojama atlikti kokybės naujinimą, grafike pateikiamas keturių dienų intervalas. Kokybės naujinimai bus pradėti tik naudojant sand. dėžės aplinkas. Tada, sėkmingai įdiegtos sandų dėžės padidėjimo procentinė dalis, diegimas į gamybos aplinką pradės nuo išankstinių pranešimų klientams.
+> 
+> Kokybės atnaujinimai visada bus diegiami slenkantis taip, kad įgalintų mus pasiekti aplinkos rinkinį pagal grafiką ir iki ketvirtos stoties dienos pabaigos užbaigti visus rinkinius. Tačiau tai nereiškia, kad aplinkos atnaujinimas truks keturias dienas. Tai tik reiškia, kad negalime iš anksto nustatyti, kuris aplinkos rinkinys bus atnaujinamas nurodytą dieną per keturių dienų diapazoną. Visi naujinimai bus atlikti tamsomis valandomis, kai bus naudojamas beveik nulinis downtime. Atnaujinimai pereis į tam tikrą regioną tam tikrą tam tikrą tamsos valandų langą.
 
 ## <a name="how-are-the-dark-hours-handled-for-customers-that-have-one-finance-and-operations-apps-instance-but-are-active-in-multiple-time-zones"></a>Kaip klientų, kurie turi vieną finansų ir operacijų programėlių egzempliorių, bet kurie aktyvūs keliose laiko juostose, tamsos valandos tvarkomos? 
 Nėra specialiųjų grafikų už tamsų valandų ribų, kur yra finansų ir operacijų programėlių egzempliorius, [nes mes planuojame įdiegti kokybės atnaujinimus minimaliai netrikdant n ŠIANDIENos veiksmų](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-does-near-zero-downtime-maintenance-mean).
+
+## <a name="what-is-the-current-rollout-cadence-for-proactive-quality-updates"></a>Koks yra dabartinis išleisto kokybės atnaujinimo cadence?
+Proactive quality updates (PQUs) šiuo metu yra siunčiami vieną kartą per mėnesį kiekvienai palaikomai tarnybos naujinimo versijai. Per mėnesį siunčiamas tik vienas pasirinktų sandų dėžės aplinkos naujinimas(-ų), nebent klientai pereina prie naujos tarnybos naujinimo versijos. Tokiu atveju jie gali gauti iš anksto suplanuotą PQU kaip esamo traukinyes dalį naujai paslaugai atnaujinti. Po to, kai 2023 m. baigiamas pasaulinis išbaigimas, šių atnaujinimų dažnumas didės. Kai tik bus pakeisti siuntimo cadence, jūs visada gausite bent vieno mėnesio įspėjimą.
 
 ## <a name="how-will-microsoft-ensure-the-quality-of-these-updates"></a>Kaip "Microsoft" užtikrins šių naujinimų kokybę?
 "Microsoft" pagal tai, kad paleidimo pardavimo galimybės būtų pakankamai efektyvios, kad būtų galima pristatyti smulkius mokančius komponentus, kad tikrinimo išlaidos būtų mažos. Kiekvienas kokybės atnaujinimo pataisas pereina per daug saugių ir saugių diegimų procesą, kuris padeda pagerinti kokybę ir patikimumą bei sumažina klientų įtaką. Diegimas bus vyksta etapais sandų dėžės aplinkose, po to – gamyboje. Diegiant į etapus leidžiama tinkamai stebėti, ar tolesnis diegimas yra saugus. Sustabdysime keitimų stabdymą, jei aptinkama problemų, aptiktų kiekvienoje įdiegtų klientų grupėje, ir užtikrinsime, kad kiekvienas iš sustabdytų veiksmų turi pakankamai laiko norint išmesti problemas. Būsimiems kokybės naujinimams mes suteiksime matomumą grafike atnaujindami viešus dokumentus ir el. laiškus, kad klientai galėtų planuoti ateities planus.
@@ -83,8 +114,20 @@ Nėra specialiųjų grafikų už tamsų valandų ribų, kur yra finansų ir oper
 ## <a name="can-customers-delay-reschedule-or-pause-a-quality-update"></a>Ar klientai gali atidėti, perplanuoti ar pristabdyti kokybės atnaujinimą?
 Ne. Pagrindinis kokybės atnaujinimo tikslas yra užtikrinti pagrindinius reikalavimus, pvz., saugą, privatumą, patikimumą, prieinamumą ir efektyvumą, nuolat tobulinti savo klientus. Atidedama arba prisilaikant atnaujinimą, saugą, prieinamumą ir patikimumą bus rizikuojama.
 
-## <a name="how-can-one-know-the-set-of-changes-that-went-into-a-quality-update-payload"></a>Kaip vienas gali žinoti pakeitimų rinkinį, nuėjo į kokybės atnaujinimo darbo krūvį?
-Pereidami **į** skyrių Kokybės naujinimas LCS galėsite peržiūrėti visus KB straipsnius kokybės **naujinimo** puslapyje Aplinkos informacija. 
+## <a name="how-do-i-know-what-set-of-changes-went-into-a-quality-update-payload"></a>Kaip žinoti, koks pakeitimų rinkinys nuėjo į kokybės atnaujinimo mokamąjį krūvį?
+Toliau pateikiami veiksmai yra laikinas sprendimas, kadangi ir toliau dar teikiame geriausią sprendimą nustatyti pakeitimų, kurie patenka į kokybės atnaujinimo mokamąjį krūvį, sąrašą. 
+
+Naudodami 10.0.28 kokybės naujinimo traukinys ir susijusios programos versijos 745340 KB# 10.0.1265.89.
+
+1. LCS atidarykite sandėlio **aplinkos** informacijos puslapį. 
+2. Skyriuje Galimi **naujinimai pasirinkite** Rodyti naujinimą **, kad būtų galima** naudoti naujausią kokybės naujinimo versiją. 
+3. Eksportuoti versiją į CSV arba Microsoft Excel failą.
+4. Eksportuotoje rinkmenoje surūšiuokite informaciją pagal laiką (seniausio pirmojo), tada ieškokite KB 745340, kuris yra stulpelyje **Atnaujinimo ID**. Dabar turėtumėte matyti KBS pokyčių sąrašą.
+ 
+ > [!NOTE]
+ > Prieš atnaujinant aplinką reikia eksportuoti į CSV arba Excel failą. Kitu atveju galite naudoti aplinką, kurios konfigūracija panaši, bet neįdiegtas naujinimas, ir atlikite nurodytus veiksmus.
+
+[![Aplinkos su kokybės naujnimu pavyzdys.](./media/how-to-get-kb-list-pqu.png)](./media/how-to-get-kb-list-pqu.png)
 
 ## <a name="what-is-the-process-if-a-critical-issue-is-found-after-a-quality-update"></a>Koks procesas, jei po kokybės atnaujinimo randama kritinė problema?
 Kritinis išdavimas ar regresija yra vienas ar daugiau įvykių, dėl kurių keli klientai įprastai patiria vieno ar kelių paslaugų naudojimo patirtį. Dėl šių problemų gali atsirasti nesuplanuotų prasto laiko, įskaitant netinkamumą, našumo pereiimą ir aptarnavimo valdymo perėjimą. Jei dėl tokių atgalinių keitimų kyla labai svarbus klientas, sustabdysime kokybės atnaujinimo atnaujinimą, kol sugalėsime palaikyti ryšį ir išspręsti problemą. Paprastai tolesnis kokybės atnaujinimas turės reikiamą pataisą, kad būtų galima ištęsti.
@@ -94,7 +137,7 @@ Jei paveikiama vieno kliento aplinka, susisiekite su Microsoft pagalbos tarnyba,
 ## <a name="can-customers-still-manually-apply-hotfix-updates-from-lcs"></a>Ar klientai vis dar gali rankiniu būdu taikyti karštųjų pataisų naujinimus iš LCS?
 Taip. Kad būtų užtikrintas karštųjų pataisų darbo lygumas, karštųjų pataisų naujinimus vis tiek galima taikyti kliento aplinkai LCS. Tačiau svarbu pažymėti, kad karštosios pataisos, kurios įdiegtos kaip kokybės naujinimo dalis, pereis per standartinį SDP prieš įdiegiant naujinimą. Dėl to dėl aukštesnio kokybės sumažėja regresijų rizika. Rekomenduojame pasirinkti kokybės naujinimą rankiniu būdu taikant karštąsias pataisas, kad būtų padidintas patikimumas.
 
-## <a name="can-customers-self-install-a-quality-update-build-by-themselves-ahead-of-the-schedule"></a>Ar klientai gali patys įdiegti kokybės naujinimo versiją anksčiau už grafiką?
+## <a name="can-customers-proactively-install-a-quality-update-build-ahead-of-the-schedule"></a>Ar klientai gali aktyviai įdiegti kokybės naujinimą anksčiau už grafiką?
 Taip. Galite įdiegti kokybės naujinimą proaktyviai. "Microsoft" praleis atnaujinimą, jei dabartinė aplinkos versija yra lygi arba didesnė už šį kokybės naujinimą.
 
 ## <a name="if-an-environment-has-an-upcoming-scheduled-monthly-service-update-within-a-week-will-it-still-receive-quality-updates"></a>Jei aplinkoje yra suplanuotų mėnesio paslaugų atnaujinimo per savaitę, ar vis tiek bus gauti kokybės atnaujinimai?
@@ -104,21 +147,24 @@ Taip. Galite įdiegti kokybės naujinimą proaktyviai. "Microsoft" praleis atnau
 - Jei dėl kokybės atnaujinimo arba neautomatinio gamybos atnaujinimo sanddėlyje yra ta pati arba naujesnė versija, gamyba vis tiek gaus suplanuotą mėnesinio tarnybos naujinimo versiją. Jei nenorite, kad suplanuotos gamybos aplinka būtų atnaujinta į tarnybos naujinimo versiją, galite pristabdyti tarnybos naujinimą iš LCS. 
 - Rekomenduojame naudoti naujausią kokybės naujinimo versiją, kad būtų patikrinti būsimų tarnybos naujinimų pakeitimai, siekiant užtikrinti geresnį stabilumą ir rezultatus.
 
+## <a name="if-an-environment-has-an-upcoming-scheduled-action-and-a-scheduled-quality-update-in-the-same-maintenance-window-will-it-still-receive-the-quality-update"></a>Jei aplinkoje yra suplanuotas būsimas veiksmas ir suplanuotas kokybės atnaujinimas tame pačiame priežiūros lange, ar vis tiek bus gauti kokybės atnaujinimas?
+Jei yra turinio su iš anksto suplanuotu veiksmu, pavyzdžiui, taškų atkurkite laiką (PITR), kokybės atnaujinimas bus perplanuotas prie kito galimų priežiūros lango keturių dienų lange. Daugiau informacijos apie grafiką ieškokite Kas [yra aktyvių kokybės naujinimų grafikas](#schedule)? 
+
 ## <a name="can-an-environment-be-brought-back-to-its-previous-state-if-there-are-issues-after-a-quality-update-is-applied"></a>Ar galima aplinką grąžinti į ankstesnę būseną, jei pritaikius kokybės naujinimą kyla problemų?
 Kai taikomas kokybės atnaujinimas, jokiais atvejais nėra keitimų atšaukimo. Yra tik pataisos persiuntimo pasirinktys, kurios gali sumažinti problemas.
 
 ## <a name="what-about-fda-regulation-and-gpx"></a>Ką apie FDA taisykles ir GPX?
-Klientų, kuriems taikomas FDA tikrinimas ir taisyklės, planas dar tebėra taikomas. Greit tikimasi daugiau šios vietos naujinimų. Dabar visi tokie klientai atleidžiami nuo kokybės naujinimų.
+Klientų, kuriems taikomas FDA tikrinimas ir taisyklės, planas dar tebėra taikomas. Greit tikimasi daugiau šios vietos naujinimų. Dabar visi tokie klientai atleidžiami nuo kokybės naujinimų. Norėdami užtikrinti, kad klientui taikomi FDA taisyklės, apsilankykite [Microsoft Azure GPX siūlyme](/azure/compliance/offerings/offering-gxp).
 
 ## <a name="what-versions-of-service-updates-are-supported-for-these-quality-updates"></a>Kokios tarnybos naujinimų versijos palaikomos šiems kokybės naujinams?
-Mažesnių nei ši N-2 versijų klientai negaus kokybės naujinimų. 
+Visų palaikomų tarnybos naujinimų versijos klientai gali gauti kokybės naujinimus. 
 
-## <a name="finance-and-operations-apps-deployments-with-retail-components-typically-require-additional-work-in-addition-to-having-to-redeploy-mpos-how-will-these-quality-updates-impact-the-retailsdk"></a>Finansų ir operacijų programėlių diegimams su mažmeninės prekybos komponentais paprastai reikia papildomo darbo be to, kad reikia iš naujo įdiegti MPOS. Kaip šie kokybės naujinimai turės įtakos RetailSDK? 
-Kadangi pačios karštųjų pataisų pobūdis nepasikeičia kokybės naujinimų mokamoji apkrova, mes nesitikite jokios papildomos įtakos šiuo metu, konkrečiai susijusiam su mažmeninės prekybos komponentais.
+## <a name="finance-and-operations-apps-deployments-with-retail-components-typically-require-additional-work-in-addition-to-having-to-redeploy-mpos-how-will-these-quality-updates-impact-the-retailsdk"></a>Diegiant finansų ir operacijų programas su "Retail" komponentais, be MPOS pakartotinio diegimo, paprastai reikia papildomo darbo. Kaip šie kokybės naujinimai turės įtakos RetailSDK? 
+Kadangi pačios karštųjų pataisų pobūdis nepasikeičia kokybės naujinimų mokamoji pataisa, mes nesitikite jokios papildomos įtakos, konkrečiai susijusios su "Retail" komponentais.
 
-## <a name="is-there-any-impact-to-cloud-hosted-environments-che-"></a>Ar yra koks nors poveikis debesies nuomojamoms aplinkai (CHE)? ? 
-Ne.
+## <a name="is-there-any-impact-to-cloud-hosted-environments-che"></a>Ar yra koks nors poveikis debesies nuomojamoms aplinkai (CHE)? 
+CHE aplinkos nepatenka į kokybės naujinimų aprėptį, nes jos nepatenka į "Microsoft" įvertinimą
 
 ## <a name="are-there-any-integration-issues-with-microsoft-dataverse"></a>Ar yra integravimo problemų Microsoft Dataverse? 
-Ne.
+Nėra jokių žinomų integravimo problemų, susijusių su kokybės atnaujinimais Dataverse.
 

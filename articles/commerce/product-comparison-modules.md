@@ -2,19 +2,19 @@
 title: Produktų palyginimo moduliai
 description: Šiame straipsnyje aprašomi produktų palyginimo moduliai ir nurodoma, kaip juos įdiegti, kad klientai galėtų atlikti produktų palyginimus el. komercijos Microsoft Dynamics 365 Commerce žiniatinklio svetainėse.
 author: ashishmsft
-ms.date: 08/09/2022
+ms.date: 10/03/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 6fd851ce6b32d0772c3fe23c4d7bd4dae2616fdc
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 9ff45f3fbcc86b21f336d580582adef586417de4
+ms.sourcegitcommit: 66b954827826706ea2ba00c2afd5d694ad92148d
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9474132"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9618391"
 ---
 # <a name="product-comparison-modules"></a>Produktų palyginimo moduliai
 
@@ -91,6 +91,19 @@ Norėdami įtraukti produktų palyginimo mygtuką į produkto pagal paiešką ir
 1. Dešinėje ypatybės srityje sukonfigūruokite produktų palyginimo **mygtuko modulio** ypatybes.
 1. Norėdami peržiūrėti puslapį, pasirinkite **Įrašyti** ir **Peržiūrėti**.
 1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
+
+## <a name="add-a-product-comparison-preview-panel-module-to-pages-on-your-website"></a>Produktų palyginimo peržiūros skydo modulio pridėjimas prie jūsų svetainės puslapių
+
+Produktų palyginimo peržiūros skydo modulis suteikia klientams galimybę peržiūrėti produktus, kuriuos jie įtraukia į palyginimą arba iš jo pašalinami. Peržiūros skyde taip pat yra parinktys, galimos tiesiogiai naršyti palyginimo puslapį arba išvalyti visą produktų sąrašą. 
+
+Rekomenduojame įgalinti peržiūros skydą visuose puslapiuose, kur įgalintas **produktų palyginimo** mygtukas. Modulis gali būti **pridėtas** prie produktų palyginimo mygtuko kaip atminties modulis arba gali būti naudojamas kaip atskiras modulis, kurį galima konfigūruoti bet kuriame puslapyje, net jei nėra funkcijų įtraukti ar pašalinti lygintinas produktus. 
+
+Turite rankiniu būdu įtraukti produktų palyginimo peržiūros skydo modulį į puslapį. Turėtumėte įtraukti tik vieną peržiūros skydo modulį į puslapį. Jei į puslapį įtraukiate keletą modulio egzempliorių, pirmasis modulis bus atvaizduotas, o likusios egzemplioriaus nebus paisoma.
+
+![Produktų palyginimo peržiūros skydas](./media/product-comparison-preview-panel-2.png)
+
+Jei nurodysite produktų palyginimo limitą, galėsite pasirinkti įjungti teksto ženklus peržiūros skyde, kuris parodo, kiek produktų gali būti pridėta prie palyginimo. Į palyginimą įtraukti produktai pakeičiami vietos rezervavimo ženklais. Norėdami konfigūruoti produktų palyginimo ribą ir įgalinti rezervavimo ženklus, **svetainės generatoriuje eikite į svetainės > ir** **atlikite keitimus produktų palyginimų** skyriuje. Konfigūracija bus taikoma visiems visų puslapių peržiūros skydams. 
+
 
 ## <a name="specify-the-maximum-number-of-products-to-show-in-the-comparison-tray"></a>Nurodykite didžiausią produktų, kurie bus rodomi palyginimo padėkle, skaičių
 

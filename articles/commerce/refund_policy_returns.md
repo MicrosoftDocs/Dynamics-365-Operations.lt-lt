@@ -14,12 +14,12 @@ ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
 ms.custom: ''
 ms.search.industry: Retail
-ms.openlocfilehash: b93852bfb7c6f5a9f2f83f30a1f76da3f9559c7e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: d01ad490301dd2f4103b8bd3f702db12b93a45a8
+ms.sourcegitcommit: bd7b1ffe90b25eb4c68d6aaebd063bf33e09d9cd
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286843"
+ms.lasthandoff: 10/05/2022
+ms.locfileid: "9627502"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Kanalo prekių ir pinigų grąžinimų strategijos kūrimas ir naujinimas
 
@@ -36,12 +36,8 @@ Politikos taikymo sritis šiuo metu apsiriboja mokėjimo būdų, kurias galima l
 
 ## <a name="enable-return-policy"></a>Grąžinimo politikos įgalinimas
 
-Norėdami įgalinti kanalo grąžinimo funkciją „Commerce” būstinėje, atlikite šiuos žingsnius.
+Ši funkcija išjungta pagal nutylėjimą. Galite jį rasti funkcijų valdymo darbo **srityje** funkcijų pavadinimų **sąraše ieškodami Įgalinti** kanalo grąžinimo strategijas.
 
-1. Eikite į darbo sritį **Funkcijų valdymas**, esančią „Dynamics 365 Commerce“.
-1. Funkcijų pavadinimų sąraše ieškokite **Įgalinti kanalų grąžinimo politiką**.
-1. Pasirinkite **Įjungti dabar**.
-1. Puslapyje **Paskirstymo grafikas** vykdykite **„1110”** (visuotinės konfigūracijos) užduotį, kad paskirstytumėte funkcijos keitimą.
 
 ## <a name="configure-return-policy"></a>Grąžinimo politikos sukonfigūravimas
 

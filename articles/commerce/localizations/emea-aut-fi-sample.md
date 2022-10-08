@@ -2,19 +2,19 @@
 title: Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Austrijai
 description: Šiame straipsnyje pateikta Austrijos finansinio integravimo pavyzdžio apžvalga Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 08/17/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: f3429df2732d7d1ed6d2f0783a600c2b994c022b
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 603316ea07e5951b3bc5f96af28f549bdafd3b0e
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473883"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631349"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-austria"></a>Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Austrijai
 
@@ -65,7 +65,7 @@ Siekiant patenkinti vietinius finansinius reikalavimus grynųjų pinigų registr
 - Klaidos tvarkymą, pvz., šias pasirinktis:
 
     - Pakartokite fiskalinę registraciją, jei galima kartoti, pvz., jei fiskalinių registracijų tarnyba negalima, neparuošta arba neatsako.
-    - Atidėti finansinio registravimo datą.
+    - Atidėjimo finansinio registravimas.
     - Praleisti ataskaitinį registravimą arba pažymėti operaciją kaip užregistruotą ir įtraukti informacijos kodus, kad būtų fiksuojama trikties priežastis ir papildoma informacija.
     - Patikrinkite finansinio registravimo tarnybos pasiekiamumą prieš atidarę naują pardavimo operaciją arba kai pardavimo operacija baigiama.
 
@@ -152,7 +152,7 @@ Kalbos teksto **puslapyje** pridėkite šiuos kvitų maketų pasirinktinių lauk
 
 Pasirinktinių **laukų puslapyje** pridėkite šiuos įrašus prie kvitų maketų pasirinktinių laukų. Atkreipkite **dėmesį, kad antraštės teksto ID** reikšmės turi **atitikti teksto ID** vertes, kurias nurodėte kalbos **teksto** puslapyje:
 
-| Vardas                 | Tipas    | Vaizdo aprašo teksto ID |
+| Pavadinimas / vardas ir pavardė                 | Tipas    | Vaizdo aprašo teksto ID |
 |----------------------|---------|-----------------|
 | QRCODE               | Gavimas | 900001          |
 | IŠTISINIS NUMERAVIMAS     | Gavimas | 900002          |
@@ -220,7 +220,7 @@ Atlikite finansinio integravimo nustatymo veiksmus, kaip aprašyta ["Commerce" k
 
 1. [Nustatykite finansinio registravimo procesą](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Be to, pateikite pastabą apie finansinio registravimo proceso parametrus, bvz [., šios finansinio registravimo tarnybos integravimo pavyzdį](#set-up-the-registration-process).
 1. [Nustatyti klaidų tvarkymo parametrus](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
-1. [Įgalinkite neautomatinį atidėtos finansinio registravimo vykdymą](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Įgalinkite atidėtų finansinių duomenų registravimą neautomatiniu būdu](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [Sukonfigūruokite kanalo komponentus](#configure-channel-components).
 
 ### <a name="set-up-the-registration-process"></a>Nustatyti registravimo procesą

@@ -2,19 +2,19 @@
 title: Prekybos kanalų fiskalinės integracijos nustatymas
 description: Šiame straipsnyje pateikiamos komercijos kanalų finansinio integravimo funkcijos nustatymo gairės.
 author: EvgenyPopovMBS
-ms.date: 04/28/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 9fd801395f2ba04c703734a1de7998d6a53b6462
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 28097341c7b39660b834eb81786c3f56045e1496
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276138"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631429"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Prekybos kanalų fiskalinės integracijos nustatymas
 
@@ -30,9 +30,10 @@ Norėdami įjungti funkcijas, susijusias su komercijos kanalų finansinio integr
 1. Raskite ir įgalinkite šias funkcijas:
 
     - **Tiesioginė fiskalinė integracija iš EKA** kasos aparatų – ši funkcija išplečia finansinio integravimo sistemą, įtraukdama galimybę sukurti finansines jungtis, kurios bus paleismos naudojant kasos aparatą (EKA). Šio tipo jungtis palaiko ryšį su finansiniu įrenginiu arba paslauga, kuri teikia HTTP programos programavimo sąsają (API) ir nereikalaujama skirtosios fizinės parduotuvės mašinos. Pavyzdžiui, ši funkcija leidžia fiskalinę mobiliųjų įrenginių integravimą nereikalaujant bendrai naudojamos aparatūros stoties.
-    - **Finansinių integravimo techninių** profilių nepaisymai – ši funkcija leidžia išplėsti finansinio integravimo konfigūraciją ir įtraukti ryšio parametrų tikrinimo EKA kasos aparato parametrų puslapyje. Įgalinę šią funkciją galite nepaisyti techninio profilio parametrų.
+    - **Finansinio integravimo techninio profilio** nepaisymai – ši funkcija leidžia išplėsti finansinio integravimo konfigūraciją ir įtraukia galimybę nepaisyti techninio profilio parametrų. Pavyzdžiui, finansinio įrenginio ryšio eilutes galima nurodyti individualiu EKA kasos aparato lygiu. Ši funkcija taip pat leidžia patikrinti ryšio parametrus **EKA** kasos aparato parametrų puslapyje. 
     - **EKA kasos aparatų finansinio registravimo būsena** – įgalinę šią funkciją galite išjungti konkrečių EKA kasos aparatų finansinio registravimo procesą. Jei EKA kasos aparate finansinių duomenų registracija išjungta, tam kasos aparatui negalima užbaigti pardavimo operacijų.
-    - **Finansinio integravimo vietos saugyklos atsarginė** kopija – ši funkcija išplečia finansinio integravimo sistemos klaidų tvarkymo galimybes. Tai taip pat įgalina automatinį fiskalinių registracijų duomenų atsarginį kopijavimą duomenų praradimo atveju, kad duomenys vietinėje saugykloje būtų atkurti, kai suaktyvinamas įrenginys.
+    - **Fiskalinio integravimo vietinė** saugojimo atsarginė kopija – ši funkcija išplečia fiskalinio integravimo sistemos klaidų tvarkymo galimybes, įjungdami automatinį finansinio registravimo duomenų atsarginį kopijavimą, kad būtų galima atkurti vietinės saugyklos duomenis, kol suaktyvinamas įrenginys.
+    - **Atidėtas** dokumentų registravimas – ši funkcija išplečia fiskalinio integravimo sistemos klaidų tvarkymo galimybes, įgalindama pasirinktį atidėti fiskalinę registraciją, jei įvyksta finansinio registravimo klaida, ir naudoti atsarginę finansinio registravimo parinktį arba baigti fiskalinę registraciją vėliau, naudojant kitas nei finansinio integravimo sistema.
 
 ## <a name="set-up-commerce-parameters"></a>"Commerce" parametrų nustatymas
 
@@ -286,16 +287,15 @@ Norėdami vykdyti finansines X / Z ataskaitas iš EKA, į EKA maketą turėtumė
     1. Įtraukite naują mygtuką ir nustatykite mygtuko **Spausdinti finansinį Z** ypatybes.
     1. Puslapyje **Paskirstymo grafikas** paleiskite **1090** užduotį, kad perkeltumėte pakeitimus į kanalo duomenų bazę.
 
-## <a name="enable-manual-execution-of-postponed-fiscal-registration"></a>Rankinio atidėtos finansinio registravimo vykdymo įjungimas
+## <a name="enable-manual-execution-of-deferred-fiscal-registration"></a>Įgalinti atidėtų finansinių duomenų registracijos vykdymą rankiniu būdu
 
-Norėdami įjungti neautomatinį atidėto finansinio registravimo vykdymą, turėtumėte įtraukti naują mygtuką į EKA maketą.
+Norėdami įgalinti atidėtos finansinio registracijos vykdymą rankiniu būdu, prie EKA maketo turėtumėte pridėti naują mygtuką.
 
 - Puslapyje **Mygtukynai** vykdykite instrukcijas, nurodytas [EKA operacijų įtraukimas į EKA maketus naudojant mygtukynų dizaino įrankį](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters), kad įdiegtumėte dizaino įrankį ir atnaujintumėte EKA maketą.
 
     1. Pasirinkite atnaujintiną maketą.
     1. Įtraukite naują mygtuką ir nustatykite mygtuko **Baigti finansinio registravimo procesą** ypatybę.
     1. Puslapyje **Paskirstymo grafikas** paleiskite **1090** užduotį, kad perkeltumėte pakeitimus į kanalo duomenų bazę.
-
 
 ## <a name="view-connection-parameters-and-other-information-in-pos"></a>Peržiūrėti ryšio parametrus ir kitą informaciją EKA
 

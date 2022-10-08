@@ -2,19 +2,19 @@
 title: Fiskalinio spausdintuvo integracijos pavyzdys (Lenkija)
 description: Šiame straipsnyje pateikta Lenkijos finansinio integravimo pavyzdžio apžvalga Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 08/18/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-02-01.
-ms.openlocfilehash: d4e99854f5e3ab9a6ae802f4f6bcde7918f72e6d
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 2f27e5fdcd2b26a0a1651f21436cb4caad501cf8
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473787"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631377"
 ---
 # <a name="fiscal-printer-integration-sample-for-poland"></a>Fiskalinio spausdintuvo integracijos pavyzdys (Lenkija)
 
@@ -64,7 +64,7 @@ Lenkijos Dynamics 365 Commerce funkcijos apima pavyzdinį pardavimo galimybių (
 - Klaidos tvarkymą, pvz., šias pasirinktis:
 
     - Jei galima atlikti kartojimo veiksmą, pvz., jei fiskalinis spausdintuvas neprijungtas, neparuoštas arba neatsako, spausdintuve nepakanka popieriaus arba yra popieriaus strigtis.
-    - Atidėti finansinio registravimo datą.
+    - Atidėjimo finansinio registravimas.
     - Praleisti ataskaitinį registravimą arba pažymėti operaciją kaip užregistruotą ir įtraukti informacijos kodus, kad būtų fiksuojama trikties priežastis ir papildoma informacija.
     - Patikrinkite fiskalinio spausdintuvo pasiekiamumą prieš atidarę naują pardavimo operaciją arba kai pardavimo operacija baigiama.
 
@@ -107,7 +107,7 @@ Atlikite finansinio integravimo nustatymo veiksmus, kaip aprašyta ["Commerce" k
 1. [Nustatykite finansinio registravimo procesą](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Taip pat pasižymėkite finansinio registravimo proceso parametrus, bvz., šio [fiskalinio spausdintuvo integravimo pavyzdį](#set-up-the-registration-process).
 1. [Nustatyti klaidų tvarkymo parametrus](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 1. [EKA nustatykite finansų X/Z ataskaitas](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
-1. [Įgalinkite neautomatinį atidėtos finansinio registravimo vykdymą](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Įgalinkite atidėtų finansinių duomenų registravimą neautomatiniu būdu](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [Sukonfigūruokite kanalo komponentus](#configure-channel-components).
 
 ### <a name="set-up-the-registration-process"></a>Nustatyti registravimo procesą
