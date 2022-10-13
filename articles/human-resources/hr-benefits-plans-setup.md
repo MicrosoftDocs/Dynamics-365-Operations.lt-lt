@@ -2,7 +2,7 @@
 title: Išmokų plano kūrimas
 description: Šiame straipsnyje parodyta, kaip nustatyti išmokų planus Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/23/2021
+ms.date: 09/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5c8d4488f1782d80484a8b91f4ae7303fea0e464
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 001318be00efcda1e7ee07513e240059d3c5e135
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337343"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643943"
 ---
 # <a name="create-a-benefit-plan"></a>Išmokų planų kūrimas
 
@@ -42,8 +42,9 @@ ms.locfileid: "9337343"
    | **Programa** | Nurodo programą, kuriai pasirinktinai priskiriamas planas. |
    | **Grupavimas** | Nurodo grupavimą, kuriam pasirinktinai priskiriamas planas. |
    | **Meistras** | Nurodo, ar planas yra pagrindinis planas, esantis jam priskirtame grupavime. |
+   | **Būtina** | Nurodo, kad planą reikia pasirinkti norint išregistravimo bet kurį kitą grupės planą. Daugiau nei vieną planą galima pažymėti kaip **Būtina**. Tokiu atveju visi planai, pažymėti kaip **būtini**, turės būti pasirinkti, kad ištikrintų visus grupės planus.|
    | **Galiojimo pradžios data ir laikas** | Plano pradžios data ir laikas. Numatytoji vertė yra dabartinė sistemos data. |
-   | **Galiojimo pabaigos data ir laikas** | Plano pabaigos data ir laikas. Numatytoji reikšmė yra 2154-12-31, kuri reiškia, kad niekada. |
+   | **Galiojimo pabaigos data ir laikas** | Plano pabaigos data ir laikas. Numatytoji reikšmė yra 2154-12-31, kuri reiškia, kad niekada.  |
 
 4. Skirtuke **Konfigūracija** nurodykite šių laukų vertes, atsižvelgdami į kuriamo plano tipą:
 

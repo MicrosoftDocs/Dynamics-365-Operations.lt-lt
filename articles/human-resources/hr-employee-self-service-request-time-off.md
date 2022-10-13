@@ -14,17 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7d06c1d40416d2644499723317c0adfd805126b5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: eea8cdfc0cd2cfe8ca4cc94cefbf5772ab24d9a4
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882901"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643912"
 ---
 # <a name="request-time-off"></a>Prašyti išleisti iš darbo
 
 >[!Important]
->Šiame straipsnyje parodytos funkcijos šiuo metu yra galimos klientams autonominiu metu Dynamics 365 Human Resources. Kai kurios arba visos funkcijos bus prieinamos kaip būsimo „Finance“ infrastruktūros leidimo dalis po to, kai bus išleistas „Finance“ leidimas 10.0.26.
+>Šiame straipsnyje parodytas funkcionalumas šiuo metu prieinamas autonominiams „Dynamics 365 Human Resources“ klientams. Kai kurios arba visos funkcijos bus prieinamos kaip būsimo „Finance“ infrastruktūros leidimo dalis po to, kai bus išleistas „Finance“ leidimas 10.0.26.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -63,6 +63,10 @@ Atnaujindami esamą laiką išleidimo iš darbo užklausos, galite pridėti prie
 2. Norėdami peržiūrėti patvirtintas išjungties užklausas, pasirinkite Patvirtintas **laikas**. Norėdami peržiūrėti laukiančias laiko užklausas, pasirinkite Išjungti **užklausas**.
 
 ## <a name="cancel-time-off-requests"></a>Atšaukti prašymų dėl laiko nurašyti
+
+>[!NOTE] 
+> **Kai funkcijų valdymo darbo** srityje įjungtas funkcijos **atostogų užklausos darbo eigos patirties patobulinimas, galimas** atšaukimo **laikas**.  
+
 
 1. Darbo srityje **Darbuotojo savitarna** plytelėje **Atostogų balansai** pasirinkite **Laisvo laiko užklausa**.
 

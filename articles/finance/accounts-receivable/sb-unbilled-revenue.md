@@ -2,7 +2,7 @@
 title: Neapmokėtos įplaukos
 description: Šiame straipsnyje paaiškinama, kaip nustatyti prekes ir sąskaitas, kad būtų galima naudoti neįrašytą įplaukų funkciją abonemento sąskaitose.
 author: JodiChristiansen
-ms.date: 11/04/2021
+ms.date: 10/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: b3fe58fc06df3f61433c8457b337ae895283e12b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: adf6f06ee454f368fa194315a87cfdec9e5e13da
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879688"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644174"
 ---
 # <a name="unbilled-revenue"></a>Neapmokėtos įplaukos
 
@@ -123,15 +123,15 @@ Paskirstymai perskaičiuojami pagal pasirinktą paskirstymo tipą (**Procentas**
 
 Įvedamas trijų metų atsiskaitymo grafikas, o SF išrašoma kasmet per trijų metų laikotarpį. Visa sutarties suma įrašoma į neišrašytą įplaukų sąskaitą, iš kurios kuriamos metinės SF. Korespondentinė sąskaita yra įplaukų arba atidėtų įplaukų sąskaita.
 
-Atkreipkite dėmesį, kad viršutinės sąskaitos išrašymas ir neįrašomos įplaukos veikia kartu, nes DK gali kilti suderinimo problemų. Pavyzdžiui, prekių grupės **nustatymo puslapyje** prekių grupė A **nustatoma** taip, kad viršutinių eilučių skaičius būtų nustatytas kaip **2**. **Atsiskaitymo grafikų puslapyje** yra trys elementai. Visos trys prekės priklauso prekių grupei A. Kai pradinis žurnalo įrašas sukuriamas įplaukų, kurių informacija nėra išsiųsta, visų trijų prekių suma apdorojama į neištaisytą sąskaitą. Sukūrus atsiskaitymo grafiko SF, įtraukiamos tik dviejų pagrindinių prekių sumos. Todėl SF suma nesutampa su suma, kuri buvo apdorota į neįrašytą įplaukų sąskaitą, o suderinimo problemos įvyksta DK.
+Viršutinės sąskaitos užskaita ir neįrašomos įplaukos veikia kartu, nes SUDERINIMO problemos gali atsirasti DK. Pavyzdžiui, prekių grupės **nustatymo puslapyje** prekių grupė A **nustatoma** taip, kad viršutinių eilučių skaičius būtų nustatytas kaip **2**. **Atsiskaitymo grafikų puslapyje** yra trys elementai. Visos trys prekės priklauso prekių grupei A. Kai pradinis žurnalo įrašas sukuriamas įplaukų, kurių informacija nėra išsiųsta, visų trijų prekių suma apdorojama į neištaisytą sąskaitą. Sukūrus atsiskaitymo grafiko SF, įtraukiamos tik dviejų pagrindinių prekių sumos. Todėl SF suma nesutampa su suma, kuri buvo apdorota į neįrašytą įplaukų sąskaitą, o suderinimo problemos įvyksta DK.
 
 Jei norite naudoti neišduotas įplaukas, **palikite** prekių grupės nustatymo puslapį tuščią arba nustatykite visas prekių grupes taip, **·** **kad viršutinių eilučių skaičius lauke būtų nustatytas kaip 0** (nulis). Jei norite naudoti viršutinį sąskaitų išrašymas, negalima atlikti jokių neužrašytų įplaukų veiksmų.
 
 ### <a name="examples"></a>Pavyzdžiai
 
-Pagal versiją 10.0.27 įvedama nauja sąskaita, kai naudojamos neišskaitomos įplaukos. Kai užregistruojamas **pradinis žurnalo** įrašo kūrimo procesas, kreditas atliekamas naujai neišskaitomą įplaukų korespondentinę sąskaitą. Ši sąskaita naudojama vietoje įplaukų sąskaitos, kadangi ta pati vertė turi būti atšaukta išrašius sąskaitų faktūrų išrašymo sąskaitą faktūrą. Jeigu atsiranda valiutos kurso arba apvalinimo skirtumų, sumos, apskaičiuotos generuojant **SF procesą,** gali skirtis. Taip užtikrinama, kad grynoji sąskaitų suma yra 0 (nulis).
+Versijoje 10.0.29 prie periodinių sutarties atsiskaitymo parametrų pridedamas naujas parametras. Kai nustatyta kaip Taip, parametras **Naudoti neišskaitomą korespondentinę sąskaitą** įgalina dvi naujas sąskaitas **nustatant nenuskaitytas įplaukas**. Neįrašytų įplaukų korespondentinė ir neaprašyta nuolaida korespondentinės sąskaitos tampa galimos ir geriausiai naudojamos, kai sąskaitų pateikimo grafikai kuriami kita, nei apskaitos valiuta. Korespondentinių sąskaitų naudojimas užtikrina, kad neįskaitomos įplaukos ir neįskaitomos nuolaidų sąskaitos būtų atšauktos naudojant tuos pačius valiutos kursus, kaip ir pradiniai įrašai. Pradinis žurnalo **įrašo kūrimo procesas** yra toks pats kaip debetas, skirtas įplaukoms ir kreditui, neišrašytoms įplaukoms. Jei naudojama nuolaida, pradinis žurnalo įrašas yra tas pats su debetu į Nuolaida ir kreditas, kad būtų galima neišrašytą nuolaidą. 
 
-Šiame pavyzdyje parodyta, kaip naudoti neišrašytas įplaukas, kad būtų galima atpažinti visą balanso sutarties sumą kaip neišrašytas įplaukas. Kita įrašo pusė yra nepastebimos įplaukų korespondentinė sąskaita. Klientui išrašius SF, atšaukiamos neįrašytos įplaukos ir neįrašytų įplaukų korespondentinė sąskaita. Įplaukų pripažinimas bus arba SF išrašymo metu, arba pagal nustatytą atidėjimų pripažinimo grafiką.
+Šiame pavyzdyje parodyta, kaip naudoti neišrašytas įplaukas, kad būtų galima atpažinti visą balanso sutarties sumą kaip neišrašytas įplaukas. Kita įrašo pusė – įplaukos arba atidėtos įplaukos. Klientui išrašius SF, atšaukiamos neaprašytos įplaukos. Įplaukų pripažinimas bus arba SF išrašymo metu, arba pagal nustatytą atidėjimų pripažinimo grafiką.
 
 #### <a name="assumptions"></a>Prielaidos
 
@@ -151,47 +151,38 @@ Pagal versiją 10.0.27 įvedama nauja sąskaita, kai naudojamos neišskaitomos �
 
     | Elementas | Pradžios data | Pabaigos data | Suma | Atsiskaitymo dažnumas | Atidėjimo prekė | Neapmokėtos įplaukos | Aprašymas |
     |---|---|---|---|---|---|---|---|
-    | Licencija | Sausio 01 d., CIF | Gruodžio 31 d.RASTOS+2 d. | $100.00 | Kasmet | Ne | Taip | Klientui SF bus išrašoma $100.00 metu. Bendra $300.00 suma bus įrašyta iš anksto kaip balanso sąskaitos neįrašyta įplauka ir kaip pelno ir nuostolio įplaukos. Kiekviena SF sumažins neišrašytą sumą. |
-    | Priežiūra | Sausio 01 d., CIF | Gruodžio 31 d.RASTOS+2 d. | $30.00 | Kasmet | Taip | Taip | Klientui SF bus išrašoma $30.00 metu. Bendroji $90.00 suma bus įrašyta iš anksto kaip neįrašomos įplaukos ir atidėtos įplaukos balanse. Kiekviena SF sumažins neišrašytą sumą. Atidėtos įplaukos bus atpažinsmos kas mėnesį per 36 mėnesius. |
+    | Licencija | 2022 m. sausio 01 d. | 2024 m. gruodžio 31 d. | $100.00 | Kasmet | Ne | Taip | Klientui SF bus išrašoma $100.00 metu. Bendra $300.00 suma bus įrašyta iš anksto kaip balanso sąskaitos neįrašyta įplauka ir kaip pelno ir nuostolio įplaukos. Kiekviena SF sumažins neišrašytą sumą. |
+    | Priežiūra | 2022 m. sausio 01 d. | 2024 m. gruodžio 31 d. | $30.00 | Kasmet | Taip | Taip | Klientui SF bus išrašoma $30.00 metu. Bendroji $90.00 suma bus įrašyta iš anksto kaip neįrašomos įplaukos ir atidėtos įplaukos balanse. Kiekviena SF sumažins neišrašytą sumą. Atidėtos įplaukos bus atpažinsmos kas mėnesį per 36 mėnesius. |
 
 6. Puslapyje Visi **sąskaitų pateikimo grafikai** naudokite įrašų procesą Kurti **žurnalą,** kad balanso sutarties vertė būtų registruojama kaip neplanuotos įplaukos.
 
 Sukuriami du žurnalo įrašai: po vieną kiekvienai atsiskaitymo grafiko eilutei.
 
-| Neapmokėtų įplaukų sąskaita | Įplaukų, kuriems neišrašyta sąskaita, korespondentinė sąskaita | Debeto suma | Kredito suma |
-|---|---|---|---|
-| Neapmokėtų įplaukų sąskaita | | $300.00 | |
-| | Įplaukų, kuriems neišrašyta sąskaita, korespondentinė sąskaita | | $300.00 |
+| Sąskaita | Debeto suma | Kredito suma |
+|---|---|---|
+| Neapmokėtų įplaukų sąskaita | $300.00 | |
+| Įplaukų sąsk. | | $300.00 |
 
-| Neapmokėtų įplaukų sąskaita | Atidėtos įplaukos | Debeto suma | Kredito suma |
-|---|---|---|---|
-| Neapmokėtų įplaukų sąskaita | | $90.00 | |
-| |Atidėtos priežiūros įplaukos | | $90.00 |
+| Sąskaita | Debeto suma | Kredito suma |
+|---|---|---|
+| Neapmokėtų įplaukų sąskaita | $90.00 | |
+| Atidėtos įplaukos | | $90.00 |
 
-Pirmas žurnalo įrašas užregistruojamas neįskaitomose įplaukų korespondentinės sąskaitose, o antrasis registruojamas atidėtų įplaukų sąskaitoje. Jei atsiskaitymo eilutėje yra ir neįrašytoms įplaukoms, ir atidėtoms įplaukoms, naudojama atidėtų įplaukų sąskaita, o ne ne neišsiųstų įplaukų korespondentinė sąskaita. Sutartyje reikalaujama, kad kliento SF būtų sukurta kasmet pradžioje. Norėdami sukurti **SF,** naudokite procesą Generuoti SF. Sukūrus SF, sukuriami šie žurnalo įrašai.
+Sutartyje reikalaujama, kad kliento SF būtų sukurta kasmet pradžioje. Norėdami sukurti **SF,** naudokite procesą Generuoti SF. Sukūrus SF, užregistruojamas šis SF kvitas.
 
-| Pagrindinė sąskaita | Neapmokėtų įplaukų sąskaita | Debeto suma | Kredito suma |
-|---|---|---|---|
-| Nepatebimos įplaukų korespondentinė sąskaita | | $100.00 | |
-| | Neapmokėtų įplaukų sąskaita | | $100.00 |
-| Gautinos sumos | | $100.00 | |
-| | Įplaukų sąsk. | | $100.00 |
+| Sąskaita| Debeto suma | Kredito suma |
+|---|---|---|
+| Neapmokėtų įplaukų sąskaita | | $130.00 |
+| Gautinos sumos | $130.00 | |
 
-| Pagrindinė sąskaita | Neapmokėtų įplaukų sąskaita | Debeto suma | Kredito suma |
-|---|---|---|---|
-| Atidėtų priežiūros įplaukų sąskaita | | $30.00 | |
-| | Neapmokėtų įplaukų sąskaita | | $30.00 |
-| Gautinos sumos | | $30.00 | |
-| | Atidėtų priežiūros įplaukų sąskaita | | $30.00 |
+Šis tas pats žurnalo įrašas bus sukurtas SF, kurios užregistruotos kitų dviejų metų pradžioje. Neįrašytų įplaukų sąskaita kasmet sumažinama vykstant SF **generavimo procesui**. Neišsiųstų įplaukų korespondentinė sąskaita naudojama neį sf įplaukų sąskaitai subalansuoti, kai naudojami skirtingi valiutos kursai. 
 
-Šis tas pats žurnalo įrašas bus sukurtas SF, kurios užregistruotos kitų dviejų metų pradžioje. Atidėtų įplaukų sąskaitos grynoji suma bus 0 (nulis), nes nėra apvalinimo arba valiutos kurso skirtumų. Atidėtos įplaukos turi būti atšauktos tiksliai taip, kaip buvo kredituotos proceso Kurti **žurnalą metu**. Kadangi įplaukos vis dar atidėtos ir bus atpažinos vėliau, atidėtų įplaukų sąskaitos kreditas atsiranda dar kartą.
+Paskutiniame veiksme atpažinimo žurnalo įrašas sukuriamas kiekvieną mėnesį, kad būtų atpažinsite iš priežiūros mokesčio atidėtas įplaukas. Žurnalo įrašą galima sukurti naudojant atpažinimo **apdorojimo** puslapį. Kitu atveju, jį galima sukurti atidėjimo **grafiko** puslapiuose pasirinkus **Atpažinti** eilutes.
 
-Paskutiniame veiksme atpažinimo žurnalo įrašas sukuriamas kiekvieną mėnesį, kad būtų atpažinti atidėtos priežiūros mokesčio įplaukos. Žurnalo įrašą galima sukurti naudojant atpažinimo **apdorojimo** puslapį. Kitu atveju, jį galima sukurti atidėjimo **grafiko** puslapiuose pasirinkus **Atpažinti** eilutes.
-
-| Atidėtųjų įplaukų sąskaita | Įplaukų sąsk. | Debeto suma | Kredito suma |
-|---|---|---|---|
-| Atidėtos priežiūros įplaukos | | $2.50 | |
-| | Priežiūros įplaukos | | $2.50 |
+| Pagrindinė sąskaita | Debeto suma | Kredito suma |
+|---|---|---|
+| Atidėtos įplaukos | $2.50 | |
+| Įplaukos | | $2.50 |
 
 Šis žurnalo įrašas bus sukurtas kiekvieną kartą, kai bus vykdomas šio atidėto elemento atpažinimo procesas (iš viso 36 kartus).
 
@@ -269,18 +260,18 @@ Kadangi abi prekės naudoja neišrašytas įplaukas ir įplaukų paskirstymą, b
 
 Šioje lentelėje rodomas pradinis prekių ir SF žurnalo įrašas.
 
-| Neapmokėtų įplaukų sąskaita | Atidėtųjų įplaukų sąskaita | Debeto suma | Kredito suma |
-|---|---|---|---|
-| **Prekės 1000 žurnalo įrašas** | | | |
-| Debeto neįrašytų įplaukų sąskaita (401250) | | $1,465.26 | |
-| | Atidėtų kredito įplaukų sąskaita (250600) | | $1,465.26 |
-| **Prekės 0021 žurnalo įrašas** | | | |
-| Debeto neįrašytų įplaukų sąskaita (401250) | | $274.74 | |
-| | Atidėtų kredito įplaukų sąskaita (250600) | | $274.74 |
-| **PVM sąskaita faktūra** | | | |
-| | Kredito nepateisytų įplaukų sąskaita | | $1,465.26 |
-| | Kredito nepateisytų įplaukų sąskaita | | $274.74 |
-| Debeto AR sąskaita (130100) | | $1,488.16 | |
+| Pagrindinė sąskaita | Debeto suma | Kredito suma |
+|---|---|---|
+| **Prekės 1000 žurnalo įrašas** | | | 
+| Neap sf įplaukų sąskaita (401250) | $1,465.26 | |
+| Atidėtų įplaukų sąskaita (250600) | | $1,465.26 |
+| **Prekės 0021 žurnalo įrašas** | | | 
+| Neap sf įplaukų sąskaita (401250) | $274.74 | |
+| Atidėtų įplaukų sąskaita (250600) | | $274.74 |
+| **PVM sąskaita faktūra** | | |
+| Neapmokėtų įplaukų sąskaita | | $1,465.26 |
+| Neapmokėtų įplaukų sąskaita | | $274.74 |
+| AR sąskaita (130100) | $1,488.16 | |
 
 #### <a name="changes-to-the-billing-schedule-line-billing-detail-line-or-revenue-allocation"></a>Atsiskaitymo grafiko eilutės, atsiskaitymo informacijos eilutės arba įplaukų paskirstymo pakeitimai
 

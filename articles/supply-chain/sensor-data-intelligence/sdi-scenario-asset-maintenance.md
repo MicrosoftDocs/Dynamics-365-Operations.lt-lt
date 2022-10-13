@@ -1,5 +1,5 @@
 ---
-title: Turto priežiūros scenarijus
+title: Turto prastovos priežiūros scenarijus
 description: Šiame straipsnyje aprašomas turto priežiūros scenarijus, kuris leidžia naudoti jutiklio duomenis skaitiklio įrašams, kurie seka įrenginio turto naudojimą, kurti.
 author: johanhoffmann
 ms.date: 09/02/2022
@@ -11,19 +11,25 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: ff3944b987314a688a5829b05f8627479e3e79ed
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: fcd16d09b4293046c457b602857ef8950e8259c6
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428992"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644063"
 ---
-# <a name="the-asset-maintenance-scenario"></a>Turto priežiūros scenarijus
+# <a name="the-asset-maintenance-scenario"></a>Turto prastovos priežiūros scenarijus
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Turto *priežiūros scenarijus* leidžia naudoti jutiklių duomenis skaitiklio įrašams kurti. Skaitiklio įrašai seka įrenginio turto naudojimą ir naudojami kaip įvestis įrenginių turto priežiūros grafikui generuoti.
+
+## <a name="video-instructions"></a>Vaizdo įrašų instrukcijos
+
+Toliau pateiktame vaizdo įraše parodyta, kaip nustatyti ir išbandyti turto priežiūros scenarijų naudojant standartinius demonstracinius [duomenis](../../fin-ops-core/fin-ops/get-started/demo-data.md). Likusiuose šio straipsnio skyriuose tos pačios instrukcijos pateikiamos tekstiniu formatu.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE58aRW]
 
 ## <a name="prepare-demo-data-for-the-asset-maintenance-scenario"></a>Parengti demonstracinius duomenis turto priežiūros scenarijui
 

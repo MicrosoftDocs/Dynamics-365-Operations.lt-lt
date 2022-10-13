@@ -1,8 +1,8 @@
 ---
 title: Balanso finansinės ataskaitos
 description: Šiame straipsnyje aprašytos numatytosios balanso lapų ataskaitos. Be to, jame aprašyti su šiomis ataskaitomis susieti kūrimo blokai.
-author: jcart1106
-ms.date: 06/20/2017
+author: jinniew
+ms.date: 10/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: twheeloc
 ms.custom: 12274
 ms.assetid: 52f78229-f531-4d16-b337-e2628994acb6
 ms.search.region: Global
-ms.author: jcart
+ms.author: jiwo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64e23574f470efe1cb737236ff0b0ef37dae5064
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4aad297f401143388d682da175a6b14727a8f2f0
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880736"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643829"
 ---
 # <a name="balance-sheet-financial-reports"></a>Balanso finansinės ataskaitos
 
@@ -33,9 +33,9 @@ ms.locfileid: "8880736"
 Yra dvi numatytosios balanso ataskaitos. Vienoje ataskaitoje skyriai suspausti. Kitoje ataskaitoje skyriai yra vienas šalia kito.
 
 | Numatytoji ataskaita                       | Kuo ji naudinga                                                                                                                           |
-|--------------------------------------|----------------------------------------------------------------------------------------------|
-| Balansas – numatyt.              | Pateikiamas organizacijos metų finansinės padėties rodinys.                                                                 |
-| Sugretintas balansas – numatyt. | Pateikiamas organizacijos metų finansinės padėties rodinys. Turtas, įsipareigojimai ir akcininko kapitalas yra vienas šalia kito. |
+|--------------------------------------|--------------------------------------------------------------------------------------|
+| Balansas – numatyt.              | Pateikiamas organizacijos metų finansinės padėties rodinys.                    |
+| Balanso lapas ir pajamų išrašas vieną šalia kitos – numatytieji | Pateikiamas organizacijos finansinių metų padėties vaizdas vieną šalia kitos. |
 
 ## <a name="building-blocks"></a>Kūrimo blokai
 Balanso finansinėse ataskaitose naudojami toliau nurodyti kūrimo blokai.
@@ -43,7 +43,7 @@ Balanso finansinėse ataskaitose naudojami toliau nurodyti kūrimo blokai.
 | Numatytoji ataskaita                       | Eilutės apibrėžimas                       | Stulpelio aprašas             |
 |--------------------------------------|--------------------------------------|-------------------------------|
 | Balansas – Numatytasis              | Balansas – Numatytasis              | Nuo šių metų pradžios ir nuokrypis – Numatytasis    |
-| Sugretintas balansas – numatyt. | Sugretintas balansas – numatyt. | Stulpelis Nuo šių metų pradžios – Numatytasis |
+| Balanso lapas ir pajamų išrašas vieną šalia kitos – numatytieji | Balanso lapas ir pajamų išrašas vieną šalia kitos – numatytieji | Stulpelis Nuo šių metų pradžios – Numatytasis |
 
 ### <a name="row-definition"></a>Eilutės apibrėžimas
 

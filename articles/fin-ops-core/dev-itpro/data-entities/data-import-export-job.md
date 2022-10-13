@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a03f8fd0fa05a1400c69a2da8867dee135ad06a1
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: dfd06c30ae09a175862810a0c85399358a65fdb0
+ms.sourcegitcommit: 43a0fb019bc67c00c39c2778343ba89924c3322c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357610"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9671464"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Duomenų importavimo ir eksportavimo užduočių apžvalga
 
@@ -64,6 +64,9 @@ Rekomenduojame atidžiai pasirinkti tinkamą importavimo arba eksportavimo uždu
 
 ### <a name="set-the-data-format-for-the-job"></a>Užduoties duomenų formato nustatymas
 Pasirinkę objektą, turite pasirinkti duomenų, kurie bus eksportuojami arba importuojami, formatą. Formatai apibrėžiami naudojant plytelę **Duomenų šaltinių nustatymas**. Šaltinio duomenų formatas – tai **tipo**, **failo formato**, **eilutės skyriklio** ir **stulpelio skyriklio** kombinacija. Taip pat yra ir kitų atributų, bet apie šiuos žinoti yra būtina. Šioje lentelėje išvardijamos leistinos kombinacijos.
+
+> [!NOTE]
+> "Excel" failo formatas šiuo metu nėra duomenų valdymo darbo srityje, skirtame "Government Community Cloud" (GCC).
 
 | Failo formatas            | Eilutės / stulpelio skyriklis                       | XML stilius                 |
 |------------------------|--------------------------------------------|---------------------------|

@@ -2,7 +2,7 @@
 title: Pašalintos arba nebenaudojamos „Dynamics 365 Finance“ funkcijos
 description: Šiame straipsnyje aprašomos priemonės, kurios buvo pašalintos arba suplanuotos pašalinti iš "Dynamics 365 Finance".
 author: kfend
-ms.date: 06/29/2022
+ms.date: 10/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 070c61df14db4d2538b129b01defd4b82db0b8a7
-ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
+ms.openlocfilehash: 516b2b6091fa620b21eebba25f56ff55aa282ffc
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9462307"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643800"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Pašalintos arba nebenaudojamos „Dynamics 365 Finance“ funkcijos
 
@@ -32,6 +32,18 @@ ms.locfileid: "9462307"
 
 > [!NOTE]
 > Išsami informacija apie finansų ir operacijų programėlių objektus pateikta techninės [nuorodos ataskaitose](/dynamics/s-e/global/axtechrefrep_61). Galite palyginti skirtingas šių ataskaitų versijas ir sužinoti apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje finansų ir operacijų programėlių versijoje.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10031-release"></a>Pašalintos arba nerekomenduojamos funkcijos, esančios „Finance“ 10.0.31 versijoje
+
+### <a name="edifact-paymul-at-configuration-under-payment-model"></a>EDIFACT PAYMUL (AT) konfigūracija pagal mokėjimo modelį
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Nerekomendavimo/pašalinimo priežastis** | Pakeičiamas nauju formatu, pagrįstu ISO 20022 001.001.09. | 
+| **Pakeitė kita funkcija?**   | Taip |
+| **Paveiktos produkto sritys**         | Taikymas |
+| **Visuotinio diegimo parinktis**              | Viskas |
+| **Būsena**                         | Pasenusi: Austrijos bankai nusidėvi EDICFACT-PAYMUL tarptautinių mokėjimų metu iki 2022 m. lapkričio mėn. ir pakeis jį XML versijos 001.001.09N. Nauja konfigūracija buvo įtraukta į visuotinės konfigūracijos saugyklą, kuri įgalina vartotojus užpildyti tarptautinių mokėjimų užklausą. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10030-release"></a>Pašalintos arba nerekomenduojamos funkcijos, esančios „Finance“ 10.0.30 versijoje
 

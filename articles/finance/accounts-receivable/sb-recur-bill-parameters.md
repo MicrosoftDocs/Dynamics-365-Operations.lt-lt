@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: cb60253f3cbb8c991ef2e106abdb1c685bf22171
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 64d6e21c2d8c588a64f0f4cf8b7a0bafc853bcab
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903340"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644009"
 ---
 # <a name="recurring-contract-billing-parameters"></a>Periodinio sutarties atsiskaitymo parametrai
 
@@ -46,7 +46,8 @@ Naudokite periodinių **sutarties atsiskaitymo parametrų** puslapį, norėdami 
 8. Lauke SF **operacijos tipas pasirinkite** numatytąjį SF operacijos tipą naujiems sąskaitų pateikimo grafikams.
 9. Nustatykite atidėjimo **lygiavimo pagal** **atsiskaitymo** parinktį kaip Taip, kad sulygiuokite atitinkamą atidėjimo grafiką, kad jis naudos tas pačias datas kaip ir atsiskaitymo grafike. Jei norite, kad **būtų nurodytos** skirtingos datos, nustatykite ne.
 10. Jei naudojate įplaukų skaidymo funkciją, nustatykite parinktį Automatiškai kurti **įplaukų** skaidymo parinktį **kaip Taip**, kai prekės pridėtos prie sąskaitų pateikimo grafiko. Jei **prekė nustatyta** kaip įplaukų skaidymo prekė, sąskaitų pateikimo grafiko eilutėje bus automatiškai pažymėtas žymės langelis Įplaukų skaidymo. Nustatykite pasirinktį **Ne**, jei norite rankiniu būdu pažymėti žymės langelį **Įplaukų skaidymo**.
-11. Nustatykite pardavimo užsakymo kūrimo laukus:
+11. Nustatykite **kliento skaidymo** parinktį kaip **Taip**, jei norite leisti išrašyti sąskaitų pateikimo grafiką skirtingiems klientams. Kai nustatyta Kaip **Taip,** klientų **skaidymo** parinktis galima atsiskaitymo grafiko antraštėje ir atsiskaitymo grafiko eilutėje. 
+12. Nustatykite pardavimo užsakymo kūrimo laukus:
 
     - SF gali būti konsoliduotos pagal laikotarpį, klientą arba prekę. Galima nustatyti bet **kokį** verčių **Taip ir Ne** derinį. SF taip pat galima skaidyti pagal prekių grupę.
     - Galimos šios SF registravimo pasirinktys:
@@ -92,6 +93,9 @@ Naudokite periodinių **sutarties atsiskaitymo parametrų** puslapį, norėdami 
     - **Išdavimo** kreditas – kurti kredito pažymą, kai nutrauktas atsiskaitymo grafikas arba atsiskaitymo grafiko eilutė.
     - **Kredito koregavimas** – kurti sąskaitų pateikimo grafiko kredito koregavimą, kai eilutė nutraukta. Kredito koregavimas rodomas būsimam atsiskaitymo grafiko atsiskaitymo laikotarpiui. Kredito koregavimas atnaujins kito atsiskaitymo laikotarpio SF sumą, kol kreditas bus užbaigtas taikyti atsiskaitymo grafikui.
     - **Nėra kredito** – nekurti kredito koregavimo arba kredito pažymos, kai nutrauktas atsiskaitymo grafikas arba atsiskaitymo grafiko eilutė. Ši pasirinktis galima tik tada, kai **parinktis Nėra koregavimo** naudojama norint atleisti atsiskaitymo grafiką.
+18. Kai **parinktis** **·** **Vieną** kartą gali būti nutraukta nuo grąžinimo, nustatyta kaip Ne ir atsiskaitymo grafikas, kurio atsiskaitymo dažnumas yra Vieną kartą, **atsiskaitymo** grafiko eilutės būsena pasikeičia į Atleista, kai išrašoma atsiskaitymo grafiko SF. Šio sąskaitų pateikimo grafiko nutraukti negalima ir negalima išduoti jokio kredito. Kai **vieną kartą galima atleisti** nuo grąžinimo, nustatyta parinktis Taip, atsiskaitymo grafiko eilutės, kurios atsiskaitymo dažnumas Yra Vieną kartą, būsena Bus Aktyvi po **to** **·** **·**, kai išrašoma sąskaitų faktūrų SF. Atsiskaitymo grafiko eilutę galima nutraukti ir apdoroti grąžinimą. 
+19. Parametruose **nustatyta prorate daily** parinktis bus nustatyta masinio atleidimo puslapyje ir atsiskaitymo grafiko antraštėje bei eilutės atleidimo dialogo languose. Jis gali būti pakeistas atleidimo proceso metu. Kai nustatyta Kaip **Taip**, bet kokia grąžinimo suma bus skaičiuojama naudojant dienos tarifą. Kai nustatyta Ne, **kreditas** bus kreditas pagal atleidimo datą ir atsiskaitymo dažnumą. Pavyzdžiui, jei kas mėnesį buvo naudojama dažnumas ir sąskaitų $100 per mėnesį, kredito suma padidinama kas $100. Jei atsiskaitymo dažnumas yra vieną kartą, kredito suma yra $0.00. Jei norite gauti vienkartinio atsiskaitymo dažnumo grąžinimą, dienos prorate nustatykite kaip Taip. 
+20. Nustatykite **kredito pasirinkties kurti atidėjimą** kaip **Taip, jei** norite kurti naują atidėjimo grafiką kredituojant esamą atidėjimo grafiką. Norėdami sukurti kreditą esamame **atidėjimo** grafike, palikite nustatytą pasirinktį Ne.
 
 ## <a name="sequence-number-tab"></a>Skirtukas Sekos numeris
 

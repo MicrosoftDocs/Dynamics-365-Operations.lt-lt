@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 7e32b3ed6ed96de7193cc496e0630969137cd0c1
-ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
+ms.openlocfilehash: c160a6477dd41fac0f15f57bb0f46def500f4589
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/26/2022
-ms.locfileid: "9591856"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643746"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planavimo optimizavimo tinkamumo analizė
 
@@ -104,7 +104,7 @@ Tolesnėje lentelėje pateikiami skirtingi rezultatai, rodomi po tinkamumo anali
 | Laiko rezervai | Bendrieji planai su laiko rezervu: *\#* | Dabar ši funkcija yra palaikoma. Papildomą informaciją rasite [Laiko rezervai](safety-margins.md) |  Palaikoma |
 | Saugos atsargų pildymas | Prekės padengimo įrašai, kurių parametras „Išpildyti minimumą” skiriasi nuo „Šiandienos data + įsigijimo laikas”: *\#* | Planavimo optimizavimas visada naudoja *Šiandienos data + įsigijimo laikas*. Šis pakeitimas sukurtas pasirengti supaprastintam planavimo nustatymui ateityje ir pateikti įgyvendinamą rezultatą. Jei įsigijimo laikas neįtrauktas į pakankamas atsargas, suplanuoti užsakymai, sukurti dabartinėms mažoms turimoms atsargos, visada bus atidėti dėl gamybos laiko. Tai gali sukelti daug triukšmo ir nepageidaujamų suplanuotų užsakymų. Geriausia yra pakeisti parametrą, kad būtų naudojama *Šiandienos data + įsigijimo laikas*. Atnaujinti bendruosius duomenis, kad būtų išvengta įspėjimų. | Netaikoma |
 | Pardavimo pasiūlymai | Bendrieji planai su įgalintais pardavimo pasiūlymais: *\#* | Ši funkcija laukia patvirtinimo. Šiuo metu į pasiūlymus neatsižvelgiama, kai įjungtas planavimo optimizavimas. Jų bus nepaisoma, neatsižvelgiant į šį nustatymą. | 2022 išleidimo banga 2 arba naujesnė versija |
-| Laikymo trukmė | Bendrieji planai su įgalinta laikymo trukme: *\#* | Ši funkcija laukia patvirtinimo. Šiuo metu į laikymo trukmę neatsižvelgiama, kai įjungtas planavimo optimizavimas, neatsižvelgiant į šį parametrą. | Palaikoma |
+| Laikymo trukmė | Bendrieji planai su įgalinta laikymo trukme: *\#* | Dabar ši funkcija yra palaikoma. | Palaikoma |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

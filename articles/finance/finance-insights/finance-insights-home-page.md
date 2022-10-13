@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 42ea8884c357bcb26ac96df8dca75e7ff449d4f4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2f04ef1a0de815596f629fede25a247c58e026f4
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881968"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643883"
 ---
 # <a name="finance-insights-home-page"></a>„Finance Insights“ pagrindinis puslapis
 
@@ -98,9 +98,5 @@ Grynųjų pinigų srauto prognozavimo pajėgumas gali padėti tiksliau įvertint
 ### <a name="using-budget-proposal"></a>Biudžeto pasiūlymo naudojimas
 
 Norėdami daugiau informacijos apie tai, kaip pagreitinti biudžeto kūrimą, žr. [Biudžeto pasiūlymai](budget-proposals.md). 
-
-## <a name="feedback-and-support"></a>Atsiliepimai ir palaikymas
-
-Jei norite pateikti atsiliepimą arba, jei jums reikia pagalbos, siųskite el. laišką finansų [žinių paieškai](mailto:fiap@microsoft.com).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

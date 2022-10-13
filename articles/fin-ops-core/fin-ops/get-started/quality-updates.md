@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 54fd52f27a4169c5b6fed6045a5540cfd47bdd51
-ms.sourcegitcommit: 3ef31670b579a34dcde4ec86541a202d2ac2f9c5
+ms.openlocfilehash: 25306a8ccebb5cd01debc90cf497d4a942840ef4
+ms.sourcegitcommit: 43a0fb019bc67c00c39c2778343ba89924c3322c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "9637051"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9671431"
 ---
 # <a name="proactive-quality-updates"></a>Iniciatyvūs kokybės atnaujinimai
 
@@ -87,6 +87,9 @@ Norėdami gauti informacijos apie tamsaus regiono valandas, žr. [Kokie yra supl
 | 5 stotis | Dod, Vyriausybės bendruomenės debesis, Kinija | Nesuplanuota | Nesuplanuota |
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a> Aktyvus kokybės atnaujinimo paleidimas: 10.0.29
+**Programos versija: 10.0.1326.70 atitinkamas**
+**naujausias žinių bazės straipsnis: 748926**
+
 | Stotis | Regionai | Būsimų sand. dėžių grafikas
 |---|---|---|
 | 1 stotis | Kanados centrinis centras, Kanados rytų, Prancūzijos centrinis bankas, Indijos centras, Norvegijos rytų, Šveicarijos West | 2022 m. spalio 14 d. iki spalio 17 d. |
@@ -96,7 +99,7 @@ Norėdami gauti informacijos apie tamsaus regiono valandas, žr. [Kokie yra supl
 | 5 stotis | Dod, Vyriausybės bendruomenės debesis, Kinija | Nesuplanuota |
 
 > [!IMPORTANT] 
-> Iš anksto per penkias darbo dienas "Microsoft" atnaujins ankstesnį planą ir siųs pranešimus el. paštu į aplinkos rinkinį, kuriame numatyta gauti šiuos kokybės naujinimus. Ankstesnis grafikas taikomas tik aplinkai, kuri buvo paskelbta apie būsimą atnaujinimą. Norėdami gauti informacijos apie tamsaus regiono valandas, žr. [Kokie yra suplanuoti priežiūros langai pagal regioną](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows)?
+> "Microsoft" iš anksto per penkias dienas atnaujins ankstesnį planą ir siųs pranešimus el. paštu į aplinkos rinkinį, kuriame numatyta gauti šiuos kokybės naujinimus. Ankstesnis grafikas taikomas tik aplinkai, kuri buvo paskelbta apie būsimą atnaujinimą. Norėdami gauti informacijos apie tamsaus regiono valandas, žr. [Kokie yra suplanuoti priežiūros langai pagal regioną](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows)?
 >
 > Kiekvienoje regiono grupėje ar *stotis*, kurioje šiuo metu planuojama atlikti kokybės naujinimą, grafike pateikiamas keturių dienų intervalas. Kokybės naujinimai bus pradėti tik naudojant sand. dėžės aplinkas. Tada, sėkmingai įdiegtos sandų dėžės padidėjimo procentinė dalis, diegimas į gamybos aplinką pradės nuo išankstinių pranešimų klientams.
 > 
@@ -117,7 +120,7 @@ Ne. Pagrindinis kokybės atnaujinimo tikslas yra užtikrinti pagrindinius reikal
 ## <a name="how-do-i-know-what-set-of-changes-went-into-a-quality-update-payload"></a>Kaip žinoti, koks pakeitimų rinkinys nuėjo į kokybės atnaujinimo mokamąjį krūvį?
 Toliau pateikiami veiksmai yra laikinas sprendimas, kadangi ir toliau dar teikiame geriausią sprendimą nustatyti pakeitimų, kurie patenka į kokybės atnaujinimo mokamąjį krūvį, sąrašą. 
 
-Naudodami 10.0.28 kokybės naujinimo traukinys ir susijusios programos versijos 745340 KB# 10.0.1265.89.
+Naudokite 745340 kb# numerį 10.0.28 kokybės naujinimo traukinyui ir susijusios programos 10.0.1265.89.
 
 1. LCS atidarykite sandėlio **aplinkos** informacijos puslapį. 
 2. Skyriuje Galimi **naujinimai pasirinkite** Rodyti naujinimą **, kad būtų galima** naudoti naujausią kokybės naujinimo versiją. 
@@ -141,7 +144,7 @@ Taip. Kad būtų užtikrintas karštųjų pataisų darbo lygumas, karštųjų pa
 Taip. Galite įdiegti kokybės naujinimą proaktyviai. "Microsoft" praleis atnaujinimą, jei dabartinė aplinkos versija yra lygi arba didesnė už šį kokybės naujinimą.
 
 ## <a name="if-an-environment-has-an-upcoming-scheduled-monthly-service-update-within-a-week-will-it-still-receive-quality-updates"></a>Jei aplinkoje yra suplanuotų mėnesio paslaugų atnaujinimo per savaitę, ar vis tiek bus gauti kokybės atnaujinimai?
-- Kokybės atnaujinimai netaikomas, jei yra planuojamas planuojamas paslaugos naujinimas per savaitę, nuo kada suplanuotas kokybės atnaujinimas.
+- Kokybės naujinimai nepritaikyti gamybos aplinkai, jei savaitei nuo tada, kai suplanuotas kokybės atnaujinimas, planuojamas planuojamas numatomas paslaugos atnaujinimas.
 - Jei sandbox aplinkoje yra ta pati arba naujesnė versija nei laukiantis kokybės naujinimas, ji bus praleista.
 - Jei gamybos aplinkos versija yra ta pati arba naujesnė nei laukiamas kokybės atnaujinimas, ji bus praleista.
 - Jei dėl kokybės atnaujinimo arba neautomatinio gamybos atnaujinimo sanddėlyje yra ta pati arba naujesnė versija, gamyba vis tiek gaus suplanuotą mėnesinio tarnybos naujinimo versiją. Jei nenorite, kad suplanuotos gamybos aplinka būtų atnaujinta į tarnybos naujinimo versiją, galite pristabdyti tarnybos naujinimą iš LCS. 

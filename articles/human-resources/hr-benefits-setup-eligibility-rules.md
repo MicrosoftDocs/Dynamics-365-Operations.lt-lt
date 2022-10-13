@@ -2,7 +2,7 @@
 title: Tinkamumo taisyklių ir parinkčių konfigūravimas
 description: Šiame straipsnyje aprašoma, kaip nustatyti tinkamumo taisykles ir parinktis dalyje Išmokų valdymas programoje "Microsoft"Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/24/2021
+ms.date: 09/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5540a2c39b3f9f53600e5edd5c63c99cec1fb000
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 916a9955327aef67ac768d4505bdb343862058a1
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337342"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644090"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Tinkamumo taisyklių ir parinkčių konfigūravimas 
 
@@ -175,6 +175,7 @@ Grupės yra susijusių išmokų planų rinkiniai. Galite naudoti išmokų grupes
    | **Grupuoti** | Unikalus grupavimo identifikatorius. |
    | **Aprašas** | Grupavimo aprašas. |
    | **Meistras** | Nurodoma, ar vienas iš grupėje esančių planų turi būti pažymėtas kaip pagrindinis planas. Pagrindinis planas turi būti pasirenkamas kaip grupavimo dalis atviros registracijos metu, kad išmokų administratorius galėtų patvirtinti darbuotojo išmokų pasirinkimus. |
+   | **Būtina**| Nurodo, kad planą reikia pasirinkti norint išregistravimo bet kurį kitą grupės planą. Daugiau nei vieną planą galima pažymėti kaip **Būtina**. Tokiu atveju visi planai, pažymėti kaip **būtini**, turės būti pasirinkti, kad ištikrintų visus grupės planus.|
    | **Galiojimo pradžios data ir laikas** | Grupavimo aktyvinimo data ir laikas. |
    | **Galioja iki** | Grupavimo galiojimo pabaigos data. Numatytasis parametras yra 2154-12-31, kuris atitinka niekada. |
 

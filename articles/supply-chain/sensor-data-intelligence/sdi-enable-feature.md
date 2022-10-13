@@ -1,5 +1,5 @@
 ---
-title: Įjungti sistemos jutiklio duomenų tyrimų sistemą
+title: „Sensor Data Intelligence“ įjungimas jūsų sistemoje
 description: Šiame straipsnyje paaiškinama, kaip įjungti jūsų sistemos jutiklio duomenų tyrimų veikimą.
 author: johanhoffmann
 ms.date: 09/02/2022
@@ -11,17 +11,25 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: aaf00b5ae459ae2d2a7be85360c9478049d873fd
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 536bf141d473a2886d1ca44dcf92a8febc2d12ce
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9429023"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643856"
 ---
-# <a name="turn-on-sensor-data-intelligence-for-your-system"></a>Įjungti sistemos jutiklio duomenų tyrimų sistemą
+# <a name="turn-on-sensor-data-intelligence-for-your-system"></a>„Sensor Data Intelligence“ įjungimas jūsų sistemoje
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+
+## <a name="video-instructions"></a>Vaizdo įrašų instrukcijos
+
+Toliau pateiktame vaizdo įraše parodyta, kaip įjungti "Azure" duomenų tyrimų funkciją ir [įdiegti reikiamus "Azure" išteklius](sdi-deploy-iot-solution-on-azure.md). Kitas šio straipsnio skyrius pateikia tas pačias instrukcijas tekstiniu formatu.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE58g3I]
+
+## <a name="procedure"></a>Procedūra
 
 Kad būtų galima naudoti Jutiklio duomenų tyrimų duomenis, jį reikia įjungti jūsų sistemai.
 
