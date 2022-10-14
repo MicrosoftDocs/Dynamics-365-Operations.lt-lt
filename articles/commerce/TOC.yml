@@ -394,6 +394,8 @@
                   items:
                     - name: „Store Commerce“ programa
                       href: dev-itpro/store-commerce.md
+                    - name: '„Store Commerce“ programa, skirta mobiliosioms platformoms'
+                      href: dev-itpro/store-commerce-mobile.md
                     - name: Perkelti „Modern POS“ į „Store Commerce“
                       href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: Įrenginių valdymo diegimo instrukcijos
