@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3ad92e006351adbf2494a1b32325d2d4a83b76a4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9b07831ab789b570963ff5f425f149ba5a564a38
+ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849995"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "9680364"
 ---
 # <a name="financial-dimensions"></a>Finansinės dimensijos
 
@@ -84,7 +84,7 @@ Siekiant išlaikyti duomenų integralumą, finansines dimensijas retai kada gali
 Teigiamai atsakius į bent vieną iš pirmiau pateiktų klausimų dimensijos panaikinti negalima.
 
 > [!NOTE]
-> Nuo 10.0.27 finansų versijos finansinės dimensijos automatiškai nebus pasirinktos finansinių ataskaitų nustatymui, kai jos bus sukurtos. 
+> Nuo 10.0.27 finansų versijos finansinės dimensijos automatiškai nebus pasirinktos finansinių ataskaitų nustatymui.
 
 ## <a name="default-dimension-values"></a>Numatytosios dimensijos reikšmės
 

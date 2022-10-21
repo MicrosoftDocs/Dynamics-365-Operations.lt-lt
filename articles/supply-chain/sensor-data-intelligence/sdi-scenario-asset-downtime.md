@@ -1,5 +1,5 @@
 ---
-title: Turto prastojo laiko scenarijus
+title: Turto prastovos scenarijus
 description: Šiame straipsnyje aprašomas turto naudojimo laiko scenarijus, kuris leidžia naudoti jutiklio duomenis, kad būtų galima stebėti turto prieinamumą.
 author: johanhoffmann
 ms.date: 09/02/2022
@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 944818557deebed06c02c00fd69de6e8f08bda83
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: b82d757d1e69203012949bc397220fa42ada4ac2
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9429021"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689435"
 ---
-# <a name="the-asset-downtime-scenario"></a>Turto prastojo laiko scenarijus
+# <a name="the-asset-downtime-scenario"></a>Turto prastovos scenarijus
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Turto prastovo scenarijus sugeneruoja priežiūros downtime įrašą, jei joks signalas iš įrenginio ne gaunamas per nustatytą laiko ribą nuo paskutinio signalo gavimo. Scenarijui reikia, kad jūsų kompiuteryje tilptų jutiklis, kuris periodiškai siunčia signalą "Azure IoT" centrui, kol kompiuteris veikia, tačiau nesiunčia signalo, kai kompiuteris neveikia.
 

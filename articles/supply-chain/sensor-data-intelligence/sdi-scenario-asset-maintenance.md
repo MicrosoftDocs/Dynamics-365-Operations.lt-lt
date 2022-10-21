@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: fcd16d09b4293046c457b602857ef8950e8259c6
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 2d103406118be4385177b678de424df12af69c2e
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9644063"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689406"
 ---
 # <a name="the-asset-maintenance-scenario"></a>Turto prastovos priežiūros scenarijus
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Turto *priežiūros scenarijus* leidžia naudoti jutiklių duomenis skaitiklio įrašams kurti. Skaitiklio įrašai seka įrenginio turto naudojimą ir naudojami kaip įvestis įrenginių turto priežiūros grafikui generuoti.
 
@@ -115,6 +116,9 @@ Kai duomenys paruošti, o *turto* priežiūros scenarijus konfigūruojamas ir su
 1. Eikite į **Turto valdymo turtas \>\> Visas turtas**.
 1. Raskite ir pasirinkite turtą, kurį norite patikrinti. (Jei naudojate demonstracinius duomenis, kuriuos sukūrėte anksčiau šiame straipsnyje, pasirinkite *AK-101*.)
 1. Veiksmų srities turto skirtuke, **·** **prevencinę** grupę, pasirinkite Skaitikliai **turto** *AK-101 skaitiklio įrašų puslapiui atidaryti.*
+
+> [!NOTE]
+> Numatyta, kad skaitiklio įrašai bus įterpti kas tris valandas, t. y. jutiklio duomenys bus sujungti tuo intervalu. Intervalą galite pakeisti redaguodami užklausą "Azure Stream Analytics" komponente.
 
 ### <a name="generate-maintenance-work-orders"></a>Generuoti priežiūros darbo užsakymus
 

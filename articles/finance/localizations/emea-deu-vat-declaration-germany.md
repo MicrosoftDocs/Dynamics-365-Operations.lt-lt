@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: atrukawk
 ms.search.validFrom: ''
-ms.openlocfilehash: 8ee288a1ec7ae950bdff9da7d373e29daef74d3c
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 04c625b554d96f8ed28ceffef9647fe9cbf7fe2f
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9269411"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689466"
 ---
 # <a name="vat-declaration-germany"></a>PVM deklaracija (Vokietija)
 
@@ -187,7 +187,7 @@ Norėdami nurodyti, kurie PVM kodai generuoja PVM deklaracijos langelius, atliki
 
 5. Būsenos lauke **pakeiskite** vertę į **Baigta**.
 6. Veiksmų srityje pasirinkite Eksportuoti **, kad** eksportuotumėte konkrečių programos parametrų parametrus.
-7. Pasirinkite PVM **deklaracijos Excel (DE)** konfigūraciją, tada veiksmų srityje pasirinkite Importuoti, norėdami importuoti parametrus, **·** **kuriuos sukonfigūravote PVM deklaracijos XML (DE).**
+7. Pasirinkite PVM **deklaracijos Excel (DE)** konfigūraciją, tada veiksmų srityje pasirinkite Importuoti, norėdami importuoti parametrus, **·** **kuriuos sukonfigūravote PVM deklaracijos XML (DE)**.
 8. Lauke **Būsena** pasirinkite **Baigta**.
 
 ### <a name="set-up-the-vat-reporting-format-for-preview-amounts-in-excel"></a>Pvm ataskaitos formato nustatymas "Excel" peržiūrėti sumas
@@ -198,7 +198,8 @@ Norėdami nurodyti, kurie PVM kodai generuoja PVM deklaracijos langelius, atliki
 
    Šis formatas spausdinamas, kai paleidžiate sudengimo **laikotarpio ataskaitos PVM** ataskaitą. Jis taip pat spausdinamas PVM mokėjimų **puslapyje** pasirinkus **Spausdinti**.
 
-4. Mokesčių inspekcijos **puslapyje** pasirinkite mokesčių inspekciją, tada lauke Ataskaitos maketas **pasirinkite** Numatytasis **·**.
+4. Jei turite pranešti apie taisymus, specialios ataskaitos **skyriuje** nustatykite **Įtraukti taisymus kaip** **Taip**.
+5. Mokesčių inspekcijos **puslapyje** pasirinkite mokesčių inspekciją, o lauke Ataskaitos maketas **pasirinkite** Numatytasis **·**.
 
 Jei konfigūruojate PVM deklaraciją juridiniame subjekte, kuriame yra kelios [PVM registracijos](emea-reporting-for-multiple-vat-registrations.md), atlikite šiuos veiksmus:
 
@@ -321,7 +322,7 @@ Norėdami nustatyti elektroninius pranešimus, kurie surinks duomenis iš kelių
 
     | Laukas                  | Aprašymas                                                                                                                   |
     |------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-    | Vardas                   | Įveskite vertę, kuri padės suprasti, iš kur gaunamas šis įrašas. Pavyzdžiui, įveskite filialo **1 PVM mokėjimą**. |
+    | Pavadinimas / vardas ir pavardė                   | Įveskite vertę, kuri padės suprasti, iš kur gaunamas šis įrašas. Pavyzdžiui, įveskite filialo **1 PVM mokėjimą**. |
     | Pranešimo prekės tipas      | Pasirinkti **PVM grąžinimą**. Ši vertė yra vienintelė galima visų įrašų vertė.                                    |
     | Kodo tipas           | Žymėti **viską**.                                                                                                               |
     | Pagrindinės lentelės pavadinimas      | Nurodykite **TaxReportVoucher** visiems įrašams.                                                                             |

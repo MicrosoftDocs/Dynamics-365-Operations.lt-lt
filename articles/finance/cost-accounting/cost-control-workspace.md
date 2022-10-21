@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f53d5d4daea076cc63308a83292f8f8c1ee1d022
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8d5ded4b08d562fff9ec5fd9a3de591f944e3ee0
+ms.sourcegitcommit: dca54dd3afc7c94795d89c63050b105df2c48e3f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853502"
+ms.lasthandoff: 10/15/2022
+ms.locfileid: "9682904"
 ---
 # <a name="cost-control-workspace"></a>Savikainos kontrolės darbo sritis 
 
@@ -53,7 +53,7 @@ Norėdami konfigūruoti savikainos kontrolės darbo sritį, spustelėkite **Kaš
 |-------------------------------------------------------------------|-------------|
 | Savikainos apskaitos didžioji knyga                                            | **Kaštų apskaitos didžioji knyga** pagal kurią paruošta ataskaita. Vertė išvedama iš lauko **Savikainos kontrolės įtaisas**. |
 | Savikainos kontrolės įtaisas                                                 | Nuo pasirinktos vertės priklauso tai, pagal kokią savikainos apskaitos didžiąją knygą ir savikainos objektus bus sudaryta ši ataskaita. |
-| Statistinių dimensijų hierarchija. Savikainos elemento dimensijų hierarchija | Darbo srities **Savikainos kontrolė** konfigūracijos įraše gali būti pranešama apie nepinigines arba apie pinigines vertes, bet ne tame pačiame makete. Lauke **Savikainos elemento dimensijų hierarchija** pasirinkite reikšmę, kad būtų parengiama piniginių verčių ataskaita. Lauke **Statistinių dimensijų hierarchija** pasirinkite reikšmę, kad būtų parengiama nepiniginių verčių ataskaita. Nuo pasirinkto dimensijų hierarchijos įrašo priklauso ataskaitų ir telkimo lygių struktūra.<blockquote>[!NOTE]<br>Norėdami peržiūrėti nepinigines ir pinigines vertes vieną šalia kitos, galite eksportuoti duomenis į „Microsoft Power BI“ skirtos programos „Microsoft Excel“ turinio paketą.</blockquote> |
+| Statistinių dimensijų hierarchija. Savikainos elemento dimensijų hierarchija | Darbo srities **Savikainos kontrolė** konfigūracijos įraše gali būti pranešama apie nepinigines arba apie pinigines vertes, bet ne tame pačiame makete. Lauke **Savikainos elemento dimensijų hierarchija** pasirinkite reikšmę, kad būtų parengiama piniginių verčių ataskaita. Lauke **Statistinių dimensijų hierarchija** pasirinkite reikšmę, kad būtų parengiama nepiniginių verčių ataskaita. Nuo pasirinkto dimensijų hierarchijos įrašo priklauso ataskaitų ir telkimo lygių struktūra.<blockquote>**PASTABA:**<br>Norėdami peržiūrėti nepinigines ir pinigines vertes vieną šalia kitos, galite eksportuoti duomenis į „Microsoft Power BI“ skirtos programos „Microsoft Excel“ turinio paketą.</blockquote> |
 | Savikainos objekto dimensijų hierarchija      | Pasirinkite jūsų rengiamų ataskaitų tikslą atitinkančios savikainos objekto dimensijos hierarchiją. |
 | Biudžeto pradinė versija                                           | Pasirinkite biudžeto versijos ID, kuri šios ataskaitos kontekste veikia kaip pradinis biudžetas. |
 | Biudžeto peržiūrėta versija                                            | Pasirinkite biudžeto versijos ID, kuri šios ataskaitos kontekste veikia kaip patikslintas biudžetas. |
@@ -64,7 +64,7 @@ Atliekant pridėtinių išlaidų skaičiavimą atliekami keli šaltinio duomenų
 
 | Laukas                  | aprašymas |
 |------------------------|-------------|
-| Ataskaitinis kalendorinis laikotarpis | Pasirinkite ataskaitinį kalendoriaus laikotarpį, kuriam priskirsite pridėtinių išlaidų skaičiavimo ID.<blockquote>[!NOTE]<br>Lauke išvardyti ataskaitiniai laikotarpiai gaunami iš finansinio kalendoriaus, kuris susietas su kaštų apskaitos didžiąja knyga.</blockquote> |
+| Ataskaitinis kalendorinis laikotarpis | Pasirinkite ataskaitinį kalendoriaus laikotarpį, kuriam priskirsite pridėtinių išlaidų skaičiavimo ID.<blockquote>**PASTABA:**<br>Lauke išvardyti ataskaitiniai laikotarpiai gaunami iš finansinio kalendoriaus, kuris susietas su kaštų apskaitos didžiąja knyga.</blockquote> |
 | Faktinė versija         | Pasirinkite atitinkamą pridėtinių išlaidų skaičiavimo ID. |
 | Biudžeto versija         | Pasirinkite atitinkamą pridėtinių išlaidų skaičiavimo ID. |
 | Peržiūrėta biudžeto versija | Pasirinkite atitinkamą pridėtinių išlaidų skaičiavimo ID. |
@@ -77,10 +77,10 @@ Pažymėtų stulpelių vertės bus padaugintos iš „FastTab“ skirtuke **Atas
 
 | Laukas                | aprašymas |
 |----------------------|-------------|
-| Dabartinis laikotarpis       | Rodomas dabartinio ataskaitinio laikotarpio likutis.<blockquote>[!NOTE]<br>Pagal numatytuosius nustatymus dabartinis laikotarpis nustatomas pagal seanso datą. Darbo srityje **Savikainos kontrolė** galima pasirinkti konkretų ataskaitinį laikotarpį. Tada pasirinkta vertė nurodo dabartinį laikotarpį.</blockquote> |
-| Ankstesnis laikotarpis      | Rodomas ankstesnio ataskaitinio laikotarpio likutis. Naudojama ši formulė:<br>Dabartinis ataskaitinis laikotarpis – 1<blockquote>[!NOTE]<br>Pagal numatytuosius nustatymus ankstesnis laikotarpis išvedamas pagal seanso datą. Darbo srityje **Savikainos kontrolė** galima pasirinkti konkretų ataskaitinį laikotarpį kaip dabartinį laikotarpį. Tada bus atitinkamai perskaičiuojamas **Ankstesnis laikotarpis**.</blockquote> |
-| Metai iki šios dienos         | Rodomi duomenys nuo šių metų pradžios. Naudojama ši formulė:<br>YearToDate (dabartinis ataskaitinis laikotarpis)<blockquote>[!NOTE]<br>Pagal numatytuosius nustatymus dabartinis laikotarpis nustatomas pagal seanso datą. Darbo srityje **Savikainos kontrolė** galima pasirinkti konkretų ataskaitinį laikotarpį. Pasirinkta vertė tada atitinka dabartinį laikotarpį, o vertė **Nuo šių metų pradžios** bus atitinkamai atnaujinta.</blockquote> |
-| Vidurkis nuo metų pradžios | Rodomas duomenų nuo šių metų pradžios vidurkis. Naudojama ši formulė:<br>(YearToDate [Dabartinis ataskaitinis laikotarpis]) ÷ (Skaičius [Dabartinis ataskaitinis laikotarpis])<p><strong>Pavyzdys</strong></p><ul><li>**Statistinės dimensijos narys:** visą darbo dieną dirbantys darbuotojai</li><li>**Dabartinė data:** 2017-03-21</li><li>**Laikotarpis:** 1 ataskaitinis laikotarpis, 2 ataskaitinis laikotarpis, 3 ataskaitinis laikotarpis</li><li>**Reikšmė:** 10, 10, 12</li></ul>Šiuo atveju **Vidurkis nuo metų pradžios** = (10 + 10 + 12) ÷ 3 = 10,67<p>Galima apskaičiuoti savikainos elemento dimensijos nariams ir statistinės dimensijos nariams skirtą reikšmę **Vidurkis nuo metų pradžios**.</p><blockquote>[!NOTE]<br>Pagal numatytuosius nustatymus dabartinis laikotarpis nustatomas pagal seanso datą. Darbo srityje **Savikainos kontrolė** galima pasirinkti konkretų ataskaitinį laikotarpį. Pasirinkta vertė tada atitinka dabartinį laikotarpį, o vertės **Nuo šių metų pradžios** ir **Vidurkis nuo metų pradžios** bus atitinkamai atnaujintos.</blockquote> |
+| Dabartinis laikotarpis       | Rodomas dabartinio ataskaitinio laikotarpio likutis.<blockquote>**PASTABA:**<br>Pagal numatytuosius nustatymus dabartinis laikotarpis nustatomas pagal seanso datą. Darbo srityje **Savikainos kontrolė** galima pasirinkti konkretų ataskaitinį laikotarpį. Tada pasirinkta vertė nurodo dabartinį laikotarpį.</blockquote> |
+| Ankstesnis laikotarpis      | Rodomas ankstesnio ataskaitinio laikotarpio likutis. Naudojama ši formulė:<br>Dabartinis ataskaitinis laikotarpis – 1<blockquote>**PASTABA:**<br>Pagal numatytuosius nustatymus ankstesnis laikotarpis išvedamas pagal seanso datą. Darbo srityje **Savikainos kontrolė** galima pasirinkti konkretų ataskaitinį laikotarpį kaip dabartinį laikotarpį. Tada bus atitinkamai perskaičiuojamas **Ankstesnis laikotarpis**.</blockquote> |
+| Metai iki šios dienos         | Rodomi duomenys nuo šių metų pradžios. Naudojama ši formulė:<br>YearToDate (dabartinis ataskaitinis laikotarpis)<blockquote>**PASTABA:**<br>Pagal numatytuosius nustatymus dabartinis laikotarpis nustatomas pagal seanso datą. Darbo srityje **Savikainos kontrolė** galima pasirinkti konkretų ataskaitinį laikotarpį. Pasirinkta vertė tada atitinka dabartinį laikotarpį, o vertė **Nuo šių metų pradžios** bus atitinkamai atnaujinta.</blockquote> |
+| Vidurkis nuo metų pradžios | Rodomas duomenų nuo šių metų pradžios vidurkis. Naudojama ši formulė:<br>(YearToDate [Dabartinis ataskaitinis laikotarpis]) ÷ (Skaičius [Dabartinis ataskaitinis laikotarpis])<p><strong>Pavyzdys</strong></p><ul><li>**Statistinės dimensijos narys:** visą darbo dieną dirbantys darbuotojai</li><li>**Dabartinė data:** 2017-03-21</li><li>**Laikotarpis:** 1 ataskaitinis laikotarpis, 2 ataskaitinis laikotarpis, 3 ataskaitinis laikotarpis</li><li>**Reikšmė:** 10, 10, 12</li></ul>Šiuo atveju **Vidurkis nuo metų pradžios** = (10 + 10 + 12) ÷ 3 = 10,67<p>Galima apskaičiuoti savikainos elemento dimensijos nariams ir statistinės dimensijos nariams skirtą reikšmę **Vidurkis nuo metų pradžios**.</p><blockquote>**PASTABA:**<br>Pagal numatytuosius nustatymus dabartinis laikotarpis nustatomas pagal seanso datą. Darbo srityje **Savikainos kontrolė** galima pasirinkti konkretų ataskaitinį laikotarpį. Pasirinkta vertė tada atitinka dabartinį laikotarpį, o vertės **Nuo šių metų pradžios** ir **Vidurkis nuo metų pradžios** bus atitinkamai atnaujintos.</blockquote> |
 
 ### <a name="columns-to-display-for-costs"></a>Rodytini išlaidų stulpeliai
 
@@ -88,11 +88,11 @@ Pažymėtų stulpelių vertės bus padaugintos iš „FastTab“ skirtuke **Atas
 
 | Laukas                 | aprašymas |
 |-----------------------|-------------|
-| Fiksuotos išlaidos            | Šio tipo stulpelyje rodoma fiksuota savikaina pagal pasirinktą pridėtinių išlaidų skaičiavimo ID.<blockquote>[!NOTE]<br>Šio tipo stulpelyje likutis bus rodomas tik tada, kai pasirenkamas ataskaitinio laikotarpio pridėtinių išlaidų skaičiavimo ID.</blockquote> |
-| Kintamos išlaidos         | Šio tipo stulpelyje rodoma kintama savikaina pagal pasirinktą pridėtinių išlaidų skaičiavimo ID.<blockquote>[!NOTE]<br>Šio tipo stulpelyje likutis bus rodomas tik tada, kai pasirenkamas ataskaitinio laikotarpio pridėtinių išlaidų skaičiavimo ID.</blockquote> |
-| Fiksuota + kintamoji savikaina | Šio tipo stulpelyje rodoma fiksuota savikaina ir kintama savikaina pagal pasirinktą pridėtinių išlaidų skaičiavimo ID.<blockquote>[!NOTE]<br>Šio tipo stulpelyje likutis bus rodomas tik tada, kai pasirenkamas ataskaitinio laikotarpio pridėtinių išlaidų skaičiavimo ID.</blockquote> |
-| Bendroji savikaina            | Šio tipo stulpelyje rodoma bendroji savikaina (nesuklasifikuota savikaina, fiksuota savikaina ir kintama savikaina).<blockquote>[!NOTE]<br>Šio tipo stulpelyje visada rodomas likutis.</blockquote> |
-| Nesuklasifikuota savikaina     | Šio tipo stulpelyje rodoma nesuklasifikuota savikaina.<blockquote>[!NOTE]<br>Šį stulpelį galima naudoti norint patikrinti, ar visos išlaidos buvo teisingai suklasifikuotos pagal pridėtinių išlaidų skaičiavimą, ar išlaidų veikimo būdo taisykles būtina koreguoti.</blockquote> |
+| Fiksuotos išlaidos            | Šio tipo stulpelyje rodoma fiksuota savikaina pagal pasirinktą pridėtinių išlaidų skaičiavimo ID.<blockquote>**PASTABA:**<br>Šio tipo stulpelyje likutis bus rodomas tik tada, kai pasirenkamas ataskaitinio laikotarpio pridėtinių išlaidų skaičiavimo ID.</blockquote> |
+| Kintamos išlaidos         | Šio tipo stulpelyje rodoma kintama savikaina pagal pasirinktą pridėtinių išlaidų skaičiavimo ID.<blockquote>**PASTABA:**<br>Šio tipo stulpelyje likutis bus rodomas tik tada, kai pasirenkamas ataskaitinio laikotarpio pridėtinių išlaidų skaičiavimo ID.</blockquote> |
+| Fiksuota + kintamoji savikaina | Šio tipo stulpelyje rodoma fiksuota savikaina ir kintama savikaina pagal pasirinktą pridėtinių išlaidų skaičiavimo ID.<blockquote>**PASTABA:**<br>Šio tipo stulpelyje likutis bus rodomas tik tada, kai pasirenkamas ataskaitinio laikotarpio pridėtinių išlaidų skaičiavimo ID.</blockquote> |
+| Bendroji savikaina            | Šio tipo stulpelyje rodoma bendroji savikaina (nesuklasifikuota savikaina, fiksuota savikaina ir kintama savikaina).<blockquote>**PASTABA:**<br>Šio tipo stulpelyje visada rodomas likutis.</blockquote> |
+| Nesuklasifikuota savikaina     | Šio tipo stulpelyje rodoma nesuklasifikuota savikaina.<blockquote>**PASTABA:**<br>Šį stulpelį galima naudoti norint patikrinti, ar visos išlaidos buvo teisingai suklasifikuotos pagal pridėtinių išlaidų skaičiavimą, ar išlaidų veikimo būdo taisykles būtina koreguoti.</blockquote> |
 
 ### <a name="columns-to-display-for-budgeted-costs"></a>Rodytini biudžeto išlaidų stulpeliai
 
@@ -103,12 +103,12 @@ Pažymėtų stulpelių vertės bus padaugintos iš „FastTab“ skirtuke **Atas
 
 | Laukas                     | aprašymas |
 |---------------------------|-------------|
-| Biudžetas                    | Biudžeto likučiai bus rodomi pagal pasirinktus stulpelius.<blockquote>[!NOTE]<br>Likučiai priklausys nuo „FastTab“ skirtuke **Duomenų filtravimas** pasirinktų biudžeto versijų.</blockquote> |
+| Biudžetas                    | Biudžeto likučiai bus rodomi pagal pasirinktus stulpelius.<blockquote>**PASTABA:**<br>Likučiai priklausys nuo „FastTab“ skirtuke **Duomenų filtravimas** pasirinktų biudžeto versijų.</blockquote> |
 | Biudžeto nuokrypis           | Apskaičiuoti ir rodyti skirtumą tarp biudžeto ir faktinės vertės. Naudojama ši formulė:<br>Biudžeto likutis – faktinis likutis |
 | Biudžeto nuokrypis %      | Apskaičiuoti ir rodyti skirtumą tarp biudžeto ir faktinės vertės procentais. Naudojama ši formulė:<br>(Biudžeto likutis – faktinis likutis) ÷ biudžeto likutis |
-| Nuokrypio laikotarpio ribinė vertė | Nustatyti dabartinio laikotarpio nuokrypio pinigine suma ribinę vertę. Jeigu ribinė vertė viršyta, darbo srityje **Savikainos kontrolė** linija bus paryškinta raudona spalva.<blockquote>[!NOTE]<br>Šis laukas taikomas tik tiems savikainos elementams, kurie atitinka išlaidas.</blockquote> |
+| Nuokrypio laikotarpio ribinė vertė | Nustatyti dabartinio laikotarpio nuokrypio pinigine suma ribinę vertę. Jeigu ribinė vertė viršyta, darbo srityje **Savikainos kontrolė** linija bus paryškinta raudona spalva.<blockquote>**PASTABA:**<br>Šis laukas taikomas tik tiems savikainos elementams, kurie atitinka išlaidas.</blockquote> |
 | Nuokrypio metų ribinė vertė   | Nustatyti metų laikotarpio nuokrypio pinigine suma ribinę vertę. Jeigu ribinė vertė viršyta, darbo srityje **Savikainos kontrolė** linija bus paryškinta raudona spalva. |
-| Nuokrypio ribinė vertė %      | Nustatyti nuokrypio ribinę vertę procentais. Jeigu ribinė vertė viršyta, darbo srityje **Savikainos kontrolė** linija bus paryškinta raudona spalva.<blockquote>[!NOTE]<br>Ta pati procentinė ribinė vertė taikoma dabartiniam laikotarpiui ir metams.</blockquote> |
+| Nuokrypio ribinė vertė %      | Nustatyti nuokrypio ribinę vertę procentais. Jeigu ribinė vertė viršyta, darbo srityje **Savikainos kontrolė** linija bus paryškinta raudona spalva.<blockquote>**PASTABA:**<br>Ta pati procentinė ribinė vertė taikoma dabartiniam laikotarpiui ir metams.</blockquote> |
 
 ## <a name="cost-control-workspace"></a>Savikainos kontrolės darbo sritis
 

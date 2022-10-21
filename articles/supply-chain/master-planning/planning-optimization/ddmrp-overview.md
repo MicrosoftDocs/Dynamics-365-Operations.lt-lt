@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: d894b83afe822e013c0c4375e5cfe5e7e8ac8d1d
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 31b45fdb92cf8a590ff77104f0c8015fb4d329d5
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186595"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689494"
 ---
 # <a name="demand-driven-material-requirements-planning-ddmrp-overview"></a>Poreikio valdomas medžiagų poreikių planavimo (DDMRP) peržiūra
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Metams įmonės naudoja medžiagų poreikių planavimą (MRP) kaip medžiagų ir komponentų, reikalingų produktui gaminti, apskaičiavimo sistemą. Tačiau tiekimo grandinės dabar pasikeitė. Dalių gamybos laikas ilgesnis, nes jos yra šaltinis iš užjūrio. Dėl to daugelis įmonių pranešė apie neįrašytas atsargas ar perpildas, nes ji nežino, kiek atsargų yra atsargose. Taip pat yra daugiau rinkos svyravimų (kartais tiksliai prognozuojama) ir klientai per trumpą gamybos laiką reikalauja produktų. Dėl to visame pasaulyje trūksta tiekimo grandinės. Be to, MRP įrankiai dažnai pateikia planuotojas 0 veiksmų. Todėl yra tiksliai žinoti, ką sutelkti į tai. Dažnai daugelio šių problemų sprendimas yra pereiti į poreikio turimo medžiagų poreikio planavimą (DDMRP).
 

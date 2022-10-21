@@ -2,19 +2,19 @@
 title: Asinchroninis kliento kūrimo režimas
 description: Šiame straipsnyje aprašomas asinchroninis kliento kūrimo režimas Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 08/04/2022
+ms.date: 10/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-12-17
-ms.openlocfilehash: 95102936871e15f8e525abca736fa75927569b34
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: b2926339021991f87dd3eadef94da3b500c954cf
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473712"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690295"
 ---
 # <a name="asynchronous-customer-creation-mode"></a>Asinchroninis kliento kūrimo režimas
 
@@ -46,6 +46,7 @@ Siekiant padėti organizacijoms naudoti "Async" klientų kūrimo režimą ir val
 | Įgalinti sinchroninio ir asinchroninio kliento kūrimo lygumą. | 10.0.24 ir vėliau | <p>Funkcijos perjungimas: įgalinti **patobulintą "async" kliento kūrimą**</p><p>Funkcijos informacija: gebėjimas fiksuoti papildomą informaciją, pvz., pareigas, priskyrimus iš numatytojo kliento ir antrinę kontaktinę informaciją (telefono numerį ir el. pašto adresą), o tada kurti klientus asinchroniškai</p> |
 | Vartotojui patogus klaidų pranešimas | 10.0.28 ir vėliau | Šie patobulinimai padeda pagerinti vartotojui patogius klaidų pranešimus, jei vartotojas negali iš karto redaguoti informacijos, kol vyksta sinchronizavimas. Šiuos patobulinimus įgalinate naudodami **funkciją Leisti, kad tam tikri vartotojo sąsajos elementai būtų nemodifikuojami "Async** **\>**" kliento parametru "Commerce" svetainės parametrų plėtinių generatoriuje. |
 | Galimybė redaguoti kliento informaciją asinchroniškai | 10.0.29 ir vėliau | <p>Funkcijos perjungimas: **įgalinti klientų redagavimą asinchroniškai režimu**</p><p>Funkcijos informacija: galimybė redaguoti kliento duomenis asinchroniškai</p><p>Norėdami gauti atsakymų į bendrus klausimus apie problemas, susijusias su kliento informacijos redagavimas asinchroniškai, [žr. asinchroninio kliento kūrimo režimo DUK](async-customer-mode-faq.md).</p> |
+| Galimybė atlikti kliento valdymo operacijų audito sinchronizavimą | 10.0.31 ir vėliau | Šis patobulinimas leidžia vartotojams auditi klientų valdymo operacijų sinchronizavimą "Commerce Headquarters". Taip pat, jei reikia, vartotojai gali juos keisti ir sinchronizuoti duomenis. |
 
 ### <a name="feature-switch-hierarchy"></a>Priemonių perjungimo hierarchija
 

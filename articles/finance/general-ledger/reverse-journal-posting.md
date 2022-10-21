@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.form: LedgerTransVoucher, LedgerJournalTable
-ms.openlocfilehash: 7e3a22f43bcc312fe60b77db2fc3bc94d15950c5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 8912409ec0d2016ea4af12843319febda98663c5
+ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9284858"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "9680390"
 ---
 # <a name="reverse-journal-posting"></a>Atšaukimo registravimas žurnale
 
@@ -37,7 +37,7 @@ Kad būtų galima naudoti vieną iš šiame straipsnyje aprašytų funkcijų, j�
 Galite atšaukti atskiras žurnalo eilutes. Registruodami atšaukimą žurnale, taip pat galite atšaukti visą finansinį žurnalą. Atšaukite žurnalą, atlikę toliau pateikiamus veiksmus. 
 
 - Filtruoti užregistruotus žurnalus ir **atidaryti** žurnalo eilučių rodinį.
-- Pasirinkite puslapio viršuje esantį meniu **Atšaukti**.
+- Puslapio viršuje **pasirinkite viso** žurnalo meniu Atšaukti.
 - Matysite bendrą kvitų ir kvitų eilučių skaičių, taip pat bendrą atšaukiamų eilučių kiekį.
 - Pasirinkite **Taip**, jei norite, kad būtų naudojamos esamos operacijų datos, arba **Ne**, kad įvestumėte naują. Kai kuriais atvejais pradinės operacijos laikotarpis gali būti uždarytas, o jūs turite įvesti naują atšaukimo operacijos datą.
 - Jei pasirinksite **Ne**, įveskite atšaukimo operacijos datą. 

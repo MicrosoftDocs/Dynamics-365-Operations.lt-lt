@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 6c7469692aac24a5ae554973325a128c787363ba
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: db8a8e929bf75c4d1dac0c1b0a7cbc848ff291a9
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542299"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682674"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Planavimo optimizavimo nenaudojami parametrai
 
@@ -111,10 +111,8 @@ Planavimo optimizavimas nenaudoja šių parametrų ar parinkčių **Bendrųjų p
 
 - „FastTab“ **Bendra**.
 
-  - **Įtraukti turimas atsargas** – laukia *Turimų atsargų naudojimo* palaikymo.
   - **Keisti turimas atsargas** – laukia *Turimų atsargų naudojimo* palaikymo.
   - **Naudoti turimas atsargas** – laukia *Turimų atsargų naudojimo* palaikymo.
-  - **Įtraukti atsargų operacijas** – laukia *Turimų atsargų naudojimo* palaikymo.
   - **Įtraukti pardavimo pasiūlymus** – laukia *Pardavimo pasiūlymų* palaikymo.
   - **Įtraukti pasiūlymų patvirtinimus** – laukia *Pasiūlymų patvirtinimų* palaikymo.
   - **Naudoti laikymo trukmės datas** – Laukia *Laikymo trukmės* palaikymo.
@@ -190,4 +188,3 @@ Planavimo optimizavimas nenaudoja šio parametro **Pagrindinio paketo perdavimo*
 
   - **Aktyvus** – laukia *Paketų perdavimo kodų* palaikymo.
  
-<!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> 

@@ -2,7 +2,7 @@
 title: Mokesčių skaičiavimo importavimas ir eksportavimas
 description: Šiame straipsnyje pateikiama informacija apie mokesčių skaičiavimo tarnybos importavimo ir eksportavimo funkciją.
 author: Kai-Cloud
-ms.date: 11/22/2021
+ms.date: 10/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-11-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 9daee683763d7cb0eb9573497eb4e20cba9b1863
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8666d4971e36279ebd2b1396de7cab37680980e6
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855179"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690239"
 ---
 # <a name="import-and-export-tax-calculations"></a>Mokesčių skaičiavimo importavimas ir eksportavimas
 
@@ -98,3 +98,21 @@ Jūsų atsisiųstoje "Excel" darbalapyje yra **mokesčių grupės taikomumo tink
 2. RCS mokesčių **skaičiavimo funkcijos puslapio mokesčių grupės taikomumas skirtuke pasirinkite Įtraukti,** **·** **kad** įterptumėte tuščią įrašą, esantį skirtuko Nustatyti mokesčių grupės taikomumą apačioje.**·**
 3. Pasirinkite **Ctrl+V,** norėdami įklijuoti nukopijuotas eilutes į tinklelį.
 4. Pasirinkite **Įrašyti**.
+
+## <a name="import-feature-demo-data"></a>Importuoti funkcijos demonstracinius duomenis
+
+Norėdami importuoti demonstracinius priemonės duomenis, atlikite šiuos veiksmus.
+
+1. Prisijunkite prie [RCS](https://marketing.configure.global.dynamics.com/).
+2. Globalizavimo **priemonių darbo srityje** pasirinkite **Funkcijos**, tada pasirinkite mokesčių skaičiavimo **išklotinę** sritį.
+3. Pasirinkite **Importuoti**, tada puslapyje Importuoti **funkciją iš visuotinės saugyklos pasirinkite** Sinchronizuoti **·**. 
+4. Lentelėje pasirinkite mokesčių skaičiavimo-priemonės-demonstracinių **duomenų** funkciją, tada pasirinkite **Importuoti**.
+5. Pasirinkite **Rodinį**, norėdami peržiūrėti mokesčių kodus, grupes ir taikomumo taisykles, nustatytas importuotoje priemonėje.
+6. Finansų įmonėje pereikite į **DEMF juridinį** subjektą, tada eikite į **Mokesčių nustatymo** \> **mokesčio** \> **konfigūracijos** \> **mokesčių skaičiavimo parametrus.**
+7. Skirtuke **Bendra** pasirinkite Įgalinti **mokesčių skaičiavimo tarnybą**.
+8. Priemonės nustatymo **pavadinimo lauke** pasirinkite mokesčių **skaičiavimo- priemonės - demonstracinius duomenis**.
+9. Pasirinkite naujų **demonstracinių** **mokesčių kodų sudengimo** laikotarpį ir DK registravimo grupę, tada pasirinkite **Patvirtinti**.
+10. Pasirinkite **Įrašyti**.
+
+> [!NOTE]
+> Mokesčių **skaičiavimo-funkcijos-demonstracinės duomenų** demonstracinės **funkcijos paremtos 40.54.234** versija, skirta **DEMF demonstraciniu** juridiniu subjektui. Įsitikinkite, kad finansų ir RCS atnaujinti į 10.0.26 arba vėlesnę versiją.

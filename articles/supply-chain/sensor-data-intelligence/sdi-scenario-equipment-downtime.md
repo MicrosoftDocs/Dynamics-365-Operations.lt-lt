@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 1f2b424dccf1963a7917059d412b5df7937496ee
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 30fdfb898384aea4c1f8cb2f36f9e104cd316f90
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428997"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689645"
 ---
 # <a name="the-machine-status-scenario"></a>Įrenginio būsenos scenarijus
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Įrenginio *būsenos* scenarijus leidžia naudoti jutiklių duomenis, kad būtų galima stebėti įrangos prieinamumą. Jei nustatote jutiklio, kuris siunčia signalą, kai įrenginių išeigos gamybos užduotis sukuria išeigą, bet nesiunčiamas jokio jutiklio signalo nurodytame intervale, prižiūrėtojo skelbimų juostoje rodomas pranešimas.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d4874642743ed8188e84052d94003051f2af7af
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: d0270ad1e66193832fb1139fca4439b36b5ffb84
+ms.sourcegitcommit: dca54dd3afc7c94795d89c63050b105df2c48e3f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722694"
+ms.lasthandoff: 10/15/2022
+ms.locfileid: "9682913"
 ---
 # <a name="post-with-derived-books"></a>Registruoti naudojant išvestines knygas
 
@@ -34,7 +34,7 @@ Registruojant knygos, kuriai yra priskirtų išvestinių knygų, operacijas, iš
 -   Operacijų tipui taip pat gali būti taikomos kitos vertės. Pavyzdžiui, jei pagrindinė knyga ir išvestinė knyga turi tuos pačius intervalus atsižvelgiant į pardavimą ar likvidavimą, visus ilgalaikio turto operacijos tipus galima nustatyti išvestinėje knygoje.
 
 > [!WARNING]
-> Išvestinėje knygoje užregistruotas nusidėvėjimas bus išreikštas ta pačia suma, kokia buvo užregistruota pagrindinėje knygoje. Jei skirtingų knygų nusidėvėjimo metodai yra skirtingi, neturėtumėte generuoti nusidėvėjimo operacijų naudodami išvestinius procesus. |
+> Išvestinėje knygoje užregistruotas nusidėvėjimas bus išreikštas ta pačia suma, kokia buvo užregistruota pagrindinėje knygoje. Jei skirtingų knygų nusidėvėjimo metodai yra skirtingi, neturėtumėte generuoti nusidėvėjimo operacijų naudodami išvestinius procesus. 
 
 ## <a name="example"></a>Pavyzdys 
 Toliau pateikiama informacija apie tai, kaip įsigijimo operacijas nustatyti naudojant išvestinės knygos funkciją.

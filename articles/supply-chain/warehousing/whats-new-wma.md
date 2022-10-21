@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a0fa081b0110682af1fcda50b0c912dc5d03fa73
-ms.sourcegitcommit: 29af4c9d9968bbfa4c19fee9de34fed309f6d38b
-ms.translationtype: MT
+ms.openlocfilehash: 645590bbf00f49bb0f3511e7fa02c8f6add661fc
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/01/2022
-ms.locfileid: "9388454"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682620"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Kas nauja ar pasikeitė „Warehouse Management“ mobiliųjų įrenginių programėlėje
 
 [!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiamos naujos funkcijos, pataisos, patobulinimai ir žinomos kiekvienos "Microsoft" išleistos sandėlio valdymo mobiliosios programos versijos problemos Dynamics 365 Supply Chain Management.
+
+## <a name="version-20340"></a>2.0.34.0 versija
+
+Šioje versijoje pristatomos toliau pateiktos naujos funkcijos, klaidų taisymai ir patobulinimai:
+- Padidintas stabilumą.
+- Padidintas našumas.
+- Patobulintas ekrano maketas, kad būtų daugiau vietos informacijos kortelei.
+- Ieškos funkcija įtraukta į darbų **sąrašo** puslapį. Dabar darbuotojai gali nuskaityti arba įvesti ieškoti visuose puslapio laukuose ir pavadinimuose.
+- Galimų ryšių sąrašas surūšiuotas abėcėlės tvarka.
+- Išsamskite problemą, dėl kurios prekių, kurios turi kelias atsargų būsenas toje pačioje vietoje, buvo rodomos dublikatų kortelės.
+- Išsamsinkite problemą, dėl **kurios puslapis Didelis** pasirinkimo sąrašas neėjo, kad būtų rodoma iš anksto pasirinktas elementas.
+- Fiksuoti ieškos juostos spalvas puslapyje **Didelio pasirinkimo** sąrašas.
+- Fiksuota problema, kai XML nurodytas numatytasis mygtukas nebuvo naudojamas kaip pateikimo mygtukas.
+- Išsamusi problema, dėl kurios kelių nuskaitymo ir spartaus tikrinimo srautų mygtukai neat naujinimo, kai buvo nuskaityti nauji ID.
+- Įtrauktas kalbų palaikymas.
 
 ## <a name="version-20320"></a>2.0.32.0 versija
 

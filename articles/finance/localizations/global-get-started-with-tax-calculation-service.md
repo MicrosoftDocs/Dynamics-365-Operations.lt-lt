@@ -2,7 +2,7 @@
 title: Pradėti naudoti mokesčių skaičiavimą
 description: Šiame straipsnyje paaiškinama, kaip nustatyti mokesčių skaičiavimą.
 author: EricWangChen
-ms.date: 03/25/2022
+ms.date: 10/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.custom: intro-internal
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: 2b9af7a8bef9d479c4f2ec59ef533403a74251b1
-ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
+ms.openlocfilehash: 42898823ffc366351c6f58f1fe9b924678ab4b49
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "9573311"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690389"
 ---
 # <a name="get-started-with-tax-calculation"></a>Pradėti naudoti mokesčių skaičiavimą
 
@@ -124,6 +124,10 @@ Kad būtų galima atlikti likusias šiame straipsnyje nurodytas procedūras, tur
 7. Eikite š **Mokesčių duomenų modelis**, išplėskite failų medį, o tada pasirinkite **Mokesčių konfigūracija**.
 8. Pagal jūsų finansų [versiją pasirinkite](global-tax-calcuation-service-overview.md#versions) teisingą mokesčių konfigūracijos versiją, tada pasirinkite **Importuoti**.
 9. Darbo srityje **Globalizacijos funkcijos** pasirinkite **Funkcijos**, plytelę **Mokesčių skaičiavimas**, o tada pasirinkite **Įtraukti**.
+
+    > [!NOTE]
+    > Versijoje 10.0.26 **ir vėliau galite importuoti DEMF** demonstracinę juridinio subjekto demonstracinę funkciją. Norėdami gauti daugiau informacijos, žr. Importuokite [funkcijos demonstracinius duomenis](tax-calculation-import-export-feature.md).
+
 10. Pasirinkti vieną iš šių tolesnių funkcijų tipų:
 
     - **Nauja funkcija** – kurti priemonės nustatymą, kuriame yra tuščias turinys.
@@ -154,8 +158,8 @@ Kad būtų galima atlikti likusias šiame straipsnyje nurodytas procedūras, tur
     - **Tiekėjo mokesčių registracijos numerio taikymas** – jei turite kelis vieno tiekėjo mokesčių registracijos numerius, Mokesčių skaičiavimas gali automatiškai nustatyti tinkamą mokesčių registracijos numerį. Šio skirtuko matricoje apibrėžkite taisykles, kurios turi būti naudojamos nustatymui atlikti. Kitaip „Finance and Supply Chain Management“ toliau naudos numatytąjį mokesčio registracijos numerį pirkimo operacijų apmokestinamuose dokumentuose.
     - **Sąrašo kodo taikymas** – galite automatiškai nustatyti lauko **Sąrašo kodas** vertę, naudodami lankstesnes ir konfigūruotinas taisykles. Šio skirtuko matricoje apibrėžkite taisykles, kurios turi būti naudojamos nustatymui atlikti. Kitaip „Finance and Supply Chain Management“ toliau naudos numatytąjį mokesčio kodo mokesčių dokumentuose.
 
-14. Skirtuke **Mokesčių kodai** **pasirinkite** Įtraukti, tada įveskite mokesčio kodą ir aprašymą.
-15. Pasirinkite **Mokesčių komponentą**. Mokesčių komponentas yra grupė metodų, nustatytų ankstesnėje pasirinktos mokesčių konfigūracijos versijoje. Prieinami šie mokesčių komponentai:
+15. Skirtuke **Mokesčių kodai** **pasirinkite** Įtraukti, tada įveskite mokesčio kodą ir aprašymą.
+16. Pasirinkite **Mokesčių komponentą**. Mokesčių komponentas yra grupė metodų, nustatytų ankstesnėje pasirinktos mokesčių konfigūracijos versijoje. Prieinami šie mokesčių komponentai:
 
     - Pagal grynąją sumą
     - Pagal sumą su mokesčiais
@@ -163,8 +167,8 @@ Kad būtų galima atlikti likusias šiame straipsnyje nurodytas procedūras, tur
     - Pagal maržą
     - Mokestis nuo mokesčio
 
-16. Pasirinkite **Įrašyti**. Atsižvelgiant į pasirinktą mokesčio komponentą, tampa galima naudoti daugiau laukų.
-17. Norėdami nustatyti mokesčio kodo pobūdį, naudokite šias pasirinktis:
+17. Pasirinkite **Įrašyti**. Atsižvelgiant į pasirinktą mokesčio komponentą, tampa galima naudoti daugiau laukų.
+18. Norėdami nustatyti mokesčio kodo pobūdį, naudokite šias pasirinktis:
 
     - Atleidžiama nuo mokesčių
     - Yra naudojimo mokestis
@@ -179,8 +183,8 @@ Kad būtų galima atlikti likusias šiame straipsnyje nurodytas procedūras, tur
 
     Tvarkyti šio mokesčio kodo mokesčių tarifus ir mokesčių sumos ribas.
 
-18. Pakartodami 14–17 veiksmus įtraukite visus reikiamus mokesčių kodus.
-19. Skirtuke **Mokesčių grupė** pasirinkite stulpelį **Mokesčių grupė**, įtraukite jį į matricą kaip įvesties sąlygą, o tada įtraukite eilutes bendriesiems mokesčių grupės duomenims tvarkyti.
+19. Pakartodami 15–18 veiksmus įtraukite visus reikiamus mokesčių kodus.
+20. Skirtuke **Mokesčių grupė** pasirinkite stulpelį **Mokesčių grupė**, įtraukite jį į matricą kaip įvesties sąlygą, o tada įtraukite eilutes bendriesiems mokesčių grupės duomenims tvarkyti.
 
     Toliau pateikiamas pavyzdys.
 
@@ -191,7 +195,7 @@ Kad būtų galima atlikti likusias šiame straipsnyje nurodytas procedūras, tur
     | BEL_Dom | BEL_VAT21; BEL_VAT6 |
     | BEL_EU       | BEL_Exempt          |
 
-20. Skirtuke **Prekių mokesčių grupė** pasirinkite stulpelį **Prekių mokesčių grupė**, įtraukite jį į matricą kaip įvesties sąlygą, o tada įtraukite eilutes bendriesiems prekių mokesčių grupės duomenims tvarkyti.
+21. Skirtuke **Prekių mokesčių grupė** pasirinkite stulpelį **Prekių mokesčių grupė**, įtraukite jį į matricą kaip įvesties sąlygą, o tada įtraukite eilutes bendriesiems prekių mokesčių grupės duomenims tvarkyti.
 
     Toliau pateikiamas pavyzdys.
 
@@ -200,7 +204,7 @@ Kad būtų galima atlikti likusias šiame straipsnyje nurodytas procedūras, tur
     | Pilnas           | DEU_VAT19; BEL_VAT21; DEU_Exempt; BEL_Exempt |
     | Sumažintas        | DEU_VAT7; BEL_VAT6; DEU_Exempt; BEL_Exempt   |
 
-21. Skirtuke **Mokesčių grupės taikymas** pasirinkite stulpelius, kurių reikia tinkamai mokesčių grupei nustatyti, tada pasirinkite **Įtraukti**. Įvesti arba pasirinkti kiekvieno stulpelio vertes. Šios matricos išvestis bus laukas **Mokesčių grupė**. Jei šis skirtukas nebus sukonfigūruotas, bus naudojama operacijos eilutėje nurodyta mokesčių grupė.
+22. Skirtuke **Mokesčių grupės taikymas** pasirinkite stulpelius, kurių reikia tinkamai mokesčių grupei nustatyti, tada pasirinkite **Įtraukti**. Įvesti arba pasirinkti kiekvieno stulpelio vertes. Šios matricos išvestis bus laukas **Mokesčių grupė**. Jei šis skirtukas nebus sukonfigūruotas, bus naudojama operacijos eilutėje nurodyta mokesčių grupė.
 
     Toliau pateikiamas pavyzdys.
 
@@ -214,7 +218,7 @@ Kad būtų galima atlikti likusias šiame straipsnyje nurodytas procedūras, tur
     > [!NOTE]
     > Jei jūsų apmokestinamo dokumento eilutėse numatytoji PVM grupė yra teisinga, palikite šią matricą tuščią. Daugiau informacijos ieškokite šio straipsnio [skyriuje Vykdyklės](#runtime) dizainas.
 
-22. Skirtuke **Prekių mokesčių grupės taikymas** pasirinkite stulpelius, kurių reikia tinkamam mokesčių kodui nustatyti, tada pasirinkite **Įtraukti**. Įvesti arba pasirinkti kiekvieno stulpelio vertes. Šios matricos išvestis bus laukas **Prekių mokesčių grupė**. Jei šis skirtukas nebus sukonfigūruotas, bus naudojama operacijos eilutėje nurodyta prekių mokesčių grupė.
+23. Skirtuke **Prekių mokesčių grupės taikymas** pasirinkite stulpelius, kurių reikia tinkamam mokesčių kodui nustatyti, tada pasirinkite **Įtraukti**. Įvesti arba pasirinkti kiekvieno stulpelio vertes. Šios matricos išvestis bus laukas **Prekių mokesčių grupė**. Jei šis skirtukas nebus sukonfigūruotas, bus naudojama operacijos eilutėje nurodyta prekių mokesčių grupė.
 
     Toliau pateikiamas pavyzdys.
 
@@ -228,10 +232,10 @@ Kad būtų galima atlikti likusias šiame straipsnyje nurodytas procedūras, tur
 
     Daugiau informacijos apie tai, kaip mokesčių kodai yra nustatomi papildinyje Mokesčių skaičiavimas, žr. [PVM grupės ir prekių PVM grupės nustatymo logika](global-sales-tax-group-determination.md).
 
-23. Pagal verslo poreikius nustatykite kliento mokesčių registracijos numerių, tiekėjo mokesčių registracijos numerių ir sąrašo kodų taikymą.
-24. Pasirinkite **Įrašyti** ir uždarykite puslapį.
-25. Pasirinkite **Keisti statusą** \> **Užbaigtas**. Pakeitus būseną **į Baigta**, versijos redaguoti nebegalima.
-26. Rinkitės **Keiskite būseną** \> **Publikuoti**. Ši mokesčių priemonės nustatymo versija bus perstumta į visuotinę saugyklą ir ji bus matoma kiekvienam „Finance“ juridiniam subjektui.
+24. Pagal verslo poreikius nustatykite kliento mokesčių registracijos numerių, tiekėjo mokesčių registracijos numerių ir sąrašo kodų taikymą.
+25. Pasirinkite **Įrašyti** ir uždarykite puslapį.
+26. Pasirinkite **Keisti statusą** \> **Užbaigtas**. Pakeitus būseną **į Baigta**, versijos redaguoti nebegalima.
+27. Rinkitės **Keiskite būseną** \> **Publikuoti**. Ši mokesčių priemonės nustatymo versija bus perstumta į visuotinę saugyklą ir ji bus matoma kiekvienam „Finance“ juridiniam subjektui.
 
 ## <a name="set-up-tax-calculation-in-dynamics-365"></a>Papildinio Mokesčių skaičiavimas nustatymas programoje „Dynamics 365“
 

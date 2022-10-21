@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 25306a8ccebb5cd01debc90cf497d4a942840ef4
-ms.sourcegitcommit: 43a0fb019bc67c00c39c2778343ba89924c3322c
+ms.openlocfilehash: 60f9d84b240016671ff726fc3cca2e02cfd811ca
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9671431"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689233"
 ---
 # <a name="proactive-quality-updates"></a>Iniciatyvūs kokybės atnaujinimai
 
@@ -56,7 +56,9 @@ Proceso pakeitimų rinkinys įgyvendintas prieš suaktyvinus aktyvią kokybės n
 
 - **Schema** – įrankis užtikrina, kad kokybės naujinimo versijos apima tik schemos pakeitimus, kurie gali būti taikomi paslaugai internete. Šis būdas padės išlaikyti galimybę taikyti atnaujinimą beveik nulinio nulio laiku.
 - **Padidintas pokytis per** daug – šiuo metu yra papildomas proceso žingsnis, skirtas patvirtinti įtraukimo į kokybės naujinimą pakeitimus. Papildomas veiksmas bus padidintas, kad būtų sumažintas galimas regresijų potencialas. Kokybės naujinimų pakeitimai negali būti atlikti, todėl padidintas keitimų skaičius padės užtikrinti, kad šį tikslą atitiksime.
-- **Matomumas** – mes išsiųsime pranešimus el. paštu ir ciklo tarnybose (LCS) dėl būsimų aktyvių kokybės naujinimų. Be to, palaikymo komandos ir galimi klientai galės matyti, kur sėkmingai įdiegti kokybės atnaujinimai.
+- **Matomumas** – būsimų aktyvių kokybės naujinimų siunčiame pranešimus per administratorių centrą, ciklo tarnybas (LCS) ir kitus turimus kanalus. Be to, palaikymo komandos ir galimi klientai galės matyti, kur sėkmingai įdiegti kokybės atnaujinimai.
+ > [!NOTE]
+ > "Microsoft Communications" komanda ištirti, kaip vyksta el. pašto įrankių sistema, kuri neleidžia pristatyti el. paštu siunčiamų pranešimų. Tęskite pranešimų centro Microsoft 365, kad jis būtų rodomas ir pateikiamas su pranešimais susijęs pranešimas.
 - **Neišlaikytas per** skrydžio numerį – skrydžio metu bus naudojamas kodams keisti bet kada, kai tai taikoma kokybės atnaujinimo klaidai taisyti arba naudoti esamą funkciją, susijusią su pataisa. Jei po aktyviai diegimo reikia atsarginio ar išjungimo keitimo, jį galima atlikti naudojant skrydžio sistemą, kad būtų išvengta tolimesnių trikčių.
 - **Sandbox sinchronizavimo** paskirtis – mažiau nei 20 procentų klientų šiuo metu turi keletą sanddėlių ir išlaikyti vieną sandų dėžę įdiegtą, kur versija atitinka gamybą, kad būtų padedama šalinti triktis. Jei klientas naudoja sandbox, kad galėtų patikrinti naujesnę versiją, o ne jų gamybą, tą sandinę bus gauti tos naujesnės versijos kokybės naujinimai.
 
@@ -80,10 +82,10 @@ Norėdami gauti informacijos apie tamsaus regiono valandas, žr. [Kokie yra supl
 
 | Stotis | Regionai | Baigtas grafikas| Būsimų sand. dėžių grafikas
 |---|---|---|---|
-| 1 stotis | Kanados centrinis centras, Kanados rytų, Prancūzijos centrinis bankas, Indijos centras, Norvegijos rytų, Šveicarijos West | Nuo 2022 m. rugsėjo 15 d. iki rugsėjo 18 d., o nuo 2022 m. rugsėjo 19 d. iki rugsėjo 22 d. | 2022 m. spalio 7 d. iki spalio 10 d. |
-| 2 stotis | Prancūzijos Pietų, Indijos Pietų, Norvegijos West, Šveicarijos Šiaurės, Pietų Afrikos Šiaurės, Australijos Rytų, UK Pietų, JAE Šiaurės, Japonijos Rytų, Australijos Pietų Rytų, Pietų Rytų Azijos | 2022 m. rugsėjo 25 d. iki rugsėjo 28 d. | 2022 m. spalio 7 d. iki spalio 10 d. |
-| 3 stotis | Rytų Azijos, UK West, Japan West, Brazilijos Pietų, West Europe, Rytų JAV, JAE centrinis centras | 2022 m. rugsėjo 26 d. iki rugsėjo 29 d. | 2022 m. spalio 7 d. iki spalio 10 d. |
-| 4 stotis | Šiaurės Europa, Centrinė JAV, West US | Nuo 2022 m. rugsėjo 28 d. iki spalio 1 d. | 2022 m. spalio 7 d. iki spalio 10 d. |
+| 1 stotis | Kanados centrinis centras, Kanados rytų, Prancūzijos centrinis bankas, Indijos centras, Norvegijos rytų, Šveicarijos West | Nuo 2022 m. rugsėjo 15 d. iki rugsėjo 18 d., nuo rugsėjo 19 d. iki 2022 m. rugsėjo 22 d. ir spalio 7 d. – 2022 m. spalio 10 d. | 2022 m. spalio 25 d. iki spalio 28 d. |
+| 2 stotis | Prancūzijos Pietų, Indijos Pietų, Norvegijos West, Šveicarijos Šiaurės, Pietų Afrikos Šiaurės, Australijos Rytų, UK Pietų, JAE Šiaurės, Japonijos Rytų, Australijos Pietų Rytų, Pietų Rytų Azijos | Nuo 2022 m. rugsėjo 25 d. iki rugsėjo 28 d. ir 2022 m. spalio 7 d. – spalio 10 d. | 2022 m. spalio 25 d. iki spalio 28 d. |
+| 3 stotis | Rytų Azijos, UK West, Japan West, Brazilijos Pietų, West Europe, Rytų JAV, JAE centrinis centras | Nuo 2022 m. rugsėjo 26 d. iki rugsėjo 29 d. ir 2022 m. spalio 7 d. – spalio 10 d. | 2022 m. spalio 25 d. iki spalio 28 d. |
+| 4 stotis | Šiaurės Europa, Centrinė JAV, West US | Nuo 2022 m. spalio 28 d. iki spalio 1 d. ir spalio 7 d. iki 2022 m. spalio 10 d. | 2022 m. spalio 25 d. iki spalio 28 d. |
 | 5 stotis | Dod, Vyriausybės bendruomenės debesis, Kinija | Nesuplanuota | Nesuplanuota |
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a> Aktyvus kokybės atnaujinimo paleidimas: 10.0.29

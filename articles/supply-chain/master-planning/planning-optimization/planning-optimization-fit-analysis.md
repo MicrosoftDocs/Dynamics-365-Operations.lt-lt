@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c160a6477dd41fac0f15f57bb0f46def500f4589
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 15ec53c1f13b3017fb6e829bd1c8e99fbb938ce3
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643746"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690000"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planavimo optimizavimo tinkamumo analizė
 
@@ -62,7 +62,7 @@ Tolesnėje lentelėje pateikiami skirtingi rezultatai, rodomi po tinkamumo anali
 | --- | --- | --- | --- |
 | Veiksmai | Padengimo grupės su veiksmų skaičiavimu įjungtos: *\#* | Dabar ši funkcija yra palaikoma. | Palaikoma |
 | Pagrindiniai kalendoriai | Kalendoriai, naudojantys pagrindinį kalendorių: *\#* | Dabar ši funkcija yra palaikoma. | Palaikoma | 
-| Paketo perdavimo kodai | Neaktyvaus pagrindinio paketo perdavimas:*\#* | Ši funkcija laukia patvirtinimo. Šiuo metu paketo perdavimo kodai nepaisomi, kai įjungtas planavimo optimizavimas. | 2022 išleidimo banga 2 <!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> |
+| Paketo perdavimo kodai | Neaktyvaus pagrindinio paketo perdavimas:*\#* | Dabar ši funkcija yra palaikoma. Papildomos informacijos ieškokite paketams [žymėti kaip turimas arba negalimas, žr.](../../inventory/batch-disposition-codes.md) | Palaikoma |
 | Galimos pateikti atsargos (CTP) | Numatytieji užsakymo parametrai su pristatymo datos valdymu, nustatytu į CTP: *\#* | Tiekimo grandinės valdymo 10.0.28 ir naujesnio proceso, kuris vadinamas CTP *planavimo optimizavimui,* leidžia patvirtinti siuntimo ir gavimo datas po dinaminio plano vykdymo. Senesnių tiekimo grandinės valdymo versijų senesnio CTP parametro nepaisoma, kai įgalintas planavimo optimizavimas. | Palaikoma |
 | Kopijuoti statinį į dinaminį planą | Kopijavimas statinio į dinaminį planą yra įjungtas bendrojo planavimo parametruose. | Planavimo optimizavimas nekopijuoja statinio plano į dinaminį planą, neatsižvelgiant į šį parametrą. Paprastai ši koncepcija yra mažiau aktuali dėl planavimo optimizavimo teikiamo greičio ir visiško regeneravimo. Jei naudojami du ar daugiau planų, turėtų būti suaktyvintas kiekvieno plano bendrasis planavimas. | Netaikoma |
 | Patvirtinimas | Padengimo grupės su nustatyta automatinio patvirtinimo laiko riba:*\#* | 10.0.7 ar vėlesnėje versijoje patvirtinimas palaikomas kaip atskira patvirtinimo paketinė užduotis po to, kai bendrasis planavimas yra baigtas (jei [funkcijų valdyme](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) įjungta funkcija *Automatinis planavimo optimizavimo patvirtinimas*). Atkreipkite dėmesį, kad automatinis planavimo optimizavimo patvirtinimas yra pagrįstas užsakymo data (pradžios data), o ne poreikio data (pabaigos data). Taip užtikrinama, kad suplanuotų užsakymų patvirtinimas įvyktų laiku, tačiau į patvirtinimo laiko ribą nereikia įterpti gamybos laiko. | Palaikoma |
@@ -104,7 +104,7 @@ Tolesnėje lentelėje pateikiami skirtingi rezultatai, rodomi po tinkamumo anali
 | Laiko rezervai | Bendrieji planai su laiko rezervu: *\#* | Dabar ši funkcija yra palaikoma. Papildomą informaciją rasite [Laiko rezervai](safety-margins.md) |  Palaikoma |
 | Saugos atsargų pildymas | Prekės padengimo įrašai, kurių parametras „Išpildyti minimumą” skiriasi nuo „Šiandienos data + įsigijimo laikas”: *\#* | Planavimo optimizavimas visada naudoja *Šiandienos data + įsigijimo laikas*. Šis pakeitimas sukurtas pasirengti supaprastintam planavimo nustatymui ateityje ir pateikti įgyvendinamą rezultatą. Jei įsigijimo laikas neįtrauktas į pakankamas atsargas, suplanuoti užsakymai, sukurti dabartinėms mažoms turimoms atsargos, visada bus atidėti dėl gamybos laiko. Tai gali sukelti daug triukšmo ir nepageidaujamų suplanuotų užsakymų. Geriausia yra pakeisti parametrą, kad būtų naudojama *Šiandienos data + įsigijimo laikas*. Atnaujinti bendruosius duomenis, kad būtų išvengta įspėjimų. | Netaikoma |
 | Pardavimo pasiūlymai | Bendrieji planai su įgalintais pardavimo pasiūlymais: *\#* | Ši funkcija laukia patvirtinimo. Šiuo metu į pasiūlymus neatsižvelgiama, kai įjungtas planavimo optimizavimas. Jų bus nepaisoma, neatsižvelgiant į šį nustatymą. | 2022 išleidimo banga 2 arba naujesnė versija |
-| Laikymo trukmė | Bendrieji planai su įgalinta laikymo trukme: *\#* | Dabar ši funkcija yra palaikoma. | Palaikoma |
+| Laikymo trukmė | Bendrieji planai su įgalinta laikymo trukme: *\#* | Ši funkcija laukia patvirtinimo. | 2022 išleidimo banga 2 |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

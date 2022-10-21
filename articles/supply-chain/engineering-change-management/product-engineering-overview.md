@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b494e15488bed148119aed0e9d62ab1740f38add
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: a01dfd72428c75d1bb24f32c73c9c799a6c5017e
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334872"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682512"
 ---
 # <a name="engineering-change-management-overview"></a>Inžinerijos keitimo valdymo apžvalga
 
@@ -73,6 +73,9 @@ Tada įjunkite konfigūracijos raktus atlikdami toliau nurodytus veiksmus. Pagal
 1. Duomenų bazė turi būti sinchronizuota siekiant užtikrinti, kad konfigūracijos raktai yra tinkamai atnaujinti, kad atspindėtų jūsų pakeitimus. Atlikite vieną iš šių veiksmų atsižvelgdami į tai, su kokio tipo aplinka dirbate:
     - **Jei naudojate 1 pakopos (programavimo) aplinkas**, atidarykite savo projektą "Microsoft Visual Studio" ir pasirinkite "**Dynamics 365" sinchronizuoti duomenų \> bazės sinchronizavimą \>**.
     - **2 pakopų (ir aukštesnio)** aplinkose: įdus aplinką į priežiūros režimą ir iš jos, duomenų bazė sinchronizuojama automatiškai, kad šį veiksmą būtų galima praleisti.
+
+> [!NOTE]
+> Norint naudoti inžinerijos pakeitimų valdymą, KS numeracija ir formulės numeracija (jei naudojate formules) *·* **turi būti nustatyta kaip Automatinis numeracijų** puslapyje.
 
 ### <a name="turn-on-additional-engineering-change-management-features"></a>Įjunkite papildomos inžinerijos keitimo valdymą savo sistemos funkcijoms
 

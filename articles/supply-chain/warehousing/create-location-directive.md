@@ -2,7 +2,7 @@
 title: Darbas su vietos nurodymais
 description: Šiame straipsnyje aprašoma, kaip dirbti su vietos nurodymais. Vietos nurodymai yra vartotojui draugiškos taisyklės padedančios identifikuoti paėmimo ir padėjimo vietas inventoriaus judėjime.
 author: Mirzaab
-ms.date: 11/13/2020
+ms.date: 09/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7705ea132521353cd6af7245df90aafaf23af885
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4ef8ec0732cd3bd50bca8d334c43d0354e9e3316
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903701"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689672"
 ---
 # <a name="work-with-location-directives"></a>Darbas su vietos nurodymais
 
@@ -47,6 +47,20 @@ Prieš tai, kai galite sukurti vietos nurodymus, privalote atlikti šiuos žings
 1. Sukurkite vietas, vietos tipus, vietos profilius ir vietos formatus. Dėl išsamesnės informacijos, žr. [Konfigūruokite vietas WMS įjungtame sandėlyje](./tasks/configure-locations-wms-enabled-warehouse.md).
 1. Sukurkite vietas, sritis ir srities grupes. Dėl išsamesnės informacijos, žr. [Sandėlio nustatymas](../../commerce/channels-setup-warehouse.md) ir [Konfigūruokite vietas WMS sandėlio įjungime](./tasks/configure-locations-wms-enabled-warehouse.md).
 
+## <a name="turn-the-location-directive-scopes-feature-on-or-off"></a><a name="scopes-feature"></a> Įjungti arba išjungti vietos nustatymo aprėp norėtumėte naudoti funkciją
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until 10.0.31 GA -->
+
+Vietos *nurodymo aprėt* . funkcija suteikia daugiau galimybių kuriant vietos nurodymus ir padeda sumažinti perteklines konfigūracijas. Ji įtraukia aprėp **norėtumėte** pasirinktis, kuri pakeičia ankstesnę parinktį **Keli SKU**. Kadangi pasirinktis **Keli SKU** *·* *gali būti nustatyta tik Taip arba Ne*, **aprėpties pasirinktis** suteikia ne tik tuos du parametrus (*·* *per* vienos prekės ir kelių prekių vertes), bet ir dvi dvi vertes (*·* *per vieną prekę arba užsakymą ir Visas* vertes). Daugiau informacijos apie šiuos parametrus žr. Vietos nurodymų ["FastTab"](#location-directives-tab).
+
+Kai ji įgalinta, **parinktis Scope** **pakeičia pasirinktį Keli SKU** ir yra 100 procentų suderinama su esamomis konfigūracijoje.
+
+Norėdami naudoti šią funkciją, turite įjungti ją savo sistemoje. Administratoriai gali naudoti funkcijų [valdymo parametrus](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), norėdami patikrinti funkcijos būseną ir įjungti arba išjungti. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
+
+- **Modulis:** *Warehouse management*
+- **Priemonės pavadinimas:** *vietos nustatymo aprėptis*
+
 ## <a name="work-order-types-for-location-directives"></a>Darbo užsakymai tipai vietos nurodymams
 
 Daugelis laukelių, kurie gali būti nustatyti vietos nurodymams yra bendri visiems darbo užsakymo tipams. Nepaisant to, kiti laukeliai yra konkretūs konkretiems darbo užsakymo tipams.
@@ -68,7 +82,7 @@ Tolesnėje lentelėje pateikti laukeliai bendri visiems darbo užsakymo tipams.
 | Vietos nurodymai | Vieta |
 | Vietos nurodymai | Sandėlis |
 | Vietos nurodymai | Krypties kodas |
-| Vietos nurodymai | Keli SKU |
+| Vietos nurodymai | Aprėptis *arba* keli SKU |
 | Eilutės | Sekos numeris |
 | Eilutės | Pradinis kiekis |
 | Eilutės | Kiekis Iki |
@@ -117,7 +131,9 @@ Veiksmų juostos **VIETOS NURODYMŲ** puslapyje yra mygtukai, kuriuos galite nau
 
 - **Eiti aukštyn** – Eikite pasirinkta vietos nurodymo kryptimi aukštyn seka. Pavyzdžiui, galite perkelti jį iš skaičių sekos 4 į seką skaičiaus 3.
 - **Eiti žemyn** – Eikite pasirinkta vietos nurodymo kryptimi žemyn seka. Pavyzdžiui, galite perkelti jį iš skaičių sekos 4 į seką skaičiaus 5.
+- **Kopijuoti** – atidaryti dialogo langą, kuriame galima sukurti tikslią dabartinės vietos direktyvos kopiją.
 - **Redaguoti užklausą** – Atidarykite teksto laukelį, kai nustatote sąlygas, kurios pasirinktos vietos direktyva turi būti tvarkoma pagal jas. Pavyzdžiui, jums gali reikėti ją taikyti tik konkrečiam sandėliui.
+- **Priėmimo testai** – atidaryti puslapį, kuriame galite nustatyti automatinius bandymus, siekiant nustatyti, kaip jūsų vietos direktyvos turės skirtingus pradžios reikalavimus. Tokiu būdu kurdami ir prižiūrėdami nurodymus galėsite greitai patikrinti savo nurodymus. Norėdami gauti daugiau informacijos, žr. bandymo [vietos nurodymus su priėmimo testais](location-directive-acceptance-tests.md).
 
 ## <a name="location-directives-header"></a>Vietos direktyvų antraštė
 
@@ -126,7 +142,7 @@ Vietos direktyvos antraštė apima tolesnius laukelius dėl sekos skaičiaus ir 
 - **Sekos skaičius** – Šis laukelis nurodo, kad seka, kurią sistema bando taikyti kiekvienai vietos direktyvai pasirinktam darbo užsakymo tipui. Pirmiausia taikomi žemi skaičiai. Galite keisti seką naudodami **Judėti aukštyn** ir **Judėti žemyn** mygtukus veiksmų juostoje.
 - **Pavadinimas** – Įveskite kainų profilį vietos direktyvos pavadinimą. Šis pavadinimas turi padėti nustatyti bendrą direktyvos tikslą. Pavyzdžiui, įveskite *Prekybos užsakymo atsiėmimas sandėlyje 24*.
 
-## <a name="location-directives-fasttab"></a>Vietos direktyvų „FastTab“
+## <a name="location-directives-fasttab"></a><a name="location-directives-tab"></a>Vietos direktyvų „FastTab“
 
 Laukeliai **Vietos direktyvų** „FastTab“ yra konkretūs siekiant dirbti su užsakymo tipu pasirinktu **Darbo užsakymo tipo** laukelyje sąrašo juostoje.
 
@@ -145,7 +161,29 @@ Laukeliai **Vietos direktyvų** „FastTab“ yra konkretūs siekiant dirbti su 
     > [!TIP]
     > Jei direktyvos kodas nustatytas, sistema neieškos vietos direktyvų pagal sekos numerį, tuomet darbas bus sukurtas. Vietoje to, ji ieškos pagal direktyvos kodą. Tokiu būdu galite būti konkretesni dėl vietos nurodymo, kuris naudojamas konkrečiam darbo šablono veiksmui, tokiam kaip medžiagų suskirstymas į etapus.
 
-- **Keli SKU** – Nustatykite šią parinktį į *Taip* tam, kad įjungtumėte keletą atsargų laikymo vienetų (SKU) naudojamų vietoje. Pavyzdžiui, keli SKU turi būti įjungti bay door vietoje. Jei įjungiate kelis SKU, jūsų padėjimo vieta bus nurodyta darbe, kaip tikimasi. Nepaisant to, padėjimo vieta galės tvarkyti tik kelių prekių padėjimą (jei darbas apima skirtingus SKU, kurie turi būti paimti ir padėti). Jis negalės sutvarkyti vieno SKU padėjimo. Jei parinktis nustatyta į *Ne*, jūsų padėjimo vieta bus nurodyta tik, jei jūsų padėjimas turi kitą SKU tipą.
+- **Aprėptis** – naudokite šią pasirinktį, norėdami nurodyti scenarijus, kuriems bus taikomas vietos nurodymas. Ši pasirinktis pakeičia pasirinktį **Keli SKU** ir yra galima tik *tada*, jei jūsų sistemoje įjungta vietos nustatymo aprėpimo funkcija. (Daugiau informacijos žr. [Įjungti arba išjungti vietos nustatymo aprėp norėtumėte naudoti funkciją](#scopes-feature).)
+
+    | Apimties parametras | Vienas užsakymas su viena preke | Keli užsakymai su ta pačia preke | Vienas užsakymas su keliomis prekėmis | Keli užsakymai su keliomis prekėmis |
+    |---|---|---|---|---|
+    | Viena prekė | Taip | Taip | Ne | Ne |
+    | Kelios prekės | Ne | Ne | Taip | Taip |
+    | Viena prekė arba užsakymas | Taip | Taip | Taip | Ne |
+    | Viskas | Taip | Taip | Taip | Taip |
+
+    Šioje lentelėje aprašoma, kada yra aprėpties ir ar jos leidžia naudoti užklausos **redagavimo** funkciją.
+
+    | Aprėptis | Palaikomas darbo tipas | Palaikomi darbo užsakymų tipai | Leisti redaguoti užklausą |
+    |---|---|---|---|
+    | Viena prekė | Viskas | Viskas | Taip |
+    | Kelios prekės | Viskas | Viskas | Ne |
+    | Viena prekė arba užsakymas | Kelia | Sudėties ir sudėties produktų grąžinimas, baigtos prekės, "kanban" grąžinimas, pirkimo užsakymai, kokybės užsakymai, papildymas, grąžinimo užsakymai, pardavimo užsakymai, perkėlimo išdavimas ir perkėlimo kvitas | Taip |
+    | Viskas | Kelia | Viskas | Ne |
+
+    > [!NOTE]
+    > - Norint padėti ir keletą prekių, ir ant vienos prekės, reikia užtikrinti, kad yra vietos nurodymų, kurie apima abu scenarijus. Pavyzdžiui, galite nustatyti vieną ar daugiau vienos prekės arba užsakymo vietos nurodymų, kad būtų padengti scenarijai, kuriems reikia tiksliai suderinti (pvz., *redaguojant* užklausą), *o tada, vienas ar daugiau visų* vietos nurodymų, padengiančių likusius scenarijus.
+    > - Nors *padėti galima* naudoti *ir vienos* prekės, ir kelių prekių aprėptis, šis būdas paprastai lemia perteklines konfigūracijas. Apsvarstykite galimybę *naudoti vieną prekę arba* užsakymą *ir* visas aprėptis, nes šis būdas padės atlikti programos nustatymą.
+
+- **Keli SKU** – naudokite šią pasirinktį, norėdami nurodyti scenarijų, kuriame bus taikomas vietos nurodymas. Šis parametras pakeičiamas **aprėpties nustatymu**, jei *jūsų* sistemoje įjungta vietos nustatymo aprėpties funkcija. (Daugiau informacijos žr. [Įjungti arba išjungti vietos nustatymo aprėp norėtumėte naudoti funkciją](#scopes-feature).) Nustatykite šią pasirinktį *,* norėdami įgalinti kelių atsargų sandėliavimo vienetų (SKU) naudoti vietoje. Pavyzdžiui, keli SKU turi būti įjungti bay door vietoje. Jei įjungiate kelis SKU, jūsų padėjimo vieta bus nurodyta darbe, kaip tikimasi. Nepaisant to, padėjimo vieta galės tvarkyti tik kelių prekių padėjimą (jei darbas apima skirtingus SKU, kurie turi būti paimti ir padėti). Jis negalės sutvarkyti vieno SKU padėjimo. Jei parinktis nustatyta į *Ne*, jūsų padėjimo vieta bus nurodyta tik, jei jūsų padėjimas turi kitą SKU tipą.
 
     > [!IMPORTANT]
     > Norėdami galėti atlikti kelių prekių padėjimą ir vieno SKU padėjimą, turite nurodyti dvi eilutes su ta pačia struktūra ir nustatymais, tačiau turite nustatyti **Kelių SKU** parinktį į *Taip* vienai eilutei ir *Ne* kitai. Dėl to, vietos veiksmams turite du identiškas vietos direktyvas, net jei neturite atskirti atskirų SKU ir kelių SKU darbo ID. Dažnai, jei nenustatote abiejų šių vietos direktyvų, netikėtas verslo proceso vietos bus taikomos vietos direktyvai. Privalote naudoti panašius nustatymus vietos direktyvoms, kurios turi **Darbo tipą** esantį *paėmimo* jei neturite tvarkyti užsakymų su keliais SKU.
@@ -255,6 +293,5 @@ Kai sukūrėte vietos nurodymus, galite susieti visus nurodymo kodus su darbo š
 
 - Vaizdo įrašas: [Sandėlio valdymo konfigūravimo gili analizė](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Žinyno straipsnis: [Valdyti sandėlio darbą naudojant darbo šablonus ir vietos nurodymus](control-warehouse-location-directives.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

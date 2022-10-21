@@ -1,5 +1,5 @@
 ---
-title: Jutiklio duomenų tyrimų pagrindinis puslapis
+title: „Sensor Data Intelligence“ pagrindinis puslapis
 description: Šiame straipsnyje pateikta Jutiklio duomenų tyrimų apžvalga. Organizacijos gali naudoti šią funkciją, norėdami valdyti verslo procesus "Microsoft Dynamics 365 Supply Chain Management", paremtus objektų interneto ("IT") signalais iš įrenginių ir įrangos gamybos aukšte.
 author: johanhoffmann
 ms.date: 09/02/2022
@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 2e4cd8d4d4ffcd10d02fbf26615f12cdd6ccca9e
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: ba030364056db8b0524de22aacbc6528ef77813b
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9429009"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689863"
 ---
-# <a name="sensor-data-intelligence-home-page"></a>Jutiklio duomenų tyrimų pagrindinis puslapis
+# <a name="sensor-data-intelligence-home-page"></a>„Sensor Data Intelligence“ pagrindinis puslapis
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 "Jutiklio duomenų įžvalgos", skirtas "Microsoft Dynamics 365 Supply Chain Management ", leidžia organizacijoms valdyti verslo procesus tiekimo grandinės valdymo procesuose, remiantis objektų interneto ("IT") signalais iš įrenginių ir įrangos gamybos aukšte. Tai atnaujinta, pervardyta ĮT tyrimų *funkcijos*, kuri anksčiau buvo galima tiekimo grandinės valdymui, versija.
 

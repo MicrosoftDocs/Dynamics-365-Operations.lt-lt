@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-09-08
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 477b27bf77d2a3ef91a5c2d39f2dfb06d8ad4e59
-ms.sourcegitcommit: 562ea02e1f7409f18ee1cc4750a838bff4381e91
+ms.openlocfilehash: 18fec49f2388159cae0809c63685102a04e90c57
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9429129"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689197"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10030-november-2022"></a>„Dynamics 365 Supply Chain Management“ peržiūra 10.0.30 (2022 m. lapkritis)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10030-november-2022"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.30 (2022 m. lapkritis)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šiame straipsnyje pateikiamos priemonės, kurios yra naujos arba pakeistos "Microsoft Dynamics 365 Supply Chain Management preview" versijoje 10.0.30. Ši versija turi versijos 10.0.1362 versiją ir yra pasiekiama šiame grafike:
+Šiame straipsnyje pateikiamos priemonės, kurios yra naujos arba pakeistos "Microsoft Dynamics 365 Supply Chain Management " 10.0.30 versijoje. Ši versija turi versijos 10.0.1362 versiją ir yra pasiekiama šiame grafike:
 
 - **Peržiūros leidimas:** 2022 m. rugsėjo mėn.
 - **Bendras leidimo pasiekiamumas (savaiminis naujinimas):** 2022 m. spalio mėn.
@@ -34,8 +33,8 @@ Tolesnėje lentelėje pateiktos funkcijos, kuri yra šiame leidime. Mes galime a
 
 | Funkcijos sritis | Funkcija | Daugiau informacijos | Įjungė   |
 |---|---|---|---|
-| Gamyba | [Stebėti įrangą su jutiklio duomenų įžvalgomis](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/monitor-equipment-sensor-data-intelligence) | [Jutiklio duomenų tyrimų pagrindinis puslapis](../sensor-data-intelligence/sdi-home-page.md) | Priemonių valdymas:<br>*(Peržiūros versija) Jutiklio duomenų įžvalgos* |
-| Sandėlio valdymas | „Warehouse Management“ mobiliųjų įrenginių programos kelių lygių apėjimas <!-- KFM: Add link when RP updates --> | [Mobiliojo įrenginio meniu elementų aplinkinių veiksmų konfigūravimas](../warehousing/warehouse-app-detours.md) | Priemonių valdymas:<br>*„Warehouse Management“ mobiliųjų įrenginių programos kelių lygių apėjimas* |
+| Gamyba | [Stebėti įrangą su jutiklio duomenų įžvalgomis](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/monitor-equipment-sensor-data-intelligence) | [„Sensor Data Intelligence“ pagrindinis puslapis](../sensor-data-intelligence/sdi-home-page.md) | Priemonių valdymas:<br>*(Peržiūros versija) Jutiklio duomenų įžvalgos* |
+| Sandėlio valdymas | [Sandėlio valdymo mobiliųjų įrenginių kelių lygių esantys variantai](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/multi-level-detours-warehouse-management-mobile-app) | [Mobiliojo įrenginio meniu elementų aplinkinių veiksmų konfigūravimas](../warehousing/warehouse-app-detours.md) | Priemonių valdymas:<br>*„Warehouse Management“ mobiliųjų įrenginių programos kelių lygių apėjimas* |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Funkcijos patobulinimai, įtraukti į šį leidimą
 
@@ -45,14 +44,14 @@ Jei norite įjungti arba išjungti bet kurią iš šių priemonių, tai turite a
 
 | Modulis | Funkcijos pavadinimas funkcijos valdyme | Daugiau informacijos |
 |---|---|---|
-| Gamybos kontrolė | Turimos gamybos užsakymų informacijos, kurią reikia pateikti puslapyje | Įtraukia turimų atsargų kiekio **stulpelį eilutės prekei gamybos užsakymų, kurie bus paleisti puslapyje, eilučių skyriuje**. |
+| Gamybos kontrolė | Turima informacija puslapyje Gamybos užsakymai, kuriuos reikia išleisti | Įtraukia turimų atsargų kiekio **stulpelį eilutės prekei gamybos užsakymų, kurie bus paleisti puslapyje, eilučių skyriuje**. |
 | Transportavimo valdymas | Priskirti siuntas susijusiems maršruto segmentams | Ši funkcija leidžia sistemai tiksliau padalinti siuntos transportavimo išlaidas, įskaitant krovinius su keliomis siuntomis, pristatytais į įvairias segmento paskirties vietas viename maršrute. Kiekvieną siuntą ji priskiria labiausiai tinkamam maršruto segmentui, remiantis siuntos paskirties adresais ir segmentu. Tada priemonė apskaičiuoja kiekvienos siuntos transportavimo išlaidas kaip visos krovinio savikainos dalį, remiantis susijusiu siuntos svoriu, kiekiu, kiekiu ir nukeliaus atstumu. Ši funkcija taikoma tik siuntoms, valdooms naudojant modulį Transportavimo valdymas (TMS). |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Finansų ir operacijų programėlių platformos naujinimai
 
-„Microsoft Dynamics 365 Supply Chain Management“ 10.0.30 versijoje yra platformos naujinimų. Norėdami sužinoti daugiau, žr. [finansų ir operacijų programėlių 10.0.30 versijos (2022 m. lapkričio mėn.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-30.md) platformos naujinimus. <!--KFM: Confirm link -->
+„Microsoft Dynamics 365 Supply Chain Management“ 10.0.30 versijoje yra platformos naujinimų. Norėdami sužinoti daugiau, žr. [finansų ir operacijų programėlių 10.0.30 versijos (2022 m. lapkričio mėn.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-30.md) platformos naujinimus.
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai
 

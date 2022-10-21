@@ -2,19 +2,19 @@
 title: Klientų aptarnavimo modulio "Commerce Susirašinėti su Cbchannel"
 description: Šiame straipsnyje aprašomas "Commerce Chat" su klientų aptarnavimo modulio Modulyje "Cbchannel"Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 08/23/2022
+ms.date: 10/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-07-20
-ms.openlocfilehash: b8eaed3eb015e96b1db6fa2297c341ea9d3ff8ad
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 99e8b9d66a04390ab70fd1deff9f95fe28bdfae3
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473815"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690322"
 ---
 # <a name="commerce-chat-with-omnichannel-for-customer-service-module"></a>Klientų aptarnavimo modulio "Commerce Susirašinėti su Cbchannel"
 
@@ -82,6 +82,9 @@ Norėdami įtraukti pokalbio modulį į savo svetainės antraštės fragmentą K
 1. Dialogo lange **Pasirinkti modulius** pasirinkite anksčiau sukurtą pokalbio fragmentą ir pasirinkite **Gerai**.
 1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte fragmentą, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 
+> [!NOTE]
+> Norėdami gauti visą konfigūracijos parametrų sąrašą, žr. " [Commerce" pokalbių modulio iš anksto aktyvių pokalbių parametrus](chat-proactive-chat-parameters.md).
+
 ## <a name="add-commerce-headquarters-as-an-application-tab-for-omnichannel-for-customer-service"></a>Įtraukti "Commerce Headquarters" kaip klientų aptarnavimo klientų aptarnavimo programos skirtuką
 
 Klientų aptarnavimo portale "Commerce Headquarters" galite pridėti programos skirtuką. Tiesioginio valdymo agentai tada gali naudoti klientų Dynamics 365 Commerce aptarnavimo agentų patirties vartotojo sąsają, kad galėtų lengvai pasiekti klientų aptarnavimo modulį, kuriame yra kontekstinė kliento informacija ir jų pardavimo užsakymų informacija. Be to, klientų aptarnavimo agentai gali pateikti naujus užsakymus, inicijuoti grąžinimus ir patikrinti užsakymo būsenos informaciją.
@@ -115,6 +118,9 @@ Norėdami įjungti naują klientų agentų programos skirtuką programoje "Dynam
 1. Atidarykite savo agentams sukurtą darbo srautą, tada dalyje **Išplėstiniai** parametrai pasirinkite Numatytieji **seansai**.
 1. Skirtuke **Programos skirtukai** pasirinkite **Įtraukti esamą programos** skirtuką, tada pridėkite naują anksčiau sukurtą programos skirtuką. Šis veiksmas užtikrina, kad programos skirtukas, į kurį įkeliama "Commerce Headquarters" modulyje, bus rodomas tada, kai agentas gaus gauna pokalbio skambutį iš el. komercijos iFrame svetainės.
 
+> [!NOTE]
+> Negalima modifikuoti numatytojo pokalbių seanso šablono darbo sraute. Todėl, norėdami atnaujinti, galite norėti sukurti naują šabloną arba dubliuoti esamą šabloną. Norėdami gauti daugiau informacijos, žr. [Šablonų susiejimas su darbo sraute](/dynamics365/app-profile-manager/associate-templates).
+
 ## <a name="add-context-variables-in-dynamics-365-omnichannel-for-customer-service"></a>Įtraukti konteksto kintamuosius į "Dynamics 365" Klientų aptarnavimo skyrių
 
 Norėdami įtraukti konteksto kintamuosius į "Dynamics 365" Klientų aptarnavimo skyrių, atlikite šiuos veiksmus.
@@ -128,3 +134,11 @@ Norėdami įtraukti konteksto kintamuosius į "Dynamics 365" Klientų aptarnavim
 
 > [!NOTE]
 > Jei norite skaityti el. pašto adresus ir prisijungusių vartotojų pavadinimus iš el. komercijos kanalo, be konteksto kintamųjų AccountNumber **,** **·** **galite** pridėti el. pašto ir pavadinimo kaip teksto tipo konteksto kintamuosius.**·**
+
+## <a name="additional-resources"></a>Papildomi ištekliai
+
+["Commerce" pokalbių funkcijų peržiūra](commerce-chat-overview.md)
+
+["Commerce Chat" su moduliu Power Virtual Agents](chat-module-pva.md)
+
+["Commerce" pokalbių modulio proactive pokalbių parametrai](chat-proactive-chat-parameters.md)

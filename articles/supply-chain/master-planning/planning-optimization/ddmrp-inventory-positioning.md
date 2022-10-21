@@ -1,5 +1,5 @@
 ---
-title: Atsargų padėties valdymas
+title: Atsargų registravimas
 description: Šiame straipsnyje pateikiama informacija apie strateginį atsargų padėties žymėjimo procesą, apimantį atšiupimo taškų identifikavimą jūsų tiekimo grandinėje, kur galima sukurti turimų atsargų atsargas, siekiant padėti glaudinti gamybos laiką ir suglaudinti programos į jūsų tiekimo grandinę.
 author: t-benebo
 ms.date: 06/30/2022
@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: bec36b5b51b937782afdb78d7009a58dcd0942f0
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 847108575cbf7207282db00d731363c8cfad883a
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186594"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689544"
 ---
-# <a name="inventory-positioning"></a>Atsargų padėties valdymas
+# <a name="inventory-positioning"></a>Atsargų registravimas
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Strateginių atsargų padėties nustatymas apima iššišiavimo taškus jūsų tiekimo grandinėje, kur galima sukurti turimų atsargų atsargas. Šis būdas dažniausiai naudojamas padėti glaudinti gamybos laiką ir amortizuoti jūsų tiekimo grandinę. Tai leidžia sumažinti "nepavykusį" poveikį, nes poreikio nuokrypis nėra pereina visą tiekimo grandinės būdą. (Gamybos *poveikis* nurodo, kaip maži poreikio svyravimai mažmeninės prekybos lygiu gali progresyviškai padidinti poreikio svyravimus didmeninio pardavimo, platintojo, gamintojo ir žaliavų tiekėjų lygiuose.)
 
@@ -120,7 +121,7 @@ Norėdami nustatyti prekę kaip iššišiavimo tašką, atlikite šiuos veiksmus
 
 1. Eikite į **Produkto informacijos valdymas \> Produktai \> Išleisti produktai**.
 1. Suraskite ir pasirinkite išleistą prekę, kurią norite nustatyti DDMRP.
-1. Veiksmų srities skirtuke Planas **pasirinkite** Prekės **padengimas**.
+1. Veiksmų srities skirtuke Planas **pasirinkite Prekės padengimas** **.**
 1. Prekių padengimo **puslapyje** gali būti pateikti keli prekių padengimo įrašai, kiekvienas iš jų taikomas skirtingoms saugojimo ir produkto dimensijų kombinacijoms. Galite pasirinkti esamą prekės padengimo įrašą, kuris taikomas dimensijoms, kur norite sukurti iššipimo tašką. Taip pat galite veiksmų srityje pasirinkti **Naujas**, kad sukurtumėte naują prekės padengimo įrašą.
 1. Nustatykite prekių padengimo įrašą kaip įprasta. Reikia nurodyti vietą ir sandėlį, kur bus taikomas iššišiavimo taškas.
 1. Kol dar pasirenkamas atitinkamas įrašas, pasirinkite skirtuką **Bendra**.

@@ -1,5 +1,5 @@
 ---
-title: Vaizdinis ir projektų vykdymas
+title: Vaizdinis ir bendrasis vykdymas
 description: Šiame straipsnyje aprašoma, kaip stebėti jūsų poreikio valdomas medžiagų poreikių planavimo (DDMRP) išširpimo taškus, buferio zonas, suplanuotus užsakymus ir retrospektyvą.
 author: t-benebo
 ms.date: 06/30/2022
@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: e3afdd10860494b3cfe73a113a0e4e8fb07682a1
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 92e38c6ea19b60ae0a61e55f240ff52698e06933
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186591"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689782"
 ---
-# <a name="visual-and-collaborative-execution"></a>Vaizdinis ir projektų vykdymas
+# <a name="visual-and-collaborative-execution"></a>Vaizdinis ir bendrasis vykdymas
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Šiame straipsnyje aprašoma, kaip stebėti jūsų poreikio valdomas medžiagų poreikių planavimo (DDMRP) išširpimo taškus, buferio zonas, suplanuotus užsakymus ir retrospektyvą.
 
@@ -31,7 +32,7 @@ Microsoft galite Dynamics 365 Supply Chain Management vizualiai sekti, kaip bet 
 
 1. Eikite į **Produkto informacijos valdymas \> Produktai \> Išleisti produktai**.
 1. Pasirinkite išleistą prekę, kuri nustatyta kaip iššiavimo taškas. (Daugiau informacijos žr. [Atsargų padėties valdymas](ddmrp-inventory-positioning.md).)
-1. Veiksmų srities skirtuke Planas **pasirinkite** Prekės **padengimas**.
+1. Veiksmų srities skirtuke Planas **pasirinkite Prekės padengimas** **.**
 1. Prekių padengimo **puslapyje** pasirinkite prekės padengimo įrašą, kuris sukuria iššipimo tašką. (Šiame įraše bus rodomas padengimo grupės, nustatytos sukurti atsišiejimo taškus, pavadinimas.)
 1. **Pasirinkite skirtuką Turimos**. Šiame skirtuke yra diagrama, kurioje parodyta, kaip laikui bėgant pasikeitė turimi kiekiai, ir turimo kiekio vertė, kuri buvo įrašyta tam tikrą laikotarpį kaskart, kai vykdomas planavimo optimizavimas. Skirtuke taip pat yra lentelė, kurioje parodoma, į kurias iš šių kategorijų įeina kiekvienas įrašytas turimo kiekis:
 

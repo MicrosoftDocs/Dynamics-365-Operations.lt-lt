@@ -1,5 +1,5 @@
 ---
-title: Gamybos delsos scenarijus
+title: Gamybos atidėjimų scenarijus
 description: Šiame straipsnyje aprašomas gamybos delsos scenarijus, kuris generuoja pranešimą, jei gamybos našumas viršija konkrečią ribinę vertę.
 author: johanhoffmann
 ms.date: 09/02/2022
@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 073762581d84646ba12b570e57327b7cab8efd3b
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 25ccbda1628544f14dc32d9bea3f2162ad47d79e
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428998"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690027"
 ---
-# <a name="the-production-delays-scenario"></a>Gamybos delsos scenarijus
+# <a name="the-production-delays-scenario"></a>Gamybos atidėjimų scenarijus
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Gamybos *delsos scenarijus* generuoja pranešimą, jei gamybos našumas viršija konkrečią ribinę vertę. Tokiu atveju, kiekvienai *pagamintai prekei* iš dalies Microsoft Azure siunčiamas signalas į "IoT" centrą. Užsakymo Dynamics 365 Supply Chain Management atidėjimas skaičiuojamas pagal suplanuotą gamybos užsakymo vykdymo laiką, gaminamų prekių skaičių, *užduoties* vykdymo laiką ir ne dalies signalų, kurie buvo gauti, skaičių. Delsos pranešimas generuojamas, jei užduoties *ne* dalies signalų skaičius yra mažesnis už ribinę vertę.
 

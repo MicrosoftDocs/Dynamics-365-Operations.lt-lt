@@ -1,5 +1,5 @@
 ---
-title: Padaryti baigtas prekes faktiškai pasiekiamas prieš registruojant į žurnalus
+title: Padarykite užbaigtas prekes fiziškai prieinamas prieš paskelbdami žurnaluose
 description: Kai pagaminta prekė paskelbiama baigta, ji užregistruojama kaip galima toliau fiziškai apdoroti ir registruojamas vienas ar daugiau žurnalų. Šiame straipsnyje aprašoma, kaip atidėti žurnalo registravimus, įgalinus juos apdoroti pranešimų eilėje esančią paketinę užduotį.
 author: johanhoffmann
 ms.date: 08/02/2022
@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-08-02
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 7a8327552d9e6c38721fdac9ee1795e61f90f329
-ms.sourcegitcommit: 8d072505f66f507aafbaae65bedf3b530eb6cb7b
+ms.openlocfilehash: ee767a5d7c3dca2681861802ae42d7a07217c54d
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9266502"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689346"
 ---
-# <a name="make-finished-goods-physically-available-before-posting-to-journals"></a>Padaryti baigtas prekes faktiškai pasiekiamas prieš registruojant į žurnalus
+# <a name="make-finished-goods-physically-available-before-posting-to-journals"></a>Padarykite užbaigtas prekes fiziškai prieinamas prieš paskelbdami žurnaluose
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Kai darbuotojas praneša, kad pagaminta prekė baigta, sistema užregistruoja ją kaip galima toliau fiziškai apdoroti (pvz., siuntą ar put šitą). Šio proceso metu taip pat registruojamas vienas ar daugiau žurnalų (pvz., pranešimas, kad užbaigtas žurnalas, išrinkimo dokumento žurnalas ir maršruto kortelės žurnalas). Jei norite, kad prekės būtų faktiškai galimos prieš apdorodami visus registravimus, galite nustatyti sistemą, kad ji atidėtų žurnalo registravimus. Atidėti registravimus tada valdo paketinė užduotis, kuri apdoros registravimus kaip leidžia sistemos ištekliai.
 

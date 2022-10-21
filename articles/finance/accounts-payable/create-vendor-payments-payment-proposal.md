@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64290ebd47295bea5bc4bf843f7a9d9528375ce7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b868db915385a8433845e810cf169f1bf1686e3d
+ms.sourcegitcommit: dca54dd3afc7c94795d89c63050b105df2c48e3f
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845380"
+ms.lasthandoff: 10/15/2022
+ms.locfileid: "9682884"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Tiekėjo mokėjimų kūrimas naudojant mokėjimo pasiūlymą
 
@@ -111,7 +111,7 @@ Dimensijų valdymas suteikia galimybę kontroliuoti sugeneruotų eilučių grupa
 -   Laukas **Dimensijų valdymas** yra suaktyvinamas nenustatant dimensijų. Mokėjimo pasiūlymas bus sukurtas neatsižvelgiant į dimensijas. Sukurta operacija iš taikomo įrašo neperima jokių dimensijų.
 -   **Dimensijos valdymo** laukelis įjungiamas ir tolesnės dimensijos yra įjungiamos. Dabar galite nustatyti, kaip dimensijos kopijuojamos į žurnalą. Pavyzdžiui: • norėdami kurti verslo struktūros vieneto mokėjimo metodo mokėjimo pasiūlymą, pažymėkite žymės langelį **BusinessUnit**, • Norėdami kurti išlaidų centro mokėjimo metodo mokėjimo pasiūlymą, pažymėkite žymės langelį **Išlaidų centras**.
 
-> [[!NOTE]
+>[!NOTE]
 > Jei trečiojoje parinktyje pasirinkote daugiau nei vieną dimensiją, sukuriamas to dimensijų derinio mokėjimo pasiūlymas.
 
 #### <a name="bank-account-selection"></a>Banko kodo pasirinkimas
