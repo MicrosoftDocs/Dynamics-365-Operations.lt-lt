@@ -888,6 +888,8 @@
               href: async-customer-mode.md
             - name: Asinchroninių klientų konvertavimas į sinchroninius klientus
               href: convert-async-to-sync.md
+            - name: Kliento operacijų sinchronizavimo tikrinimas
+              href: audit-async-customer-operations.md
             - name: DUK apie asinchroninį kliento kūrimo režimą
               href: async-customer-mode-faq.md
             - name: Ryšiai su klientais
@@ -1296,8 +1298,14 @@
                       href: cookie-consent-module.md
                 - name: Pokalbio moduliai
                   items:
-                    - name: „Commerce“ pokalbių modulis
+                    - name: „Commerce Chat“ funkcijų apžvalga
+                      href: commerce-chat-overview.md
+                    - name: '„Commerce Chat“ su Daugiakanalis įtraukimas, skirtas „Customer Service“ moduliu'
                       href: commerce-chat-module.md
+                    - name: „Commerce Chat“ su „Power Virtual Agents“ moduliu
+                      href: chat-module-pva.md
+                    - name: „Commerce Chat modulio proaktyvaus pokalbio parametrai
+                      href: chat-proactive-chat-parameters.md
             - name: Paieška
               items:
                 - name: Numatytojo kategorijos nukreipimo puslapio ir ieškos rezultatų puslapio apžvalga

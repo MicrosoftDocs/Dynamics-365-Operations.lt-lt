@@ -10,8 +10,10 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?context=/dynamics365/context/finance
             - name: Kas nauja ar pasikeitė „Finance”
               items:
-                - name: Kas nauja ar pasikeitė „Finance“ pagrindiniame puslapyje
+                - name: 'Kas nauja ar pasikeitė „Finance“, pagrindinis puslapis'
                   href: get-started/whats-new-home-page.md
+                - name: „Finance 10.0.31“ (sausis)
+                  href: get-started/whats-new-changed-10-0-31.md
                 - name: „Finance 10.0.30“ (lapkritis)
                   href: get-started/whats-new-changed-10-0-30.md
                 - name: „Finance 10.0.29“ (spalis)
@@ -232,6 +234,26 @@
                   href: accounts-payable/accounts-payable-invoice-matching.md
                 - name: Mokėtinų sumų SF gretinimo patvirtinimo nustatymas
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
+            - name: „Invoice Capture“ sprendimas
+              items:
+                - name: „Invoice Capture“ apžvalga
+                  href: accounts-payable/invoice-capture-overview.md
+                - name: „Invoice Capture“ diegimas
+                  href: accounts-payable/install-invoice-capture.md
+                - name: „Invoice Capture“ konfigūravimas
+                  href: accounts-payable/config-invoice-capture.md
+                - name: „Invoice Capture“ konfigūracijos grupės
+                  href: accounts-payable/invoice-capture-config-group.md
+                - name: „Invoice Capture“ susiejimo taisyklės
+                  href: accounts-payable/invoice-capture-mapping-rules.md
+                - name: „Invoice Capture“ darbo sritis
+                  href: accounts-payable/invoice-capture-workspace.md
+                - name: „Invoice Capture“ išplėstiniai parametrai
+                  href: accounts-payable/invoice-capture-advanced-settings.md
+                - name: „Invoice Capture“ ataskaitų sritis
+                  href: accounts-payable/invoice-capture-dashboard.md
+                - name: „Invoice Capture“ gauti failai
+                  href: accounts-payable/invoice-capture-rec-files.md
             - name: Tiekėjo SF automatizavimas
               items:
                 - name: Automatizuotų tiekėjo SF išrašymo procesų apžvalga
