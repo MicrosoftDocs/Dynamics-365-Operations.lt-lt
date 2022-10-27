@@ -1,8 +1,8 @@
 ---
 title: Kaip atšaukti tiekėjo mokėjimą
-description: Šiame straipsnyje aprašomi mokėjimo atšaukimo, panaikinimo, anuliavimo ir atmetimo skirtumai. Be to, jame paaiškinami du tiekėjo tikrinimo atšaukimo metodai.
-author: abruer
-ms.date: 08/22/2017
+description: Šiame straipsnyje aprašomi skirtumai tarp mokėjimo atšaukimo, naikinimo, anuliavimo ir atmetimo bei tiekėjo čekio atšaukimo.
+author: angelad116
+ms.date: 10/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: twheelo
 ms.custom: 14361
 ms.assetid: 9f0a1883-cbe0-4cc7-b9f3-dd12fb85ebe8
 ms.search.region: Global
-ms.author: shpandey
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6216aed10866dbd5d814ae7f6b5a16ee67874fda
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: db82446d42a6d6fd69757d837fb8544e9b2fb224
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858562"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9715809"
 ---
 # <a name="reverse-a-vendor-payment"></a>Kaip atšaukti tiekėjo mokėjimą
 

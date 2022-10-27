@@ -6,18 +6,19 @@ ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
+ms.search.form: WHSShipPlanningListPage, WHSShipmentDetails
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: edf235351fc7cbffc6bf80c7e05c53159c1e8a7f
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: c67fd12c31b475b323bc4c7feee4cc5267da7793
+ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336552"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714705"
 ---
 # <a name="usmca-certification-of-origin"></a>USMCA kilmės sertifikatas
 
@@ -57,7 +58,7 @@ Norėdami gauti daugiau informacijos apie kiekvieną iš šių elementų ir jų 
 Norėdami atspausdinti USMCA dokumento kilmės sertifikatą siuntimui, darykite taip:
 
 1. Atlikite vieną iš toliau nurodytų veiksmų.
-    - Eikite į **Gabenimo valdymas > Siuntimai > Visi siuntimai** ir pasirinkite siuntimą, kuriam norite spausdinti dokumentą.
+    - Eikite **į Transportavimo \> valdymo \> planavimo siuntos \> Visos** siuntos ir pasirinkite siuntą, kurios dokumentą norite išspausdinti.
     - Atverkite **Siuntimo išsami informacija** puslapį siuntimui, kuriam norite spausdinti dokumentą (yra keli būdai ten patekti, įskaitant **Visi siuntimai** puslapį).
 1. Veiksmų juostoje atverkite **Siuntimų** skirtuką esantį grupėje **Spausdinti** ir rinkitės **USMCA kilmės sertifikatas**.
 1. Teksto laukelis **Kilmės sertifikatas** atidaromas. Nustatykite kaip aprašyta tolesniuose poskyriuose ir tada rinkitės **Gerai**, kad sukurtumėte dokumentą.

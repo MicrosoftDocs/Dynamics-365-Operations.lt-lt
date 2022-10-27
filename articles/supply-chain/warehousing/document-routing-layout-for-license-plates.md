@@ -1,5 +1,5 @@
 ---
-title: Numerio lentelės etikečių dokumentų maršrutų planavimo maketas
+title: Dokumento maršruto žymos maketai
 description: Šiame straipsnyje aprašoma, kaip naudoti formatavimo metodus vertėms ant etikečių spausdinti.
 author: perlynne
 ms.date: 04/01/2020
@@ -13,23 +13,24 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 10e63353cda93d666d7f23f59508b73e5492c3cc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a4e0c16b71c257cae832870ca58679884047ea16
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847881"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708651"
 ---
-# <a name="document-routing-layout-for-license-plate-labels"></a>Numerio lentelės etikečių dokumentų maršrutų planavimo maketas
+# <a name="document-routing-label-layout"></a>Dokumento maršruto žymos maketas
 
 [!include [banner](../includes/banner.md)]
 
+Šiame straipsnyje aprašoma, kaip sukurti numerio lentelės, konteinerio ir bangos etikečių maketus. Joje taip pat pateikiamos gairės, kaip kurti maketus naudojant Apimabra programavimo kalbą (ZPL).
 
-Dokumento maršruto planavimo maketas apibrėžia numerio lentelės etikečių maketą ir ant etikečių išspausdintus duomenis. Spausdinimo aktyvinimo taškus galite konfigūruoti, kai nustatote mobiliojo įrenginio meniu elementus ir darbo šablonus.
+Dokumentų maršruto žymos maketai nurodo, kokiu būdu išdėstyti žymės ir ant jų spausdinami duomenys. Spausdinimo aktyvinimo taškus galite konfigūruoti, kai nustatote mobiliojo įrenginio meniu elementus ir darbo šablonus.
 
-Paprastai sandėlio gavimo klerkai spausdina numerio lentelės etiketes iš karto po to, kai įrašo padėklų, kurie pristatomi į gavimo sritį, turinį. Fizinės etiketės pritaikomos padėklams. Jos gali būti naudojamos tolesnei atidėjimo proceso tikrinimo daliai ir būsimoms siuntimo paėmimo operacijoms.
+Šiame straipsnyje pateikiama informacija taikoma visiems dokumentų maršruto žymos maketams, [įskaitant](tasks/license-plate-label-printing.md) numerio lentelės žymų, [konteinerių žymių ir bangos žymių](print-container-labels.md)[maketus](configure-wave-label-printing.md).
 
-Galite spausdinti itin sudėtingas etiketes, jei spausdinimo įrenginys gali suprasti jam siunčiamą tekstą. Pavyzdžiui, „Zebra” programavimo kalbos (ZPL) maketas, kuriame yra brūkšninis kodas, gali būti panašus į toliau pateiktą pavyzdį.
+Galite spausdinti itin sudėtingas etiketes, jei spausdinimo įrenginys gali suprasti jam siunčiamą tekstą. Pavyzdžiui, ZPL maketas, kuriame yra brūkšninis kodas, gali būti panašus į šį pavyzdį.
 
 ```dos
 ^XA~TA000~JSN^LT0^MNW^MTD^PON^PMN^LH0,0^JMA^PR2,2~SD15^JUS^LRN^CI0^XZ
@@ -45,11 +46,9 @@ Galite spausdinti itin sudėtingas etiketes, jei spausdinimo įrenginys gali sup
 ^PQ1,,,Y^XZ
 ```
 
-Etikečių spausdinimo proceso metu tekstas, , šiame pavyzdyje – `$LicensePlateId$`, bus pakeistas į duomenų reikšmę.
+Etikečių spausdinimo proceso metu tekstas, , šiame pavyzdyje – `$LicensePlateId$`, bus pakeistas į duomenų reikšmę. Keletas plačiai prieinamų etikečių generavimo įrankių gali padėti formatuoti etiketės maketo tekstą. Dauguma šių įrankių palaiko `$FieldName$` formatą. Be to, „Microsoft Dynamics 365 Supply Chain Management” naudoja specialią formatavimo logiką, kuri yra dokumento maršruto planavimo maketo laukų susiejimo dalis.
 
 Norėdami pamatyti reikšmes, kurios bus išspausdintos, eikite į **Sandėlio valdymas \> Užklausos ir ataskaitos \> Numerio lentelės etiketės**.
-
-Keletas plačiai prieinamų etikečių generavimo įrankių gali padėti formatuoti etiketės maketo tekstą. Dauguma šių įrankių palaiko `$FieldName$` formatą. Be to, „Microsoft Dynamics 365 Supply Chain Management” naudoja specialią formatavimo logiką, kuri yra dokumento maršruto planavimo maketo laukų susiejimo dalis.
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Šios funkcijos įjungimas sistemoje
 
@@ -137,7 +136,10 @@ $DisplayListOfItemsNumbers()[1]$
 
 ## <a name="more-information-about-how-to-print-labels"></a>Daugiau informacijos apie tai, kaip spausdinti etiketes
 
-Daugiau informacijos apie tai, kaip nustatyti ir spausdinti etiketes, žr. [Numerio lentelės etiketės spausdinimo įgalinimas](tasks/license-plate-label-printing.md).
+Daugiau informacijos apie tai, kaip nustatyti ir išspausdinti etiketes, ieškokite toliau pateikiamame straipsnyje:
 
+- [Numerio lentelės žymės spausdinimas](tasks/license-plate-label-printing.md)
+- [Spausdinti konteinerių etiketes](print-container-labels.md)
+- [Bangos žymos spausdinimas](configure-wave-label-printing.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

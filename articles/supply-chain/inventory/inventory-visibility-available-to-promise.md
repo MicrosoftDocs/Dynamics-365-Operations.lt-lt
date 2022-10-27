@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 4a0edeedfe42b43ef36c8ca091b01eef815f3632
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f831c5d5719bbbd72c7cff37b8b35826f48ce6e4
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856199"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719297"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>Turimų atsargų matomumo grafikai ir prieinamos atsargos
 
@@ -205,6 +205,7 @@ Norėdami pateikti turimos informacijos keitimo grafikus, keisti įvykius ir už
 | `/api/environment/{environmentId}/onhand/bulk` | `POST` | Kurti kelis pakeitimo įvykius. |
 | `/api/environment/{environmentId}/onhand/indexquery` | `POST` | Užklausa naudojant `POST` metodą. |
 | `/api/environment/{environmentId}/onhand` | `GET` | Užklausa naudojant `GET` metodą. |
+| `/api/environment/{environmentId}/onhand/exactquery` | `POST` | Tiksli užklausa naudojant `POST` metodą. |
 
 Norėdami gauti daugiau informacijos, žr. [atsargų matomumo viešas API](inventory-visibility-api.md).
 
@@ -394,6 +395,8 @@ Savo užklausoje nustatykite `QueryATP` kaip *teisingas*, jei norite pateikti u�
 > [!NOTE]
 > Neatsižvelgiant į tai, `returnNegative`*·* *ar* parametras užklausos sąstate nustatytas kaip teisingas ar klaidingas, rezultatuose bus neigiamos vertės, kai užklausoje bus nustatyti suplanuoti turimo atsargų pakeitimai ir ATP rezultatai. Šios neigiamos vertės bus įtrauktos, nes, jei suplanuoti tik poreikio užsakymai, arba jei tiekimo kiekiai yra mažesni nei poreikio kiekiai, suplanuoti turimi pakeisti kiekiai bus neigiami. Jei neigiamos vertės nebuvo įtrauktos, rezultatai bus priinioti. Norėdami gauti daugiau informacijos apie šią pasirinktį ir kaip ji veikia kitų tipų užklausoms, žr [. atsargų matomumo viešąsias API](inventory-visibility-api.md#query-with-post-method).
 
+### <a name="query-by-using-the-post-method"></a>Užklausa naudojant METODĄ POST
+
 ```txt
 Path:
     /api/environment/{environmentId}/onhand/indexquery
@@ -419,14 +422,14 @@ Body:
     }
 ```
 
-Toliau pateikiamas pavyzdys rodo, kaip sukurti užklausos instituciją, kurią galima pateikti atsargų matomumui naudojant `POST` metodą.
+Toliau pateikiamas pavyzdys rodo, kaip sukurti indekso užklausos užklausos informaciją, kurią galima pateikti atsargų matomumui naudojant `POST` metodą.
 
 ```json
 {
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["Bike"],
-        "siteId": ["1"],
+        "SiteId": ["1"],
         "LocationId": ["11"]
     },
     "groupByValues": ["ColorId", "SizeId"],
@@ -435,7 +438,7 @@ Toliau pateikiamas pavyzdys rodo, kaip sukurti užklausos instituciją, kurią g
 }
 ```
 
-### <a name="get-method-example"></a>GET metodo pavyzdys
+### <a name="query-by-using-the-get-method"></a>Užklausa naudojant metodą GET
 
 ```txt
 Path:
@@ -453,7 +456,7 @@ Query(Url Parameters):
     [Filters]
 ```
 
-Toliau pateikiamas pavyzdys, kaip sukurti užklausos URL kaip užklausą`GET`.
+Toliau pateikiamas pavyzdys, kaip sukurti indekso užklausos užklausos URL kaip užklausą`GET`.
 
 ```txt
 https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&LocationId=11&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
@@ -461,9 +464,53 @@ https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.c
 
 Šios užklausos rezultatas `GET` yra lygiai toks pat kaip ir ankstesnio `POST` pavyzdžio užklausos rezultatas.
 
+### <a name="exact-query-by-using-the-post-method"></a>Tiksli užklausa naudojant POST metodą
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/exactquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            dimensions: string[],
+            values: string[][],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
+
+Toliau pateikiamas pavyzdys rodo, kaip sukurti tikslią užklausos užklausos informaciją, kurią galima pateikti atsargų matomumui naudojant `POST` metodą.
+
+```json
+{
+    "filters": {
+        "organizationId": ["usmf"],
+        "productId": ["Bike"],
+        "dimensions": ["SiteId", "LocationId"],
+        "values": [
+            ["1", "11"]
+        ]
+    },
+    "groupByValues": ["ColorId", "SizeId"],
+    "returnNegative": true,
+    "QueryATP":true
+}
+```
+
 ### <a name="query-result-example"></a>Užklausos rezultatų pavyzdys
 
-Abu ankstesni užklausų pavyzdžiai gali pateikti tokį atsakymą. Pavyzdžiui, sistema konfigūruota naudojant šiuos parametrus:
+Bet kuris iš ankstesnių užklausos pavyzdžių gali pateikti tokį atsakymą. Pavyzdžiui, sistema konfigūruota naudojant šiuos parametrus:
 
 - **ATP apskaičiuotas matas:** *iv.onhand = eka atvežimo – eka.siuntimo*
 - **Grafiko laikotarpis:** *7*

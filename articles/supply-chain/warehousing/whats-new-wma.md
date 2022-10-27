@@ -10,18 +10,23 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 645590bbf00f49bb0f3511e7fa02c8f6add661fc
-ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
-ms.translationtype: HT
+ms.openlocfilehash: da7e8a47496092a00ecc05c17933cc0e0cdb0fd0
+ms.sourcegitcommit: 27ce4fc706100b626b81c3a1023238acd872e76c
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/14/2022
-ms.locfileid: "9682620"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9702201"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Kas nauja ar pasikeitė „Warehouse Management“ mobiliųjų įrenginių programėlėje
 
 [!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiamos naujos funkcijos, pataisos, patobulinimai ir žinomos kiekvienos "Microsoft" išleistos sandėlio valdymo mobiliosios programos versijos problemos Dynamics 365 Supply Chain Management.
+
+## <a name="version-20350"></a>2.0.35.0 versija
+
+Šioje versijoje pristatomos toliau pateiktos naujos funkcijos, klaidų taisymai ir patobulinimai:
+- Išsamskite problemą, Android dėl kurios programa sutrins, jei **būtų** atidarytas darbų sąrašo puslapis, kai nebus rodomos jokios kortelės.
 
 ## <a name="version-20340"></a>2.0.34.0 versija
 

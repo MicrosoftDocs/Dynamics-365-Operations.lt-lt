@@ -1,6 +1,6 @@
 ---
-title: Perskaičiuoti eilutės grynąsias sumas importuojant pardavimo užsakymus, pasiūlymus ir grąžinimus
-description: Šiame straipsnyje aprašoma, ar ir kaip sistema perskaičiuoti grynąsias eilutės sumas, kai importuojami pardavimo užsakymai, pasiūlymai ir grąžinimai. Taip pat paaiškinama, kaip valdyti elgseną skirtingose "Microsoft" versijose Dynamics 365 Supply Chain Management.
+title: Perskaičiuoti eilutės grynąsias sumas importuojant pardavimo užsakymus ir pasiūlymus
+description: Šiame straipsnyje aprašoma, ar ir kaip sistema perskaičiuoti grynąsias eilutės sumas, kai importuojami pardavimo užsakymai ir pasiūlymai. Taip pat paaiškinama, kaip valdyti elgseną skirtingose "Microsoft" versijose Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 08/05/2022
 ms.topic: article
@@ -11,25 +11,25 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2022-06-08
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 08b30044a93e46c9c83848b60d69c595bc774570
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: edda0c016130e2a273adf8f3d3e00e2d3ae9d5c6
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335562"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719340"
 ---
-# <a name="recalculate-line-net-amounts-when-importing-sales-orders-quotations-and-returns"></a>Perskaičiuoti eilutės grynąsias sumas importuojant pardavimo užsakymus, pasiūlymus ir grąžinimus
+# <a name="recalculate-line-net-amounts-when-importing-sales-orders-and-quotations"></a>Perskaičiuoti eilutės grynąsias sumas importuojant pardavimo užsakymus ir pasiūlymus
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje aprašoma, ar ir kaip sistema perskaičiuoti grynąsias eilutės sumas, kai importuojami pardavimo užsakymai, pasiūlymai ir grąžinimai. Taip pat paaiškinama, kaip valdyti elgseną skirtingose "Microsoft" versijose Dynamics 365 Supply Chain Management.
+Šiame straipsnyje aprašoma, ar ir kaip sistema perskaičiuoti grynąsias eilutės sumas, kai importuojami pardavimo užsakymai ir pasiūlymai. Taip pat paaiškinama, kaip valdyti elgseną skirtingose "Microsoft" versijose Dynamics 365 Supply Chain Management.
 
 ## <a name="how-updates-to-net-line-amounts-are-calculated-on-import"></a>Kaip skaičiuojami grynosios eilutės sumos naujinimai importuojant
 
-Tiekimo grandinės valdymo 10.0.23 versijoje įvestas [604418](https://fix.lcs.dynamics.com/issue/results/?q=604418). Šis klaidosfiksas **pakeitė** sąlygas, pagal kurias eilutėje esantį grynosios sumos lauką galima atnaujinti arba perskaičiuoti, kai importuojami esamų pardavimo užsakymų, grąžinimų ir pasiūlymų atnaujinimai. Versijoje 10.0.29 šį *klaidosfiksą galite pakeisti importavimo priemonėje įjungę funkciją Skaičiuoti eilutės grynąją* sumą. Ši funkcija turi panašų poveikį, tačiau ji suteikia visuotinį parametrą, leidžiaį grįžti prie seno veikimo būdo, jei to reikia. Nors dėl naujos veikimo būdo sistema veikia daugiau, dėl to sistema gali pasiekti netikėtus rezultatus tam tikroje scenarijuose, kuriuose tenkinamos visos šios sąlygos:
+Tiekimo grandinės valdymo 10.0.23 versijoje įvestas [604418](https://fix.lcs.dynamics.com/issue/results/?q=604418). Šis klaidosfiksas **pakeitė** sąlygas, pagal kurias eilutėje esantį grynosios sumos lauką galima atnaujinti arba perskaičiuoti, kai importuojami esamų pardavimo užsakymų ir pasiūlymų atnaujinimai. Versijoje 10.0.29 šį *klaidosfiksą galite pakeisti importavimo priemonėje įjungę funkciją Skaičiuoti eilutės grynąją* sumą. Ši funkcija turi panašų poveikį, tačiau ji suteikia visuotinį parametrą, leidžiaį grįžti prie seno veikimo būdo, jei to reikia. Nors dėl naujos veikimo būdo sistema veikia daugiau, dėl to sistema gali pasiekti netikėtus rezultatus tam tikroje scenarijuose, kuriuose tenkinamos visos šios sąlygos:
 
 - *Duomenys, kurie atnaujina esamus įrašus, importuojami naudojant pardavimo užsakymo eilutes V2*, *pardavimo pasiūlymo eilutes V2* *arba* grąžinimo užsakymo eilučių objektą naudojant Open Data Protocol (OData), įskaitant situacijas, kuriose naudojate dvigubo rašymo, importavimo / eksportavimo naudojant Excel ir kai kurias trečiosios šalies integracijas.
-- [Prekybos sutarčių vertinimo strategijos](/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper)**·**, kurios yra, sudaro keitimo strategiją, kuri riboja pardavimo užsakymo eilučių, pardavimo pasiūlymo eilučių ir (arba) grąžinimo užsakymo eilučių grynosios sumos lauko naujinimus.
+- [Prekybos sutarčių vertinimo strategijos](/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper)**·**, kurios yra, sudaro keitimo strategiją, kuri riboja pardavimo užsakymo eilučių, pardavimo pasiūlymo eilučių ir (arba) grąžinimo užsakymo eilučių grynosios sumos lauko naujinimus. Nepamirškite, kad grąžinimo užsakymo eilučių grynosios **sumos** laukas visada apskaičiuojamas ir jo negalima nustatyti rankiniu būdu.
 - Importuoti duomenys **apima** eilučių lauko Grynoji **suma pakeitimus arba pakeitimus (pvz., vieneto kainą, kiekį ar nuolaidą),** dėl kurių eilučių grynosios sumos lauko vertė bus perskaičiuota vienam ar daugiau esamų eilutės įrašų.
 
 Šiais konkrečiais scenarijais prekybos sutarties **vertinimo strategijos poveikis eilutėje apriboja grynosios sumos lauko** atnaujinimus. Šis apribojimas vadinamas pakeitimo *strategija*. Dėl šios strategijos, kai laukui redaguoti ar perskaičiuoti naudojate vartotojo sąsają, sistema paragina patvirtinti, ar norite atlikti keitimą. Tačiau kai importuojate įrašą, sistema turi pasirinkti. Prieš versijoje 10.0.23 sistema visada nepakeistų eilutės grynosios sumos, nebent gaunama eilutės grynoji suma yra 0 (nulis). Tačiau naujesnėse versijose sistema pagal poreikį visada atnaujina arba perskaičiuoja grynąją sumą, nebent nurodyta kitaip. Nors naujas veikimas yra loginis, gali kilti problemų, jei jau apdorojate procesus ar integravimą, kuris laiko senesnį veikimo būdą. Šiame straipsnyje aprašoma, kaip, jei reikia, grįžti prie seno veikimo būdo.

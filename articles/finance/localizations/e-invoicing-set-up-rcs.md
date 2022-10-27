@@ -2,7 +2,7 @@
 title: Nustatyti reguliavimo konfigūracijos tarnybą (RCS)
 description: Šiame straipsnyje paaiškinama, kaip nustatyti reguliavimo konfigūracijos tarnybą (RCS).
 author: gionoder
-ms.date: 02/09/2022
+ms.date: 10/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 10.0.12
 ms.custom: 97423,  ""intro-internal
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: 63a4f77d6e80133947dff678cef3885167ec55be
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 32ced98925ee66e02f0b073b4acbd586666ac20c
+ms.sourcegitcommit: 1ecfc1d8afb2201ab895ae6f93304ba2b120f14b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9285794"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9710787"
 ---
 # <a name="set-up-regulatory-configuration-service-rcs"></a>Nustatyti reguliavimo konfigūracijos tarnybą (RCS)
 
@@ -39,7 +39,16 @@ Dabar globalizavimo funkcijų **darbo srities išklotinė** vieta dabar turi bū
 ## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>Nustatykite parametrus RCS integravimui su elektroninės sąskaitos priedu
 
 1. Darbo srities **Globalizacijos funkcijos** dalyje **Susiję parametrai** pasirinkite saitą **Elektroninių ataskaitų parametrai**.
-2. Aptarnavimo **galinio punkto** **URI lauke skirtuke Elektroninis SF** išrašymas Microsoft Azure įveskite atitinkamą geografijos paslaugos galinį punktą, kaip parodyta pateiktoje lentelėje.
+2. Pirmą kartą nustatymo parametrai bus paraginti prisijungti prie ciklo paslaugų (LCS). Pasirinkite **Spustelėkite čia, kad prisijungtumėte prie** ciklo tarnybų, o užmesdami ryšį pasirinkite **Gerai**.
+
+    > [!IMPORTANT]
+    > Šalyse arba regionuose, kuriuose vykdomas duomenų gyvenamoji vieta, ir jei jūsų RCS buvo sukonfigūruotas regione, kuriame LCS yra sukurtas, RCS galite gauti tokį ryšio klaidos pranešimą: "Nerasta HTTP išteklių, atitinkančių URI užklausą". Pasirinkite **Gerai**. RCS gali būti parodytas kitas klaidos pranešimas: "Nepavyko sugeneruoti "Dynamics" ciklo tarnybų vartotojo atpažinimo ženklo vartotojo vardu (). Susiekite su savo sistemos administratoriumi."
+    >  
+    > Taip nutinka, nes LCS yra visuotinė tarnyba ir yra aptarnaujama JAV regione. Dėl duomenų gyvenamosios vietos strategijos RCS iš jūsų dabartinio regiono negali prisijungti prie LCS. Šiuose toliau pateikiami du galimi sprendimai:
+    > - Panaikinkite RCS iš dabartinio regiono ir iš naujo jį sukurkite JAV regione.
+    > - Nepaisyti klaidų ir toliau naudoti elektroninių SF išrašymo nustatymą. Šios klaidos neturi įtakos elektroninių SF išrašymo funkcijoms.
+
+3. Aptarnavimo **galinio punkto** **URI lauke skirtuke Elektroninis SF** išrašymas Microsoft Azure įveskite atitinkamą geografijos paslaugos galinį punktą, kaip parodyta pateiktoje lentelėje.
 
     | Duomenų centras „Azure" geografijoje | Paslaugos galinio punkto URI |
     |----------------------------|----------------------|
@@ -55,8 +64,10 @@ Dabar globalizavimo funkcijų **darbo srities išklotinė** vieta dabar turi bū
     | Kanada                     | <p>`https://gw.ca-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.ca-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Prancūzija                     | <p>`https://gw.fr-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Indija                      | <p>`https://gw.in-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Norvegija                     | <p>`https://gw.no-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Pietų Afrika               | <p>`https://gw.za-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
-3. Patvirtinkite, kad **Programos ID** laukelis yra nustatytas į **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Ši vertė yra fiksuota vertė. Įsitikinkite, kad įvestas tik globalus unikalus identifikatorius (GUID) ir kad į reikšmę nėra jokių kitų simbolių, pvz., tarpų, kablelių, periodų ar kabučių.
+3. Peržiūrėti ir lauke Programos **ID įvesti** fiksuotą vertę **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Įsitikinkite, kad įvestas tik globalus unikalus identifikatorius (GUID) ir kad į reikšmę nėra jokių kitų simbolių, pvz., tarpų, kablelių, periodų ar kabučių.
 4. **Lauke LCS aplinkos ID** įveskite savo ciklo Microsoft Dynamics tarnybų (LCS) aplinkos ID. Ši vertė yra nuoroda į finansų arba tiekimo grandinės valdymo aplinką, kurią naudosite su elektroninių SF išrašymo paslauga. Norėdami gauti savo ID, [prisijunkite prie LCS](https://lcs.dynamics.com/), atidarykite projektą, **·** **·** **tada skirtuko Aplinkos valdymas skyriuje Aplinkos informacija žiūrėkite lauke Aplinkos ID.**
 
     > [!IMPORTANT]

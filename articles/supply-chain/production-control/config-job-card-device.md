@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 0f42ad593f59f716fb6cb535d73654d3549ba00e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c3024ca2e3b7eb24ac9a171def4a72cde7493a7a
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860731"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708623"
 ---
 # <a name="configure-job-card-for-devices"></a>Konfigūruoti įrenginių užduoties kortelę
 
@@ -73,7 +73,7 @@ Išsamesnės informacijos apie kiekvieną užduoties kortelės įrenginių konfi
 - **Išteklių grupė** – pasirinkite išteklių grupę, kuri bus taikoma kaip numatytasis užduočių sąrašo, rodomo kiekvienam darbuotojui, filtro kriterijus. Iš pradžių įrenginyje bus rodomos tik tos užduotys, kurios suplanuotos ištekliams, sugrupuotiems pagal pasirinktą išteklių grupę. Jei parinktis **Leisti darbuotojams nustatyti asmeninius filtrus** įjungta, darbuotojai galės redaguoti šią vertę, priešingu atveju šis filtras bus taikomas visada, kai suaktyvinta ši įrenginio konfigūracija.
 - **Išteklius** – pasirinkite išteklių, kuris bus taikomas kaip numatytasis užduočių sąrašo, rodomo kiekvienam darbuotojui, filtro kriterijus. Iš pradžių įrenginyje bus rodomos tik tos užduotys, kurios suplanuotos pasirinktam ištekliui. Jei parinktis **Leisti darbuotojams nustatyti asmeninius filtrus** įjungta, darbuotojai galės redaguoti šią vertę, priešingu atveju šis filtras bus taikomas visada, kai suaktyvinta ši įrenginio konfigūracija.
 - **Generuoti numerio lentelę** – nustatykite šią pasirinktį į **Taip**, kad sugeneruotumėte naują numerio lentelę kiekvieną kartą, kai darbuotojas naudoja užduoties kortelės įrenginį, kad praneštų apie baigtą užduotį. Numerio lentelėje nurodytas numeris generuojamas naudojant skaičių seką, kuri nustatyta puslapyje **Sandėlio valdymo parametrai**. Kai nustatyta į **Ne**, darbuotojai turi nurodyti esamą numerio lentelę, kai praneša apie baigtą užduotį.
-- **Spausdinti etiketę** – nustatykite šią pasirinktį į **Taip**, kad būtų spausdinama numerio lentelės etiketė, kai darbuotojas naudoja užduoties kortelės įrenginį, kad praneštų apie baigtą užduotį. Etiketės konfigūracija nustatoma dokumento maršruto planavimo dalyje, kaip nurodyta [Numerio lentelės etikečių dokumentų maršrutų planavimo maketas](../warehousing/document-routing-layout-for-license-plates.md).
+- **Spausdinti etiketę** – nustatykite šią pasirinktį į **Taip**, kad būtų spausdinama numerio lentelės etiketė, kai darbuotojas naudoja užduoties kortelės įrenginį, kad praneštų apie baigtą užduotį. Žymos konfigūracija nustatoma dokumento maršruto parinkime, kaip aprašyta dokumento maršruto [žymos maketuose](../warehousing/document-routing-layout-for-license-plates.md).
 
 <a name="assigned-users"></a>
 

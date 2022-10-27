@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d15980b05cfac68f2e2441c86b4506c13b38b4d5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 14d6ba013a93756f86e959756dd3073851881095
+ms.sourcegitcommit: c6c2486be2359bd30106f7f52bda788239147d8c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864345"
+ms.lasthandoff: 10/22/2022
+ms.locfileid: "9713895"
 ---
 # <a name="configure-ledgers"></a>Didžiųjų knygų konfigūravimas
 
@@ -42,7 +42,7 @@ Kiekvieną juridinį subjektą programoje "Dynamics 365 Finance" galima sukonfig
 
 Atkreipkite dėmesį, kad, jei turite kelias sąskaitų struktūras, galite pasirinkti tik tas sąskaitų struktūras, kuriose nėra persidengiančių pagrindinių sąskaitų ir finansinių dimensijų derinių. Pavyzdžiui, viena iš jūsų sąskaitų struktūrų sukonfigūruota įtraukti verslo struktūros vienetą į pagrindines sąskaitas tarp 1000 ir 1999. Kitoje sąskaitų struktūroje į pagrindines sąskaitas, prasidedančias 1, įtraukėte finansinę dimensiją Padalinys. Šiuo atveju tame pačiame juridiniame subjekte galima įtraukti tik vieną iš sąskaitų struktūrų.
 
-Norėdami sukonfigūruoti savo DK sąskaitų struktūras, puslapio **Didžioji knyga**, „FastTab“ **Sąskaitų struktūros** pasirinkite **Įtraukti**, sąraše pasirinkite sąskaitų struktūrą, tada – **Pasirinkti**. Gali užtrukti keletą minučių, kol bus įtrauktos ir įrašytos sąskaitų struktūros. Atkreipkite dėmesį, kad jūsų pasirinktos sąskaitų struktūros turi būti aktyvios. Kitu atveju informacija apie sąskaitų struktūras negalios juridiniuose subjektuose, kuriuose jos yra susietos.
+Norėdami sukonfigūruoti savo DK sąskaitų struktūras, puslapio **Didžioji knyga**, „FastTab“ **Sąskaitų struktūros** pasirinkite **Įtraukti**, sąraše pasirinkite sąskaitų struktūrą, tada – **Pasirinkti**. Kol sąskaitų struktūros bus pridėtos ir įrašytos, užtruks keletą minučių. Įrašius pakeistą sąskaitos struktūrą į DK, bus pradėtas procesas sinchronizuoti visas neužregistruotas operacijas. Turite palaukti, kol bus užbaigtas dabartinio juridinio subjekto, kuriame atliekami pakeitimai, DK pakeitimas, ir tik tada galėsite pakeisti kito juridinio subjekto DK sąskaitos struktūrą. Atkreipkite dėmesį, kad jūsų pasirinktos sąskaitų struktūros turi būti aktyvios. Kitu atveju informacija apie sąskaitų struktūras negalios juridiniuose subjektuose, kuriuose jos yra susietos.
 
 Norėdami pašalinti sąskaitos struktūrą, puslapio **Didžioji knyga** „FastTab“ **Sąskaitų struktūros** pasirinkite **Pašalinti**. Atkreipkite dėmesį, kad, iš savo DK pašalinę sąskaitų struktūrą, nepašalinate jokių operacijų, kurios buvo užregistruotos naudojant tos sąskaitų struktūros konfigūraciją.
 
@@ -70,7 +70,7 @@ Norėdami gauti daugiau informacijos apie balansavimo įrašus, žr. [Subalansuo
 
 Puslapis **Didžioji knyga** taip pat naudojamas valiutoms, kurios bus naudojamos registruojant operacijas didžiojoje knygoje, valdyti ir nurodyti. Turite nurodyti apskaitos valiutą, kuri yra valiuta, naudojama DK visų kvitų stulpelyje **Apskaitos valiuta**. Be to, stulpelyje **Ataskaitų valiuta** galite pasirinkti antrą valiutą. Jei pasirinksite ataskaitų valiutą, visos operacijos visų kvitų DK stulpelyje **Ataskaitų valiuta** bus įrašomos ta valiuta.
 
-Jei operacijos užregistruojamos kita valiuta, sistema automatiškai konvertuoja operacijos sumą iš operacijų valiutos į kvito apskaitos valiutą ir ataskaitų valiutą. Puslapio **Didžioji knyga** lauke **Apskaitos valiutos kurso tipas** pasirinkite valiutos kurso tipą, sukonfigūruotą valiutos kursams, kurie turi būti naudojami norint konvertuoti reikšmes iš operacijų valiutos į apskaitos valiutą kvite. Jei pasirinkote ataskaitų valiutą, taip pat turite nustatyti lauką **Ataskaitų valiutos kurso tipas**, kad nurodytumėte valiutos kursą, kuris turi būti naudojamas konvertuojant reikšmes iš operacijų valiutos į apskaitos valiutą kvite.
+Jei operacijos registruojamos kita valiuta, sistema automatiškai konvertuoja operacijos sumą iš operacijos valiutos į apskaitos valiutą ir ataskaitų valiutą kvite. Puslapio **Didžioji knyga** lauke **Apskaitos valiutos kurso tipas** pasirinkite valiutos kurso tipą, sukonfigūruotą valiutos kursams, kurie turi būti naudojami norint konvertuoti reikšmes iš operacijų valiutos į apskaitos valiutą kvite. Jei pasirinkote ataskaitų valiutą, taip pat turite nustatyti lauką **Ataskaitų valiutos kurso tipas**, kad nurodytumėte valiutos kursą, kuris turi būti naudojamas konvertuojant reikšmes iš operacijų valiutos į apskaitos valiutą kvite.
 
 Jei naudojate biudžeto sudarymo funkciją, taip pat galite nustatyti lauką **Biudžeto valiutos kurso tipas**, kad nurodytumėte valiutos kursą, kuris turi būti naudojamas konvertuojant biudžeto operacijas iš vienos valiutos į kitą.
 

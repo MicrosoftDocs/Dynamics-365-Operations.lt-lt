@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: 11378991a24e1a5f5e213d64f0f414db2e5c2573
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 9d4a408f2169b220fefd9ab7e9f3b37217fb3cfe
+ms.sourcegitcommit: 1ecfc1d8afb2201ab895ae6f93304ba2b120f14b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9279907"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9710841"
 ---
 # <a name="complete-publish-and-deploy-a-globalization-feature"></a>Globalizacijos funkcijos užbaigimas, publikavimas ir diegimas
 
@@ -59,8 +59,8 @@ RCS naudojate komandą **Diegti** norėdami publikuoti elektroninių SF išrašy
 2. Skirtuko Versijos **puslapyje**, dešinėje puslapio pusėje, pasirinkite elektroninių SF išrašymo priemonės versiją, kurią norite diegti į aptarnavimo aplinką arba prijungtą programą. Pasirinktos versijos būsena turi būti Baigta **arba** **Publikuota**.
 3. Pasirinkite **Diegti**, tada pasirinkite vieną arba abi šias parinktis, kad apibrėžtumėte diegimo tikslą:
 
-    - **Prijungta programa** – konfigūravimas, kurį Microsoft Dynamics teikia programos nustatymas, yra parašytas 365 Dynamics 365 Supply Chain Management finansų egzemplioriuje arba anksčiau buvo su juo susietas.
-    - **Aptarnavimo** aplinka – elektroninių SF išrašymo priemonės versija įdiegiama į aptarnavimo aplinką. Tada elektroninis SF išrašymas yra paruoštas gauti ir apdoroti elektroninius dokumentus, kuriuos siunčia finansų ar tiekimo grandinės valdymas.
+    - **Prijungta programa** – tai pasirinktinė, bet turi būti naudojama, jei norite, kad konfigūravimas, pateiktas programos nustatyme, būtų įrašytas Microsoft Dynamics į 365 Dynamics 365 Supply Chain Management finansų egzempliorių arba anksčiau buvo su juo susietas. Praleidus šio tipo diegimą reikia rankiniu būdu konfigūruoti parametrus, apibrėžtus finansų arba tiekimo grandinės valdymo programos nustatyme.
+    - **Tarnybos aplinka** – į aptarnavimo aplinką įdiegia elektroninio SF išrašymo priemonės versiją. Tada elektroninis SF išrašymas yra paruoštas gauti ir apdoroti elektroninius dokumentus, kuriuos siunčia finansų ar tiekimo grandinės valdymas.
 
 > [!NOTE]
 > Paprastai jūs pakeisite elektroninių ataskaitų (ER) funkcijos, kurią reikia įdiegti į aptarnavimo aplinką, parametrus. Prisijungusio prašymo pakeitimai bus reti. Naujas versijas turėtumėte įdiegti tik prijungtai programai tik keisdami atitinkamus savo programos parametrus.

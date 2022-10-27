@@ -2,7 +2,7 @@
 title: Sukonfigūruoti sąskaitų struktūras
 description: Šiame straipsnyje pateikiama informacija apie sąskaitų struktūras ir finansines dimensijas.
 author: aprilolson
-ms.date: 07/12/2022
+ms.date: 10/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,50 +15,50 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f816f0fc894b902c444a3113abfd48d4146d485
-ms.sourcegitcommit: e59990780830ac8e3382fea5df851abe86fbf496
+ms.openlocfilehash: b3fbdd6e2cac61c358848a21e1126bea900e86b2
+ms.sourcegitcommit: c6c2486be2359bd30106f7f52bda788239147d8c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9141285"
+ms.lasthandoff: 10/22/2022
+ms.locfileid: "9713949"
 ---
 # <a name="configure-account-structures"></a>Sukonfigūruoti sąskaitų struktūras
 
 [!include[banner](../includes/banner.md)]
 
-Kuriant taisyklių, kurias naudojant nustatoma tvarka ir reikšmės, kai įvedamas sąskaitos numeris, rinkinį, sąskaitų struktūrose naudojama pagrindinė sąskaita ir finansinės dimensijos. Sąskaitų struktūrų galite sukurti tiek, kiek reikia jūsų verslui. Sąskaitų struktūros priskiriamos įmonės didžiosios knygos sąrankai, kad jas būtų galima bendrinti.
+Kuriant taisyklių, kurias naudojant nustatoma tvarka ir reikšmės, kai įvedamas sąskaitos numeris, rinkinį, sąskaitų struktūrose naudojama pagrindinė sąskaita ir finansinės dimensijos. Sąskaitų struktūrų galite sukurti tiek, kiek reikia jūsų verslui. Sąskaitų struktūros priskiriamos įmonės DK nustatymui, kad jas būtų galima bendrai naudoti.
 
-Kuriant sąskaitos struktūrą didžiausias segmentų skaičius yra 11. Jei jums reikia dar daugiau segmentų, kruopščiai įvertinkite savo sąranką ir reikalavimus, nes tai turės įtakos vartotojo patirčiai. Apsvarstykite, ar segmento negalima išvesti iš ataskaitų scenarijaus naudojant hierarchiją, o ne vedant duomenis arba naudojant vartotojo nustatytą lauką. Pavyzdžiui, jei norite pranešti apie vietą, tačiau ją galite nustatyti pagal padalinį arba išlaidų centrą, jums nereikės kaip vietos nurodyti finansinės dimensijos. Jei įvertinę visgi nustatote, kad reikia daugiau kaip 11 segmentų, papildomų segmentų galite įtraukti naudodami išplėstines taisykles.
+Kuriant sąskaitos struktūrą didžiausias segmentų skaičius yra 11. Jei reikia daugiau nei 11 segmentų, atidžiai įvertinkite savo nustatymus ir reikalavimus, nes tai turės įtakos vartotojų patirtimi. Apsvarstykite, ar segmento negalima išvesti iš ataskaitų scenarijaus naudojant hierarchiją, o ne vedant duomenis arba naudojant vartotojo nustatytą lauką. Pavyzdžiui, jei norite pranešti apie vietą, bet galite figūruoti apie vietą pagal padalinį arba išlaidų centrą, jums nereikės vietos kaip finansinės dimensijos. Jei įvertinę visgi nustatote, kad reikia daugiau kaip 11 segmentų, papildomų segmentų galite įtraukti naudodami išplėstines taisykles.
 
-Sąskaitų struktūroms reikalinga pagrindinė sąskaita. Pagrindinė sąskaita struktūroje nebūtinai turi būti pirmas segmentas, tačiau pagal ją nustatoma, kokios sąskaitos struktūra naudojama vedant sąskaitos numerį. Dėl šios priežasties pagrindinės sąskaitos reikšmė gali būti nurodyta tik vienoje didžiosios knygos struktūroje, kad reikšmės nepersidengtų. Nustačius sąskaitos struktūrą, filtruojamas leidžiamų verčių sąrašas, siekiant nukreipti vartotoją taip, kad jis pasirinktų tik tinkamas dimensijų reikšmes ir taip sumažėtų galimybė sukurti neteisingą žurnalo įrašą.
+Sąskaitų struktūroms reikalinga pagrindinė sąskaita. Pagrindinė sąskaita neturi būti pirmasis struktūros segmentas, tačiau nustato, kokia sąskaitos struktūra naudojama sąskaitos numerio įvedimo metu. Todėl pagrindinės sąskaitos vertė gali būti tik vienoje struktūroje, priskirtą DK, kad nepersidengtų. Nustačius sąskaitos struktūrą, filtruojamas leidžiamų verčių sąrašas, siekiant nukreipti vartotoją taip, kad jis pasirinktų tik tinkamas dimensijų reikšmes ir taip sumažėtų galimybė sukurti neteisingą žurnalo įrašą.
 
 > [!NOTE] 
 > Jei biudžetą planuojate pagal finansinę dimensiją, ji turės būti sąskaitos struktūros dalimi. Dabar sudarant biudžetą išplėstinės taisyklės nenaudojamos.
 
 ## <a name="example"></a>Pavyzdys
-Pateikdami šį geriausios praktikos pavyzdį, skirtą sąskaitos struktūrai nustatyti, laikysime, kad įmonė nori sekti savo balanso sąskaitas (100000..399999) sąskaitos ir verslo struktūros vieneto finansinės dimensijos lygiu. Įplaukų ir išlaidų sąskaitų atveju (400000..999999) galima sekti finansinių dimensijų verslo struktūros vienetą, skyrių ir išlaidų centrą. Atlikus pardavimą, taip pat galima sekti klientą. Naudojant šį scenarijų rekomenduojama turėti dvi sąskaitos struktūras, priskirtas įmonės DK – vieną balanso ir vieną pelno ir nuostolio sąskaitoms. Norint optimizuoti vartotojo patirtį ir tikrinimą, klientui reikia taikyti išplėstinę taisyklę, taikomą tik tada, kai naudojama pardavimo sąskaita.
+Pateikdami šį geriausios praktikos pavyzdį, skirtą sąskaitos struktūrai nustatyti, laikysime, kad įmonė nori sekti savo balanso sąskaitas (100000..399999) sąskaitos ir verslo struktūros vieneto finansinės dimensijos lygiu. Įplaukų ir išlaidų sąskaitų atveju (400000..999999) galima sekti finansinių dimensijų verslo struktūros vienetą, skyrių ir išlaidų centrą. Atlikus pardavimą, taip pat galima sekti klientą. Naudojant šį scenarijų, rekomenduojama, kad dvi sąskaitų struktūros būtų priskirtos įmonės DK – vieną balanso sąskaitoms ir vieną pelno ir nuostolio sąskaitoms. Norint optimizuoti vartotojo patirtį ir tikrinimą, klientui reikia taikyti išplėstinę taisyklę, taikomą tik tada, kai naudojama pardavimo sąskaita.
 
 **Balanso sąskaitos struktūra**
 
-|Korespondentinė sąskaita, subsąskaita          | Verslo struktūros vienetas    |
+|Pagrindinė sąskaita          | Verslo struktūros vienetas    |
 |----------------------|-----------|
-|100000..399999 | *;” “|
+|100000..399999 | *;"&nbsp;"|
 
 **Pelno ir nuostolio sąskaitos struktūra**
 
-|Korespondentinė sąskaita, subsąskaita          | Verslo struktūros vienetas    |Padalinys          | Išlaidų centras    | &nbsp; |
+|Pagrindinė sąskaita          | Verslo struktūros vienetas    |Padalinys          | Išlaidų centras    | &nbsp; |
 |----------------------|------------------|--------------------|-----------|---|
-|400000..999999 | \*;” “| \*;” “| \*;” “| \*;” “|
+|400000..999999 | \*;"&nbsp;"| \*;"&nbsp;"| \*;"&nbsp;"| \*;"&nbsp;"|
 
 **Išplėstinė taisyklė klientui įtraukti**
 
-Kriterijai: klientą įtraukite tarp pagrindinės sąskaitos numerių 400000 ir 499999. Kriterijų laukas turi būti nurodytas.
+Kriterijai: klientą įtraukite tarp pagrindinės sąskaitos numerių 400000 ir 499999. Jo negalima palikti tuščio.
 
 |Klientas         |
 |-----------------|
-|* |
+|\* |
 
-Supaprastintame pavyzdyje leidžiamos visos reikšmės ir tušti laukai, todėl naudojami simboliai * ir “ “.
+Šiame supaprastintoje pavyzdyje leidžiama naudoti visas reikšmes ir tarp jų, \* ir "&nbsp;".
 
 ## <a name="segments-and-allowed-values"></a>Segmentai ir leidžiamos reikšmės
 Skyriuje **Segmentai** ir **Leidžiama verčių informacija** pateikiamas į vartotojo patirtį panašus tinklelis, skirtas taisyklėms, kurių bus laikomasi registravimo metu atliekant tikrinimą, įvesti. Galite rašyti tiesiai tinklelio langeliuose, importuoti tinklelį iš „Excel“ arba naudotis skyriumi **Leidžiama reikšmės informacija**, kuriame pateikta informacija padės jums atlikti šį procesą.
@@ -77,22 +77,25 @@ Leistinos vertės bus nustatytos į numatytąsias vertes žurnale arba apskaitos
 
 Kai atidarote žurnalą ir pasirenkate sąskaitą pelno ir nuostolių intervale, pasirinkus 002 verslo vienetą, bus nustatytos numatytosios verčių 022 ir 014 reikšmės sąskaitos valdiklyje. Tai taip pat nutiks ir apskaitos paskirstymo puslapyje. 
 
-## <a name="more-than-7-criteria-needed"></a>Būtina naudoti daugiau nei 7 kriterijus
+## <a name="more-than-seven-criteria-needed"></a>Reikia daugiau nei septynių kriterijų
 
-Jei naudojate daugiau nei 7 būtinus kriterijus, juos toliau įtraukti galite kitoje eilutėje. Paisysite, kai **dirbate skyriuje Leidžiama vertė,** kad **+Įtraukti naujus** kriterijus nebėra aktyvus po to, kai įvedamas septintas kriterijus. Toliau nurodyta keletas veiksnių, dėl kurių taip nutinka. 
+Jei turite daugiau nei septynis reikalingus kriterijus, galite toliau juos pridėti prie kitos eilutės. Paisysite, kai **dirbate skyriuje Leidžiama vertė,** kad **+Įtraukti naujus** kriterijus nebėra aktyvus po to, kai įvedamas septintas kriterijus. Toliau nurodyta keletas veiksnių, dėl kurių taip nutinka. 
  - Stulpelio plotis 
  - Duomenų saugojimo būdas 
  - Skyriaus **Leidžiama reikšmės informacija** našumo kontrolė
  - Naudojimas  
- 
+
+> [!NOTE]
+> 2012 Microsoft Dynamics AX m. atnaujinimas, kuriame nurodyti daugiau nei septyni kriterijai, nepalaikomas. Prieš užbaigdami finansų ir operacijų programėlių atnaujinimą, turite jį ištaisyti. 
+
 Norėdami tęsti papildomų kriterijų įtraukimą, spustelėkite **Dubliuoti segmente** ir **Leidžiamų reikšmių skyrius**. Tai atlikus kriterijai bus nukopijuoti į naują eilutę. Tada galite įvesti arba keisti skyriuje **Leidžiama reikšmės informacija** pateiktą informaciją.
 
 ## <a name="best-practices"></a>Geriausia praktika
-Nustatydami sąskaitų struktūras, galite vadovautis keletu geriausios praktikos pavyzdžių. Tačiau jie tik rekomendaciniai, todėl rengiant diskusiją turite visapusiškai aptarti savo verslo, augimo ir priežiūros planą.
+Nustatant sąskaitų struktūras, galima sekti kelis geriausios praktikos pavyzdžius. Tačiau jie tik rekomendaciniai, todėl rengiant diskusiją turite visapusiškai aptarti savo verslo, augimo ir priežiūros planą.
 
-- Pagrindinę sąskaitą nustatykite kaip pirmą arba padėkite ją kuo įmanoma arčiau pagrindinės struktūros priekinės dalies, kad vartotojai kurdami sąskaitos įrašą gautų kuo įmanoma geresnę valdymo patirtį.
+- Pirmiausiai arba kaip artimai padarykite pagrindinę sąskaitą prieš sąskaitos struktūrą, kad vartotojai turėtų geriausią valdomą patirtį sąskaitos įvedimo metu.
   
-  - Patikrinkite, ar bet kuriuos trečiosios šalies sprendimus ketinate naudoti pirmąsias pareigas palaikyti pagrindinę sąskaitą.
+  - Patikrinkite, ar bet kuriuos trečiosios šalies sprendimus, kuriuos ketinate naudoti, palaiko pagrindinę sąskaitą pirmose pareigose.
 
 - Pakartotinai naudokite kuo įmanoma daugiau sąskaitų struktūrų, kad visus juridinius subjektus reikėtų kuo mažiau tikrinti.
 
@@ -103,9 +106,9 @@ Nustatydami sąskaitų struktūras, galite vadovautis keletu geriausios praktiko
 - Neprirašykite žvaigždutės ties kiekvienu segmentu sąskaitos struktūroje ir nepasikliaukite vien tik išplėstinėmis taisyklėmis. Tai gali būti sunkiai valdoma ir atliekant priežiūrą ištikti vartotojo klaida, dėl kurios sistemai gali nepavykti atlikti registravimo procedūros.
 
 ## <a name="account-structure-activation"></a>Sąskaitos struktūros aktyvinimas
-Kai jūsų naujas nustatymas arba sąskaitos struktūros pakeitimas jus tenkina, turite jį suaktyvinti. Jei sąskaitos struktūra priskirta didžiajai knygai, aktyvinimo procesas gali būti ilgas, nes visos sistemoje neužregistruotos operacijos turės būti sinchronizuotos pagal naują struktūrą. Pakeitus sąskaitos struktūrą, užregistruotos operacijos nepaveikiamos.
+Kai jūsų naujas nustatymas arba sąskaitos struktūros pakeitimas jus tenkina, turite jį suaktyvinti. Jei sąskaitos struktūra priskirta didžiajai knygai, aktyvinimo procesas gali būti ilgas, nes visos sistemoje neužregistruotos operacijos turės būti sinchronizuotos pagal naują struktūrą. Užregistruotos operacijos neturi įtakos sąskaitos struktūros pokyčiams. Kaip ir programos 10.0.31 versiją, funkcijų valdymas gali naudoti naują funkciją, **pavadintą** Sąskaitos struktūros suaktyvinimo našumo patobulinimas. Daugiau informacijos apie šią naują sąskaitos struktūros aktyvinimo funkciją ieškokite sąskaitos struktūros suaktyvinimo [našumo patobulinimuose](account-structure-improvement.md). 
 
-Daugiau informacijos ieškokite temose [Savo sąskaitų plano rengimas](plan-chart-of-accounts.md), [Finansinės dimensijos](financial-dimensions.md) bei [Sąskaitų ir dimensijų kombinacijų (segmentuoto įrašo valdiklis) įvedimas](enter-account-dimension-combinations-segmented-entry-control.md).
+Daugiau informacijos rasite Sąskaitų [plano, finansinių dimensijų](plan-chart-of-accounts.md)[...](financial-dimensions.md)[ir sąskaitų bei dimensijų kombinacijų (segmentuoto įrašo valdiklio) įvedimas.](enter-account-dimension-combinations-segmented-entry-control.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

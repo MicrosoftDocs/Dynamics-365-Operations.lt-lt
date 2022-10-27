@@ -1,5 +1,5 @@
 ---
-title: Apskaičiuoti pardavimo užsakymo pristatymo datas naudojant CTP
+title: Pardavimo užsakymo pristatymo datų skaičiavimas naudojant CTP
 description: Galėsite pateikti atsargų (CTP) funkcionalumą ir suteikti klientams realias datas, kada galite pateikti tam tikras prekes. Šiame straipsnyje aprašoma, kaip nustatyti ir naudoti CTP kiekvienam planavimo moduliui (planavimo optimizavimas ir įtaisytasis modulis).
 author: t-benebo
 ms.date: 07/20/2022
@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-07-20
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 9a2d8a66fe7e68ebd5729a401af3f0efe04051b1
-ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
+ms.openlocfilehash: 3b8e3dc9f0e7aaf019aa4d7284458206e7daadb2
+ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230000"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714866"
 ---
-# <a name="calculate-sales-order-delivery-dates-using-ctp"></a>Apskaičiuoti pardavimo užsakymo pristatymo datas naudojant CTP
+# <a name="calculate-sales-order-delivery-dates-using-ctp"></a>Pardavimo užsakymo pristatymo datų skaičiavimas naudojant CTP
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Galėsite pateikti atsargų (CTP) funkcionalumą ir suteikti klientams realias datas, kada galite pateikti tam tikras prekes. Galima pateikti kiekvienos pardavimo eilutės datą, atsižvelgiant į turimas atsargas, gamybos pajėgumą ir transportavimo laiką.
 

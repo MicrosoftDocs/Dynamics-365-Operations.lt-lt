@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: a837b85d4893f2915b5fbb5ffaae8eb95f19bc0e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 938b00192acc0ff5534239f2f280792471181fad
+ms.sourcegitcommit: 1ecfc1d8afb2201ab895ae6f93304ba2b120f14b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9272279"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9710814"
 ---
 # <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Įdiekite priedą, skirtą „Lifecycle Services“ mikro paslaugoms
 
@@ -35,7 +35,7 @@ Norėdami užregistruoti aplinką, atlikite šiuos veiksmus.
 2. Projekto **Aplinkos** ataskaitų srityje rinkitės savo talpinimo aplinką. Turi būti paleista jūsų pasirinkti aplinka.
 3. **Power Platform Skirtuko Integravimas** skyriuje Aplinkos **papildiniai** pasirinkite **Diegti naują priedą**.
 4. Rinkitės **SF siuntimas**.
-5. Lauke **AAD programos ID** įveskite **„091c98b0-a1c9-4b02-b62c-7753395ccabe**. Ši vertė yra fiksuota vertė. Įsitikinkite, kad įvedate tik visuotinai unikalų identifikatorių (GUID). Įtraukite kitus simbolius, pvz., tarpus, kablelius, laikotarpius ar kabutes.
+5. **Lauke AAD programos ID** įveskite fiksuotą vertę **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Ši vertė visada fiksuota. Įsitikinkite, kad įvedate tik visuotinai unikalų identifikatorių (GUID). Įtraukite kitus simbolius, pvz., tarpus, kablelius, laikotarpius ar kabutes.
 6. Lauke **AAD nuomotojo ID** įveskite savo „Azure” prenumeratos abonemento savininko ID. Jūsų Azure Active Directory nurodytas Azure AD nuomininkas turi būti tas pats nuomininkas, kuris naudojamas reguliavimo konfigūracijos tarnybos (RCS).
 7. Peržiūrėkite sąlygas ir sąlygas, tada pažymėkite žymės langelį.
 8. Pasirinkti **Diegti**. Po kelių minučių būsena turėtų pasikeisti iš **Diegiama** į **Įdiegta**. Gali tekti atnaujinti puslapį, kad būtų rodomas šis pakeitimas.

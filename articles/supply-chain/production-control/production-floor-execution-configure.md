@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ae574e25c5ef0c1736ec13e2ee3fcc11b323721f
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 7196306b34a72e4c53113dd644f666346f170ed7
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336192"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708731"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Gamybos cecho vykdymo sąsajos konfigūravimas
 
@@ -164,7 +164,7 @@ Po to sukonfigūruokite įvairius pasirinktos konfigūracijos parametrus, kaip a
 - **Leisti užrakinti jutiklinį** ekraną – *nustatykite* šią pasirinktį į Taip, norėdami leisti darbuotojams užrakinti jutiklinį gamybos laiko vykdymo sąsajos ekraną, kad jie galėtų ją santizuoti. Kai ši parinktis nustatyta kaip *Taip*, į prisijungimo **puslapį įtraukiamas** mygtuko sąstingio sąsk. Kai darbuotojas pasirenka šį mygtuką, jutiklinis ekranas laikinai užrakinamas, kad būtų išvengta netyčinių įvesčių. Taip pat rodomas skaičiavimo atgal laikmatis. Tada darbuotojas gali saugiai nuvalyti įrenginį ir ekraną. Kai atgalinis skaičiavimas baigiasi, jutiklinis ekranas vėl automatiškai atrakinamas.
 - **Ekrano užrakto trukmė** – kai parinktis **Leisti užrakinti jutiklinį ekraną** nustatyta į *Taip*, naudokite šią parinktį norėdami nurodyti, kiek sekundžių jutiklinis ekranas bus išjungtas, kad būtų galima jį nuvalyti. Trukmė turi būti nuo 5 iki 120 sekundžių.
 - **Generuoti numerio lentelę** – nustatykite šią *pasirinktį* kaip Taip, norėdami sugeneruoti naują numerio lentelę kiekvieną kartą, kai darbuotojas naudoja gamybos laiko vykdymo sąsają, kad ataskaitoje būtų baigta. Numerio lentelėje nurodytas numeris generuojamas naudojant skaičių seką, kuri nustatyta puslapyje **Sandėlio valdymo parametrai**. Kai ši parinktis nustatyta į *Ne*, darbuotojai turi nurodyti esamą numerio lentelę pranešdami apie baigtą užduotį.
-- **Spausdinti** žymą – nustatykite šią pasirinktį *kaip* Taip, norėdami išspausdinti numerio lentelės žymę, kai darbuotojas naudoja gamybos laiko vykdymo sąsają ataskaitoje kaip baigtai. Žymos konfigūracija nustatoma dokumento maršruto planavimo dalyje, kaip nurodyta [Numerio lentelės žymų dokumentų maršrutų planavimo maketas](../warehousing/document-routing-layout-for-license-plates.md).
+- **Spausdinti** žymą – nustatykite šią pasirinktį *kaip* Taip, norėdami išspausdinti numerio lentelės žymę, kai darbuotojas naudoja gamybos laiko vykdymo sąsają ataskaitoje kaip baigtai. Žymos konfigūracija nustatoma dokumento maršruto parinkime, kaip aprašyta dokumento maršruto [žymos maketuose](../warehousing/document-routing-layout-for-license-plates.md).
 
 ### <a name="the-tab-selection-fasttab"></a>Skirtuko pasirinkimo "FastTab"
 

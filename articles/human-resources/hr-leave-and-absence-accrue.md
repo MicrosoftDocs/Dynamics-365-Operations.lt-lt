@@ -2,7 +2,7 @@
 title: Sukauptų atostogų ir neatvykimų planai
 description: „Dynamics 365 Human Resources“ galite kaupti atostogas ir neatvykimus keletui darbuotojų arba vienam asmeniui.
 author: twheeloc
-ms.date: 05/04/2020
+ms.date: 09/13/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 58f8fb26c851aeabe7438846e23625644b68d033
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: aac35177ca120b1ae1b4759b98278fafadc3e033
+ms.sourcegitcommit: 27ce4fc706100b626b81c3a1023238acd872e76c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908836"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9702135"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Sukauptų atostogų ir neatvykimų planai
 
 >[!Important]
->Šiame straipsnyje parodytos funkcijos šiuo metu yra galimos klientams autonominiu metu Dynamics 365 Human Resources. Kai kurios arba visos funkcijos bus prieinamos kaip būsimo „Finance“ infrastruktūros leidimo dalis po to, kai bus išleistas „Finance“ leidimas 10.0.26.
+>Šiame straipsnyje parodytas funkcionalumas šiuo metu prieinamas autonominiams „Dynamics 365 Human Resources“ klientams. Kai kurios arba visos funkcijos bus prieinamos kaip būsimo „Finance“ infrastruktūros leidimo dalis po to, kai bus išleistas „Finance“ leidimas 10.0.26.
 
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
