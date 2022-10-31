@@ -12,7 +12,7 @@
               items:
                 - name: 'Kas nauja ar pasikeitė „Supply Chain Management“, pagrindinis puslapis'
                   href: get-started/whats-new-home-page.md
-                - name: „Supply Chain Management 10.0.31“ (2022 m. vasario mėn.)
+                - name: „Supply Chain Management 10.0.31“ (2023 m. vasario mėn.)
                   href: get-started/whats-new-scm-10-0-31.md
                 - name: „Supply Chain Management 10.0.30“ (2022 m. lapkričio mėn.)
                   href: get-started/whats-new-scm-10-0-30.md
@@ -3243,6 +3243,8 @@
               href: transportation/tasks/associate-fuel-index-carrier-accessorial-charge.md
             - name: USMCA kilmės sertifikatas
               href: transportation/usmca-certification-of-origin.md
+            - name: Prekybinės sąskaitos faktūros
+              href: transportation/commercial-invoice.md
             - name: Važtaraščio kūrimas
               href: transportation/create-bill-of-lading.md
             - name: Krovinio transportavimo maršrutų planavimas
@@ -3433,8 +3435,14 @@
                       href: warehousing/pack-materials-packing-material-fees.md
                     - name: Konteinerių pakavimas siuntimui
                       href: warehousing/packing-containers.md
+                    - name: Spausdinti konteinerio žymas
+                      href: warehousing/print-container-labels.md
                     - name: Siunčiamų konteinerių pakavimo ir siuntų apdorojimo pakavimo darbas
                       href: warehousing/packing-work.md
+                    - name: Pakuojami konteineriai naudojant „Warehouse Management“ mobiliųjų įrenginių programą
+                      href: warehousing/warehouse-app-packing-containers.md
+                    - name: 'Scenarijaus pavyzdys: Pakuoti konteinerius naudojant „Warehouse Management“ mobiliųjų įrenginių programą'
+                      href: warehousing/warehouse-app-pack-containers-scenario.md
                     - name: Trumpalaikio išrinkimo elementų perskirstymo nustatymas
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: Sistemos nurodyta darbo seka
@@ -3691,7 +3699,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
                     - name: Sistemos grupavimas atidarytame darbų sąraše
                       href: warehousing/system-group-on-open-work-list.md
-                    - name: Numerio lentelės etikečių dokumentų maršrutų planavimo maketas
+                    - name: Dokumento maršruto planavimo žymės maketai
                       href: warehousing/document-routing-layout-for-license-plates.md
                     - name: GS1 brūkšniniai kodai ir QR kodai
                       href: warehousing/gs1-barcodes.md
@@ -3701,6 +3709,12 @@
                   items:
                     - name: Sandėlio valdymo procesų plėtojimas iš „Microsoft Dynamics AX 2012“ į finansus ir operacijas
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
+            - name: Sandėliavimo telemetrija
+              items:
+                - name: Įjungti sandėliavimo telemetriją naudojant „Application Insights“
+                  href: warehousing/application-insights-warehousing.md
+                - name: Stebėti mobiliojo įrenginio naudojimą ir našumą
+                  href: warehousing/application-insights-wma.md
         - name: „Supply Chain Management“ kūrimas
           items:
             - name: Ganto valdiklio kūrimo vadovas

@@ -10,18 +10,14 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Kas nauja ar pasikeitė „Human Resources”
               items:
-                - name: DUK apie „Human Resources 10.0.30“ (sujungta infrastruktūra)
+                - name: „Human Resources 10.0.31“ (sujungta infrastruktūra)
+                  href: ./get-started/whats-new-changed-10-0-31.md
+                - name: „Human Resources 10.0.30“ (sujungta infrastruktūra)
                   href: ./get-started/whats-new-changed-10-0-30.md
-                - name: DUK apie „Human Resources 10.0.29“ (sujungta infrastruktūra)
+                - name: „Human Resources 10.0.29“ (sujungta infrastruktūra)
                   href: ./get-started/whats-new-changed-10-0-29.md
-                - name: DUK apie „Human Resources 10.0.28“ (sujungta infrastruktūra)
+                - name: „Human Resources 10.0.28“ (sujungta infrastruktūra)
                   href: ./get-started/whats-new-changed-10.0.28.md
-                - name: DUK apie „Human Resources 10.0.27“ (sujungta infrastruktūra)
-                  href: ./get-started/hr-whats-new-changed-10-0-27.md
-                - name: DUK apie „Human Resources 10.0.26“ (sujungta infrastruktūra)
-                  href: ./get-started/hr-whats-new-changed-10-0-26.md
-                - name: DUK apie „Human Resources 10.0.25“ (sujungta infrastruktūra)
-                  href: ./get-started/hr-whats-new-changed-10-0-25.md
                 - name: Kas naujo „Dynamics 365 Human Resources“ (autonominė)
                   items:
                     - name: Kas naujo „Dynamics 365 Human Resources“ (autonominė) 2021 m. archyvai
@@ -718,6 +714,8 @@
               href: hr-develop-create-performance-review.md
         - name: Mokymasis
           items:
+            - name: Kurso apžvalga
+              href: hr-course-overview.md
             - name: Mokymo kursų rengimas
               href: hr-learning-courses.md
             - name: Klausimynų apžvalga

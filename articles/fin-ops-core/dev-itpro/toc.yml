@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: '„Platform“ naujinimai, skirti 10.0.29 versijai (2022 m. spalio mėn.)'
                   href: get-started/whats-new-platform-updates-10-0-29.md
-                - name: "Platformos naujinimai, skirti 10.0.28 versijai (2022\_m. rugpjūčio mėn.)"
-                  href: get-started/whats-new-platform-updates-10-0-28.md
             - name: Pašalintos arba nerekomenduojamos funkcijos
               items:
                 - name: 'Pašalintos arba nerekomenduojamos funkcijos, pagrindinis puslapis'
@@ -1605,7 +1603,11 @@
             - name: Licencijų kodų ir konfigūracijos raktų ataskaita
               href: sysadmin/license-codes-configuration-keys-report.md
             - name: Duomenų bendrinimas tarp įmonių
-              href: sysadmin/cross-company-data-sharing.md
+              href: sysadmin/srs-overview.md
+            - name: 'Lentelės, palaikomos duomenų bendrinimui'
+              href: sysadmin/drs-srs-tables.md
+            - name: Duomenų bendrinimas kūrėjams
+              href: sysadmin/drs-srs-dev.md
             - name: Priežiūros režimas
               href: sysadmin/maintenance-mode.md
             - name: Iš anksto sukonfigūruotos sistemos sąskaitos

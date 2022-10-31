@@ -12,6 +12,8 @@
               items:
                 - name: Kas nauja ar pasikeitė „Commerce“ pagrindiniame puslapyje
                   href: get-started/whats-new-home-page.md
+                - name: „Commerce 10.0.31“ (2023 m. vasario mėn.)
+                  href: get-started/whats-new-commerce-10-0-31.md
                 - name: „Commerce 10.0.30“ (2022 m. lapkričio mėn.)
                   href: get-started/whats-new-commerce-10-0-30.md
                 - name: „Commerce 10.0.29“ (2022 m. spalio mėn.)
@@ -568,6 +570,8 @@
                       href: call-center-refund-payments.md
                     - name: 'Kredito kortelių nustatymas, autorizacija ir patvirtinimas'
                       href: ../finance/accounts-receivable/credit-card-authorizations.md?context=/dynamics365/context/commerce
+                    - name: Mokėjimo atpažinimo ženklo naudojimo apribojimas
+                      href: dev-itpro/limit-token-usage.md
                     - name: Grynųjų pinigų nominaliosios vertės EKA konfigūravimas
                       href: cash-denominations.md
                     - name: Kredito kortelės apdorojimo konfigūravimas
@@ -1236,6 +1240,8 @@
                       href: cart-icon-module.md
                     - name: Pirkimo užbaigimo modulis
                       href: add-checkout-module.md
+                    - name: Pirkimo užbaigimo modulio klaidos nuorodos kodai
+                      href: checkout-module-error-codes.md
                     - name: Mokėjimo modulis
                       href: payment-module.md
                     - name: Siuntimo adreso modulis

@@ -2,7 +2,7 @@
 title: Internetinio užsakymo ir asinchroninio kliento užsakymo operacijų redagavimas ir tikrinimas
 description: Šiame straipsnyje aprašoma, kaip redaguoti ir tikrinti internetinio užsakymo ir asinchroninio kliento užsakymo operacijas „Microsoft Dynamics 365 Commerce“.
 author: josaw1
-ms.date: 11/04/2020
+ms.date: 10/21/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.industry: Retail
-ms.openlocfilehash: dac7ffe6d62aaea11f2f5af0476db446b091938b
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: dbeeff47446c1617da44f34ae56f333717f577a1
+ms.sourcegitcommit: 18b7a02c497709e8d9c7b943d82f1fcc3dafa4cd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287684"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9712115"
 ---
 # <a name="edit-and-audit-online-order-and-asynchronous-customer-order-transactions"></a>Internetinio užsakymo ir asinchroninio kliento užsakymo operacijų redagavimas ir tikrinimas
 
@@ -34,12 +34,13 @@ ms.locfileid: "9287684"
 
 ## <a name="edit-and-audit-order-transactions"></a>Užsakymo operacijų redagavimas ir tikrinimas
 
-Norėdami redaguoti ir tikrinti užsakymo operacijas „Commerce“ būstinėje, atlikite nurodytus veiksmus.
+Norėdami redaguoti ir tikrinti užsakymo operacijas „Commerce headquarters“, atlikite nurodytus veiksmus.
 
 1. Įdiekite [„Microsoft Dynamics Office Add-in“](https://appsource.microsoft.com/product/office/WA104379629?tab=Overview).
-1. Puslapio **Mažmeninės prekybos parametrai** skirtuko **Kliento užsakymai** „FastTab“ **Užsakymas** nurodykite sulaikymo kodą, skirtą **Užsakymo sinchronizavimo klaidų sulaikymo kodas**.
-1. Atidarykite darbo sritį **Parduotuvės finansai**. Plytelėmis **Internetinio užsakymo sinchronizavimo klaidos** ir **Kliento užsakymo sinchronizavimo klaidos** pateikiamas iš anksto filtruotas mažmeninės prekybos operacijos puslapio rodinys. Kiekvienoje rodomi operacijų įrašai, kurių atitinkamo užsakymo tipo sinchronizavimas nepavyko.
-1. Atidarykite puslapį **Internetinio užsakymo sinchronizavimo klaidos** arba puslapį **Kliento užsakymo sinchronizavimo klaidos**. Pasirinkite įrašą, kad peržiūrėtumėte išsamią sinchronizavimo klaidos informaciją. „FastTab“ **Sinchronizavimo būsena** pateikiama ši išsami klaidos informacija:
+1. Puslapio **„Commerce“ parametrai** skirtuko **Kliento užsakymai** „FastTab“ **Užsakymas** nurodykite sulaikymo kodą, skirtą **Užsakymo sinchronizavimo klaidų sulaikymo kodas**.
+2. Pristabdykite kitas užsakymo sinchronizavimo užduotis, kurios prieštarauja redagavimo ir audito laikui.
+3. Atidarykite darbo sritį **Parduotuvės finansai**. Plytelėmis **Internetinio užsakymo sinchronizavimo klaidos** ir **Kliento užsakymo sinchronizavimo klaidos** pateikiamas iš anksto filtruotas mažmeninės prekybos operacijos puslapio rodinys. Kiekvienoje rodomi operacijų įrašai, kurių atitinkamo užsakymo tipo sinchronizavimas nepavyko.
+4. Atidarykite puslapį **Internetinio užsakymo sinchronizavimo klaidos** arba puslapį **Kliento užsakymo sinchronizavimo klaidos**. Pasirinkite įrašą, kad peržiūrėtumėte išsamią sinchronizavimo klaidos informaciją. „FastTab“ **Sinchronizavimo būsena** pateikiama ši išsami klaidos informacija:
 
     - Laukiama užsakymo būsena
     - Išsami užsakymo klaidos informacija
@@ -67,7 +68,15 @@ Norėdami redaguoti ir tikrinti užsakymo operacijas „Commerce“ būstinėje,
 
 1. „Excel“ faile lauke **Laukiama užsakymo būsena** įveskite **Redaguojama** ir tada publikuokite keitimą. Tokiu būdu per apdorojimą užduotis **Sinchronizuoti užsakymą**, vykdoma paketiniu režimu, nepraleis šio įrašo.
 1. „Excel” faile modifikuokite atitinkamus laukus ir tada įkelkite duomenis atgal į „Commerce“ būstinę naudodami „Dynamics Excel“ papildinio publikavimo funkciją. Publikavus duomenis, pakeitimai bus rodomi sistemoje. Publikuojant, vartotojo atlikti keitimai netikrinami.
-1. Visą keitimų įrašų seką galima peržiūrėti pasirinkus **Peržiūrėti įrašo sekimą** antraštėje **Mažmeninės prekybos operacijos** (antraštės lygmens keitimai) ir atitinkamame skyriuje bei operacijų puslapio įraše. Pavyzdžiui, visi su pardavimo eilutėmis susiję pakeitimai bus rodomi puslapyje **Pardavimo operacijos**, o visi su mokėjimais susiję pakeitimai – puslapyje **Mokėjimo operacijos**. Pakeitimams palaikoma toliau pateikiama išsami audito informacija:
+    > [!NOTE]
+    > Jei negalite rasti lauko, kurį reikia redaguoti, vadovaukitės toliau pateikiamais veiksmais ir pridėkite trūkstamą lauką darbalapyje.
+    >   1. Duomenų jungtyje pasirinkite **Kurti**.
+    >   1. Pasirinkite pieštuko piktogramą šalia lentelės, į kurią norite įtraukti lauką.
+    >   1. Pasirinkite lauką skyriuje **Galimi laukai** ir pasirinkite **Įtraukti**.
+    >   1. Įtraukite tiek laukų, kiek reikia, ir pasirinkite **Atnaujinti**.
+    >   1. Kai atnaujinimas bus baigtas, gali reikėti pasirinkti **Atnaujinti** reikšmėms atnaujinti.
+
+3. Visą keitimų įrašų seką galima peržiūrėti pasirinkus **Peržiūrėti įrašo sekimą** antraštėje **Mažmeninės prekybos operacijos** (antraštės lygmens keitimai) ir atitinkamame skyriuje bei operacijų puslapio įraše. Pavyzdžiui, visi su pardavimo eilutėmis susiję pakeitimai bus rodomi puslapyje **Pardavimo operacijos**, o visi su mokėjimais susiję pakeitimai – puslapyje **Mokėjimo operacijos**. Pakeitimams palaikoma toliau pateikiama išsami audito informacija:
 
     - Pakeitimo data ir laikas
     - Laukas
