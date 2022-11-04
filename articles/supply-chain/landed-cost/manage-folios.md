@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4cc556c47f7027f2f5d5b24c235b11ced63b3e4e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ab5729cd441246a6c04ac060d5a69f949bfe47c5
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905898"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725500"
 ---
 # <a name="manage-folios"></a>Registravimo lapų tvarkymas
 
@@ -48,9 +48,9 @@ Toliau pateikta lentelė aprašo mygtukus, pasiekiamus veiksmų srities skirtuke
 
 | Mygtukas | Aprašymas |
 |---|---|
-| Užregistruoti gavimo kvitų sąrašą | Registruoja visų pirkimo užsakymo eilučių gavimo kvitų sąrašą registravimo lape. Jei vykdomos kelių įmonių siuntos, kiekvienai įmonei atidaromas naujas gavimo kvitų sąrašo registravimo dialogo langas. |
-| Registruoti produkto gavimo kvitą | Registruoja visų pirkimo užsakymo eilučių produktų gavimo kvitus registravimo lape. Jei vykdomi kelių įmonių reisai, kiekvienai įmonei atidaromas naujas produktų gavimo kvitų registravimo dialogo langas. |
-| Registruoti SF | Registruoja visų pirkimo užsakymo eilučių sąskaitą faktūrą registravimo lape. Jei vykdomi kelių įmonių reisai, kiekvienai įmonei atidaromas naujas sąskaitos faktūros registravimo dialogo langas. |
+| Užregistruoti gavimo kvitų sąrašą | Registruoja visų pirkimo užsakymo eilučių gavimo kvitų sąrašą registravimo lape.  |
+| Registruoti produkto gavimo kvitą | Registruoja visų pirkimo užsakymo eilučių produktų gavimo kvitus registravimo lape. |
+| Registruoti SF | Registruoja visų pirkimo užsakymo eilučių sąskaitą faktūrą registravimo lape.  |
 | Siuntimo perkėlimo užsakymas | Registruoja perkėlimo užsakymą visoms perkėlimo užsakymo eilutėms, kurios yra susijusios su dabartiniu susijusios siuntos registravimo lapu. |
 | Gauti perkėlimo užsakymą | Registruoja perkėlimo užsakymo gavimo kvitą visoms perkėlimo užsakymo eilutėms, kurios yra susijusios su dabartiniu susijusios siuntos registravimo lapu. |
 | Gauti tranzito prekes | Gauna visas tranzite esančias užsakymo eilutes registravimo lape. |
@@ -65,7 +65,7 @@ Toliau pateikta lentelė aprašo mygtukus, pasiekiamus veiksmų srities skirtuke
 
 | Mygtukas | Aprašymas |
 |---|---|
-| Gavimo kvitų sąrašas | Registruoja visų pirkimo užsakymo eilučių gavimo kvitų sąrašą registravimo lape. Jei vykdomi kelių įmonių reisai, kiekvienai įmonei atidaromas naujas gavimo kvitų sąrašo registravimo dialogo langas. |
+| Gavimo kvitų sąrašas | Registruoja visų pirkimo užsakymo eilučių gavimo kvitų sąrašą registravimo lape.  |
 | Produkto gavimo kvitas | Peržiūrėkite produkto gavimo kvito įrašą, jeigu jis panaudotas. |
 | Prekių gavimas | Peržiūrėkite prekių gavimo žurnalą, jei jis naudojamas. |
 | Išlaidų užklausa | Atidarykite išlaidų užklausos puslapį, jei norite peržiūrėti visas reiso išlaidas, įskaitant gabenimo konteinerį, registravimo lapą ir pirkimo užsakymą. Galite koreguoti tikslų puslapio rodinį naudodami veiksmą Peržiūrėti. Išlaidų užklausos puslapyje galite peržiūrėti bet kurią iš sričių, taip pat prekės ir išlaidų tipo kodus. Pašalinę šias prekes, galite koreguoti puslapį sugrupuodami kartu išlaidas. Ši galimybė gali būti naudinga, jei naudojate dydžius ir spalvas. Galite pakeisti puslapyje rodomas dimensijas. Puslapyje **Išlaidos** rodomi tik tie išlaidų tipo kodai, kurių įrašas **„Dr”**, esantis **Registravimo** skirtuke, nustatytas kaip *Prekė*. |

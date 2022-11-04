@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 60f9d84b240016671ff726fc3cca2e02cfd811ca
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: da5881a901d3ba4d01e6d4510a53ca079efd7e75
+ms.sourcegitcommit: c8b97eea28f07b6b179825f3b134c8c8704ff8fc
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689233"
+ms.lasthandoff: 10/29/2022
+ms.locfileid: "9731616"
 ---
 # <a name="proactive-quality-updates"></a>Iniciatyvūs kokybės atnaujinimai
 
@@ -40,13 +40,13 @@ Jau įdiegti keli išankstiniai avansai, kurie įgalina išankstinį kokybės na
 
 - **Beveik nulinis** prasto laiko atnaujinimas – norint stumyti daugiau dažnesnių aplinkoje, būtina sumažinti poveikį aplinkos pasiekiamumui, kad būtų išlaikomos "Dynamics 365" paslaugų lygio sutartys (SLA). Iš pradžių buvo įdiegtas beveik nulinis prasto laiko atnaujinimas, siekiant padėti pagerinti mėnesinį operacinės sistemos pataisų tobulinimą, naudojant klasterio rinkmenų permetimą, kad atnaujintas vaizdas būtų aktyvinamas šiek tiek vėliau. Naujinimų taikymo mechanizmas yra patobulintas, kad jis dar mažiau nutrikdytų ir apimtų operacinės sistemos pataisų ir kokybės atnaujinimo diegimą.
 
-    Interaktyviems vartotojams aktyvus seansas gali būti pertrauktas, o kartojimo programa pereis į dabar atnaujintą aplinką. Įdiegus prioritetinį [paketinį](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md) planavimą, kuris dabar galimas pasirinkus, paketinis planavimas ir apdorojimas atsistato ir tęsiami iškart po atnaujinimo. Prioritetinis paketinis planavimas bus skirtas klientams, prieš jiems pradedant dalyvauti proaktyvioje savo gamybos aplinkose kokybės naujinimų paskirstyme.
+Interaktyviems vartotojams aktyvus seansas gali būti pertrauktas, o kartojimo programa pereis į dabar atnaujintą aplinką. Įdiegus prioritetinį [paketinį planavimą, paketinis](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md) planavimas ir apdorojimas atsistato ir tęsiami iškart po atnaujinimo. Prioritetinis paketinis planavimas bus skirtas klientams, prieš jiems pradedant dalyvauti proaktyvioje savo gamybos aplinkose kokybės naujinimų paskirstyme.
 
 - **Tamsos** valandos – tamsesnės valandos nustatomos kiekvienam "Azure" regionui ir beveik nulinis downtime atnaujinimas bus naujuose valandų laikotarpiu.
 
 ## <a name="the-proactive-update-process"></a>Iniciatyvaus atnaujinimo procesas
 
-Aktyvių kokybės atnaujinimų diegimas bus po saugaus diegimo proceso (SDP). SDP specifikos gali keistis, tačiau kokybės atnaujinimai iš pradžių bus įdiegti į sandbox aplinkas. Procesas bus prasidės aplinka, kurioje galima diegti anksti. Sėkmingai įdiegtos sanddės padidėjimo procentinė dalis, bus pradėtas diegti gamybos aplinkose. Procesas prasidės aplinka, kuri vėl pradės diegti anksčiau. Klausymo sistemos bus stebimi sistemos telemetikos ir seniausios versijos incidentai, o jei aptinkama kokia nors regresija, sustabdys konkrečios versijos iškliaumą. Jei reikia, klientai vis dar galės gauti kokybės naujinimus anksčiau už iniciatyvų diegimą.
+Aktyvių kokybės atnaujinimų diegimas bus po saugaus diegimo proceso (SDP). SDP specifikos gali keistis, tačiau kokybės atnaujinimai iš pradžių bus įdiegti į sandbox aplinkas. Sėkmingai įdiegtos sanddės padidėjimo procentinė dalis, bus pradėtas diegti gamybos aplinkose. Klausymo sistemos bus stebimi sistemos telemetikos ir seniausios versijos incidentai, o jei aptinkama kokia nors regresija, sustabdys konkrečios versijos iškliaumą. Jei reikia, klientai vis dar galės gauti kokybės naujinimus anksčiau už iniciatyvų diegimą.
 
 Dabartiniai paleidimo valdymo duomenys rodo, kad į kokybės atnaujinimus įtraukta mažiau nei 3 procentai regresijų. Kuo daugiau dėmesio bus skiriama regresijos pašalinimui ir išplėstiniam SDP, galimas regresijų poveikis bus atitinkamai mažesnis nei kokybės pelnas, kurį pasieks daug greičiau gaunant klientams įdiegtas pataisas.
 
@@ -92,13 +92,13 @@ Norėdami gauti informacijos apie tamsaus regiono valandas, žr. [Kokie yra supl
 **Programos versija: 10.0.1326.70 atitinkamas**
 **naujausias žinių bazės straipsnis: 748926**
 
-| Stotis | Regionai | Būsimų sand. dėžių grafikas
-|---|---|---|
-| 1 stotis | Kanados centrinis centras, Kanados rytų, Prancūzijos centrinis bankas, Indijos centras, Norvegijos rytų, Šveicarijos West | 2022 m. spalio 14 d. iki spalio 17 d. |
-| 2 stotis | Prancūzijos Pietų, Indijos Pietų, Norvegijos West, Šveicarijos Šiaurės, Pietų Afrikos Šiaurės, Australijos Rytų, UK Pietų, JAE Šiaurės, Japonijos Rytų, Australijos Pietų Rytų, Pietų Rytų Azijos | 2022 m. spalio 15 d. iki spalio 18 d. |
-| 3 stotis | Rytų Azijos, UK West, Japan West, Brazilijos Pietų, West Europe, Rytų JAV, JAE centrinis centras | 2022 m. spalio 16 d. iki spalio 19 d. |
-| 4 stotis | Šiaurės Europa, Centrinė JAV, West US | 2022 m. spalio 17 d. iki spalio 20 d. |
-| 5 stotis | Dod, Vyriausybės bendruomenės debesis, Kinija | Nesuplanuota |
+| Stotis | Regionai | Baigtas grafikas | Būsimų sand. dėžių grafikas|
+|---|---|---|---|
+| 1 stotis | Kanados centrinis centras, Kanados rytų, Prancūzijos centrinis bankas, Indijos centras, Norvegijos rytų, Šveicarijos West | 2022 m. spalio 14 d. iki spalio 17 d. | 2022 m. lapkričio 2 d. iki lapkričio 5 d. |
+| 2 stotis | Prancūzijos Pietų, Indijos Pietų, Norvegijos West, Šveicarijos Šiaurės, Pietų Afrikos Šiaurės, Australijos Rytų, UK Pietų, JAE Šiaurės, Japonijos Rytų, Australijos Pietų Rytų, Pietų Rytų Azijos | 2022 m. spalio 15 d. iki spalio 18 d. | 2022 m. lapkričio 2 d. iki lapkričio 5 d. |
+| 3 stotis | Rytų Azijos, UK West, Japan West, Brazilijos Pietų, West Europe, Rytų JAV, JAE centrinis centras | 2022 m. spalio 16 d. iki spalio 19 d. | 2022 m. lapkričio 2 d. iki lapkričio 5 d. |
+| 4 stotis | Šiaurės Europa, Centrinė JAV, West US | 2022 m. spalio 17 d. iki spalio 20 d. | 2022 m. lapkričio 2 d. iki lapkričio 5 d. |
+| 5 stotis | Dod, Vyriausybės bendruomenės debesis, Kinija | Nesuplanuota | Nesuplanuota |
 
 > [!IMPORTANT] 
 > "Microsoft" iš anksto per penkias dienas atnaujins ankstesnį planą ir siųs pranešimus el. paštu į aplinkos rinkinį, kuriame numatyta gauti šiuos kokybės naujinimus. Ankstesnis grafikas taikomas tik aplinkai, kuri buvo paskelbta apie būsimą atnaujinimą. Norėdami gauti informacijos apie tamsaus regiono valandas, žr. [Kokie yra suplanuoti priežiūros langai pagal regioną](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows)?

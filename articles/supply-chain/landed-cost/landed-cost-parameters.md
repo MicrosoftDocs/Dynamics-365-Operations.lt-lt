@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 99dbe17d4e83c2c75d52ca3fd22a1772d8045355
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 609403b251338b7e792f3ab624fb37a1833c919b
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871984"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725527"
 ---
 # <a name="landed-cost-parameters-setup"></a>Iškrovimo kainos parametrų nustatymas
 
@@ -125,14 +125,11 @@ Pasirinkite dimensiją, tada parinktį **Reiso eilutės**, **Tranzito prekės** 
 
 Skirtuke **Numeracija**, esančiame puslapyje **Iškrovimo kainos parametrai** nurodoma kiekvieno tipo nuorodos numeracija, kurios reikalauja iškrovimo kaina, tačiau kuri nėra bendrinama visuose juridiniuose subjektuose. Kiekvienai sąrašo nuorodai pasirinkite numeracijos kodą.
 
-> [!NOTE]
-> Kelių įmonių konfigūracijoje kiekvienai įmonei (juridiniam subjektui) reikia sukurti skirtingas numeracijas.
 
 ## <a name="shared-number-sequences-tab"></a>Bendros numeracijos skirtukas
 
 Skirtuke **Bendra numeracija**, esančiame puslapyje **Iškrovimo kainos parametrai** nurodoma kiekvieno tipo nuorodos numeracija, kuri bendrinama keliuose iškrovimo kainos juridiniuose objektuose. Šiuo metu sąraše yra tik viena numeracija. Ši numeracija naudojama reiso ID.
 
-Puslapyje **Visi reisai** naudotojai gali peržiūrėti visus reisus, visuose juridiniuose subjektuose. Tačiau, norint redaguoti ir apdoroti reisą, naudotojai turi būti pasirinkto įrašo juridiniame subjekte.
 
 ## <a name="feature-visibility-tab"></a>Funkcijų matomumo skirtukas
 

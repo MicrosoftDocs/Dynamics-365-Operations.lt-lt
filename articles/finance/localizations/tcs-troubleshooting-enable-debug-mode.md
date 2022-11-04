@@ -13,11 +13,11 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 38ef8c51d52de6b8f748330d0697e860d75233bf
-ms.sourcegitcommit: 43cf54d057eccd07a71bb48e2fcf858d043a9669
+ms.openlocfilehash: 2bb381939ebe32cb51caf730cdd441557d83a4c0
+ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/04/2022
+ms.lasthandoff: 11/01/2022
 ms.locfileid: "9620904"
 ---
 # <a name="enable-debug-mode-in-the-tax-calculation-service"></a>Įjungti mokesčių skaičiavimo paslaugos derinimo režimą
@@ -27,7 +27,7 @@ ms.locfileid: "9620904"
 Šiame straipsnyje paaiškinama, kaip įgalinti derinimo režimą mokesčių skaičiavimo tarnybose, kad būtų išnagrinėtos problemos.
 
 1. Įtraukti **&debug=vs%2 CconfirmExit&** į programos objektų serverio (AOS) URL ir tada atnaujinti puslapį.
-2. Kai pasirenkate **apskaičiuoti** PVM, tekstinis failas, **pavadintas TaxServiceTroubleshootingLog.txt**, bus užfiksuotas serveryje **naudojant C:\AXWeb_SMBShare\temporary-failą\\{%session%}\\**. Faile **TaxServiceTroubleshootingLog.txt** yra **TaxableDocument ir** skaičiavimo parametras. Šie rezultatai pateikiami iš mokesčių tarnybos ir informacija apie išimtį, skirta trikčių šalinimui.
+2. Pasirinkus apskaičiuoti PVM **atidaromas** tekstinis failas, **pavadintas TaxServiceTroubleshootingLog.txt**. Faile **TaxServiceTroubleshootingLog.txt** yra **TaxableDocument ir** skaičiavimo parametras. Šie rezultatai pateikiami iš mokesčių tarnybos ir informacija apie išimtį, skirta trikčių šalinimui.
 
 ## <a name="sample"></a>Pavyzdys
 

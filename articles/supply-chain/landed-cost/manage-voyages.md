@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 43f28a7e30dbbe15bb02d26483289f25515fcfca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4499eeb9cdd4efd9c4b630106c6e052378191f2a
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905869"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725487"
 ---
 # <a name="manage-voyages"></a>Reisų valdymas
 
@@ -29,7 +29,8 @@ Reisas paprastai nurodo laivą. Tačiau, atsižvelgiant į jūsų praktiką ir p
 Puslapyje **Visi reisai** pateikiama reiso informacija, pristatymo ir įkainojimo informacija bei informacija apie prekes, pirkimo užsakymus ir perkėlimo užsakymus. Norėdami atidaryti puslapį **Visi reisai**, eikite į **Iškrovimo kaina \> Reisai \> Visi reisai**. Šiame puslapyje rodomas visų dabartinių reisų sąrašas. Veiksmų srities mygtukus galite naudoti norėdami kurti, naikinti ir dirbti su reisais. Norėdami peržiūrėti išsamią reiso informaciją, pasirinkite jį sąraše.
 
 > [!NOTE]
-> Gabenimo konteineriai ir sąskaitos lapai yra susieti su reisu. Pirkimo eilutės yra susietos su gabenimo konteineriu. Jei gabenimo konteineriai ir sąskaitos lapai išjungti, jie taip pat gali būti tiesiogiai susieti su reisu. Be to, čia įvestos išlaidos yra priskiriamos prie visų pridėtų pirkimo eilučių.
+> Gabenimo konteineriai ir sąskaitos lapai yra susieti su reisu. Pirkimo eilutės yra susietos su gabenimo konteineriu. Be to, čia įvestos išlaidos yra priskiriamos prie visų pridėtų pirkimo eilučių.
+> Projekto pirkimo užsakymas nepalaikomas įkainotose išlaidose.
 
 ## <a name="action-pane"></a>Veiksmų sritis
 

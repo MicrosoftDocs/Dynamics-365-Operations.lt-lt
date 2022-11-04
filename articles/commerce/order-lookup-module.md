@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: 8c60ed0c334bf09916dd633302c6d813ea6f16b6
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: a891de4a1da6641a02b8316d16ac2e9a8180fac1
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281460"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734257"
 ---
 # <a name="order-lookup-module"></a>Užsakymo ieškos modulis
 
@@ -44,6 +44,12 @@ Užsakymų peržvalgos modulis pateikia formą, kurią klientai gali naudoti el.
 ## <a name="add-an-order-lookup-module-to-a-page"></a>Pridėkite užsakymo ieškos modulį prie puslapio
 
 Užsakymo peržvalgos modulį galima pridėti prie bet kurio el. komercijos svetainės puslapio. Jei norite naudoti užsakymų peržvalgos modulį, kad įgalintumėte svečių tikrinimo užsakymo peržvalgą, būtinai įtraukite jį į puslapį, kuriame nereikalaujama, kad vartotojas būtų prisiregistravęs. Norint rasti puslapį reikia **prisiregistruoti?** „Commerce“ svetainės generatoriaus medžio rodinio parametras, pasirinkite **numatytąjį puslapį (būtinas)** ir žiūrėkite dešinios srities apačioje.
+
+
+> [!NOTE]
+> Norėdami įgalinti užsakymo peržvalgos funkciją, užtikrinkite, kad **Pasiūlymų raktas įgalintas** licencijos **konfigūracijos konfigūracijos raktuose** > **·**.
+>
+> ![Pasiūlymų licencijos rakto konfigūracija turi būti įgalinta](./media/Quotations_License_Key_Configuration.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

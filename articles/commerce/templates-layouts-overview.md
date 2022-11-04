@@ -2,7 +2,7 @@
 title: Šablonų ir maketų apžvalga
 description: Šiame straipsnyje aprašomas šablonai ir maketai Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-ms.date: 12/12/2019
+ms.date: 10/26/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.search.industry: ''
 ms.search.form: ''
-ms.openlocfilehash: e0bf7e942339775b2e9ee15060d555be07c1cdc5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0664dd1ae06d09557cf8b8ec58baf6d27c1198bd
+ms.sourcegitcommit: 023ae5557e1351a8329a59a41a551e8901db99a8
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277939"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9733390"
 ---
 # <a name="templates-and-layouts-overview"></a>Šablonų ir maketų apžvalga
 
@@ -66,7 +66,13 @@ Toliau pateiktame pavyzdyje parodyta, kaip gali būti sukonfigūruotas pagrindin
 
 Svarbus pradinis veiksmas, kurį turi atlikti svetainės ir prekių ženklo autoriai – nustatyti tinkamą antrinių maketų ir puslapių autorių apribojimų ir lankstumo pusiausvyrą. Naudojant šablonus ši pusiausvyra yra visiškai konfigūruojama. Ji turi įtakos tam, ar puslapio elementai atnaujinami centralizuotai (užrakinti šablone), ar paliekami pagal atskirus antrinius lygius, kurie puslapio hierarchijoje yra žemesni.
 
-Norėdami pradėti naudoti šablonus, žr. [Darbas su šablonais](work-with-templates.md).
+### <a name="relationship-between-template-defaults-and-page-content"></a>Ryšys tarp numatytųjų šablono nustatymų ir puslapio turinio
+
+Pirminė šablono funkcija yra supaprastinti modulio kūrimo patirtį kuriant puslapį. Net jei šablone nustatyti arba net užblokuoti numatytieji modulio numatytieji nustatymai, daugiau nėra duomenų ryšio tarp puslapio modulio konfigūracijų ir šablono numatytųjų parametrų, išskyrus atvejus, kai puslapis redaguojamas. Šablonai kontroliuoja puslapio struktūros kūrimo patirtį, o sukūrus puslapį, šablono numatytieji parametrai nebeturi būti susieti su šiame puslapyje esamu lokalizuojamu turiniu. Kitaip tariant, modulio numatytosios funkcijos, nustatytos šablono valdiklio, leidžiančios kurti antrinius puslapius. Jie nekontroliuoja tų puslapių turinio po to, kai puslapiai sukuriami ir redaguojami.
+
+Vienintelė anksčiau aprašyto veikimo būdo išimtis įvyksta, kai [į šabloną įtraukiamas fragmentas](work-with-fragments.md). Fragmentai gali būti naudojami dinamiškai pridėti ar redaguoti lokalizuojamą turinį visuose antriniuose šablono ar maketo puslapiuose bet kuriuo metu, net po to, kai iš davimo šablono sukurta daug puslapių. Geriausia šablonuose ir maketuose naudoti fragmentus, kai lokalizuojamas turinys turėtų būti dinamiškai pridedamas, pašalinamas arba redaguojamas visuose antriniuose puslapiuose. Pavyzdžiui, fragmentai turi būti naudojami antraštėms, poraštėms, bendrims metaduomenims ar scenarijams, ar bet kokiam kitam turiniui, kuris turi būti centralizuotai redaguojamas ir toks pat visuose antriniuose puslapiuose. Fragmentai suteikia būdą, kaip naudoti šablonus ir maketus, kad būtų galima valdyti visų antrinių puslapių turinį.
+
+Norėdami pradėti naudoti šablonus, žr. [Darbą su šablonais](work-with-templates.md).
 
 ## <a name="layouts"></a>Maketai
 
@@ -96,7 +102,7 @@ Svetainės maketai gali būti *iš anksto nustatyti* arba *pasirinktiniai*.
 
 Iš anksto nustatytas maketas ir pasirinktiniai maketai redaguojami skirtingose kūrimo įrankių rinkinio dalyse. Kadangi pasirinktiniai maketai neturi priklausomybių kituose puslapiuose, jie redaguojami tiesiogiai puslapio rengyklėje. Tokiu atveju maketo buvimas yra dažniausiai permatomas vartotojui ir rodomas tik puslapio lygio ypatybėse ir maketo parinkčių veiksmuose. Tačiau, kadangi iš anksto nustatytų maketų pakeitimai gali turėti įtakos daugybei antrinių puslapių, jie turi būti redaguojami maketo rengyklėje, kurioje publikavimo veiksmais įvertinamas visas tolesnis poveikis antriniams puslapiams.
 
-Toliau pateiktose iliustracijose rodomi iš anksto nustatytų ir pasirinktinių maketų scenarijai.
+Šioje iliustracijoje pateikiami iš anksto nustatytų ir pasirinktinių maketų scenarijai.
 
 ![Iš anksto nustatytų ir pasirinktinių maketų scenarijai.](../commerce/media/template-figure1.png)
 

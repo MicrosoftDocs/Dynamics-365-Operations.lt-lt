@@ -2,7 +2,7 @@
 title: Elektroninio kasos aparato (EKA) operacijos, prisijungus ir neprisijungus prie interneto
 description: Šiame straipsnyje pateikiama informacija apie kasos įstaigos (EKA) operacijas Dynamics 365 Commerce. Joje nurodoma, kur programoje galima iškviesti operacijas ir ar jos pasiekiamos neprisijungus.
 author: josaw1
-ms.date: 05/27/2022
+ms.date: 10/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: 39f827d759f37daf056ff2df6284dda3db113c7f
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.openlocfilehash: 42010bbc0cfb9714fc2be360c817bad07e184eb3
+ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9272855"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728282"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Elektroninio kasos aparato (EKA) operacijos, prisijungus ir neprisijungus prie interneto
 
@@ -101,7 +101,7 @@ Toliau pateiktuose stulpeliuose nurodoma, kur galima iškviesti operacijas.
 | 212  | Transporto priemonių parko kortelės informacija                                   | Ši operacija nepalaikoma.                                                                                                                                                                                | Netaikoma | Netaikoma     | Netaikoma | Netaikoma    | Netaikoma  |
 | 213  | Mokėti kredito pažyma                                   | Patvirtinkite parduotuvės išduotą kredito pažymą (kvitą).                                                                                                                                                          | Taip            | Taip                | Ne             | Ne                | Ne              |
 | 214  | Mokėti dovanų kortele                                     | Patvirtinkite parduotuvės išduotą dovanų kortelę.                                                                                                                                                                      | Taip            | Taip                | Ne             | Ne                | Ne              |
-| 215  | Grynųjų pinigų dovanų kortelės                                | Ši operacija nepalaikoma.                                                                                                                                                                                | Taip            | Taip                | Ne             | Ne                | Ne              |
+| 215  | Grynųjų pinigų dovanų kortelės                                | Kredito operacija su visa dovanų kortelės likučio suma, jei ne viršija sukonfigūruotas grynųjų pinigų limitas.                                                                                                                                                                              | Taip            | Taip                | Ne             | Ne                | Ne              |
 | 216  | Mokėti tikslią sumą kortele                                    | Ši operacija nepalaikoma.                                                                                                                                                                                | Netaikoma | Netaikoma     | Netaikoma | Netaikoma    | Netaikoma  |
 | 217  | Mokėti tikslią sumą čekiu                                   | Ši operacija nepalaikoma.                                                                                                                                                                                | Netaikoma | Netaikoma     | Netaikoma | Netaikoma    | Netaikoma  |
 | 218  | Mokėti tikslią sumą naudojant kliento sąskaitą                        | Ši operacija nepalaikoma.                                                                                                                                                                                | Netaikoma | Netaikoma     | Netaikoma | Netaikoma    | Netaikoma  |
@@ -122,7 +122,7 @@ Toliau pateiktuose stulpeliuose nurodoma, kur galima iškviesti operacijas.
 | 501  | Operacijos komentaras                               | Įtraukite komentarą į esamą operaciją.                                                                                                                                                                      | Taip            | Taip                | Ne             | Taip               | Ne              |
 | 502  | Pardavėjas                                       | EKA **nustatykite** kliento užsakymų pardavimo užsakymo pardavimo takerę.                                                                                                                                     | Taip            | Taip                | Ne             | Taip\*             | Ne              |
 | 503  | Sustabdyti operaciją                               | Sustabdykite esamą pardavimo operaciją, kad vėliau parduotuvėje ją būtų galima atšaukti.                                                                                                                          | Taip            | Taip                | Ne             | Taip‡              | Ne              |
-| 504  | Atšaukti operaciją                                | Atšaukti anksčiau sustabdytą operaciją iš dabartinės parduotuvės.                                                                                                                                              | Taip            | Taip                | Ne             | Taip‡              | Ne              |
+| 504  | Atkurti operaciją                                | Atšaukti anksčiau sustabdytą operaciją iš dabartinės parduotuvės.                                                                                                                                              | Taip            | Taip                | Ne             | Taip‡              | Ne              |
 | 505  | Atšaukti nekonsu atskirtą operaciją                    | Ši operacija nepalaikoma.                                                                                                                                                                                | Netaikoma | Netaikoma     | Netaikoma | Netaikoma    | Netaikoma  |
 | 506  | Perbraukti kortelę                                        | Ši operacija nepalaikoma.                                                                                                                                                                                | Netaikoma | Netaikoma     | Netaikoma | Netaikoma    | Netaikoma  |
 | 507  | Vaistinės recepto įtraukimas                         | Ši operacija nepalaikoma.                                                                                                                                                                                | Netaikoma | Netaikoma     | Netaikoma | Netaikoma    | Netaikoma  |
@@ -133,7 +133,7 @@ Toliau pateiktuose stulpeliuose nurodoma, kur galima iškviesti operacijas.
 | 512  | Išduoti dovanų kortelę                                   | Išduokite naują nurodytam kiekiui skirtą dovanų kortelę.                                                                                                                                                                | Taip            | Taip                | Ne             | Ne                | Ne              |
 | 513  | Rodyti bendrąją sumą                                     | Rodyti operacijos balansą kliento ekrane.                                                                                                                                                   | Taip            | Taip                | Taip            | Taip               | Ne              |
 | 514  | Kredito pažymos likutis                               | Rodo kredito pažymos balansą.                                                                                                                                                                                 | Taip            | Taip                | Ne             | Ne                | Ne              |
-| 515  | Atšaukti užsakymą                                      | Ieškoti klientų užsakymų ir pardavimo pasiūlymų ir jų atšaukti.                                                                                                                                                    | Taip            | Taip                | Taip            | Ne                | Ne              |
+| 515  | Atkurti užsakymą                                      | Ieškoti klientų užsakymų ir pardavimo pasiūlymų ir jų atšaukti.                                                                                                                                                    | Taip            | Taip                | Taip            | Ne                | Ne              |
 | 516  | Pardavimo SF                                     | Ši operacija leidžia vartotojui atlikti mokėjimus pagal pasirinktą pardavimo sąskaitą faktūrą.                                                                                                                              | Taip            | Taip                | Ne             | Ne                | Ne              |
 | 517  | Pajamų sąskaitos                                   | Įrašyti pinigus, įdėtus į kasos stalčių dėl bet kurios priežasties, išskyrus pirkimą.                                                                                                                                  | Taip            | Taip                | Taip            | Taip               | Ne              |
 | 518  | Išlaidų sąskaitos                                  | Įrašyti pinigus, paimtus iš kasos stalčiaus kaip atsitiktines išlaidas.                                                                                                                                     | Taip            | Taip                | Taip            | Taip               | Ne              |

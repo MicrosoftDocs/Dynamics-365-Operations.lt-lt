@@ -1,22 +1,22 @@
 ---
-title: Tikrinimo modulio klaidų nuorodų kodai
+title: Pirkimo užbaigimo modulio klaidos nuorodos kodai
 description: Šiame straipsnyje aprašomi tikrinimo modulio klaidų nuorodų kodai, rodomi vartotojo turimose klaidų pranešimuose Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 10/20/2022
+ms.date: 10/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2022-09-20
-ms.openlocfilehash: cd8269a71e56f23dbe3782ec3ffc69ec3ea6b151
-ms.sourcegitcommit: 6bd8822f7aa781d596b70956bead834117cf302c
+ms.openlocfilehash: 952cb932522b4e0bb91be985e4f8974cb6cd8bc0
+ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709377"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728251"
 ---
-# <a name="checkout-module-error-reference-codes"></a>Tikrinimo modulio klaidų nuorodų kodai
+# <a name="checkout-module-error-reference-codes"></a>Pirkimo užbaigimo modulio klaidos nuorodos kodai
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
@@ -31,9 +31,13 @@ Atsižvelgiant į klaidą, su kuriomis susidurta, šiame straipsnyje esančioje 
 - Informacija apie aplinkos arba mokėjimo jungties konfigūracijų apsaugą
 - Informacija, kurią galima nurodyti palaikymo atveju, jei reikia papildomos pagalbos
 
-## <a name="checkout-module-error-reference-codes"></a>Tikrinimo modulio klaidų nuorodų kodai
+## <a name="prerequisites"></a>Būtinieji komponentai
 
-Norėdami gauti išsamesnės informacijos apie klaidų kodų nuorodas, kurias pateikė klientai arba kurios įvyko interneto parduotuvėje, naudokite šią lentelę.
+Norėdami įjungti žemiau išvardytus tikrinimo modulio klaidų nuorodų kodus, savo svetainės generatoriaus eikite į svetainės parametrų plėtinius, **\>** **o** skyriuje Krepšelis ir tikrinimas pasirinkite Įgalinti patobulintą interneto kanalo klaidų rodymą Pranešimai.**·** 
+
+## <a name="checkout-module-error-reference-codes"></a>Pirkimo užbaigimo modulio klaidos nuorodos kodai
+
+Norėdami gauti išsamesnės informacijos apie klaidų kodų nuorodas, kurias pateikė klientai arba kurios įvyko interneto parduotuvėje, naudokite šią lentelę. Slinkti į dešinę, kad būtų rodomas stulpelis **Klaidos** aprašas.
 
 | Klaidos kodas | Dynamics koreseliuojainės klaidos kodas | Klaidos aprašas |
 | ---------- | ------------------------------ | ----------------- |
