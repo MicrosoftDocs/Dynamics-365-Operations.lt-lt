@@ -1,5 +1,5 @@
 ---
-title: Personalo kliento perkėlimo DUK
+title: „Human Resources“ klientų perkėlimo DUK
 description: Šiame straipsnyje pateikiami atsakymai į dažnai užduodamus klausimus apie Microsoft Dynamics 365 Human Resources perkėlimą į finansų ir operacijų sulietą infrastruktūrą.
 author: twheeloc
 ms.date: 07/06/2022
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8a6f883da07bd1d3a6b0379f1582dc8556e166ff
-ms.sourcegitcommit: 9310c943ac76896663e5604209034da9f8d6139c
+ms.openlocfilehash: 0e11d26ebe084762a8616c8aa0aa041a87306473
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151099"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734364"
 ---
 # <a name="human-resources-customer-migration"></a>Personalo kliento perkėlimas
 
@@ -40,7 +40,7 @@ Klientai, kurie naudoja kitas programėles finansų ir operacijų infrastruktūr
 Kiekvienos įmonės perėjimas priklausys nuo dabartinės įmonės konfigūracijos ir pasirengimo pereiti prie finansų ir operacijų infrastruktūros. Rekomenduojame klientams dirbti su savo "Microsoft" partneriu, kad būtų galima nustatyti geriausią kelią į priekį.
 
 - Organizacijos, kurios naudoja **personalo** valdymo modulį "Dynamics 365 Finance Dynamics 365 Human Resources ", galės įgalinti naujas galimybes, kaip įprasto vienos versijos atnaujinimo proceso dalį. Naujos priemonės planuojamos, kad jos būtų galimos pradedant 2022 m. sausio mėn.
-- Organizacijos, kurios naudoja Dynamics 365 Human Resources, turės prieigą prie įrankių, kuriuos jos gali naudoti infrastruktūros suliejimui užbaigti. "Microsoft" su klientais pereiti prie kitų darbo vietų, kad išvengtų bet kokių aptarnavimo trukdžių. Klientams bus nuo 12 iki 18 mėnesių, pereinančių nuo tada, kai tampa galimas perkėlimo įrankis.
+- Organizacijos, kurios naudoja Dynamics 365 Human Resources, turės prieigą prie įrankių, kuriuos jos gali naudoti infrastruktūros suliejimui užbaigti. "Microsoft" su klientais pereiti prie kitų darbo vietų, kad išvengtų bet kokių aptarnavimo trukdžių. Klientams bus per 12 mėnesių pereiti, pradedant nuo to laiko, kai bus galima naudoti perkėlimo įrankį.
 - Organizacijos, kurios naudoja ir Dynamics 365 Human Resources personalo valdymo **modulį**, gali perkelti savo atskirą personalo infrastruktūrą į finansų ir operacijų infrastruktūrą. Kita pasirinktis – naudoti sąlajos įrankį, kad aplinka būtų atjungta prie vienos aplinkos. Nėra reikalavimo arba laiko tarpo dviem aplinkai sulieti.
 
 Naujausia informacija reguliariai patikrinkite paleidimo [planus](/dynamics365/release-plans/).
@@ -166,4 +166,4 @@ Po perkėlimo klientai turės daug daugiau lankstumo dėl programos ciklo valdym
 
 ## <a name="licensing-impact"></a>Licencijos poveikis
 
-Daugiau informacijos apie tai, kaip paveikti licencijavimas, žr. infrastruktūros suliejimo [Dynamics 365 Human Resources DUK](hr-infrastructure-merge-faq.md#licensing-impact).
+Daugiau informacijos apie tai, kaip paveikti licencijavimas, žr. infrastruktūros [Dynamics 365 Human Resources suliejimą](hr-infrastructure-merge.md#licensing).

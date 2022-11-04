@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: 4f381f1ec0ea08f18db3cac474e8990906364504
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 757e83887e318dd6aa54106fb78305f1d94e0f90
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286897"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734273"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>Įgalinti svečių išregistrų užsakymo peržvalgą
 
@@ -73,6 +73,11 @@ Kad vartotojai galėtų peržiūrėti savo užsakymų informaciją, jūsų el. k
 Užsakę susijusius el. laiškus galite pateikti saitą arba mygtuką, pagal kurį klientai jų užsakymui pateiks informacijos apie užsakymą puslapį. Norėdami pridėti šį saitą arba mygtuką, sukurkite HTML hipersaitą, nukreipiaį į išsamios užsakymo informacijos puslapį jūsų el. komercijos svetainėje ir perduoti užsakymo patvirtinimo ID ir kliento el. pašto adresą kaip URL parametrus, kaip parodyta toliau pateiktame pavyzdyje.
 
 `<a href="https://[domain]/[orderdetailspage]?confirmationId=%orderconfirmationid%&propertyName=email&propertyValue=%customeremailaddress%" target="_blank">View my order status</a>`
+
+> [!NOTE]
+> Norėdami įgalinti užsakymo peržvalgos funkciją, užtikrinkite, kad **Pasiūlymų raktas įgalintas** licencijos **konfigūracijos konfigūracijos raktuose** > **·**.
+>
+>![Pasiūlymų licencijos rakto konfigūracija turi būti įgalinta](./media/Quotations_License_Key_Configuration.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

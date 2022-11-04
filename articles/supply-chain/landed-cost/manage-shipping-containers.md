@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 22f2512125679f160cb658923893d5f5aa739a2d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b409017407ce1c027184bdc2292197840c61e04a
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906159"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725449"
 ---
 # <a name="manage-shipping-containers"></a>Gabenimo konteinerių valdymas
 
@@ -40,9 +40,9 @@ Toliau pateikta lentelė aprašo mygtukus, pasiekiamus veiksmų srities skirtuke
 
 | Mygtukas | Aprašai |
 |---|---|
-| Užregistruoti gavimo kvitų sąrašą | Registruokite gavimo kvitų sąrašą arba peržiūrėkite visų gabenimo konteinerio pirkimo užsakymo eilučių gavimo kvitų sąrašus. Jei vykdomos kelių įmonių siuntos, kiekvienai įmonei atidaromas naujas gavimo kvitų sąrašo registravimo dialogo langas. |
+| Užregistruoti gavimo kvitų sąrašą | Registruokite gavimo kvitų sąrašą arba peržiūrėkite visų gabenimo konteinerio pirkimo užsakymo eilučių gavimo kvitų sąrašus.  |
 | Registruoti produkto gavimo kvitą | Registruokite visų gabenimo konteinerio pirkimo užsakymo eilučių produktų gavimo kvitą. |
-| Registruoti SF | Registruokite visų gabenimo konteinerio pirkimo užsakymo eilučių sąskaitą faktūrą. Jei vykdomos kelių įmonių siuntos, kiekvienai įmonei atidaromas naujas SF registravimo dialogo langas. |
+| Registruoti SF | Registruokite visų gabenimo konteinerio pirkimo užsakymo eilučių sąskaitą faktūrą.  |
 | Siuntimo perkėlimo užsakymas | Registruokite visų gabenimo konteinerio perkėlimo užsakymo eilučių perkėlimo užsakymo siuntimą. Dialogo lange rodomos tik perkėlimo užsakymo tipo gabenimo konteinerio eilutės. |
 | Gauti perkėlimo užsakymą | Registruokite visų gabenimo konteinerio perkėlimo užsakymo eilučių perkėlimo užsakymo gavimo kvitus. Gavimo dialogo langas yra paprasčiausias būdas gauti prekes gabenimo konteineriu arba reisu, ir tai yra viena iš trijų galimų parinkčių. Taip pat prekes galite gauti per gavimo žurnalus arba mobiliojo įrenginio apdorojimą. |
 | Kurti pristatymo žurnalą | Galite generuoti gavimo žurnalą savo organizacijoms, naudodami išplėstines sandėlio funkcijas. Parinktys yra _Inicijuoti kiekį_ (rekomenduojama) ir bet kuri iš _Kurti iš tranzito prekių_ arba _Kurti iš pirkimo užsakymų_. Paskutinės dvi parinktys priklauso nuo to, ar naudojamas tranzito prekių apdorojimas. |
@@ -56,8 +56,8 @@ Toliau pateikta lentelė aprašo mygtukus, pasiekiamus veiksmų srities skirtuke
 
 | Mygtukas | Aprašai |
 |---|---|
-| Gavimo kvitų sąrašas | Registruokite visų gabenimo konteinerio pirkimo užsakymo eilučių gavimo kvitų sąrašą. Jei vykdomi kelių įmonių reisai, kiekvienai įmonei atidaromas naujas gavimo kvitų sąrašo registravimo dialogo langas. |
-| Produkto gavimo kvitas | Peržiūrėkite produkto gavimo kvito įrašą, jeigu jis panaudotas. Produkto gavimo kvito procesas bus naudojamas tik tada, jei prekėms nebus panaudota tranzito prekių funkcija. |
+| Gavimo kvitų sąrašas | Registruokite visų gabenimo konteinerio pirkimo užsakymo eilučių gavimo kvitų sąrašą.  |
+| Produkto kvitas | Peržiūrėkite produkto gavimo kvito įrašą, jeigu jis panaudotas. Produkto gavimo kvito procesas bus naudojamas tik tada, jei prekėms nebus panaudota tranzito prekių funkcija. |
 | Prekių gavimas | Peržiūrėkite gabenimo konteinerio prekių gavimo žurnalą, jeigu toks žurnalas naudojamas. |
 | Atkarpos | Atkarpos naudojamos atskiroms veiklos ciklo dalims identifikuoti. Gamybos laikus galima susieti su kiekviena atkarpa, kad tai padėtų sekti siuntimą. Daugiau informacijos rasite [Kelių atkarpų kelionės nustatymas](multi-leg-journey-setup.md). |
 | Sekimas | Peržiūrėkite arba atnaujinkite siuntos sekimą. |
