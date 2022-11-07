@@ -256,11 +256,9 @@
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: „Commerce“ parduotuvės technologijos dėklo modernizavimas (techninė dokumentacija)
                   href: 'https://www.microsoft.com/download/details.aspx?id=103896'
-                - name: „Commerce“ diegimas ir trikčių šalinimas neprisijungus
-                  href: dev-itpro/implementation-considerations-offline.md
                 - name: Interneto parduotuvės katalogo publikavimas
                   href: dev-itpro/retail-online-store-publishing-architecture.md
-                - name: „Retail Channel Performance Power BI“ turinys
+                - name: „Retail Channel Performance“ „Power BI“ turinys
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?context=/dynamics365/context/commerce
                 - name: Mokėjimo programų duomenų saugos standartų (PA-DSS) sertifikatas
                   href: dev-itpro/PA-DSS-Certification.md
@@ -396,12 +394,16 @@
                   items:
                     - name: „Store Commerce“ programa
                       href: dev-itpro/store-commerce.md
+                    - name: „Store Commerce“ programos galimybės
+                      href: store-commerce-capabilities.md
                     - name: '„Store Commerce“ programa, skirta mobiliosioms platformoms'
                       href: dev-itpro/store-commerce-mobile.md
                     - name: Perkelti „Modern POS“ į „Store Commerce“
                       href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: Įrenginių valdymo diegimo instrukcijos
                       href: implementation-considerations-devices.md
+                    - name: „Commerce“ diegimas ir trikčių šalinimas neprisijungus
+                      href: dev-itpro/implementation-considerations-offline.md
                     - name: Pasirinkimas tarp „Store Commerce“ ir „Cloud POS“
                       href: MPOS-or-CPOS.md
                     - name: EKA operacijos prisijungus ir neprisijungus prie interneto

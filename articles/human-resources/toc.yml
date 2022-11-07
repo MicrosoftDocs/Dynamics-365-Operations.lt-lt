@@ -4,6 +4,18 @@
       items:
         - name: „Dynamics 365 Human Resources“ pagrindinis puslapis
           href: index.md
+        - name: „Human Resources“ infrastruktūros suliejimas
+          items:
+            - name: „Human Resources“ infrastruktūros suliejimo apžvalga
+              href: hr-infrastructure-merge.md
+            - name: „Human Resources“ infrastruktūros klientų perkėlimas
+              href: hr-cust-migration.md
+            - name: DUK apie „Human Resources“ infrastruktūros suliejimą
+              href: hr-infrastructure-merge-faq.md
+            - name: „Human Resources“ klientų perkėlimo DUK
+              href: customer-migration.md
+            - name: Žinomos „Human Resources“ infrastruktūros suliejimo problemos
+              href: hr-migration-issues.md
         - name: Kas nauja ar pasikeitė
           items:
             - name: Kas nauja ar pasikeitė finansų ir operacijų programose
@@ -242,10 +254,6 @@
                   href: hr-admin-go-live-prepare.md
                 - name: DUK apie įgyvendinimo pradžią
                   href: hr-admin-go-live-faq.md
-                - name: DUK apie „Human Resources“ infrastruktūros suliejimą
-                  href: hr-infrastructure-merge-faq.md
-                - name: „Human Resources“ klientų perkėlimo DUK
-                  href: customer-migration.md
                 - name: Dokumentacijos ištekliai
                   items:
                     - name: Žinyno sistema

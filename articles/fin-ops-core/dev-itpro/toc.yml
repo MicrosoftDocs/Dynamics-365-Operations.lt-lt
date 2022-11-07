@@ -334,12 +334,16 @@
                       href: deployment/deployenvironment-newinfrastructure.md
                     - name: DUK apie visuotinį diegimą
                       href: deployment/deploymentFAQ.md
+                    - name: Aplinkos perkėlimas
+                      href: deployment/geo-to-geo-migrations.md
                     - name: Žinomos visuotinio savitarnos paslaugos diegimo problemos
                       href: deployment/known-issues-new-deployment-experience.md
                     - name: Visuotinio diegimo priežiūros operacijos
                       href: deployment/maintenanceoperationsguide-newinfrastructure.md
                     - name: Aplinkos naujinimas
                       href: deployment/updateenvironment-newinfrastructure.md
+                    - name: Aplinkos perkėlimas
+                      href: deployment/geo-to-geo-migrations.md
                     - name: Visuotinai diegiant savitarnos paslaugą įdiegtų aplinkų trikčių šalinimas
                       href: deployment/troubleshoot-newinfrastructure.md
                     - name: DUK apie planuojamą priežiūrą savitarnos aplinkoje
@@ -972,6 +976,8 @@
               href: lifecycle-services/lcs-user-guide.md
             - name: Projekto parengimas
               href: lifecycle-services/project-onboarding.md
+            - name: Projekto perkėlimo vadovas
+              href: lifecycle-services/project-migration-manager.md
             - name: Prenumeratos poreikio vertinimo įrankis
               href: lifecycle-services/subscription-estimator.md
             - name: Saugos konfigūravimas

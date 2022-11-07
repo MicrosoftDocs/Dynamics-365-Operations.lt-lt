@@ -688,29 +688,23 @@
               href: accounts-receivable/automatic-settlement-prioritization.md
             - name: Banko sąskaitos derinimas
               href: cash-bank-management/reconcile-bank-account.md
-            - name: Išplėstinis banko derinimas
+            - name: Pažangus banko suderinimas
               items:
                 - name: Išplėstinio banko derinimo sąrankos procesas
                   href: cash-bank-management/configure-advanced-bank-reconciliation.md
-                - name: Išplėstinio banko derinimo importo nustatymo procesas
-                  href: cash-bank-management/set-up-advanced-bank-reconciliation-import-process.md
                 - name: 'Išplėstinio banko derinimo importo nustatymo procesas, naudojant elektronines ataskaitas'
                   href: accounts-payable/import-bai2-er.md
                 - name: Banko derinimo gretinimo taisyklių nustatymas
                   href: cash-bank-management/set-up-bank-reconciliation-matching-rules.md
                 - name: Banko išrašų derinimas naudojant išplėstinį banko derinimą
                   href: cash-bank-management/reconcile-bank-statements-advanced-bank-reconciliation.md
-                - name: Pažangaus banko suderinimo MT940 importavimas – sudėtinių duomenų objektų naujinimas
-                  href: cash-bank-management/advanced-bank-reconciliation-mt940-data-entity-upgrade-steps.md
                 - name: Išplėstinio banko derinimo apžvalga
                   href: cash-bank-management/advanced-bank-reconciliation-overview.md
-                - name: Banko išrašo failų importavimo trikčių diagnostika
-                  href: cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
                 - name: Banko žurnalo sudėtinio objekto naujinimas
                   href: cash-bank-management/upgrade-bank-journal-composite-entity.md
-        - name: Savikainos apskaita
+        - name: Kaštų apskaita
           items:
-            - name: Savikainos apskaitos pagrindinis puslapis
+            - name: Kaštų apskaitos pagrindinis puslapis
               href: cost-accounting/cost-accounting-home-page.md
             - name: Kaštų apskaitos terminija
               href: cost-accounting/terms-cost-accounting.md

@@ -2239,6 +2239,16 @@
                   href: procurement/tasks/create-purchasing-policies.md
                 - name: Įsigijimo kategorijų hierarchijų strategijų nustatymas
                   href: procurement/tasks/set-up-policies-procurement-category-hierarchies.md
+            - name: Tiekimo rizikos vertinimas
+              items:
+                - name: Tiekimo rizikos vertinimo apžvalga
+                  href: procurement/supply-risk-assessment-overview.md
+                - name: Tiekimo rizikos vertinimo konfigūravimas
+                  href: procurement/supply-risk-assessment-configuration.md
+                - name: Darbo sritis su veiksmai tiekėjo rizikai aptikti ir vertinti
+                  href: procurement/supply-risk-assessment-workspace.md
+                - name: „Power BI“ ataskaitos rizikai analizuoti ir efektyvumui įvertinti
+                  href: procurement/supply-risk-assessment-reports.md
             - name: Gavimo dokumentai ir SF išrašymas
               items:
                 - name: Produkto gavimas pagal pirkimo užsakymą
