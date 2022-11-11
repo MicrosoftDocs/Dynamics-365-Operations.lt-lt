@@ -2,7 +2,7 @@
 title: Integruotų kanalų mokėjimų apžvalga
 description: Šiame straipsnyje pateikta kanalų mokėjimų apžvalga Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 09/17/2020
+ms.date: 11/04/2020
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: d850e532a764d22bc926f5649f4ad2907b49d1a0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a5cc0725b383ca6657bd19b9dd25b0c60b364467
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881714"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746132"
 ---
 # <a name="omni-channel-payments-overview"></a>Integruotų kanalų mokėjimų apžvalga
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Šiame straipsnyje pateikta kanalų mokėjimų apžvalga Dynamics 365 Commerce. Ji apima išsamų palaikomų scenarijų sąrašą, informaciją apie funkcijas, sąranką bei trikčių diagnostiką ir kai kurių tipiškų problemų aprašymus.
 
@@ -34,7 +35,7 @@ ms.locfileid: "8881714"
 
 | Semestras | Aprašas |
 |---|---|
-| Atpažinimo ženklas | Duomenų seka, kurią kaip nuorodą pateikia mokėjimo procesorius. Atpažinimo ženklai gali nurodyti mokėjimo kortelių numerius, mokėjimų autorizavimą ir ankstesnius mokėjimus. Atpažinimo ženklai yra svarbūs, nes jie padeda apsaugoti konfidencialius duomenis elektroninio kasos aparato (EKA) sistemoje. Kartais jie taip pat vadinami *nuorodomis*. |
+| Atpažinimo ženklas | Duomenų seka, kurią kaip nuorodą pateikia mokėjimo procesorius. Atpažinimo ženklai gali nurodyti mokėjimo kortelių numerius, mokėjimų autorizavimą ir ankstesnius mokėjimus. Atpažinimo ženklai yra svarbūs, nes jie padeda apsaugoti konfidencialius duomenis elektroninio kasos aparato (EKA) sistemoje. Kartais jos vadinamos *nuorodomis*. |
 | Kortelės atpažinimo ženklas | Atpažinimo ženklas, kurį mokėjimo procesorius pateikia saugoti EKA sistemoje. Kortelės atpažinimo ženklą gali naudoti tik jį gavęs prekybininkas. Kortelių atpažinimo ženklai kartais taip pat vadinami *kortelių nuorodomis*. |
 | Autorizavimo („auth“) atpažinimo ženklas | Unikalus ID, kurį mokėjimo procesas pateikia kaip dalį atsakymo, kurį siunčia EKA sistemai po to, kai EKA sistema sukuria autorizavimo užklausą. Autorizavimo atpažinimo ženklą galima naudoti vėliau, jei procesorius iškviečiamas atlikti tokius veiksmus kaip autorizavimo atšaukimas arba anuliavimas. Tačiau dažniausiai jis naudojamas norint fiksuoti lėšas, kai įvykdytas užsakymas arba baigta operacija. Autorizavimo atpažinimo ženklai kartais taip pat vadinami *autorizavimo nuorodomis*. |
 | Atpažinimo ženklo fiksavimas | Nuoroda, kurią mokėjimo procesorius pateikia EKA sistemai, kai atsiskaitymas yra baigtas arba užfiksuotas. Tada fiksavimo atpažinimo ženklą galima naudoti norint nurodyti mokėjimo fiksavimą vėlesnėse operacijose, pvz., grąžinimo užklausose. | 
@@ -43,7 +44,7 @@ ms.locfileid: "8881714"
 
 ## <a name="overview"></a>Apžvalga
 
-Paprastai frazė *integruoto kanalo mokėjimai* nurodo galimybę kurti užsakymą viename kanale ir vykdyti jį kitame kanale. Svarbiausia integruoto kanalo ypatybė – mokėjimo informacijos ir likusios užsakymo informacijos išsaugojimas bei mokėjimo informacijos naudojimas, kai užsakymas atšaukiamas arba apdorojamas kitame kanale. Klasikinis pavyzdys yra scenarijus „Pirkimas internetu, atsiėmimas parduotuvėje“. Tokiu atveju mokėjimo informacija yra įtraukiama, kai užsakymas sukuriamas internete. Tada informacija atšaukiama EKA, kad kliento mokėjimo kortelė būtų apmokestinta paėmimo metu. 
+Paprastai frazė *integruoto kanalo mokėjimai* nurodo galimybę kurti užsakymą viename kanale ir vykdyti jį kitame kanale. Svarbiausia integruoto kanalo ypatybė – mokėjimo informacijos ir likusios užsakymo informacijos išsaugojimas bei mokėjimo informacijos naudojimas, kai užsakymas atšaukiamas arba apdorojamas kitame kanale. Klasikinis pavyzdys yra scenarijus „Pirkimas internetu, atsiėmimas parduotuvėje“. Tokiu atveju mokėjimo informacija yra įtraukiama, kai užsakymas sukuriamas internete. Tada jie atšaukiamas EKA, kad paėmimo metu būtų apmokestintos kliento mokėjimo kortelės. 
 
 Visus šiame straipsnyje aprašytus scenarijus galima įdiegti naudojant standartinį mokėjimų programinės įrangos kūrimo rinkinį (SDK), kuris pateikiamas su "Commerce". [„Dynamics 365“ mokėjimo jungtis, skirta „Adyen“](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3), pateikia parengtą naudoti kiekvieno čia aprašyto scenarijaus įdiegtį. 
 
@@ -104,7 +105,7 @@ Tolesniuose skyriuose aprašomi kiekvieno scenarijaus veiksmai ir rodoma, kaip v
 Prieš pradėdami įsitikinkite, kad įvykdytos toliau nurodytos būtinosios sąlygos.
 
 - Turite nuorodos parduotuvę, kurioje sukonfigūruota „Adyen“ jungtis.
-- **Daugiakanalių mokėjimų** parinktis, esanti puslapyje **Bendrai naudojami „Commerce“ parametrai**, nustatoma į **Tiesa**. Paskutinėse versijose šie parametrai perkelti į **Funkcijos valdymas** darbo sritį, kurioje galite pasirinkti **Vieno kanalo mokėjimai** funkciją ir paspausti **Įjungti dabar**. 
+- **Daugiakanalių mokėjimų** parinktis, esanti puslapyje **Bendrai naudojami „Commerce“ parametrai**, nustatoma į **Tiesa**. Vėlesnėse versijose šis parametras yra **perkeltas** į priemonių valdymo darbo sritį, kurioje galite pasirinkti **"Už" kanalų mokėjimų** funkciją ir spustelėti **Įgalinti dabar**. 
 - „Adyen“ mokėjimo jungtis sukonfigūruota ;Houston: EKA registre.
 - „ Retail Modern POS“ „Windows“ ar „Android“ su įdiegta kompiuterinės įrangos stotimi -arba-
 - Modernus POS iOS ar debesies POS su sujungta bendrinta kompiuterinės įrangos stotimi. 
@@ -169,9 +170,9 @@ Norėdami vykdyti scenarijų atlikite toliau nurodytus veiksmus.
 6. Ieškos juostoje įveskite **Seattle**, tada pasirinkite paėmimo parduotuvę **Seattle**. 
 7. Pasirinkite **OK**, kad esamą datą patvirtintumėte kaip paėmimo datą.
 9. Pasirinkite **Mokėti kortele,** kad inicijuotumėte mokėjimą.
-10. Naudodami kortelę įmokėkite mokėtiną depozito sumą. 
+10. Naudodami kortelę įmokėkite mokėtiną depozito sumą.
 11. Užbaikite depozito mokėjimą mokėjimo terminale. 
-12. Sumokėję depozitą pasirinkite parinktį naudoti tą pačią kortelę vykdymo metu ir palaukite, kol užsakymas bus įvykdytas. 
+12. Sumokėję depozitą pasirinkite parinktį naudoti tą pačią kortelę vykdymo metu ir palaukite, kol užsakymas bus įvykdytas. Jei mokama 100% įmokos (nuo 10 veiksmo pirmiau), lėšos užfiksuojamos nedelsiant pagal kortelę, o išrašant SF autorizavimo atpažinimo ženklo nebus, nes lėšos jau užfiksuotos ir sekamos kaip apmokėtos.
 13. Paleiskite parduotuvės „Seattle“ EKA.
 14. EKA darbo pradžios puslapyje pasirinkite operaciją **Paimtini užsakymai**, kad peržiūrėtumėte parduotuvėje paimtinus užsakymus. 
 15. Pasirinkite vieną ar kelias eilutes iš užsakymo, kuris buvo sukurtas nuorodos parduotuvėje, tada pasirinkite **Paimti**.
@@ -198,7 +199,7 @@ Norėdami vykdyti scenarijų atlikite toliau nurodytus veiksmus.
 8. Pasirinkite **Mokėti kortele,** kad inicijuotumėte mokėjimą.
 9. Naudodami kortelę įmokėkite mokėtiną depozito sumą. 
 10. Užbaikite depozito mokėjimą mokėjimo terminale. 
-11. Sumokėję depozitą pasirinkite parinktį naudoti tą pačią kortelę vykdymo metu ir palaukite, kol užsakymas bus įvykdytas.
+11. Sumokėję depozitą pasirinkite parinktį naudoti tą pačią kortelę vykdymo metu ir palaukite, kol užsakymas bus įvykdytas. Jei mokama 100% įmokos (nuo 9 veiksmo pirmiau), lėšos užfiksuojamos nedelsiant pagal kortelę, o autorizavimo atpažinimo ženklo išrašant SF nebus galima, nes lėšos jau užfiksuotos ir sekamos kaip apmokėtos.
 
 Kai užsakymas paimamas, supakuojamas ir operacijų biure išrašoma jo SF, EKA pateikta mokėjimo informacija bus naudojama prekių, gabenamų klientui, lėšoms fiksuoti. 
 
@@ -225,7 +226,7 @@ Klientas, kuris atvyksta į parduotuvę paimti užsakymo, gali naudoti kitą kor
 
 ### <a name="invalid-authorizations"></a>Negaliojančios autorizacijos
 
-Jei kortelė, naudota kuriant užsakymą, nebegalioja, kai produktai pasirenkami paimti, mokėjimo fiksavimo užklausa nepavyks. Tada EKA mokėjimo jungtis bandys sukurti naują autorizaciją ir fiksuoti naudodama tą pačią kortelės informaciją. Jei nauja autorizacija arba fiksavimas nepavyksta, kasininkui bus pranešta, kad mokėjimo nepavyko apdoroti. Tada kasininkas turi gauti naują kliento mokėjimą. 
+Jei kortelė, naudota kuriant užsakymą, nebegalioja, kai produktai pasirenkami paimti, mokėjimo fiksavimo užklausa nepavyks. Tada EKA mokėjimo jungtis bandys sukurti naują autorizaciją ir fiksuoti naudodama tą pačią kortelės informaciją. Jei naujas autorizavimas arba fiksavimas nepavyksta, kasininkas bus informuotas, kad nepavyko apdoroti mokėjimo. Tada kasininkas turi gauti naują kliento mokėjimą. 
 
 ### <a name="multiple-available-payments"></a>Keli galimi mokėjimai
 

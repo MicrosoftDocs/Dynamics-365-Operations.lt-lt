@@ -2,23 +2,23 @@
 title: Užduočių sąrašų priskyrimas parduotuvėms arba darbuotojams
 description: Šiame straipsnyje aprašoma, kaip priskirti užduočių sąrašus parduotuvėms arba darbuotojams dalyje Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 02/10/2020
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.search.industry: ''
-ms.openlocfilehash: 8aa1d61e235244ee9400419e51da638c059892e5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: faff772051738f624b86fd23fb6bf29173e909ea
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9284663"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746200"
 ---
 # <a name="assign-task-lists-to-stores-or-employees"></a>Užduočių sąrašų priskyrimas parduotuvėms arba darbuotojams
 
@@ -30,7 +30,7 @@ Užduočių valdymas „Dynamics 365 Commerce” leidžia priskirti užduočių 
 
 ## <a name="start-the-task-list-assignment-process"></a>Užduočių sąrašo priskyrimo proceso pradžia
 
-Norėdami pradėti užduočių sąrašo priskyrimo procesą, atlikite šiuos veiksmus.
+Prieš pradėdami užduočių priskyrimo procesą, įsitikinkite, [kad sukūrėte užduočių sąrašą, atlikite veiksmus, aprašytus užduočių sąrašuose, ir įtraukite užduočių](task-mgmt-create-lists.md) straipsnį. Norėdami pradėti užduočių sąrašo priskyrimo procesą, atlikite šiuos veiksmus.
 
 1. Eikite į **Mažmeninė prekyba ir prekyba \> Užduočių valdymas \> Užduočių valdymo administravimas**.
 1. Pasirinkite užduočių sąrašą, kurį norite priskirti.

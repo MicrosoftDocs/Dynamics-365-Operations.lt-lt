@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-07-27
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 9044acb472548a797ed387b08ca6892459785793
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d376c2f4d8514a4e6122e2e94455d57a39d2babf
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220760"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740200"
 ---
 # <a name="make-to-order-supply-automation"></a>Tiekimo automatizavimas pagal užsakymą
 
@@ -32,12 +32,6 @@ Gamybos *pagal užsakymą tiekimo automatizavimo funkcija "* Microsoft" prideda 
 - Pagerinti vidinės įmonės informacijos srautą. Pirkimo užsakymai atnaujinami taip, kad juose būtų pristatymo būdo, pristatymo sąlygų ir išorinio prekės numerio laukai. Šis pakeitimas užtikrina, kad išsami poreikio informacija gali būti pateis į tiekimo įmonę.
 
 Šiame straipsnyje aprašoma, kaip nustatyti ir naudoti kiekvieną patobulinimą.
-
-> [!NOTE]
-> Visi šiame straipsnyje aprašyti patobulinimai taikomi sistemoms, kurios naudoja integruotą bendrąjį planavimą. Planavimo optimizavimo papildinys, skirtas "Microsoft", taip pat palaiko šiuos du patobulinimus Dynamics 365 Supply Chain Management:
->
-> - Atidėti bendrojo planų nuokrypio nuokrypį
-> - Per bendrąjį planavimą naudojamos iškvietimo sekos valdymas
 
 ## <a name="turn-on-the-make-to-order-supply-automation-feature"></a>Įjungti gamybos pagal užsakymą tiekimo automatizavimo funkciją
 
@@ -73,7 +67,7 @@ Norėdami atidaryti puslapį **Pajėgumas**, kad būtų galima peržiūrėti gal
 
 Šios pasirinktys taip pat **galimos** **·** **lauke** Atnaujinti žymėjimą puslapio Standartinio atnaujinimo skirtuke Standartinis atnaujinimas, **kuriame nurodote numatytąjį dialogo lango Virtimas** pasirinkimą.
 
-Norėdami gauti daugiau informacijos, žr. [atsargų žymėjimą naudodami planavimo optimizavimą](planning-optimization/marking.md).
+Daugiau informacijos ieškokite atsargų [žymėjimas](planning-optimization/marking.md).
 
 ## <a name="set-delay-tolerance-negative-days-at-the-master-plan-level"></a>Nustatyti nuokrypį dėl vėlavimo (neigiamos dienos) bendrojo plano lygiu
 
@@ -90,7 +84,7 @@ Norėdami nustatyti neigiamas bendrojo plano dienas, atlikite šiuos veiksmus.
 1. Laiko ribose **dienomis "** FastTab" nustatykite parinktį **Neigiamos dienos** kaip *Taip*.
 1. Artimiausiuose laukuose įveskite leidžiamų neigiamų dienų skaičių.
 
-Daugiau informacijos apie neigiamų dienų naudojimą ieškokite sulaikyme leistinas [nuokrypis (neigiamos dienos).](planning-optimization/delay-tolerance.md)
+Daugiau informacijos apie neigiamų dienų naudojimą ieškokite sulaikyme leistinas [nuokrypis (neigiamos dienos)](planning-optimization/delay-tolerance.md).
 
 ## <a name="control-the-pegging-sequence-used-during-master-planning"></a>Valdyti iškvietimo seką, naudojamą bendrojo planavimo metu
 
@@ -112,7 +106,7 @@ Norėdami nustatyti iškvietimą prekės padengimo lygyje, atlikite šiuos veiks
 
 1. Eikite į **Produkto informacijos valdymas \> Produktai \> Išleisti produktai**.
 1. Tinklelyje pasirinkite produktą arba sukurkite naują.
-1. Veiksmų srities skirtuke Planas **pasirinkite Prekės padengimas** **.**
+1. Veiksmų srities skirtuke Planas **pasirinkite** Prekės **padengimas**.
 1. Prekių **padengimo** puslapis pateikia eilutes, kurios leidžia nustatyti padengimo taisykles, taikomas prekei kiekviename sandėlyje. Pasirinkite esamą eilutę tinklelyje arba sukurkite naują.
 1. Skirtuke **Bendra** pažymėkite žymės langelį **Perrašyti iškvietimo** seką.
 1. Norėdami konfigūruoti **iškvietimo seką, naudokite** **laukus Naudoti turimas** atsargas ir Naudoti naujausius tiekimo laukus. Toliau šiame skyriuje pateikiamoje lentelėje rodoma, kaip šie nustatymai sujungiami, norint apibrėžti iškvietimo seką.

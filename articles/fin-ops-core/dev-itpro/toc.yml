@@ -488,7 +488,7 @@
                       href: help/migrate-dynamicsax2012.md
                 - name: Kalbos ir lokalės aprašai produkte ir žinyne
                   href: help/language-locale.md
-                - name: 'Žinyno išplėtimas, tinkinimas ir bendradarbiavimas'
+                - name: Žinyno išplėtimas ir bendradarbiavimas
                   href: help/contributor-guide.md
             - name: Finansų ir operacijų programų regioninės paslaugos
               items:
@@ -1624,6 +1624,10 @@
               href: sysadmin/DataMaintenancePortal.md
             - name: Prieigos prie tinklo spausdintuvų tarp juridinių subjektų valdymas
               href: sysadmin/sys-admin-tools-network-printer.md
+            - name: Stebėjimas ir telemetrija naudojant „Application Insights“
+              items:
+                - name: Apžvalga
+                  href: sysadmin/monitoring-and-telemetry-appinsights.md
             - name: Sauga
               items:
                 - name: Vaidmenimis grįsta sauga
