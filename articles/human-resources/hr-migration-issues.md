@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 28c2c10a9293d00e26dfcc80ab08b89a122a6135
-ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
+ms.openlocfilehash: 5f5981801317ad9647f57a0f68f9b67b592256ab
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "9732775"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752696"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-known-issues"></a>Dynamics 365 Human Resources ininfrastruktūrą sulieti žinomas problemas
 
@@ -44,10 +44,3 @@ Kad būtų galima perkelti, reikia šių aplinkos tipų:
 
 Esama komandų personalo programa šiuo metu perkeliama į Microsoft Power Platform sprendimą. Daugiau informacijos žr. [„Human Resources“ programa programoje „Teams“](hr-admin-teams-leave-app.md).
 
-## <a name="licensing"></a>Licencijavimas
-
-Šiose srityse licencijavimo pakeitimų nėra Dynamics 365 Human Resources: 
-
-- **Mažiausias licencijos pirkimo reikalavimo skaičius**
-- **Gamybos** aplinkos ir sandbox aplinkos licencijos – jei turite atskiras personalo licencijas, kurias sudaro viena gamybos aplinka ir viena sandbox aplinka, finansų ir operacijų infrastruktūrai bus galima naudoti tą patį licencijų skaičių.
-- **Papildomos sandbox** licencijos – jei įsigijote papildomų sandbox licencijų atskirai personalo programai, bus galima naudoti tą patį licencijų skaičių sandbox aplinkai finansų ir operacijų infrastruktūrai. 

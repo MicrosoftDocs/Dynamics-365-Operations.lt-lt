@@ -1,6 +1,6 @@
 ---
-title: Grynieji reikalavimai ir iškvietimo informacija su Planavimo optimizavimu
-description: Šiame straipsnyje pateikiama informacija apie apskaičiuotus grynuosius poreikius ir iškvietimo informaciją planavimo optimizavime.
+title: Grynieji reikalavimai ir iškvietimo informacija
+description: Šiame straipsnyje pateikiama informacija apie apskaičiuotus grynuosius poreikius ir iškvietimo informaciją.
 author: t-benebo
 ms.date: 7/28/2021
 ms.topic: article
@@ -11,20 +11,20 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 259e5793a8dfac67793034d98ccb627fe1947bab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a31ff5490b08d92f0d966388b65de02bca25b050
+ms.sourcegitcommit: 613be2f35e600ae1a1fa7ea2ae30e78984ca398a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888534"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748444"
 ---
-# <a name="net-requirements-and-pegging-information-with-planning-optimization"></a>Grynieji reikalavimai ir iškvietimo informacija su Planavimo optimizavimu
+# <a name="net-requirements-and-pegging-information"></a>Grynieji reikalavimai ir iškvietimo informacija
 
 [!include [banner](../../includes/banner.md)]
 
 Kai vykdote bendrąjį planavimą, svarbu suprasti jo išeigą, kaip esamas tiekimas padengia poreikį ir kodėl buvo sugeneruotas konkretus tiekimas. Galite naudoti **Grynųjų reikalavimų** puslapį, kad geriau suprastumėte apskaičiuotus bendrojo planavimo reikalavimus.
 
-**Grynųjų reikalavimų** puslapis rodo grynuosius reikalavimus, kuriuos Planavimo optimizavimas apskaičiavo produktui. Taip pat yra rodomi padengimo parametrai, kurie buvo taikyti bendrojo planavimo vykdymo metu, reikalavimų bendrųjų sumų paskirstymas pagal operacijos tipą ir iškvietimo informaciją.
+Grynųjų **poreikių** puslapis rodo grynuosius poreikius, kurie apskaičiuoti produktui bendrojo planavimo metu. Taip pat yra rodomi padengimo parametrai, kurie buvo taikyti bendrojo planavimo vykdymo metu, reikalavimų bendrųjų sumų paskirstymas pagal operacijos tipą ir iškvietimo informaciją.
 
 ## <a name="open-the-net-requirements-page"></a>Atidarykite Grynųjų reikalavimų puslapį
 
@@ -64,8 +64,8 @@ Apatinėje puslapio dalyje pateikiami šie skirtukai:
 Toliau nurodytos komandos galimos Veiksmų srityje:
 
 - **Atnaujinti \> Pagrindinis planavimas** - paleiskite pagrindinį planavimą tiesiogiai iš **Grynųjų reikalavimų** puslapio.
-- **Atnaujinti \> Numatyti planavimą** - paleiskite numatyti planavimą tiesiogiai iš **Grynųjų reikalavimų** puslapio. Planavimo optimizavimas dar nepalaiko šios operacijos.
-- **Naujinti \> Tęstinumo planavimas** – paleiskite tęstinumo planavimą tiesiogiai iš **Grynieji reikalavimai** puslapio. Planavimo optimizavimas dar nepalaiko šios operacijos.
+- **Atnaujinti \> Numatyti planavimą** - paleiskite numatyti planavimą tiesiogiai iš **Grynųjų reikalavimų** puslapio. Planavimo optimizavimas nepalaiko šios operacijos.
+- **Naujinti \> Tęstinumo planavimas** – paleiskite tęstinumo planavimą tiesiogiai iš **Grynieji reikalavimai** puslapio. Planavimo optimizavimas nepalaiko šios operacijos.
 
 ## <a name="example-scenario"></a>Pavyzdinis scenarijus
 
@@ -133,8 +133,6 @@ Tada atidarysite **Grynieji reikalavimai** puslapį *1000* produktui, kad perži
     ![Pardavimo užsakymo iškvietimo informacija](media/pegging-planned-purchase-order.png "Pardavimo užsakymo iškvietimo informacija")
 
 > [!NOTE]
-> Kadangi Planavimo optimizavimas dar nepalaiko kai kurių funkcijų, todėl *Saugos atsargų* ir *Pasibaigusio paketo* reikalavimo tipai nėra įtraukti į **Grynųjų reikalavimų** puslapį. Daugiau informacijos žr. [„Planning Optimization“ tinkamumo analizė](planning-optimization-fit-analysis.md).
->
-> Jei naudojate integruotą pagrindinio planavimo variklį, paketo valdomi produktai yra palaikomi. Paketo valdomiems produktams pasibaigusio galiojimo turimos atsargos rodomos **Grynųjų reikalavimų** puslapyje, bet jos nėra susietos su poreikio reikalavimais. Šio tipo pasibaigusio galiojimo turimos atsargų eilutės rodomos kaip *Pasibaigusio paketo* reikalavimo eilutės **Grynųjų reikalavimų** puslapyje.
+> Nepakankaių *atsargų* poreikis neįtrauktas į grynųjų **poreikių** puslapį.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

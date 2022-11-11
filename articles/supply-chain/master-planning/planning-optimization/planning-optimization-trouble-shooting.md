@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-5-7
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: f078fda02a11eb2073738d59b45f81698b707653
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 37c38ab9cec8ae3c9d4decf8043b43ea2251083e
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889525"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739735"
 ---
 # <a name="troubleshoot-planning-optimization"></a>„Planning Optimization“ trikčių diagnostika 
 
@@ -37,13 +37,13 @@ Norint naudoti „Planning Optimization“, reikalinga įgalinta „Lifecycle Se
 
 ## <a name="planning-of-batch-jobs-fails-when-planning-optimization-is-enabled"></a>Kai „Planning Optimization“ įgalintas, nepavyksta suplanuoti paketinių užduočių
 
-Kai įgalinate „Planning Optimization“, integruotas bendrojo planavimo mechanizmas yra automatiškai išjungiamas. Bendrojo planavimo paketinių užduočių, kurios buvo sukurtos integruotam „Supply Chain Management“ planavimo mechanizmui, atlikti nepavyks, jei jos suaktyvinamos, kai „Planning Optimization“ yra įgalintas. Galite gauti klaidos pranešimą, pvz., *Ši operacija suaktyvino bendrąjį planavimą, kuris nepalaikomas, kai įgalintas „Planning Optimization“*.
+Įgalinus planavimo optimizavimą, automatiškai išjungiamas pasenusias bendrojo planavimo modulis. Bendrojo planavimo paketinės užduotys, kurios buvo sukurtos pasenusiam bendrojo planavimo moduliui, bus nesėkmingos, jei jos bus paleistos įgalinus planavimo optimizavimą. Galite gauti klaidos pranešimą, pvz., *Ši operacija suaktyvino bendrąjį planavimą, kuris nepalaikomas, kai įgalintas „Planning Optimization“*.
 
-**Pataisymas**: atšaukti visas bendrojo planavimo paketines užduotis, kurios buvo sukurtos integruotam „Supply Chain Management“ planavimo mechanizmui.
+**Taisyti**: atšaukite visas bendrojo planavimo paketines užduotis, kurios buvo sukurtos pasenusiam bendrojo planavimo moduliui.
 
 ## <a name="planning-optimization-results-are-different-from-earlier-results"></a>„Planning Optimization“ rezultatai skiriasi nuo ankstesnių rezultatų
 
-„Planning Optimization“ tam tikrose srityse skiriasi nuo integruoto bendrojo planavimo dizaino. Tai gali lemti ir laukimo funkcijos.
+Planavimo optimizavimas skiriasi nuo pasenusio bendrojo planavimo modulio dizaino kai kuriose srityse. Tai gali lemti ir laukimo funkcijos.
 
 **Pataisymas**: vykdyti „Planning Optimization“ tinkamumo analizę, tada analizuoti rezultatus nurodant susijusius dokumentus, kad būtų galima suprasti poveikį. Daugiau informacijos žr. [„Planning Optimization“ tinkamumo analizė](planning-optimization-fit-analysis.md).
 
@@ -63,9 +63,8 @@ Tai susiję su laukimo funkcija, kuri yra suplanuota kaip gamybos užsakymų pal
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Darbo su planavimo optimizavimu pradžia](get-started.md)
-
-[Planavimo optimizavimo tinkamumo analizė](planning-optimization-fit-analysis.md)
+- [Bendrojo planavimo pradžia](get-started.md)
+- [Planavimo optimizavimo tinkamumo analizė](planning-optimization-fit-analysis.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

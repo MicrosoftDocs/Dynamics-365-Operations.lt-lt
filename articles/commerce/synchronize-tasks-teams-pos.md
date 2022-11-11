@@ -2,22 +2,22 @@
 title: Užduočių valdymo sinchronizavimas tarp „Microsoft Teams” ir „Dynamics 365 Commerce” EKA
 description: Šiame straipsnyje aprašoma, kaip sinchronizuoti užduočių valdymą tarp ir point Microsoft Teams Dynamics 365 Commerce sale (EKA).
 author: gvrmohanreddy
-ms.date: 02/17/2021
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f7a26f1625ca9414a43f895ff37f697d573a36aa
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: f339ae031f11ad850dab47f84bc9823cf6776e74
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9268280"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746103"
 ---
 # <a name="synchronize-task-management-between-microsoft-teams-and-dynamics-365-commerce-pos"></a>Užduočių valdymo sinchronizavimas tarp „Microsoft Teams” ir „Dynamics 365 Commerce” EKA
 
@@ -30,6 +30,21 @@ Vienas iš pagrindinių „Teams” integravimo tikslų yra užduočių sinchron
 Kadangi planavimo priemonė yra naudojama kaip „Teams” užduočių saugykla, todėl turi būti saitas tarp „Teams” ir „Dynamics 365 Commerce”. Šis saitas nustatomas naudojant konkretų plano ID tam tikrai parduotuvės komandai.
 
 Toliau pateiktose procedūrose rodoma, kaip nustatyti užduočių valdymo sinchronizavimą tarp EKA ir „Teams” programų.
+
+## <a name="link-pos-and-teams-for-task-management"></a>EKA ir „Teams” susiejimas užduotims valdyti
+
+Norėdami susieti EKA ir „Microsoft Teams” programas, skirtas užduočių valdymui „Commerce” būstinėje, atlikite šiuos veiksmus.
+
+> [!NOTE]
+> Prieš bandydami integruoti užduočių valdymą su komandomis, įsitikinkite, kad įgalinote ir integruojate [Dynamics 365 Commerce Microsoft Teams](enable-teams-integration.md). 
+
+1. Eikite į **Mažmeninė prekyba ir komercija \> Užduočių valdymas \> Užduočių integravimas su „Microsoft Teams”**.
+1. Veiksmų srityje pasirinkite **Redaguoti**.
+1. Nustatykite parinktį **Įgalinti užduočių valdymo integravimą** į **Taip**.
+1. Veiksmų srityje pasirinkite **Įrašyti**.
+1. Veiksmų srityje pasirinkite **Užduočių valdymo nustatymas**. Turėtumėte gauti pranešimą, nurodantį, kad kuriamos paketinės užduoties, pavadintos **Komandų** atidėjimas.
+1. Eikite į **Sistemos administravimas \> Užklausos \> Paketinės užduotys** ir suraskite naujausią užduotį, kurios aprašymas yra **Komandų parengimas**. Palaukite, kol užduotis bus baigta.
+1. Vykdykite **CDX užduotį 1070**, kad publikuotumėte plano ID ir parduotuvės nuorodas į „Retail Server”.
 
 ## <a name="publish-a-test-task-list-in-teams"></a>Testavimo užduočių sąrašo publikavimas „Teams” platformoje
 
@@ -50,20 +65,8 @@ Norėdami publikuoti testavimo užduočių sąrašą „Teams” platformoje, at
 
 Daugiau informacijos rasite [Užduočių sąrašų publikavimas jūsų organizacijos darbo kūrimui ir sekimui](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df).
 
-## <a name="link-pos-and-teams-for-task-management"></a>EKA ir „Teams” susiejimas užduotims valdyti
-
-Norėdami susieti EKA ir „Microsoft Teams” programas, skirtas užduočių valdymui „Commerce” būstinėje, atlikite šiuos veiksmus.
-
 > [!NOTE]
-> Prieš bandydami integruoti užduočių valdymą, įsitikinkite Microsoft Teams, kad įgalinote ir integruojate [Dynamics 365 Commerce Microsoft Teams](enable-teams-integration.md). 
-
-1. Eikite į **Mažmeninė prekyba ir komercija \> Užduočių valdymas \> Užduočių integravimas su „Microsoft Teams”**.
-1. Veiksmų srityje pasirinkite **Redaguoti**.
-1. Nustatykite parinktį **Įgalinti užduočių valdymo integravimą** į **Taip**.
-1. Veiksmų srityje pasirinkite **Įrašyti**.
-1. Veiksmų srityje pasirinkite **Užduočių valdymo nustatymas**. Turėtumėte gauti pranešimą, nurodantį, kad kuriama paketinė užduotis pavadinimu **„Teams” parengimas**.
-1. Eikite į **Sistemos administravimas \> Užklausos \> Paketinės užduotys** ir suraskite naujausią užduotį, kurios aprašymas yra **Komandų parengimas**. Palaukite tol, kol ši užduotis bus baigta.
-1. Vykdykite **CDX užduotį 1070**, kad publikuotumėte plano ID ir parduotuvės nuorodas į „Retail Server”.
+> Sėkmingai publikuous užduočių sąrašą komandose, užduotys bus rodomos EKA. Tada EKA vadybininkai ir kasininkai turės įjungti EKA Azure AD prisijungimą. Norėdami gauti daugiau informacijos, žr. straipsnį [Įgalinti Azure Active Directory EKA prisijungimo autentifikavimą](aad-pos-logon.md). 
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

@@ -1,25 +1,22 @@
 ---
-title: Konfigūruoti CPOS, kad būtų galima naudoti pasirinktinę Azure AD programą
+title: Konfigūruoti CPOS, kad būtų galima naudoti pasirinktinę „Azure AD“ programą
 description: Šiame straipsnyje paaiškinama, kaip sukonfigūruoti "Cloud POS" (CPOS), kad būtų galima naudoti pasirinktinę Azure Active Directory (Azure AD) programą.
 author: boycez
-ms.date: 08/02/2022
+ms.date: 11/04/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: global
 ms.author: boycez
-ms.search.validFrom: ''
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: baa0c3da25308345037b5dd1b4c5907d6213e7f7
-ms.sourcegitcommit: bd3b55e1af28e592c97b540de1e87cd8ba9c35a8
+ms.search.validFrom: 2017-06-20
+ms.openlocfilehash: 5e4ff797410e1e94869cc37684e7622ec0d97842
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/03/2022
-ms.locfileid: "9223822"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746266"
 ---
-# <a name="configure-cpos-to-use-a-custom-azure-ad-app"></a>Konfigūruoti CPOS, kad būtų galima naudoti pasirinktinę Azure AD programą
+# <a name="configure-cpos-to-use-a-custom-azure-ad-app"></a>Konfigūruoti CPOS, kad būtų galima naudoti pasirinktinę „Azure AD“ programą
 
 [!include [banner](includes/banner.md)]
 
@@ -52,6 +49,9 @@ Norėdami sukurti ir konfigūruoti pasirinktinę "Retail Server" programą, atli
 
 ## <a name="set-up-a-custom-cpos-app-in-azure-ad"></a>Nustatyti pasirinktinę CPOS programą Azure AD
 
+> [!IMPORTANT]
+> Jei atnaujinate esamą pasirinktinę CPOS Azure AD programą, sukurtą prieš "Commerce" 10.0.21 versiją, atlikite nurodytus veiksmus, [nurodytus atnaujinkite esamą pasirinktinę CPOS Azure AD programą, sukurtą prieš "Commerce 10.0.21"](#upgrade-an-existing-custom-cpos-azure-ad-app-created-before-commerce-version-10021).
+
 Norėdami sukurti ir konfigūruoti pritaikytą CPOS programą, atlikite Azure AD šiuos veiksmus.
 
 1. Prisiregistruokite administravimo [Azure Active Directory centre](https://aad.portal.azure.com) naudodami bet kokį vartotojo Azure AD abonementą. Vartotojo abonementui nereikia turėti administratoriaus teisių.
@@ -68,12 +68,25 @@ Norėdami sukurti ir konfigūruoti pritaikytą CPOS programą, atlikite Azure AD
 1. Deklaracijos skyriuje **nustatykite** **oauth2AllowIdTokenImplicitFlow** **ir oauth2AllowImplipliFlow** **parametrus kaip teisingas**, tada pasirinkite **Įrašyti.**
 1. Atpažinimo ženklo **konfigūracijos skyriuje,** norėdami įtraukti dvi pretenzijas, atlikite šiuos veiksmus:
 
-    - Pasirinkite Įtraukti **papildomą paraišką**. Nustatykite **atpažinimo ženklo** tipo lauką **kaip ID**, tada pasirinkite "sid" **paraišką**. Pasirinkite **Įtraukti**.
-    - Pasirinkite Įtraukti **papildomą paraišką**. Nustatykite **atpažinimo ženklo tipo** lauką **Prieiga**, tada pasirinkite "sid" **paraišką**. Pasirinkite **Įtraukti**.
+    1. Pasirinkite Įtraukti **papildomą paraišką**. Nustatykite **atpažinimo ženklo** tipo lauką **kaip ID**, tada pasirinkite "sid" **paraišką**. Pasirinkite **Įtraukti**.
+    1. Pasirinkite Įtraukti **papildomą paraišką**. Nustatykite **atpažinimo ženklo tipo** lauką **Prieiga**, tada pasirinkite "sid" **paraišką**. Pasirinkite **Įtraukti**.
 
 1. **API teisių skyriuje** pasirinkite Įtraukti **teisę**.
 1. Skirtuke **API, kurį naudoja** mano organizacija, ieškokite "Retail Server [" programos, kurią sukūrėte skyriuje Nustatyti pasirinktinę "Retail Server" programą Azure AD](#set-up-a-custom-retail-server-app-in-azure-ad). Tada pasirinkite **Įtraukti teises**.
 1. **Peržiūros skyriuje**, programos (kliento) ID **lauke** pasižymkite vertę.
+
+### <a name="upgrade-an-existing-custom-cpos-azure-ad-app-created-before-commerce-version-10021"></a>Atnaujinti esamą pasirinktinę CPOS Azure AD programą, sukurtą prieš "Commerce" 10.0.21 versiją
+
+Norėdami atnaujinti esamą pasirinktinę CPOS Azure AD programą, sukurtą prieš "Commerce" 10.0.21 versiją, atlikite šiuos veiksmus. 
+
+1. Atidarykite savo pasirinktinę CPOS Azure AD programą "Azure" portale.
+1. Pasirinkite skirtuką **Autentifikavimas**.
+1. Nukopijuokite ir įrašykite pradinį nukreipimo **URI** iš interneto tipo, kad jį būtų galima naudoti vėliau, tada jį panaikinkite.
+1. Pasirinkite **Įtraukti platformą**, tada pasirinkite vieno **puslapio programą (SPA).**.
+1. Įtraukite pradinį žiniatinklio nukreipimo URI, nukopijuotą anksčiau į SPA platformą.
+1. Atpažinimo ženklo **konfigūracijos skyriuje,** norėdami įtraukti dvi pretenzijas, atlikite šiuos veiksmus:
+    1. Pasirinkite Įtraukti **papildomą paraišką**. Nustatykite **atpažinimo ženklo** tipo lauką **kaip ID**, tada pasirinkite "sid" **paraišką**. Pasirinkite **Įtraukti**.
+    1. Pasirinkite Įtraukti **papildomą paraišką**. Nustatykite **atpažinimo ženklo tipo** lauką **Prieiga**, tada pasirinkite "sid" **paraišką**. Pasirinkite **Įtraukti**.
 
 ## <a name="update-the-cpos-configuration-file"></a>Atnaujinti CPOS konfigūracijos failą
 
@@ -89,7 +102,7 @@ CPOS siųs užklausas saugos atpažinimo ženklui Azure AD gauti, naudos abu par
 Tada turite atnaujinti tapatybės teikėjų parametrus "Commerce Headquarters".
 
 1. "Commerce Headquarters" atidarykite bendrai naudojamų **"Commerce" parametrų** puslapį.
-1. Skirtuko Tapatybės **teikėjai skyriuje** **Tapatybės** teikėjai pasirinkite eilutę, **·** **Azure Active Directory** **kurioje** laukas Tipas nustatytas ir laukas Išdavėjas nurodo jūsų nuomininką.Azure AD Šis parametras patvirtina, kad jūs dirbsite su antriniais tinkleliais, kuriuose yra duomenys, susiję su jūsų nuomininką atitinkančiu tapatybės Azure AD teikėju.
+1. Skirtuko Tapatybės **teikėjai skyriuje** **Tapatybės** teikėjai pasirinkite eilutę, **·** **Azure Active Directory** **kurioje** laukas Tipas nustatytas ir laukas Išdavėjas nurodo jūsų nuomininką.Azure AD Šis parametras patvirtina, kad dirbate su antriniais tinkleliais, kuriuose yra duomenys, susiję su tapatybės teikėju, atitinkančiu jūsų nuomininką Azure AD.
 1. Skyriuje **Priklausančios šalys** pasirinkite **Įtraukti**, kad įtrauktumėte eilutę.
 1. Užpildykite toliau nurodytus laukus:
 

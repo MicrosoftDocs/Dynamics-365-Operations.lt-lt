@@ -1,6 +1,6 @@
 ---
 title: Pardavimo užsakymo pristatymo datų skaičiavimas naudojant CTP
-description: Galėsite pateikti atsargų (CTP) funkcionalumą ir suteikti klientams realias datas, kada galite pateikti tam tikras prekes. Šiame straipsnyje aprašoma, kaip nustatyti ir naudoti CTP kiekvienam planavimo moduliui (planavimo optimizavimas ir įtaisytasis modulis).
+description: Galėsite pateikti atsargų (CTP) funkcionalumą ir suteikti klientams realias datas, kada galite pateikti tam tikras prekes. Šiame straipsnyje aprašoma, kaip nustatyti ir naudoti CTP kiekvienam planavimo moduliui (planavimo optimizavimas ir pasenusias bendrojo planavimo modulis).
 author: t-benebo
 ms.date: 07/20/2022
 ms.topic: article
@@ -11,28 +11,29 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-07-20
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 3b8e3dc9f0e7aaf019aa4d7284458206e7daadb2
-ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
+ms.openlocfilehash: 4a3b8ba89d9fb224026cf32cad89d7f28321ee79
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714866"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741209"
 ---
 # <a name="calculate-sales-order-delivery-dates-using-ctp"></a>Pardavimo užsakymo pristatymo datų skaičiavimas naudojant CTP
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 <!-- KFM: Preview until further notice -->
+<!-- KFN: Split into two topics, one for PO and one for classic. -->
 
 Galėsite pateikti atsargų (CTP) funkcionalumą ir suteikti klientams realias datas, kada galite pateikti tam tikras prekes. Galima pateikti kiekvienos pardavimo eilutės datą, atsižvelgiant į turimas atsargas, gamybos pajėgumą ir transportavimo laiką.
 
 CTP išplečia [prieinamų atsargų](../../sales-marketing/delivery-dates-available-promise-calculations.md) (ATP) funkcijas, atsižvelgdama į pajėgumų informaciją. Kadangi ATP atsižvelgiama tik į medžiagų prieinamumą ir laiko neribotus pajėgumo išteklius, CTP atsižvelgiama į medžiagų ir pajėgumų prieinamumą. Todėl jis pateikia realesnius vaizdą apie tai, ar poreikis gali būti patenkintas per nurodytą laikotarpį.
 
-CTP šiek tiek veikia kitaip, priklausomai nuo bendrojo planavimo modulio, kurį naudojate (planavimo optimizavimas arba įtaisytasis modulis). Šiame straipsnyje aprašoma, kaip nustatyti jį kiekvienam moduliui. CTP planavimo optimizavimui šiuo metu palaiko tik CTP scenarijų, kuriuos palaiko įtaisytasis variklis, subgrupį.
+CTP šiek tiek veikia kitaip, priklausomai nuo jūsų naudoja bendrojo planavimo modulio (planavimo optimizavimas arba pasenusias bendrojo planavimo modulis). Šiame straipsnyje aprašoma, kaip nustatyti jį kiekvienam moduliui. Planavimo optimizavimo CTP šiuo metu palaiko tik CTP scenarijų, kuriuos palaiko pasenęs bendrojo planavimo modulis, subgrupį.
 
 ## <a name="turn-on-ctp-for-planning-optimization"></a>Įjungti planavimo optimizavimo CTP
 
-Visada galima naudoti įtaisyto bendrojo planavimo modulio CTP. Tačiau jei norite naudoti CTP planavimo optimizavimui, jis turi būti įjungtas jūsų sistemai. Administratoriai gali naudoti [funkcijos valdymas](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
+Visada galima naudoti pasenusio bendrojo planavimo modulio CTP. Tačiau jei norite naudoti CTP planavimo optimizavimui, jis turi būti įjungtas jūsų sistemai. Administratoriai gali naudoti [funkcijos valdymas](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
 
 - **Modulis:** *Bendrasis planavimas*
 - **Priemonės pavadinimas:** *(peržiūra) CTP planavimo optimizavimui*
@@ -47,9 +48,9 @@ CTP skaičiavimas, kurį atliekant atsižvelgiama į medžiagas ir išteklius, g
 
 ## <a name="how-ctp-differs-depending-on-the-master-planning-engine-that-you-use"></a>Kaip CTP skiriasi atsižvelgiant į jūsų naudojamas bendrojo planavimo sistemą
 
-Šioje lentelėje apibendrinami skirtumai tarp įtaisyto bendrojo planavimo modulio CTP planavimo optimizavimo ir CTP.
+Šioje lentelėje apibendrinami skirtumai tarp CTP planavimo optimizavimo ir CTP pasenusiam bendrojo planavimo moduliui.
 
-| Elementas | Planavimo optimizavimas | Įtaisytasis bendrojo planavimo modulis |
+| Elementas | Planavimo optimizavimas | Pasenusi bendrojo planavimo sistema |
 |---|---|---|
 | **Užsakymų,** užsakymo eilučių ir produktų pristatymo datos valdymo parametras | *CTP planavimo optimizavimui* | *Ctp* |
 | Skaičiavimo laikas | Skaičiavimas suaktyvinamas paleidus dinaminį planą kaip suplanuotą užduotį. | Kiekvieną kartą, kai įvedate ar atnaujinate pardavimo užsakymo eilutę, skaičiavimas yra nedelsiant suaktyvinamas. |
@@ -70,8 +71,8 @@ Numatytasis pristatymo datos valdymo metodas bus taikomas visoms naujose užsaky
     - *Pardavimo vykdymo laikas* – pardavimo vykdymo laikas yra laikas tarp pardavimo užsakymo sukūrimo ir prekių siuntimo. Pristatymo datos skaičiavimas pagrįstas numatytuoju dienų skaičiumi, bet nenagrinėkime atsargų prieinamumo, žinomo poreikio ar suplanuoto tiekimo.
     - *ATP* – ATP yra prekės kiekis, kuris yra galimas ir gali būti pažadėtas klientui konkrečią dieną. Skaičiuojant ATP, apimamos nefiksuotos atsargos, vykdymo laikai, suplanuoti gavimai ir išdavimai.
     - *ATP + išdavimo laiko* rezervas – siuntimo data lygi ATP datai, pridėjus prekės išdavimo maržą. Išdavimo laiko rezervas yra laikas, reikalingas prekes paruošti siuntimui.
-    - *CTP* – naudokite CTP skaičiavimą, kurį pateikė įtaisytasis bendrojo planavimo modulis. Jei naudojate planavimo optimizavimą, *CTP* pristatymo datos valdymo metodas neleidžiamas, todėl jį pasirinkus bus įvyko klaida skaičiuojant.
-    - *CTP planavimo optimizavimui* – naudokite CTP skaičiavimą, kuris pateikiamas planavimo optimizavimo. Ši pasirinktis neturi jokios įtakos, jei naudojate įtaisytą bendrojo planavimo sistemą.
+    - *CTP* – naudokite CTP skaičiavimą, kurį pateikė pasenusio bendrojo planavimo variklis. Jei naudojate planavimo optimizavimą, *CTP* pristatymo datos valdymo metodas neleidžiamas, todėl jį pasirinkus bus įvyko klaida skaičiuojant.
+    - *CTP planavimo optimizavimui* – naudokite CTP skaičiavimą, kuris pateikiamas planavimo optimizavimo. Ši pasirinktis neturi jokios įtakos, jei naudojate pasenusią bendrojo planavimo sistemą.
 
 ### <a name="set-delivery-date-control-overrides-for-individual-products"></a>Nustatyti atskirų produktų pristatymo datos valdymo nepaisymus
 
@@ -85,7 +86,7 @@ Galite priskirti tam tikrų produktų, kurių pristatymo datos valdymo metodą n
 
 ## <a name="schedule-ctp-for-planning-optimization-calculations"></a><a name="batch-job"></a> Planuoti CTP planavimo optimizavimo skaičiavimams
 
-Kai naudojate CTP planavimo optimizavimui atlikti, turite paleisti dinaminį planą, kad sistema paleistų CTP skaičiavimus, o tada nustatyti visų atitinkamų užsakymų patvirtintas siuntimo ir gavimo datas. Į planą turi būti įtrauktos visos prekės, kurių siuntimo ir gavimo datos patvirtintos. (Kai naudojate CTP įtaisytam planavimo moduliui, CTP skaičiavimai nedelsiant atliekami vietoje. Todėl nereikia vykdyti dinaminį planą, kad būtų rodomi CTP rezultatai.)
+Kai naudojate CTP planavimo optimizavimui atlikti, turite paleisti dinaminį planą, kad sistema paleistų CTP skaičiavimus, o tada nustatyti visų atitinkamų užsakymų patvirtintas siuntimo ir gavimo datas. Į planą turi būti įtrauktos visos prekės, kurių siuntimo ir gavimo datos patvirtintos. (Kai naudojate CTP pasenusiam bendrojo planavimo moduliui, CTP skaičiavimai nedelsiant atliekami vietoje. Todėl nereikia vykdyti dinaminį planą, kad būtų rodomi CTP rezultatai.)
 
 Norint užtikrinti, kad datos galimos visiems vartotojams laiku, rekomenduojame nustatyti paketines užduotis, kad atitinkami planai būtų paleidžiami pasikartojančiai. Pavyzdžiui, paketinė užduotis, kuri nustatyta vykdyti dinaminį planą kas 30 minučių, patvirtintų siuntų ir gavimo datas nustato kas 30 minučių. Todėl vartotojai, kurie įves ir importuos užsakymus, turės laukti ne daugiau kaip 30 minučių, kad gautų patvirtintą siuntimo ir gavimo datą.
 
@@ -98,17 +99,17 @@ Norėdami nustatyti paketinę užduotį, kad pagal reguliarų planą būtų vykd
 1. Pasirinkite **Gerai grafikui** įrašyti.
 1. Pasirinkite **Gerai,** norėdami sukurti paketinę užduotį ir uždaryti dialogo langą.
 
-## <a name="use-ctp-for-built-in-master-planning"></a>Naudoti CTP integruojant bendrąjį planavimą
+## <a name="use-ctp-for-the-deprecated-master-planning-engine"></a>Naudoti CTP pasenusiam bendrojo planavimo moduliui
 
-### <a name="create-a-new-order-by-using-ctp-for-built-in-master-planning"></a>Kurti naują užsakymą naudojant CTP įtaisytam bendrojo planavimo užsakymui
+### <a name="create-a-new-order-by-using-ctp-for-the-deprecated-master-planning-engine"></a>Kurti naują užsakymą naudojant CTP pasenusiam bendrojo planavimo moduliui
 
 Kiekvieną kartą, kai pridedate naują pardavimo užsakymą arba užsakymo eilutę, sistema jai priskiria numatytąjį pristatymo datos valdymo metodą. Užsakymo antraštė visada prasideda visuotiniu numatytuoju metodu. Jei perrašymo užduotis priskiriama prie užsakytos prekės, nauja užsakymo eilutė naudos šį nepaisymus. Kitu atveju naujoje užsakymo eilutėje taip pat bus naudojamas visuotinis numatytasis metodas. Todėl numatytuosius metodus turėtumėte nustatyti taip, kad jie atitiktų dažniausiai naudojamas pristatymo datos kontrolės metodą. Sukūrę užsakymą, užsakymo antraštėje ir (arba) užsakymo eilutės lygyje galite nepaisyti numatytojo metodo, jei to reikalaujate. Daugiau informacijos rasite Nustatyti numatytuosius [pristatymo datos valdymo metodus ir](#default-methods) Keisti [esamus pardavimo užsakymus, kad būtų galima naudoti CTP](#change-orders).
 
-### <a name="view-confirmed-delivery-dates-when-you-use-ctp-for-built-in-master-planning"></a>Peržiūrėti patvirtintas pristatymo datas, kai CTP naudojama įtaisytam bendrojo planavimo metu
+### <a name="view-confirmed-delivery-dates-when-you-use-ctp-for-the-deprecated-master-planning-engine"></a>Peržiūrėti patvirtintas pristatymo datas, kai naudojate CTP pasenusiam bendrojo planavimo moduliui
 
-Jei naudojate integruotą bendrojo planavimo įrenginį, CTP skaičiavimai taikomi užsakymams ir (**arba**) užsakymų eilutėms, kur pristatymo datos valdymo laukas nustatytas kaip *CTP*.
+Jei naudojate pasenusią bendrojo planavimo sistemą, CTP skaičiavimai taikomi užsakymams ir (**arba) užsakymų eilutėms, kai pristatymo datos valdymo** laukas nustatytas kaip *CTP*.
 
-Pardavimo eilutėms, kuriose CTP naudojamas įtaisytas bendrasis planavimas, kaskart įrašant pardavimo eilutę **sistema** **automatiškai** nustato laukus Patvirtinta siuntimo data ir Patvirtinta gavimo data. Jei vėliau pakeisite pardavimo eilutę (pvz., pakeisite jos kiekį ar svetaines), datos bus nedelsiant perskaičiuotos.
+Pardavimo eilutėms, kurios naudoja CTP pasenusiam bendrojo planavimo moduliui, **·** **sistema** automatiškai nustato laukus Patvirtinta siuntimo data ir Patvirtinta gavimo data kiekvieną kartą įrašant pardavimo eilutę. Jei vėliau pakeisite pardavimo eilutę (pvz., pakeisite jos kiekį ar svetaines), datos bus nedelsiant perskaičiuotos.
 
 - Norėdami peržiūrėti patvirtintas pardavimo užsakymo eilutės pristatymo datas, atidarykite pardavimo užsakymą ir pasirinkite pardavimo eilutę. Tada eilutės informacijos **"FastTab"**, skirtuke **Pristatymas**, peržiūrėkite patvirtintas siuntimo **datos ir** patvirtintos **gavimo datos** vertes.
 - Norėdami peržiūrėti viso užsakymo patvirtintas pristatymo datas, atidarykite pardavimo užsakymą ir pasirinkite antraštės **rodinį**. Tada skirtuko pristatyme **"** FastTab" peržiūrėkite patvirtintas siuntimo **datos ir** patvirtintos **gavimo datos** vertes.
@@ -155,8 +156,8 @@ Norėdami pakeisti užsakymą taip, kad jis naudoja CTP užsakymo antraštės ly
 1. Pasirinkite **Antraštė**, jei norite atidaryti antraštės informaciją pardavimo **užsakymo informacijos** puslapyje.
 1. Pristatymo "**FastTab**" nustatykite **vieną** iš šių pristatymo datos valdymo lauko verčių, atsižvelgdami į jūsų naudojate planavimo sistemą:
 
-    - *CTP* – naudokite CTP skaičiavimą, kurį pateikė įtaisytasis bendrojo planavimo modulis. Jei naudojate planavimo optimizavimą, *CTP* pristatymo datos valdymo metodas neleidžiamas. Todėl jei pasirinksite šią vertę, bus klaida skaičiuojant.
-    - *CTP planavimo optimizavimui* – naudokite CTP skaičiavimą, kuris pateikiamas planavimo optimizavimo. Šis parametras neturi jokios įtakos, jei naudojate įtaisytą bendrojo planavimo sistemą.
+    - *CTP* – naudokite CTP skaičiavimą, kurį pateikė pasenusio bendrojo planavimo variklis. Jei naudojate planavimo optimizavimą, *CTP* pristatymo datos valdymo metodas neleidžiamas. Todėl jei pasirinksite šią vertę, bus klaida skaičiuojant.
+    - *CTP planavimo optimizavimui* – naudokite CTP skaičiavimą, kuris pateikiamas planavimo optimizavimo. Šis parametras neturi jokios įtakos, jei naudojate pasenusią bendrojo planavimo sistemą.
 
 <!-- KFM: Additional dialogs are shown here. Review these with the PM and expand this procedure at next revision. -->
 1. Pasirinkite **Gerai** keitimo pritaikymui.
@@ -165,15 +166,15 @@ Norėdami pakeisti užsakymą taip, kad jis naudoja CTP užsakymo antraštės ly
 
 Jei sukūrėte užsakymo eilutę naudodami kitą pristatymo datos valdymo metodą, bet kuriuo metu galite pakeisti į CTP. Keitimai, atlikti eilutės lygyje, neturi įtakos jokioms kitoms eilutėms. Tačiau dėl jų bendros užsakymo pristatymo datos gali būti perkeltos į priekį arba atgal, atsižvelgiant į tai, kaip pasikeičia kiekvienas atnaujintas eilutės skaičiavimas. <!-- KFM: Confirm this intro at next revision -->
 
-Norėdami pakeisti užsakymą taip, kad jis naudojamas CTP įtaisytam bendrojo planavimo metu eilutės lygiu, atlikite šiuos veiksmus.
+Norėdami pakeisti užsakymą taip, kad jis eilutės lygiu naudoja pasenusio bendrojo planavimo modulio CTP, atlikite šiuos veiksmus.
 
 1. Eikite į **Gautinos sumos \> Užsakymai \> Visi pardavimo užsakymai**.
 1. Atidarykite pardavimo užsakymą, kurį norite nustatyti, arba sukurkite naują.
 1. Išsamios pardavimo **užsakymo informacijos** puslapio pardavimo užsakymo **eilutės** "FastTab" pasirinkite pardavimo užsakymo eilutę, kurią norite nustatyti.
 1. Eilutės informacijos **"** FastTab", **skirtuke** Pristatymas, **nustatykite** lauką Pristatymo datos valdymas, viena iš šių verčių, atsižvelgiant į jūsų naudojate planavimo mašinų:
 
-    - *CTP* – naudokite CTP skaičiavimą, kurį pateikė įtaisytasis bendrojo planavimo modulis. Jei naudojate planavimo optimizavimą, *CTP* pristatymo datos valdymo metodas neleidžiamas. Todėl jei pasirinksite šią vertę, bus klaida skaičiuojant.
-    - *CTP planavimo optimizavimui* – naudokite CTP skaičiavimą, kuris pateikiamas planavimo optimizavimo. Šis parametras neturi jokios įtakos, jei naudojate įtaisytą bendrojo planavimo sistemą.
+    - *CTP* – naudokite CTP skaičiavimą, kurį pateikė pasenusio bendrojo planavimo variklis. Jei naudojate planavimo optimizavimą, *CTP* pristatymo datos valdymo metodas neleidžiamas. Todėl jei pasirinksite šią vertę, bus klaida skaičiuojant.
+    - *CTP planavimo optimizavimui* – naudokite CTP skaičiavimą, kuris pateikiamas planavimo optimizavimo. Šis parametras neturi jokios įtakos, jei naudojate pasenusią bendrojo planavimo sistemą.
 
     Atsiranda **dialogo langas Galimos siuntimo ir** gavimo datos, rodomos galimos siuntimo ir gavimo datos. Šis dialogo langas veikia taip pat kaip užsakymo eilutėse, kaip aprašyta ankstesniame skyriuje.
 

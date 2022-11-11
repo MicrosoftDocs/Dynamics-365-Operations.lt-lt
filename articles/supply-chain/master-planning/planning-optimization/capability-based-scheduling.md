@@ -1,5 +1,5 @@
 ---
-title: Planavimas su išteklių pasirinkimu pagal pajėgumą
+title: Tvarkaraščio sudarymas su išteklių pasirinkimu pagal pajėgumą
 description: Šiame straipsnyje aprašomas išteklių pasirinkimas neriboto pajėgumo planavimo metu, kai nurodote pajėgumus kaip operacijos išteklių reikalavimus.
 author: t-benebo
 ms.date: 08/09/2022
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4a3c8236183b81ad015b43d7dbf869c177eafd44
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 176f40ad8cd1aa1831bbe50c0ebd91ec0cc3bc89
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335412"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739904"
 ---
 # <a name="scheduling-with-resource-selection-based-on-capability"></a>Planavimas su išteklių pasirinkimu, pagrįstu pajėgumais
 
@@ -43,7 +43,7 @@ Norėdami priskirti pajėgumus operacijos ištekliui, naudokite **Pajėgumų** �
 - **Įsigaliojimas** – nurodykite pirmą datą, kai taikomas išteklių arba pajėgumų priskyrimas. Planavimo metu sistema nenaudos išteklių ar pajėgumų, kurių pajėgumo priskyrimas nebegalioja, net jei kitais atžvilgiais šie ištekliai atitinka reikalavimus.
 - **Galiojimas** – nurodykite paskutinę datą, kai taikomas išteklių arba pajėgumų priskyrimas. Planavimo metu sistema nenaudos išteklių ar pajėgumų, kurių pajėgumo priskyrimas nebegalioja, net jei kitais atžvilgiais šie ištekliai atitinka reikalavimus.
 - **Lygis** – nurodykite pajėgumo kompetencijos lygį, kurį turi turėti ištekliai. Tada, jei nurodote **Reikalingo minimalaus lygio** reikšmę ištekliaus arba pajėgumo reikalavimui, planavimo variklis atsižvelgia į kompetencijos lygį ištekliaus pasirinkimo metu. Tada sistema parenka tik išteklius su reikiamais pajėgumais, kurių lygis atitinka arba viršija šaltinio reikalavime nurodytą minimalų lygį.
-- **Prioritetas** – šio lauko dar nepalaiko planavimo optimizavimas. Tačiau jei naudojate įtaisytąjį planavimo variklį, galite naudoti **Prioriteto** lauką ištekliaus arba pajėgumo priskyrime ištekliaus prioritetui apibrėžti. Tada, jeigu puslapio **Planavimo parametrai** lauke **Pirminių išteklių pasirinkimas** pasirinkta parinktis *Prioritetas*, planavimo metu sistema pirmiausia parenka aukščiausio prioriteto (tai yra, turintį mažiausią lauko **Prioritetas** skaitinę reikšmę) išteklių.
+- **Prioritetas** – šio lauko dar nepalaiko planavimo optimizavimas. Tačiau jei naudojate pasenusią bendrojo planavimo sistemą, **ištekliaus** arba pajėgumo priskyrimo lauke Prioritetas galite nurodyti išteklių prioritetą. Tada, jeigu puslapio **Planavimo parametrai** lauke **Pirminių išteklių pasirinkimas** pasirinkta parinktis *Prioritetas*, planavimo metu sistema pirmiausia parenka aukščiausio prioriteto (tai yra, turintį mažiausią lauko **Prioritetas** skaitinę reikšmę) išteklių.
 
 ## <a name="example"></a>Pavyzdys
 

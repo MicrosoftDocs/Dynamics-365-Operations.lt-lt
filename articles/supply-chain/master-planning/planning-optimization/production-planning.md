@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 5c8169a8d2c3e45304142fb6b4d504e620c545a4
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 43da249637c44b3f56e8b5e210a0e44d9ac6cb9d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335262"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740555"
 ---
 # <a name="production-planning"></a>Gamybos planavimas
 
 [!include [banner](../../includes/banner.md)]
-
-Planavimo optimizavimas palaiko kelis gamybos scenarijus. Jei pereinate iš esamo, įtaisyto bendrojo planavimo mechanizmo, svarbu žinoti apie pasikeitusį veikimo būdą.
 
 Toliau pateiktame vaizdo įraše pateikiamas trumpas įžanga apie kai kurias šiame straipsnyje aptartas sąvokas: [Dynamics 365 Supply Chain Management optimizavimo patobulinimų planavimas](https://youtu.be/u1pcmZuZBTw).
 
@@ -46,10 +44,6 @@ Suplanuoti gamybos užsakymai apima maršruto ID, kuris būtinas gamybai planavi
 
 - **Suplanuotas gamybos užsakymas** – gamybos laikas paremtas statiniu išleisto produkto gamybos laiku.
 - **Patvirtintas gamybos užsakymas** – gamybos laikas paremtas planavimu, naudojančiu maršruto informaciją ir susijusius išteklių apribojimus.
-
-Norėdami gauti daugiau informacijos apie numatomą funkcijos prieinamumą, žiūrėkite [Planavimo optimizavimo pritaikymo analizė](planning-optimization-fit-analysis.md).
-
-Jei jums reikalingos gamybos funkcijos, kurios dar nėra prieinamos planavimo optimizavime, galite toliau naudoti įtaisytąjį bendrojo planavimo mechanizmą. Išimtis nebūtina.
 
 ## <a name="delays"></a>Atidėjimai
 
@@ -76,15 +70,15 @@ Galite naudoti **Išskleidimo** puslapį analizuoti poreikiui, kuris reikalingas
 
 ## <a name="filters"></a><a name="filters"></a>Filtrai
 
-Norėdami užtikrinti, kad planavimo optimizavimas turi teisingam rezultatui apskaičiuoti reikalingą informaciją, turite įtraukti visus produktus, kurie turi bet kokį ryšį su produktais visoje suplanuoto užsakymo KS struktūroje. Planavimo scenarijuose, apimančiuose gamybą, mes rekomenduojame vengti vykdyti filtruotą bendrąjį planavimą.
+Norėdami užtikrinti, kad bendrasis planavimas turi informacijos, kurios reikia norint apskaičiuoti teisingus rezultatus, turite įtraukti visus produktus, kurie turi bet kokį ryšį su produktais, visoje suplanuoto užsakymo KS struktūroje. Planavimo scenarijuose, apimančiuose gamybą, mes rekomenduojame vengti vykdyti filtruotą bendrąjį planavimą.
 
-Nors priklausomos antrinės prekės yra automatiškai aptinkamos ir įtraukiamos į bendrojo planavimo vykdymą, kai naudojamas įtaisytasis bendrojo planavimo mechanizmas, planavimo optimizavimas šiuo metu neatlieka šio veiksmo.
+Nors priklausomos antriniai prekės automatiškai aptinkamos ir įtraukiamos į bendrąjį planavimą, kai naudojamas pasenusias bendrojo planavimo mechanizmas, planavimo optimizavimas šiuo metu neatlika šio veiksmo.
 
 Pavyzdžiui, jei vienas varžtas iš produkto A KS struktūros taip pat naudojamas produktui B gaminti, visi A ir B produktų KS struktūros produktai turi būti įtraukti į filtrą. Kadangi gali būti labai sudėtinga užtikrinti, kad visi produktai būtų filtro dalis, rekomenduojame vengti filtruoto bendrojo planavimo vykdymo, kai įtraukiami gamybos užsakymai. Kitu atveju bendrasis planavimas pateiks be jūsų besidėtingų rezultatų.
 
 ### <a name="reasons-to-avoid-filtered-master-planning-runs"></a>Priežastys, kodėl išvengti filtruotus bendrojo planavimo avimus
 
-Kai vykdote filtruotus bendrojo produkto planus, „Planning Optimization“ (skirtingai nuo įtaisytojo bendrojo planavimo modulio) neaptinka visų tarpinės gamybos ir žaliavų to produkto KS struktūroje, todėl jo neįeis į bendrojo planavimo procesą. Nors „Planning Optimization“ identifikuoja pirmąjį produkto KS struktūros lygį, jo metu iš duomenų bazės nėra įkeliami produkto parametrai (pvz., numatytasis užsakymo tipas arba prekės padengimas).
+Kai vykdote filtruotą bendrąjį produkto planavimą, planavimo optimizavimas (skirtingai nei pasenęs bendrojo planavimo variklis) neaptinka visų tarpinės gamybos ir žaliavų to produkto KS struktūroje, todėl jo neįeis į bendrojo planavimo procesą. Nors „Planning Optimization“ identifikuoja pirmąjį produkto KS struktūros lygį, jo metu iš duomenų bazės nėra įkeliami produkto parametrai (pvz., numatytasis užsakymo tipas arba prekės padengimas).
 
 „Planning Optimization“ vykdymo duomenys įkeliami iš anksto ir taikomi filtrai. Tai reiškia, kad jei tarpinė gamyba arba žaliavos, įtrauktos į konkretų produktą, nėra filtro dalis, informacija apie ją nebus fiksuojama vykdyti. Be to, jei tarpinė gamyba arba žaliavos taip pat įtraukiamos į kitą produktą, tada filtruotas paleidimas, kuriame įtrauktas tik pradinis produktas ir jo komponentai, pašalintų esamą suplanuotą to kito produkto poreikį.
 

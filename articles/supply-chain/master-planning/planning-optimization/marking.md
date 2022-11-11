@@ -1,6 +1,6 @@
 ---
-title: Inventoriaus ženklinimas su „Planning Optimization“
-description: Šiame straipsnyje pateikiama informacija apie pasirinktis, kurias galima naudoti žymint atsargas patvirtintiuose užsakymuose, kai naudojate planavimo optimizavimą.
+title: Atsargų žymėjimas
+description: Šiame straipsnyje pateikiama informacija apie pasirinktis, kurias galima naudoti žymint atsargas patvirtintiuose užsakymuose.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 55c83cdbc144f194fe80e8281a35ec7ff43d551e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: c86db6a670d7d0f7bfe74b7466b9bce766e4a08d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219944"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740609"
 ---
-# <a name="inventory-marking-with-planning-optimization"></a>Inventoriaus ženklinimas su „Planning Optimization“
+# <a name="inventory-marking"></a>Atsargų žymėjimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šiame straipsnyje pateikiama informacija apie pasirinktis, kurias galima naudoti žymint atsargas patvirtintiuose užsakymuose, kai naudojate planavimo optimizavimą.
+Šiame straipsnyje pateikiama informacija apie pasirinktis, kurias galima naudoti žymint atsargas patvirtintiuose užsakymuose.
 
 *Ženklinimas* naudojamas susieti paklausą ir pasiūlą. Jis atspindi *fiksavimą*, kuris nurodo, kaip pagrindinis planavimas tikisi padengti paklausą. Planavimo požiūriu, pagrindinis skirtumas tas, kad ženklinimas yra pastovesnis nei fiksavimas.
 

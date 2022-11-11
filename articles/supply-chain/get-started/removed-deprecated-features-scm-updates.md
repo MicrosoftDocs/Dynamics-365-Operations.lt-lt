@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: f70d05f5663d8249b2435ad353421c278692a9ac
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 722b34e89a54715db39259549c11a78d69d2b4d3
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218810"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739876"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Pašalintos arba nebenaudojamos „Dynamics 365 Supply Chain Management“ funkcijos
 
@@ -89,7 +89,7 @@ ms.locfileid: "9218810"
 | **Pakeitė kita funkcija?**   | Taip, planavimo optimizavimas pakeis dabartinį įtaisytąjį „Supply Chain Management“ bendrojo planavimo mechanizmą. |
 | **Paveiktos produkto sritys**         | „Supply Chain Management” – bendrasis planavimas |
 | **Visuotinio diegimo parinktis**              | Tik debesyje. Planavimo optimizavimas nepalaikomas vietiniuose visuotiniuose diegimuose. |
-| **Būsena**                         | Nerekomenduojama. Iki 2022 m. balandžio 1 d. įtaisytasis tiekimo grandinės valdymo bendrojo planavimo modulis nebepalaiko gamybos scenarijų. Nuo tos datos Microsoft sustabdys visą aktyvų įtaisytojo planavimo modulio gamybos scenarijų vystymas, neišleis naujų funkcijų ir išleis tik kritines klaidos pataisas. Po tos datos visos įmonės, kurioms reikia gamybos scenarijų palaikymo, savo bendrojo planavimo skaičiavimams turi naudoti planavimo optimizavimą. Tikimasi, kad planavimo optimizavimas visiškai palaikys gamybos scenarijus iki 2022 m. spalio mėn. Daugiau informacijos ieškokite planavimo optimizavimo [dokumentuose](../master-planning/planning-optimization/planning-optimization-overview.md).<br><br>Įmonės, kurioms taikomos jav tiekimo grandinės valdymo sistemos, po 2022 m. balandžio mėn. gali toliau naudoti įtaisytą bendrojo planavimo vedlį gamybos scenarijams. Tačiau daugiau funkcijų patobulinimų nebus teikiama. |
+| **Būsena**                         | Nerekomenduojama. Iki 2022 m. balandžio 1 d. įtaisytasis tiekimo grandinės valdymo bendrojo planavimo modulis nebepalaiko gamybos scenarijų. Nuo tos datos Microsoft sustabdys visą aktyvų įtaisytojo planavimo modulio gamybos scenarijų vystymas, neišleis naujų funkcijų ir išleis tik kritines klaidos pataisas. Po tos datos visos įmonės, kurioms reikia gamybos scenarijų palaikymo, savo bendrojo planavimo skaičiavimams turi naudoti planavimo optimizavimą. Tikimasi, kad planavimo optimizavimas visiškai palaikys gamybos scenarijus iki 2022 m. spalio mėn. Daugiau informacijos rasite pasenusios [bendrojo planavimo peržiūra](../master-planning/deprecated-master-planning-overview.md).<br><br>Įmonės, kurioms taikomos jav tiekimo grandinės valdymo sistemos, po 2022 m. balandžio mėn. gali toliau naudoti įtaisytą bendrojo planavimo vedlį gamybos scenarijams. Tačiau daugiau funkcijų patobulinimų nebus teikiama. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Supply Chain Management“ 10.0.11 versijoje
 
@@ -101,7 +101,7 @@ ms.locfileid: "9218810"
 | **Pakeitė kita funkcija?**   | Taip, planavimo optimizavimas pakeis dabartinį įtaisytąjį „Supply Chain Management“ bendrojo planavimo mechanizmą. |
 | **Paveiktos produkto sritys**         | „Supply Chain Management” – bendrasis planavimas |
 | **Visuotinio diegimo parinktis**              | Tik debesyje. Planavimo optimizavimas nepalaikomas vietiniuose visuotiniuose diegimuose. |
-| **Būsena**                         | Nebenaudojama. Nuo 2021 m. balandžio 1 d. paskirstymo scenarijai nebebus palaikomi su įdiegtu „Dynamics 365 Supply Chain Management“ pagrindinio planavimo varikliu. Paskirstymo scenarijuose klientai turi naudoti bendrojo planavimo skaičiavimo planavimo optimizavimą. Daugiau informacijos žr. [Planavimo optimizavimo dokumentacija](../master-planning/planning-optimization/planning-optimization-overview.md). Klientai, turintys vietinius visuotinius „Dynamics 365 Supply Chain Management” diegimus, po 2021 m. balandžio mėn. gali toliau naudoti „Supply Chain Management” bendrojo planavimo mechanizmą paskirstymo scenarijuose. Tačiau daugiau funkcijų patobulinimų nebus teikiama. |
+| **Būsena**                         | Nebenaudojama. Nuo 2021 m. balandžio 1 d. paskirstymo scenarijai nebebus palaikomi su įdiegtu „Dynamics 365 Supply Chain Management“ pagrindinio planavimo varikliu. Paskirstymo scenarijuose klientai turi naudoti bendrojo planavimo skaičiavimo planavimo optimizavimą. Daugiau informacijos rasite pasenusios [bendrojo planavimo peržiūra](../master-planning/deprecated-master-planning-overview.md). Klientai, turintys vietinius visuotinius „Dynamics 365 Supply Chain Management” diegimus, po 2021 m. balandžio mėn. gali toliau naudoti „Supply Chain Management” bendrojo planavimo mechanizmą paskirstymo scenarijuose. Tačiau daugiau funkcijų patobulinimų nebus teikiama. |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Ankstesni pranešimai apie pašalintas arba nebenaudojamas funkcijas
 

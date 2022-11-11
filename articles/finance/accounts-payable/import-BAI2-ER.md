@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 46a50f4b00125656fc185ad569b94eeef00dc3c3
-ms.sourcegitcommit: 649f1db26da8f20602f11180fc565b7c59eaf545
-ms.translationtype: MT
+ms.openlocfilehash: d24e117b21e291dba1e41d9fa15187b84ff795cf
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337574"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752726"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>Nustatyti pažangų banko suderinimo importavimą naudojant elektronines ataskaitas
 
@@ -34,7 +34,7 @@ Išplėstinės banko suderinimo priemonė leidžia importuoti elektroninius bank
 2. "Microsoft" konfigūracijos teikėjo **išklotijoje** pasirinkite **Saugyklos**.
 3. Pasirinkite **Visuotiniai ištekliai** ir pasirinkite **Atidaryti**.
 4. Jei reikia užmegzti ryšį su saugykla, dialogo lange pasirinkite mėlyną saitą.
-5. Konfigūracijos sąraše rasti BAI2 banko **išrašo \> modelio banko išrašo modelį**.
+5. Konfigūracijos sąraše rasti išplėstinio banko **suderinimo išrašo modelio \> ABR BAI2 formatą**.
 6. **Pasirinkti BAI2** formatą.
 7. Skirtuke **Versijos** FastTab pasirinkite naujausią versiją, tada pasirinkite **Importuoti**.
 

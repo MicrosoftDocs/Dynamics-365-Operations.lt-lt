@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 15ec53c1f13b3017fb6e829bd1c8e99fbb938ce3
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 4459a5d72fafe2596b7fc0cedf060b8f23bb43d2
+ms.sourcegitcommit: 2b654e60e2553a5835ab5790db4ccfa58828fae7
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9690000"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "9750713"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planavimo optimizavimo tinkamumo analizė
 
 [!include [banner](../../includes/banner.md)]
 
-Kaip perkėlimo proceso dalį turite analizuoti planavimo optimizavimo tinkamumo analizės rezultatą. Atkreipkite dėmesį, kad planavimo optimizavimo aprėptis nesutampa su dabartine integruota bendrojo planavimo funkcija. Ruošiantis perkėlimui, rekomenduojame tai aptarti kartu su partneriu ir perskaityti dokumentus. 
+Kaip perkėlimo proceso dalį turite analizuoti planavimo optimizavimo tinkamumo analizės rezultatą. Atkreipkite dėmesį, kad planavimo optimizavimo aprėptis nėra lygi pasenusiai bendrojo planavimo modulio funkcijai. Ruošiantis perkėlimui, rekomenduojame tai aptarti kartu su partneriu ir perskaityti dokumentus.
 
-Planavimo optimizavimo tinkamumo analizė padeda nustatyti atvejus, kai integruotos bendrojo planavimo funkcijos ir „Planning Optimization“ rezultatas gali skirtis. Ši analizė atliekama remiantis dabartine jūsų sąranka ir duomenimis. 
+Planavimo optimizavimo pritaikymo analizė padeda nustatyti, kur rezultatas gali skirtis nuo pasenusio bendrojo planavimo modulio ir planavimo optimizavimo. Ši analizė atliekama remiantis dabartine jūsų sąranka ir duomenimis. 
 
 Norėdami peržiūrėti planavimo optimizavimo tinkamumo analizės rezultatą, eikite į **Bendrasis planavimas** \> **Sąranka** \> **Planavimo optimizavimo tinkamumo analizė** ir pasirinkite **Atlikti analizę**. Jei atlikus analizę randama neatitikimų, jie pateikiami tame pačiame puslapyje. (Analizė gali užtrukti kelias minutes.)
 
@@ -64,7 +64,6 @@ Tolesnėje lentelėje pateikiami skirtingi rezultatai, rodomi po tinkamumo anali
 | Pagrindiniai kalendoriai | Kalendoriai, naudojantys pagrindinį kalendorių: *\#* | Dabar ši funkcija yra palaikoma. | Palaikoma | 
 | Paketo perdavimo kodai | Neaktyvaus pagrindinio paketo perdavimas:*\#* | Dabar ši funkcija yra palaikoma. Papildomos informacijos ieškokite paketams [žymėti kaip turimas arba negalimas, žr.](../../inventory/batch-disposition-codes.md) | Palaikoma |
 | Galimos pateikti atsargos (CTP) | Numatytieji užsakymo parametrai su pristatymo datos valdymu, nustatytu į CTP: *\#* | Tiekimo grandinės valdymo 10.0.28 ir naujesnio proceso, kuris vadinamas CTP *planavimo optimizavimui,* leidžia patvirtinti siuntimo ir gavimo datas po dinaminio plano vykdymo. Senesnių tiekimo grandinės valdymo versijų senesnio CTP parametro nepaisoma, kai įgalintas planavimo optimizavimas. | Palaikoma |
-| Kopijuoti statinį į dinaminį planą | Kopijavimas statinio į dinaminį planą yra įjungtas bendrojo planavimo parametruose. | Planavimo optimizavimas nekopijuoja statinio plano į dinaminį planą, neatsižvelgiant į šį parametrą. Paprastai ši koncepcija yra mažiau aktuali dėl planavimo optimizavimo teikiamo greičio ir visiško regeneravimo. Jei naudojami du ar daugiau planų, turėtų būti suaktyvintas kiekvieno plano bendrasis planavimas. | Netaikoma |
 | Patvirtinimas | Padengimo grupės su nustatyta automatinio patvirtinimo laiko riba:*\#* | 10.0.7 ar vėlesnėje versijoje patvirtinimas palaikomas kaip atskira patvirtinimo paketinė užduotis po to, kai bendrasis planavimas yra baigtas (jei [funkcijų valdyme](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) įjungta funkcija *Automatinis planavimo optimizavimo patvirtinimas*). Atkreipkite dėmesį, kad automatinis planavimo optimizavimo patvirtinimas yra pagrįstas užsakymo data (pradžios data), o ne poreikio data (pabaigos data). Taip užtikrinama, kad suplanuotų užsakymų patvirtinimas įvyktų laiku, tačiau į patvirtinimo laiko ribą nereikia įterpti gamybos laiko. | Palaikoma |
 | Patvirtinimas | Prekės padengimo įrašai su nustatytu automatiniu patvirtinimu: *\#* | 10.0.7 ar vėlesnėje versijoje automatinis patvirtinimas palaikomas kaip atskira patvirtinimo paketinė užduotis po to, kai bendrasis planavimas yra baigtas (jei [funkcijų valdyme](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) įjungta funkcija *Automatinis planavimo optimizavimo patvirtinimas*). Atkreipkite dėmesį, kad automatinis planavimo optimizavimo patvirtinimas yra pagrįstas užsakymo data (pradžios data), o ne poreikio data (pabaigos data). Taip užtikrinama, kad suplanuotų užsakymų patvirtinimas įvyktų laiku, tačiau į patvirtinimo laiko ribą nereikia įterpti gamybos laiko. | Palaikoma |
 | Patvirtinimas | Bendrieji planai su nustatytu automatiniu patvirtinimu: *\#* | 10.0.7 ar vėlesnėje versijoje automatinis patvirtinimas palaikomas kaip atskira patvirtinimo paketinė užduotis po to, kai bendrasis planavimas yra baigtas (jei [funkcijų valdyme](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) įjungta funkcija *Automatinis planavimo optimizavimo patvirtinimas*). Atkreipkite dėmesį, kad automatinis planavimo optimizavimo patvirtinimas yra pagrįstas užsakymo data (pradžios data), o ne poreikio data (pabaigos data). Taip užtikrinama, kad suplanuotų užsakymų patvirtinimas įvyktų laiku, tačiau į patvirtinimo laiko ribą nereikia įterpti gamybos laiko. | Palaikoma |
@@ -93,34 +92,27 @@ Tolesnėje lentelėje pateikiami skirtingi rezultatai, rodomi po tinkamumo anali
 | Gamyba | Formulės versijos su sudėtiniai / šalutiniais produktais: *\#* | Ši funkcija laukia patvirtinimo. Šiuo metu sudėtinių ir šalutinių produktų, susietų su formulės versija, nepaisoma, kai įjungtas planavimo optimizavimas. | 2022 išleidimo banga 2 |
 | Gamyba | Formulės versijos su išeiga: *\#* | Ši funkcija laukia patvirtinimo. Šiuo metu išeigos, susietos su formulės versija, nepaisoma, kai įjungtas planavimo optimizavimas. | 2022 išleidimo banga 2 |
 | Gamyba | Planai su sekomis: *\#* | Ši funkcija laukia patvirtinimo. Šiuo metu sekos nepaisoma, kai įjungtas planavimo optimizavimas, neatsižvelgiant į šį parametrą. | 2022 išleidimo banga 2 |
-| Gamyba | Paleisti gamybos užsakymai, kurie nepradėti, buvo suplanuoti pradėti anksčiau nei šiandien: *\#* | Ši funkcija laukia patvirtinimo. Šiuo metu, jei gamybos užsakymas vėluoja, bendrojo planavimo metu bus laikoma, kad jis bus baigtas šiandien. Tai aktualu išleistiems gamybos užsakymais, kurių pristatymo data yra praėjusi, tačiau užsakymai dar nėra baigti. | Būsima banga |
+| Gamyba | Paleisti gamybos užsakymai, kurie nepradėti, buvo suplanuoti pradėti anksčiau nei šiandien: *\#* | Ši funkcija laukia patvirtinimo. Šiuo metu, jei gamybos užsakymas vėluoja, bendrojo planavimo metu bus laikoma, kad jis bus baigtas šiandien. Tai aktualu išleistiems gamybos užsakymais, kurių pristatymo data yra praėjusi, tačiau užsakymai dar nėra baigti. | 2022 išleidimo banga 2 |
 | Gamyba | Ištekliai numatyti esant ribotai talpai: *\#* | Dabar ši funkcija yra palaikoma.| Palaikoma |
 | Gamyba | Maršrutai, naudojami planuojant: *\#* | Ši funkcija palaikoma. | Palaikoma |
-| Gamyba | Pardavimo linijos rezervavimas naudojant išskleidimą: *\#* | Pardavimo eilutės rezervavimas, naudojantis išskleidimą, nepalaikomas, kai įjungtas planavimo optimizavimas. | Būsima banga |
-| Gamyba | Planavimas išskleidžiant gamybos užsakymus: *\#* | Planavimas, naudojantis gamybos užsakymų išskleidimą, nepalaikomas, kai įjungtas planavimo optimizavimas. Gamybos užsakymai gali būti suplanuoti atskirai. | Būsima banga |
+| Gamyba | Pardavimo linijos rezervavimas naudojant išskleidimą: *\#* | Pardavimo eilutės rezervavimas, naudojantis išskleidimą, nepalaikomas, kai įjungtas planavimo optimizavimas. | 2022 išleidimo banga 2 |
+| Gamyba | Planavimas išskleidžiant gamybos užsakymus: *\#* | Planavimas, naudojantis gamybos užsakymų išskleidimą, nepalaikomas, kai įjungtas planavimo optimizavimas. Gamybos užsakymai gali būti suplanuoti atskirai. | 2022 išleidimo banga 2 |
 | Pasiūlymo patvirtinimai | Bendrieji planai su įgalintu pasiūlymo patvirtinimu: *\#* | Ši funkcija laukia patvirtinimo. Šiuo metu pasiūlymo patvirtinimai (RFQ) nėra laikomi poreikiu, kai įjungtas planavimo optimizavimas. Jų bus nepaisoma, neatsižvelgiant į šį nustatymą. | 2022 išleidimo banga 2 |
 | Paraiškos | Bendrieji planai su įgalintomis paraiškomis: *\#* | Dabar ši funkcija yra palaikoma. Papildomą informaciją rasite [Pirkimo paraiškos](purchase-requisitions.md) | Palaikoma |
 | Laiko rezervai | Padengimo grupės su laiko rezervu:*\#* | Dabar ši funkcija yra palaikoma. Papildomą informaciją rasite [Laiko rezervai](safety-margins.md) | Palaikoma |
 | Laiko rezervai | Bendrieji planai su laiko rezervu: *\#* | Dabar ši funkcija yra palaikoma. Papildomą informaciją rasite [Laiko rezervai](safety-margins.md) |  Palaikoma |
-| Saugos atsargų pildymas | Prekės padengimo įrašai, kurių parametras „Išpildyti minimumą” skiriasi nuo „Šiandienos data + įsigijimo laikas”: *\#* | Planavimo optimizavimas visada naudoja *Šiandienos data + įsigijimo laikas*. Šis pakeitimas sukurtas pasirengti supaprastintam planavimo nustatymui ateityje ir pateikti įgyvendinamą rezultatą. Jei įsigijimo laikas neįtrauktas į pakankamas atsargas, suplanuoti užsakymai, sukurti dabartinėms mažoms turimoms atsargos, visada bus atidėti dėl gamybos laiko. Tai gali sukelti daug triukšmo ir nepageidaujamų suplanuotų užsakymų. Geriausia yra pakeisti parametrą, kad būtų naudojama *Šiandienos data + įsigijimo laikas*. Atnaujinti bendruosius duomenis, kad būtų išvengta įspėjimų. | Netaikoma |
-| Pardavimo pasiūlymai | Bendrieji planai su įgalintais pardavimo pasiūlymais: *\#* | Ši funkcija laukia patvirtinimo. Šiuo metu į pasiūlymus neatsižvelgiama, kai įjungtas planavimo optimizavimas. Jų bus nepaisoma, neatsižvelgiant į šį nustatymą. | 2022 išleidimo banga 2 arba naujesnė versija |
-| Laikymo trukmė | Bendrieji planai su įgalinta laikymo trukme: *\#* | Ši funkcija laukia patvirtinimo. | 2022 išleidimo banga 2 |
+| Pardavimo pasiūlymai | Bendrieji planai su pardavimo pasiūlymo patvirtinimu: *\#* | Ši funkcija laukia patvirtinimo. Šiuo metu į pasiūlymus neatsižvelgiama, kai įjungtas planavimo optimizavimas. Jų bus nepaisoma, neatsižvelgiant į šį nustatymą. | 2022 išleidimo banga 2 |
+| Laikymo trukmė | Bendrieji planai su įgalinta laikymo trukme: *\#* | Dabar ši funkcija yra palaikoma. | Palaikoma |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Planavimo optimizavimo apžvalga](planning-optimization-overview.md)
-
-[Darbo su planavimo optimizavimu pradžia](get-started.md)
-
-[Skirtumas tarp įtaisytojo bendrojo planavimo ir „Planning Optimization“](planning-optimization-differences-with-built-in.md)
-
-[Planavimo optimizavimo nenaudojami parametrai](not-used-parameters.md)
-
-[Plano retrospektyvos ir planavimo žurnalų peržiūra](plan-history-logs.md)
-
-[Filtrų taikymas planui](plan-filters.md)
-
-[Planavimo užduoties atšaukimas](cancel-planning-job.md)
+- [Bendrojo planavimo sistemos architektūra](../master-planning-architecture.md)
+- [Bendrojo planavimo pradžia](get-started.md)
+- [Skirtumas tarp įtaisytojo bendrojo planavimo ir „Planning Optimization“](planning-optimization-differences-with-built-in.md)
+- [Planavimo optimizavimo nenaudojami parametrai](not-used-parameters.md)
+- [Plano retrospektyvos ir planavimo žurnalų peržiūra](plan-history-logs.md)
+- [Paleisti prekių subgrupės planavimą](plan-filters.md)
+- [Planavimo užduoties atšaukimas](cancel-planning-job.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

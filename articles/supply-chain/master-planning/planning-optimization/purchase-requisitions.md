@@ -1,6 +1,6 @@
 ---
 title: Pirkimo paraiškos
-description: Šiame straipsnyje aprašoma, kaip pirkimo paraiškos palaikomos planavimo optimizavime.
+description: Šiame straipsnyje aprašomos pirkimo paraiškos.
 author: t-benebo
 ms.date: 01/04/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: b4dcae11e83748da3ec0368e1ddf47fedf5de23c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d9d55186307b18f4c3be78ae0828b08d3c987aad
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867904"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740690"
 ---
 # <a name="purchase-requisitions"></a>Pirkimo paraiškos
 
@@ -59,7 +59,7 @@ Kai nustatote patvirtintų paraiškų laiko ribas individualiam bendrajam planui
 1. Pakartokite 2 ir 3 veiksmus kiekvienam papildomam bendrajam planui, kuriam norite nustatyti patvirtintų paraiškų laiko ribas.
 
 > [!IMPORTANT]
-> **Jau greitai:** Patvirtintų paraiškų laiko ribos dar nepalaikomos planavimo optimizavime. Kol jos taps palaikomos, nepaisoma visų lauke **Patvirtintų paraiškų laiko ribos (dienos)** įvedamų reikšmių.
+> Planavimo optimizavimas nepalaiko patvirtintų paraiškų laiko ribų. Kol jos taps palaikomos, nepaisoma visų lauke **Patvirtintų paraiškų laiko ribos (dienos)** įvedamų reikšmių.
 
 ## <a name="independent-supply-regardless-of-coverage-code"></a>Nepriklausomas tiekimas, nepaisant padengimo kodo
 

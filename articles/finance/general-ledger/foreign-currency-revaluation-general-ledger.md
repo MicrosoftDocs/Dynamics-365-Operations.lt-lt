@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e90780ca2a33725130b261fcaf4cb08d30f3270
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3e0f4184237537464998b2bc1a6ab02561d9d291
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8904534"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752809"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>DK užsienio valiutos kurso pasikeitimas
 
@@ -64,7 +64,9 @@ Perkainojimo procesą galima taikyti vienam arba daugiau juridinių subjektų. P
 
 Perkainojimo procesą galima taikyti vienai arba daugiau užsienio valiutų. Peržvalgoje bus rodomos visos pasirinktos perkainoti juridinių subjektų valiutos, kurios buvo registruotos atitinkamo pagrindinės sąskaitos tipo (Balansas arba Pelnas ir nuostolis) laikotarpiu. Apskaitos valiuta bus įtraukta į sąrašą, bet niekas nebus perkainojama pasirinkus apskaitos valiutą. 
 
-Nustatykite parinktį **Peržiūrėti prieš registruojant** į **Taip**, jei norite peržiūrėti DK perkainojimo rezultatą. DK peržiūra skiriasi nuo AR ir AP užsienio valiutos kurso pasikeitimo modeliavimo. AR ir AP modeliavimas yra ataskaita, o DK pateikiama peržiūra, kurią galima registruoti nepaleidus perkainojimo proceso dar kartą. Peržiūros rezultatus galima eksportuoti į „Microsoft Excel“, norint išsaugoti sumų skaičiavimo retrospektyvą. Negalite naudoti paketinio apdorojimo, jei norite peržiūrėti perkainojimo rezultatus. Naudodamas peržiūrą vartotojas turi galimybę registruoti visų juridinių subjektų rezultatus, naudodamas mygtuką **Registruoti**. Jei kilo problema dėl juridinio subjekto rezultatų, vartotojas taip pat gali registruoti juridinių subjektų pogrupį, naudodamas mygtuką **Pasirinkti registruotinus juridinius subjektus**. 
+Nustatykite parinktį **Peržiūrėti prieš registruojant** į **Taip**, jei norite peržiūrėti DK perkainojimo rezultatą. DK peržiūra skiriasi nuo AR ir AP užsienio valiutos kurso pasikeitimo modeliavimo. AR ir AP modeliavimas yra ataskaita, o DK pateikiama peržiūra, kurią galima registruoti nepaleidus perkainojimo proceso dar kartą. Peržiūros rezultatus galima eksportuoti į „Microsoft Excel“, norint išsaugoti sumų skaičiavimo retrospektyvą. Negalite naudoti paketinio apdorojimo, jei norite peržiūrėti perkainojimo rezultatus. Naudodamas peržiūrą vartotojas turi galimybę registruoti visų juridinių subjektų rezultatus, naudodamas mygtuką **Registruoti**. Jei kilo problema dėl juridinio subjekto rezultatų, vartotojas taip pat gali registruoti juridinių subjektų pogrupį, naudodamas mygtuką **Pasirinkti registruotinus juridinius subjektus**.
+
+Jei norite neįtraukti koregavimų, užregistruotų naudojant ataskaitų **valiutos** koregavimo žurnalą iš perkainojimo proceso, **nustatykite Neįtraukti ataskaitų valiutos koregavimų** į **Taip**. Numatyta, kad ataskaitų valiutos koregavimai įtraukiami į perkainojimą. 
 
 Kai užsienio valiutos kurso pasikeitimo procesas baigtas, bus sukurtas įrašas, skirtas sekti kiekvieno vykdymo retrospektyvą.  Bus sukurtas atskiras kiekvieno juridinio subjekto ir registravimo sluoksnio įrašas.
 

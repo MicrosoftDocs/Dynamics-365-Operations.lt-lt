@@ -16,12 +16,12 @@ ms.custom: 52851
 ms.assetid: 5c21385e-64e0-4091-98fa-6a662eb33010
 ms.search.industry: Retail
 ms.search.form: RetailChannelProfile, RetailMediaGallery, RetailImages,
-ms.openlocfilehash: f282c163ef5a74283231492e499201c6d4619115
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: d334701b2865a4f19365a2773641e324326b02e3
+ms.sourcegitcommit: 78cbb125f20a33df38bda0546203b8f837cbcd93
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287517"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "9751947"
 ---
 # <a name="set-up-and-manage-images-for-modern-pos-mpos"></a>„Modern POS” (MPOS) vaizdų nustatymas ir tvarkymas
 
@@ -160,7 +160,7 @@ Galite perrašyti pasirinktos bet kurio objekto, išskyrus objektus Produktai, p
     [![Katalogo vaizdų galerijos puslapis.](./media/preview-4.png)](./media/preview-4.png)
 
 > [!NOTE]
-> Šiuo metu galerijoje medijos šablono vaizdų URL vaizdo rodiniai nerodomi. Jei vartotojas naudodamas šį puslapį tiesiogiai pateikia objektų Katalogas, Darbuotojas, Klientas ir Kategorija URL, rekomenduojame nurodyti, kuris vaizdas yra numatytasis vaizdas, nes „Commerce Scale Unit“ klientai rodo tik vieną vaizdą viename objekte Katalogas, Klientas, Darbuotojas arba Kategorija. Jei vartotojas nenurodo numatytojo vaizdo, sistema nustato numatytąjį vaizdą ir siunčia jį „Commerce” tarnybos kvietyklei (MPOS arba „Ecommerce“).
+> EKA bus atvaizduoti tik vieši ir anonimiškai pasiekiami vaizdai. EKA palaiko išoriškai nuomojamų vaizdų atvaizdavimą, kai reikalaujama, kad vaizdai būtų pateikiami kaip eilučių srautas į GET užklausas be antraščių. Naudojant anoniminę prieigos strategiją, ypač naudojant nuomojamus vaizdus, SharePoint kuriems reikia, kad užklausos antraštėse būtų ir pagrindinio kompiuterio, ir vartotojo agento antraštės, bus grąžintas atsakymas "Draudžiama". Todėl šiuo metu vaizdų SharePoint valdymas naudojant pagrindinį kompiuterį nepalaikomas. Katalogo **paveikslėlių** galerijai skirtame puslapyje nerodyti medijų šablono vaizdo URL vaizdo peržiūrų. Dėl to, kad "Commerce Scale Unit" (CSU) kliento programos rodo tik vieną vaizdą vienam katalogui, klientui, darbuotojui ir kategorijai objektui, jei šiame puslapyje konkrečiai nurodote URL katalogo, darbuotojo, kliento ir kategorijos objektams, rekomenduojame nurodyti, kuris vaizdas yra numatytasis. Jei nenuosiųsite numatytojo vaizdo, sistema nustatys numatytąjį vaizdą ir nusiųs jį "Commerce Service" kiesituvui (MPOS ar el. prekybai).
 
 ### <a name="overwrite-the-image-url-for-catalog-product-images-from-the-preview-page"></a>Katalogo produkto vaizdų URL perrašymas iš puslapio Peržiūra
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 92e38c6ea19b60ae0a61e55f240ff52698e06933
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: ce32a4449da8e85f958f212f2c2dfd2841ca6887
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689782"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740829"
 ---
 # <a name="visual-and-collaborative-execution"></a>Vaizdinis ir bendrasis vykdymas
 
@@ -32,9 +32,9 @@ Microsoft galite Dynamics 365 Supply Chain Management vizualiai sekti, kaip bet 
 
 1. Eikite į **Produkto informacijos valdymas \> Produktai \> Išleisti produktai**.
 1. Pasirinkite išleistą prekę, kuri nustatyta kaip iššiavimo taškas. (Daugiau informacijos žr. [Atsargų padėties valdymas](ddmrp-inventory-positioning.md).)
-1. Veiksmų srities skirtuke Planas **pasirinkite Prekės padengimas** **.**
+1. Veiksmų srities skirtuke Planas **pasirinkite** Prekės **padengimas**.
 1. Prekių padengimo **puslapyje** pasirinkite prekės padengimo įrašą, kuris sukuria iššipimo tašką. (Šiame įraše bus rodomas padengimo grupės, nustatytos sukurti atsišiejimo taškus, pavadinimas.)
-1. **Pasirinkite skirtuką Turimos**. Šiame skirtuke yra diagrama, kurioje parodyta, kaip laikui bėgant pasikeitė turimi kiekiai, ir turimo kiekio vertė, kuri buvo įrašyta tam tikrą laikotarpį kaskart, kai vykdomas planavimo optimizavimas. Skirtuke taip pat yra lentelė, kurioje parodoma, į kurias iš šių kategorijų įeina kiekvienas įrašytas turimo kiekis:
+1. **Pasirinkite skirtuką Turimos**. Šiame skirtuke yra diagrama, kurioje parodyta, kaip per tam tikrą laiką pasikeitė turimi kiekiai, ir turimo kiekio vertė, kuri buvo įrašyta tam tikrą laikotarpį kaskart, kai vykdomas bendrasis planavimas. Skirtuke taip pat yra lentelė, kurioje parodoma, į kurias iš šių kategorijų įeina kiekvienas įrašytas turimo kiekis:
 
     - **Kritinis žemas** – mažiau nei pusė laikotarpio minimumo.
     - **Mažas** – nuo pusės minimumo iki mažiausio.

@@ -1,6 +1,6 @@
 ---
 title: Vidinės įmonės planavimas
-description: Šiame straipsnyje aprašomas vidinės įmonės planavimas ir paaiškinama, kaip konfigūruoti vidinės įmonės planavimą naudojant "Microsoft" planavimo optimizavimą Dynamics 365 Supply Chain Management.
+description: Šiame straipsnyje aprašomas vidinės įmonės planavimas ir paaiškinama, kaip konfigūruoti vidinės įmonės planavimą programoje "Microsoft"Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6ef551e1c2c4d90510f967855a5aa61646dc8eab
-ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
+ms.openlocfilehash: 3d1c82aa3810b37b06b9d9157e73588fc1727348
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9538571"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740038"
 ---
 # <a name="intercompany-planning"></a>Vidinės įmonės planavimas
 
@@ -29,7 +29,7 @@ ms.locfileid: "9538571"
 
 Kai kurios organizacijose, logistinės operacijos priklauso nuo kitų juridinių asmenų (įmonių) organizacijos viduje. Šie veiksmai tvarkomi naudojant vidinės įmonės pardavimus ir pirkimus, nes kiekvienas juridinis subjektas yra atskiras sąskaitų planas.
 
-Šiame straipsnyje aprašomas vidinės įmonės planavimas ir paaiškinama, kaip konfigūruoti vidinės įmonės planavimą naudojant "Microsoft" planavimo optimizavimą Dynamics 365 Supply Chain Management.
+Šiame straipsnyje aprašomas vidinės įmonės planavimas ir paaiškinama, kaip konfigūruoti vidinės įmonės planavimą programoje "Microsoft"Dynamics 365 Supply Chain Management.
 
 Šiame straipsnyje naudojamos šios svarbios vidinės įmonės sąlygos:
 

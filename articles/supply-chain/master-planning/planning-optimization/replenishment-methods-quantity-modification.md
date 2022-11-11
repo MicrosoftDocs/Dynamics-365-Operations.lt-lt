@@ -1,6 +1,6 @@
 ---
 title: Papildymo metodai ir kiekio modifikavimas
-description: Šiame straipsnyje pateikiama informacija apie papildymo metodus planavimo optimizavime. Joje taip pat paaiškinama, kaip keli produkto užsakymo kiekiai paveikia rezultatą.
+description: Šiame straipsnyje pateikiama informacija apie papildymo metodus. Joje taip pat paaiškinama, kaip keli produkto užsakymo kiekiai paveikia rezultatą.
 author: t-benebo
 ms.date: 6/1/2021
 ms.topic: article
@@ -11,26 +11,26 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3e8ef3d38f1b9bacd89304aaf3f0350050232bd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d1e0fe6c1f49bc0f6887f1b29118c1fee7a6222f
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873701"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739763"
 ---
 # <a name="replenishment-methods-and-quantity-modification"></a>Papildymo metodai ir kiekio modifikavimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šiame straipsnyje pateikiama informacija apie papildymo metodus planavimo optimizavime. Joje taip pat paaiškinama, kaip keli produkto užsakymo kiekiai paveikia rezultatą.
+Šiame straipsnyje pateikiama informacija apie papildymo metodus. Joje taip pat paaiškinama, kaip keli produkto užsakymo kiekiai paveikia rezultatą.
 
 Papildymo metodai taip pat yra žinomi kaip padengimo ir partijos nustatymo metodai.
 
 ## <a name="coverage-codes"></a>Padengimo kodai
 
-Planavimo optimizavimą galima konfigūruoti, kad būtų naudojami skirtingi papildymo metodai. Papildymo metodai yra principai, kuriuos sistema naudoja produkto reikalavimams skaičiuoti. Papildymo metodai apibrėžiami pagal padengimo kodus, kuriuos galite nustatyti padengimo grupėje arba produkte.
+Bendrąjį planavimą galima konfigūruoti, kad būtų naudojami skirtingi papildymo metodai. Papildymo metodai yra principai, kuriuos sistema naudoja produkto reikalavimams skaičiuoti. Papildymo metodai apibrėžiami pagal padengimo kodus, kuriuos galite nustatyti padengimo grupėje arba produkte.
 
-Planavimo optimizavime galima naudoti šiuos padengimo kodus:
+Gali būti naudojami šie padengimo kodai:
 
 - **Laikotarpis** – papildymo metodas sujungia visą laikotarpio paklausą į vieną produkto užsakymą. Užsakymas bus suplanuotas pirmai laikotarpio dienai ir jo kiekis patenkins grynuosius poreikius nustatyto laikotarpio metu. Laikotarpis pradedamas nuo pirmo produkto poreikio ir apima nustatytą laiko trukmę. Kitas laikotarpis prasidės nuo kitų produkto reikalavimų. *Laikotarpio* padengimo kodas dažnai naudojamas nenuspėjamam atsargų paėmimui, sezoniniams arba aukštos savikainos produktams. Toliau pateikiamoje iliustracijoje vaizduojamas pavyzdys.
 
@@ -64,13 +64,13 @@ Išleisto produkto **Numatytojo užsakymo parametrų** puslapyje galite nurodyti
 
 ## <a name="examples-of-replenishment-that-use-the-minmax-coverage-code"></a>Papildymo pavyzdžiai, kuriame naudojamas Min. / Maks. padengimo kodas
 
-Jei nenurodote reikšmės lauke **Kartotinis** produktui puslapyje **Numatytieji užsakymo parametrai** ir naudojate *Min. /Maks.* papildymo metodą, Planavimo optimizavimas papildys atsargas iki konkretaus lygio, kai numatomas turimų atsargų lygis yra mažesnis nei konkreti ribinė vertė.
+Jei nenurodote reikšmės lauke **Kartotinis** produktui puslapyje **Numatytieji užsakymo parametrai** ir naudojate *Min. /Maks.* Papildymo metodas, bendrasis planavimas papildo atsargas iki konkretaus lygio, kai numatytas turimų atsargų lygis bus mažesnis nei konkreti ribinė vertė.
 
 Jei nustatote kartotinį kiekį produktui, *Min. / Maks.* papildymo metodas pakeičia jo elgseną ir atsižvelgia į **Kartotinio** reikšmę.
 
-Kitaip tariant, Planavimo optimizavimas vis tiek papildys atsargas iki nustatyto didžiausio lygio, kai numatytas turimų atsargų lygis bus mažesnis nei nustatytas minimalus lygis. Tačiau papildymo kiekis turi būti **Kartotinio** reikšmės kartotinis.
+Kitaip tariant, bendrasis planavimas vis tiek papildo atsargas iki nustatyto didžiausio lygio, kai numatytas turimų atsargų lygis bus mažesnis nei nustatytas minimalus lygis. Tačiau papildymo kiekis turi būti **Kartotinio** reikšmės kartotinis.
 
-Jei papildymo kiekis (skirtumas tarp didžiausio lygio ir numatyto turimo kiekio lygio) nėra nustatyto kiekio kartotinis, Planavimo optimizavimas naudoja pirmą galimą vertę, kuri kartu su numatytu turimo kiekio lygiu bus mažesnė už maksimalų lygį. Jei suma mažesnė nei minimalus lygis, Planavimo optimizavimas naudoja pirmąją vertę, kuri kartu su numatyta turimo kiekio verte, bus didesnė už maksimalų lygį.
+Jei papildymo kiekis (skirtumas tarp didžiausio lygio ir numatymo turimo lygio) nėra nustatyto sudėtiaus kiekio kartotinis, bendrojo planavimo metu naudojama pirmoji galima vertė, kuri kartu su nuspėtuoju turimo kiekio lygiu bus mažesnė už maksimalų lygį. Jei suma mažesnė nei minimalus lygis, bendrojo planavimo metu naudojama pirmoji vertė, kuri kartu su numatyta turimo, bus didesnė už maksimalų lygį.
 
 Toliau pateikti poskyriai pateikia keletą pavyzdžių, kurie parodo, kaip keli produkto užsakymo kiekiai veikia *Min. / Maks.* papildymo metodo rezultatą.
 

@@ -450,6 +450,8 @@
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: Atsiskaitymo grafiko kopijavimas
                       href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: Kliento išskaidymas su atsiskaitymo grafiku
+                      href: accounts-receivable/sb-customer-split.md
                     - name: Atsiskaitymo grafikų funkcijos
                       href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Sąskaitų pateikimas dalimis
@@ -1168,10 +1170,12 @@
                   href: general-ledger/standard-audit-file.md
             - name: Laikotarpio pabaigos uždarymas
               items:
-                - name: DK uždarymas laikotarpio pabaigoje
+                - name: Didžiosios knygos uždarymas laikotarpio pabaigoje
                   href: general-ledger/close-general-ledger-at-period-end.md
                 - name: Finansinio laikotarpio uždarymo darbo sritis
                   href: general-ledger/financial-period-close-workspace.md
+                - name: Uždarymo metų pabaigoje optimizavimas
+                  href: general-ledger/optimize-year-end-close.md
                 - name: Uždarymas metų pabaigoje
                   href: general-ledger/year-end-close.md
                 - name: Finansinių metų uždarymas

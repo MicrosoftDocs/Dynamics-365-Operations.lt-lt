@@ -2,24 +2,24 @@
 title: Užduočių sąrašų kūrimas ir užduočių įtraukimas
 description: Šiame straipsnyje aprašoma, kaip sukurti užduočių sąrašus ir įtraukti užduotis į jas Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 02/10/2020
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.search.industry: ''
 ms.search.form: ''
-ms.openlocfilehash: f754ee78547e785fa2386dee6c3d89371bc0de41
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: b81f27f79362516f8a25766c1f663a7691ebb42a
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9268925"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746165"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>Užduočių sąrašų kūrimas ir užduočių įtraukimas
 
@@ -35,7 +35,7 @@ Ir vadybininkai, ir darbuotojai gali kurti užduočių sąrašus „Commerce“ 
 
 ## <a name="create-a-task-list"></a>Užduočių sąrašo kūrimas
 
-Norėdami sukurti užduočių sąrašą, atlikite tolesnius veiksmus.
+Prieš pradėdami užduočių sąrašo kūrimo procesą, įsitikinkite, kad užbaigsite konfigūracijas [užduočių valdymo straipsnyje](task-mgmt-configure.md) Konfigūruoti. Norėdami sukurti užduočių sąrašą, atlikite tolesnius veiksmus.
 
 1. Eikite į **Mažmeninė prekyba ir prekyba \> Užduočių valdymas \> Užduočių valdymo administravimas**.
 1. Pasirinkite **Naujas**, tada laukuose **Pavadinimas**, **Aprašas** ir **Savininkas** įveskite vertes.

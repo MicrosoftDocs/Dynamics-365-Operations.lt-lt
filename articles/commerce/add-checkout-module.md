@@ -2,7 +2,7 @@
 title: Pirkimo užbaigimo modulis
 description: Šiame straipsnyje aprašoma, kaip į puslapį įtraukti tikrinimo modulį ir nustatyti būtinas ypatybes.
 author: anupamar-ms
-ms.date: 05/18/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: b6f3aef08f723eff8b172db2ca5c355121e93bdc
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 295b99c7012e35a40af34d454ff7082d4100c74a
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280480"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746231"
 ---
 # <a name="checkout-module"></a>Pirkimo užbaigimo modulis
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šiame straipsnyje aprašoma, kaip į puslapį įtraukti tikrinimo modulį ir nustatyti būtinas ypatybes.
 
@@ -104,6 +105,8 @@ Norėdami į naują puslapį įtraukti pirkimo užbaigimo modulį ir nustatyti r
 1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte fragmentą, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 1. Sukurkite šabloną, kuriame naudojamas naujasis pirkimo užbaigimo fragmentas.
 1. Sukurkite pirkimo užbaigimo puslapį, kuriame naudojamas naujasis šablonas.
+
+> [PASTABA] Kai naudojamas vieno mokėjimo [autorizavimas](./dev-itpro/enhanced-sca.md), kaip aprašyta išplėstiniuose mokėjimuose parduotuvės išankstiniame išregistravimo puslapyje, **mokėjimų** išregistravimo informacijos skyriuje patvirtinkite, kad čekių skyriaus konteineris yra paskutinis. Taip užtikrinama, kad visą reikiamą informaciją renka čekių puslapis, o prieš galutinio mokėjimo apmokėjimo ir užsakymo įvykdymo veiksmus. 
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

@@ -1,6 +1,6 @@
 ---
 title: Plano retrospektyvos ir planavimo žurnalų peržiūra
-description: Šiame straipsnyje paaiškinama, kaip peržiūrėti planavimo užduočių, kurias suaktyvina planavimo optimizavimo funkcija, retrospektyvą.
+description: Šiame straipsnyje paaiškinama, kaip peržiūrėti planavimo užduočių retrospektyvą.
 author: t-benebo
 ms.date: 06/01/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b2c9257fc67a06b57418b2f5b035b2b540131405
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ab469686a009364bf53cb963506fd2107075a283
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863946"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740937"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Plano retrospektyvos ir planavimo žurnalų peržiūra
 
 [!include [banner](../../includes/banner.md)]
 
-Šiame straipsnyje paaiškinama, kaip peržiūrėti planavimo užduočių, kurias suaktyvino "Microsoft" planavimo optimizavimo funkcija, retrospektyvą Dynamics 365 Supply Chain Management.
+Šiame straipsnyje paaiškinama, kaip peržiūrėti "Microsoft" planavimo užduočių retrospektyvą Dynamics 365 Supply Chain Management.
 
 Norėdami peržiūrėti plano istoriją, atidarykite planą eidami į **Pagrindinis planavimas** \> **Sąranka** \> **Planai** \> **Bendrieji planai** ir pasirinkite **Istorija**. Istorijoje išvardintos visos pasirinkto plano užduotys. Į sąrašą įtrauktos baigtos ir aktyvios užduotys.
 
@@ -47,14 +47,6 @@ Norėdami peržiūrėti automatinio užbaigimo klaidas ir kitus įspėjimus ar k
     - Jei naudojate senstelėjusią formą: veiksmų srities skirtuke **Paketinė užduotis** pasirinkite **Žurnalas**.
 
 1. Pasirinkite **Pranešimo informacija**, kad atidarytumėte **Pranešimo informacijos** sritį, kurioje galite peržiūrėti visus įspėjimus ir klaidas, užfiksuotus apdorojimo metu.
-
-## <a name="related-resources"></a>Susiję ištekliai
-
-- [Planavimo optimizavimo apžvalga](planning-optimization-overview.md)
-- [Darbo su planavimo optimizavimu pradžia](get-started.md)
-- [Planavimo optimizavimo tinkamumo analizė](planning-optimization-fit-analysis.md)
-- [Filtrų taikymas planui](plan-filters.md)
-- [Planavimo užduoties atšaukimas](cancel-planning-job.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

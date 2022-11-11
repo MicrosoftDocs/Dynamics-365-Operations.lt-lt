@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 7c8d5b7992c7955b9c5b1c7e773fdd467ccba6f9
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: c2e4294cb54e9ba41467f505e361d5ee45f1f27d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335352"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740528"
 ---
 # <a name="firm-planned-orders"></a>Galutinai suplanuoti užsakymai
 
@@ -33,7 +33,7 @@ Yra trys suplanuotų užsakymų virtimo metodai:
 
 ## <a name="enable-the-features-that-are-described-in-this-article"></a><a name="enable-features"></a> Įgalinkite šiame straipsnyje aprašytas funkcijas
 
-Dauguma suplanuoto užsakymo funkcijų yra galimos visuose standartiniuose „Microsoft Dynamics 365 Supply Chain Management“ diegimuose, naudojant „Planning Optimization“. Tačiau kai kurios šiame straipsnyje aprašomos funkcijos turi būti įjungtas funkcijų valdymas prieš naudojant jas.
+Dauguma suplanuoto užsakymo priemonių galimos visuose standartiniuose Microsoft diegimuose Dynamics 365 Supply Chain Management. Tačiau kai kurios šiame straipsnyje aprašomos funkcijos turi būti įjungtas funkcijų valdymas prieš naudojant jas.
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Įjungti arba išjungti suplanuotų užsakymų lygiagretųjį tvirtavimą
 
@@ -91,7 +91,7 @@ Norėdami neautomatiniu būdu patvirtinti suplanuotus užsakymus, surandate ir p
 
 ## <a name="auto-firm-planned-orders"></a>Automatiškai patvirtinti suplanuoti užsakymai
 
-Automatinis patvirtinimas leidžia patvirtinti (tai yra, išleisti) suplanuotus užsakymus kaip bendrojo planavimo dalį. Automatinis tvirtinimas – nurodykite numatytąją padengimo grupių, atskirų prekių ir prekių bei bendrojo planų derinio tvirtinimo laiko ribas. Tada, vykdant bendrąjį planavimą, suplanuoti užsakymai bus automatiškai patvirtinti, jei užsakymo data patenka į nurodytą patvirtinti laiko ribas. Suplanuoti užsakymai, sugeneruoti „Planning Optimization“ ir įtaisytos bendrojo planavimo operacijos, tvarko užsakymo datą (t. y. pradžios datą) kitaip.
+Automatinis patvirtinimas leidžia patvirtinti (tai yra, išleisti) suplanuotus užsakymus kaip bendrojo planavimo dalį. Automatinis tvirtinimas – nurodykite numatytąją padengimo grupių, atskirų prekių ir prekių bei bendrojo planų derinio tvirtinimo laiko ribas. Tada, vykdant bendrąjį planavimą, suplanuoti užsakymai bus automatiškai patvirtinti, jei užsakymo data patenka į nurodytą patvirtinti laiko ribas. Suplanuoti užsakymai, sugeneruoti planavimo optimizavimo ir pasenusio bendrojo planavimo modulio, tvarko užsakymo datą (pradžios datą) kitaip.
 
 > [!NOTE]
 > Automatinis suplanuoto pirkimo užsakymų prekėms patvirtinimas vykdomas tik jei prekė yra susieta su tiekėju.
@@ -99,13 +99,13 @@ Automatinis patvirtinimas leidžia patvirtinti (tai yra, išleisti) suplanuotus 
 > Patvirtinti išvestiniai užsakymai (subrangos pirkimo užsakymai) rodys būseną *Peržiūrima*, kai įgalintas atvejų keitimų sekimas.
 
 > [!IMPORTANT]
-> Prieš naudojant šiame skyriuje aprašytas funkciją naudojant planavimo optimizavimą, [*·*](#enable-features) jūsų sistemai turi būti įjungtas automatinis planavimo optimizavimo funkcijos tvirtinimas, kaip aprašyta šio straipsnio pradžioje. Automatinį tvirtinimas visada galima naudoti su įtaisytuoju bendrojo planavimo moduliu.
+> Prieš naudojant šiame skyriuje aprašytas funkciją naudojant planavimo optimizavimą, [*·*](#enable-features) jūsų sistemai turi būti įjungtas automatinis planavimo optimizavimo funkcijos tvirtinimas, kaip aprašyta šio straipsnio pradžioje. Automatinį tvirtinimas visada galima naudoti su pasenusiu bendrojo planavimo moduliu.
 
-### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>Automatinis virtimas „Planning Optimization“ ir įtaisytuoju planavimo moduliu
+### <a name="auto-firming-with-planning-optimization-vs-the-deprecated-master-planning-engine"></a>Automatinis patvirtinti naudojant planavimo optimizavimą ir pasenusią bendrojo planavimo sistemą
 
-Tiek „Planning Optimization“, tiek planavimo mechanizmą, kuris įdiegtas „Microsoft “, galima naudoti norint automatiškai patvirtinti planavimo užsakymus. Tačiau yra keletas svarbių skirtumų. Pavyzdžiui, jei „Planning Optimization“ naudoja užsakymo datą (tai yra, pradžios datą), kad nustatytų, kuriuos suplanuotus užsakymus patvirtinti, įdiegtas „Supply Chain Management“ mechanizmas naudoja poreikio datą (tai yra, pabaigos datą). Šioje lentelėje apibendrinami skirtumai.
+Planavimo optimizavimą ir pasenusią bendrojo planavimo variklis gali būti naudojami automatiškai patvirtinti suplanuotus užsakymus. Tačiau yra keletas svarbių skirtumų. Pavyzdžiui, planavimo optimizavimas naudoja užsakymo datą (tai yra, pradžios datą), kad nustatytų, kuriuos suplanuotus užsakymus patvirtinti, o pasenusio bendrojo planavimo modulis naudoja poreikio datą (tai yra, pabaigos datą). Šioje lentelėje apibendrinami skirtumai.
 
-| Funkcija | Planavimo optimizavimas | Įtaisytasis planavimo modulis |
+| Funkcija | Planavimo optimizavimas | Pasenusi bendrojo planavimo sistema |
 |---|---|---|
 | **Pagrindinė data** | Automatinis patvirtinimas pagrįstas užsakymo data (pradžios data). | Automatinis patvirtinimas pagrįstas poreikio data (pabaigos data). |
 | **Gamybos laikas** | Kadangi užsakymo data (pradžios data) suaktyvina patvirtinimą, nebūtina atsižvelgti į gamybos laiką kaip patvirtinimo laiko ribos dalį. | Siekiant užtikrinti, kad užsakymai būtų patvirtinti laiku, patvirtinimo laiko riba turi būti ilgesnė už gamybos laiką. |

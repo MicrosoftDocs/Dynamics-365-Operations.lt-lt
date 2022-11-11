@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 421f17402a2f3b37a9ccce9d747e2c0ec865ee39
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5d7035a7034d084a9bec453557694ce7f29ad347
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854477"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740377"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Kas nauja arba pasikeitė „Dynamics 365 Supply Chain Management” 10.0.9 versijoje (2020 m. balandžio mėn.)?
 
@@ -73,7 +73,7 @@ Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinima
 
 - [Suplanuotų užsakymų lygiagretus pasirašymas](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/parallelized-firming-planned-orders)<br> - Dėl platesnės informacijos, žr. [Tvirti planavimo užsakymai](../master-planning/planning-optimization/planned-order-firming.md) ir [MRP atlikimo ir naudojimo pagerinimus](https://www.microsoft.com/videoplayer/embed/RE4myrJ) vaizdo įrašą.
 
-- [Planavimo optimizavimas platinimui](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution)<br> - Norėdami gauti daugiau informacijos, žr. [Planavimo optimizavimo apžvalgą](../master-planning/planning-optimization/planning-optimization-overview.md).
+- [Planavimo optimizavimas platinimui](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution)<br> - – daugiau informacijos rasite bendrojo [planavimo pagrindinį puslapį](../master-planning/master-planning-home-page.md).
 
 - [Pirkimo sutarties pagerinimai](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/purchase-agreement-enhancements)<br> - Norėdami gauti daugiau informacijos, žr. [Pirkimo sutartys](../procurement/purchase-agreements.md).
 

@@ -1,6 +1,6 @@
 ---
-title: Pagrindinis planavimas su paklausos prognozėmis
-description: Šiame straipsnyje paaiškinama, kaip įtraukti poreikio prognozes bendrojo planavimo metu naudojant planavimo optimizavimą.
+title: Bendrasis planavimas su poreikio prognozėmis
+description: Šiame straipsnyje paaiškinama, kaip įtraukti poreikio prognozes vykdant bendrąjį planavimą.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 63221b5270416cad9cdfb586c697d7700f3b561b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 79a25d6fc5c809947b5b92a32cc00c9a3cc73202
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878996"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739789"
 ---
-# <a name="master-planning-with-demand-forecasts"></a>Pagrindinis planavimas su paklausos prognozėmis
+# <a name="master-planning-with-demand-forecasts"></a>Bendrasis planavimas su poreikio prognozėmis
 
 [!include [banner](../../includes/banner.md)]
 
-Galite naudoti paklausos prognozę kartu su „Planning Optimization“ siekiant apskaičiuoti tikėtiną paklausą jūsų pagrindiniame planavime. Galite rankiniu būdu sukurti paklauso prognozę, ją importuoti arba sukurti ją naudodami paklauso prognozės funkcijas „Microsoft Dynamics 365 Supply Chain Management“. Išsamesnės informacijos apie poreikio prognozes rasite [Poreikio prognozių apžvalga](../introduction-demand-forecasting.md).
+Norėdami į savo bendrąjį planavimą atsižvelgti į numatomą poreikį, galite naudoti poreikio prognozę. Galite rankiniu būdu sukurti paklauso prognozę, ją importuoti arba sukurti ją naudodami paklauso prognozės funkcijas „Microsoft Dynamics 365 Supply Chain Management“. Išsamesnės informacijos apie poreikio prognozes rasite [Poreikio prognozių apžvalga](../introduction-demand-forecasting.md).
 
 > [!NOTE]
 > Atskiras prognozės planavimas nepalaikomas su „Planning Optimization“. Dėl to, **Esamas prognozės planas** nustatymas puslapyje **Pagrindinio planavimo parametrai** neturi jokio poveikio jums naudojant „Planning Optimization“.
@@ -50,7 +50,7 @@ Norėdami konfigūruoti pagrindinį planą taip, kad jis įtrauktų paklausos pr
     - **Prognozės laiko laikotarpis** – Jei nustatote **Prognozės plano** parinktį į *Taip*, nurodykite dienų skaičių (nuo šiandienos), kuriam bus taikoma paklausos prognozė.
 
     > [!IMPORTANT]
-    > Nustatymas **Prognozės planas** dar nėra palaikomas su „Planning Optimization“.
+    > Prognozės **plano** parametras nepalaikomas naudojant planavimo optimizavimą.
 
 ## <a name="set-up-a-coverage-group-to-include-a-demand-forecast"></a>Nustatykite apimties grupė, kad ji apimtų poreikio prognozę
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 0474c50157295d9ecd2341b700c07f4fbf1ed51f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f5f1f2c8e3e43e36d837ebf989422b0dca7819d6
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900947"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741182"
 ---
 # <a name="cancel-a-planning-job"></a>Planavimo užduoties atšaukimas
 
@@ -29,8 +29,7 @@ ms.locfileid: "8900947"
 
 Programoje „Microsoft Dynamics 365 Supply Chain Management“ galite atšaukti aktyvią planavimo užduotį, naudojančią planavimo optimizavimo funkciją. Kai dialogo lange pasirenkate **Atšaukti**, kai planavimo optimizavimo užduotis suaktyvinama tiesiogiai iš vartotojo sąsajos (ne fone), planavimo optimizavimo užduotis atšaukta nebus. Net jei gaunate įspėjimą, pvz., Operacija atšaukta, vis tiek reikės atlikti šiuos veiksmus, kad būtų atšaukta planavimo optimizavimo užduotis.
 
-
-Norėdami atšaukti aktyvią planavimo užduotį, atlikite šiuos veiksmus. 
+Norėdami atšaukti aktyvią planavimo užduotį, atlikite šiuos veiksmus.
 
 > [!NOTE]
 > Atšaukti galima tik aktyvias užduotis.
@@ -45,18 +44,6 @@ Užduoties būsena bus **Atšaukiama**, kol planavimo optimizavimo tarnyba patvi
 
 > [!NOTE]
 > Norėdami pamatyti būsenos pasikeitimus, turite atnaujinti puslapį pasirinkdami mygtuką **Atnaujinti**.
-
-## <a name="additional-resources"></a>Papildomi ištekliai
-
-[Planavimo optimizavimo apžvalga](planning-optimization-overview.md)
-
-[Darbo su planavimo optimizavimu pradžia](get-started.md)
-
-[Planavimo optimizavimo tinkamumo analizė](planning-optimization-fit-analysis.md)
-
-[Plano retrospektyvos ir planavimo žurnalų peržiūra](plan-history-logs.md)
-
-[Filtrų taikymas planui](plan-filters.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

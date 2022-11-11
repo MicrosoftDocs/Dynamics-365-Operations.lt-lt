@@ -540,8 +540,12 @@
                   items:
                     - name: Kandidatų į darbo vietas įdarbinimas
                       href: hr-personnel-recruit.md
-        - name: Užduočių tvarkymas
-          href: hr-task-mgmt.md
+        - name: Užduočių valdymas
+          items:
+            - name: Apžvalga
+              href: hr-task-mgmt.md
+            - name: Užduočių valdymo versijos naujinimas
+              href: hr-task-update.md
         - name: Atostogos ir neatvykimai
           items:
             - name: Apžvalga
@@ -832,6 +836,10 @@
           href: hr-developer-entities.md
         - name: Pasirinktiniai laukai
           href: hr-developer-custom-fields.md
+        - name: Kūrimas ir tinkinimas
+          items:
+            - name: Išvardijimas lyties pagrindu
+              href: enum-exten.md
         - name: Duomenų integravimo nustatymas
           items:
             - name: Duomenų integravimo technologijos pasirinkimas

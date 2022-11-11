@@ -1,6 +1,6 @@
 ---
-title: Planavimas su neribotu pajėgumu
-description: Šiame straipsnyje pateikta informacija apie neribotą planavimo optimizavimo pajėgumo planavimą. Joje taip pat aprašomi dabartiniai funkcijų apribojimai.
+title: Grafiko sudarymas su neribotu pajėgumu
+description: Šiame straipsnyje pateikta informacija apie neribotą pajėgumo planavimą. Joje taip pat aprašomi dabartiniai funkcijų apribojimai.
 author: t-benebo
 ms.date: 08/09/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: c6e0190899abb544b559bb5f26ba974155989c3a
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 7249734e5d2644145a36276dbc818a40b5962805
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335322"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740011"
 ---
-# <a name="scheduling-with-infinite-capacity"></a>Planavimas su neribotu pajėgumu
+# <a name="scheduling-with-infinite-capacity"></a>Grafiko sudarymas su neribotu pajėgumu
 
 [!include [banner](../../includes/banner.md)]
 
-*Planavimo optimizavimo neriboto pajėgumo planavimo* funkcija pristato planavimą pagal maršruto informaciją. Ji leidžia jums suplanuoti užduotis remiantis plačiu maršruto nustatymų diapazonu. Planavimo optimizavimo planavimas apima dažnai naudojamus maršruto parametrus, įskaitant maršruto operacijos seką arba maršruto operacijų išteklių reikalavimus.
+*Planavimo optimizavimo neriboto pajėgumo planavimo* funkcija pristato planavimą pagal maršruto informaciją. Ji leidžia jums suplanuoti užduotis remiantis plačiu maršruto nustatymų diapazonu. Planavimas apima dažnai naudojamus maršruto parametrus, įskaitant maršruto operacijos seką arba maršruto operacijos išteklių reikalavimus.
 
 ## <a name="turn-the-infinite-capacity-scheduling-feature-on-or-off"></a>Įjungti arba išjungti neriboto pajėgumo planavimo funkciją
 
@@ -32,7 +32,7 @@ Daugiau informacijos apie šią funkciją rasite [Planavimas su išteklių pasir
 
 ## <a name="added-functionality"></a>Įtrauktos funkcijos
 
-*Planavimo optimizavimo neriboto pajėgumo planavimo* funkcija įgalina užduočių planavimą pagal maršruto informaciją. Todėl maršruto nustatymą galima naudoti gamybos procesams planuoti. Nors ši funkcija turi tam tikrų apribojimų, kurių neturi įdiegtas bendrasis planavimas, ji palaiko dažniausias funkcijas, kurių reikia gamybos scenarijams.
+*Planavimo optimizavimo neriboto pajėgumo planavimo* funkcija įgalina užduočių planavimą pagal maršruto informaciją. Todėl maršruto nustatymą galima naudoti gamybos procesams planuoti. Nors ši funkcija turi keletą apribojimų, kurių neturi pasenusio bendrojo planavimo modulis, ji palaiko dažniausią gamybos scenarijų funkciją.
 
 Funkcija atsižvelgia tiek į *paprastus maršrutus*, tiek į *maršrutų tinklus*. Naudodami lauką **Kitas** maršruto operacijoje, galite nustatyti sudėtingus maršrutus, kurie turi kelis pradžios taškus ir kelias operacijas, vykdomas lygiagrečiai. Planavimo metu sistema atsižvelgs į sudėtingas šio tipo maršruto struktūras.
 
@@ -52,15 +52,13 @@ Planavimo proceso metu sistema taip pat atsižvelgia į nurodytus operacijos *i�
 
 Funkcija taip pat palaiko **Nustatymo laiko** ir **Vykdymo laiko** veikimo ypatybes. Kai nustatote šias ypatybes maršruto operacijoje, planavimo procesas sukurs atitinkamą nustatymą ir proceso užduotis.
 
-Apibendrinant, Planavimo optimizavimo planavimas palaiko dažniausiai naudojamus scenarijus. Galite kurti maršrutą, įtraukti pirmines ir antrines operacijas, nurodyti kitas operacijas, įtraukti išteklių reikalavimus bei pridėti nustatymo ir vykdymo laikus. Tada planavimo metu sistema atsižvelgs į šią informaciją.
+Apibendrinant, planavimas palaiko dažniausiai naudojamus scenarijus. Galite kurti maršrutą, įtraukti pirmines ir antrines operacijas, nurodyti kitas operacijas, įtraukti išteklių reikalavimus bei pridėti nustatymo ir vykdymo laikus. Tada planavimo metu sistema atsižvelgs į šią informaciją.
 
 ## <a name="limitations"></a>Apribojimai
 
-Toliau nurodyti apribojimai taikomi, kai naudojate Planavimo optimizavimo planavimą:
+Planavimo optimizavimo funkcijai naudojant neribotą *pajėgumų planavimą taikomi šie* apribojimai:
 
 - Funkcija palaiko tik neribotą pajėgumą.
 - Funkcija nepalaiko išteklių įkėlimo funkcijos.
 - Funkcija neatsižvelgia į maršruto nurašymą.
 - Funkcija palaiko *Trukmę* tik kaip pirminių išteklių pasirinkimą.
-
-Atkreipkite dėmesį, kad *Planavimo optimizavimo neriboto pajėgumo planavimo* funkcija yra nuolat tobulinama. „Microsoft” tikisi pristatyti papildomų planavimo parametrų palaikymą būsimuose leidimuose.

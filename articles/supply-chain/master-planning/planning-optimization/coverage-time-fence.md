@@ -1,6 +1,6 @@
 ---
 title: Padengimo laiko riba
-description: Šiame straipsnyje aprašoma, kaip nustatyti padengimo laiko ribas, naudojant planavimo optimizavimą. Padengimo laiko riba nurodo jūsų planavimo perspektyvą ir limitą.
+description: Šiame straipsnyje aprašoma, kaip nustatyti padengimo laiko ribas. Padengimo laiko riba nurodo jūsų planavimo perspektyvą ir limitą.
 author: t-benebo
 ms.date: 01/18/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2021-01-18
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ebd59e05d2ae227f24e7dae6fae3634aab026c5a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 987dea4c1b693fc1bb687f97d51288d5e51e7d4c
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847939"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740119"
 ---
 # <a name="coverage-time-fences"></a>Padengimo laiko riba
 
 [!include [banner](../../includes/banner.md)]
 
-Šiame straipsnyje aprašoma, kaip nustatyti *padengimo laiko ribas*, naudojant planavimo optimizavimą. „Planners“ gali apibrėžti planavimo perspektyvą (padengimo laiko ribą dienomis) ir neįtraukti tiekimo ir poreikio, nepatenkančio į tą laikotarpį. Todėl padengimo laiko ribos padeda išvengti „triukšmo”, kurį sukelia tiekimo pasiūlymai, į kuriuos jums nereikia reaguoti mėnesiais. Pavyzdžiai apima kitų metų prognozę ir klientų užsakymus, pateikiamus daug toliau nei įprastas gamybos laikas.
+Šiame straipsnyje aprašoma, kaip nustatyti padengimo *laiko ribas*. „Planners“ gali apibrėžti planavimo perspektyvą (padengimo laiko ribą dienomis) ir neįtraukti tiekimo ir poreikio, nepatenkančio į tą laikotarpį. Todėl padengimo laiko ribos padeda išvengti „triukšmo”, kurį sukelia tiekimo pasiūlymai, į kuriuos jums nereikia reaguoti mėnesiais. Pavyzdžiai apima kitų metų prognozę ir klientų užsakymus, pateikiamus daug toliau nei įprastas gamybos laikas.
 
 Padengimo laiko riba yra dienų skaičius po šiandienos datos (arba tiksliau, planavimo vykdymo datos), neįtraukiant tiekimo ir poreikio. Norėdami išvengti vėlavimo, turite užtikrinti, kad padengimo laiko riba yra ilgesnė už bendrą gamybos laiką. Numatytoji sistemos reikšmė yra 100 dienų.
 
@@ -82,9 +82,9 @@ Nustatydami padengimo laiko ribas, atsižvelkite į šiuos aspektus:
 - Poreikio operacijos nebus generuojamos jokiam tiekimui ir poreikiui, kuris nepatenka į padengimo laiko ribas.
 - Jei bet koks patvirtintas tiekimas ir poreikis nepatenka į padengimo laiko ribas, jis nebus įkeltas į mechanizmą. Todėl tai nesuaktyvins jokių papildymų ir vėlavimas nebus skaičiuojamas. Nepaisant to, šis tiekimas ir poreikis neturi būti pašalintas iš sistemos.
 - Pakankamų atsargų kiekio (iš minimalių raktų) nuokrypių nebus paisoma, jeigu jie nėra padengimo laiko ribose.
-- Vidinės įmonės poreikio bus nepaisoma, jei apskaičiuota pageidaujama siuntimo data nėra padengimo laiko ribose. Atkreipkite dėmesį, kad įtaisytojo bendrojo planavimo vidinės įmonės poreikis nėra ribojamas padengimo laiko riba.
-- Poreikio prognozių bus nepaisoma, jeigu biudžeto data nėra padengimo laiko ribose. Atkreipkite dėmesį, kad įtaisytojo bendrojo planavimo poreikio prognozės nėra ribojamos padengimo laiko riba.
-- Planavimo optimizavimas palaiko laiko juostas. Jis atsižvelgia į tiekimo ir poreikio tinklaviečių laiko juostas ir planavimo vykdymo laiką. Pavyzdžiui, bendrasis planavimas suaktyvinamas spalio 15 d. 11 val. iš tinklavietės Danijoje (GMT+1 laiko juosta) ir panaudojama dešimt dienų padengimo laiko riba. Šiuo atveju, tiekimas ir poreikis iš tinklavietės Sietle (GMT-8 laiko juostos) įtraukiamas iki spalio 25 d. 2 val. (= dešimt dienų po 24 valandas po bendrojo planavimo suaktyvinimo, atėmus devynių valandų laiko juostos skirtumą). Atkreipkite dėmesį, kad įtaisytasis bendrojo planavimo mechanizmas atsižvelgia tik į laiko ribos datą. Todėl rezultatas gali skirtis.
+- Vidinės įmonės poreikio bus nepaisoma, jei apskaičiuota pageidaujama siuntimo data nėra padengimo laiko ribose. Atkreipkite dėmesį, kad pasenusiam bendrojo planavimo moduliui vidinės įmonės poreikis nėra ribojamas pagal padengimo laiko ribas.
+- Poreikio prognozių bus nepaisoma, jeigu biudžeto data nėra padengimo laiko ribose. Atsikreipkite dėmesį, kad pasenusiam bendrojo planavimo moduliui poreikio prognozės ribojamos pagal padengimo laiko ribas.
+- Planavimo optimizavimas palaiko laiko juostas. Jis atsižvelgia į tiekimo ir poreikio tinklaviečių laiko juostas ir planavimo vykdymo laiką. Pavyzdžiui, bendrasis planavimas suaktyvinamas spalio 15 d. 11 val. iš tinklavietės Danijoje (GMT+1 laiko juosta) ir panaudojama dešimt dienų padengimo laiko riba. Šiuo atveju, tiekimas ir poreikis iš tinklavietės Sietle (GMT-8 laiko juostos) įtraukiamas iki spalio 25 d. 2 val. (= dešimt dienų po 24 valandas po bendrojo planavimo suaktyvinimo, atėmus devynių valandų laiko juostos skirtumą). Atsikreipkite dėmesį, kad pasenusiu bendrojo planavimo moduliu atsižvelgiama tik į laiko ribos datą. Todėl rezultatas gali skirtis.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

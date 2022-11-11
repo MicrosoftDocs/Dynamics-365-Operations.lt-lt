@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: e17e45f1d4e9f7c62317eac6f3ea1be84017b562
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 1a952fe5734f01325842a8a130b9322eadc67951
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335292"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740598"
 ---
 # <a name="priority-based-planning"></a>Prioritetu grindžiamas planavimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šiame straipsnyje aprašoma "Microsoft" prioritetu pagrįsta planavimo priemonė Dynamics 365 Supply Chain Management. Ši funkcija įtraukia poreikio planavimo, kuris yra vienas [iš poreikio poreikių planavimo (DDMRP) žingsnio, palaikymą](ddmrp-overview.md). Prioritetinis planavimas įgalina planavimo optimizavimą generuoti suplanuotus užsakymus, paremtus planavimo prioritetais, o ne poreikio datomis.
+Šiame straipsnyje aprašoma "Microsoft" prioritetu pagrįsta planavimo priemonė Dynamics 365 Supply Chain Management. Ši funkcija įtraukia poreikio planavimo, kuris yra vienas [iš poreikio poreikių planavimo (DDMRP) žingsnio, palaikymą](ddmrp-overview.md). Prioritetinis planavimas įgalina sistemą generuoti suplanuotus užsakymus, paremtus planavimo prioritetais, o ne poreikio datomis.
 
 Prioritetinis planavimas leidžia jums nustatyti papildymo užsakymų prioritetą siekiant užtikrinti, kad skubaus poreikio prioritetas būtų skubus, o ne toks svarbus poreikis. Pavyzdžiui, atsargų papildymo užsakymas bus laikomas prioritetu virš standartinio papildymo papildymo užsakymo. Sistema gali automatiškai išskaidyti didesnius užsakymus į atskirus mažesnius užsakymus, kai užsakymo eilutės grupuojami pagal prioritetą. Tada pirmiausia bus galima apdoroti visus didelio prioriteto užsakymus.
 
@@ -37,11 +37,11 @@ Norėdami greitai peržiūrėti šią funkciją, žr. toliau nurodytą vaizdo į
 
 ## <a name="where-and-how-planning-priorities-are-assigned"></a>Kur ir kaip priskiriami planavimo prioritetai
 
-*Planavimo prioriteto* informacija apie tiekimą ir poreikį yra prioriteto planavimo pagrindas. Planavimo prioritetas apibrėžia poreikio ar tiekimo eilutės svarbą. Planavimo optimizavimas jį naudoja, kai **padengimo** kodo lauke nustatyta *Prioritetas*.
+*Planavimo prioriteto* informacija apie tiekimą ir poreikį yra prioriteto planavimo pagrindas. Planavimo prioritetas apibrėžia poreikio ar tiekimo eilutės svarbą. Bendrasis planavimas jį naudoja, kai **padengimo kodo** laukas nustatytas kaip *Prioritetas*.
 
 Planavimo prioritetas paprastai yra skaičius nuo 0 (nulio) iki 100, o 0 reiškia aukščiausią svarbą. Jis rodomas ir nustatomas lauke **Planavimo prioritetas**. Šį lauką galite rasti šiuose puslapiuose: poreikio **prognozės** eilutės, **pardavimo** užsakymo informacija, **pirkimo** užsakymo informacija, **perkėlimo užsakymo** informacija ir suplanuoto **užsakymo informacija**.
 
-Kai atitinkamos prekės arba padengimo grupės padengimo kodo laukas nustatytas kaip Prioritetas, planavimo optimizavimo balansas su poreikiu apskaičiuojamas pagal poreikį, kai apskaičiuojamas planavimo prioritetas ir kiekvienam išleistam produktui atsižvelgiama į vertes, kurios nustatytos laukams Minimalus, **·** *·* **Užsakymo** taškas **ir** Maksimalus prekių padengimo puslapyje.**·** **·**
+Kai atitinkamos prekės arba padengimo grupės padengimo kodo laukas nustatytas kaip Prioritetas, bendrojo planavimo metu balansai su poreikiu apskaičiuojami naudojant poreikiu pagrįstą būdą, **o** kiekvieno išleisto produkto planavimo prioritetą jis apima vertes, kurios yra nustatytos laukams Minimalus, *·* **·** **Persamdyti** tašką ir Maksimalus prekių padengimo puslapyje.**·** **·**
 
 > [!NOTE]
 > Prioriteto *vertė* galima padengimo kodo **lauke tik** tada, kai įgalintas planavimo optimizavimas.

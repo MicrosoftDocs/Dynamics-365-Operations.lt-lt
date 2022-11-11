@@ -1,6 +1,6 @@
 ---
 title: Laiko rezervai
-description: Šiame straipsnyje aprašoma, kaip laiko rezervus galima naudoti su "Microsoft" planavimo optimizavimo papildiniai Dynamics 365 Supply Chain Management.
+description: Šiame straipsnyje aprašoma, kaip veikia laiko rezervas atliekant bendrąjį planavimą.
 author: t-benebo
 ms.date: 08/09/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 247b48afab68651cff0ce84c8268a1df35a15c02
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 87b38276a2723374969a67c5413dde15537d04ec
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335202"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740447"
 ---
 # <a name="safety-margins"></a>Laiko rezervai
 
 [!include [banner](../../includes/banner.md)]
 
-Šiame straipsnyje aprašoma, kaip laiko rezervus galima naudoti su "Microsoft" planavimo optimizavimo papildiniai Dynamics 365 Supply Chain Management.
+Šiame straipsnyje aprašoma, kaip veikia laiko rezervas atliekant bendrąjį planavimą.
 
 ## <a name="safety-margins-overview"></a>Laiko rezervų peržiūra
 
@@ -165,12 +165,5 @@ Visi trys laiko rezervai įtraukiami, kai sistema nustato, ar užsakymas atidėt
 Pavyzdžiui, prekės gamybos laikas yra viena diena , o gavimo laiko rezervas yra trys dienos. Šios prekės pardavimo užsakymas nustatomas taip, kad jis reikalingas šiandien. Šiuo atveju atidėjimas skaičiuojamas kaip *gamybos laikas* + *gavimo laiko rezervas* = keturios dienos. Todėl, jei šiandien yra rugpjūčio 14 d., keturios atidėjimo dienos nustato pristatymą į rugpjūčio 18 d. Toliau pateikiamoje iliustracijoje vaizduojamas šis pavyzdys.
 
 ![Atidėjimo skaičiavimo pavyzdys.](media/safety-margins-delays.png)
-
-## <a name="additional-resources"></a>Papildomi ištekliai
-
-[Darbo su planavimo optimizavimu pradžia](get-started.md)
-
-[Planavimo optimizavimo tinkamumo analizė](planning-optimization-fit-analysis.md)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

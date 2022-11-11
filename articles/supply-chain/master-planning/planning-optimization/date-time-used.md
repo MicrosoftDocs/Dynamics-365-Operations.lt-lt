@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 807834bf5cd062ed24e5e3f3512d8389717a2d39
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2ef78c73a1c7033735f9586229ff7ba21daaa5ef
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885905"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740910"
 ---
 # <a name="date-and-time-parameters-used-by-planning-optimization"></a>Datos ir laiko parametrai, naudojami „Planning Optimization“
 
@@ -23,7 +23,7 @@ ms.locfileid: "8885905"
 
 Šiame straipsnyje pateikiama informacija apie datos ir laiko parametrus, kuriuos planavimo optimizavimas naudoja operacijos metu.
 
-Kadangi įtaisytasis bendrojo planavimo variklis visuose skaičiavimuose naudoja operacijų datas, „Planning Optimization“ veikia pagal datos ir laiko vertes, kurios konvertuojamos į datas. Dėl tokio veikimo būdo skirtumo gali atsirasti situacijų, kai, pvz., prognozės operacijos, sukurtos vidurnaktį tą dieną, kai vykdomas bendrasis planavimas, neįtrauktos, nes „Planning Optimization“ mano, kad jos sukurtos iki esamos datos.
+Kadangi pasenusio bendrojo planavimo modulis visuose skaičiavimuose naudoja operacijų datas, planavimo optimizavimas veikia pagal datos ir laiko vertes, kurios konvertuojamos į datas. Dėl tokio veikimo būdo skirtumo gali atsirasti situacijų, kai, pvz., prognozės operacijos, sukurtos vidurnaktį tą dieną, kai vykdomas bendrasis planavimas, neįtrauktos, nes „Planning Optimization“ mano, kad jos sukurtos iki esamos datos.
 
 ## <a name="parameters-for-issue-and-demand-transactions"></a>Išdavimo ir poreikio operacijų parametrai
 

@@ -10,14 +10,15 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: fa4d2d1506546cacf5f9a7ec936f17601c5727d2
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 78ba4236705f1a200d9fe796eb80d0241b0fa537
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335382"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740474"
 ---
 # <a name="delay-tolerance-negative-days"></a>Leistinas uždelsimo nuokrypis (neigiamos dienos)
+<!-- KFM: Split topic into PO and classic -->
 
 [!include [banner](../../includes/banner.md)]
 
@@ -47,7 +48,7 @@ Sistema susieja atidėjimo nuokrypio skaičiavimą su *anksčiausia papildymo da
 Ši formulė užtikrina, kad bendrasis planavimas nekuria naujų tiekimo užsakymų, kai tiekimas yra pakankamas produkto gamybos laiku.
 
 > [!NOTE]
-> Leistino uždelsimo nuokrypio skaičiavimas Planavimo optimizavime visada naudoja dinaminį neigiamų dienų skaičiavimą iš įtaisytojo bendrojo planavimo. Parametras **Naudoti dinamines neigiamas dienas** puslapyje **Bendrojo planavimo parametrai** neturi įtakos šiai elgsenai.
+> Planavimo optimizavimo leidžiamo delsos nuokrypio skaičiavimas visada naudoja dinaminį neigiamų dienų skaičiavimą iš pasenusio bendrojo planavimo modulio. Parametras **Naudoti dinamines neigiamas dienas** puslapyje **Bendrojo planavimo parametrai** neturi įtakos šiai elgsenai.
 
 Jei esamas tiekimas numano poreikio atidėjimą, kuris yra mažesnis arba lygus apskaičiuotam leistinam uždelsimo nuokrypiui, Planavimo optimizavimas iškviestų esamą tiekimą pagal poreikį. Kai kuriais atvejais geriau atidėti poreikį nei turėti tiekimo perviršį.
 

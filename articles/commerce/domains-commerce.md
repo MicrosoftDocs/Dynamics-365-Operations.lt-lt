@@ -2,19 +2,19 @@
 title: „Dynamics 365 Commerce“ esantys domenai
 description: Šiame straipsnyje aprašoma, kaip tvarkomi domenai Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 09/09/2022
+ms.date: 11/08/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 132aec92d2b3d2765dd6bd261fb4182f8aae679a
-ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
+ms.openlocfilehash: f1a2de7984aad7d291b8a4dc68f5690d57ebe6cc
+ms.sourcegitcommit: 2b654e60e2553a5835ab5790db4ccfa58828fae7
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "9465199"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "9750686"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>„Dynamics 365 Commerce“ esantys domenai
 
@@ -29,7 +29,7 @@ Domenai yra interneto adresai, naudojami pereiti į „Dynamics 365 Commerce” 
 
 ## <a name="provisioning-and-supported-host-names"></a>Parengimas ir palaikomi pagrindinių kompiuterių vardai
 
-Suteikiant e-komercijos aplinką [„Microsoft Dynamics  Lifecycle Services“ (LCS)](https://lcs.dynamics.com/), **Palaikomi šeimininko vardai** tiek e-komercijos suteikimo ekrane yra naudojami siekiant įvesti domenus, kurie bus susieti su talpinta „Commerce“ aplinka. Šie domenai bus klientui rodomi domeno pavadinimo serverio (DNS) pavadinimai, kuriame e-komercijos interneto svetainės bus patalpintos. Šio etapo metu įvedus domeną nepradedama nukreipti domeno srauto į „Dynamics 365 Commerce”. Domeno srautas bus nukreiptas į „Commerce” galinį punktą, tik kai atnaujinamas DNS CNAME įrašas, kad „Commerce” galinis punktas būtų naudojamas su domenu.
+Suteikiant e-komercijos aplinką [„Microsoft Dynamics  Lifecycle Services“ (LCS)](https://lcs.dynamics.com/), **Palaikomi šeimininko vardai** tiek e-komercijos suteikimo ekrane yra naudojami siekiant įvesti domenus, kurie bus susieti su talpinta „Commerce“ aplinka. Šie domenai bus klientui rodomi domeno pavadinimo serverio (DNS) pavadinimai, kuriame e-komercijos interneto svetainės bus patalpintos. Įvedus domeną šiuo etapu, domeno srautas pradedamas grąžinti Dynamics 365 Commerce. Domeno srautas bus nukreiptas į „Commerce” galinį punktą, tik kai atnaujinamas DNS CNAME įrašas, kad „Commerce” galinis punktas būtų naudojamas su domenu.
 
 > [!NOTE]
 > Kelis domenus galima įvesti į langelį **Palaikomi pagrindinių kompiuterių vardai** atskiriant juos kabliataškiais.
@@ -44,7 +44,7 @@ Galite sukurti paslaugos užklausą, norėdami įtraukti papildomus domenus į a
 
 Suteikiant „Dynamics 365 Commerce“ e-komercijos aplinką, „Commerce“ sukurs URL, kuris bus veikiantis aplinkos adresas. Šis URL yra nukreiptas į e-komercijos saito nuorodą rodomą LCS suteikus aplinką. „Commerce“ sukurtas URL yra šio formato `https://<e-commerce tenant name>.dynamics365commerce.ms`, kuriame e-komercijos nuomotojo pavadinimas yra pavadinimas įvestas į LCS „Commerce“ aplinkoje.
 
-Taip pat galite naudoti gamybos svetainės pagrindinių kompiuterių vardus smėlio dėžės aplinkoje. Ši parinktis puikiai tinka, kai kopijuojate svetainę iš smėlio dėžės aplinkos į gamybos aplinką.
+Taip pat galite naudoti gamybos svetainės pagrindinių kompiuterių vardus smėlio dėžės aplinkoje. Ši pasirinktis geriausia, kai galėsite kopijuoti svetainę iš sandbox aplinkos į gamybą.
 
 ## <a name="site-setup"></a>Svetainės sąranka
 
@@ -85,7 +85,7 @@ Toliau pateiktame paveikslėlyje parodytas puslapis **URL** svetainių daryklėj
 
 ## <a name="domains-in-site-builder"></a>Domenai svetainių daryklėje
 
-Palaikomų pagrindinių kompiuterių vardų reikšmės gali būti susietos kaip domenas nustatant svetainę. Renkantis palaikomą pagrindinio kompiuterio vardo reikšmę kaip domeną, pasirinktas domenas bus nurodytas svetainės daryklėje. Šis domenas „Commerce” aplinkoje yra tik nuoroda, o to domeno tiesioginis srautas nebus perduotas į „Dynamics 365 Commerce”.
+Palaikomų pagrindinių kompiuterių vardų reikšmės gali būti susietos kaip domenas nustatant svetainę. Pasirinkdami palaikomą pagrindinio kompiuterio pavadinimą kaip domeną, matysite pasirinktą domeną, kurį nurodo visos svetainės generatorius. Šis domenas yra tik nuoroda Komercijos aplinkoje. Tiesioginis to domeno srautas dar nebus siunčiamas Dynamics 365 Commerce.
 
 Kai dirbate su svetainėmis svetainių daryklėje, jei turite dvi svetaines, nustatytas su dviem skirtingais domenais, galite pridėti atributą **?domain=** prie savo darbo URL, kad galėtumėte pasiekti publikuotą svetainės turinį naršyklėje.
 
@@ -93,19 +93,25 @@ Pvz., aplinka „xyz” buvo parengta, o svetainių daryklėje sukurtos ir susie
 - `https://xyz.dynamics365commerce.ms?domain=www.fabrikam.com`
 - `https://xyz.dynamics365commerce.ms?domain=www.contoso.com`
 
-Kai domeno užklausos eilutė nenurodyta aplinkoje su keliais domenais, „Commerce” naudoja pirmą domeną, kurį nurodėte. Pavyzdžiui, jei kelias „fabrikam” buvo pateiktas pirmiausiai svetainės nustatymo metu, URL `https://xyz.dynamics365commerce.ms` gali būti naudojamas pasiekti publikuotos svetainės turinį `www.fabrikam.com`.
+Kai domeno užklausos eilutė pateikta aplinkoje, kurioje pateikti keli domenai, "Commerce" naudoja pirmąjį jūsų pateiktą domeną. Pavyzdžiui, jei kelias „fabrikam” buvo pateiktas pirmiausiai svetainės nustatymo metu, URL `https://xyz.dynamics365commerce.ms` gali būti naudojamas pasiekti publikuotos svetainės turinį `www.fabrikam.com`.
+
+Taip pat galite pridėti pasirinktinius domenus. Norėdami tai padaryti projekto aplinkos komercijos valdymo puslapyje, **paantraštėje El** . prekyba, pasirinkite + Įtraukti **pasirinktinį domeną**. Ats., parodo esamus pasirinktinius domenus ir suteikia pasirinktį įtraukti naują pasirinktinį domeną.
+
+## <a name="update-which-commerce-scale-unit-is-used"></a>Naujinti, kuris "Commerce Scale Unit" naudojamas
+
+"Commerce Scale Unit" (CSU) paprastai pasirenkama iš pradžių sukūrus aplinką. Commerce leidžia pakeisti, kurį CSU egzempliorių naudoja jūsų aplinka, leidžia geriau prižiūrėti savo architektūrą savitarnos funkcijose ir sumažinti poreikį susisiekti su palaikymo tarnyba. Norėdami atnaujinti savo CSU egzempliorių, eikite į projekto aplinkos komercijos valdymo puslapį ir pasirinkite Naujinti skalės **vienetą**. Naudokite naują **komercijos skalės** vienetą norėdami pasirinkti naują CSU egzempliorių iš jūsų aplinkoje galimų CSUs sąrašo.
 
 ## <a name="traffic-forwarding-in-production"></a>Srauto perdavimas gamybos metu
 
 Galite imituoti kelis domenus naudodami domeno užklausos eilutės parametrus, esančius commerce.dynamics.com galiniame punkte. Tačiau kai reikia įgyvendinti gamybos metu, turite persiųsti jūsų pasirinktinio domeno srautą į `<e-commerce tenant name>.dynamics365commerce.ms` galinį punktą.
 
-`<e-commerce tenant name>.dynamics365commerce.ms` galinis punktas nepalaiko pasirinktinio domeno saugiųjų jungčių lygmenų (SSL), todėl reikia nustatyti pasirinktinius domenus naudojant „Front Door Service“ arba turinio pristatymo tinklą (CDN). 
+Galinis `<e-commerce tenant name>.dynamics365commerce.ms` punktas nepalaiko pasirinktinio domeno saugiųjų jungčių lygmenų (SSLS), todėl turite nustatyti pasirinktinius domenus naudodami priekinių durų tarnybą arba turinio pristatymo tinklą (CDN). 
 
 Norėdami nustatyti pasirinktinius domenus naudodami „Front Door Service“ arba CDN, turite dvi toliau pateiktas parinktis.
 
-- Nustatykite „Azure Front Door”, kad būtų galima valdyti sąsajos serverio srautą ir prisijungti prie savo „Commerce” aplinkos. Tai suteikia galimybę labiau kontroliuoti domenus ir sertifikatus bei išsamesnes saugos strategijas.
+- Nustatykite durų tarnybą, pvz., "Azure Front Door", kad galėtumėte tvarkyti priekinį srautą ir prisijungti prie "Commerce" aplinkos, kuri labiau kontroliuoja domeno ir sertifikatų valdymą bei išsamesnes saugos strategijas.
 
-- Naudokite „Commerce” pateiktą „Azure Front Door” egzempliorių. Tam reikia koordinuoti veiksmus su „Dynamics 365 Commerce” komanda, kad būtų galima atlikti domeno tikrinimą ir gauti SSL sertifikatus savo gamybos domenui.
+- Naudokite "Commerce-supplied Azure Front Door" egzempliorių, kuriam reikia imtis veiksmų su komanda, Dynamics 365 Commerce skirta domeno tikrinimui ir SSL sertifikatų gavimas jūsų gamybos domenui.
 
 > [!NOTE]
 > Jei naudojate išorinę CDN arba priekinių durų tarnybą, įsitikinkite, kad užklausa yra naudojama "Commerce" platformoje su "Commerce- pateikta" pagrindinio kompiuterio pavadinimu, bet su X-Yra Yra pagrindinis kompiuteris (XFH) antrašte \<custom-domain\>. Pvz., jei yra jūsų "Commerce" `xyz.dynamics365commerce.ms``www.fabrikam.com` galinis punktas, o pasirinktinis domenas yra, `xyz.dynamics365commerce.ms` reikia perduoti užklausos pagrindinio kompiuterio antraštę, o XFH antraštę –`www.fabrikam.com`.
@@ -114,10 +120,10 @@ Informacijos apie tai, kaip nustatyti CDN paslaugą tiesiogiai, žr. [Turinio pr
 
 Norėdami naudoti „Commerce” teikiamą „Azure Front Door” egzempliorių, turite sukurti paslaugos užklausą, kad gautumėte CDN nustatymo pagalbos iš „Commerce” supažindinimo komandos. 
 
-- Jums reikės pateikti jūsų įmonės pavadinimą, gamybos domeną, aplinkos ID ir gamybos e-komercijos nuomotojo vardą. 
-- Jums reikės patvirtinti, ar tai esamas domenas (naudojamas šiuo metu aktyvioje svetainėje), ar naujas domenas. 
+- Jums reikės pateikti savo įmonės pavadinimą, gamybos domeną, aplinkos ID ir gamybos el. komercijos nuomininko pavadinimą. 
+- Jums reikės patvirtinti, ar ši tarnybos užklausa skirta esamam domenui (naudojama šiuo metu aktyviai svetainei) ar naujam domenui. 
 - Jei tai naujas domenas, domeno tikrinimas ir SSL sertifikatas gali būti pasiektas vienu veiksmu. 
-- Jei tai esamos svetainės domenas, yra kelių veiksmų procesas, kurio reikia norint nustatyti domeno tikrinimą ir SSL sertifikatą. Šis procesas turi 7 darbo dienų aptarnavimo lygio sutartį (SLA), skirtą domenui, kad jis būtų įgyvendintas, nes procesas apima kelis nuoseklius veiksmus.
+- Domenui, naudojančiam esamą svetainę, būtinas kelių žingsnių procesas domeno tikrinimui ir SSL sertifikatui nustatyti. Šis procesas turi 7 darbo dienų aptarnavimo lygio sutartį (SLA), skirtą domenui, kad jis būtų įgyvendintas, nes procesas apima kelis nuoseklius veiksmus.
 
 Norėdami sukurti paslaugos užklausą LCS, jūsų aplinkoje eikite į **Palaikymas \> Palaikymo problemos** ir pasirinkite **Pateikti incidentą**.
 
@@ -140,7 +146,7 @@ Jei domenai esami / aktyvūs, bus atlikti toliau pateikti veiksmai.
 
 ## <a name="apex-domains"></a>Viršūnės domenai
 
-„Commerce” teikiamas „Azure Front Door” egzempliorius nepalaiko viršūnės domenų (šakninių domenų, kuriuose nėra antrinių domenų). Norint naudoti "Apex" domenus reikia nustatyti IP adresą, o "Commerce Azure Front Door" egzempliorius turi tik virtualiuosius galinius punktus. Norėdami naudoti apex domeną, turite šias pasirinktis:
+"Commerce-supplied Azure Front Door" egzempliorius nepalaiko "APex" domenų (šakniniai domenai, kuriuose nėra su padomenių). Norint naudoti "Apex" domenus reikia nustatyti IP adresą, o "Commerce Azure Front Door" egzempliorius turi tik virtualiuosius galinius punktus. Norėdami naudoti apex domeną, turite šias pasirinktis:
 
 - **1 parinktis** – naudokite jūsų DNS teikėją, kad nukreiptumėte viršūnės domeną į „www” domeną. Pvz., fabrikam.com nukreipia į `www.fabrikam.com`, o `www.fabrikam.com` yra CNAME įrašas, nurodantis į „Commerce” nuomojamą „Azure Front Door” egzempliorių.
 

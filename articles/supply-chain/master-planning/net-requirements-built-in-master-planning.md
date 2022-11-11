@@ -1,6 +1,6 @@
 ---
-title: Grynieji reikalavimai ir iškvietimo informacija su įdiegtu pagrindiniu planavimu
-description: Šiame straipsnyje pateikiama informacija apie apskaičiuotus grynuosius poreikius ir iškvietimo informaciją įtaisytajame bendrojo planavimo metu.
+title: Grynieji reikalavimai ir iškvietimo informacija naudojant pasenusią bendrojo planavimo sistemą
+description: Šiame straipsnyje pateikiama informacija apie apskaičiuotus grynuosius poreikius ir iškvietimo informaciją pasenusyje bendrojo planavimo sistemoje.
 author: t-benebo
 ms.date: 04/20/2022
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 08a25af0d7ea15b4bc426dfc54b9b960762e11f0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dd11cf039704afc520cfa24185aa2e7842af9a00
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846075"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740281"
 ---
-# <a name="net-requirements-and-pegging-information-with-built-in-master-planning"></a>Grynieji reikalavimai ir iškvietimo informacija su įdiegtu pagrindiniu planavimu
+# <a name="net-requirements-and-pegging-information-with-the-deprecated-master-planning-engine"></a>Grynieji reikalavimai ir iškvietimo informacija naudojant pasenusią bendrojo planavimo sistemą
 
 [!include [banner](../includes/banner.md)]
 
@@ -26,8 +26,8 @@ Kai vykdote bendrąjį planavimą, svarbu suprasti jo išeigą, kaip esamas tiek
 
 **Grynųjų reikalavimų** puslapis rodo grynuosius reikalavimus, kurie yra apskaičiuoti produktui bendrojo planavimo metu. Taip pat yra rodomi padengimo parametrai, kurie buvo taikyti bendrojo planavimo vykdymo metu, reikalavimų bendrųjų sumų paskirstymas pagal operacijos tipą ir iškvietimo informaciją.
 
-Grynojo **reikalavimų** puslapis šiek tiek skiriasi, atsižvelgiant į tai, ar naudojate planavimo optimizavimą, ar integruotą bendrojo planavimo įrenginį. Daugiau informacijos apie šį skirtumą ieškokite [skirtumai tarp įtaisyto bendrojo planavimo ir planavimo optimizavimo](planning-optimization/planning-optimization-differences-with-built-in.md)
+Grynojo **reikalavimų** puslapis šiek tiek skiriasi, atsižvelgiant į tai, ar naudojate planavimo optimizavimą, ar pasenusią bendrojo planavimo sistemą. Daugiau informacijos apie šį skirtumą ieškokite skirtumų [tarp planavimo optimizavimo ir pasenusio bendrojo planavimo modulio](planning-optimization/planning-optimization-differences-with-built-in.md)
 
-Norėdami gauti daugiau informacijos apie tai, kaip dirbti su šiuo puslapiu, žr. [Grynieji reikalavimai ir iškvietimo informacija, naudojant planavimo optimizavimą](planning-optimization/net-requirements.md).
+Daugiau informacijos apie tai, kaip dirbti su šiuo puslapiu, žr. grynuosius [reikalavimus ir iškvietimo informaciją](planning-optimization/net-requirements.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

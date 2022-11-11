@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-09-19
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 3d116b5f7f456630415378e6cc069907e339068b
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 5f02ec58c88cfd0d663a97de4e3e4dff1cdd5e90
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689699"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740092"
 ---
 # <a name="finite-capacity-planning-and-scheduling"></a>Riboto pajėgumo planavimas ir tvarkaraščio sudarymas
 
@@ -28,9 +28,8 @@ Ribotas pajėgumas yra būdas, padedantis suprasti, kiek darbo galima pagaminti 
 
 Ribotas pajėgumo planavimas ir planavimas sukuria realesnį gamybos procesų grafiką, nei sukuriamas neriboto įkėlimo būdas. Jei nėra pakankamai pajėgumų ištekliams, pristatymo data bus išstumta, o užduotis bus suplanuota, kai bus pakankamai pajėgumų.
 
-## <a name="planning-optimization-support-for-finite-capacity-planning"></a>Riboto pajėgumo planavimo optimizavimo palaikymas
-
-Ribotas pajėgumo planavimas ir planavimas veikia beveik taip pat, nepaisant to, ar naudojate planavimo optimizavimą, ar įtaisytą planavimo sistemą. Tačiau planavimo optimizavimas naudoja silpnios vietos **laiko ribos** parametrą. Naudojant planavimo optimizavimą, ribotosios gebos ištekliai visada planuojami naudojant tą pačią laiko ribą kaip ir ribotosios gebos ištekliai (kaip nurodyta riboto pajėgumo laiko ribose).
+> [!NOTE]
+> Ribotas pajėgumo planavimas ir planavimas veikia beveik taip pat, nepaisant to, ar naudojate planavimo optimizavimą, ar pasenusią bendrojo planavimo sistemą. Tačiau planavimo optimizavimas naudoja silpnios vietos **laiko ribos** parametrą. Naudojant planavimo optimizavimą, ribotosios gebos ištekliai visada planuojami naudojant tą pačią laiko ribą kaip ir ribotosios gebos ištekliai (kaip nurodyta riboto pajėgumo laiko ribose).
 
 ## <a name="set-up-finite-capacity-functionality"></a>Nustatyti riboto pajėgumo funkciją
 

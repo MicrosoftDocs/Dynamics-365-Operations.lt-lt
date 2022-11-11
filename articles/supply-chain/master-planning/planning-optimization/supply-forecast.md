@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-09-21
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: dc83d10851958ec67166cb7e40cfd84dceae6651
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 2bac9355bb1ac00f697ec459f494a64553e0eacc
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9690164"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740147"
 ---
 # <a name="master-planning-with-supply-forecasts"></a>Bendrasis planavimas su tiekimo prognozėmis
 
@@ -168,13 +168,13 @@ Kai paleidžiate bendrąjį planą, kuris nustatytas taip, kad kaip mažinimo me
 
 Dabar redaguojate suplanuotą pirkimo užsakymą, sukurtą po paskutinio planavimo vykdymo, ir pakeiskite kiekį į *15 mėn*. Tada patvirtinate užsakymą. Kai kitą kartą galėsite vykdyti bendrąjį planą, *bus sukurtas suplanuotas pirkimo užsakymas tiekėjui JAV-101*, *1 vieta*, *11* sandėlis, *kiekis* 10 el *. ir data 10/10/22*. Šiuo metu kiekis bus sumažintas, kad atspindėtų esamo patvirtinto užsakymo, kuris buvo nurodytas ankstesniame planavimu, kiekį.
 
-## <a name="differences-between-planning-optimization-and-the-built-in-planning-engine"></a>Skirtumai tarp planavimo optimizavimo ir įtaisyto planavimo modulio
+## <a name="differences-between-planning-optimization-and-the-deprecated-master-planning-engine"></a>Skirtumai tarp planavimo optimizavimo ir pasenusio bendrojo planavimo modulio
 
-Tiekimo prognozės šiek tiek skiriasi, tai priklauso nuo jūsų naudojamas planavimo modulio (įtaisytasis bendrasis planavimas arba planavimo optimizavimas). Šiame skyriuje aprašomi skirtumai.
+Tiekimo prognozės šiek tiek skiriasi, atsižvelgiant į jūsų naudojamas planavimo sistemą (planavimo optimizavimas arba pasenusias bendrojo planavimo modulis). Šiame skyriuje aprašomi skirtumai.
 
 ### <a name="vendor-groups"></a>Tiekėjų grupės
 
-Kai pridedate prognozuojamą eilutę, galite nurodyti tiekėją ir tiekėjų grupę. Įtaisytojo planavimo sistemoje sukurti suplanuoti užsakymai grupuojami pagal tiekėjų ir tiekėjų grupės verčių derinį. Planavimo optimizavime suplanuoti užsakymai grupuojami pagal tiekėją.
+Kai pridedate prognozuojamą eilutę, galite nurodyti tiekėją ir tiekėjų grupę. Pasenusiuose bendrojo planavimo moduliuose suplanuoti užsakymai grupuojami pagal tiekėjų ir tiekėjų grupės verčių derinį. Planavimo optimizavime suplanuoti užsakymai grupuojami pagal tiekėją.
 
 Toliau esančioje lentelėje pateikiami prekės tiekimo prognozės eilučių pavyzdžiai.
 
@@ -186,7 +186,7 @@ Toliau esančioje lentelėje pateikiami prekės tiekimo prognozės eilučių pav
 
 Tiekėjas *VendorA* yra numatytasis tiekėjų grupės *VendorGroupA tiekėjas*. Tai taip pat numatytasis prekės tiekėjas.
 
-Įtaisytasis planavimo variklis sukurs šiuos užsakymus:
+Pasenusi bendrojo planavimo sistema sukurs šiuos užsakymus:
 
 - Suplanuotas tiekėjo Tiekėjo A *, tiekėjų grupės* VendorGroupA *ir* kiekio 11 pirkimo *užsakymas*
 - Suplanuotas tiekėjo tiekėjo pirkimo *užsakymas,* kurio kiekis – *7*
@@ -197,7 +197,7 @@ Planavimo optimizavimas sukurs tik vieną užsakymą:
 
 ### <a name="reduction-of-general-forecasts-by-more-specific-forecasts"></a>Bendrųjų prognozių sumažinimas pagal konkrečias prognozes
 
-Įtaisytojo bendrojo planavimo sistemoje rezultatas yra neprognozuojamas, jei kai kurios prognozės turi tiekėją, o kitos – ne.
+Jei kai kurios prognozės yra tiekėjo, o kitos – ne, rezultatas yra neprognozuojamas.
 
 Planavimo optimizavime bendrosios prognozės visada sumažinamos labiau konkrečiomis prognozėmis, kaip parodyta toliau pateiktame pavyzdyje.
 
@@ -218,15 +218,15 @@ Bendroji prognozė (15,00 vienetų) sumažinama pagal konkrečias prognozes (5,0
 
 ### <a name="respect-for-default-order-settings-when-planned-orders-are-generated"></a>Numatytųjų užsakymo parametrų vykdymas generuojant suplanuotus užsakymus
 
-Kiekviena prekė gali turėti numatytuosius užsakymo parametrus, pvz., mažiausią pirkimo užsakymo kiekį. Įtaisytasis planavimo modulis nepaiso šių parametrų, todėl prognozės konvertuojamos į suplanuotus užsakymus, kurių kiekis toks pat. Planavimo optimizavimas pagal šiuos parametrus, kai suplanuoti užsakymai generuojami pagal tiekimo prognozes. 
+Kiekviena prekė gali turėti numatytuosius užsakymo parametrus, pvz., mažiausią pirkimo užsakymo kiekį. Pasenusio bendrojo planavimo sistema nepaiso šių parametrų, todėl prognozės konvertuojamos į suplanuotus užsakymus, kurių kiekis toks pat. Planavimo optimizavimas pagal šiuos parametrus, kai suplanuoti užsakymai generuojami pagal tiekimo prognozes. 
 
 ### <a name="aggregation-of-planned-orders-as-a-result-of-reduction-by-approved-orders"></a>Suplanuotų užsakymų sujungimas dėl sumažinimo pagal patvirtintus užsakymus
 
-Įtaisytasis bendrojo planavimo modulis daro prielaidą, kad tik vienas užsakymas sumažins esamą tiekimo prognozę. Todėl jei keli užsakymai atitinka tiekimo prognozės eilutę, tik pirmasis užsakymas ją sumažins. Planavimo optimizavime visi užsakymai, kurie atitinka tiekimo prognozės eilutę, sumažins ją.
+Pasenusiu bendrojo planavimo planavimu laikoma, kad tik vienas užsakymas sumažins esamą tiekimo prognozę. Todėl jei keli užsakymai atitinka tiekimo prognozės eilutę, tik pirmasis užsakymas ją sumažins. Planavimo optimizavime visi užsakymai, kurie atitinka tiekimo prognozės eilutę, sumažins ją.
 
 ### <a name="reduction-of-forecasts-by-matching-vendors-only"></a>Prognozių sumažinimas tik suderinus tiekėjus
 
-Kai įtaisytasis bendrojo planavimo modulis sumažina prognozę pagal esamus išleisti pirkimo užsakymus, programa užtikrina, kad pirkimo užsakymo tiekėjas atitiktų tiekėją pagal prognozę. Planavimo optimizavimas sumažina prognozes tik pagal pirkimo užsakymus, kurių tiekėjo lauke yra atitinkanti vertė.
+Kai pasenusias bendrojo planavimo modulis sumažina prognozę pagal esamus išleisti pirkimo užsakymus, programa užtikrina, kad pirkimo užsakymo tiekėjas atitiktų tiekėją pagal prognozę. Planavimo optimizavimas sumažina prognozes tik pagal pirkimo užsakymus, kurių tiekėjo lauke yra atitinkanti vertė.
 
 Perkėlimo ir gamybos užsakymų tiekėjo lauko visada nepaisoma, nes jis yra su šiais užsakymų tipais susijusias.
 
@@ -234,4 +234,4 @@ Perkėlimo ir gamybos užsakymų tiekėjo lauko visada nepaisoma, nes jis yra su
 
 Jei numatytasis prekės užsakymo tipas yra Perkėlimas, prognozes *galima* sumažinti tik esamais suplanuotais perkėlimo užsakymais. Tačiau gamybos užsakymų ir pirkimo užsakymų tiekimo prognozę sumažina tik išleisti užsakymai.
 
-Įtaisytasis planavimo modulis sumažina visų perkėlimo užsakymų būsenų skaičius, o planavimo optimizavimas sumažina prognozes tik pagal perkėlimo užsakymus, kurių būsena *Išleista*.
+Pasenusio bendrojo planavimo modulis sumažina visų perkėlimo užsakymų būsenų skaičius, o planavimo optimizavimas sumažina prognozes tik pagal perkėlimo užsakymus, kurių būsena *Išleista*.

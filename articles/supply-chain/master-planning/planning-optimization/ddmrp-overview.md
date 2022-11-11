@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 31b45fdb92cf8a590ff77104f0c8015fb4d329d5
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: cf5ca3996a882111b840e3acb5e2a4f3f26ec4b7
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689494"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740856"
 ---
 # <a name="demand-driven-material-requirements-planning-ddmrp-overview"></a>Poreikio valdomas medžiagų poreikių planavimo (DDMRP) peržiūra
 
@@ -44,6 +44,6 @@ DDMRP paprastai naudojamas gamintojų, kurie turi kelių lygių komplektavimo sp
 
 ## <a name="ddmrp-in-dynamics-365-supply-chain-management"></a>DDMRP, Dynamics 365 Supply Chain Management
 
-DDMRP įtraukiamas į "Microsoft Dynamics 365 Supply Chain Management " ir nereikia papildomų licencijos mokesčių. Tiekimo grandinės valdymo metu DDMRP funkcija pridėta prie esamo bendrojo **planavimo modulio**. Tačiau reikia naudoti planavimo optimizavimo priedą. 
+DDMRP įtraukiamas į "Microsoft Dynamics 365 Supply Chain Management " ir nereikia papildomų licencijos mokesčių. Tiekimo grandinės valdymo metu DDMRP funkcija pridėta prie esamo bendrojo **planavimo modulio**. Tačiau reikia naudoti planavimo optimizavimo priedą.
 
 DDMRP yra integruotas į esamus tiekimo grandinės valdymo planavimo nustatymus ir yra naudojamas kartu su šiais nustatymais, siekiant pasiekti tinkamą jūsų verslo planavimo konfigūraciją. Jį kontroliuoja naujas padengimo kodas, kuris skiriasi nuo laikotarpio, min. / maks., poreikio ir t. t. Tai nėra naujas modulis ir jis nepakeičia esamų planavimo funkcijų. Tačiau, suteikia jums daugiau funkcijų naudoti.

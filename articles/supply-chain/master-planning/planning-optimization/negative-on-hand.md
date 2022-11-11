@@ -1,6 +1,6 @@
 ---
 title: Planavimas su neigiamais turimais kiekiais
-description: Šiame straipsnyje paaiškinama, kaip tvarkomi neigiami turimi rezultatai naudojant planavimo optimizavimą.
+description: Šiame straipsnyje paaiškinama, kaip tvarkomi neigiami turimi atsargų turimi atsargų skaičiai.
 author: t-benebo
 ms.date: 07/22/2021
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 04006bb12142be69c84bc8085dd82fc99280e90b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b4fc8b37fd800e3b4652513f150f9806bf1d5d67
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856141"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741128"
 ---
-# <a name="planning-with-negative-on-hand-quantities"></a>Planavimas, kai turimi kiekiai neigiami
+# <a name="planning-with-negative-on-hand-quantities"></a>Planavimas su neigiamais turimais kiekiais
 
 [!include [banner](../../includes/banner.md)]
 
 Jei sistemoje rodomas neigiamas bendrasis turimas kiekis, planavimo mechanizmas kiekį laiko 0 (nuliu), kad padėtų išvengti tiekimo pertekliaus. Toliau nurodyta, kaip ši funkcija veikia.
 
-1. Planavimo optimizavimo funkcija sujungia turimus kiekius taikydama mažiausią padengimo dimensijų lygį. (Pavyzdžiui, jei *vieta* nėra padengimo dimensija, planavimo optimizavimo funkcija turimus kiekius sujungia *sandėlio* lygiu.)
+1. Bendrasis planavimas sujungiami turimą kiekį žemiausio padengimo dimensijų lygio. (Pvz., *jei* vieta nėra padengimo dimensija, bendrasis planavimas sujungsite sandėlio lygiu turimo *kiekio kiekį* . )
 1. Jei bendrasis turimas kiekis taikant mažiausią padengimo dimensijų lygį yra neigiamas, sistema daro prielaidą, kad turimas kiekis tikrai yra 0 (nulis).
 
 > [!IMPORTANT]
@@ -88,14 +88,6 @@ Sistema konfigūruota tokiu būdu:
 - Pardavimo užsakymą sudaro *10* vnt. kiekiui. produkto *FG*.
 - Pardavimo užsakymo kiekis faktiškai rezervuojamas pagal esamas turimas atsargas.
 
-Tada koreguojate produkto *FG* kiekį, kad turimos atsargos taptų 5. Kadangi turimos produkto atsargos yra 5, dabar pardavimo užsakymo kiekis rezervuojamas pagal kiekį, kurio nėra turima (būtų panaši į tai, jei turimos atsargos būtų 0, o šiuo atveju pardavimo užsakymas būtų rezervuotas pagal neigiamas atsargas). Jei paleisite bendrąjį planavimą dabar, FG *bus sukurtas suplanuotas 5* kiekio užsakymas, skirtas tiekti pardavimo užsakymą, kadangi planavimo optimizavimas visada naudos esamą tiekimą arba sukurs naują suplanuotą užsakymą faktiniam rezervavimui tiekti.
-
-## <a name="related-resources"></a>Susiję ištekliai
-
-- [Planavimo optimizavimo apžvalga](planning-optimization-overview.md)
-- [Darbo su planavimo optimizavimu pradžia](get-started.md)
-- [Planavimo optimizavimo tinkamumo analizė](planning-optimization-fit-analysis.md)
-- [Plano retrospektyvos ir planavimo žurnalų peržiūra](plan-history-logs.md)
-- [Planavimo užduoties atšaukimas](cancel-planning-job.md)
+Tada koreguojate produkto *FG* kiekį, kad turimos atsargos taptų 5. Kadangi turimos produkto atsargos yra 5, dabar pardavimo užsakymo kiekis rezervuojamas pagal kiekį, kurio nėra turima (būtų panaši į tai, jei turimos atsargos būtų 0, o šiuo atveju pardavimo užsakymas būtų rezervuotas pagal neigiamas atsargas). Jei paleisite bendrąjį planavimą dabar, FG *bus sukurtas suplanuotas 5* kiekio užsakymas, skirtas tiekti pardavimo užsakymą, kadangi bendrasis planavimas visada naudos esamą tiekimą arba sukurs naują suplanuotą užsakymą faktiniam rezervavimui tiekti.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

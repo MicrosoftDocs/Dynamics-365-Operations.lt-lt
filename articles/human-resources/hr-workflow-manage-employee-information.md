@@ -2,7 +2,7 @@
 title: Darbo eigų naudojimas darbuotojų informacijai valdyti
 description: Šiame straipsnyje paaiškinama, kaip galite naudoti darbo eigas darbuotojų informacijai valdyti.
 author: twheeloc
-ms.date: 11/03/2021
+ms.date: 11/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,15 +13,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2fcbacc3cb891043560fabf28487bfeb12d1b77b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dbbbb0ee807cb65fa4f4f9a29cc4a2b6b045b08c
+ms.sourcegitcommit: 2b654e60e2553a5835ab5790db4ccfa58828fae7
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908807"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "9750740"
 ---
 # <a name="use-workflows-to-manage-employee-information"></a>Darbo eigų naudojimas darbuotojų informacijai valdyti
-
 
 [!INCLUDE [PEAP](../includes/peap-1.md)]
 
@@ -46,15 +45,41 @@ Darbo eigos tinkamumas personalui suteikia galimybę pritaikyti daugybę darbo e
 Pasamdžius, perkėlus ar atleidus darbuotojus į darbo eigą gali būti įtrauktas peržiūros procesas. Tokiu būdu dokumentas gali būti peržiūrėtas arba veiksmo sąlygos gali būti apibrėžtos kaip darbo eigos dalis. Atlikus peržiūros procesą, parengiamas dokumentas arba užbaigiamas veiksmas, o darbo eiga perkeliama į paskutinį patvirtinimo veiksmą.
 
 ## <a name="associate-a-workflow-with-a-position-hierarchy"></a>Darbo eigos susiejimas su pareigų hierarchija
-Darbo eigą galite susieti su bet kuria jūsų sukonfigūruota hierarchija. Pavyzdžiui, jei pareigos susiejamos su ataskaitų hierarchijos matrica, galite sukonfigūruoti darbo eigą, nukreipiančią konkretaus projekto išlaidas projekto vadovui, o ne darbuotojo, susieto su tomis pareigomis, vadovui. Norėdami sukurti naują darbo eigą arba modifikuoti esamą darbo eigą, personalo **darbo eigos** puslapyje pasirinkite **Nauja**. Sąraše pasirinkite darbo eigą, kad atidarytumėte darbo eigos konstruktorių. Dizaino įrankį galite naudoti kurdami naują darbo eigą arba keisdami jau esančios darbo eigos veiksmus. Pakeitus esamą darbo eigą pakeitimai išsaugomi kaip nauja versija. Todėl, jei reikia, galite bet kada sugrįžti prie ankstesnės versijos.
 
-## <a name="configure-a-human-resources-workflow"></a>Personalo darbo eigos konfigūravimas
+Galite susieti darbo eigą su bet kuria jūsų konfigūruota pareigų hierarchija. Du hierarchijos tipai naudojami darbo eigos nukreipimui: valdymo **ir konfigūruojama** **·**.
+
+- Valdymo **hierarchija** nurodo įmonės arba organizacijos ataskaitų struktūrą. Daugiau informacijos apie šį hierarchijos tipą ieškokite Ataskaitos [pagal pareigas](hr-personnel-positions.md#reports-to-position).
+- Konfigūruojama **hierarchija** rodo matricą arba pasirinktinę hierarchiją. Daugiau informacijos apie šį hierarchijos tipą ieškokite [Ryšiai](hr-personnel-positions.md#relationships).
+
+### <a name="managerial-hierarchy-example"></a>Valdymo hierarchijos pavyzdys
+
+Galite konfigūruoti darbo eigą taip, kad kai darbuotojas pateikia pirkimo užklausą naujam kompiuteriui, užklausa būtų nukreipta į darbuotojo vadybininką ir praleidimo lygio vadybininką. Konfigūruokite darbo eigos veiksmą, priskyrimo **tipo lauką** nustatykite kaip **Hierarchija**. Tada **hierarchijos** tipo skirtukas tampa pasiekiamas. Pavyzdžiui, pasirinkite valdymo **hierarchiją**.
+
+### <a name="configurable-hierarchy-example"></a>Konfigūruojamas hierarchijos pavyzdys
+
+Jei pareigos susijusios su matricos ataskaitų hierarchija, galite konfigūruoti darbo eigą, kuri maršrutų išlaidas konkrečiam projektui į galimą projektą, o ne darbuotojo vadybininką. Tokiu atveju nustatykite lauką **Priskyrimo tipas** kaip **Hierarchija**. Tada skirtuke Hierarchijos **tipas** pasirinkite konfigūruojamą **hierarchiją**. Nustatę darbo eigą, darbo **·** **eigos** nustatymo puslapyje pasirinkite hierarchiją Susieti hierarchiją, kad pasirinktumėte hierarchiją, kuri turėtų būti naudojama darbo eigos nukreipimui.
+
+> [!IMPORTANT]
+> Kai dokumentas, operacija ar pagrindinis įrašas pateikiamas darbo eigos patvirtinimui, pagrindinės pateikimo vietos bus naudojamos nustatyti, kam dokumentas turėtų būti siunčiamas į kitą.
+
+### <a name="hierarchy-setting-in-workflow-parameters"></a>Hierarchijos parametras darbo eigos parametruose
+
+1. Darbo eigos **parametrų puslapyje** eikite į hierarchijos **nukreipimą**.
+2. Pagal numatytuosius nustatymus parinktis **Naudoti** pareigų hierarchiją nustatyta kaip **Ne**. Šiuo atveju, darbo eiga išeis iš hierarchijos, naudos pirmines darbuotojo pareigas. Nustatykite pasirinktį **Taip,** jei norite, kad darbo eiga, naršant hierarchiją, naudoja pareigų pirminį elementą.
+
+### <a name="additional-example"></a>Papildomas pavyzdys 
+
+Darbuotojo Grace Sturman turi dvi pareigas: konsultanto ir konsultanto. Pagrindinės atidėjimų pareigos yra atstoja. Kai ji neįgija naujų darbuotojų, ji gali naudotis konsultavimo darbu. Per savo pirmines pareigas, Grace praneša Yrae, personalo direktorius. Turimos ataskaitos į Arbateisą. Atsižvelgiant į projektą, konsultanto pareigose Grace turi keletą punktyrinių eilučių ryšių.
+
+Atidėjimo įmonė sukuria darbo eigos maršruto taisykles, pagrįstas konfigūruojama **hierarchija** (matricomis / projektų hierarchijomis). Ši hierarchija naudoja Grace konsultanto pareigas. Jei **parinktis** **Naudoti pareigų hierarchiją nustatyta kaip Ne**, kai dokumentas yra nukreipiamas į Grace jos patvirtinimui, darbo eiga peržvelgs savo pirmines pareigas (prižiūrės), kad nustatytų, kur dokumentas turi būti nukreipiamas pirmyn. Tokiu atveju jis bus nukreiptas pirmiausia į Turižą, o tada į Jav. Jei pasirinktis nustatyta **kaip** Taip, **o** darbo eiga naudoja konfigūruojamą hierarchiją, darbo eiga peržiūrės Grace konsultanto pareigas ir ataskaitų ryšį, kad nustatytų, kur turi būti nukreipiamas dokumentas kitas.
+
+### <a name="configure-a-human-resources-workflow"></a>Personalo darbo eigos konfigūravimas
 Norėdami sukonfigūruoti pagrindinę darbo eigą, pradedamą darbuotojui pareikalavus pakeisti asmens identifikavimą, atlikite toliau nurodytus veiksmus.
 
 1.  Personalo darbo **eigos puslapyje** pasirinkite **Naujas**.
 2.  Galimų darbo eigų sąraše pasirinkite **Identifikavimo numeriai**.
-3.  Norėdami **atidaryti** darbo eigos konstruktorių pasirinkite Vykdyti, tada, kai būsite paraginti, įveskite vartotojo vardą ir slaptažodį.
-4.  Elementą **Patvirtinti identifikavimo numerį** iš darbo eigos elementų sąrašo nuvilkite į dizaino įrankio lauką.
+3.  Norėdami **atidaryti** darbo eigos konstruktorių pasirinkite Vykdyti, tada įveskite savo vartotojo vardą ir slaptažodį.
+4.  Perkelti elementą **Patvirtinti identifikavimo numerį** iš darbo eigos elementų sąrašo į dizainerio sritį.
 5.  Patvirtinimo elementą sujunkite su **Pradėti** ir **Baigti**.
 6.  Dukart pažymėkite (arba du kartus spustelėkite) Tvirtinti **elementą**, pasirinkite ir sulaikykite (arba spustelėkite dešiniuoju pelės mygtuku), tada pasirinkite **Ypatybės**.
 7.  Norėdami įtraukti darbo elemento instrukcijų, atlikite nurodytus veiksmus.
@@ -63,7 +88,7 @@ Norėdami sukonfigūruoti pagrindinę darbo eigą, pradedamą darbuotojui pareik
     2.  Pasirinkimo srityje **Hierarchija** pasirinkite **Konfigūruojama hierarchija**.
     3.  Įtraukite sustabdymo sąlygą ir uždarykite puslapį.
 
-8.  Atlikite papildomas instrukcijas (neturi būti jokių papildomų įspėjimų).
+8.  Užpildykite visas papildomas instrukcijas.
 9.  Pasirinkite **Įrašyti ir uždaryti**. Atsidarius dialogo langui aktyvinkite naują darbo eigą ir pasirinkite **Padaryti aktyvų**.
 10. Pasirinkite **Personalas** &gt; **Pareigos** &gt; **Pareigų hierarchijos tipai**.
 11. Pasirinkite **Matrica**.
@@ -72,9 +97,5 @@ Norėdami sukonfigūruoti pagrindinę darbo eigą, pradedamą darbuotojui pareik
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Peržiūrėti ir valdyti adresų pakeitimus](hr-personnel-view-address-changes.md) 
-
-
-
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

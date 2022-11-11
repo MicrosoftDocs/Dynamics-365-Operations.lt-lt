@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 0d857ef31e0fed2a0d7550197209fac9251d8812
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 876ee36c75a31ca89a9351d0ee1484e66076b6aa
+ms.sourcegitcommit: 4abf9b375fed6885ea11a425c524958fea29c3b9
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069793"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748719"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kaip darbuotojai naudoja gamybos cecho vykdymo sąsają
 
@@ -146,9 +146,6 @@ Jei paketinis užsakymas sukurtas pagal formulės versiją, kai **Sudėtinio pro
 Tokiu atveju, darbuotojas gali pateikti ataskaitą apie sudėtinio produkto kiekį ataskaitų eigos dialogo lange pasirinkdamas **Sudėtinio produkto variacijos**. Tuomet darbuotojas gali pasirinkti iš visų išleistų produktų, apibrėžtų kaip sudėtiniai produktai.
 
 ### <a name="reporting-catch-weight-items"></a>Esamo svorio prekių ataskaita
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
 
 Darbuotojai gali naudoti gamybos laiko vykdymo sąsają norėdami pranešti apie paketinių užsakymų, sukurtų esamo svorio prekėms, eigą. Paketiniai užsakymai kuriami pagal formules, kurias galima apibrėžti kaip esamo svorio prekes kaip sudėties prekes, sudėtinius produktus ir pagal produktus. Formulę taip pat galima apibrėžti, kad ji turėtų formulės eilutes, skirtas ingredientams, kurie apibrėžti kaip esamo svorio. Esamo svorio prekės turi sekti atsargas pagal du matavimo vienetus: esamo svorio kiekį ir atsargų kiekį. Pavyzdžiui, maisto pramonėje dėžes galima nurodyti kaip esamo svorio prekę, kur esamo svorio kiekis naudojamas dėžių kiekiui sekti, o atsargų kiekis naudojamas dėžių svoriui sekti.
 
