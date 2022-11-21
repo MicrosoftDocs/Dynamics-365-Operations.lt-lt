@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 6faf71ec5d14584034f9107c33ccce1cd1d393c7
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 03b0989d40882c3910b35744715c36babdcc3470
+ms.sourcegitcommit: e02bd317e96faf6182e70fb50b126868a94d9d06
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220339"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9757227"
 ---
 # <a name="saved-views"></a>Įrašyti rodiniai
 
@@ -107,7 +107,7 @@ Arba kurdami naują rodinį (naudodami veiksmą **Įrašyti kaip**) galite nusta
 
 Dialogo lange **Valdyti mano rodinius** suteikiama galimybė atlikti pagrindinę asmeninių rodinių priežiūrą ir nurodyti rodinių tvarką rodinių išrinkiklyje. Norėdami atidaryti šį puslapį, pasirinkite rodinio pavadinimą, norėdami atidaryti rodinių išrinkiklio išplečiamąjį meniu, pasirinkite **Daugiau**, o paskui – **Valdyti mano rodinius**.
 
-**Versija 10.0.21 ar vėlesnė:** Jei **patobulintas juridinio subjekto įrašytų rodinių** funkcijos yra įjungtos **Mano rodiniai** esantys teksto lauke **Valdyti mano rodiniu** drodo galimų skyriaus puslapio rodinių rodinius. Bet kokie dabartiniam juridiniam subjektui būsūs rodiniai rodomi savo skyriuje. **Visuotinių rodinių** skyrius visada rodomas, kad būtų galima valdyti rodinius, prieinamus puslapiui visuose juridiniuose subjektuose. 
+Jei patobulintas juridinio **subjekto palaikymas įrašytai rodinių funkcijai įjungtas, skyriuje Mano rodiniai,** **·** **esantis dialogo lango Valdyti mano rodinius, rodo galimų rodinių puslapį skyriuose.** Bet kokie dabartiniam juridiniam subjektui būsūs rodiniai rodomi savo skyriuje. **Visuotinių rodinių** skyrius visada rodomas, kad būtų galima valdyti rodinius, prieinamus puslapiui visuose juridiniuose subjektuose. 
 
 Toliau išvardyti su galimų to puslapio rodinių sąrašu galimi atlikti veiksmai.
 
@@ -138,9 +138,9 @@ Norėdami publikuoti rodinį, atlikite toliau nurodytus veiksmus.
 
 1. Sukurkite ir įrašykite norimo publikuoti rodinio asmeninę kopiją. 
 2. Jei tas rodinys šiuo metu įkeltas, pasirinkę rodinio pavadinimą atidarykite rodinių išrinkiklio išplečiamąjį meniu. 
-3. Pasirinkite mygtuką **Daugiau**, o paskui pasirinkite **Publikuoti**. Atsidarys publikavimo dialogo langas.
+3. Pasirinkite mygtuką **Daugiau**, o paskui pasirinkite **Publikuoti**. Atsidarys **dialogo** langas Publikuoti.
 4. Įveskite rodinio pavadinimą. Įvestas pavadinimas yra pavadinimas, kurį vartotojai, gaunantys šį rodinį, matys savo rodinių išrinkikliuose. Publikuotų puslapio rodinių pavadinimai turi būti unikalūs. Pavadinimai negali kartotis, net jei skiriasi vaidmenų arba juridinių subjektų, kuriems taikomi rodiniai, sąrašas.
-5. **10.0.17 ar vėlesnis atnaujinimas:** Jeigu **(Peržiūra) Vertimo funkcija organizacijos rodiniams** funkcija yra įjungta, galite įtraukti savo rodinio vertimus tiek kalbų, kiek jūsų organizacijai būtina pasirinkdami **Vertimai** mygtuką, esantį šalia laukas **Pavadinimas**. Tada rodinio pavadinimas bus rodomas vartotojams jų pasirinkta kalba. Taip pat galite nustatyti numatytąją kalbą, kad būtų galima nurodyti vertimą tiems vartotojams, kurių vertimo kalbos aprašo nėra.
+5. Jei organizacijos **rodinių** vertimo funkcija įjungta, galite įtraukti rodinio pavadinimo vertimus į tiek kalbų, **·** **kiek** reikalauja jūsų organizacija, pasirinkdami mygtuką Vertimai, esantį šalia lauko Pavadinimas. Tada rodinio pavadinimas bus rodomas vartotojams jų pasirinkta kalba. Taip pat galite nustatyti numatytąją kalbą, kad būtų galima nurodyti vertimą tiems vartotojams, kurių vertimo kalbos aprašo nėra.
 5. Pasirinktina: įveskite rodinio aprašymą, kad vartotojai, kurie gaus šį rodinį, galėtų geriau suprasti jo paskirtį. 
 6. Nuspręskite, ar rodinys turėtų būti paskelbtas kaip numatytasis rodinys pasirinktiems vartotojams. Kai peržiūra yra paversta nustatytąja, vartotojai ją matys kitą kartą, kai atidarys paskirties puslapį. Bus pakeista viena, iš anksto nustatyta globali peržiūra visų galutinių vartotojų. Nepaisant to, vartotojai dar gali keisti jų nustatytąją peržiūrą po jos publikavimo.
 
@@ -150,9 +150,10 @@ Norėdami publikuoti rodinį, atlikite toliau nurodytus veiksmus.
     > - Jei publikuojate rodinį kaip numatytąjį rodinį kai kuriems arba visiems juridiniams subjektams, vyksta toliau nurodytas veikimo būdas:
     >
     >    - Jei įjungta tik **pagrindinė įrašytų** rodinių funkcija, vienas visuotinis numatytasis rodinys bus pakeistas kiekvienam tiksliniam vartotojui. 
-    >    - **10.0.21 ar naujesnė versija:** Jei **patobulintas juridinio subjekto palaikymas įrašytų rodinių** įjungtas ir publikuojate rodinį juridinių subjektų subgrupyje, tų juridinių subjektų numatytasis rodinys bus pakeistas kiekvienam tiksliniam vartotojui.
+    >    - ** Jei patobulintas **juridinio** subjekto palaikymas įrašytų rodinių funkcijai įjungtas ir publikuojate rodinį juridinių subjektų subgrupyje, tų juridinių subjektų numatytasis rodinys bus pakeistas kiekvienam tiksliniam vartotojui.
     >
     > - Jei vartotojas turi vaidmenis, kuriuos keletas peržiūrų yra publikuojama kaip nustatytosios, paskutinė publikuota peržiūra bus naudojama kaip vartotojo nustatytoji peržiūra. 
+    > - Publikavimas nebus naudojamas vaidmenų priskyrimui naudojant AAD grupes. 
 
 8. Pridėkite vartotojams, kuriems skirtas šis rodinys, taikomus saugos vaidmenis. 
 9. Nuspręskite, ar norite paskelbti rodinį kiekvieno pasirinkto saugos vaidmens antriniams vaidmenims. Jei taip atliekate, pasirinkite **Įtraukti vaikų vaidmenis** pažymimą laukelį eilutėje atitinkamiems saugos vaidmenims. Atkreipkite dėmesį, kad šis žymimas laukelis nėra prieinamas vaidmenims, neturintiems vaikų vaidmenų.
@@ -162,7 +163,7 @@ Norėdami publikuoti rodinį, atlikite toliau nurodytus veiksmus.
     > Atsiminkite toliau pateiktas išimtis, kai publikuojate peržiūrą į teisinį subjektą ar kai publikuojate elgesį kaip nustatytąjį:
     >
     > - Jei įjungta tik bazinių įrašytų rodinių funkcija, vartotojo rodinio išrinkiklis puslapyje iš pradžių rodo rodinį tik **nurodytiems juridiniams** subjektams. Nepaisant to, po peržiūros įkėlimo pirmą kartą, ji visuomet bus vartotojo peržiūros selektoriuje tame puslapyje nepriklausomai nuo teisinio subjekto.
-    > - **10.0.21 ar naujesnė versija:** jei **patobulintas juridinio subjekto palaikymas įrašytų rodinių** funkcijai įjungtas, rodinio selektorius visada rodys rodinį konkretiems juridiniams asmenims.
+    > - Jei patobulintas **juridinio subjekto palaikymas įrašytų** rodinių funkcijai įjungtas, rodinio išrinkiklis niekada rodys tik nurodytų juridinių subjektų rodinį.
 
 11. Pasirinkite **Publikuoti**.
 
@@ -259,7 +260,7 @@ Puslapiams, kurie turi didelius peržiūros selektorius (tiek personalizavimo, t
 Atsiminkite toliau pateiktas išimtis, kai publikuojate peržiūrą į teisinį subjektą ar kai publikuojate elgesį kaip nustatytąjį:
 
 - Jei įjungta tik bazinių įrašytų rodinių funkcija, vartotojo rodinio išrinkiklis puslapyje iš pradžių rodo rodinį tik **nurodytiems juridiniams** subjektams. Nepaisant to, po peržiūros įkėlimo pirmą kartą, ji visuomet bus vartotojo peržiūros selektoriuje tame puslapyje nepriklausomai nuo teisinio subjekto. Taip nutinka todėl, kad vartotojai gauna savo asmeninę publikuoto rodinio kopiją, kai jis įkeliamas, o asmeniniai rodiniai yra visuotiniai.
-- **10.0.21 ar naujesnė versija:** jei **patobulintas juridinio subjekto palaikymas įrašytų rodinių** funkcijai įjungtas, rodinio selektorius visada rodys rodinį konkretiems juridiniams asmenims. Taip nutinka, nes funkcija įgalina rodinius (įskaitant asmeninius rodinius) susieti su konkrečiais juridiniais subjektais.
+- Jei patobulintas **juridinio subjekto palaikymas įrašytų** rodinių funkcijai įjungtas, rodinio išrinkiklis niekada rodys tik nurodytų juridinių subjektų rodinį. Taip nutinka, nes funkcija įgalina rodinius (įskaitant asmeninius rodinius) susieti su konkrečiais juridiniais subjektais.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
 

@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustParameters, CustPosting, DefaultDashboard, CustCollectionsPoolsListPage, CustWriteOff, LedgerJournalTable, LedgerJournalTransDaily, CustCollections, CustOpenInvoicesListPage, CustTable
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7da01759fe4aaa7beb1719ede51ac0abfc3b404c
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 21aaeda413e767fed1815423b0262127c6692bb6
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713677"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775305"
 ---
 # <a name="create-a-write-off-journal-for-a-customer"></a>Kurti kliento nurašymo žurnalą
 
@@ -48,9 +48,9 @@ ms.locfileid: "8713677"
 7. Eikite į **Naršymo sritis > Moduliai > Bendroji didžioji knyga > Žurnalo įrašai > Bendrieji žurnalai**.
 8. Pasirinkite žurnalo, kuriame yra jūsų nurašymas, paketo numerį. Atšaukti kliento balansui sukuriama viena eilutė. Viena ar kelios eilutės sukuriamos registruoti nurašymui nurašymo sąskaitoje.  
 9. Uždarykite puslapį.
-10. Uždarykite puslapį.
 
-## <a name="write-off-transactions-from-the-collections-form"></a>Nurašykite operacijas rinkinių formoje.
+
+## <a name="write-off-transactions-from-the-collections-page"></a>Nurašyti operacijas iš mokėjimų priežiūros puslapio
 1. Pasirinkite **Kreditas ir mokėjimai > Mokėjimų peržiūra > Suskirstyti pagal terminus balansai**.
 2. Pasirinkite kliento su operacijomis, kurias norite nurašyti, pavadinimą. Pavyzdžiui, pasirinkite Cave Wholesales (US-004).
 3. Pažymėkite pirmosios operacijos eilutę.
@@ -63,7 +63,7 @@ ms.locfileid: "8713677"
 10. Eikite į **Didžio knyga > Žurnalo įrašai > Bendrieji žurnalai**.
 11. Pasirinkite žurnalo, kuriame yra jūsų nurašymas, paketo numerį. Atšaukti kliento balansui sukuriama viena eilutė. Viena ar kelios eilutės sukuriamos registruoti nurašymui nurašymo sąskaitoje.  
 12. Uždarykite puslapį.
-13. Uždarykite puslapį.
+
 
 ## <a name="write-off-an-invoice-from-the-open-customers-invoices-page"></a>Nurašyti SF puslapyje Atidarytos klientų SF
 1. Eikite į **Naršymo sritis > Moduliai > Gautinos sumos > Sąskaitos faktūros > Atidarytos kliento sąskaitos faktūros**.

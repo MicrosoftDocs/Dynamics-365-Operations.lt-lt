@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: ff2232c9e1010ad1e2524df0c7ed4d771b489ed1
-ms.sourcegitcommit: 05069f7e5eb7a9335c0a62031d7663f88e4821df
-ms.translationtype: MT
+ms.openlocfilehash: d417b16706ac4389e40e25ffbbddde5ebac92db3
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
+ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "9752304"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775515"
 ---
 # <a name="proactive-quality-updates"></a>Iniciatyvūs kokybės atnaujinimai
 
@@ -112,7 +112,7 @@ Norėdami gauti informacijos apie tamsaus regiono valandas, žr. [Kokie yra supl
 | 1 stotis | Kanados centrinis centras, Kanados rytų, Prancūzijos centrinis bankas, Indijos centras, Norvegijos rytų, Šveicarijos West | 2022 m. spalio 14 d. iki spalio 17 d., lapkričio 2 d. iki 2022 m. lapkričio 5 d. | 2022 m. lapkričio 13 d. iki lapkričio 16 d. |
 | 2 stotis | Prancūzijos Pietų, Indijos Pietų, Norvegijos West, Šveicarijos Šiaurės, Pietų Afrikos Šiaurės, Australijos Rytų, UK Pietų, JAE Šiaurės, Japonijos Rytų, Australijos Pietų Rytų, Pietų Rytų Azijos | 2022 m. spalio 15 d. iki spalio 18 d., lapkričio 2 d. iki 2022 m. lapkričio 5 d. | 2022 m. lapkričio 13 d. iki lapkričio 16 d. |
 | 3 stotis | Rytų Azijos, UK West, Japan West, Brazilijos Pietų, West Europe, Rytų JAV, JAE centrinis centras | 2022 m. spalio 16 d. iki spalio 19 d., lapkričio 2 d. iki 2022 m. lapkričio 5 d. | 2022 m. lapkričio 13 d. iki lapkričio 16 d. |
-| 4 stotis | Šiaurės Europa, Centrinė JAV, West US | 2022 m. spalio 17 d. iki spalio 20 d., lapkričio 2 d. iki 2022 m. lapkričio 5 d. | 2022 m. lapkričio 13 d. iki lapkričio 16 d. |
+| 4 stotis | Šiaurės Europa, Centrinė JAV, West US | 2022 m. spalio 17 d. iki spalio 20 d., lapkričio 2 d. iki 2022 m. lapkričio 5 d. | 2022 m. lapkričio 15 d. iki lapkričio 18 d. |
 | 5 stotis | Dod, Vyriausybės bendruomenės debesis, Kinija | Nesuplanuota | Nesuplanuota |
 
 ### <a name="proactive-quality-update-release-10030"></a><a name="schedule"></a> Aktyvus kokybės atnaujinimo paleidimas: 10.0.30

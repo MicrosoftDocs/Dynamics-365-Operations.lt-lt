@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a5bf22228749a725baa66ee3094f670c60f0f39a
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 384ce8611a7dbf6adf7b8ae6ad9569e2a41c22d1
+ms.sourcegitcommit: e02bd317e96faf6182e70fb50b126868a94d9d06
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405444"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9757173"
 ---
 # <a name="keyboard-shortcuts"></a>Spartieji klavišai
 
@@ -50,7 +50,7 @@ Vartotojai gali atrasti šiuo metu galimas nuorodas tiesiai iš vartotojo sąsaj
 | Uždaryti skirtuką veiksmų srityje arba meniu        | Esc                              |
 | Imituoti spustelėjimą dešiniuoju pelės mygtuku                          | Shift + F10                        |
 | Atidaryti kontekstinį meniu    | Ctrl + F10                         |
-| Vykdyti numatytąjį mygtuką formoje / dialogo lange | Alt + Enter                        |
+| Vykdyti numatytąjį mygtuką puslapyje/dialogo lange | Alt + Enter                        |
 | Spustelėkite mygtuką arba plytelę.                          | „Enter“ klavišas arba tarpo klavišas                   |
 | Peržiūrėti skaičiavimo plytelės atnaujintą informaciją       | „Alt“ + rodyklė aukštyn                     |
 | Peržiūrėti šiuo metu galimus sparčiuosius klavišus              | Alt + Shift + K                      |
@@ -85,13 +85,13 @@ Vartotojai gali atrasti šiuo metu galimas nuorodas tiesiai iš vartotojo sąsaj
 |---------------------------------------------------------------------------------------------------------------------|--------------------------|
 | Atidaryti esamo stulpelio filtravimo naudojant tinklelį funkciją                                                                          | Ctrl + G                   |
 | Uždaryti esamo stulpelio filtravimo naudojant tinklelį funkciją                                                                         | Esc                      |
-| Atidaryti filtro sritį (ar persijungti tarp filtro srities ir pagrindinės formos, jei filtro sritis jau atidaryta) | „Alt“ + M, F arba „Ctrl“ + F3       |
+| Atidaryti sritį Filtras (arba perjungti židinį tarp srities Filtras ir pagrindinio puslapio, jei sritis Filtras jau atidaryta) | „Alt“ + M, F arba „Ctrl“ + F3       |
 | Uždaryti filtro sritį (filtro sričiai esant suaktyvintai)                                                               | Esc                      |
 | Atidaryti išplėstinį filtravimą / rūšiavimą                                                                                        | Ctrl + Shift + F3            |
 | Taikyti spartųjį filtrą (kai židinis yra spartusis filtras)                                                              | Įvesti                    |
 | Taikyti tinklelio filtrą (kai židinis yra stulpelio antraštės filtro lauke)                                             | Įvesti                    |
 
-## <a name="form-shortcuts"></a>Formos spartieji klavišai
+## <a name="page-shortcuts"></a>Puslapių spartieji klavišai
 
 | Norėdami tai padaryti                                    | Paspauskite              |
 |-----------------------------------------------|-------------------|
@@ -100,21 +100,21 @@ Vartotojai gali atrasti šiuo metu galimas nuorodas tiesiai iš vartotojo sąsaj
 | Įrašyti įrašą                                   | Alt + S arba Ctrl + S   |
 | Grąžinti (atkurti)                              | Ctrl + Shift + F5     |
 | Atnaujinti duomenis                                  | Shift + F5          |
-| Perkelti į pirmą matomą lauką formoje   | Alt + Shift + F       |
+| Perkelti į matomą pirmą puslapio lauką   | Alt + Shift + F       |
 | Perjungti redagavimo režimą                              | F2                |
-| Dokumento pridėjimas                             | Ctrl + Shift + A      |
+| Pridėti dokumentą                             | Ctrl + Shift + A      |
 | Eksportuoti į „Excel“                               | Ctrl + Shift + E      |
 | Perkelti į ankstesnį įrašą (ne tinklelyje)  | „Ctrl“ + rodyklė aukštyn     |
 | Perkelti į kitą įrašą (ne tinklelyje)      | „Ctrl“ + rodyklė žemyn   |
 | Perkelti į pirmą įrašą (ne tinklelyje)     | CTRL + HOME         |
 | Perkelti į paskutinį įrašą (ne tinklelyje)      | CTRL + END          |
-| Uždaryti formą (spustelėti Atgal)                   | Esc               |
-| Aiškiai įrašyti ir uždaryti formą             | Shift + Esc         |
-| Uždaryti formą atmetant visus neįrašytus keitimus | Alt + Shift + Q       |
+| Uždaryti puslapį (pasirinkti mygtuką Grįžti)<br><br>**Pastaba:** jei atidarytas iššokamasis langas (patarimas, datos parinkiklis, dropdown ir t. t.), pirmasis Esc naudojimas išmes iššokamąjį langą.       | Esc               |
+| Uždaryti puslapį su aiškiais įrašymais             | Shift + Esc         |
+| Uždaryti puslapį ir atmesti visus neįrašytus keitimus | Alt + Shift + Q       |
 
-## <a name="form-navigation-shortcuts"></a>Formos naršymo spartieji klavišai
+## <a name="page-navigation-shortcuts"></a>Puslapių naršymo nuorodos
 
-| Norėdami tai padaryti                                          | Spausti                                        |
+| Norėdami tai padaryti                                          | Paspauskite                                         |
 |-----------------------------------------------------|----------------------------------------------|
 | Perkelti į kitą / ankstesnį lauką                     | Tab / Shift + Tab                              |
 | Perkelti į kitą / ankstesnį skirtuką                       | „Alt“ + „Shift“ + rodyklė dešinėn / „Alt“ + „Shift“ + rodyklė kairėn |
@@ -192,13 +192,13 @@ Vartotojai gali atrasti šiuo metu galimas nuorodas tiesiai iš vartotojo sąsaj
 | Atidarykite žinyno sritį.                                                            | Ctrl + ?                     |
 | Atidaryti sekimo analizatorių                                                         | Alt + Shift + T                |
 | Pereiti į naršymo sritį                                                   | „Alt“ + F1                     |
-| Formą įtraukti į parankinius / iš jų pašalinti (kai įvesties vieta yra naršymo srities formoje)   | Shift + F                    |
+| Įtraukti / pašalinti puslapį kaip parankinį (židinį į naršymo srities puslapį)   | Shift + F                    |
 | Perkelti į standartinę veiksmų sritį                                              | „Alt“ + M, A arba „Ctrl“ + F6         |
 | Pereiti į filtrų sritį (ji taip pat gali būti atidaroma)                        | „Alt“ + M, F arba „Ctrl“ + F3         |
 | Perkelti įvesties vietą į puslapio turinį (kai įvesties vieta yra naršymo sąraše)                | „Alt“ + M, M arba „Ctrl“ + F3         |
-| Pereiti į naršymo sąrašą išsamios informacijos formoje (jis taip pat gali būti atidaromas)    | „Alt“ + M, S arba „Ctrl“ + F8         |
+| Perkelti į naršymo sąrašą (jame gali būti atidarytas)    | „Alt“ + M, S arba „Ctrl“ + F8         |
 | Įvesties vietą perkelti į puslapio turinį (kai įvesties vieta yra naršymo sąraše)            | „Alt“ + M, M arba „Ctrl“ + F8         |
-| Uždaryti išsamios informacijos formos naršymo sąrašą (naršymo sąrašui esant suaktyvintam) | Esc                        |
+| Uždaryti naršymo sąrašą (židinį iš naršymo sąrašo) | Esc                        |
 | Pereiti į pagrindinio puslapio turinį (kai įvesties vieta yra kitoje srityje)                    | „Alt“ + M, M                    |
 | Pereiti į „FactBox“ sritį (ji taip pat gali būti atidaroma)                       | „Alt“ + M, B arba „Ctrl“ + F2         |
 | Perkelti į kitą funkcijos iškvietimą                                              | "Alt" + M, C                    |

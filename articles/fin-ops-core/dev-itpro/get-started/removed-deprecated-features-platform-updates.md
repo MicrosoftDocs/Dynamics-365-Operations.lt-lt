@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b2eec4dd71baef54877b4139a331288bf37f4960
-ms.sourcegitcommit: e4b6521337dfff3515f70086b0125d4c23308c71
+ms.openlocfilehash: 7d74efe7aa4f3a30c116253d647b9d7bec3b508d
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262305"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785105"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Pašalintos arba nebenaudojamos platformos funkcijos
 
@@ -51,7 +51,7 @@ Kaip " [One Dynamics" vienos platformos darbo](/dynamics365-release-plan/2022wav
 | Aptarnavimo užklausos | Ne | Taip | Taip: [savitarnos diegimas](../deployment/infrastructure-stack.md) |
 | „SharePoint“ integravimas | Taip | Taip | Ne |
 | Konfigūracijos ir duomenų tvarkytuvas | Ne | Taip | Ne |
-| Proceso duomenų paketai | Ne | Taip | Taip: duomenų importavimo / eksportavimo sistema (DIXF) |
+| Proceso duomenų paketai | Ne | Taip | Taip: duomenų [importavimo / eksportavimo sistema (DIXF)](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job) |
 | Išvardiimo atnaujinimas | Ne | Taip | Taip: [yra vienas versijos](../lifecycle-services/oneversion-overview.md) tarnybos naujinimas. |
 | Infrastruktūros įvertinatorius | Taip | Ne | Ne |
 | Licencijos dydis | Taip | Ne | Ne |
@@ -71,10 +71,10 @@ Kaip " [One Dynamics" vienos platformos darbo](/dynamics365-release-plan/2022wav
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nerekomendavimo/pašalinimo priežastis** | Mes šaliname šį šifrų sąrašą, kad atitiktų mūsų dabartinius saugos protokolus.<br><br>TLS_RSA_WITH_AES_256_GCM_SHA384<br>TLS_RSA_WITH_AES_128_GCM_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA256<br>TLS_RSA_WITH_AES_128_CBC_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA<br>TLS_RSA_WITH_AES_256_CBC_SHA  |
-| **Pakeitė kita funkcija?**   | Nuo 2022 m. lapkričio 30 d. klientai gali naudoti tik standartinius [mūsų standartinius kursus](/power-platform/admin/server-cipher-tls-requirements). Šis pakeitimas veikia jūsų klientus ir serverius, kurie palaiko ryšį su mūsų serveriais, pvz., tai gali paveikti jūsų trečiųjų šalių integravimą, kuris neatitinka mūsų standartinių programos objektų. |
+| **Pakeitė kita funkcija?**   | Nuo 2023 m. sausio 31 d. klientai gali naudoti tik standartinius [mūsų standartinius poreikius](/power-platform/admin/server-cipher-tls-requirements). Šis pakeitimas veikia jūsų klientus ir serverius, kurie palaiko ryšį su mūsų serveriais, pvz., tai gali paveikti jūsų trečiųjų šalių integravimą, kuris neatitinka mūsų standartinių programos objektų. |
 | **Paveiktos produkto sritys**         | „Finance and operations” programos |
 | **Visuotinio diegimo parinktis**              | Debesies diegimas |
-| **Būsena**                         | Nerekomenduojama. Klientai turi atnaujinti savo serverius iki 2022 m. lapkričio 30 d. Daugiau informacijos apie TS Cipher Suite užsakymo konfigūravimą ieškokite Transporto sluoksnio [saugos (NLS) valdymas](/windows-server/security/tls/manage-tls).  |
+| **Būsena**                         | Nerekomenduojama. Klientai turi atnaujinti savo serverius iki 2023 m. sausio 31 d. Daugiau informacijos apie TS Cipher Suite užsakymo konfigūravimą ieškokite Transporto sluoksnio [saugos (NLS) valdymas](/windows-server/security/tls/manage-tls).  |
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>Funkcija, kuri galioja 2022 m. birželio mėn.

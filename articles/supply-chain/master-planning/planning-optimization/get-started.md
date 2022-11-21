@@ -1,5 +1,5 @@
 ---
-title: Bendrojo planavimo pradžia
+title: Darbo su bendruoju planavimu pradžia
 description: Šiame straipsnyje paaiškinama, kaip pradėti naudoti bendrojo planavimo funkciją Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 05/20/2021
@@ -16,14 +16,14 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 958de3f9ae6ead6cb6914bd3b7a4560e768013ab
-ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
+ms.openlocfilehash: 4b986461e90b356580da8a136c1da95e7dc64696
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/03/2022
-ms.locfileid: "9740335"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780308"
 ---
-# <a name="get-started-with-master-planning"></a>Bendrojo planavimo pradžia
+# <a name="get-started-with-master-planning"></a>Darbo su bendruoju planavimu pradžia
 
 [!include [banner](../../includes/banner.md)]
 
@@ -31,7 +31,7 @@ Bendrąjį planavimą tiekimo grandinės valdymo metu teikia išorinė tarnyba, 
 
 ## <a name="availability"></a>Esamumas
 
-Planavimo optimizavimas šiuo metu yra pasiekiamas šiose "Azure" geografiniuose diagramuose: Jungtinės Valstijos, Kanada, Brazilija, Europa, Prancūzija, Jungtinė Karalystė, Australija, Azijos Ramiojo vandenynas, Japonija ir Indija. Jei bandote įdiegti papildinį kitame geografiniame regione, LCS rodys pranešimą, nurodantį, kad šis regionas nepalaikomas. Daugiau informacijos apie "Azure" regionams ir susijusius regionus žr. ["Azure" geografiniai regionai](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
+Planavimo optimizavimas šiuo metu yra pasiekiamas šiose "Azure" geografiniuose diagramuose: Jungtinės Valstijos, Kanada, Brazilija, Europa, Prancūzija, Jungtinė Karalystė, Norvegija, Šveicarija, Australijos Ramiojo vandenynas, Japonija ir Indija. Jei bandote įdiegti papildinį kitame geografiniame regione, LCS rodys pranešimą, nurodantį, kad šis regionas nepalaikomas. Daugiau informacijos apie "Azure" regionams ir susijusius regionus žr. ["Azure" geografiniai regionai](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 Turėkite omenyje, kad planavimo optimizavimas nepalaiko vietinių visuotinių „Dynamics 365 Supply Chain Management” diegimų.
 

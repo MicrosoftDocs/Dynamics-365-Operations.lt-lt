@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d5930ca2ce2bb1ae534f7e2b434836c3a4adeba
-ms.sourcegitcommit: cf27cf277b37666c838043e0695d39d52be5dcdd
+ms.openlocfilehash: 4330c86ee9ae35ce0f2c7bb85db533a39eafac46
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9588959"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779587"
 ---
 # <a name="accounting-distributions"></a>Apskaitos paskirstymai
 
@@ -51,7 +51,7 @@ Bendrosios apskaitos paskirstymo galimybės suteikia tokias apskaitos paskirstym
     -   Galite peržiūrėti dabartinio dokumento apskaitos būseną – **Nuoroda**. Būsena yra viso dokumento ir nurodo, ar dokumentas yra nebaigtas ar baigtas.
 -   **Peržiūrėti paskirstymus** – peržiūrėkite visų dokumento eilučių ir piniginių sumų apskaitos paskirstymus. Negalite modifikuoti apskaitos paskirstymų iš šio rodinio.
 
-10.0.13 versijoje įtraukta funkcija, tikrinanti apskaitos paskirstymo lentelę, siekiant užtikrinti, kad nauji laukai būtų tinkamai nustatyti. Ši funkcija vadinama **Įjungti papildomą dokumentų, naudojančių šaltinio dokumento apskaitos sistemą, duomenų tikrinimą**. Numatyta, kad ši funkcija bus įjungta versijoje 10.0.29. 
+Priemonė buvo įtraukta, kuri tikrina apskaitos paskirstymo lentelę, siekiant užtikrinti, kad nauji laukai yra tinkamai nustatyti. Ši funkcija vadinama **Įjungti papildomą dokumentų, naudojančių šaltinio dokumento apskaitos sistemą, duomenų tikrinimą**. Numatyta, kad ši funkcija buvo įjungta versijoje 10.0.29. 
 
 Daugiau informacijos žr. dalyje [Apskaitos paskirstymai ir papildomos knygos žurnalo įrašai, skirti tiekėjo SF](accounting-distributions-subledger-journal-entries-vendor-invoices.md)
 

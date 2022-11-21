@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 502a026f2070e92a017733ce2c37bf357eaa10ea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9022051ce1c99da7ff62e30583a20656c77d89f9
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908160"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778548"
 ---
 # <a name="process-collection-letters-example"></a>Priminimo laiškų apdorojimo pavyzdys
 
@@ -32,11 +32,11 @@ Pabaigus atlikite šiuos veiksmus.
 
 1. Eikite į **Kreditas ir priminimai \> Priminimo laiškas \> Nustatyti priminimo laiško eiliškumą** ir nustatykite priminimo laiško eiliškumą, kaip parodyta žemiau pateiktoje lentelėje, kuri paskirta kliento registravimo profilyje.
 
-|     Priminimo laiško kodas      |     aprašymas                           |     Valiuta      |     Pagrindinė sąskaita        |     Mokestis valiuta     |     Mažiausiai virš        |     Dienos blokuoti      |
-|---------------------------------  |---------------------------------------    |-----------------  |-----------------------    |-------------------------- |-----------------------    |---------------------  |
-|     1 priminimo laiškas         |     Antras pranešimas su mokesčiu        |     USD           |                           |     0,00                  |     0,00                  |     2                 |
-|     2 priminimo laiškas         |     Antras pranešimas su mokesčiu        |     USC           |     403150                |     20.00                 |     10,00                 |     3                 |
-|     Rinkimas                    |     Paskutinis pranešimas su mokesčiu         |     USD           |     403150                |     50.00                 |     100.00                |     15                |
+|   Priminimo laiško kodas      |     aprašymas       |     Valiuta      |     Pagrindinė sąskaita        |     Mokestis valiuta       |   Mažiausiai virš  |   Dienos blokuoti        |
+|-----------------------------  |--------------------   |-----------------  |-----------------------    |--------------------   |-----------------------    |------------------ |
+|  1 priminimo laiškas          |     Pirmas pranešimas |     USD          |                   |     0,00              |     0,00                  |     2                 |
+|  2 priminimo laiškas          |     Antras pranešimas su mokesčiu      |     USD      |     403150         |     20.00         |     10,00     |     3                 |
+|  Kolekcija                   |     Galutinis pranešimas su mokesčiu       |     USD           |     403150    |     50.00         |     100.00                |     15            |
 
 Toliau pateikiamoje iliustracijoje rodoma informacija, kuri yra lentelėje tokia, kaip ji bus pateikta **Priminimo laiškai** puslapyje. 
 

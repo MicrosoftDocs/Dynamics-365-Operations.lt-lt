@@ -2,7 +2,7 @@
 title: „Inventory Visibility“ atsargų paskirstymas
 description: Šiame straipsnyje paaiškinama, kaip nustatyti ir naudoti atsargų paskirstymo funkciją, kuri leidžia atidėti skirtas atsargas ir užtikrinti, kad jūs galite vykdyti pelningiausią kanalą ar klientus.
 author: yufeihuang
-ms.date: 05/27/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-13
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: f79497a24a5b4dd501bb0d13d9eaca7e98672533
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: 449ca0616405ba589b92fba1ef078a4350d1e3b1
+ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306121"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9762678"
 ---
 # <a name="inventory-visibility-inventory-allocation"></a>„Inventory Visibility“ atsargų paskirstymas
 
@@ -24,22 +24,26 @@ ms.locfileid: "9306121"
 
 ## <a name="business-background-and-purpose"></a>Verslo fonas ir paskirtis
 
-Daugeliu atvejų gamintojai, mažmenininkai ir kiti tiekimo grandinės verslo savininkai turi iš anksto paskirstyti atsargas svarbiems pardavimo kanalams, vietų ar klientams ar konkretiems pardavimo įvykiams. Atsargų paskirstymas yra įprasta pardavimo veiklos planavimo proceso praktika, tai atliekama prieš įvykdant faktinę pardavimo veiklą ir sukūrus pardavimo užsakymą.
+Organizacijos dažnai turi iš anksto paskirstyti savo atsargas svarbiausiems pardavimo kanalams, klientų grupėms, regionams ir akcijos įvykiams, siekiant užtikrinti, kad iš anksto nepaskirstytos atsargos būtų apsaugotos nuo bet kokio kito naudojimo ir būtų suvartojamos tik per pardavimo operacijas, susijusias su paskirstymu. Atsargų paskirstymas pagal atsargų matomumą yra pardavimo veiklos planavimo proceso komponentas ir atliekamas prieš įvykdant bet kokią faktinę pardavimo veiklą arba sukūrus pardavimo užsakymą.
 
-Pavyzdžiui, dviračio įmonė turi ribotas atsargas, galimas labai populiariausiai. Ši įmonė ir pardavimą internete, ir parduotuvėje. Kiekviename pardavimo kanale įmonė turi keletą svarbių įmonės partnerių (prekyviečių ir didelių mažmenininkų), kurie reikalauja, kad jiems būtų įrašyta konkreti galimų atsargų dalis. Todėl dviračio įmonė turi sugebėti suderinti atsargų paskirstymą kanaluose ir valdyti SAVO VIP partnerių lūkesčius. Geriausias būdas pasiekti abu tikslus yra naudoti atsargų paskirstymą, kad kiekvienas kanalas ir mažmenininkas galėtų gauti tam tikrus paskirstytus kiekius, kuriuos vėliau bus galima parduoti vartotojams.
+Pavyzdžiui, įmonė, pavadinta "Contoso", gamina populiariausią. Deja, dėl to, kad naujausias tiekimo grandinės nutraukimas paveikė visas tos atsargos tranzitines atsargas, Contoso tik ribotas savo atsargas ir turi ja naudotis. "Contoso" veikia ir tinkle, ir parduotuvėse. Kiekviename pardavimo kanale įmonė turi keletą svarbių įmonės partnerių (prekyviečių ir didelių mažmenininkų), kurie reikalauja, kad jiems būtų įrašyta konkreti galimų atsargų dalis. Todėl dviračio įmonė turi sugebėti suderinti atsargų paskirstymą kanaluose ir valdyti SAVO VIP partnerių lūkesčius. Geriausias būdas pasiekti abu tikslus yra naudoti atsargų paskirstymą, kad kiekvienas kanalas ir mažmenininkas galėtų gauti tam tikrus paskirstytus kiekius, kuriuos vėliau bus galima parduoti vartotojams.
 
 Atsargų paskirstymas turi du pagrindinius verslo tikslus:
 
-- **Atsargų apsauga (žiedinė)** – organizacijos nori iš anksto paskirstyti apribotas arba ribotas atsargas prioritetams nustatytiems kanalams, regionams, VIP klientams ir filialo įmonėms. Atsargų matomumo paskirstymo funkcijos tikslas yra apsaugoti paskirstytas atsargas, kad kiti paskirstymai, rezervavimai ar kiti pardavimo poreikiai nepaveiktų anksčiau paskirstytų atsargų.
+- **Atsargų apsauga (žiedinis skambutis)** – organizacijos nori iš anksto perskirstyti apribotas arba ribotas atsargas prioritetams nustatytiems kanalams, regionams, VIP klientams ir filialų įmonėms. Atsargų matomumo paskirstymo funkcijos tikslas yra apsaugoti paskirstytas atsargas, kad kiti paskirstymai, rezervavimai ar kiti pardavimo poreikiai nepaveiktų anksčiau paskirstytų atsargų.
 - **Perteklinio pardavimo valdymas** – atsargų matomumo paskirstymo priemonė siekia apriboti anksčiau paskirstytus kiekius, kad gaunanti šalis (pvz., kanalas ar klientų grupė) nevartotų jų per daug, kai pradeda veikti faktinė pardavimo operacija, pagrįsta švelniu rezervavimu.
 
 ## <a name="allocation-definition-in-inventory-visibility-service"></a>Paskirstymo aprašas atsargų matomumo paslaugoje
 
-Nors atsargų matomumo paslaugos paskirstymo funkcija nenustato faktinių atsargų kiekių, ji nurodo turimus faktinių atsargų kiekius, *kad* būtų galima nustatyti pradinį turimų virtualiųjų telkinių kiekio paskirstymą. Atsargų paskirstymas pagal atsargų matomumą yra švelniai paskirstymas. Tai atliekama prieš įvykstant faktinėms pardavimo operacijoms ir nepriklauso nuo pardavimo užsakymų. Pavyzdžiui, galite paskirstyti atsargas svarbiausiems pardavimo kanalams arba stambiems įmonės mažmenininkams prieš galutiniams klientams apsilankant pardavimo kanale arba mažmeninės prekybos parduotuvėje, kad galėtų pirkti.
+### <a name="allocation-virtual-pool"></a>Paskirstymo virtualusis telkinys
 
-Skirtumas tarp atsargų paskirstymo ir atsargų soft [rezervavimo yra tas](inventory-visibility-reservations.md), kad švelniai rezervavimas paprastai susiejamas su faktinėmis pardavimo operacijomis (pardavimo užsakymo eilutės). Todėl jei norite naudoti paskirstymo ir soft rezervavimo priemones kartu, pirmiausia rekomenduojame atsargų paskirstymą atlikti, o tada iš dalies rezervuoti pagal paskirstytus kiekius. Daugiau informacijos rasite Naudojimo [kaip švelniai rezervavimas](#consume-to-soft-reserved).
+Nors atsargų matomumo paskirstymo funkcija nenustato faktinių atsargų kiekių, ji nurodo turimus faktinių atsargų kiekius, *kad* būtų galima nustatyti pradinį turimų atsargų kiekį virtualiųjų telkinių kiekiui paskirstyti. Atsargų paskirstymas pagal atsargų matomumą yra švelniai paskirstymas. Tai atliekama prieš įvykstant faktinėms pardavimo operacijoms ir nepriklauso nuo pardavimo užsakymų. Pavyzdžiui, galite paskirstyti atsargas svarbiausiems pardavimo kanalams arba stambiems įmonės mažmenininkams prieš galutiniams klientams apsilankant pardavimo kanale arba mažmeninės prekybos parduotuvėje, kad galėtų pirkti.
 
-Atsargų paskirstymo funkcija leidžia pardavimo planuotojams arba pagrindinių sąskaitų vadovams valdyti ir iš anksto paskirstyti svarbias paskirstymo grupių atsargas (pvz., kanalų, regionų ir klientų grupių). Taip pat ji palaiko suvartojimo pagal paskirstytus kiekius sekimą, koregavimą ir analizę, kad būtų galima papildyti arba perskirstyti laiku. Šis gebėjimas realiuoju laiku matyti matomumą paskirstymo, suvartojimo ir paskirstymo balanse, ypač svarbus greitos pardavimo arba akcijos įvykiams.
+### <a name="difference-between-inventory-allocation-and-soft-reservation"></a>Skirtumas tarp atsargų paskirstymo ir soft rezervavimo
+
+[Paprastai švelniai rezervavimai](inventory-visibility-reservations.md) susiejami su faktinėmis pardavimo operacijomis (pardavimo užsakymo eilutės). Ir paskirstymą, ir švelniai rezervavimą galima naudoti nepriklausomai, tačiau jei norite juos naudoti kartu, po paskirstymo turi būti atliktas švelniai rezervavimas. Pirmiausia rekomenduojame atlikti atsargų paskirstymą, o tada iš dalies rezervuoti paskirstytus kiekius, kad būtų pasiektas beveik realiuoju laiku sunaudojimas pagal paskirstymą. Daugiau informacijos rasite Naudojimo [kaip švelniai rezervavimas](#consume-to-soft-reserved).
+
+Atsargų paskirstymo funkcija leidžia pardavimo planuotojus arba raktų sąskaitų vadovus valdyti ir iš anksto paskirstyti svarbias paskirstymo grupių atsargas (pvz., kanalus, regionus ir klientų grupes). Taip pat ji palaiko suvartojimo pagal paskirstytus kiekius realiuoju laiku sekimą, koregavimą ir analizę, siekiant užtikrinti, kad būtų galima papildyti arba perskirstyti laiku. Šis gebėjimas realiuoju laiku matyti matomumą paskirstymo, suvartojimo ir paskirstymo balanse, ypač svarbus greitos pardavimo arba akcijos įvykiams.
 
 ## <a name="terminology"></a>Terminologija
 
@@ -49,12 +53,16 @@ Atsargų paskirstymo funkcija leidžia pardavimo planuotojams arba pagrindinių 
 - **Paskirstymo grupės** vertė – kiekvienos paskirstymo grupės vertė. Pavyzdžiui, internetas *arba* *parduotuvė* gali būti pardavimo kanalo paskirstymo grupės vertė, *o VIP* *ar įprasta* – klientų paskirstymo grupės vertė.
 - **Paskirstymo hierarchija** – A reiškia paskirstymo grupių jungtį hierarchiniu būdu. Pavyzdžiui, galite nurodyti kanalą kaip *1* hierarchijos lygį, *regioną* – 2 lygį, *o klientų grupę* – kaip 3 lygį. Paskirstant atsargas, reikia vadovautis paskirstymo hierarchijos seka, kai nurodote paskirstymo grupės vertę. Pavyzdžiui, jūs galite paskirstyti 200 raudonai *eilutėms* interneto kanalui, *Londono* regionui ir VIP *klientų* grupei.
 - **Galima paskirstyti** – virtualusis *bendras telkinys*, nurodantis kiekį, kurį galima toliau paskirstyti. Apskaičiuotas matas, kurį galite laisvai nustatyti naudodami savo formulę. Jei naudojate ir soft reservation priemonę, rekomenduojame naudoti tą pačią formulę, norint apskaičiuoti turimas paskirstyti ir galimas rezervuoti.
-- **Paskirstyta** – faktinis matas, rodantis paskirstytą paskirstymą, kurį gali suvartoti paskirstymo grupės.
+- **Paskirstyta** – faktinis matas, rodantis paskirstytą paskirstymą, kurį gali suvartoti paskirstymo grupės. Jis atimamas tuo pat metu, kai pridedamas suvartotas kiekis.
 - **Suvartota** – faktinis matas, nurodantis, kad kiekiai, suvartoti prieš pradinį paskirtą kiekį. Prie šio faktinio mato pridedami skaičiai, todėl automatiškai sumažinamas priskirtas faktinis matas.
 
 Toliau pateikta iliustracija rodo atsargų paskirstymo verslo darbo eigą.
 
 ![Atsargų matomumo paskirstymo verslo darbo eiga.](media/inventory-visibility-allocation-flow.png "Atsargų matomumo paskirstymo verslo darbo eiga.")
+
+Toliau pateikta iliustracija rodo paskirstymo hierarchiją ir paskirstymo grupes. Virtualus *bendras telkinys*, kuris rodomas čia yra kiekis, kurį galima paskirstyti.
+
+[<img src="media/inventory-visibility-allocation-hierarchy.png" alt="Inventory Visibility allocation hierarchy." title=" Atsargų matomumo paskirstymo hierarchija" width="720" />](media/inventory-visibility-allocation-hierarchy.png)
 
 ## <a name="set-up-inventory-allocation"></a>Nustatyti atsargų paskirstymą
 
@@ -63,14 +71,16 @@ Atsargų paskirstymo priemonę sudaro šie komponentai:
 - Iš anksto nustatytas su paskirstymu susijęs duomenų šaltinis, faktiniai duomenys ir skaičiuojami duomenys.
 - Pritaikomos paskirstymo grupės, kurių didžiausias leidžiamas aštuonių lygių skaičius.
 - Paskirstymo programos programavimo sąsajų rinkinys (API):
-  - paskirstyti
-  - Perskirstyti
-  - nepaskirstyti
-  - Vartoti
-  - Užklausos
 
-Paskirstymo funkcijos konfigūravimo procesas turi du veiksmus:
+    - paskirstyti
+    - Perskirstyti
+    - nepaskirstyti
+    - Vartoti
+    - Užklausos
 
+Paskirstymo priemonės konfigūravimo procesas turi tris žingsnius:
+
+- Įjunkite atsargų matomumo programos funkciją, nueikite į Konfigūracijos **funkcijų \> valdymas > Parametrų \> paskirstymas**.
 - Nustatyti duomenų [šaltinį ir](inventory-visibility-configuration.md#data-source-configuration) jo [priemones](inventory-visibility-configuration.md#data-source-configuration-physical-measures).
 - Nustatykite paskirstymo grupės pavadinimą ir hierarchiją.
 
@@ -78,24 +88,24 @@ Paskirstymo funkcijos konfigūravimo procesas turi du veiksmus:
 
 Kai įgalinate paskirstymo priemonę ir iškiesite konfigūracijos atnaujinimo API, atsargų matomumas sukuria vieną iš anksto nustatytą duomenų šaltinį ir keletą pradinių priemonių.
 
-Duomenų šaltinis pavadintas `@iv`.
-
-Čia yra pradiniai faktiniai priemonės:
+Duomenų šaltinis pavadintas `@iv`. Jame įtrauktas numatytųjų fizinių priemonių rinkinys. Jas galite peržiūrėti naudodami atsargų matomumo programą, nueidami į **konfigūracijos \> duomenų šaltinį**. Turėtumėte matyti duomenų **šaltinį – @IV**. Išplėskite `@iv` duomenų šaltinį, kad būtų galima peržiūrėti pradinių faktinių priemonių sąrašą:
 
 - `@iv`
-  - `@allocated`
-  - `@cumulative_allocated`
-  - `@consumed`
-  - `@cumulative_consumed`
 
-Štai pradinių apskaičiuotų priemonių:
+    - `@allocated`
+    - `@cumulative_allocated`
+    - `@consumed`
+    - `@cumulative_consumed`
+
+Norėdami peržiūrėti **pradinį apskaičiuotą** matą, pavadintą :, pasirinkite skirtuką Apskaičiuoti matai `@iv.@available_to_allocate`:
 
 - `@iv`
-  - `@iv.@available_to_allocate` = `??`– – `??``@iv.@allocated`
+
+    - `@iv.@available_to_allocate` = `??`– – `??``@iv.@allocated`
 
 ### <a name="add-other-physical-measures-to-the-available-to-allocate-calculated-measure"></a>Įtraukti kitus faktinius matus į prieinamą paskirstyti apskaičiuotą matą
 
-Norėdami naudoti paskirstymą, turite nustatyti skaičiuojamąjį matą, kurį galima paskirstyti (`@iv.@available_to_allocate`). Pavyzdžiui, turite duomenų `fno``onordered` šaltinį ir matą, `pos``inbound` duomenų šaltinį ir matą, taip pat norite atlikti turimos sumos ir `fno.onordered` kiekio paskirstymą `pos.inbound`. Šiuo atveju turėtų `@iv.@available_to_allocate` būti formulėje `pos.inbound``fno.onordered`. Čia pateikiamas pavyzdys:
+Norėdami naudoti paskirstymą, turite teisingai nustatyti formulę, kurią būtų galima priskirti skaičiuojamas matas (`@iv.@available_to_allocate`). Pavyzdžiui, `fno``onordered` turite duomenų šaltinį ir matą, `pos``inbound` duomenų šaltinį ir matą, `fno.onordered``pos.inbound` taip pat norite paskirstyti turimose atsargose sumą ir. Šiuo atveju turėtų `@iv.@available_to_allocate` būti formulėje `pos.inbound``fno.onordered`. Čia pateikiamas pavyzdys:
 
 `@iv.@available_to_allocate` = `fno.onordered` + `pos.inbound`– `@iv.@allocated`
 
@@ -104,32 +114,40 @@ Norėdami naudoti paskirstymą, turite nustatyti skaičiuojamąjį matą, kurį 
 >
 > Galite pridėti naujų faktinių matų prie iš anksto apskaičiuoto matavimo `@iv.@available_to_allocate`, tačiau jo pavadinimo keisti negalima.
 
-### <a name="change-the-allocation-group-name"></a>Paskirstymo grupės pavadinimo keitimas
+### <a name="manage-allocation-groups"></a>Paskirstymo grupių valdymas
 
-Galima nustatyti daugiausiai aštuonis paskirstymo grupių pavadinimus. Grupėse yra hierarchija.
+Galima nustatyti daugiausiai aštuonis paskirstymo grupių pavadinimus. Grupėse yra hierarchija. Norėdami peržiūrėti ir atnaujinti paskirstymo grupes, atlikite šiuos veiksmus.
 
-Nustatote grupių pavadinimus atsargų **matomumo energijos programos konfigūracijos** puslapyje. Norėdami atidaryti šį puslapį, savo aplinkoje Microsoft Dataverse atidarykite programą Atsargų matomumas ir pasirinkite Konfigūracijos **\> paskirstymas**.
+1. Prisiregistruokite savo „Power Apps“ aplinkoje ir atidarykite **Atsargų matomumas**.
+1. Atidarykite **konfigūracijos** puslapį, tada skirtuke **Paskirstymas** pasirinkite Redaguoti **konfigūraciją**. Numatyta, kad yra paskirstymo hierarchija, kuri turi keturis sluoksnius: `Channel` (viršutinis sluoksnis), `customerGroup` (antras sluoksnis),`Region` (trečias sluoksnis) ir `OrderType` (ketvirtas sluoksnis).
+1. Esamą paskirstymo grupę galite pašalinti pasirinkdami **šalia jos esančią X**. Naujas paskirstymo grupes į hierarchiją galite įtraukti tiesiogiai į lauką įvesdami kiekvienos naujos grupės pavadinimą.
 
-Pvz., \[`channel``customerGroup` jei naudojate keturis grupių pavadinimus ir nustatote juos kaip, `region``orderType`\], šie pavadinimai tinkami su paskirstymu susijusioms užklausoms, kai iškiesite konfigūracijos atnaujinimo API.
+    > [!IMPORTANT]
+    > Panaikinkite arba keisite paskirstymo hierarchijos susiejimą. Patarimų ieškokite Paskirstymo [naudojimo patarimai](#allocation-tips).
 
-### <a name="allocation-using-tips"></a>Paskirstymas naudojant patarimus
+1. Baigę paskirstymo grupės ir hierarchijos parametrų konfigūravimą, įrašykite pakeitimus, **o tada viršutinėje dešinėje pasirinkite** Naujinti konfigūraciją. Sukonfigūruotų paskirstymo grupių vertės bus atnaujintos, kai sukursite paskirstymą naudodami vartotojo sąsają arba API SKELBIMĄ (/api<wbr>/environmentId<wbr>/\{\}<wbr>/allocation<wbr>/allocate). Informacija apie abu būdus pateikiama toliau šiame straipsnyje.
+
+Jei naudojate keturis grupių pavadinimus ir \[`channel` nustatote juos kaip, `customerGroup``region`, `orderType`\] šie pavadinimai tinkami su paskirstymu susijusioms užklausoms, kai iškiesite konfigūracijos atnaujinimo API.
+
+### <a name="tips-for-using-allocation"></a><a name="allocation-tips"></a> Paskirstymo naudojimo patarimai
 
 - Kiekvienam produktui paskirstymo funkcija turi naudoti tame *pačiame* dimensijų lygyje pagal produktų indeksų hierarchiją, kurią nustatėte produktų indeksų [hierarchijos konfigūracijoje](inventory-visibility-configuration.md#index-configuration). Pavyzdžiui, tarkime, kad jūsų indeksų hierarchija \[`Site` yra, `Location``Color`, . `Size`\] Jei dimensijų lygyje \[`Site` tam tikrą kiekį priskiriate vienam produktui, `Location``Color`\] kitą kartą, kai norite paskirstyti šį produktą, taip pat turėtumėte paskirstyti tame pačiame lygyje, \[`Site`,`Location``Color`\]. Jei naudojate lygį \[`Site`, (`Location` arba `Color`) `Size`\]\[`Site`, `Location`\] duomenys bus nesuderinami.
-- Paskirstymo grupės pavadinimo keitimas neturės įtakos paslaugai įrašytims duomenims.
-- Paskirstymas turi būti daromas, kai turimo produkto kiekis yra teigiamas.
+- **Modifikuojant paskirstymo grupes ir hierarchiją:** jei sistemoje jau yra paskirstymo duomenų, esamos paskirstymo grupės arba paskirstymo grupės hierarchijos pamaina sugadins esamą paskirstymo grupių susiejimą. Todėl prieš atnaujindami savo naująją konfigūraciją būtinai išvalykite visus senus duomenis neautomatiniu būdu. Tačiau, kadangi naujų paskirstymo grupių pridėjimas prie žemiausios hierarchijos neturi įtakos esamiems susiejimams, duomenų išvalyti nereikia.
+- Paskirstyti bus pavyko tik tada, jei produkto kiekis teigiamas `available_to_allocate`.
 - Norėdami paskirstyti produktus iš aukšto paskirstymo *lygio* grupės į pogrupį, naudokite `Reallocate` API. Pavyzdžiui, \[`channel` turite paskirstymo grupės hierarchiją,, `customerGroup``region`, `orderType`\] ir \[norite tam tikrą produktą paskirstyti iš paskirstymo grupės tinkle, VIP\] į subskirstyti \[grupę tinkle, VIP, EU\], `Reallocate` naudoti API kiekiui perkelti. Jei naudojate `Allocate` API, kiekis bus paskirstytas iš virtualiojo bendrojo telkinio.
+- Norėdami peržiūrėti bendrą produkto prieinamumą (bendrą telkinį), [norėdami](inventory-visibility-api.md#query-on-hand) prašyti atsargų sumos, kurią galima paskirstyti, naudokite turimų atsargų *API užklausą*. Remiantis šia informacija galite priimti paskirstymo sprendimus.
 
-### <a name="using-the-allocation-api"></a><a name="using-allocation-api"></a> Paskirstymo API naudojimas
+## <a name="use-the-allocation-api"></a><a name="using-allocation-api"></a> Naudoti paskirstymo API
 
 Šiuo metu atidaromos penkios paskirstymo API:
 
-- REGISTRUOTI / API / aplinką / paskirstymą{environmentId} / paskirstymą
-- Registruoti / API / aplinką /{environmentId} paskirstymą / nepaskirstyti
-- REGISTRUOTI / API / aplinką /{environmentId} paskirstymą / perskirstyti
-- REGISTRUOTI / API / aplinką /{environmentId} paskirstymą / naudoti
-- REGISTRUOTI / API / aplinką / paskirstymą{environmentId} / užklausą
+- **REGISTRUOTI / API<wbr> / aplinkos<wbr>/\{environmentId\}<wbr> / paskirstymas<wbr> / paskirstymas** – šis API naudojamas pradiniam paskirstymui sukurti.
+- **Registruoti / API<wbr> / aplinkos<wbr>/\{environmentId\}<wbr> / paskirstymas<wbr> / nepaskirstyti** – API naudojama paskirstyties kiekiams grąžinti arba pašalinti.
+- **REGISTRUOTI / API<wbr> / aplinkos<wbr>/\{environmentId\}<wbr> / paskirstymas<wbr> / perskirstyti** – Ši API naudojama perkelti paskirstytą kiekį iš esamo paskirstymo į kitas paskirstymo grupes.
+- **Registruoti /api<wbr>/aplinkos<wbr>/\{environmentId\}<wbr>/paskirstymą<wbr>/naudojimą** – api yra naudojama paskirstytam kiekiui atskaičiuoti (naudoti).
+- **REGISTRUOTI / API<wbr> / aplinkos<wbr>/\{environmentId\}<wbr> / paskirstymas<wbr> / užklausą** – šis API naudojamas norint patikrinti esamus paskirstymo įrašus pagal paskirstymo grupes ir hierarchiją.
 
-#### <a name="allocate"></a>Paskirstyti
+### <a name="allocate"></a>Paskirstyti
 
 Iškviesti `Allocate` API, norint paskirstyti konkrečių dimensijų turiinį produktą. Tai yra užklausos kūno schema.
 
@@ -157,10 +175,10 @@ Pavyzdžiui, produkto Tarkime, 1 vieta, 11 *vieta,* raudona spalva, *kanalas int
 
 ```json
 {
-    "id": "???",
+    "id": "test101",
     "productId": "Bike",
     "groups": {
-        "channel": "Online",
+        "channel": "Web",
         "customerGroup": "VIP",
         "region": "US"
     },
@@ -176,11 +194,11 @@ Pavyzdžiui, produkto Tarkime, 1 vieta, 11 *vieta,* raudona spalva, *kanalas int
 
 Kiekis visada turi būti didesnis nei 0 (nulis).
 
-#### <a name="unallocate"></a>Nepaskirstyti
+### <a name="unallocate"></a>Nepaskirstyti
 
 `Unallocate` Naudokite API operacijai `Allocate` atšaukti. Neigiamas kiekis operacijoje neleistinas `Allocate`. Kūno yra `Unallocate` identiškas .`Allocate`
 
-#### <a name="reallocate"></a>Perskirstyti
+### <a name="reallocate"></a>Perskirstyti
 
 Naudokite API, `Reallocate` norėdami perkelti kai kuriuos paskirstytus kiekius į kitą grupės derinį. Tai yra užklausos kūno schema.
 
@@ -213,15 +231,15 @@ Pavyzdžiui, \[galite perkelti dvi dalis, kurių dimensijų vieta = 1, vieta = 1
 
 ```json
 {
-    "id": "???",
+    "id": "test102",
     "productId": "Bike",
     "sourceGroups": {
-        "channel": "Online",
+        "channel": "Web",
         "customerGroup": "VIP",
         "region": "US"
     },
     "groups": {
-        "channel": "Online",
+        "channel": "Web",
         "customerGroup": "VIP",
         "region": "EU"
     },
@@ -235,7 +253,7 @@ Pavyzdžiui, \[galite perkelti dvi dalis, kurių dimensijų vieta = 1, vieta = 1
 }
 ```
 
-#### <a name="consume"></a>Naudoti
+### <a name="consume"></a>Naudoti
 
 `Consume` Naudokite API suvartojimo kiekiui registruoti prieš paskirstymą. Pavyzdžiui, galite naudoti šią API paskirstytam kiekiui perkelti į kai kuriuos tikrus priemones. Tai yra užklausos kūno schema.
 
@@ -274,7 +292,7 @@ Dabar parduodamas trys atsiprašome, o jie paimti iš paskirstymo telkinio. Nor�
 
 ```json
 {
-    "id": "???",
+    "id": "test103",
     "organizationId": "usmf",
     "productId": "Bike",
     "dimensions": {
@@ -283,7 +301,7 @@ Dabar parduodamas trys atsiprašome, o jie paimti iš paskirstymo telkinio. Nor�
         "colorId": "red"
     },
     "groups": {
-        "channel": "Online",
+        "channel": "Web",
         "customerGroup": "VIP",
         "region": "US"
     },
@@ -302,11 +320,11 @@ Po šio skambučio paskirstytas produkto kiekis bus sumažintas 3. Be to, atsarg
 
 Duomenų `fno` šaltinio negalima naudoti vartojimo lauke, nes visada teigsime, kad atsargų matomumas negali pakeisti jokių duomenų šaltinio `fno` duomenų. Duomenų srautas yra vien way, o tai reiškia, kad visi `fno` duomenų šaltinio kiekio pakeitimai turi būti gauti iš jūsų tiekimo grandinės valdymo aplinkos.
 
-#### <a name="consume-as-a-soft-reservation"></a><a name="consume-to-soft-reserved"></a> Naudoti kaip švelniai rezervavimą
+### <a name="consume-as-a-soft-reservation"></a><a name="consume-to-soft-reserved"></a> Naudoti kaip švelniai rezervavimą
 
 API `Consume` taip pat gali naudoti paskirstytą kiekį kaip soft rezervavimą. Tokiu atveju operacija sumažins `Consume` paskirstytą kiekį ir tada šį kiekį iš anksto rezervuos. Norėdami naudoti šį būdą, turite naudoti atsargų matomumo [funkciją](inventory-visibility-reservations.md) švelniai rezervavimo funkcija.
 
-Pvz., nustatėte soft rezervavimo modifikatorių (matą) kaip `iv.softreserved`. Naudojama ši formulė, kurią naudojant galima rezervuoti apskaičiuojamasis matas:
+Pvz., nustatote faktinio soft rezervavimo matą kaip `iv.softreserved`. Naudojama ši formulė, kurią naudojant galima rezervuoti apskaičiuojamasis matas:
 
 `iv.available_to_reserve` = `fno.onordered` + `pos.inbound`– `iv.softreserved`
 
@@ -329,7 +347,7 @@ Kai norite naudoti 3 kiekį ir tiesiogiai rezervuoti šį kiekį, galite skambin
         "colorId": "red"
     },
     "groups": {
-        "channel": "Online",
+        "channel": "Web",
         "customerGroup": "VIP",
         "region": "US"
     },
@@ -344,7 +362,7 @@ Kai norite naudoti 3 kiekį ir tiesiogiai rezervuoti šį kiekį, galite skambin
 
 Šiame prašyme atkreipkite dėmesį, kad `iv.softreserved` vertė yra `Addition` ne `Subtraction`.
 
-#### <a name="query"></a>Užklausa
+### <a name="query"></a>Užklausa
 
 `Query` Naudokite API, norėdami nuskaityti kai kurių produktų su paskirstymu susijusią informaciją. Norėdami susiaurinti rezultatus, galite naudoti dimensijų filtrus ir paskirstymo grupės filtrus. Dimensijos turi tiksliai atitikti tą, kurią norite nuskaityti, pvz., \[vieta = 1, vieta = 11 turės su vieta = 1\]\[susijusių rezultatų, vieta = 1, vieta = 11, spalva = raudona \].
 
@@ -377,7 +395,7 @@ Pavyzdžiui, naudokite vietą = \[1, vieta=11, spalva=raudona\] ir tuščias gru
         "colorId": "red"
     },
     "groups": {
-        "channel": "Online",
+        "channel": "Web",
         "customerGroup": "VIP",
         "region": "US"
     },
@@ -396,9 +414,33 @@ Naudokite \[svetainę=1, vieta=11, spalva=\]\[raudona ir grupės channel=Online,
         "colorId": "red"
     },
     "groups": {
-        "channel": "Online",
+        "channel": "Web",
         "customerGroup": "VIP",
         "region": "US"
     },
 }
 ```
+
+## <a name="use-the-allocation-user-interface"></a>Naudoti paskirstymo vartotojo sąsają
+
+Galite rankiniu būdu valdyti paskirstymus naudodami vartotojo sąsają, atidarydami programą Atsargų matomumas ir nueidami prie veiklos **matomumo \> paskirstymo**. Iš ten galite atlikti bet kuriuos veiksmus, aprašytus toliau aprašytus poskyrius.
+
+### <a name="create-an-allocation"></a>Paskirstymo kūrimas
+
+Norėdami sukurti paskirstymą iš atsargų matomumo **programos** paskirstymo puslapio, atlikite šiuos veiksmus.
+
+1. Pasirinkite **Paskirstyti**.
+1. Nustatykite bazinių laukų, dimensijų ir tikslinių reikšmių paskirstymo grupes. (Kai pasirenkate surinkimo duomenų šaltinį lauke **Dimensijų** skyrius, pirmiausiai, naudoja išplečiamąjį sąrašą dimensijoms (pvz., `siteId`) nurodyti. Tada rodouose laukuose įveskite dimensijų vertes.)
+1. Pasirinkite **pateikti**.
+
+### <a name="consume-an-allocation"></a>Paskirstymo naudojimo
+
+Pasirinkite **Naudoti** norint naudoti paskirstymą. Norėdami užtikrinti, kad naudojate tinkamoje paskirstymo grupėje ir hierarchijoje, įveskite tuos pačius organizacijos rinkinius ir dimensijos informaciją, kurią įvedėte kurdami paskirstymą.
+
+### <a name="reallocate-an-allocation"></a>Iš dalies paskirstyti paskirstymą
+
+Pasirinkti **Iš dalies perkelti** esamą paskirstytą kiekį iš vieno paskirstymo grupių rinkinio į kitą.
+
+### <a name="query-existing-allocations"></a>Pateikti užklausą dėl esamų paskirstymų
+
+Pasirinkite **Užklausa**, tada įveskite produkto, organizacijos, dimensijos ir paskirstymo grupės vertes, kad gautumėte esamų paskirstymų užklausų rezultatus.

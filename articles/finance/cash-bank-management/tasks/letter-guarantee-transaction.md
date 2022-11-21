@@ -2,23 +2,23 @@
 title: Garantinio rašto operacija
 description: Ši procedūra padeda apdoroti garantinius raštus.
 author: kweekley
-ms.date: 08/29/2018
+ms.date: 11/15/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Reasons, SalesTableListPage, SalesCreateOrder, SalesTable, BankLGRequestForm, BankLGRequestFormRequest, BankLGGuarantee, BankLGFormSubmitToBank, BankDocumentAgreementLineLookup, BankLGFormReceiveFromBank, LedgerJournalTable, LedgerJournalTransDaily, BankLGRequestFormGiveToBeneficiary, BankLGFormGiveToBeneficiary, BankLGRequestFormIncreaseValue, BankLGFormIncreaseValue, BankLGRequestFormLiquidate, BankLGFormLiquidate
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e025f0d0a89eb6c6ab024236400a7c65b108e6d5
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 30e21c11b067f6def127f3eab026d7255ab1ca29
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722752"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779940"
 ---
 # <a name="letter-of-guarantee-transaction"></a>Garantinio rašto operacija
 
@@ -40,108 +40,108 @@ Prieš baigdami šitą procedūrą, turite įvykdyti toliau nurodytas užduotis:
 
 
 ## <a name="create-sales-order-with-letter-of-guarantee"></a>Kurti pardavimo užsakymą su garantiniu raštu
-1. Pasirinkite Gautinos sumos > Užsakymai > Visi pardavimo užsakymai.
-2. Spustelėkite Naujas.
-3. Lauke Kliento sąskaita įveskite arba pasirinkite reikšmę.
+1. Pereikite į Gautinų **sumų >, > visus pardavimo užsakymus**.
+2. Spustelėkite **Naujas**.
+3. Lauke **Kliento sąskaita** įveskite arba pasirinkite reikšmę.
 4. Išplėskite skyrių Bendra.
-5. Lauke Teritorija įveskite arba pasirinkite reikšmę.
+5. Lauke **Teritorija** įveskite arba pasirinkite reikšmę.
 6. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-7. Lauke Sandėlis įveskite arba pasirinkite reikšmę.
+7. Lauke **Sandėlis** įveskite arba pasirinkite reikšmę.
 8. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-9. Lauke Banko dokumento tipas pasirinkite „Garantinis raštas“.
-10. Spustelėkite Gerai.
-11. Lauke Prekės numeris įveskite arba pasirinkite reikšmę.
-12. Lauke Vieneto kaina įveskite skaičių.
+9. Lauke Banko **dokumento tipas pasirinkite** Garantinis **raštas**.
+10. Spustelėkite **Gerai**.
+11. Lauke **Prekės numeris** įveskite arba pasirinkite reikšmę.
+12. Lauke **Vieneto kaina** įveskite skaičių.
 13. Išplėskite skyrių Eilutės informacija.
 14. Spustelėkite skirtuką Pristatymas.
     * Pastaba: pristatymo datos valdymo pasirinkimas = nėra  
-15. Lauke Pageidaujama siuntimo data įveskite datą.
-16. Lauke Patvirtinta siuntimo data įveskite datą.
+15. Pageidaujamos **siuntimo datos** lauke įveskite datą.
+16. Į lauką **Patvirtinta** siuntimo data įveskite datą.
 
 ## <a name="process-letter-of-guarantee_request"></a>Apdoroti garantinį raštą Užklausa
-1. Veiksmų srityje spustelėkite Valdyti.
-2. Spustelėkite Garantinis raštas.
-3. Veiksmų srityje spustelėkite Garantinis raštas.
-4. Spustelėdami Užklausa atidarykite išplečiamąjį dialogo langą.
-5. Lauke Tipas įveskite arba pasirinkite reikšmę.
+1. Veiksmų srityje spustelėkite **Valdyti**.
+2. Spustelėkite **garantinį raštą**.
+3. Veiksmų srityje spustelėkite Garantinis **raštas**.
+4. Norėdami atidaryti **numetimo** dialogo langą, spustelėkite Užklausa.
+5. **Lauke Tipas** įveskite arba pasirinkite vertę.
 6. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-7. Lauke Vertė įveskite skaičių.
-8. Lauke Galiojimo data įveskite datą ir laiką.
-9. Spustelėkite GERAI.
+7. Lauke **Reikšmė** įveskite skaičių.
+8. Lauke Galiojimo **data** įveskite datą ir laiką.
+9. Spustelėkite **Gerai**.
 10. Uždarykite puslapį.
 
 ## <a name="process-letter-of-guarantee_submit-to-bank"></a>Apdoroti garantinį raštą Pateikti bankui
-1. Pasirinkite Grynųjų pinigų ir banko valdymas > Garantiniai raštai > Garantiniai raštai.
+1. Eikite į **grynųjų pinigų ir banko > garantinius > garantinius raštus**.
 2. Sąraše raskite ir pasirinkite norimą įrašą.
-3. Spustelėdami Pateikti bankui atidarykite išplečiamąjį dialogo langą.
-4. Lauke Banko sąskaita įveskite arba pasirinkite reikšmę.
+3. Norėdami **atidaryti numetimo dialogo** langą, spustelėkite Pateikti bankui.
+4. Lauke **Banko sąskaita** įveskite arba pasirinkite reikšmę.
 5. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-6. Spustelėkite GERAI.
+6. Spustelėkite **Gerai**.
 
 ## <a name="process-letter-of-guarantee_receive-from-bank"></a>Apdoroti garantinį raštą Gauti iš banko
-1. Spustelėdami Gauti iš banko, atidarykite išplečiamąjį dialogo langą.
-2. Lauke Banko numeris įveskite reikšmę.
-    * Patikrinkite apskaičiuotų laukų Marža ir Išlaidos reikšmes.  
-3. Spustelėkite GERAI.
+1. Norėdami **atidaryti numetimo dialogo** langą, spustelėkite Gauti iš banko.
+2. Į lauką **Banko** numeris įveskite vertę.
+    * Patikrinkite vertes apskaičiuotuose maržos **ir** **išlaidų laukuose**.  
+3. Spustelėkite **Gerai**.
 4. Išplėskite sekciją Veiksmai.
     * Patikrinkite įrašą „Gauti iš banko“.  
-5. Spustelėkite, kad būtumėte nukreipti pagal saitą lauke Žurnalo paketo numeris.
-6. Spustelėkite Eilutės.
+5. Spustelėti norint vadovautis žurnalo paketo **numerio lauke esatidarykite** saitą.
+6. Spustelėkite **Eilutės**.
     * Patikrinkite žurnalo įrašų registravimą.  
 7. Uždarykite puslapį.
 
 ## <a name="process-letter-of-guarantee_give-to-beneficiary"></a>Apdoroti garantinį raštą Duoti gavėjui
-1. Pasirinkite Gautinos sumos > Užsakymai > Visi pardavimo užsakymai.
+1. Pereikite į Gautinų **sumų >, > visus pardavimo užsakymus**.
 2. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-3. Veiksmų srityje spustelėkite Valdyti.
-4. Spustelėkite Garantinis raštas.
-5. Veiksmų srityje spustelėkite Garantinis raštas.
-6. Spustelėdami Duoti gavėjui, atidarykite išplečiamąjį dialogo langą.
-7. Spustelėkite GERAI.
-8. Pasirinkite Grynųjų pinigų ir banko valdymas > Garantiniai raštai > Garantiniai raštai.
+3. Veiksmų srityje spustelėkite **Valdyti**.
+4. Spustelėkite **garantinį raštą**.
+5. Veiksmų srityje spustelėkite Garantinis **raštas**.
+6. Norėdami **atidaryti numesti dialogo** langą, spustelėkite Duoti gavėjui.
+7. Spustelėkite **Gerai**.
+8. Eikite į **grynųjų pinigų ir banko > garantinius > garantinius raštus**.
 9. Sąraše raskite ir pasirinkite norimą įrašą.
-10. Spustelėdami Duoti gavėjui, atidarykite išplečiamąjį dialogo langą.
-11. Spustelėkite GERAI.
+10. Norėdami **atidaryti numesti dialogo** langą, spustelėkite Duoti gavėjui.
+11. Spustelėkite **Gerai**.
 12. Išplėskite sekciją Veiksmai.
     * Patikrinkite įrašą „Duoti gavėjui“.  
 
 ## <a name="process-letter-of-guarantee_increase-value"></a>Apdoroti garantinį raštą Didinti vertę
-1. Pasirinkite Gautinos sumos > Užsakymai > Visi pardavimo užsakymai.
+1. Pereikite į Gautinų **sumų >, > visus pardavimo užsakymus**.
 2. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-3. Veiksmų srityje spustelėkite Valdyti.
-4. Spustelėkite Garantinis raštas.
-5. Veiksmų srityje spustelėkite Garantinis raštas.
-6. Spustelėdami Didinti vertę, atidarykite išplečiamąjį dialogo langą.
-7. Lauke Įtrauktina vertė įveskite skaičių.
-8. Spustelėkite GERAI.
-9. Pasirinkite Grynųjų pinigų ir banko valdymas > Garantiniai raštai > Garantiniai raštai.
+3. Veiksmų srityje spustelėkite **Valdyti**.
+4. Spustelėkite **garantinį raštą**.
+5. Veiksmų srityje spustelėkite Garantinis **raštas**.
+6. Norėdami atidaryti **numetimo** dialogo langą, spustelėkite Padidinti reikšmę.
+7. Norėdami pridėti **lauką**, įveskite skaičių.
+8. Spustelėkite **Gerai**.
+9. Eikite į **grynųjų pinigų ir banko > garantinius > garantinius raštus**.
 10. Sąraše raskite ir pasirinkite norimą įrašą.
-11. Spustelėdami Didinti vertę, atidarykite išplečiamąjį dialogo langą.
-12. Spustelėkite GERAI.
+11. Norėdami atidaryti **numetimo** dialogo langą, spustelėkite Padidinti reikšmę.
+12. Spustelėkite **Gerai**.
 13. Išplėskite sekciją Veiksmai.
     * Patikrinkite įrašą „Didinti vertę“.  
 14. Sąraše raskite ir pasirinkite norimą įrašą.
-15. Spustelėkite, kad būtumėte nukreipti pagal saitą lauke Žurnalo paketo numeris.
-16. Spustelėkite Eilutės.
+15. Spustelėti norint vadovautis žurnalo paketo **numerio lauke esatidarykite** saitą.
+16. Spustelėkite **Eilutės**.
     * Patikrinkite užregistruotus žurnalo įrašus.  
 
 ## <a name="process-letter-of-guarantee_liquidate"></a>Apdoroti garantinį raštą Likviduoti
-1. Pasirinkite Gautinos sumos > Užsakymai > Visi pardavimo užsakymai.
+1. Pereikite į Gautinų **sumų >, > visus pardavimo užsakymus**.
 2. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-3. Veiksmų srityje spustelėkite Valdyti.
-4. Spustelėkite Garantinis raštas.
-5. Veiksmų srityje spustelėkite Garantinis raštas.
-6. Spustelėdami Likviduoti, atidarykite išplečiamąjį dialogo langą.
-7. Spustelėkite GERAI.
-8. Pasirinkite Grynųjų pinigų ir banko valdymas > Garantiniai raštai > Garantiniai raštai.
+3. Veiksmų srityje spustelėkite **Valdyti**.
+4. Spustelėkite **garantinį raštą**.
+5. Veiksmų srityje spustelėkite Garantinis **raštas**.
+6. Norėdami **atidaryti numetimo** dialogo langą, spustelėkite Likviduoti.
+7. Spustelėkite **Gerai**.
+8. Eikite į **grynųjų pinigų ir banko > garantinius > garantinius raštus**.
 9. Sąraše raskite ir pasirinkite norimą įrašą.
-10. Spustelėdami Likviduoti, atidarykite išplečiamąjį dialogo langą.
-11. Spustelėkite GERAI.
+10. Norėdami **atidaryti numetimo** dialogo langą, spustelėkite Likviduoti.
+11. Spustelėkite **Gerai**.
 12. Išplėskite sekciją Veiksmai.
     * Patikrinkite įrašą „Likviduoti“.  
 13. Sąraše raskite ir pasirinkite norimą įrašą.
-14. Spustelėkite, kad būtumėte nukreipti pagal saitą lauke Žurnalo paketo numeris.
-15. Spustelėkite Eilutės.
+14. Spustelėti norint vadovautis žurnalo paketo **numerio lauke esatidarykite** saitą.
+15. Spustelėkite **Eilutės**.
     * Patikrinkite užregistruotus žurnalo įrašus.  
 16. Uždarykite puslapį.
 

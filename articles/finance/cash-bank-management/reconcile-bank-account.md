@@ -2,24 +2,24 @@
 title: Banko sąskaitos derinimas
 description: Šiame straipsnyje aprašoma, kaip suderinti banko sąskaitą.
 author: angelad116
-ms.date: 07/01/2019
+ms.date: 11/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d36ff753d368bbbe6944aa5ae5010541ee92156d
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 576dcd320600f4741a43bfeee53198637bffce15
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151258"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779533"
 ---
 # <a name="reconcile-a-bank-account"></a>Banko sąskaitos derinimas
 
@@ -29,27 +29,27 @@ Gavę banko išrašą, turėtumėte periodiškai suderinti juridinio subjekto ba
 
 Negalite suderinti banko sąskaitos išrašo su banko sąskaita, jei nors vieno iš čekių ar mokėjimo kvitų, kurie išvardinti išraše, būsena yra **Laukiama atšaukimo**. Kai redaktorius užregistruoja arba atmeta čekių atšaukimą arba mokėjimo kvitų mokėjimų atšaukimus, būsena nebėra **Laukiama atšaukimo**, ir jūs galite suderinti banko sąskaitą.
 
-1.  Eikite į **Grynųjų pinigų ir banko valdymas** \> **Banko sąskaitos** \> **Banko sąskaitos**. Pasirinkite banko sąskaitą, kurią norite suderinti su banko išrašu, ir pasirinkite **Suderinti** > **Sąskaitos suderinimas**.
+1. Eikite į **Grynųjų pinigų ir banko valdymas** \> **Banko sąskaitos** \> **Banko sąskaitos**. Pasirinkite banko sąskaitą, kurią norite suderinti su banko išrašu, ir pasirinkite **Suderinti** > **Sąskaitos suderinimas**.
 
-2.  Laukeliuose **Banko išrašo data** ir **Banko išrašas** įveskite informaciją. Lauke **Pabaigos likutis** įveskite banko sąskaitos balansą taip, kaip jis pateikiamas banko sąskaitos išraše.
+2. Laukeliuose **Banko išrašo data** ir **Banko išrašas** įveskite informaciją. Lauke **Pabaigos likutis** įveskite banko sąskaitos balansą taip, kaip jis pateikiamas banko sąskaitos išraše.
 
-3.  Pasirinkite **Operacijos**, kad atidarytumėte puslapį **Sąskaitos suderinimas**.
+3. Pasirinkite **Operacijos**, kad atidarytumėte puslapį **Sąskaitos suderinimas**.
 
-4.  Kiekvienos į banko išrašą įtrauktos operacijos žymės langelį Valyti pažymėkite, **jei** "Dynamics 365 Finance" suma atitinka banko išraše sumą. Taip pat galite įvesti arba keisti laukelio **Banko operacijos tipas** reikšmę. Tai svarbu jūsų banko operacijų statistikai ir kai kurioms ataskaitoms.
+4. Kiekvienos į banko išrašą įtrauktos operacijos žymės langelį Valyti pažymėkite, **jei** "Dynamics 365 Finance" suma atitinka banko išraše sumą. Taip pat galite įvesti arba keisti laukelio **Banko operacijos tipas** reikšmę. Tai svarbu jūsų banko operacijų statistikai ir kai kurioms ataskaitoms.
     
 
-    > [!NOTE]
-    > <P>Tų operacijų, kurių nėra banko sąskaitos išraše, žymės langelis <STRONG>Išvalyta</STRONG> turi likti nepažymėtas. Šios operacijos ir toliau bus rodomos šioje formoje, kol nebus suderintos su kitu banko sąskaitos išrašu.</P>
-    > <P>Žymės langelis <STRONG>Išvalyta</STRONG> neaktyvus, jei operacijos būsena yra <STRONG>Laukiama atšaukimo</STRONG>. Operacijos gali turėti tokią būseną, jei „Finance“ nustatytas taip, kad prieš užregistruojant atšaukimus ar anuliavimus, jie būtų peržiūrimi. Kai redaktorius užregistruoja arba atmeta atšaukimą, būsena nebėra <STRONG>Laukiama atšaukimo</STRONG>, ir jūs galite suderinti banko sąskaitą su banko išrašu.</P>
+>[!NOTE]
+>Tų operacijų, kurių nėra banko sąskaitos išraše, žymės langelis **Išvalyta** turi likti nepažymėtas. Šios operacijos ir toliau bus rodomos šioje formoje, kol nebus suderintos su kitu banko sąskaitos išrašu.
+>Žymės langelis **Išvalyta** neaktyvus, jei operacijos būsena yra **Laukiama atšaukimo**. Operacijos gali turėti tokią būseną, jei „Finance“ nustatytas taip, kad prieš užregistruojant atšaukimus ar anuliavimus, jie būtų peržiūrimi. Kai redaktorius užregistruoja arba atmeta atšaukimą, būsena nebėra **Laukiama atšaukimo**, ir jūs galite suderinti banko sąskaitą su banko išrašu.
 
-    
-    Norėdami pasirinkti žymės langelį **Ištrinta** visų banko išraše rodomų čekių intervalui, pasirinkite žymės langelį **Pažymėti čekių intervalą** ir nurodykite intervalą.
+
+Norėdami pasirinkti žymės langelį **Ištrinta** visų banko išraše rodomų čekių intervalui, pasirinkite žymės langelį **Pažymėti čekių intervalą** ir nurodykite intervalą.
 
 5.  Jei banko sąskaitos operacijos suma neatitinka banko išraše nurodytos operacijos sumos, lauke **Koregavimo suma** įveskite pakoreguotą sumą.
     
 
-    > [!NOTE]
-    > <P>Jei koreguotinos operacijos ataskaitinis laikotarpis yra uždarytas, lauko <STRONG>Koregavimo suma</STRONG> naudoti negalima. Vietoj to sukurkite naują eilutę su operacijos data iš atvirojo ataskaitinio laikotarpio. Tokiu atveju turite pridėti atliekant pirminę operaciją naudotas finansines dimensijas ir korespondentinę pagrindinę sąskaitą.</P>
+> [!NOTE]
+> Jei koreguotinos operacijos ataskaitinis laikotarpis yra uždarytas, lauko **Koregavimo suma** naudoti negalima. Vietoj to sukurkite naują eilutę su operacijos data iš atvirojo ataskaitinio laikotarpio. Tokiu atveju turite pridėti atliekant pirminę operaciją naudotas finansines dimensijas ir korespondentinę pagrindinę sąskaitą.
 
 
 

@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesEditLines,  SysQueryForm, SysRecurrence
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ceda837cae563dab68969cb9f05de113079d4495
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3ff76eac54da6621d999d9b629fac920ba8de294
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910264"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778390"
 ---
 # <a name="create-sales-order-invoices"></a>Pardavimo užsakymų sąskaitų faktūrų kūrimas
 
@@ -32,12 +32,12 @@ ms.locfileid: "8910264"
 2. Sąraše pasirinkite pardavimo užsakymą. 
 3. **Veiksmų srityje** spustelėkite **Sąskaita faktūra > Generuoti > Sąskaita faktūra**. Atkreipkite dėmesį, kad su šiuo pardavimo užsakymu susieti keli važtaraščiai. Vietoj važtaraščio numerio bus rodomas tik žodis *keletas*.  
 4. Išplėskite skyrių **Parametrai**.
-    - Norint užregistruoti SF, turi būti nustatyta registravimo parinktis Taip. Taip pat galite išjungti registravimą ir tik spausdinti SF. Tačiau tą patį rezultatą galite pasiekti vietoj sąskaitos faktūros sukurdami išankstinę SF.  
+    - Norint registruoti SF, registravimas **turi** būti nustatytas kaip Taip. Taip pat galite išjungti registravimą ir tik spausdinti SF. Tačiau tą patį rezultatą galite pasiekti vietoj sąskaitos faktūros sukurdami išankstinę SF.  
     - Ši pasirinktis naudojama su paketinėmis užduotimis. Užklausa vykdoma paleidus paketinę užduotį.
-5. Lauke **Spausdinti** pasirinkite „Vėliau”.
-6. Pasirinkite funkcijos **Spausdinti SF** parinktį **Taip**. Naudojant spausdinimo valdymo funkciją, galima spausdinti kelias SF kopijas ir siųsti SF elektroniniu paštu kaip PDF failą.  
-7. Lauke **Spausdinti mokesčius** pasirinkite „Apibendrinti”.
-8. Lauke **Tikrinti kredito limitą** pasirinkite „Balansas”.
+5. **Lauke Spausdinti** pasirinkite **Po**.
+6. Pasirinkite funkcijos **Spausdinti SF** parinktį **Taip**. Spausdinimo valdymas gali spausdinti kelias SF kopijas ir taip pat siųsti SF el. paštu kaip PDF failą.  
+7. **Lauke Spausdinimo mokesčiai** pasirinkite **Apibendrinta**.
+8. Lauke Tikrinti **kredito limitą** pasirinkite **Balansas**.
 9. Spustelėkite **Atšaukti**.
 
 ## <a name="combine-orders-into-a-single-invoice"></a>Sujungti užsakymus į vieną SF
@@ -46,8 +46,8 @@ ms.locfileid: "8910264"
 3. Pasirinkite kelis atvirus pardavimo užsakymus iš to paties kliento.
 4. **Veiksmų srityje** spustelėkite **Sąskaita faktūra > Generuoti > Sąskaita faktūra**.
 5. Išplėskite skyrių **Parametrai**.
-6. Lauke **Kiekis** pasirinkite „Visi‟. Atkreipkite dėmesį, kad peržiūros dalyje pateikiamos dvi SF. Suliekime jas į vieną SF.  
-7. Lauke **Suminis atnaujinimas** pasirinkite „SF sąskaita”.
+6. Lauke **Kiekis** pasirinkite **Visi**. Atkreipkite dėmesį, kad peržiūros dalyje pateikiamos dvi SF. Suliekime jas į vieną SF.  
+7. Lauke Suminį **atnaujinimą** pasirinkite SF **sąskaita**.
 8. Norėdami pardavimo užsakymus sulieti į vieną SF, spustelėkite **Išdėstyti**. Šie du pardavimo užsakymai dabar sulieti į vieną SF.   
 9. Spustelėkite **Atšaukti**.
 10. Spustelėkite **Taip**.

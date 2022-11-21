@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f0609e333fb16ba189b6a971f88fbb5bf900fec
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bb563008f156e1bfa6e4e9a705e9170342719ce7
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887983"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775174"
 ---
 # <a name="set-up-and-process-bridged-payments"></a>Sujungtų mokėjimų nustatymas ir apdorojimas
 
 [!include [banner](../includes/banner.md)]
 
-Tarpinis mokėjimas yra mokėjimas, kuris dviem veiksmais registruojamas DK. Paprastai šis būdas naudojamas, kai **mokėjimo** būdas nustatytas kaip Bankas, ir operacijas į banko sąskaitą reikia užregistruoti tik tada, kai operacija išvalo banką. Tačiau galite naudoti ją ir DK sąskaitai. Šiuo atveju, apdorodama tarpąjį registravimą sistema perkelia sumą iš vienos pagrindinės sąskaitos į kitą.
+Tarpinis mokėjimas yra mokėjimas, kuris dviem veiksmais registruojamas DK. Paprastai šis būdas naudojamas, kai **mokėjimo** būdas nustatytas kaip Bankas, ir operacijas į banko sąskaitą reikia užregistruoti tik tada, kai operacija išvalo banką. Tačiau galite naudoti ją ir DK sąskaitai. Šiuo atveju, atliekant tarpąjį registravimą suma bus perkelta iš vienos pagrindinės sąskaitos į kitą.
 
 Galite sukurti tarpinius mokėjimus iš mokėtinų sumų arba gautinų sumų. Nors šiame straipsnyje paaiškinama, kaip konfigūruoti tarpinius gautinų sumų registravimus, mokėtinų sumų operacijų veiksmai yra panašūs.
 

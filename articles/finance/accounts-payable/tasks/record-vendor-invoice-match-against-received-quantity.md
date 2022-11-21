@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8a3f1463821a43af0d8d5f15225944b080414e4c
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: debf8ca47666252633e67e2592acd5a4e4122403
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109923"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778549"
 ---
 # <a name="record-vendor-invoice-and-match-against-received-quantity"></a>Įrašyti tiekėjo SF ir sugretinti su gautu kiekiu
 
@@ -32,7 +32,7 @@ Mokėtinų **sumų parametrų puslapyje, įsitikinkite,** **kad pasirinkta parin
 
 
 ## <a name="create-a-purchase-order"></a>Pirkimo užsakymo kūrimas
-1. Eikite į Visi pirkimo užsakymai.
+1. Eikite į **Visi pirkimo užsakymai**.
 2. Spustelėkite **Naujas**.
 3. Lauke **Tiekėjo sąskaita** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
 4. Lauke **Tiekėjo sąskaita** įveskite vertę.

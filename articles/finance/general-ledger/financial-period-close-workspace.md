@@ -2,25 +2,25 @@
 title: Finansinio laikotarpio uždarymo darbo sritis
 description: Šiame straipsnyje pateikta Finansinio laikotarpio uždarymo darbo sritis ir susijusi konfigūracija.
 author: kweekley
-ms.date: 11/29/2017
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 531909bb8de892b012ffff347e58f23f997705ef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 657bdd04c8b6dd36341e0bf771a978f68f13362d
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865718"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780048"
 ---
 # <a name="financial-period-close-workspace"></a>Finansinio laikotarpio uždarymo darbo sritis
 
@@ -28,7 +28,7 @@ ms.locfileid: "8865718"
 
 Šiame straipsnyje pateikta finansinio laikotarpio uždarymo **darbo srities** ir susijusios konfigūracijos apžvalga.
 
-Finansinio laikotarpio uždarymo darbo sritis
+## <a name="financial-period-close-workspace"></a>Finansinio laikotarpio uždarymo darbo sritis
 
 Naudodamiesi darbo sritimi **Finansinio laikotarpio uždarymas** galite sekti įmonių, sričių ir žmonių finansinius uždarymo procesus. Priklausomai nuo darbo srities **Finansinio laikotarpio uždarymas** rodinio, matote arba visas uždarymo grafiko užduotis ir būsenas, arba tik jums priskirtas užduotis. 
 
@@ -101,7 +101,7 @@ Nustatykite, kad pagal uždarymo grafiką tinkamame kalendoriuje būtų nurodomo
 
 Taip pat turite nurodyti įmones, kurios bus susietos su uždarymo grafiku. Jei šablono užduotys priskiriamos kelioms įmonėms, kiekvienai uždarymo grafike nurodytai įmonei bus sukurtos atskiros užduotys ir priskirtos šablono užduočiai. 
 
-Įvykdę uždarymo grafiką pažymėkite parinktį **Uždaryta**. Užduoties retrospektyvą bus galima rasti sąrašo puslapyje **Visos ataskaitinio laikotarpio uždarymo užduotys**, bet uždarymo grafikas bus pašalintas iš darbo srities. Kai pažymima uždarymo grafiko parinktis **Uždaryta**, į jį negalima įtraukti užduočių, negalima redaguoti užduočių ir negalima užduočių iš jo pašalinti.
+Kai uždarymo grafikas baigtas, pasirinkite pasirinktį **Uždaryta**. Užduoties retrospektyvą bus galima rasti sąrašo puslapyje **Visos ataskaitinio laikotarpio uždarymo užduotys**, bet uždarymo grafikas bus pašalintas iš darbo srities. Kai pažymima uždarymo grafiko parinktis **Uždaryta**, į jį negalima įtraukti užduočių, negalima redaguoti užduočių ir negalima užduočių iš jo pašalinti.
 
 
 

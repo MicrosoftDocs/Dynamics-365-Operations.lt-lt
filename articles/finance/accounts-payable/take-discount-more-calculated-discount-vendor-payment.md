@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27a6ec8fdba495535227d9d893d59edac5588985
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: cd74c6677f80a9075449908411350f1c81b95b02
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715700"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778363"
 ---
 # <a name="take-more-than-the-calculated-discount-for-a-vendor-payment"></a>Paimkite daugiau nei apskaičiuota nuolaida pardavėjo mokėjimui
 
@@ -32,15 +32,15 @@ Tiekėjas 3051 suteikia „Fabrikam“ 4 procentų mokėjimo nuolaidą, jei sąs
 
 | Žymėti     | Naudokite mokėjimo nuolaidą | Kvitas   | Paskyra | Data      | Terminas  | PVM sąskaita faktūra | Suma operacijos valiuta | Valiuta | Sudengtina suma |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
-| Pasirinkta | Įprastas            | SF-10040 | 3051    | 2015-06-29 | 7/29/2015 | 10040   | 1000,00                       | USD      | 940,00           |
+| Pasirinkta | Normalus            | SF-10040 | 3051    | 6/29/2020 | 7/29/2020 | 10040   | 1,000.00                       | USD      | 940,00           |
 
 Nuolaidos informacija rodoma puslapio **Sudengti operacijas** apačioje.
 
 | Laukas                        | Reikšmė     |
 |------------------------------|-----------|
-| Mokėjimo nuolaidos data           | 2015-07-12 |
+| Mokėjimo nuolaidos data           | 7/12/2020 |
 | Mokėjimo nuolaidos suma         | 60.00     |
-| Naudokite mokėjimo nuolaidą            | Įprastas    |
+| Naudokite mokėjimo nuolaidą            | Normalus    |
 | Pritaikyta mokėjimo nuolaida          | 0,00      |
 | Taikytinos mokėjimo nuolaidos suma | 60,00     |
 

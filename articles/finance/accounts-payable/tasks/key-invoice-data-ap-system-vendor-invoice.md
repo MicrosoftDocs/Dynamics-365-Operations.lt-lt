@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ad75439bf3dfa1ed33e35fa9cfee153012e9f60
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 4c441d197957674d68c4c92b454a9dca91d76ea0
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716809"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775195"
 ---
 # <a name="key-invoice-data-in-ap-using-a-vendor-invoice"></a>Pagrindiniai SF duomenys veiksmų srityje, naudojant tiekėjo SF
 
@@ -67,8 +67,11 @@ ms.locfileid: "8716809"
 16. Pasirinkite atsargų prekės, kurią gavote, produkto gavimo kvitą. Eilutė, kurioje yra produkto gavimo kvitas, buvo sugretinta, tačiau neatitinka kiekis arba kaina, todėl sugretinti nepavyko.  
 17. Lauke **Vieneto kaina** įveskite skaičių. Dabar, kai vieneto kaina atitinka, būsena atnaujinama į Pavyko. Jei jūsų strategija leidžia nesutapimus arba jei gretinimas yra tik įspėjimas, SF vis tiek galite registruoti.  
 18. Uždarykite puslapį.
-19. Spustelėkite **Registruoti.**
-20. Uždarykite formą. Atkreipkite dėmesį, kad pirkimo užsakymas pateikiamas nebe kaip gautas, o kaip užsakymas, kuriam neišrašyta SF.  
+19. Spustelėkite **Registruoti**.
+20. Uždarykite puslapį. 
+
+>[!Note] 
+>Pirkimo užsakymas nebeįvarditas kaip gautas, bet sf neišrašyta.  
 
 
 

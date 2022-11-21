@@ -2,7 +2,7 @@
 title: „Inventory Visibility“ rezervavimai
 description: Šiame straipsnyje aprašoma, kaip nustatyti rezervavimo priemonę, kad būtų galima kurti rezervavimus, naudoti rezervavimus ir (arba) nerealizuoti nurodytų atsargų kiekių naudojant atsargų matomumą.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 11/04/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,73 +11,104 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3b74907709ab97ddf4cc829dba324df213ca229f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0ae0589f8bac7ebf9b43cf0f3bc02680d324b29b
+ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895734"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9762747"
 ---
 # <a name="inventory-visibility-reservations"></a>„Inventory Visibility“ rezervavimai
 
 [!include [banner](../includes/banner.md)]
 
+Šiame straipsnyje aprašomas įprastas šiek tiek rezervų naudojimo atvejis ir paaiškinama, kaip juos nustatyti naudojant atsargų matomumą. Čia pateikiama informacija apie tai, kaip kurti soft rezervavimus, koresponduoti juos su faktiniu suvartojimu ir koreguoti arba nerealizuoti nurodytų atsargų kiekius.
 
-Šiame straipsnyje aprašoma, kaip nustatyti rezervavimo priemonę, kad būtų galima kurti rezervavimus, naudoti rezervavimus ir (arba) nerealizuoti nurodytų atsargų kiekių naudojant atsargų matomumą.
+## <a name="sample-use-case-for-soft-reservation"></a>Pavyzdžio naudojimo atvejis, skirtas švelniai rezervavimui
 
-Rezervavimai pažymi atsargų kiekį, kuris bus naudojamas ateityje. Kai sukuriate rezervavimą, sistema neleidžia kitiems užsakymams rezervuoti ar naudoti rezervuotų prekių, kol rezervavimas suvartojamas arba nerealizuojamas. Rezervavimai kuriami, naudojami ir atšaukiami naudojant API iškvietimus į atsargų matomumo tarnybą.
+Švelniai rezervavimai padeda organizacijoms pasiekti vieną galimų atsargų teisingų šaltinį, ypač užsakymo įvykdymo proceso metu. Šis funkcionalumas naudingas organizacijose, kuriose yra šios sąlygos:
 
-Galite pasirinktinai nustatyti „Microsoft Dynamics 365 Supply Chain Management“ (ir kitas trečiųjų šalių sistemas) siekiant automatiškai padengti kiekį, rezervuotą naudojant atsargų matomumą. Korespondentinis kiekis panaikinamas iš rezervavimo įrašų atsargų matomumo lauke.
+- Organizacija turi bent dvi skirtingas sistemas, kurios tiesiogiai priima siunčiamus užsakymus.
+- Organizacija yra labai griežta ir nori išvengti dvigubo produktų atsargų rezervavimo, kuris gali įvykti jei kelios sistemos gali per daug užsakyti paskutinę atsargų dalį. Ši situacija apsaugoma nuo visų užsakymų sistemų, kurios gali atlikti tiesioginius suminio rezervavimo API iškvietimus į atsargų matomumą, kuris suteikia vieną teisingų atsargų prieinamumo šaltinį.
 
-Kai įjungsite rezervavimo funkciją, „Supply Chain Management“ automatiškai taps parengtu korespondentiniu rezervavimu, kuris atliktas naudojant atsargų matomumą.
+[<img src="media/inventory-visibility-soft-reservation.png" alt="Inventory Visibility soft reservation." title=" Atsargų matomumo švelniai rezervavimas" width="720" />](media/inventory-visibility-soft-reservation.png)
+
+Ankstesnis pavyzdys rodo, kaip veikia švelniai rezervavimas, ir išryškina šias operacijas:
+
+- Jūsų pradinis atsargų lygis sinchronizuojamas su "Microsoft" atsargų matomumu Dynamics 365 Supply Chain Management.
+- Švelniai rezervavimai registruojami iš kiekvieno užsakymo kanalų ar sistemų į atsargų matomumą. Atsargų matomumas patikrina atsargų prieinamumą ir bando šiek tiek rezervuoti. Jei pavyko šiek tiek rezervuoti, atsargų matomumo įtraukimas į soft rezervuotą kiekį, atima iš galimų rezervuoti (AFR) kiekio ir atsako su soft rezervavimo ID.
+- Šiuo metu jūsų faktinių atsargų kiekis lieka toks pat.
+- Tada galite sinchronizuoti vieną arba suvestinius iš dalies rezervuotus užsakymus (užsakymo eilutes) su tiekimo grandinės valdymu, norėdami atlikti sąstabų rezervavimą ir išleisti į sandėlį arba atnaujinti galutinį atsargų kiekį.
+- Galite nustatyti, kad sistema kompensuotumėte [soft reservations, kai tiekimo grandinės valdymo sistemoje atnaujinamos faktinės](#offset-scm) atsargos.
+
+Paprastai, švelniai rezervavimai kuriami, suvartojami ir atšaukiami naudojant API iškvietimus į atsargų matomumo tarnybą.
+
+> [!NOTE]
+> Galite pasirinktinai nustatyti tiekimo grandinės valdymą (ir kitas trečiosios šalies sistemas) automatinei rezervuotam kiekiui kompensuoti naudojant atsargų matomumą. Korespondentinis kiekis panaikinamas iš rezervavimo įrašų atsargų matomumo lauke.
+>
+> Numatyta, kad korespondentinė funkcija automatiškai įjungiama, kai įgalinate funkciją Švelniai rezervavimas.
 
 ## <a name="turn-on-and-set-up-the-reservation-feature"></a><a name="turn-on"></a>Įjungti ir nustatyti rezervavimo funkciją
 
 Norėdami įjungti šią rezervacijos funkciją, atlikite toliau nurodytus veiksmus.
 
-1. „Power Apps“ prisiregistruoti ir atidaryti **atsargų matomumą**.
+1. Prisiregistruokite prie Power Apps atsargų matomumo **ir jį atidarykite**.
 1. Atidarykite **Konfigūravimo** puslapį.
 1. **Funkcijų valdymo** skirtuke įjunkite funkciją *OnHandReservation*.
-1. Prisijunkite prie „Supply Chain Management“.
+1. Prisiregistruokite savo tiekimo grandinės valdymo aplinkoje.
 1. Eikite į **[funkcijų valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** darbo sritį ir įjunkite *atsargų matomumo integravimą su rezervavimo kompensavimą* funkciją (reikalinga 10.0.22 ar vėlesnė versija).
 1. Eikite į **Atsargų valdymo \> nustatymo \> atsargų matomumo integravimo parametrus**, atidarykite **Rezervavimo kompensavimas** skirtuką ir atlikite šiuos parametrus:
+
     - **Įgalinti rezervavimo korespondentinę sąskaitą** – nustatykite kaip *Taip*, norėdami įgalinti šią funkciją.
-    - **Rezervavimo korespondentinis modifikatorius** – pasirinkite atsargų operacijos būseną, kuri koresponduos rezervavimus, atliktas atsargų matomumo metu. Šis parametras nustato užsakymo apdorojimo etapą, kuris suaktyvina kompensavimus. Etapą seka užsakymo atsargų operacijos būsena. Pasirinkite vieną iš šių parinkčių:
-        - *Užsakyta* – kai operacijos būsena Yra, sukūrus užsakymą, *užsakymas* atsiųs korespondentinę užklausą. Korespondentinis kiekis bus sukurto užsakymo kiekis.
-        - *Rezervas* – kai *operacijos būsena Rezervuota,* Užsakytas užsakymas siųs korespondentinę užklausą, kai ji rezervuota, paimta, užregistruotas važtaraštis arba išrašyta SF. Užklausa bus suaktyvinta tik vieną kartą, pirmojo žingsnio atveju, kai bus įvyksta nurodytas procesas. Korespondentinis kiekis bus kiekis, kai atsargų operacijos būsena atitinkamoje užsakymo eilutėje pasikeičia iš *Užsakyta* į *Rezervuota* (arba vėlesnė būsena).
+    - **Rezervavimo korespondentinis modifikatorius** – pasirinkite atsargų operacijos būseną, kuri koresponduos rezervavimus, kurie atliekami atsargų matomumo metu. Šis parametras nustato užsakymo apdorojimo etapą, kuris suaktyvina kompensavimus. Etapą seka užsakymo atsargų operacijos būsena. Pasirinkite vieną iš šių reikšmių:
 
-## <a name="use-the-reservation-feature-in-inventory-visibility"></a>Naudoti rezervacijos funkciją atsargų matomume
+        - *Užsakyta –* užsakymai, kurių būsena *Užsakyta,* sukūrus korespondentinę užklausą nusiųs korespondentinę užklausą. Korespondentinis kiekis bus sukurto užsakymo (eilutės) kiekis.
+        - *Rezervuoti* – užsakymai, kurių būsena *Rezervas*, siųs korespondentinę užklausą, kai jie yra rezervuoti arba faktiškai rezervuoti. *Kai* paslinksite būseną Rezervas, užsakymas siųs korespondentinę užklausą apie bet kurią naują atsargų būseną, artimiausią rezervuotam paimtam (pavyzdžiui, paėmimas, užregistruotas važtaraštis arba išrašyta SF). Taip nutinka net jei tiekimo grandinės valdymo dalyje rezervavimą praleisite ir tęsite iki kitos atsargų būsenos (pvz., jei praleisti iš išleidimo į sandėlį ir paimti ir pakuoti). Užklausa bus suaktyvinta tik vieną kartą. Jei jis suaktyvintas paėmimo metu, registruojant važtaraštį korespondentinė sąskaita nebus dubliuota. Korespondentinis kiekis bus toks pat, kaip ir atsargų operacijos būsenos kiekis, kai jis buvo suaktyvintas (kitaip tariant, *·*/*atitinkamoje* užsakymo eilutėje yra rezervuotas užsakytas rezervuotas faktinis rezervas arba vėlesnė būsena).
 
-Kai iškiesite rezervavimo API, sistema pažymi nurodytų prekių ir kiekių rezervavimą. Turite apibrėžti rezervavimo hierarchiją ir užregistruoti užklausas, kurios atitinka tą rezervavimo hierarchiją. Tada rezervavimai gali būti atliekami tiesiogiai iškvievieuojant rezervavimo API.
+1. Vėl prisijunkite prie atsargų matomumo programos, **eikite** į konfigūracijos puslapį, **tada** skirtuke Švelniai rezervavimas peržiūrėkite numatytąją soft reservation hierarchiją. Jei reikia, į hierarchiją įtraukti naujas dimensijas.
+1. Skyriuje Nustatyti soft **rezervavimo susiejimą** peržiūrėkite numatytuosius parametrus. Pagal numatytuosius nustatymus, iš dalies rezervuotų atsargų kiekiai bus įrašyti pagal `softreservephysical` fizinį duomenų šaltinio matą `iv`. Apskaičiuotas *rezervavimo matas* yra susietas su `availabletoreserve`. Jei norite atnaujinti apskaičiuotą matą`availabletoreserve`, **eikite** į konfigūracijos puslapį ir **skirtuke** Apskaičiuotas matas išplėskite ir modifikuokite apskaičiuotą matą.
 
-### <a name="configure-the-reservation-hierarchy"></a>Konfigūruoti rezervavimo hierarchiją
+Dėl daugiau informacijos, žr. [Inventoriaus matomumo papildinio konfigūravimas](inventory-visibility-configuration.md).
 
-Rezervavimo hierarchija aprašo dimensijų seką, kurią reikia nurodyti rezervuojant. Tai veikia tuo pačiu būdu, kaip indeksų hierarchija veikia turimose užklausose.
-
-Rezervavimo hierarchija gali skirtis nuo indeksų hierarchijos. Šis nepriklausomumas leidžia įgyvendinti kategorijų valdymą, kur vartotojai gali suskaidyti dimensijas į išsamią informaciją, kad nustatytų tikslesnių rezervavimų reikalavimus.
-
-Norėdami konfigūruoti soft rezervavimo hierarchiją „Power Apps“, atidarykite **konfigūracijos** puslapį ir tada **Švelniai rezervavimo hiearchija** nustatykite rezervavimo hierarchiją pridėdami ir (arba) modifikuodami dimensijas ir jų hierarchijos lygius.
-
-Jūsų soft rezervavimo hierarchijoje turi `SiteId` būti komponentai ir kaip `LocationId` komponentai, nes jie sudaro skaidinio konfigūraciją.
+> [!NOTE]
+> Rezervavimo hierarchija aprašo dimensijų seką, kurią reikia nurodyti rezervuojant. Jis veikia taip pat, kaip indeksų hierarchija veikia turimose užklausose, bet naudojamas nepriklausomai, kad vartotojai galėtų nurodyti dimensijų informaciją ir atlikti tikslesnius rezervavimus.
+>
+> Jūsų soft rezervavimo hierarchijoje turėtų būti `SiteId` komponentai `LocationId` ir kaip komponentai, nes jie sudaro atsargų matomumo skaidinio konfigūraciją.
 
 Daugiau informacijos apie tai, kaip konfigūruoti rezervavimus, žr. [Rezervavimo konfigūravimas](inventory-visibility-configuration.md#reservation-configuration).
 
-### <a name="call-the-reservation-api"></a>Iškviesti rezervavimo API
+## <a name="use-the-reservation-feature-in-inventory-visibility"></a>Naudoti rezervacijos funkciją atsargų matomume
 
-Rezervavimai atliekami atsargų matomumo paslaugoje, pateikiant post užklausą paslaugos URL, pvz., `/api/environment/{environment-ID}/onhand/reserve`.
+Kai iškiesite rezervavimo API, sistema pažymi nurodytų prekių ir kiekių rezervavimą.
 
-Rezervuojant užklausos dokumentuose turi būti organizacijos ID, produkto ID, rezervuoti kiekiai ir dimensijos. Užklausa sugeneruoja unikalų rezervavimo ID kiekvienam rezervavimo įrašui. Rezervavimo įraše yra unikalus produkto ID ir dimensijų derinys.
+Čia pateikiamas pavyzdinis scenarijus ir API užklausos lauko pavyzdys. Įmonė Contoso parduoda produktą D0002 (kabinetas) iš savo el. komercijos svetainės. Klientas per svetainę suduos pardavimo užsakymą smulkiai raudonai kabinetui. Contoso nusprendžia įvykdyti šį užsakymą naudodama šias dimensijas:
+
+- Organizacijos ID = usmf
+- Vieta = 1
+- Sandėlis = 11
+- Produktas = D0002
+- Spalva = raudona
+- Dydis = mažas
+
+"Contoso" jau nustatė API ryšį su atsargų matomumu savo el. komercijos sistemoje. Kai užsakymas gaunamas, sistema iš anksto suaktyvina API iškvietimą atlikti soft rezervavimą atsargų matomumo kabinetui.
+
+### <a name="create-soft-reservations-using-the-reservation-api"></a>Kurti švelniai rezervavimus naudojant rezervavimo API
+
+Rezervavimai atliekami atsargų matomumo paslaugoje, pateikiant post užklausą paslaugos URL, pvz., `/api/environment/{environmentId}/onhand/reserve`.
+
+Rezervuojant užklausos dokumentuose turi būti organizacijos ID, produkto ID, rezervuoti kiekiai ir dimensijos.
 
 Kai iškiesite rezervavimo API, galite valdyti rezervavimo tikrinimą nurodydami parametrą Boolean `ifCheckAvailForReserv` užklausos body. Vertė, `True` kuri reiškia, kad būtinas tikrinimas, o `False` vertė reiškia, kad tikrinimas nebūtinas. Numatytoji vertė yra `True`.
 
 Jei norite atšaukti rezervavimą ar nereservuoti nurodytų atsargų kiekių, nustatykite neigiamą kiekio vertę ir nustatykite parametrą praleisti `ifCheckAvailForReserv` ir `False` tikrinimą.
 
-Čia pateikiamas nuorodos užklausos tekstas.
+Tai užklausos lauko, kuris nurodo pardavimo užsakymą ankstesniame kontekste, pavyzdys.
 
 ```json
 # Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand/reserve
+
+#Replace {endpoint} with your system endpoint.
+    {endpoint}/api/environment/{environmentId}/onhand/reserve
 
 # Method
 Post
@@ -90,45 +121,53 @@ Authorization: "Bearer {access_token}"
 
 # Body
 {
-    "id": "id-bike-0001",
+    "id": "Testrequest-0005",
     "organizationId": "usmf",
-    "productId": "Bike",
+    "productId": "D0002",
     "dimensions": {
         "SiteId": "1",
         "LocationId": "11",
-        "ColorId": "Red",
+        "ColorId": "red",
         "SizeId": "small"
     },
     "quantityDataSource": "iv",
-    "modifier": "SoftReservOrdered",
+    "modifier": "softreservphysical",
     "quantity": 1,
     "ifCheckAvailForReserv": true
 }
 ```
 
-## <a name="offset-reservations-in-supply-chain-management"></a>Kompensavimo rezervacijos „Supply Chain Management“
+Sėkminga išankstinio rezervavimo užklausa pateikia soft *rezervavimo ID* kiekvienam rezervavimo įrašui. Soft reservation ID nėra unikalus identifikatorius individualiam išankstinio rezervavimo įrašui, tačiau produkto ID ir dimensijų verčių, kurios siejamos su soft reservation request, kombinacija. Galite įrašyti soft rezervavimo ID užsakymo eilutėje, kai sinchronizuojate sėkmingai rezervuotus užsakymus su tiekimo grandinės valdymu arba kita korespondentine ERP sistema.
 
-Atsargų operacijų būsenose, kurios apima nurodytą rezervo korespondentinį modifikatorių, operacijos atnaujinimas su koresponduos atitinkamą rezervavimo įrašą, kai bus įvykdytos visos šios sąlygos:
+### <a name="offset-soft-reservations-in-supply-chain-management"></a><a name="offset-scm"></a> Tiekimo grandinės valdymo korespondentinis švelniai rezervavimas
 
-- Atsargų operacijos rezervavimo ID sutampa su rezervavimo įrašo rezervavimo ID atsargų matomumo paslaugoje.
-- Atsargų operacijos dimensijos sutampa su dimensijomis įrašo rezervavimo atsargų matomumo paslaugoje.
-- Atsargų operacijos būsenos pakeitimai suaktyvina rezervavimų kompensavimus, kai atsargų operacijos būsena atspindi faktą, kad užsakymo procesas buvo baigtas arba praleistas.
+Galite atskaičiuoti iš dalies rezervuotą kiekį po to, kai užsakymo kiekis faktiškai atimtas tiekimo grandinės valdymo sistemoje arba kitoje ERP sistemoje. Atsargų matomumas siūlo neįmanomą soft rezervavimo korespondentinę integraciją su tiekimo grandinės valdymu.
 
-Korespondentinis kiekis yra toks pat kaip atsargų kiekis, nurodytas atsargų operacijose. Korespondentinė sąskaita neveikia, jei atsargų matomumo paslaugoje nelieka jokio rezervuotų kiekio.
+Norėdami suslinkti šį rezervavimą, atlikite šiuos veiksmus.
 
-### <a name="set-up-the-reservation-offset-modifier"></a>Nustatyti rezervo korespondentinės modifikatorių
+1. Prisijunkite prie „Supply Chain Management“.
+1. Eiti į Pardavimo **ir rinkodaros pardavimo \> užsakymus visus \> pardavimo užsakymus**.
+1. Veiksmų srityje pasirinkite **Naujas**.
+1. Iš naujo sukurkite išorinį pardavimo užsakymą ir pridėkite pardavimo eilutę, kurioje naudojamos tos pačios produkto ID, organizacijos, vietos, sandėlio ir dimensijų vertės.
+1. Pardavimo užsakymo **eilutėse** "FastTab" pasirinkite ką tik įvestą pardavimo eilutę, tada įrankių juostoje pasirinkite **Atsargų rezervavimo \> ID**.
+1. Atlikite vieną iš toliau nurodytų veiksmų.
 
-Jei to dar nepadarėte, nustatykite rezervavimo modifikatorių, kaip aprašyta [Įjungti ir nustatykite rezervavimo funkciją](#turn-on).
+    - Nukopijuokite soft rezervavimo ID savo soft reservation request response ir įklijuokite į lauką **Rezervavimo ID**.
+    - Lauką **Rezervavimo ID palikite** tuščią, bet pažymėkite atsargų **tarnybos automatinio korespondentinio** langelio žymės langelį. Sistema automatiškai nustatys, kurias produkto ir produkto dimensijas padengti, remdamasi prekės ID ir dimensijų vertėmis, įvestomis pasirinktoje eilutėje.
 
-### <a name="set-up-reservation-ids"></a>Rezervavimo ID nustatymas
+1. Pasirinkite **Gerai**.
+1. Kol ta pati pardavimo eilutė vis dar pasirinkta, **\>** **faktiškai rezervuoti užs. kiekį pardavimo užsakymo eilučių "FastTab" įrankių juostoje pasirinkus Atsargų rezervavimas.**
+1. Jei anksčiau nustatėte **lauką Rezervuoti korespondentinį modifikatorių** kaip *Rezervuota*, korespondentinė sąskaita bus suaktyvinta, *·* *kai užsakymo eilutės būsena yra Rezervuoti faktiškai arba Rezervuoti užsakyta.* Paketinė užduotis paleidžiama vieną kartą per minutę, kad būtų galima sinchronizuoti tiekimo grandinės valdymo ir atsargų matomumo korespondentines užklausas.
 
-Rezervavimo ID unikaliai pažymi rezervavimo įrašą atsargų matomumo lauke. „Supply Chain Management“ srityje vartotojai rezervuos užsakymo eilutes, kad žymėti atitinkamo rezervavimo įrašo korespondentinę sąskaitą.
+> [!NOTE]
+> Operacijų būsenose, kurios apima nurodytą rezervo korespondentinį modifikatorių, operacijos atnaujinimas koresponduos atitinkamą rezervavimo įrašą, kai bus įvykdytos visos šios sąlygos:
+>
+> - Atsargų operacijos rezervavimo ID sutampa su atsargų matomumo rezervavimo įrašo rezervavimo ID.
+> - Atsargų operacijos dimensijos atitinka rezervavimo įrašo dimensijas atsargų matomumo lauke.
+> - Atsargų operacijos būsenos pakeitimai suaktyvina rezervavimų kompensavimus, kai atsargų operacijos būsena atspindi faktą, kad užsakymo procesas buvo baigtas arba praleistas.
 
-Norėdami „Supply Chain Management“ dalyje nustatyti rezervavimo ID, atlikite šiuos veiksmus.
+Korespondentiniai kiekiai seka atsargų kiekius, kurie nurodyti atitinkamose atsargų operacijose. Korespondentinė sąskaita įsigalioja tik tuomet, jei rezervuotas kiekis lieka atsargų matomumo lauke.
 
-1. Atidaryti pardavimo užsakymą (pvz., **Visi pardavimo užsakymai** puslapyje).
-1. „FastTab“ **Pardavimo užsakymo eilutės** pasirinkite užsakymo eilutę.
-1. „FastTab" **Pardavimo užsakymo eilučių**, įrankių juostoje, pasirinkite **Atnaujinti eilutę \> Atsargos \> Atsargų matomumo integravimas**.
-1. Įveskite atitinkamus rezervavimo ID.
+### <a name="cancel-or-revert-a-soft-reservation"></a>Atšaukti arba sugrąžinti šiek tiek rezervavimą
 
-Atsargų būsenos pakeitimas sutampa su korespondentinio modifikatoriaus nustatymu.
+Jei pradinė užsakymo eilutė atšaukiama arba panaikinama, o jūs turite grąžinti atitinkamą soft rezervavimą, užregistruokite neigiamą kiekį, kuriame yra tokia pati informacija API užklausos eilutėje.

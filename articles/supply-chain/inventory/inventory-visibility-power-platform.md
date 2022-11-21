@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 674adb70cc4372a8c5ca8c75ed3ef840d8ec7b79
-ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
+ms.openlocfilehash: 9886ddbf0b072283cffd73d4bfdc20835ccb3b7c
+ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "9520870"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9762706"
 ---
 # <a name="use-the-inventory-visibility-app"></a>Naudokite programą „Inventory Visibility“
 
@@ -30,44 +30,73 @@ Atsargų matomumas suteikia modeliu pagrįstą programą vizualizacijai. Program
 - Jis palaiko realiuoju laiku turimų atsargų užklausas įvairiuose dimensijų deriniaie.
 - Joje pateikiama vartotojo sąsajos, skirtos UI užklausoms registruoti.
 - Jame pateikiamas turimų produktų atsargų ir visų dimensijų rodinys.
-- Jame pateikiamas turimų produktų atsargų sąrašo rodinys ir iš anksto nustatytos dimensijos.
-
+- Joje pateikiamas turimų produktų atsargų sąrašas kartu su iš anksto nustatytomis dimensijomis. Turimos informacijos sąrašo rodinys gali būti arba visa suvestinė, arba iš anksto įkeltas turimos užklausos rezultatas.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
 Prieš pradėdami, įdiekite ir nustatykite atsargų matomumo priedą, kaip aprašyta [įdiegti ir nustatyti atsargų matomumą](inventory-visibility-setup.md).
 
-## <a name="open-the-inventory-visibility-app"></a>Atverti atsargų matomumo programą
+## <a name="open-and-authenticate-the-inventory-visibility-app"></a><a name="open-authenticate"></a> Atidaryti ir autentifikuoti atsargų matomumo programą
 
-Norėdami atidaryti atsargų matomumo programą, prisijunkite prie savo „Power Apps“ aplinkos ir atidarykite **Atsargų matomumą**.
+Norėdami atidaryti ir autentifikuoti atsargų matomumo programą, atlikite šiuos veiksmus.
 
-## <a name="configuration"></a><a name="configuration"></a>Konfigūravimas
+1. Prisiregistruokite savo aplinkoje Power Apps.
+1. Atidarykite **atsargų matomumo** programą.
+1. Atidaryti veiklos **matomumo** puslapį iš kairiosios srities.
+1. Pasirinkite nustatymų **mygtuką** (pavarų simbolį) puslapio viršuje.
+1. Parametrų dialogo **lange įveskite kliento ID**, nuomininko **ID** **·** **ir kliento slaptojo failo vertes,** kurias pažymėjote įdiegdami ir nustatę atsargų matomumą.[...](inventory-visibility-setup.md)
+1. Pasirinkite atnaujinimo **mygtuką**, esantį šalia simbolių **atpažinimo ženklo** lauko. Sistema sugeneruoja naują pateikia ženklo ženklą, remdamasi jūsų įvesta informacija.
 
-Atsargų matomumo programa **Konfigūracijos** puslapis padeda nustatyti turimos konfigūracijos ir soft reservation konfigūraciją. Įdiegus papildinį, numatytoji konfigūracija įtraukia „Microsoft Dynamics 365 Supply Chain Management“ (duomenų `fno` šaltinio vertę). Galite peržiūrėti numatytuosius nustatymus. Tada, atsižvelgdami į savo verslo poreikius ir išorinės sistemos atsargų registravimo reikalavimus, galite modifikuoti konfigūraciją, kad būtų galima standartizuoti būdą, kuriuo atsargų pakeitimai gali būti registruojami, tvarkomi keliose sistemose ir jų bus užklausta.
+    ![Turimos užklausos parametrai.](media/inventory-visibility-query-settings.png "Turimos užklausos nustatymai")
+
+1. Kai gaunate tinkamą meškinėlyje atpažinimo ženklą, uždarykite dialogo langą. Pačio atpažinimo ženklo galiojimas baigsis po tam tikros laiko. Todėl, kartais turite ją atnaujinti, kai reikia atnaujinti konfigūraciją, registruoti duomenis arba užklausos duomenis.
+
+## <a name="configure-the-inventory-visibility-app"></a><a name="configuration"></a> Atsargų matomumo programos konfigūravimas
+
+**Atsargų** matomumo programos konfigūracijos puslapis padeda nustatyti bendrą duomenų valdymo konfigūraciją ir funkcijų konfigūraciją. Įdiegus papildinį, numatytoji konfigūracija įtraukia „Microsoft Dynamics 365 Supply Chain Management“ (duomenų `fno` šaltinio vertę). Galite peržiūrėti numatytuosius nustatymus. Tai atlikus, atsižvelgdami į jūsų verslo poreikius ir išorinės sistemos atsargų registravimo reikalavimus, galite modifikuoti konfigūraciją, kad būtų standartinis būdas, kuriuo atsargų pakeitimai gali būti registruojami, sutvarkyti ir užklausti keliose sistemose.
 
 Išsami informacija apie sprendimo konfigūravimą pateikta [Atsargų matomumo konfigūravimas](inventory-visibility-configuration.md).
 
 ## <a name="operational-visibility"></a>Veikimo matomumas
 
-Veiklos **matomumo puslapis** pateikia realiuoju laiku turimų atsargų užklausos rezultatus, paremtus įvairiomis dimensijų kombinacijomis. Kai *OnHandReservation* funkcija įjungta, taip pat galite registruoti rezervavimo užklausas iš **veiklos matomumo** puslapio.
+Veiklos **matomumo** puslapis pateikia realiuoju laiku turimų atsargų užklausos, rezervavimo registravimo ir paskirstymo rezultatus, paremtus įvairiomis dimensijų kombinacijomis. Kai OnHandReservation *funkcija* įjungta [, taip pat](inventory-visibility-configuration.md) galite registruoti rezervavimo užklausas iš veiklos matomumo **puslapio**.
 
 ### <a name="on-hand-query"></a>Turimos užklausos
 
-Skirtuke **Turimų atsargų** užklausa rodomi turimų atsargų realiuoju laiku užklausos rezultatai.
+Turimų **atsargų realiuoju** laiku **turimų atsargų užklausas** galite pateikti užklausą naudojimo matomumo puslapio skirtuke. Norėdami nustatyti ir vykdyti užklausą, atlikite šiuos veiksmus.
 
-Kai atidarote **puslapio** **Veiklos** matomumas skirtuką Turimų atsargų užklausa, sistema reikalauja jūsų kredencialų, kad ji galėtų gauti paženklą, kuris būtinas norint pateikti užklausą apie atsargų matomumo tarnybą. Galite tiesiog įklijuoti ypatybės atpažinimo ženklą į lauką **BearerToken** ir uždaryti dialogo langą. Tada galite registruoti turimos informacijos užklausą.
+1. Atidarykite **atsargų matomumo** programą.
+1. Atidaryti veiklos **matomumo** puslapį iš kairiosios srities.
+1. Skirtuke **Turimos užklausos** įveskite organizacijos **ID**, svetainės **ID ir vietos** ID **vertes**, kurias norite pateikti užklausoje.
+1. Norėdami gauti **tikslų užklausos atitikimą, lauke Produkto ID** įveskite vieną ar daugiau produkto ID. Jei produkto **ID laukas** paliekamas tuščias, į rezultatus bus įtraukti visi produktai iš nurodytos vietos ir vietos.
+1. Norėdami gauti išsamesnį rezultatą (pavyzdžiui, peržiūrėti pagal dimensijų vertes, pvz., spalvą ir dydį), **lauke Grupuoti pagal dimensijas pasirinkite Grupavimo rezultatai** pagal.
+1. Norėdami rasti prekes, kurios turi konkrečią dimensijos vertę (pvz., spalva = raudona), **lauke** Filtruoti dimensijas pasirinkite dimensiją ir įveskite dimensijos vertę.
+1. Pasirinkti **užklausą**. Gausite sėkmingą (žalia) pranešimą arba nepavykusį (raudoną) pranešimą. Jei užklausa nepavyksta, patikrinkite savo užklausos kriterijus ir įsitikinkite, [kad savo pateikėjo](#open-authenticate) atpažinimo ženklo galiojimas nepasibaigė.
 
-Jei pateikėjas atpažinimo ženklas netinkamas arba jei jis baigė galioti, lauke **BearerToken** turite įklijuoti naują ženklą. Įveskite teisingą **kliento ID**, **nuomininko ID**, **Kliento rakto** naujinimo reikšmes ir pasirinkite **Atnaujinti**. Sistema automatiškai gaus naują, galiojantį paerio atpažinimo ženklą.
-
-Norėdami užregistruoti turimos informacijos užklausą, įveskite užklausą užklausos tekstą. Naudokite šabloną, kuris aprašytas [Užklausoje, naudodami skelbimo metodą](inventory-visibility-api.md#query-with-post-method).
-
-![Turimos užklausos nustatymai](media/inventory-visibility-query-settings.png "Turimos užklausos nustatymai")
+Kitas būdas, kaip sukurti turimos informacijos užklausą, yra pateikti tiesiogines API užklausas. Galite naudoti arba `/api/environment/{environmentId}/onhand/indexquery``/api/environment/{environmentId}/onhand`. Norėdami gauti daugiau informacijos, žr. [atsargų matomumo viešas API](inventory-visibility-api.md).
 
 ### <a name="reservation-posting"></a>Rezervavimo publikavimas
 
 Norėdami užregistruoti **rezervavimo užklausą**, naudokite puslapio **Veiklos** matomumas rezervavimo registravimas skirtuką. Kad būtų galima užregistruoti rezervavimo užklausą, reikia įjungti funkciją *OnHandReservation*. Daugiau informacijos apie šią funkciją ir jos įjungus ieškokite atsargų [matomumo rezervavimuose](inventory-visibility-reservations.md).
 
-Norėdami registruoti rezervavimo užklausą, turite įvesti vertę užklausos tekstą. Naudokite trafaretą, kuris aprašytas [kurti vieną rezervavimo įvykį](inventory-visibility-api.md#create-one-reservation-event). Tada rinkitės **Publikuoti**. Norėdami peržiūrėti užklausos atsakymo informaciją, pasirinkite **Rodyti išsamią informaciją**. Taip pat galite gauti  `reservationId` vertę iš atsakymo informacijos.
+> [!NOTE]
+> Galimybė šiek tiek rezervuoti naudojant vartotojo sąsają yra skirta tam, kad jūs galite patikrinti šią funkciją. Kiekviena soft rezervavimo užklausa turi būti susieta su operacijos užsakymo eilutės keitimą (kūrimas, modifikavimas, naikinimas ir pan.). Todėl rekomenduojame atlikti tik švelniai rezervavimus, kurie yra susieti su atgalinis užsakymas. Dėl daugiau informacijos, žr. [Inventoriaus matomumo rezervavimas](inventory-visibility-reservations.md).
+
+Norėdami, naudodami vartotojo sąsają, užregistruoti šiek tiek rezervavimo užklausą, atlikite šiuos veiksmus.
+
+1. Atidarykite **atsargų matomumo** programą.
+1. Atidaryti veiklos **matomumo** puslapį iš kairiosios srities.
+1. Skirtuko Rezervavimo **registravimas** lauke **Kiekis nurodykite** kiekį, kurį norite rezervuoti švelniai.
+1. Išvalykite **žymės langelį Įgalinti neigiamas atsargas, kad** būtų galima perrašyti atsargas, kad jos nebūtų per daug ar per daug rezervuotos.
+1. Lauke Operatorius **pasirinkite** duomenų šaltinį ir fizinį matą, kurie bus taikomi iš dalies rezervuotame kiekyje.
+1. Įveskite organizacijos **ID**, svetainės **ID**, **vietos ID** ir produkto **ID** vertes, kurias norite pateikti užklausoje.
+1. Norėdami gauti išsamesnį rezultatą, pasirinkite duomenų šaltinį, dimensijas ir dimensijų vertes.
+
+Kitas būdas užregistruoti švelniai rezervavimą – pateikti tiesiogines API užklausas. Naudokite trafaretą, kuris aprašytas [kurti vieną rezervavimo įvykį](inventory-visibility-api.md#create-one-reservation-event). Tada rinkitės **Publikuoti**. Norėdami peržiūrėti užklausos atsakymo informaciją, pasirinkite **Rodyti išsamią informaciją**. Taip pat galite gauti  `reservationId` vertę iš atsakymo informacijos.
+
+### <a name="allocation"></a>Paskirstymas
+
+Informacijos apie tai, kaip valdyti paskirstymus iš vartotojo sąsajos ir API, ieškokite [atsargų matomumo atsargų paskirstyme](inventory-visibility-allocation.md).
 
 ## <a name="inventory-summary"></a><a name="inventory-summary"></a>Atsargų suvestinė
 
@@ -84,19 +113,15 @@ Norėdami įgalinti atsargų **suvestinės puslapį ir** nustatyti sinchronizavi
 
 1. Pasirinkite **Naujinti konfigūraciją,** kad įrašytumėte visus pakeitimus.
 
-
 > [!NOTE]
 > Funkcija *OnHandMostSpecificBackgroundService* seka tik turimų atsargų keitimus, atliktus po to, kai buvo įjungta funkcija. Produktų, kurie nebuvo pakeisti nuo tada, kai įjungta funkcija, duomenys nebus sinchronizuoti iš atsargų tarnybos talpyklos į aplinką Dataverse. Jei jūsų **atsargų** suvestinės puslapis nerodo visos turimos informacijos, kurią tikitės, atidarykite Tiekimo grandinės valdymą, **eikite į Atsargų valdymo > Periodinės užduotys > Atsargų** matomumo integravimas, išjunkite paketinę užduotį ir vėl ją įjunkite. Taip bus inicijuotas stūmiimas *ir visi duomenys bus sinchronizuoti su objektu Atsargų atsargų atsargų suma* per kitas 15 minučių. Jei norite naudoti *Funkciją OnHandMostSpecificBackgroundService*, **rekomenduojame** ją įjungti prieš kuriant bet kokius turimų atsargų pokyčius ir įgalinant atsargų matomumo integravimo paketinę užduotį.
 
-## <a name="preload-a-streamlined-on-hand-query"></a><a name="preload-the-inventory-visibility-onhand-query"></a> Iš anksto įkelti supaprastintą turimos informacijos užklausą
+## <a name="preload-a-streamlined-on-hand-query"></a><a name="preload-streamlined-onhand-query"></a> Iš anksto įkelti supaprastintą turimos informacijos užklausą
 
 [!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 <!-- KFM: Preview until further notice -->
 
 Tiekimo grandinės valdymas saugo daug informacijos apie dabartines turimas atsargas ir tampa pasiekiamas įvairiais tikslais. Tačiau daugeliui kasdienių operacijų ir trečiųjų šalių integravimui reikia tik mažo šios informacijos subrinkinio, o visos sistemos užklausa gali vesti didelius duomenų rinkinius, kurių prireiks norint surinkti ir perkelti. Todėl atsargų matomumo tarnyba gali periodiškai surasti ir saugoti supaprastintą turimų atsargų duomenų rinkinį, kad optimizuota informacija būtų nuolat pasiekiama. Saugoma turimų atsargų informacija filtruojama pagal konfigūruojamus verslo kriterijus, siekiant užtikrinti, kad būtų įtraukta tik tinkamiausia informacija. Kadangi filtruoti turimų atsargų sąrašai saugomi vietoje atsargų matomumo paslaugoje ir yra reguliariai atnaujinami, jie palaiko greitą prieigą, duomenų eksportą pagal poreikį ir supaprastintą integravimą su išorinėmis sistemomis.
-
-> [!NOTE]
-> Dabartinė šios funkcijos peržiūros versija gali pateikti tik iš anksto įkeltus rezultatus, kuriuose yra svetainė ir vieta. Galutinė šios priemonės versija leis pasirinkti kitas dimensijas, kurios bus įkeltos iš anksto kartu su rezultatais.
 
 Iš **anksto įkelkite atsargų matomumo suvestinės** puslapį, kad būtų galima peržiūrėti turimos indekso *užklausos iš anksto įkelti rezultatų objektą*. Skirtingai nei *atsargų suvestinės objektas*, *turimų* atsargų indekso užklausos išankstinio įkėliaus rezultatų objektas pateikia produktų su pasirinktomis dimensijomis turimų atsargų sąrašą. Atsargų matomumas sinchronizuoja iš anksto įkeltus suvestinės duomenis kas 15 minučių.
 
@@ -113,8 +138,8 @@ Atsargų **suvestinės puslapyje yra** trys laukai virš tinklelio (**Numatytoji
 
 ![Atsargų suvestinės puslapis.](media/inventory-visibility-onhand-list.png "Atsargų suvestinės puslapis")
 
-Kadangi jūs turėsite iš anksto nustatytas dimensijas, kurios naudojamos suvestinės duomenims įkelti iš anksto, **atsargų** matomumo suvestinės puslapyje bus rodomi su dimensija susiję stulpeliai. *Dimensijas sistema gali tinkinti tik pagal&mdash; iš anksto įkeltų turimo sąrašo svetainės ir vietos dimensijas.* Iš **anksto įkelti atsargų matomumo suvestinės** puslapį **pateikiami** filtrai, kurie yra panašūs į atsargų suvestinės puslapį, išskyrus tas dimensijas, kurios jau pasirinktos. Toliau pateiktoje ekrano nuotrauka aprašo galimų filtravimo laukus, esančius **puslapyje Iš anksto įkelti atsargų matomumo suvestinės** puslapį.
+Kadangi jūs turite iš anksto nustatyti dimensijas, kurios naudojamos suvestinės duomenims įkelti iš anksto, **atsargų** matomumo suvestinės puslapyje bus rodomi su dimensija susiję stulpeliai. *Dimensijas sistema gali tinkinti tik pagal&mdash; iš anksto įkeltų turimo sąrašo svetainės ir vietos dimensijas.* Iš **anksto įkelti atsargų matomumo suvestinės** puslapį **pateikiami** filtrai, kurie yra panašūs į atsargų suvestinės puslapį, išskyrus tas dimensijas, kurios jau pasirinktos. Toliau pateiktoje ekrano nuotrauka aprašo galimų filtravimo laukus, esančius **puslapyje Iš anksto įkelti atsargų matomumo suvestinės** puslapį.
 
 ![Iš anksto įkelti atsargų matomumo suvestinės puslapį.](media/inventory-visibility-preload-onhand-list.png "Iš anksto įkelti atsargų matomumo suvestinės puslapį")
 
-Iš **anksto** **įkelkite** atsargų matomumo suvestinės ir atsargų suvestinės puslapių apačią, rasite informacijos, pvz., "50 įrašų (pasirinkta 29)" arba "50 įrašų". Ši informacija nurodo šiuo metu įkeltus įrašus iš **išplėsto filtro** rezultato. Tekstas „29 pasirinktas" nurodo įrašų, kurie buvo pasirinkti naudojant įkeltų įrašų stulpelio antraštės filtrą, skaičių. Taip pat yra mygtukas **Įkelti daugiau**, kurį galite naudoti norėdami įkelti daugiau įrašų iš Dataverse. Numatytasis įkeltų įrašų skaičius yra 50. Pasirinkus Įkelti **daugiau**, į rodinį bus įkelta kita 1000 galimų įrašų. Mygtuko Įkelti **daugiau mygtukas** nurodo šiuo metu įkeltus įrašus ir bendrą išplėstinio filtro **rezultato įrašų** skaičių.
+Iš **anksto** **įkelkite** atsargų matomumo suvestinės ir atsargų suvestinės puslapių apačią, rasite informacijos, pvz., "50 įrašų (pasirinkta 29)" arba "50 įrašų". Ši informacija nurodo šiuo metu įkeltus įrašus iš **išplėsto filtro** rezultato. Tekstas „29 pasirinktas" nurodo įrašų, kurie buvo pasirinkti naudojant įkeltų įrašų stulpelio antraštės filtrą, skaičių. Taip pat yra mygtukas Įkelti **daugiau,** kurį galite naudoti norėdami įkelti daugiau įrašų iš Dataverse. Numatytasis įkeltų įrašų skaičius yra 50. Pasirinkus Įkelti **daugiau**, į rodinį bus įkelta kita 1000 galimų įrašų. Mygtuko Įkelti **daugiau mygtukas** nurodo šiuo metu įkeltus įrašus ir bendrą išplėstinio filtro **rezultato įrašų** skaičių.

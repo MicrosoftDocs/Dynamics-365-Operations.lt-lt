@@ -2,23 +2,23 @@
 title: Eksportuoti akredityvą
 description: Ši procedūra padeda eksportuoti akredityvą.
 author: kweekley
-ms.date: 08/29/2018
+ms.date: 11/15/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustTable, CustBankAccounts, DefaultDashboard, SalesTableListPage, SalesCreateOrder, SalesTable, BankLCExport, SalesEditLines,  LedgerJournalTable, LedgerJournalTransCustPaym, CustOpenTrans
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 07c3bd1ad3b0c5da1f7c4a0624b5a5427d0c004a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: cf06a73bf7665059658c7884a0b9f973929d647c
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714344"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779560"
 ---
 # <a name="export-letter-of-credit"></a>Eksportuoti akredityvą
 
@@ -30,112 +30,110 @@ Akredityvas yra banko išduota sutartis, pagal kurią bankas sutinka užtikrinti
 
 
 
-Prieš šią procedūrą atlikite procedūras „Banko priemonių ir registravimo šablonų nustatymas“ ir „Akredityvo banko priemonės sutarties kūrimas“. Reikia pasirinkti demonstracinę įmonę USMF, kad būtų galima sėkmingai atlikti šią procedūrą.
-
-
+Vykdykite **banko priemonių ir registravimo šablonų procedūrą** bei **rašto blanką Credit_Create prieš šią procedūrą atlikite** banko priemonės sutarties procedūrą. Reikia pasirinkti demonstracinę įmonę USMF, kad būtų galima sėkmingai atlikti šią procedūrą.
 
 
 ## <a name="create-sales-order-for-export-letter-of-credit"></a>Kurti eksporto akredityvo pardavimo užsakymą
-1. Pasirinkite Gautinos sumos > Užsakymai > Visi pardavimo užsakymai.
-2. Spustelėkite Naujas.
-3. Lauke Kliento sąskaita spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+1. Pereikite į Gautinų **sumų >, > visus pardavimo užsakymus**.
+2. Spustelėkite **Naujas**.
+3. Lauke **Kliento sąskaita** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
 4. Sąraše raskite ir pasirinkite norimą įrašą.
 5. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-6. Išplėskite arba sutraukite dalį Bendra.
-7. Lauke Teritorija spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-    * Pasirinkite teritoriją, kurioje saugoma išduotina prekė.  
+6. Išplėskite arba sutraukite **skyrių** Bendra.
+7. Lauke **Vieta** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+    * Pasirinkite vietą **,** kurioje sandėliuojamas išduotinas elementas.  
 8. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-9. Lauke Sandėlis spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-    * Pasirinkite sandėlį, kuriame saugoma išduotina prekė.  
+9. Lauke **Sandėlis** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+    * Pasirinkite **sandėlį**, kuriame prekė, kuri turi būti išduota, yra sandėlio sandėlis.  
 10. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-    * Pastaba: turi būti pasirinkta lauko Banko dokumento tipas reikšmė „Akredityvas“.  
-11. Lauke Banko dokumento tipas pasirinkite „Akredityvas“.
-12. Išplėskite arba sutraukite sekciją Pristatymas.
-    * Pasirinkite Pristatymo datos valdymas = Nėra.  
-13. Lauke Pageidaujama gavimo data įveskite datą.
-14. Spustelėkite GERAI.
-15. Lauke Prekės numeris spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+    * Pastaba: turi būti **pasirinktas akredityvo** laukas Banko **dokumento tipas**.  
+11. Lauke Banko **dokumento tipas pasirinkite** akredityvo **·**.
+12. Išplėskite arba sutraukite **skyrių** Pristatymas.
+    * Pasirinkite **Pristatymo data valdymo Nėra** = **·**.  
+13. Į lauką **Pageidaujama** gavimo data įveskite datą.
+14. Spustelėkite **Gerai**.
+15. Lauke **Prekės numeris** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
     * Pasirinkite prekę, kurią reikia išduoti / parduoti.  
 16. Sąraše raskite ir pasirinkite norimą įrašą.
 17. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-18. Lauke Vieneto kaina įveskite skaičių.
-19. Išplėskite arba sutraukite dalį Išsami eilučių informacija.
-20. Spustelėkite skirtuką Pristatymas.
-21. Lauke Pageidaujama siuntimo data įveskite datą.
-22. Lauke Patvirtinta siuntimo data įveskite datą.
-23. Veiksmų srityje spustelėkite Valdyti.
-24. Spustelėkite Akredityvas.
-25. Lauke Banko dokumento numeris įveskite reikšmę.
-26. Lauke Galiojimo data įveskite datą ir laiką.
-27. Išplėskite arba sutraukite sekciją Banko informacija.
-28. Lauke Išduodantis bankas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+18. Lauke **Vieneto kaina** įveskite skaičių.
+19. Išplėskite arba sutraukite dalį **Išsami eilučių informacija**.
+20. Spustelėkite skirtuką **Pristatymas**.
+21. Pageidaujamos **siuntimo datos** lauke įveskite datą.
+22. Į lauką **Patvirtinta** siuntimo data įveskite datą.
+23. Veiksmų srityje spustelėkite **Valdyti**.
+24. Spustelėkite **akredityvo**.
+25. Lauke Banko **dokumento numeris** įveskite vertę.
+26. Lauke Galiojimo **data** įveskite datą ir laiką.
+27. Išplėskite arba sutraukite **skyrių Banko** informacija.
+28. Lauke Išduodantis **bankas** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
 29. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-30. Lauke Konsultavimo bankas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+30. **Konsultavimo banko lauke** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
 31. Sąraše raskite ir pasirinkite norimą įrašą.
 32. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-33. Spustelėkite Surasti pardavimo užsakymo siuntas.
-34. Spustelėkite Išduodančio banko dokumentas.
+33. Spustelėkite **Surasti pardavimo užsakymo siuntas**.
+34. Spustelėkite išdavimo **banko dokumentą**.
 35. Uždarykite puslapį.
 
 ## <a name="post-packing-slip"></a>Registruoti važtaraštį
-1. Veiksmų srityje spustelėkite Paimti ir pakuoti.
-2. Spustelėkite Registruoti važtaraštį.
-3. Išplėskite arba sutraukite skyrių Parametrai.
-4. Lauke Kiekis pasirinkite „Visi‟.
-5. Išplėskite arba sutraukite sekciją Sąranka.
-6. Lauke Važtaraščio data įveskite datą.
+1. Veiksmų srityje spustelėkite **Paimti ir pakuoti**.
+2. Spustelėkite **Registruoti važtaraštį**.
+3. Išplėskite arba sutraukite skyrių **Parametrai**.
+4. Lauke **Kiekis** pasirinkite **Visi**.
+5. Išplėskite arba sutraukite **sąrankos** skyrių.
+6. **Važtaraščio datos** lauke įveskite datą.
 7. Pasirinkite siuntos numerį.
 8. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-9. Spustelėkite GERAI.
-10. Spustelėkite GERAI.
+9. Spustelėkite **Gerai**.
+10. Spustelėkite **Gerai**.
 
 ## <a name="post-sales-invoice"></a>Registruoti pardavimo SF
-1. Veiksmų srityje spustelėkite Sąskaita faktūra.
-2. Spustelėkite Sąskaita faktūra.
-3. Išplėskite arba sutraukite sekciją Peržiūra.
-4. Pasirinkite siuntos numerį.
+1. Veiksmų srityje spustelėkite **Sąskaita faktūra**.
+2. Spustelėkite **Sąskaita faktūra**.
+3. Išplėskite arba sutraukite **skyrių** Peržiūra.
+4. Pasirinkite siuntos **numerį**.
 5. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-6. Išplėskite arba sutraukite sekciją Sąranka.
-7. Įveskite datą lauke Sąskaitos faktūros data.
-8. Spustelėkite GERAI.
-9. Spustelėkite GERAI.
+6. Išplėskite arba sutraukite **sąrankos** skyrių.
+7. Lauke **SF data** įveskite datą.
+8. Spustelėkite **Gerai**.
+9. Spustelėkite **Gerai**.
 
 ## <a name="shipment-document-submitted-status"></a>Pateikto siuntos dokumento būsena
-1. Veiksmų srityje spustelėkite Valdyti.
-2. Spustelėkite Akredityvas.
-3. Išplėskite arba sutraukite sekciją Eilutės.
-    * Pastaba: lauko „Dokumentas pateiktas“ reikšmė turi būti nustatyta kaip „Taip“.  
+1. Veiksmų srityje spustelėkite **Valdyti**.
+2. Spustelėkite **akredityvo**.
+3. Išplėskite arba sutraukite **skyrių** Eilutės.
+    * Pastaba: laukas **Dokumentas pateiktas** turi būti nustatytas kaip **Taip**.  
 
 ## <a name="verify-export-letter-of-credit"></a>Tikrinti eksporto akredityvą
-1. Eikite į Grynųjų pinigų ir banko valdymas > Akredityvai > Eksportuoti akredityvą ir importuoti rinkinį.
+1. Eikite į **mokėjimų grynaisiais pinigais ir > akredityvo > eksporto akredityvo ir importo rinkinį**.
 2. Sąraše raskite ir pasirinkite norimą įrašą.
 3. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-    * Patikrinkite, ar eksporto akredityvo siuntos būsena yra „SF išrašyta“.  
+    * Patikrinkite, ar eksporto **akredityvo** siuntos **būsena yra Išrašyta** **SF**.  
 
 ## <a name="customer-payment"></a>Kliento mokėjimas
-1. Pasirinkite Gautinos sumos > Mokėjimai > Mokėjimų žurnalas.
-2. Spustelėkite Naujas.
+1. Eikite **į gautinų sumų > ir > žurnalą**.
+2. Spustelėkite **Naujas**.
 3. Sąraše pažymėkite pasirinktą eilutę.
-4. Lauke Pavadinimas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+4. Lauke **Pavadinimas** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
 5. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-6. Spustelėkite Eilutės.
-7. Lauke Data įveskite datą.
-8. Lauke Sąskaita nustatykite norimas reikšmes.
-9. Spustelėkite Atsiskaitymas.
+6. Spustelėkite **Eilutės**.
+7. Lauke **Data** įveskite datą.
+8. Lauke **Sąskaita** nustatykite norimas reikšmes.
+9. Spustelėkite **Sudengimas**.
 10. Antraštėje Bendrosios sumos pažymėkite žymės langelį.
-    * Pastaba: nustatykite lauko Rodyti reikšmę kaip „Akredityvas“.  
+    * Pastaba: nustatykite lauką **Rodyti** kaip **akredityvo**.  
 11. Sąraše raskite ir pasirinkite norimą įrašą.
-12. Pažymėkite arba išvalykite žymės langelį Žymėti.
-13. Spustelėkite GERAI.
-14. Spustelėkite skirtuką Mokėjimas.
-    * Tikrinti banko dokumento numerio ir siuntos numerio informaciją  
-15. Spustelėkite Registruoti.
+12. Pažymėkite arba išvalykite žymės **langelį** Žymėti.
+13. Spustelėkite **Gerai**.
+14. Spustelėkite skirtuką **Mokėjimas**.
+    * Patikrinti banko dokumento numerio ir siuntos numerio informaciją  
+15. Spustelėkite **Registruoti**.
 
 ## <a name="verify-export-letter-of-credit-after-payment"></a>Tikrinti eksporto akredityvą po apmokėjimo
-1. Eikite į Grynųjų pinigų ir banko valdymas > Akredityvai > Eksportuoti akredityvą ir importuoti rinkinį.
+1. Eikite į **mokėjimų grynaisiais pinigais ir > akredityvo > eksporto akredityvo ir importo rinkinį**.
 2. Sąraše raskite ir pasirinkite norimą įrašą.
 3. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-    * Patikrinkite, ar siuntos būsena = mokėjimas gautas, o balanso suma = 0,00.  
+    * Patikrinkite, ar siuntos būsenos mokėjimas **gautas ir** = **balanso** suma **0,00** = **.**  
 
 
 

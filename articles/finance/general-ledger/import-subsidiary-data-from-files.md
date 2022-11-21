@@ -2,23 +2,23 @@
 title: Importuoti papildomus duomenis iš failų
 description: Šiame straipsnyje paaiškinama, kaip paruošti duomenis iš išorinių sistemų, kad juos būtų galima importuoti į Microsoft Dynamics "365" finansus.
 author: jinniew
-ms.date: 10/09/2020
+ms.date: 10/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 6886e2ee79ee9e4ccc067dc4f661c1eea646cfa6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 494f6396d5e6fab6fef9404ad473566b02b1b9ab
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846776"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780102"
 ---
 # <a name="import-subsidiary-data-from-files"></a>Importuoti papildomus duomenis iš failų
 
@@ -32,27 +32,27 @@ ms.locfileid: "8846776"
 3. Eksportuoti duomenis į failą pagal šiuos veiksmus „Duomenų importavimas/eksportavimo procesai“ procedūrą [Duomenų importavimo ir eksportavimo darbų peržiūra](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md). Šią procedūrą galite naudoti duomenims konsoliduoti arba iš kito "Dynamics 365 Finance" egzemplioriaus, arba iš Dynamics 365 Business Central. Jei importuojate duomenis iš išorės sistemų, duomenys turi būti aprašytu formatu [Eksportuoti papildomus duomenis į failus](export-subsidiary-data-to-file.md).
 4. Eiktie į **Konsolidavimai \> Konsoliduoti su importavimu**. Puslapyje **Konsoliduoti su importavimu**, skirtuke **Kriterijai** nurodykite išsamią ataskaitų ir (ar) importavimo informaciją nustatydami tolesnius laukelius.
 
-    | Laukas                                 | Ataskaitos vertė | Importavimo vertė |
-    |---------------------------------------|----------------------|----------------------|
-    | aprašymas                           | Netaikoma | Įveskite aprašą skirtą importavimą identifikuoti. |
-    | Korespondentinė sąskaita, subsąskaita                          | Nustatykite sąskaitų intervalą, kurį turi apimti ataskaita. Jei nenustatėte intervalo, visos sąskaitos bus apimtos. | Nustatykite sąskaitų intervalą, kurį turi apimti importavimas. Jei nenustatėte intervalo, visos sąskaitos bus apimtos. |
-    | Konsolidacijos laikotarpis                  | Nustatykite datų intervalą konsolidavimui. | Nustatykite datų intervalą konsolidavimui. |
-    | Įtraukti faktines sumas                | Nustatykite parinktį į **Taip** norėdami įtraukti esamas vertes. | Nustatykite parinktį į **Taip** norėdami įtraukti esamas vertes. |
-    | Įtraukti biudžeto sumas                | Nustatykite parinktį į **Taip** norėdami įtraukti biudžeto sumas konsolidavimuose. | Nustatykite parinktį į **Taip** norėdami įtraukti biudžeto sumas konsolidavimuose. |
-    | Naujas balansų sukūrimas konsoliduojant | Nustatykite šią parinktį į **Taip** jei papildomo kūrimo procesas turi visiškai panaikinti balanso ir naujus įrašus ir sukurkite iš naujo balansą nuo laiko pradžios. | Nustatykite šią parinktį į **Taip** jei papildomo kūrimo procesas turi visiškai panaikinti balanso ir naujus įrašus ir sukurkite iš naujo balansą nuo laiko pradžios. |
-    | Biudžeto modeliai                         | Netaikoma | Jei renkatės importuoti biudžeto sumas, įveskite biudžeto modelius konsilidavimui. |
-    | Biudžeto kurso tipas                      | Netaikoma | Įveskite keitimo kurso biudžeto tipą. |
+| Laukas                                 | Ataskaitos vertė | Importavimo vertė |
+|---------------------------------------|----------------------|----------------------|
+| **aprašymas**                      | Netaikoma | Įveskite aprašą skirtą importavimą identifikuoti. |
+| **Pagrindinė sąskaita**    | Nustatykite sąskaitų intervalą, kurį turi apimti ataskaita. Jei nenustatėte intervalo, visos sąskaitos bus apimtos. | Nustatykite sąskaitų intervalą, kurį turi apimti importavimas. Jei nenustatėte intervalo, visos sąskaitos bus apimtos. |
+    | **Konsolidacijos laikotarpis**                  | Nustatykite datų intervalą konsolidavimui. | Nustatykite datų intervalą konsolidavimui. |
+    | **Įtraukti faktines sumas**                | Nustatykite parinktį į **Taip** norėdami įtraukti esamas vertes. | Nustatykite parinktį į **Taip** norėdami įtraukti esamas vertes. |
+| **Įtraukti biudžeto sumas** | Nustatykite parinktį į **Taip** norėdami įtraukti biudžeto sumas konsolidavimuose. | Nustatykite parinktį į **Taip** norėdami įtraukti biudžeto sumas konsolidavimuose. |
+| **Naujas balansų sukūrimas konsoliduojant** | Nustatykite šią parinktį į **Taip** jei papildomo kūrimo procesas turi visiškai panaikinti balanso ir naujus įrašus ir sukurkite iš naujo balansą nuo laiko pradžios. | Nustatykite šią parinktį į **Taip** jei papildomo kūrimo procesas turi visiškai panaikinti balanso ir naujus įrašus ir sukurkite iš naujo balansą nuo laiko pradžios. |
+| **Biudžeto modeliai**                         | Netaikoma | Jei renkatės importuoti biudžeto sumas, įveskite biudžeto modelius konsilidavimui. |
+    | **Biudžeto kurso tipas**                      | Netaikoma | Įveskite keitimo kurso biudžeto tipą. |
 
 6. Jei turite kitas apskaitos valiutas, naudokite laukelius **Esamas vertimas** skirtuke, kad konfigūruotumėte vertimą, kuris atliekamas konsolidavimo metu.
 
     | Laukas                      | aprašymas |
     |----------------------------|-------------|
-    | Šaltinio juridinis subjektas        | Rinkitės juridinį objektą, iš kurio importuojate. |
-    | Šaltinio apskaitos valiuta | Numatytoji valiuta yra valiuta susieta su šaltinio juridinu asmeniu, kurį pasirinkote **Šaltinio juridinis asmuo** laukelyje. |
-    | Nuo iki sąskaitos       | Nustatykite sąskaitų intervalą, kurais importuosite iš šaltinio juridinio asmens. |
-    | Valiutos kurso tipas         | Rinkitės keitimo kurso biudžeto tipą. Keitimo kursai yra būtini ir turi būti priskirti jums kuriant pagrindinę sąskaitą. Daugiau informacijos žr. [Kurti pagrindinę sąskaitą](tasks/create-main-account.md). |
-    | Taikyti valiutos kursą nuo   | Įveskite datą taikomą keitimo kursui, kuris įsigalioja tą dieną. Kitu atveju, įveskite vertę, kuri turi būti naudojama kaip keitimo kursas. |
-    | Valiutos kursas              | Numatyta vertė priklauso nuo keitimo kurso, kurį rinkotės **Keitimo kurso tipas** laukelyje. Jei įvedėte, vartotojo nustatytą keitimo kursą, galtie nustatyti intervalą. |
+ | **Šaltinio juridinis subjektas**        | Rinkitės juridinį objektą, iš kurio importuojate. |
+ | **Šaltinio apskaitos valiuta** | Numatytoji valiuta yra valiuta susieta su šaltinio juridinu asmeniu, kurį pasirinkote **Šaltinio juridinis asmuo** laukelyje. |
+ | **Iš** ir **Į sąskaitas**       | Nustatykite sąskaitų intervalą, kurais importuosite iš šaltinio juridinio asmens. |
+    | **Valiutos kurso tipas**         | Rinkitės keitimo kurso biudžeto tipą. Keitimo kursai yra būtini ir turi būti priskirti jums kuriant pagrindinę sąskaitą. Daugiau informacijos žr. [Kurti pagrindinę sąskaitą](tasks/create-main-account.md). |
+| **Taikyti valiutos kursą nuo**   | Įveskite datą taikomą keitimo kursui, kuris įsigalioja tą dieną. Kitu atveju, įveskite vertę, kuri turi būti naudojama kaip keitimo kursas. |
+| **Valiutos kursas**  | Numatyta vertė priklauso nuo keitimo kurso, kurį rinkotės **Keitimo kurso tipas** laukelyje. Jei įvedėte, vartotojo nustatytą keitimo kursą, galtie nustatyti intervalą. |
 
 7. Nustatykite **Vykdyti fone** parintkį į **Taip** siekiant įjungti importavimo procesą vykdomą fone.
 8. Nustatykite **Paketo tvarkymo** parinktį į **Taip** tam, kad vykdytumėte konsolidavimą kaip paketo darbą konkrečiu laiku. Norėdami vykdyti konsolidavimą nedelsiant, rinkitės **Gerai**. 

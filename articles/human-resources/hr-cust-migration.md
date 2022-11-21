@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 63b08a8493702cf319aa078ef6aa787e2094be87
-ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
+ms.openlocfilehash: 4df9a68ea0128378224bf77bd66423fd2e13fa55
+ms.sourcegitcommit: e5b290bac7e8f468167caa1a5607aac6eac9aaea
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "9732773"
+ms.lasthandoff: 11/11/2022
+ms.locfileid: "9760368"
 ---
 # <a name="dynamics-365-human-resources-customer-migration"></a>Dynamics 365 Human Resources kliento perkėlimas
 
@@ -38,13 +38,12 @@ Klientų perkėlimas – tai klientų duomenų bazės perkėlimo "perkėlimas" �
 
 ### <a name="dataverse-environment-backup-sandbox"></a>Dataverse aplinkos atsarginė kopija (sandbox)
 
-1. Pasirinktinai, bet rekomenduojama: atnaujinkite esamą personalo sandų dėžės aplinką naudodami personalo gamybos aplinkos kopiją.
-2. [Sukurkite naują Dataverse aplinką](/power-platform/admin/create-environment#create-an-environment-with-a-database) naudodami administravimo Power Platform centrą.
+ - Pasirinktinai, bet rekomenduojama: atnaujinkite esamą personalo sandų dėžės aplinką naudodami personalo gamybos aplinkos kopiją.
+ - Sukurkite naują Dataverse aplinką naudodami administravimo Power Platform centrą.
+ - Nukopijuokite esamą Dataverse aplinką, susietą su atskira personalo programa, į aplinką, kurią sukūrėte ankstesniu veiksmu.
 
-    > [!NOTE]
-    > Kai pridedate duomenų bazę, įsitikinkite, kad parinktis **Įgalinti "Dynamics 365** " programėles nustatyta kaip **Taip**.
-
-3. [Nukopijuokite esamą Dataverse aplinką](/power-platform/admin/copy-environment), susietą su atskira personalo programa, į aplinką, kurią sukūrėte ankstesniu veiksmu.
+> [!NOTE]
+> Kai pridedate duomenų bazę, įsitikinkite, kad parinktis **Įgalinti "Dynamics 365** " programėles nustatyta kaip **Taip**. Išsamesnės informacijos ieškokite [Aplinkos paruošimas Power Platform](hr-cust-migration.md#prepare-a-power-platform-environment)
 
 ### <a name="dataverse-capacity"></a>Dataverse Pajėgumų
 
@@ -89,9 +88,9 @@ Sukūrus naują ciklo tarnybų projektą ir baigus projekto įsk. procesą, būs
 #### <a name="prepare-a-power-platform-environment"></a>Aplinkos paruošimas Power Platform
 
 > [!NOTE]
-> Šis veiksmas taikomas tik perkelti sand. į dėžę. Kai perkeliate gamybos aplinką, esama administravimo Power Platform centro aplinka, pridėta prie gamybos aplinkos, bus perkelta.
+> Šis veiksmas taikomas tik perkelti sand. į dėžę. Kai perkeliate gamybos aplinką, esama administravimo Power Platform centro aplinka, pridėta prie gamybos aplinkos, bus perkelta. Kai įtraukiate duomenų bazę, įsitikinkite, kad nustatytas **mygtukas Įgalinti "Dynamics 365** " programėles kaip **Taip**. 
 
-- "Power Platform" administravimo centre sukurkite "Power Platform" aplinką [,](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center) kuri bus naudojama perkelti sanddėlyje, arba pasirinkite esamą aplinką.
+- "Power Platform" administravimo centre sukurkite aplinką su duomenų baze [,](/power-platform/admin/create-environment#create-an-environment-with-a-database) kurioje būtų galima perkelti sandus, arba pasirinkite esamą aplinką.
 - [Kopijuoti aplinką](/power-platform/admin/copy-environment), kad būtų atnaujinta Power Platform susiejimui naudojama aplinka.
 
 #### <a name="migrate-the-sandbox-environment"></a>Perkelti sandbox aplinką
@@ -169,7 +168,7 @@ Baigę perkelti ir galioti sandbox aplinką, atlikite šiuos veiksmus norėdami 
 
 2. Atidarykite naują personalo perkėlimo projektą.
 3. Peržiūrėkite ir baikite atitinkamus perkėlimo metodologijos ir projekto parengimo etapus.
-4. Projekto skelbimų srityje gamybos **srityje** pasirinkite Perkelti **personalą**.
+4. Projekto skelbimų srityje gamybos **srityje pasirinkite Perkelti** personalą **·**.
 5. Norėdami perkelti **sritį pasirinkite** atitinkamą ciklo tarnybų projektą ir šaltinį personalo aplinkai (iš šaltinio atskirą personalo valdymo programos). Tada rinkitės **Kitas**.
 6. Baikite **diegimo parametrų (finansų ir operacijų – sandbox)** vedlį, kad patvirtintumėte informaciją ir kliento išjungimą, tada pasirinkite **Diegti**.
 

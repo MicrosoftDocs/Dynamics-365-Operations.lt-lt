@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04c26eec8be61d60908bef67c75958287e7e1a01
-ms.sourcegitcommit: 85141b21ac90f3db1b378c21f9c7f3d8f74e182f
+ms.openlocfilehash: a0d1221e07f6dc4a5a99aa205c4a7f6fb367f000
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129519"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780252"
 ---
 # <a name="create-a-customer-invoice"></a>Kliento SF kūrimas
 
@@ -31,11 +31,10 @@ Pardavimo **užsakymo kliento SF yra** sąskaita, susijusi su pardavimu ir kuri�
 Laisvos **formos SF** nėra susijusi su pardavimo užsakymu. Joje pateikiamos užsakymo eilutės, kuriose yra DK sąskaitos, laisvo pobūdžio aprašai ir pardavimo suma, kuriuos įvedate. Į šios rūšies SF prekės numerio įvesti negalite. Turite įvesti atitinkamą PVM informaciją. Pagrindinė pardavimo sąskaita nurodoma kiekvienoje SF eilutėje, kurią paskirstyti į kelias DK sąskaitas galite **Laisvos formos SF** puslapyje spustelėdami **Paskirstyti sumas**. Be to, kliento balansas suminėje sąskaitoje regisruojamas iš naudojamo laisvos formos SF registravimo profilio.
 
 Daugiau informacijos, žr.:
-
-[Kurti laisvos formos SF](../accounts-receivable/create-free-text-invoice-new.md)[
- kurti laisvos formos SF
-](../accounts-receivable/create-free-text-invoice-template-new.md)[šabloną laisvos formos SF šablonui](tasks/assign-free-text-invoice-template-customer.md)
-[klientui priskirti ir užregistruoti pasikartojančias laisvos formos SF](tasks/post-recurring-free-text-invoices.md)
+ - [Kurti laisvos formos SF](../accounts-receivable/create-free-text-invoice-new.md)
+ - [Laisvos formos sąskaitos faktūros šablono kūrimas](../accounts-receivable/create-free-text-invoice-template-new.md)
+ - [Priskirti laisvos formos SF šabloną klientui](tasks/assign-free-text-invoice-template-customer.md)
+ - [Pasikartojančių laisvos formos SF generavimas ir registravimas](tasks/post-recurring-free-text-invoices.md)
 
 
 Išankstinė **SF yra** sąskaita, kuri parengiama kaip faktinių sąskaitos sumų įvertinimas prieš užregistruojant sąskaitą faktūrą. Galite išspausdinti **arba kliento** pardavimo užsakymo išankstinės SF, arba laisvos formos sąskaitos faktūros išankstinę sąskaitą faktūrą. 
@@ -89,7 +88,13 @@ Pardavimo užsakymo kliento SF skaidymas pagal vietą arba pristatymo adresą ga
  - Pasirinkite skaidymo **remiantis SF pristatymo informacija parinktį,** norėdami registruojant sukurti vieną SF kiekvienam pardavimo užsakymo eilutės pristatymo adresui. 
 
 ## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>Registruoti pardavimo užsakymo eilučių be kainos ir išlaidų įplaukų sąskaitoje
-Turite parinktį DK atnaujinti pardavimo užsakymo **eilučių,** kuriose **nėra** kainos ir nėra išlaidų, įplaukų sąskaitą. Norėdami nustatyti arba peržiūrėti šią informaciją, **·** **·** **eikite į gautinų sumų parametrų puslapio DK ir PVM skirtuko lape parametrą Registruoti įplaukų sąskaitoje dėl nulinių kainų ir nulinių išlaidų pardavimo užsakymo SF eilučių** parametrų. (**Gautinų sumų > gautinų sumų > parametrus**). Pasirinkite **Taip,** jei norite atnaujinti **pardavimo** užsakymo SF eilučių, kuriose nėra kainos ir išlaidų, sąskaitą Įplaukos. Jei ši pasirinktis pasirinkta, kvite bus 0,00 įrašų kliento **balanse ir įplaukų** **registravimo** tipuose. Įplaukų sąskaita yra apibrėžta atsargų registravimo **parametrų** puslapyje, pardavimo užsakymo **sąskaitos** apibrėžimo skirtuke. Jei ši pasirinktis nepasirinkta, eilutės, kuriose nėra kainos arba išlaidų informacijos, nebus registruojamos Įplaukų **sąskaitoje**. Vietoj to kvite bus kliento balanso registravimo tipo 0,00 **įrašas**.
+Turite parinktį DK atnaujinti pardavimo užsakymo **eilučių,** kuriose **nėra** kainos ir nėra išlaidų, įplaukų sąskaitą. 
+
+Norėdami nustatyti arba peržiūrėti šią informaciją:
+1. Eikite **į sąskaitą Registruoti įplaukų puslapyje, kai** **·** **kaina lygi nuliui ir pardavimo užsakymo SF eilučių parametras DK ir PVM skirtuke, gautinų sumų parametrų** puslapyje. (**Gautinų sumų > gautinų sumų > parametrus**). 
+2. Pasirinkite **Taip,** jei norite atnaujinti **pardavimo** užsakymo SF eilučių, kuriose nėra kainos ir išlaidų, sąskaitą Įplaukos. 
+ - Jei ši pasirinktis pasirinkta, kvite bus 0,00 įrašų kliento **balanse ir įplaukų** **registravimo** tipuose. Įplaukų sąskaita yra apibrėžta atsargų registravimo **parametrų** puslapyje, pardavimo užsakymo **sąskaitos** apibrėžimo skirtuke. 
+ - Jei ši pasirinktis nepasirinkta, eilutės, kuriose nėra kainos arba išlaidų informacijos, nebus registruojamos Įplaukų **sąskaitoje**. Vietoj to kvite bus kliento balanso registravimo tipo 0,00 **įrašas**.
 
 ## <a name="line-creation-sequence-number-information"></a>Eilutės kūrimo eilės numerio informacija
 Kai registruojate kliento SF eilutes, galite pasirinkti nuoseklius eilučių kūrimo eilės numerius. Eilutės kūrimo eilės numeriai priskiriami registravimo proceso metu. Leisdami ne nuoseklią numeraciją, galite pagerinti kliento SF registravimo našumą. Eilutės kūrimo eilės numerius gali naudoti trečiosios šalies integravimas, kuris laukia nuoseklios eilės. Dėl plėtinių, kurie gali būti integruoti su eilutės kūrimo eilės numeriais, kreipkitės į IT padalinį.

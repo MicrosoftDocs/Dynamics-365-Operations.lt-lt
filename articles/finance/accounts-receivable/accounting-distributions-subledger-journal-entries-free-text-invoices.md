@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 3141
 ms.assetid: fecd17a2-d7b4-4a20-ac81-eb71abbfa9d1
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8e2b6d75034c06704cad4cbc800ce3311ef5330e
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: f5120c4e75e821776201d5add2d498feb94d0297
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712292"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778417"
 ---
 # <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a>Apskaitos paskirstymai ir papildomos knygos įrašai nemokamo teksto sąskaitoms
 
@@ -30,9 +30,9 @@ Apskaitos paskirstymai naudojami apibrėžti, kaip suma bus apskaitoma, pvz., ka
 
 ## <a name="accounting-distributions"></a>Apskaitos paskirstymai
 
-Laisvos formos SF puslapyje naudodami toliau nurodytus mygtukus galite peržiūrėti ir, galbūt, keisti kiekvienos laisvos formos SF nurodytos sumos apskaitos paskirstymus.
+Laisvos formos SF puslapyje galite naudoti šiuos **mygtukus**, norėdami peržiūrėti ir galbūt pakeisti kiekvienos laisvos formos SF sumos apskaitos paskirstymus.
 
--   **Paskirstyti sumas** –peržiūrėkite ir keiskite apskaitos paskirstymus konkrečioje eilutėje ir visose antrinėse eilutėse, pvz., mokesčių ar rinkliavų. Antrinės eilutės apskaitos paskirstymus taip pat galite peržiūrėti ir keisti tiesiogiai iš PVM operacijų puslapio arba Išlaidų operacijų puslapio.
+-   **Paskirstyti sumas** –peržiūrėkite ir keiskite apskaitos paskirstymus konkrečioje eilutėje ir visose antrinėse eilutėse, pvz., mokesčių ar rinkliavų. Taip pat galite peržiūrėti ir keisti papildomos eilutės apskaitos paskirstymus **tiesiogiai iš PVM operacijų** puslapio ar išlaidų **operacijų** puslapio.
     -   Keiskite laisvos formos SF antraštės sumas, pvz., rinkliavas arba valiutos sumos apvalinimą.
     -   Keiskite laisvos formos SF eilutės sumas.
 -   **Peržiūrėti paskirstymus** – peržiūrėkite visų dokumentų eilučių apskaitos paskirstymus. Negalite keisti apskaitos paskirstymų iš šio rodinio.
@@ -62,7 +62,7 @@ Kai įvedate laisvos formos SF, kiekviena suma bus paskirstyta kaip aprašyta to
 <li>Jei pagrindinė sąskaita yra paskirstymo sąskaita, naudokite numatytąją reikšmę iš paskirstymo sąskaitos apibrėžimo.</li>
 <li>Jei pagrindinė sąskaita nėra paskirstymo sąskaita, laisvos formos SF eilutėje naudokite finansinės dimensijos numatytąjį šabloną.</li>
 <li>Naudokite numatytąsias finansines dimensijos reikšmes laisvos formos SF eilutėje.</li>
-<li>Naudokite numatytąsias finansinės dimensijos reikšmes iš DK sąskaitos Sąskaitų plano puslapyje.</li>
+<li>Naudokite numatytąsias finansinės dimensijos vertes iš DK sąskaitos, sąskaitų plano puslapyje.</li>
 </ol></td>
 </tr>
 <tr class="even">
@@ -84,17 +84,17 @@ Kai įvedate laisvos formos SF, kiekviena suma bus paskirstyta kaip aprašyta to
 <td>Laisvos formos SF eilutės DK sąskaita.</td>
 <td><ol>
 <li>Naudokite numatytąsias finansines dimensijos reikšmes laisvos formos SF eilutėje.</li>
-<li>Naudokite numatytąsias finansinės dimensijos reikšmes iš DK sąskaitos Sąskaitų plano puslapyje.</li>
+<li>Naudokite numatytąsias finansinės dimensijos vertes iš DK sąskaitos, sąskaitų plano puslapyje.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Laisvos formos SF nuolaidos suma</td>
-<td>Puslapio Mokėjimo nuolaidos laukas Pagrindinė sąskaita, skirta kliento nuolaidoms.</td>
+<td>Mokėjimo nuolaidų puslapio laukas Pagrindinė sąskaita, skirta Kliento nuolaidoms.</td>
 <td><ol>
 <li>Jei pagrindinė sąskaita yra paskirstymo sąskaita, naudokite numatytąją reikšmę iš paskirstymo sąskaitos apibrėžimo.</li>
 <li>Jei pagrindinė sąskaita nėra paskirstymo sąskaita, laisvos formos SF eilutėje naudokite finansinės dimensijos numatytąjį šabloną.</li>
 <li>Naudokite numatytąsias finansines dimensijos reikšmes laisvos formos SF eilutėje.</li>
-<li>Naudokite numatytąsias finansinės dimensijos reikšmes iš DK sąskaitos Sąskaitų plano puslapyje.</li>
+<li>Naudokite numatytąsias finansinės dimensijos vertes iš DK sąskaitos, sąskaitų plano puslapyje.</li>
 </ol></td>
 </tr>
 <tr class="even">
@@ -103,24 +103,24 @@ Kai įvedate laisvos formos SF, kiekviena suma bus paskirstyta kaip aprašyta to
 <td><ol>
 <li>Naudokite finansines dimensijas, apibrėžtas laisvos formos SF eilutės sumoje, arba paskirstymus išlaidų eilutės sumoje.</li>
 <li>Naudokite numatytąsias finansines dimensijos reikšmes laisvos formos SF eilutėje.</li>
-<li>Naudokite numatytąsias finansinės dimensijos reikšmes iš DK sąskaitos Sąskaitų plano puslapyje.</li>
+<li>Naudokite numatytąsias finansinės dimensijos vertes iš DK sąskaitos, sąskaitų plano puslapyje.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Laisvos formos SF išlaidų eilutės suma</td>
-<td>Kredito sąskaitos laukas Išlaidų kodo puslapyje.</td>
+<td>Išlaidų kodo puslapio laukas Kredito sąskaita.</td>
 <td><ol>
 <li>Jei pagrindinė sąskaita yra paskirstymo sąskaita, naudokite numatytąją reikšmę iš paskirstymo sąskaitos apibrėžimo.</li>
 <li>Jei pagrindinė sąskaita nėra paskirstymo sąskaita, laisvos formos SF eilutėje naudokite finansinės dimensijos numatytąjį šabloną.</li>
 <li>Naudokite numatytąsias finansines dimensijos reikšmes laisvos formos SF eilutėje.</li>
-<li>Naudokite numatytąsias finansinės dimensijos reikšmes iš DK sąskaitos Sąskaitų plano puslapyje.</li>
+<li>Naudokite numatytąsias finansinės dimensijos vertes iš DK sąskaitos, sąskaitų plano puslapyje.</li>
 </ol></td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="distributing-taxes"></a>Mokesčių paskirstymas
-Mokesčių apskaitos paskirstymus galima kurti tik apskaičiavus mokesčius. Norėdami skaičiuoti PVM, turite atlikti vieną iš toliau pateiktų užduočių formoje Laisvos formos SF.
+Mokesčių apskaitos paskirstymus galima kurti tik apskaičiavus mokesčius. Norėdami apskaičiuoti PVM, turite atlikti vieną iš šių užduočių laisvos **formos SF** puslapyje:
 -   Peržiūrėkite PVM.
 -   Peržiūrėkite SF bendrąją sumą.
 -   Peržiūrėkite grynųjų pinigų srautą.

@@ -2,7 +2,7 @@
 title: „Inventory Visibility“ konfigūravimas
 description: Šiame straipsnyje aprašoma, kaip konfigūruoti atsargų matomumą.
 author: yufeihuang
-ms.date: 05/27/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 61819d9c5af64b58697e07be85beebc084ae5935
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: 915382c14cc9ba89b9d543cfd668a94cecbc0a55
+ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542292"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9764869"
 ---
 # <a name="configure-inventory-visibility"></a>„Inventory Visibility“ konfigūravimas
 
 [!include [banner](../includes/banner.md)]
-
 
 Šiame straipsnyje aprašoma, kaip konfigūruoti atsargų matomumą naudojant programą Atsargų matomumas Power Apps.
 
@@ -53,27 +52,32 @@ Atsargų matomumo priedas prie jūsų diegimo prideda keletą naujų „Power Ap
 |---|---|
 | *OnHandReservation* | Ši funkcija leidžia kurti rezervavimus, naudoti rezervavimus ir (arba) nereservuoti nurodytų atsargų kiekių naudojant atsargų matomumą. Dėl daugiau informacijos, žr. [Inventoriaus matomumo rezervavimas](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | Ši priemonė pateikia produktų atsargų suvestinę kartu su visomis dimensijomis. Atsargų suvestinės duomenys bus periodiškai sinchronizuojami pagal atsargų matomumą. Numatytasis sinchronizavimo dažnumas yra vienas po 15 minučių ir gali būti nustatytas kaip didelis kas 5 minutes. Daugiau informacijos ieškokite Atsargų [suvestinė](inventory-visibility-power-platform.md#inventory-summary). |
-| *onHandIndexQueryPreloadBackgroundService* | Ši funkcija leidžia iš anksto įkelti turimų atsargų matomumo užklausas, kad būtų galima surinkti turimų atsargų sąrašus su iš anksto pasirinktomis dimensijomis. Numatytasis sinchronizavimo dažnumas yra kas 15 minučių. Daugiau informacijos ieškokite Atsargų [suvestinė.](inventory-visibility-power-platform.md#preload-the-inventory-visibility-onhand-query) |
+| *onHandIndexQueryPreloadBackgroundService* | Ši funkcija leidžia iš anksto įkelti turimų atsargų matomumo užklausas, kad būtų galima surinkti turimų atsargų sąrašus su iš anksto pasirinktomis dimensijomis. Numatytasis sinchronizavimo dažnumas yra kas 15 minučių. Norėdami gauti daugiau informacijos, žr. užklausą [Iš anksto įkelkite supaprastintą turimos informacijos užklausą](inventory-visibility-power-platform.md#preload-streamlined-onhand-query). |
 | *OnhandChangeSchedule* | Ši pasirinktinė priemonė įgalina turimo atsargų pakeitimo grafiką ir prieinamų atsargų (ATP) priemones. Daugiau informacijos rasite atsargų matomumo [turimų atsargų keitimo grafike ir prieinamose atsargose](inventory-visibility-available-to-promise.md). |
-| *Paskirstymas* | Ši pasirinktinė funkcija leidžia atsargų matomumui apsaugoti (žiedinis) ir perpardavimo valdymas. Daugiau informacijos rasite atsargų [matomumo atsargų paskirstyme](inventory-visibility-allocation.md). |
+| *Paskirstymas* | Ši pasirinktinė funkcija leidžia atsargų matomumui apsaugoti (žiedinis skambutis) ir valdyti perrašant. Daugiau informacijos rasite atsargų [matomumo atsargų paskirstyme](inventory-visibility-allocation.md). |
 | *Įgalinti sandėlio prekes atsargų matomumo skiltyje* | Ši pasirinktinė funkcija įgalina atsargų matomumą palaikyti prekes, kurios įgalintos sandėlio valdymo procesuose (WMS). Daugiau informacijos ieškokite WMS [prekių atsargų matomumo palaikymas](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Paslaugos galinio punkto radimas
 
-Jei nežinote tinkamo atsargų matomumo tarnybos galinio punkto, atidarykite **konfigūracijos** puslapį „Power Apps“ ir tada rinkitės **Rodyti paslaugos galinį punktą** dešiniajame viršutiniame kampe. Puslapyje bus rodomas tinkamas tarnybos galinis punktas.
+Jei nežinote tinkamo atsargų matomumo paslaugos galinio punkto, **·** Power Apps **viršutiniame** dešiniajame kampe atidarykite konfigūracijos puslapį ir pasirinkite Rodyti paslaugos informaciją. Puslapyje bus rodomas tinkamas tarnybos galinis punktas. Taip pat galite rasti galinį punktą ciklo Microsoft Dynamics tarnybose, kaip aprašyta [skyriuje Rasti galinį punktą pagal savo ciklo tarnybų aplinką](inventory-visibility-api.md#endpoint-lcs).
+
+> [!NOTE]
+> Netinkamo galinio punkto naudojimas gali sukelti nepavykusį atsargų matomumo diegimą ir klaidas, kai tiekimo grandinės valdymas sinchronizuojamas su atsargų matomumu. Jei nesate tikri, kas yra jūsų galinis punktas, kreipkitės į sistemos administratorių. Galinio punkto URL naudoja tokį formatą:
+>
+> `https://inventoryservice.<RegionShortName>-il<IsLandNumber>.gateway.prod.island.powerapps.com`
 
 ## <a name="data-source-configuration"></a><a name="data-source-configuration"></a>Duomenų šaltinio konfigūravimas
 
-Kiekvienas duomenų šaltinis rodo sistemą, iš kurios gauti jūsų duomenys. Duomenų šaltinių pavadinimų pavyzdys yra `fno` (tai reiškia "Dynamics 365" finansų ir operacijų programėles) `pos` ir (tai reiškia "point of sale"). Pagal numatytuosius nustatymus „Supply Chain Management“ nustatomas kaip numatytasis duomenų šaltinis (`fno`) atsargų matomumo atveju.
+Kiekvienas duomenų šaltinis rodo sistemą, iš kurios gauti jūsų duomenys. Duomenų šaltinių pavadinimai gali būti `fno` (atitinka tiekimo grandinės valdymą) ir `pos` (tai reiškia "point of sale"). Pagal numatytuosius nustatymus „Supply Chain Management“ nustatomas kaip numatytasis duomenų šaltinis (`fno`) atsargų matomumo atveju.
 
 > [!NOTE]
-> Duomenų `fno` šaltinis rezervuotas tiekimo grandinės valdymui. Jei jūsų atsargų matomumo priedas yra integruotas `fno` tiekimo grandinės valdymo aplinkoje, rekomenduojame nenaiknti su duomenų šaltiniu susijusių konfigūracijų.
+> Duomenų `fno` šaltinis rezervuotas tiekimo grandinės valdymui. Jei jūsų atsargų matomumo priedas yra integruotas `fno` tiekimo grandinės valdymo aplinkoje, rekomenduojame nenaiknti konfigūracijų, susijusių su duomenų šaltiniu.
 
 Norėdami įtraukti duomenų šaltinį, atlikite nurodytus veiksmus.
 
 1. Prisiregistruokite savo „Power Apps“ aplinkoje ir atidarykite **Atsargų matomumas**.
 1. Atidarykite **Konfigūravimo** puslapį.
-1. Norėdami įtraukti **duomenų šaltinį**, skirtuke **Naujas duomenų šaltinis** pasirinkite Naujas duomenų šaltinis.
+1. Norėdami įtraukti **duomenų šaltinį**, skirtuke **Duomenų šaltinis** pasirinkite Naujas duomenų šaltinis (pvz., `ecommerce` ar kitą prasmingą duomenų šaltinio ID).
 
 > [!NOTE]
 > Kai pridedate duomenų šaltinį, prieš atnaujindami atsargų matomumo tarnybos konfigūraciją būtinai patikrinkite duomenų šaltinio pavadinimą, faktinius matus ir dimensijų susiejimus. Pasirinkę Naujinti konfigūraciją šių parametrų **modifikuoti negalėsite**.
@@ -88,11 +92,11 @@ Duomenų šaltinio konfigūraciją sudaro toliau nurodytos dalys:
 
 Nurodymo konfigūravimo tikslas yra standartizuoti daugelio sistemų integravimą užklausai, įvykių publikavimas pagal dimensijų kombinacijas. Atsargų matomumas pateikia bazinių dimensijų, kurias galima susieti pagal jūsų duomenų šaltinio dimensijas, sąrašą. Per daug tris dimensijas galima susieti.
 
-- Pagal numatytuosius nustatymus, jeigu naudojate tiekimo grandinės valdymą kaip vieną iš duomenų šaltinių, 13 dimensijų yra susietos su „Supply Chain Management“ standartinėmis dimensijomis. Per daug kitų (`inventDimension1` dimensijų per `inventDimension12`) yra susietos su pasirinktomis „Supply Chain Management“ dimensijomis. Likusios aštuonios dimensijos yra išplėstinės dimensijos, kurias galite susieti su išoriniais duomenų šaltiniais.
+- Jei tiekimo grandinės valdymą naudojate kaip vieną iš savo duomenų šaltinių, pagal numatytuosius nustatymus 13 dimensijų jau susietos su tiekimo grandinės valdymo standartinėmis dimensijomis. Kitos 12 dimensijų (`inventDimension1` iki `inventDimension12`) taip pat susietos su pasirinktomis tiekimo grandinės valdymo dimensijomis. Likusios aštuonios dimensijos (`ExtendedDimension1` per `ExtendedDimension8`) yra išplėstinės dimensijos, kurias galite susieti su išoriniais duomenų šaltiniais.
 - Jei negalite naudoti „Supply Chain Management“ kaip vieno iš savo duomenų šaltinių, galite laisvai susieti dimensijas. Šioje lentelėje rodomas visas galimų dimensijų sąrašas.
 
 > [!NOTE]
-> Jei jūsų dimensija nėra numatytajame dimensijų sąraše ir naudojate išorinį duomenų šaltinį, rekomenduojame naudoti `ExtendedDimension1` per `ExtendedDimension8` susiejimui atlikti.
+> Jei naudojate tiekimo grandinės valdymą ir keičiate numatytuosius tiekimo grandinės valdymo ir atsargų matomumo dimensijų susiejimus, pakeista dimensija nesinchronizuoja duomenų. Todėl jei jūsų dimensija nėra numatytajame dimensijų sąraše ir naudojate išorinį duomenų šaltinį, `ExtendedDimension1``ExtendedDimension8` rekomenduojame naudoti susiejimui atlikti.
 
 | Dimensijos tipas | Pagrindinė dimensija |
 |---|---|
@@ -114,11 +118,11 @@ Nurodymo konfigūravimo tikslas yra standartizuoti daugelio sistemų integravim�
 | System | `Empty` |
 
 > [!NOTE]
-> Dimensijos tipai įrašyti ankstesnėje lentelėje tik nuorodų tikslais. Nereikia jų nustatyti atsargų matomumo dalyje.
+> Dimensijų tipai, pateikti ankstesnėje lentelėje, skirti tik jūsų nuorodai. Nereikia jų nustatyti atsargų matomumo dalyje.
 >
-> Atsargų (pasirinktinės) dimensijos gali būti rezervuotos „Supply Chain Management“. Tokiu atveju vietoj jo galite naudoti išplėsti dimensijas.
+> Atsargų (pasirinktinės) dimensijos gali būti rezervuotos tiekimo grandinės valdymui. Tokiu atveju naudokite išplėsties dimensijas.
 
-Išorinės sistemos gali pasiekti atsargų matomumą per savo RESTful API. Integravimui atsargų matomumas leidžia konfigūruoti _išorinį duomenų šaltin_ ir išorinių dimensijų  _susiejimą su_ su  _bazinėmis dimensijomis_. Čia yra dimensijų susiejimo lentelės pavyzdys.
+Išorinės sistemos gali pasiekti atsargų matomumą per savo RESTful API. Integravimui atsargų matomumas leidžia konfigūruoti *išorinį duomenų šaltin* ir išorinių dimensijų  *susiejimą su* su  *bazinėmis dimensijomis*. Čia yra dimensijų susiejimo lentelės pavyzdys.
 
 | Išorinė dimensija | Pagrindinė dimensija |
 |---|---|
@@ -134,20 +138,21 @@ Norėdami dimensijų žemėlapius, atlikite nurodytus veiksmus.
 
 1. Prisiregistruokite savo „Power Apps“ aplinkoje ir atidarykite **Atsargų matomumas**.
 1. Atidarykite **Konfigūravimo** puslapį.
-1. Skirtuko **Duomenų šaltinis** skyriuje **Dimensijų susiejimai** pasirinkite **Įtraukti** įtraukumėte dimensijų susiejimus.
+1. Skirtuke **Duomenų šaltinis** pasirinkite duomenų šaltinį, kuriame norite atlikti dimensijos konvertavimą. Tada skyriuje Dimensijų susiejimai **pasirinkite** Įtraukti, kad **būtų** įtraukti dimensijų susiejimai.
+
     ![Dimensijų žemėlapių įtraukimas](media/inventory-visibility-dimension-mapping.png "Dimensijų žemėlapių įtraukimas")
 
 1. Lauke **Dimensijos pavadinimas** nurodykite šaltinio dimensiją.
 1. Lauke **Į bazinę dimensiją** pasirinkite dimensiją iš Atsargų matomumo, kurį norite susieti.
 1. Pasirinkite **Įrašyti**.
 
-Pavyzdžiui, jei jūsų duomenų šaltinyje yra produkto spalvos dimensija, galite susieti ją su bazine dimensija `ColorId` norėdami `ProductColor` pasirinktinė dimensija būtų įtraukta į `exterchannel` duomenų šaltinį. Tada ji bus susietas su bazine `ColorId` dimensija.
+Pavyzdžiui, jūs jau sukūrėte duomenų šaltinį, pavadintą `ecommerce`, ir jame yra produkto spalvos dimensija. Tokiu atveju, norėdami atlikti susiejimą, `ProductColor`**·**`ecommerce``ColorId` pirmiausia galite įtraukti dimensijos pavadinimą į duomenų šaltinio lauką, o tada pasirinkti lauke **Į pagrindinę dimensiją.**
 
 ### <a name="physical-measures"></a><a name="data-source-configuration-physical-measures"></a>Fizinis matas
 
-Kai duomenų šaltinis užregistruoja atsargų pakeitimą į Atsargų matomumą, jis užregistruoja jį naudodamas *faktinius duomenis*. Faktinės priemonės modifikuoja kiekį ir atspindi atsargų būseną. Atsižvelgdami į savo poreikius galite apibrėžti savo fizinius priemones. Užklausos gali būti pagrįstos faktiniais išmes taisyme.
+Kai duomenų šaltinis užregistruoja atsargų pakeitimą į Atsargų matomumą, jis užregistruoja jį naudodamas *faktinius duomenis*. Faktinės priemonės modifikuoja kiekį ir atspindi atsargų būseną. Galite apibrėžti savo fizinius priemones pagal savo poreikius. Užklausos gali būti pagrįstos faktiniais išmes taisyme.
 
-Atsargų matomumas pateikia numatytųjų fizinių priemonių, susietų su „Supply Chain Management“ (duomenų `fno` šaltiniu), sąrašą. Šie numatytieji faktiniai duomenys imami iš atsargų operacijų būsenų, esančių tiekimo grandinės valdymo sąrašo puslapyje **Turimos atsargos** puslapyje „Supply Chain Management“ (**Atsargų valdymas \> Užklausos ir ataskaita \> Turimas sąrašas**). Šioje lentelėje pateikiamas faktinių priemonių pavyzdys.
+Atsargų matomumas pateikia numatytųjų faktinių priemonių, kurios susietos su tiekimo grandinės valdymu (duomenų `fno` šaltiniu), sąrašą. Šie numatytieji faktiniai duomenys imami iš atsargų operacijų būsenų, esančių tiekimo grandinės valdymo sąrašo puslapyje **Turimos atsargos** puslapyje „Supply Chain Management“ (**Atsargų valdymas \> Užklausos ir ataskaita \> Turimas sąrašas**). Šioje lentelėje pateikiamas faktinių priemonių pavyzdys.
 
 | Fizinio mato pavadinimas | Aprašas |
 |---|---|
@@ -168,11 +173,11 @@ Atsargų matomumas pateikia numatytųjų fizinių priemonių, susietų su „Sup
 | `ReservOrdered` | Užsakyta rezervuotų |
 | `ReservPhysical` | Faktiškai rezervuota |
 
-Jei duomenų šaltinis yra „Supply Chain Management“, nereikia iš naujo kurti numatytųjų faktinių priemonių. Tačiau šiems išoriniams duomenų šaltiniams galite sukurti naujus fizinius veiksmus.
+Jei jūsų duomenų šaltinis yra Tiekimo grandinės valdymas, nereikia iš naujo kurti numatytųjų faktinių priemonių. Tačiau šiems išoriniams duomenų šaltiniams galite sukurti naujus fizinius veiksmus.
 
 1. Prisiregistruokite savo „Power Apps“ aplinkoje ir atidarykite **Atsargų matomumas**.
 1. Atidarykite **Konfigūravimo** puslapį.
-1. Skyriuje **Duomenų šaltinis** skirtuke **Faktiniai matai** rinkitės **Įtraukti**, nurodykite šaltinio matavimo pavadinimą ir įrašykite savo keitimus.
+1. Skirtuke **Duomenų šaltinis** pasirinkite duomenų šaltinį, į kuriuos norite įtraukti faktinius duomenis (pvz., duomenų `ecommerce` šaltinį). Tada skyriuje Faktiniai **matai** **pasirinkite** Įtraukti ir nurodykite mato pavadinimą (pvz., `Returned` jei norite įrašyti grąžintus kiekius šiame duomenų šaltinyje į Atsargų matomumas). Įrašykite pakeitimus.
 
 ### <a name="calculated-measures"></a>Apskaičiuoti matai
 
@@ -181,7 +186,7 @@ Atsargų matomumo užklausą galite naudoti ir atsargų faktiniams priemonėms, 
 > [!IMPORTANT]
 > Apskaičiuotas matas yra faktinių matų struktūra. Jos formulė gali apimti tik faktinius priemones be dublikatų, o ne apskaičiuotus išrašus.
 
-Konfigūracija leidžia apibrėžti modifikatorių rinkinį, kuris pridedamas ar atimamas, kad būtų gauti bendras suvestinis išeigos kiekis.
+Konfigūracija leidžia apibrėžti apskaičiuotų matų formulių rinkinį, kuriame yra priedo arba atimties modifikatoriai, kad būtų gauti bendras suvestinis išeigos kiekis.
 
 Norėdami nustatyti tinkinto skaičiavimo matmenį, atlikite tokius veiksmus.
 
@@ -191,7 +196,7 @@ Norėdami nustatyti tinkinto skaičiavimo matmenį, atlikite tokius veiksmus.
 1. Nustatykite šiuos naujo apskaičiuoto matavimo laukus:
 
     - **Naujo apskaičiuoto mato** pavadinimas – įveskite apskaičiuoto matavimo pavadinimą.
-    - **Duomenų šaltinis** – pasirinkite duomenų šaltinį, susietą su nauju modifikatoriaus. Užklausų sistema yra duomenų šaltinis.
+    - **Duomenų šaltinis** – pasirinkite duomenų šaltinį, į jį įtraukite naują apskaičiuotą matą. Užklausų sistema yra duomenų šaltinis.
 
 1. Norėdami **prie** naujo apskaičiuoto mato pridėti modifikatorių, pasirinkite Įtraukti.
 1. Nustatykite šiuos naujo modifikatoriaus laukus:
@@ -200,15 +205,21 @@ Norėdami nustatyti tinkinto skaičiavimo matmenį, atlikite tokius veiksmus.
     - **Duomenų šaltinis** – pasirinkite duomenų šaltinį, kuriame bus galima rasti modifikatoriaus vertę teikiaį matą.
     - **Matas** – pasirinkite matavimo pavadinimą (iš pasirinkto duomenų šaltinio), kuris teikia modifikatoriaus vertę.
 
-1. Kartokite 5–6 veiksmus, kol pridėjote visus reikalingus modifikatorius.
+1. Kartokite 5–6 veiksmus, kol įdėsite visus reikalingus modifikatorius ir įbaigsite apskaičiuoto matavimo formulę.
 1. Pasirinkite **Įrašyti**.
 
-Pavyzdžiui, galite turėti šių pirkimo užsakymų rezultatas.
+Pavyzdžiui, madingos prekės įmonė veikia tarp trijų duomenų šaltinių:
+
+- `pos`– atitinka parduotuvės kanalą.
+- `fno`– atitinka tiekimo grandinės valdymą.
+- `ecommerce`– atitinka jūsų interneto kanalą.
+
+Jei užklausi apie produktą D0002 (Kabinetas) pateikiate užklausą dėl produkto D0002 (kabinetas), 1 teritorijoje, 11 sandėlyje ir dimensijos vertės, `ColorID``Red` galite gauti tokį užklausos rezultatą, kuris rodo atsargų kiekius pagal kiekvieną iš anksto sukonfigūruotą fizinį matą. Tačiau jūs negalite matyti visų jūsų duomenų šaltinių rezervavimo kiekių.
 
 ```json
 [
     {
-        "productId": "T-shirt",
+        "productId": "D0002",
         "dimensions": {
             "SiteId": "1",
             "LocationId": "11",
@@ -224,7 +235,7 @@ Pavyzdžiui, galite turėti šių pirkimo užsakymų rezultatas.
                 "orderedintotal": 50.0,
                 "orderedreserved": 10.0
             },
-            "externalchannel": {
+            "ecommerce": {
                 "received": 90.0,
                 "scheduled": 30.0,
                 "issued": 60.0,
@@ -239,22 +250,22 @@ Tada konfigūruojate apskaičiuotą `MyCustomAvailableforReservation` matą, pav
 
 | Vartojimo sistema | Apskaičiuotas matas | Duomenų šaltinis | Fizinis matas | Skaičiavimo tipas |
 |---|---|---|---|---|
-| `CustomChannel` | `MyCustomAvailableforReservation` | `fno` | `availphysical` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedintotal` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedreserved` | `Subtraction` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `pos` | `inbound` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `pos` | `outbound` | `Subtraction` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `received` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `scheduled` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `issued` | `Subtraction` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `reserved` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `fno` | `availphysical` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedintotal` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedreserved` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `pos` | `inbound` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `pos` | `outbound` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `received` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `scheduled` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `issued` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `reserved` | `Subtraction` |
 
 Kai naudojama ši skaičiavimo formulė, naujuose užklausos rezultatuose bus pritaikytas matavimas.
 
 ```json
 [
     {
-        "productId": "T-shirt",
+        "productId": "D0002",
         "dimensions": {
             "SiteId": "1",
             "LocationId": "11",
@@ -270,13 +281,13 @@ Kai naudojama ši skaičiavimo formulė, naujuose užklausos rezultatuose bus pr
                 "orderedintotal": 50.0,
                 "orderedreserved": 10.0
             },
-            "externalchannel": {
+            "ecommerce": {
                 "received": 90.0,
                 "scheduled": 30.0,
                 "issued": 60.0,
                 "reserved": 40.0
             },
-            "CustomChannel": {
+            "CrossChannel": {
                 "MyCustomAvailableforReservation": 220.0
             }
         }
@@ -304,7 +315,7 @@ Sprendimas apima šio skaidinio konfigūraciją pagal numatytuosius nustatymus. 
 
 Dažniausiai turimų atsargų užklausa nebus tik aukščiausias "bendras" lygis. Vietoje to jūs galite norėti matyti rezultatus, kurie yra sujungti pagal atsargų dimensijas.
 
-Atsargų matomumas suteikia lankstumo, leisdamas _jums_ nustatyti indeksus, kad jūsų užklausos būtų našumui pagerinti. Šie indeksai remiasi dimensija arba dimensijų kombinacija. Indeksą sudaro *rinkinio numeris*, *dimensija* ir *hierarchija*, kaip nurodyta šioje lentelėje.
+Atsargų matomumas suteikia lankstumo, leisdamas *jums* nustatyti indeksus, kad jūsų užklausos būtų našumui pagerinti. Šie indeksai remiasi dimensija arba dimensijų kombinacija. Indeksą sudaro *rinkinio numeris*, *dimensija* ir *hierarchija*, kaip nurodyta šioje lentelėje.
 
 | Pavadinimas / vardas ir (arba) pavardė | Aprašas |
 |---|---|
@@ -334,15 +345,15 @@ Norėdami nustatyti savo produkto hierarchijos indeksą, atlikite šiuos žingsn
 
 Šioje lentelėje šiame pavyzdyje pateikiamas galimų atsargų sąrašas.
 
-| Produktas | SpalvosID | DydžioID | StiliausID | Kiekis |
+| Elementas | ColorId | SizeId | StyleId | Kiekis |
 |---|---|---|---|---|
-| Marškinėliai | Juoda | Mažas | Plati | 1 |
-| Marškinėliai | Juoda | Mažas | Reguliarus | 2 |
-| Marškinėliai | Juoda | Dideli | Plati | 3 |
-| Marškinėliai | Juoda | Dideli | Reguliarus | 4 |
-| Marškinėliai | Raudona | Mažas | Plati | 5 |
-| Marškinėliai | Raudona | Mažas | Reguliarus | 6 |
-| Marškinėliai | Raudona | Dideli | Reguliarus | 7 |
+| D0002 | Juoda | Mažas | Plati | 1 |
+| D0002 | Juoda | Mažas | Reguliarus | 2 |
+| D0002 | Juoda | Didelis | Plati | 3 |
+| D0002 | Juoda | Didelis | Reguliarus | 4 |
+| D0002 | Raudona | Mažas | Plati | 5 |
+| D0002 | Raudona | Mažas | Reguliarus | 6 |
+| D0002 | Raudona | Didelis | Reguliarus | 7 |
 
 Tolesnėje lentelėje parodyta, kaip nustatoma indekso hierarchijos grupė.
 
@@ -356,29 +367,29 @@ Indeksas leidžia pateikti užklausą apie turimų atsargų informaciją šiais 
 
 - `()`– sugrupuota pagal visus
 
-    - Marškinėliai, 28
+    - D0002, 28
 
 - `(ColorId)` – Sugrupuota pagal `ColorId`
 
-    - Marškinėlių, juoda, 10
-    - Marškinėlių, raudona, 18
+    - D0002, juoda, 10
+    - D0002, Raudona, 18
 
 - `(ColorId, SizeId)`– grupuojamas pagal kombinaciją `ColorId` ir `SizeId`
 
-    - Marškinėlių, juoda, mažas 3
-    - Marškinėlių, juoda, didelis 7
-    - Marškinėlių, raudonas, mažas 11
-    - Marškinėlių, raudonas, didelis 7
+    - D0002, juoda, mažas, 3
+    - D0002, juoda, didelis, 7
+    - D0002, raudona, mažas, 11
+    - D0002, raudona, didelis, 7
 
 - `(ColorId, SizeId, StyleId)` – grupuojamas pagal kombinaciją `ColorId`, `SizeId`, ir `StyleId`
 
-    - Marškinėlių, juoda, platus 1
-    - Marškinėlių, juoda, įprastas 2
-    - Marškinėlių, didelis, platus 3
-    - Marškinėlių, didelis, įprastas 4
-    - Marškinėlių, raudonas, mažas, platus 5
-    - Marškinėlių, raudonas, įprastas 6
-    - Marškinėlių, raudonas, didelis, įprastas 7
+    - D0002, juoda, mažas, platus, 1
+    - D0002, juoda, mažas, reguliarus, 2
+    - D0002, juoda, didelis, platus, 3
+    - D0002, juoda, didelis, reguliarus, 4
+    - D0002, raudona, mažas, platus, 5
+    - D0002, raudona, mažas, reguliarus, 6
+    - D0002, raudona, didelis, reguliarus, 7
 
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Rezervavimo konfigūracija (pasirinktinai)
 
@@ -397,35 +408,35 @@ Prieš pradedant nustatyti šį susiejimą konfigūracijos puslapio skirtukuose 
 
 Norėdami nustatyti švelniai rezervavimo susiejimą, atlikite šiuos veiksmus.
 
-1. Nurodyti fizinį matą, kuris naudojamas kaip švelniai rezervavimo matas (pvz., `SoftReservOrdered`).
-1. Puslapio skirtuke **Apskaičiuotas matas** nustatykite **Konfigūracija** ir *prieinamą rezervuoti*, kuriame yra AFR skaičiavimo formulė, kurią norite susieti su faktini matu. Pavyzdžiui, galite nustatyti (galima rezervuoti), kad jis būtų susietas su `AvailableToReserve` anksčiau apibrėžtu `SoftReservOrdered` faktiniu matais. Tokiu būdu galite rasti, kuriuos kiekius, kurių `SoftReservOrdered` atsargų būsena yra galima rezervuoti. Toliau pateikiamoje lentelėje rodoma AFR skaičiavimo formulė.
+1. Nurodyti fizinį matą, kuris naudojamas kaip švelniai rezervavimo matas (pvz., `SoftReservPhysical`).
+1. Puslapio skirtuke **Apskaičiuotas matas** nustatykite **Konfigūracija** ir *prieinamą rezervuoti*, kuriame yra AFR skaičiavimo formulė, kurią norite susieti su faktini matu. Pavyzdžiui, galite nustatyti (galima rezervuoti), kad jis būtų susietas su `AvailableToReserve` anksčiau apibrėžtu `SoftReservPhysical` faktiniu matais. Tokiu būdu galite rasti, kuriuos kiekius, kurių `SoftReservPhysical` atsargų būsena yra galima rezervuoti. Toliau pateikiamoje lentelėje rodoma AFR skaičiavimo formulė.
 
     | Skaičiavimo tipas | Duomenų šaltinis | Fizinis matas |
     |---|---|---|
     | Priedas | `fno` | `AvailPhysical` |
     | Priedas | `pos` | `Inbound` |
     | Atimtis | `pos` | `Outbound` |
-    | Atimtis | `iv` | `SoftReservOrdered` |
+    | Atimtis | `iv` | `SoftReservPhysical` |
 
-    Rekomenduojame nustatyti apskaičiuotą matą, kad jame būtų faktinis matas, pagal kurį būtų pagrįstas rezervavimo matas. Tokiu būdu apskaičiuotas matų kiekis bus paveiktas rezervavimo matų kiekio. Todėl šiame pavyzdyje apskaičiuotas `AvailableToReserve` duomenų šaltinio `iv` matas kaip `SoftReservOrdered` komponentas turi turėti `iv` fizinį matą.
+    Rekomenduojame nustatyti apskaičiuotą matą, kad jame būtų faktinis matas, pagal kurį būtų pagrįstas rezervavimo matas. Tokiu būdu apskaičiuotas matų kiekis bus paveiktas rezervavimo matų kiekio. Todėl šiame pavyzdyje apskaičiuotas `AvailableToReserve` duomenų šaltinio `iv` matas kaip `SoftReservPhysical` komponentas turi turėti `iv` fizinį matą.
 
 1. Atidarykite **Konfigūravimo** puslapį.
-1. Skirtuke **Švelnus rezervavimo susiejimas** nustatykite susiejimą su fiziniu matmeniu siekiant apskaičiuoti matą. Ankstesniame pavyzdyje galite naudoti šiuos parametrus, norėdami susieti su `AvailableToReserve` anksčiau apibrėžtu `SoftReservOrdered` fiziniu matais.
+1. Skirtuke **Švelnus rezervavimo susiejimas** nustatykite susiejimą su fiziniu matmeniu siekiant apskaičiuoti matą. Ankstesniame pavyzdyje galite naudoti šiuos parametrus, norėdami susieti su `AvailableToReserve` anksčiau apibrėžtu `SoftReservPhysical` fiziniu matais.
 
     | Faktinio matavimo duomenų šaltinis | Fizinis matas | Galimas rezervavimo duomenų šaltinis | Galimas rezervuoti apskaičiuotas matas |
     |---|---|---|---|
-    | `iv` | `SoftReservOrdered` | `iv` | `AvailableToReserve` |
+    | `iv` | `SoftReservPhysical` | `iv` | `AvailableToReserve` |
 
     > [!NOTE]
     > Jei negalite redaguoti skirtuko **Švelniai rezervavimas** turite įjungti funkciją *OnHandReservation* skirtuke **Funkcijų valdymas**.
 
-Dabar, kai rezervavimui atlikti, atsargų matomumas automatiškai surasti ir su rezervavimo patvirtinimu susijusi `SoftReservOrdered` skaičiavimo `AvailableToReserve` formulė.
+Dabar, kai rezervavimui atlikti, atsargų matomumas automatiškai surasti ir su rezervavimo patvirtinimu susijusi `SoftReservPhysical` skaičiavimo `AvailableToReserve` formulė.
 
 Pavyzdžiui, turite šias turimų atsargų matomumo atsargas.
 
 ```json
 {
-    "productId": "T-shirt",
+    "productId": "D0002",
     "dimensions": {
         "SiteId": "1",
         "LocationId": "11",
@@ -433,7 +444,7 @@ Pavyzdžiui, turite šias turimų atsargų matomumo atsargas.
     },
     "quantities": {
         "iv": {
-            "SoftReservOrdered": 90
+            "SoftReservPhysical": 90
         },
         "fno": {
             "availphysical": 70.0,
@@ -448,14 +459,14 @@ Pavyzdžiui, turite šias turimų atsargų matomumo atsargas.
 
 Šiuo atveju taikomas šis skaičiavimas:
 
-`AvailableToReserve` = `fno.availphysical` + `pos.inbound` – `pos.outbound` – `iv.SoftReservOrdered`  
+`AvailableToReserve` = `fno.availphysical` + `pos.inbound`– – `pos.outbound``iv.SoftReservPhysical`  
 = 70 + 50 – 20 – 90  
 = 10
 
-Todėl jei bandysite rezervuoti ir kiekis bus mažesnis arba `iv.SoftReservOrdered` lygus `AvailableToReserve` (10), galėsite atlikti rezervavimą.
+Todėl jei bandysite rezervuoti `iv.SoftReservPhysical` ir `AvailableToReserve` kiekis bus mažesnis arba lygus (10), prašymas rezervuoti bus sėkmingas.
 
 > [!NOTE]
-> Kai iškiesite rezervavimo API, galite valdyti rezervavimo tikrinimą nurodydami parametrą Boolean `ifCheckAvailForReserv` užklausos body. Vertė, `True` kuri reiškia, kad būtinas tikrinimas, o `False` vertė reiškia, kad tikrinimas nebūtinas. Numatytoji vertė yra `True`.
+> Kai iškiesite rezervavimo API, galite valdyti rezervavimo tikrinimą nurodydami parametrą Boolean `ifCheckAvailForReserv` užklausos body. Vertė reiškia `True`, kad būtinas tikrinimas, `False` o tikrinimo vertė – nebūtinas tikrinimas (`AvailableToReserve` nors galite baigti neigiamą kiekį, sistema vis tiek jums leis rezervuoti švelniai). Numatytoji vertė yra `True`.
 
 ### <a name="soft-reservation-hierarchy"></a>Švelni rezervavimo hierarchija
 
@@ -488,18 +499,21 @@ Galite nustatyti atsargų matomumą, kad leisite planuoti būsimus turimų atsar
 
 ## <a name="complete-and-update-the-configuration"></a>Baigti ir atnaujinti konfigūraciją
 
-Baigę konfigūruoti turite įvykdyti visus atsargų matomumo keitimus. Norėdami atlikti keitimus, rinkitės **viršutiniame dešiniajame** konfigūracijos puslapio kampe ir rinkitės **Naujinti** puslapyje „Power Apps“.
+Baigę konfigūruoti turite įvykdyti visus atsargų matomumo keitimus. Norėdami fiksuoti pakeitimus, atlikite šiuos veiksmus.
 
-Pirmą kartą, kai **pasirenkate Naujinti** konfigūraciją, sistema reikalauja savo kredencialų.
+1. Konfigūracijos Power Apps puslapyje, **viršutiniame** dešiniajame **kampe**, pasirinkite Naujinti konfigūraciją. 
+1. Sistema reikalauja prisijungimo kredencialų. Įveskite šias vertes:
 
-- **Kliento ID** – „Azure" programos ID, kurį sukūrėte atsargų matomumui.
-- **Nuomininko ID** – jūsų „Azure" nuomininko ID.
-- **Kliento raktas** – „Azure" programos raktą, kurį sukūrėte atsargų matomumui.
+    - **Kliento ID** – „Azure" programos ID, kurį sukūrėte atsargų matomumui.
+    - **Nuomininko ID** – jūsų „Azure" nuomininko ID.
+    - **Kliento raktas** – „Azure" programos raktą, kurį sukūrėte atsargų matomumui.
 
-Kai prisiregistruojate, konfigūracija atnaujinama atsargų matomumo paslaugoje.
+    Norėdami gauti daugiau informacijos apie šiuos kredencialus ir kaip juos rasti, žr [. Įdiekite ir nustatykite atsargų matomumą](inventory-visibility-setup.md).
 
-> [!NOTE]
-> Kai pridedate duomenų šaltinį, prieš atnaujindami atsargų matomumo tarnybos konfigūraciją būtinai patikrinkite duomenų šaltinio pavadinimą, faktinius matus ir dimensijų susiejimus. Pasirinkę Naujinti konfigūraciją šių parametrų **modifikuoti negalėsite**.
+    > [!IMPORTANT]
+    > Prieš atnaujindami konfigūraciją būtinai patikrinkite duomenų šaltinio pavadinimą, faktinius matus ir dimensijų susiejimus. Atnaujinę šiuos parametrus negalėsite modifikuoti.
+
+1. Prisiregistrę dar kartą pasirinkite **Naujinti konfigūraciją**. Sistema taiko jūsų parametrus ir parodo, kas pasikeitė.
 
 ## <a name="default-configuration-sample"></a><a name="default-configuration-sample"></a>Numatytosios konfigūracijos pavyzdys
 
@@ -694,13 +708,19 @@ Toliau pateiktoje lentelėje pateikti dimensijų susiejimai yra sukonfigūruoti 
 
 Sukonfigūruoti šie duomenų šaltinio `fno` faktiniai duomenys:
 
-- `Ordered`
 - `Arrived`
-- `AvailPhysical`
 - `PhysicalInvent`
 - `ReservPhysical`
+- `onorder`
+- `notspecified`
+- `availordered`
+- `availphysical`
+- `picked`
+- `postedqty`
+- `quotationreceipt`
+- `received`
+- `ordered`
 - `ReservOrdered`
-- `OnOrder`
 
 #### <a name="configuration-of-the-pos-data-source"></a>EKA duomenų šaltinio konfigūracija
 
@@ -766,7 +786,7 @@ Sukonfigūruoti šie duomenų šaltinio `erp` (įmonės šaltinio planavimo) fak
 
 | Faktinio matavimo duomenų šaltinis | Fizinis matas | Galimas rezervavimo duomenų šaltinis | Galimas rezervuoti apskaičiuotas matas |
 |---|---|---|---|
-| `iv` | `SoftReservOrdered` | `iv` | `AvailableToReserve` |
+| `iv` | `SoftReservPhysical` | `iv` | `AvailableToReserve` |
 
 #### <a name="reservation-hierarchy"></a>Rezervavimo hierarchija
 
@@ -778,35 +798,5 @@ Sukonfigūruoti šie duomenų šaltinio `erp` (įmonės šaltinio planavimo) fak
 | `LocationId` | 2 |
 | `ColorId` | 3 |
 | `SizeId` | 4 |
-| `StyleId` | 5 |
-| `BatchId` | 6 |
-| `SerialId` | 7 |
-| `StatusId` | 8 |
-| `LicensePlateId` | 9 |
-| `WMSLocationId` | 10 |
-| `WMSPalletId` | 11 |
-| `ConfigId` | 12 |
-| `VersionId` | 13 |
-| `CustomDimension1` | 14 |
-| `CustomDimension2` | 15 |
-| `CustomDimension3` | 16 |
-| `CustomDimension4` | 17 |
-| `CustomDimension5` | 18 |
-| `CustomDimension6` | 19 |
-| `CustomDimension7` | 20 |
-| `CustomDimension8` | 21 |
-| `CustomDimension9` | 22 |
-| `CustomDimension10` | 23 |
-| `CustomDimension11` | 24 |
-| `CustomDimension12` | 25 |
-| `ExtendedDimension1` | 26 |
-| `ExtendedDimension2` | 27 |
-| `ExtendedDimension3` | 28 |
-| `ExtendedDimension4` | 29 |
-| `ExtendedDimension5` | 30 |
-| `ExtendedDimension6` | 31 |
-| `ExtendedDimension7` | 32 |
-| `ExtendedDimension8` | 33 |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

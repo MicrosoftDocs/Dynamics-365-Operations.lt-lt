@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8811d4a43dba05e63b270893600a622527834901
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9ba11a561f320a7f4e787e4fe3f4e6f4fb88bbfb
+ms.sourcegitcommit: ca73177dedf40df16860eaf88b1c701c61992028
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982932"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9754116"
 ---
 # <a name="dimension-based-product-configuration-overview"></a>Produkto konfigūravimo pagal dimensijas apžvalga
 
@@ -74,7 +74,7 @@ Natūrali dimensijomis paremto produkto modelio kūrimo seka pradedama apibrėž
 
 Konfigūravimo pagal dimensijas technologiją geriausia naudoti su ribotos įvairovės produktais su standartinių produkto dimensijų dydžio, spalvos, stiliaus deriniu ir kai konfigūracija netinka identifikuoti konkrečiam produkto variantui. Pavyzdys galėtų būti dviratis, kurio nurodytas rėmo aukštis, ratų dydis, stabdžių tipai ir skirtingos pavaros.
 
-### <a name="next-step"></a>Kitas veiksmas 
+### <a name="next-step"></a><a name="sequence"></a>Kitas veiksmas
 
 Toliau nurodyti aštuoni užduočių vedliai išvardyti tokia tvarka, kokia juos turite atlikti. 
 

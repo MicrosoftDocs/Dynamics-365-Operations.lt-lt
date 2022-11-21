@@ -10,18 +10,30 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: da7e8a47496092a00ecc05c17933cc0e0cdb0fd0
-ms.sourcegitcommit: 27ce4fc706100b626b81c3a1023238acd872e76c
+ms.openlocfilehash: 21abbffe6b16217a0d2e20f662faa080420da12e
+ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9702201"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9764245"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Kas nauja ar pasikeitė „Warehouse Management“ mobiliųjų įrenginių programėlėje
 
 [!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje pateikiamos naujos funkcijos, pataisos, patobulinimai ir žinomos kiekvienos "Microsoft" išleistos sandėlio valdymo mobiliosios programos versijos problemos Dynamics 365 Supply Chain Management.
+
+## <a name="version-20370"></a>2.0.37.0 versija
+
+Šioje versijoje pristatomos toliau pateiktos naujos funkcijos, klaidų taisymai ir patobulinimai:
+- Įtrauktas vartotojo parametras, kuris leidžia darbuotojams pasirinkti, kur programoje bus rodomos produkto nuotraukos (kortelėse ir veiksmų antraštėse, tik veiksmų antraštėse arba ne visose). 
+- Pagerinęs informacijos kortelės ekrano maketą, sumažino žingsnio ir kiekio įvesties įvestyje dydį, kuris palieka daugiau vietos kitam turiniui. 
+- Patobulinta vartotojo sąsaja, kai veikia skirtuko įrenginys. 
+- Patobulintas viso ekrano režimas (taikomas tik įrenginiams su aparatūros klaviatūra). 
+- Pagerinti rezultatai rūšiuojant išsamios informacijos korteles ir pasirinktinius puslapius pagal prioritetą arba sub prioritetą (DataPriority arba DisplaySubPriority). 
+- Įtrauktas kalbų palaikymas. 
+- Padidintas stabilumą. 
+- Patobulinta keletas vaizdų ir piktogramų. 
 
 ## <a name="version-20350"></a>2.0.35.0 versija
 

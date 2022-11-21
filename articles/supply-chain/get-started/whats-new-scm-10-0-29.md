@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: d12932f35b3b451577d38948f60bc3a73c10e2a0
-ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
+ms.openlocfilehash: 8f6ba18096cffe907c339ad525c99535bc5ee568
+ms.sourcegitcommit: 7745c4bd3ab3aace4b4cb814eaf0cfdbae4a0cbd
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714839"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9784699"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10029-october-2022"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.29 versijoje (2022 m. spalio mėn.)
 
@@ -33,7 +33,7 @@ Tolesnėje lentelėje pateiktos funkcijos, kuri yra šiame leidime. Mes galime a
 
 | Funkcijos sritis | Funkcija | Daugiau informacijos | Įjungė   |
 |---|---|---|---|
-| Atsargos ir logistika | [Paskirstyti ir rezervuoti WMS prekes atsargų matomume](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/allocate-reserve-whs-items-inventory-visibility) | Jau greitai | Įgalinta pagal numatytuosius nustatymus |
+| Atsargos ir logistika | [Paskirstyti ir rezervuoti WMS prekes atsargų matomume](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/allocate-reserve-whs-items-inventory-visibility) | [WMS prekių „Inventory Visibility“ palaikymas](../inventory/inventory-visibility-whs-support.md) | Įgalinta pagal numatytuosius nustatymus |
 | Atsargos ir logistika | [Iš anksto įkelti supaprastintą turimų atsargų sąrašus](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | [Naudokite programą „Inventory Visibility“](../inventory/inventory-visibility-power-platform.md) | Įgalina aptarnavimo konfigūracija |
 | Tiekimo automatizavimas pagal užsakymą | [Tiekimo automatizavimas pagal užsakymą](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-to-order-supply-automation) | [Tiekimo automatizavimas pagal užsakymą](../master-planning/make-to-order-supply-automation.md) | Priemonių valdymas:<br>*Tiekimo automatizavimas pagal užsakymą* |
 | Planuojama | [Peržiūrėti ir taikyti išsamias DDMRP žinias](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/view-apply-detailed-insights-ddmrp) | [Poreikio valdomas medžiagų poreikių planavimo peržiūra](../master-planning/planning-optimization/ddmrp-overview.md) | Priemonių valdymas:<br>*(Peržiūros versija) Planavimo optimizavimo DDMRP* |

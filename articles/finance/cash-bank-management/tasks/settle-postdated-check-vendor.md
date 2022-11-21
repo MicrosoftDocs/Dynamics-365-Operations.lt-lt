@@ -2,23 +2,23 @@
 title: Vėlesnio tiekėjo čekio sudengimas
 description: Sudenkite vėlesnį čekį, išduotą tiekėjui, kai bankas apdorojo čekio operaciją, po to, kai čekis tapo vėlesniu ir bankas jį apdorojo.
 author: kweekley
-ms.date: 08/29/2018
+ms.date: 11/15/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendPostDatedChecks, LedgerJournalTable, LedgerJournalTransDaily, LedgerTransVoucher
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9564bf0ded6acbd05c7953798ea02959babbdfd
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 3e3816a2f1c95d568a173cb07daad0473703da9c
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726300"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779507"
 ---
 # <a name="settle-a-postdated-check-for-a-vendor"></a>Vėlesnio tiekėjo čekio sudengimas
 
@@ -36,17 +36,17 @@ Prieš pradėdami šią atlikite toliau nurodytas procedūras.
 
 Šios procedūros vaidmuo yra Iždininkas. Šioje procedūroje naudojama demonstracinė įmonė USMF.
 
-1. Pasirinkite Mokėtinos sumos > Mokėjimai > Vėlesni tiekėjo čekiai.
-2. Spustelėkite Sudengimas.
-3. Spustelėkite Sudengti atsiskaitymo įrašus.
+1. Pereikite į **tiekėjo > > mokėtinų sumų čekius**.
+2. Spustelėkite **Sudengti**.
+3. Spustelėkite Sudengti **tarpuskaitos įrašus**.
     * Apmokėkite tiekėjo čekio operacijos sąskaitą.  
 4. Uždarykite puslapį.
-5. Pasirinkite Didžioji knyga > Žurnalų įrašai > Bendrieji žurnalai.
-6. Lauke Rodyti pasirinkite „Visi‟.
-7. Pažymėkite arba išvalykite žymės langelį Rodyti tik vartotojo sukurtus.
+5. Eikite į **Didžio knyga > Žurnalo įrašai > Bendrieji žurnalai**.
+6. **Lauke Rodyti** pasirinkite **Visi**.
+7. Pažymėkite arba išvalykite žymės **langelį Rodyti tik vartotojo** sukurtus.
 8. Sąraše pažymėkite pasirinktą eilutę.
-9. Spustelėkite Eilutės.
-10. Spustelėkite Kvitas.
+9. Spustelėkite **Eilutės**.
+10. Spustelėkite **Kvitas**.
 11. Uždarykite puslapį.
 
 

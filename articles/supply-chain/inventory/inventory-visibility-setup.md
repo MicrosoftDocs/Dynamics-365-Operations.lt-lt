@@ -2,7 +2,7 @@
 title: Įdiekite Inventoriaus matomumo papildinį
 description: Šiame straipsnyje aprašoma, kaip įdiegti "Microsoft" atsargų matomumo priedą Dynamics 365 Supply Chain Management.
 author: yufeihuang
-ms.date: 05/27/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: eb17f24b90933dac0f875bb0ef2d5039a240b197
-ms.sourcegitcommit: 1ca4ad100f868d518f3634dca445c9878962108e
+ms.openlocfilehash: c08568b14d7f5c79a1d3609107a88f905498ce2b
+ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/01/2022
-ms.locfileid: "9388547"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9762787"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>„Inventory Visibility“ diegimas ir nustatymas
 
@@ -24,7 +24,7 @@ ms.locfileid: "9388547"
 
 Šiame straipsnyje aprašoma, kaip įdiegti "Microsoft" atsargų matomumo priedą Dynamics 365 Supply Chain Management.
 
-Jums būtina naudoti „Microsoft Dynamics Lifecycle Services“ (LCS) siekiant įdiegti inventoriaus matomumo papildinį. LCS yra bendradarbiavimo portalas suteikiantis aplinką ir reguliariai naujinamų paslaugų rinkinį, kuris padeda jums valdyti programos gyvavimo ciklą jūsų „finance and operations“ programose. Dėl daugiau informacijos, žr. [„Lifecycle Services“ ištekliai](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
+Kad įdiegtumėte [Microsoft Dynamics atsargų matomumo priedą](https://lcs.dynamics.com/v2), turite naudoti ciklo tarnybas. Vykdymo ciklo tarnybos yra bendradarbiavimo portalas, kuriame teikiama aplinka ir reguliariai atnaujintų tarnybų rinkinys, padėsiančių valdyti programų finansų ir operacijų programėlių vykdymo ciklą. Dėl daugiau informacijos, žr. [„Lifecycle Services“ ištekliai](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
 > [!TIP]
 > Rekomenduojame prisijungti prie vartotojų grupės Atsargų matomumas, kurioje galima rasti naudingų instrukcijų, gauti naujausius naujinimus ir registruoti bet kokius klausimus, kurie gali kilti dėl atsargų matomumo naudojimo. Norėdami prisijungti, siųskite el. laišką atsargų matomumo [produkto komandai inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) tiekimo grandinės valdymo aplinkos ID.
@@ -33,7 +33,7 @@ Jums būtina naudoti „Microsoft Dynamics Lifecycle Services“ (LCS) siekiant 
 
 Prieš jums įdiegiant inventoriaus matomumo papildinį, atlikite šiuos veiksmus:
 
-- Gaukite LCS diegimo projektą su mažiausiai viena patalpinta aplinka.
+- Įgę vykdymo ciklo tarnybų diegimo projektą, kuriame įdiegta bent viena aplinka.
 - Įsitikinkite, kad baigtos būtinosios priedų nustatymo sąlygos, pateikiamos skyriuje Priedų apžvalga buvo patenkintos. Informacijos apie šias būtinąsias sąlygas rasite [Priedų apžvalga](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Atsargų matomumui nereikia dvigubo rašymo susiejimo.
 
 > [!NOTE]
@@ -46,23 +46,23 @@ Jei turite kokių klausimų apie šias būtinąsias sąlygas, susisiekite su pap
 Prieš įdiegsdami priedą, užregistruokite programą ir pridėkite kliento slaptažodį Azure Active Directory (Azure AD) pagal savo „Azure" abonementą. Instrukcijų ieškokite Registruoti [programą ir Pridėti kliento](/azure/active-directory/develop/quickstart-register-app) ir [Įtraukti kliento raktą](/azure/active-directory/develop/quickstart-register-app#add-a-certificate). Būtinai užsirašykite programos **(kliento) ID**, **·** **kliento slapto ir nuomininko ID** reikšmių pastabą, nes vėliau jų prireiks.
 
 > [!IMPORTANT]
-> Jei turite daugiau nei vieną LCS aplinką, kiekvienai iš jų Azure AD sukurkite kitą programą. Jei norėdami įdiegti atsargų matomumo priedą skirtingoms aplinkai naudojate tą patį programos ID ir nuomininko ID, atpažinimo ženklo išdavimas bus taikomas senesnėms aplinkai. Todėl galioja tik paskutinė įdiegtis.
+> Jei turite daugiau nei vieną ciklo tarnybų aplinką, kiekvienai iš jų sukurkite Azure AD kitą programą. Jei norėdami įdiegti atsargų matomumo priedą skirtingoms aplinkai naudojate tą patį programos ID ir nuomininko ID, atpažinimo ženklo išdavimas bus taikomas senesnėms aplinkai. Todėl galioja tik paskutinė įdiegtis.
 
 Kai užregistruojate programą ir pridedate kliento slaptą seką, atlikite šiuos veiksmus, kad įdiegtumėte atsargų „Azure AD“ matomumo priedą.
 
-1. Prisijunkite prie [LCS](https://lcs.dynamics.com/Logon/Index).
+1. Prisijunkite prie [ciklo tarnybų](https://lcs.dynamics.com/Logon/Index).
 1. Pagrindiniame puslapyje pasirinkite projektą, kuriame jūsų aplinka talpinta.
 1. Projekto puslapyje pasirinkite aplinką, kurioje norite įdiegti papildinį.
 1. Aplinkos puslapyje slinkite žemyn, kol pamatysite skyrių **Aplinkos priedai** skyriuje **„Power Platform“ integravimas** skyriuje. Ten galite rasti aplinkos „Dataverse“ pavadinimą. „Dataverse“ patvirtinkite, kad aplinkos pavadinimas yra tas, kurį norite naudoti atsargų matomumui.
 
     > [!NOTE]
-    > Šiuo metu „Dataverse“ palaikomos tik aplinkos, kurios sukurtos naudojant LCS. Jei jūsų Dataverse aplinka buvo sukurta kokiu nors kitu būdu (pavyzdžiui, PowerApps naudojant administravimo centrą) ir jei ji susieta su jūsų tiekimo grandinės valdymo aplinka, pirmiausia, prieš diegdami atsargų matomumo priedą, turite išspręsti susiejimo problemą.
+    > Šiuo metu palaikomos Dataverse tik aplinkos, kurios sukurtos naudojant ciklo tarnybas. Jei jūsų Dataverse aplinka buvo sukurta kokiu nors kitu būdu (pavyzdžiui, PowerApps naudojant administravimo centrą) ir jei ji susieta su jūsų tiekimo grandinės valdymo aplinka, pirmiausia, prieš diegdami atsargų matomumo priedą, turite išspręsti susiejimo problemą.
     >
-    > Gali būti, kad jūsų dvigubo rašymo aplinka susieta su egzemplioriumi Dataverse, o LCS nėra nustatyta Power Platform integruoti. Šis susiejimo neatitikimas gali sukelti netikėtą veikimo būdą. Rekomenduojame LCS aplinkos informacija atitinka tai, prie ko prijungi naudojate dvigubo rašymo būdu, kad tą patį ryšį galėtų naudoti verslo įvykiai, virtualios lentelės ir priedai. Informacijos [apie tai, kaip išspręsti susiejimo](../../fin-ops-core/dev-itpro/data-entities/dual-write/lcs-setup.md#linking-mismatch) problemą, rasite susiejimų neatitikimą. Išsprendę susiejimo problemą galite toliau diegti atsargų matomumą.
+    > Gali būti, kad jūsų dvigubo rašymo aplinka susieta Dataverse su egzemplioriumi, kol ciklo tarnybos nėra nustatytos Power Platform integruoti. Šis susiejimo neatitikimas gali sukelti netikėtą veikimo būdą. Rekomenduojame, kad ciklo tarnybų aplinkos informacija atitiktų tai, prie ko prijungiojote dvigubo rašymo būdu, kad tą patį ryšį galėtų naudoti verslo įvykiai, virtualiosios lentelės ir priedai. Informacijos [apie tai, kaip išspręsti susiejimo](../../fin-ops-core/dev-itpro/data-entities/dual-write/lcs-setup.md#linking-mismatch) problemą, rasite susiejimų neatitikimą. Išsprendę susiejimo problemą galite toliau diegti atsargų matomumą.
 
 1. Skyriuje **Aplinkos papildiniai** pasirinkite **Diegti naują papildinį**.
 
-    ![Aplinkos puslapis LCS](media/inventory-visibility-environment.png "Aplinkos puslapis LCS")
+    ![Ciklo tarnybų aplinkos puslapis](media/inventory-visibility-environment.png "Ciklo tarnybų aplinkos puslapis")
 
 1. Rinkitės **Diegti naują papildinį** nuorodą. Pasirodo esamų atvirų papildinių sąrašas.
 1. Sąraše rinkitės **Atsargų matomumas**.
@@ -78,9 +78,11 @@ Kai užregistruojate programą ir pridedate kliento slaptą seką, atlikite šiu
 1. Kairiajame „Dataverse“ naršymo lange **pasirinkite** Programėlių **skyrių ir patikrinkite** ar atsargų matomumas sėkmingai „Power Apps“ įdiegtas. Jei **Programos** skyrius neegzistuoja, susisiekite su atsargumo matomumo produkto komanda [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
 
 > [!NOTE]
-> Jei iš LCS puslapio reikia daugiau nei valandos, jūsų vartotojo sąskaitai tikriausiai trūksta teisės diegti sprendimus Dataverse aplinkoje. Norėdami išspręsti problemą, atlikite šiuos veiksmus:
+> Jei sistema įspės, kad neturite teisės įdiegti atsargų matomumo ciklo tarnybose, kreipkitės į administratorių, kad pakeistumėte savo teisę.
 >
-> 1. Atšaukite atsargų matomumo priedo diegimo procesą iš LCS puslapio.
+> Jei iš ciklo tarnybų puslapio reikia daugiau nei valandos, jūsų vartotojo abonementui tikriausiai trūksta teisės diegti sprendimus aplinkoje Dataverse. Norėdami išspręsti problemą, atlikite šiuos veiksmus:
+>
+> 1. Atšaukite atsargų matomumo priedo diegimo procesą iš ciklo tarnybų puslapio.
 > 1. Prisijunkite prie administravimo [Microsoft 365 centro ir](https://admin.microsoft.com) įsitikinkite, kad vartotojo abonementui, kurį Dynamics 365 Unified Operations norite naudoti norėdami įdiegti papildą, priskirta "Plano" licencija. Jei reikia, priskirkite licenciją.
 > 1. Prisiregistruokite administravimo [Power Platform centre](https://admin.powerplatform.microsoft.com) naudodami reikiamą vartotojo abonementą. Tada įdiekite atsargų matomumo priedą, atlikdami šiuos veiksmus:
 >     1. Pasirinkite aplinką, kurioje norite įdiegti priedą.
@@ -88,13 +90,13 @@ Kai užregistruojate programą ir pridedate kliento slaptą seką, atlikite šiu
 >     1. Pasirinkite **įdiegti programą**.
 >     1. Pasirinkti **atsargų matomumą**
 >
-> 1. Baigę diegti grįžkite į LCS **puslapį ir bandykite dar kartą iš naujo įdiegti atsargų matomumo** priedą.
+> 1. Baigę diegti grįžkite į **ciklo tarnybų puslapį ir pabandykite dar kartą iš naujo įdiegti atsargų matomumo** priedą.
 
 ## <a name="set-up-inventory-visibility-in-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Nustatyti atsargų matomumą „Supply Chain Management“ dalyje
 
 ### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Aplinkos matomumo integravimo paketo diegimas
 
-Jei naudojate „Supply Chain Management” 10.0.17 ar senesnę versiją, susisiekite su atsargų matomumo samdymo palaikymo komanda el. paštu [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com), kad gautumėte paketo failą. Tada įdiekite paketą LCS.
+Jei naudojate „Supply Chain Management” 10.0.17 ar senesnę versiją, susisiekite su atsargų matomumo samdymo palaikymo komanda el. paštu [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com), kad gautumėte paketo failą. Tada įdiekite paketą ciklo tarnybose.
 
 > [!NOTE]
 > Jei diegiant įvyksta versijų neatitikimo klaida, turite rankiniu būdu importuoti X++ projektą į savo programavimo aplinką. Tada sukurkite diegiamą paketą savo programavimo aplinkoje ir įdiekite jį savo gamybos aplinkoje.
@@ -135,18 +137,18 @@ Norėdami pašalinti atsargų matomumo priedą, atlikite šiuos veiksmus:
 
 1. Prisijunkite prie „Supply Chain Management“.
 1. Pereikite prie **atsargų valdymo periodinio \> atsargų \> matomumo integravimo ir** išjunkite užduotį.
-1. Eikite į LCS ir atidarykite aplinkos, kurioje norite pašalinti priedą, puslapį ([taip pat žr. parinktį Atsargų matomumo priedas](#install-add-in)).
+1. Eikite į ciklo tarnybas ir atidarykite aplinkos, kurioje norite pašalinti papildinį, puslapį ([taip pat žr. parinktį Atsargų matomumo priedas](#install-add-in)).
 1. Pasirinkite **Pašalinti**.
-1. Pašalinimo procesas dabar nutraukia atsargų matomumo priedą, išregistruojami iš LCS ir panaikinami laikini duomenys, saugomi atsargų matomumo duomenų talpykloje. Tačiau pirminiai atsargų duomenys, kurie buvo sinchronizuoti su jūsų abonementu Dataverse, vis dar saugomi ten. Norėdami panaikinti šį duomenis, atlikite likusią procedūrą.
+1. Pašalinimo procesas dabar nutraukia atsargų matomumo priedą, išregistruojami iš ciklo tarnybų ir panaikinami laikini duomenys, saugomi atsargų matomumo priedo duomenų talpykloje. Tačiau pirminiai atsargų duomenys, kurie buvo sinchronizuoti su jūsų abonementu Dataverse, vis dar saugomi ten. Norėdami panaikinti šį duomenis, atlikite likusią procedūrą.
 1. Atidarykite [Power Apps](https://make.powerapps.com).
-1. Naršymo **juostoje** pasirinkti Aplinką
-1. Pasirinkite aplinką Dataverse, priklijuota prie jūsų LCS aplinkos.
+1. Naršymo **juostoje** pasirinkite Aplinka.
+1. Pasirinkite aplinką Dataverse, kuri yra ryšį su jūsų ciklo tarnybų aplinka.
 1. Eikite **į** sprendimus ir panaikinkite šiuos sprendimus šia tvarka:
     1. "Dynamics 365" atsargų matomumas – prieraišo žymę
+    1. "Dynamics 365" atsargų matomumas – įprasti
     1. "Dynamics 365" atsargų matomumas – programa
     1. "Dynamics 365" atsargų matomumas – valdikliai
-    1. "Dynamics 365" atsargų matomumas – dimensijos
-    1. "Dynamics 365" atsargų matomumas – pagrindinis
+    1. "Dynamics 365" atsargų matomumas – pagrindinis 
 
     Kai panaikinate šiuos sprendimus, duomenys, saugomi lentelėse, taip pat bus panaikinti.
 

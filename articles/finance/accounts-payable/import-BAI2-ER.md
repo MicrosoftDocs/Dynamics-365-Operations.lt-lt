@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: d24e117b21e291dba1e41d9fa15187b84ff795cf
-ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
-ms.translationtype: HT
+ms.openlocfilehash: bfc1c2021387ed35e6ccb513167e896eddef2eaf
+ms.sourcegitcommit: ea79bf014bbf495ac8e28db29502c8bd85a75f32
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "9752726"
+ms.lasthandoff: 11/11/2022
+ms.locfileid: "9759606"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>Nustatyti pažangų banko suderinimo importavimą naudojant elektronines ataskaitas
 
@@ -37,6 +37,9 @@ Išplėstinės banko suderinimo priemonė leidžia importuoti elektroninius bank
 5. Konfigūracijos sąraše rasti išplėstinio banko **suderinimo išrašo modelio \> ABR BAI2 formatą**.
 6. **Pasirinkti BAI2** formatą.
 7. Skirtuke **Versijos** FastTab pasirinkite naujausią versiją, tada pasirinkite **Importuoti**.
+
+>[!NOTE]
+>**BAI2 banko išrašo** modelis bus pasenusis vėlesne data. 
 
 ## <a name="set-up-the-bank-statement-format"></a>Banko išrašo formato nustatymas
 

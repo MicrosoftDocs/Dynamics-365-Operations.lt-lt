@@ -1,35 +1,37 @@
 ---
 title: Parduotuvės užsakymų įvykdymas
-description: Šiame straipsnyje pateikiama parduotuvės užsakymo įvykdymo apžvalga.
+description: Šiame straipsnyje pateikiama parduotuvės užsakymo įvykdymo apžvalga Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 10/30/2017
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: RetailStoreTable, RetailTillLayout
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2017-10-30
-ms.dyn365.ops.version: ''
-ms.openlocfilehash: 23f0b6ff8ec105da04b4b2416d8f6864c70c92fc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bf338c6d0b6a237cad2974d36c23238029fe9b38
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854983"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785078"
 ---
 # <a name="store-order-fulfillment"></a>Parduotuvės užsakymų įvykdymas
 
 [!include [banner](includes/banner.md)]
+
+Šiame straipsnyje pateikiama parduotuvės užsakymo įvykdymo apžvalga Microsoft Dynamics 365 Commerce.
 
 Daugelis mažmenininkai norėtų optimizuoti užsakymo įvykdymą, suteikdami galimybę parduotuvėms vykdyti užsakymus. Užsakymų įvykdymas parduotuvės lygiu gali palengvinti konkrečios parduotuvės atsargų perpildymo atvejais, taip pat tai gali būti naudinga dėl logistinių tikslų tais atvejais, kai parduotuvė turi papildomų pajėgumų arba yra arčiau kliento, kuriam reikia siųsti prekes. Šiems poreikiams patenkinti elektroniniame kasos aparate galima naudoti bendrąją užsakymų įvykdymo operaciją.
 
 Užsakymams, kurie turi būti įvykdyti konkrečioje parduotuvėje, skirtas specialus parduotuvės sandėlis, nurodytas užsakymo antraštėje arba eilutėje.
 
 Užsakymo įvykdymo operacija elektroniniame kasos aparate suteikia vieną darbo sritį elektroniniame kasos aparate, kurią galima naudoti užsakymams apdoroti. Tai apima viską nuo užsakymo priėmimo, jo pažymėjimo išsiųstu arba paėmimo parduotuvėje inicijavimo.
+
+Toliau pateiktame vaizdo įraše pateikiama parduotuvės įvykdymo galimybių apžvalga ir parodomoji versija Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bRXE]
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>Prieiga prie bendrojo užsakymų įvykdymo srities elektroniniame kasos aparate
 

@@ -2,7 +2,7 @@
 title: Uždaryti finansinius metus
 description: Šios procedūros veiksmai padeda atlikti metų pabaigos uždarymo procesą, kuriuo balansai perkeliami į kitus finansinius metus.
 author: aprilolson
-ms.date: 07/11/2019
+ms.date: 11/11/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8eb36cb856d191d64561060e7de4a1f9fd947882
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 4d52e6789a96defaf1d0132fe97fc183a05af207
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717480"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779818"
 ---
 # <a name="close-the-fiscal-year"></a>Uždaryti finansinius metus
 
@@ -40,7 +40,7 @@ Jei nustatyta **Taip**, sukuriamos dvi operacijos. Finansiniais metais sukuriama
 
 5. Pasirinkite **Taip** arba **Ne, norėdami** nustatyti **finansinių metų būseną kaip visiškai uždarytą**.
 
-Jei nustatyta **Taip**, finansinių metų būsena bus nustatyta visam laikui uždaryta. Kadangi visam laikui uždarytų metų negalima atidaryti iš naujo, geriausia nustatyti šią pasirinktį kaip **Ne**.  
+Jei nustatyta **Taip**, finansinių metų būsena bus nustatyta visam laikui **uždaryta.** Kadangi visam laikui uždarytų metų negalima atidaryti iš naujo, geriausia nustatyti šią pasirinktį kaip **Ne**.  
 
 6. Pasirinkite **Taip** arba **Ne**, jei **norite nurodyti kvito numerį, kuris turi būti užpildytas metų pabaigos uždarymo pasirinkties** metu.
 
