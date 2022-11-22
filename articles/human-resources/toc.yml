@@ -302,11 +302,13 @@
                       href: hr-admin-troubleshooting-integration.md
             - name: „Human Resources“ nustatymas
               items:
-                - name: „Human Resources“ parametrų konfigūravimas
+                - name: Personalo parametrų konfigūravimas
                   href: hr-setup-parameters.md
-                - name: Bendrai naudojamų „Human Resources“ parametrų konfigūravimas
+                - name: Bendrai naudojamų personalo parametrų konfigūravimas
                   href: hr-setup-shared-parameters.md
-                - name: „Human Resource“ darbo eigų nustatymas
+                - name: Apriboti prieigą prie darbininkų informacijos pagal juridinį subjektą
+                  href: hr-advanced-security.md
+                - name: Personalo darbo eigų nustatymas
                   href: hr-workflow-manage-employee-information.md
                 - name: Susipažinkite su datos ir laiko laukais
                   href: hr-setup-date-time-fields.md
@@ -848,6 +850,8 @@
               href: hr-admin-integration-common-data-service.md
             - name: „Dataverse“ virtualiųjų lentelių konfigūravimas
               href: hr-admin-integration-common-data-service-virtual-entities.md
+            - name: Virtualiųjų lentelių integravimo sauga
+              href: hr-security-config.md
             - name: Integravimo su „Finance“ konfigūravimas
               href: hr-admin-integration-finance.md
             - name: Kurkite nuorodas iš „Human resources“ į kitą aplinką

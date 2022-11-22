@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2a75d1e3e68837a437b2369ba369b0063e015b12
-ms.sourcegitcommit: 78cbb125f20a33df38bda0546203b8f837cbcd93
+ms.openlocfilehash: a25f20c320b905a2cdd3091e76e3c5e73f1a845a
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "9751964"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752755"
 ---
 # <a name="year-end-activities-faq"></a>DUK apie metų pabaigos veiklas 
 
@@ -95,7 +95,24 @@ Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoj
 - Modulis: Didžioji knyga
 - Funkcijos pavadinimas: Našumo patobulinimai, skirti perkurti finansinių dimensijų rinkinius
 
-## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2021"></a>Mokėtinos sumos: kokie pakeitimai atlikti siekiant palaikyti 2021-ųjų 1099 metų pabaigos ataskaitas?
+## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2022"></a>Mokėtinos sumos: kokie pakeitimai atlikti siekiant palaikyti 2022 m. 1099 metų pabaigos ataskaitas?
+
+#### <a name="update-to-all-1099-forms"></a>Atnaujinti į visas 1099 formas
+Buvo atlikti šie 2022 m. mokestinamų metų visų 1099 formų pakeitimai:
+
+  - 2021 m. buvo fiksuoti 1099 formose. Pradedant nuo 2022 m., metai užpildomi pagal ataskaitą. 
+
+#### <a name="1099-misc"></a>1099-MISC
+Buvo atlikti šie 2022 m. mokestinamų metų 1099-MISC formos naujinimai:
+
+ - 13 langelis: Dabar nurodo užsienio sąskaitoms taikomų mokestinių prievolių vykdymo akto (FATCA) pildymo reikalavimą. 
+ - 14 langelis: dabar naudojamas norint pateikti ataskaitą apie per didelius auksinių parašiutų mokėjimus. 
+ - 15 langelis: dabar naudojamas norint pateikti ataskaitą apie mokėjimo pagal nenustatytas atidėtas kompensacijas (NQDC) planus. 
+ - 16 langelis: dabar naudojamas norint teikti ataskaitą apie valstybės išskaičiuotus mokesčius.
+ - 17 langelis: dabar naudojamas teikti ataskaitą apie mokėtojo valstybės numerį.
+ - 18 langelis: dabar naudojamas norint teikti ataskaitą apie valstybės pajamas. 
+
+## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2021"></a>Mokėtinos sumos: kokie pakeitimai atlikti siekiant palaikyti 2021 m. 1099 metų pabaigos ataskaitas?
 
 2021 m. DIV, NEC ir MISC formos buvo šiek tiek pakeistos ir buvo įtraukti kai kurie papildomi langeliai.
 

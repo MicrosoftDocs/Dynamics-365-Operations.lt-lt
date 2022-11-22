@@ -590,6 +590,8 @@
                           href: dev-itpro/adyen-connector-faq.md
                         - name: Konfigūruoti „Google Pay“ su „Adyen“
                           href: dev-itpro/google-pay-adyen.md
+                        - name: Nustatyti „Apple Pay“ su „Adyen“
+                          href: dev-itpro/apple-pay-adyen.md
                         - name: '„Dynamics 365 Payment Connector“, skirtos sprendimui „Adyen“, trikčių šalinimas'
                           href: dev-itpro/adyen-connector-troubleshoot.md
                     - name: Internetinių mokėjimo priemonių įrašymas naudojant „Adyen“ jungtį
@@ -602,9 +604,11 @@
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: Sąskaitų faktūrų apmokėjimo scenarijų nustatymas
                       href: payinvoice.md
+                    - name: Išankstiniai mokėjimai „Dynamics 365 Commerce“
+                      href: dev-itpro/prepayments-commerce.md
                     - name: Besidubliuojančių mokėjimų prevencija
                       href: duplicate-payment-protection.md
-                    - name: Integruotų kanalų mokėjimų apžvalga
+                    - name: Daugiakanalio mokėjimų apžvalga
                       href: omni-channel-payments.md
                     - name: Keli galimi mokėjimo būdai atsiimant prekes parduotuvėje
                       href: dev-itpro/multiple-payments-pickup.md

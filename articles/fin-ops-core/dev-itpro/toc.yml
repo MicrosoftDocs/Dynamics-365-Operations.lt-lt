@@ -1652,6 +1652,8 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: Vartotojų priskyrimas saugos vaidmenims
                   href: sysadmin/tasks/assign-users-security-roles.md
+                - name: „Active Directory“ saugos grupės
+                  href: sysadmin/active-directory-security-group.md
                 - name: Tinkintos saugos konfigūracijos importavimas ir eksportavimas naudojant duomenų valdymą
                   href: sysadmin/import-export-customized-security.md
                 - name: Užduoties įrašų saugos diagnostika

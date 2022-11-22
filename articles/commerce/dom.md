@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 26817321753c8e39d61957b4ea2004f20daf1b2f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a18441c44869e0e95cf79e35045dd7eacca7e43d
+ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878518"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9764186"
 ---
 # <a name="distributed-order-management-dom"></a>Paskirstytų užsakymų tvarkymas (DOM)
 
@@ -68,9 +68,9 @@ Tolesnėje iliustracijoje rodomas pardavimo užsakymo ciklas DOM sistemoje.
         > [!NOTE]
         > Supaprastintoji sprendimo priemonė suteikiama tam, kad pardavėjai DOM funkciją galėtų išbandyti nediegdami specialios licencijos. Organizacijos supaprastintosios sprendimo priemonės neturėtų naudoti gamybos aplinkose.
         >
-        > Gamybos sprendimo patobulina veikimą (ribojama, kiek užsakymų ir užsakymų eilučių galima apdoroti vieno vykdymo metu) ir rezultatų konvergavimą (kai kuriose situacijose naudojant tam tikrą užsakymų paketą galima gauti ne geriausią rezultatą). Kai kurioms taisyklės, pvz., **Daliniai užsakymai** ir **Maksimalus vietų skaičius** reikalauja gamybos sprendimo priemonės.
+        > Gamybos sprendimo patobulina veikimą (ribojama, kiek užsakymų ir užsakymų eilučių galima apdoroti vieno vykdymo metu) ir rezultatų konvergavimą (kai kuriose situacijose naudojant tam tikrą užsakymų paketą galima gauti ne geriausią rezultatą). Taisyklei **Daliniai užsakymai** reikia gamybos sprendimo priemonės.
 
-6. Grįžkite į **„Retail“ ir „Commerce“ \> Paskirstytų užsakymų tvarkymas \> Sąranka \> DOM parametrai**.
+6. Grįžkite į **Mažmeninės prekybos ir prekybos \> Paskirstytų užsakymų tvarkymas \> Sąranka \> DOM parametrai**.
 7. Skirtuke **Numeracijos** įvairiems DOM objektams priskirkite reikiamas numeracijas.
 
     > [!NOTE]

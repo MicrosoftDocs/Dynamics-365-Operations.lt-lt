@@ -1184,13 +1184,15 @@
                   href: general-ledger/tasks/mass-financial-period-close.md
                 - name: DUK apie metų pabaigos veiklas
                   href: general-ledger/faq-year-end-activities.md
-                - name: DK sudengimai
+                - name: Didžiosios knygos sudengimai
                   href: general-ledger/ledger-settlements.md
                 - name: Informacijos bendrinimas tarp didžiosios knygos atsiskaitymo ir metų pabaigos uždarymo
                   href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
-                - name: DK užsienio valiutos kurso pasikeitimas
+                - name: Automatizuoti didžiosios knygos sudengimai
+                  href: general-ledger/auto-settle.md
+                - name: Didžiosios knygos užsienio valiutos kurso pasikeitimas
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
-                - name: DK sąskaitos balansai
+                - name: Didžiosios knygos sąskaitos balansai
                   href: general-ledger/general-ledger-account-balances.md
                 - name: Didžiosios knygos paskirstymo žurnalo apdorojimas
                   href: general-ledger/tasks/process-ledger-allocation-journal.md

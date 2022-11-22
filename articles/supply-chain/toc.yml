@@ -3389,12 +3389,14 @@
                   href: landed-cost\landed-cost-entities-cost-transactions.md
                 - name: Konteinerio veiklų objektas
                   href: landed-cost\landed-cost-entities-container-activities.md
-                - name: Tiekėjo SF objektai
+                - name: Tiekėjo sąskaitos faktūros objektai
                   href: landed-cost\landed-cost-entities-vendor-invoices.md
         - name: Sandėlio valdymas
           items:
             - name: Sandėlio valdymo apžvalga
               href: warehousing/warehouse-management-overview.md
+            - name: Darbo su sandėlio valdymo modulio nustatymu pradžia
+              href: warehousing/get-started-with-setting-up-module.md
             - name: Sandėlio gavimo operacijos
               items:
                 - name: Pirkimo užsakymų gaunamų krovinių sandėlio tvarkymas
