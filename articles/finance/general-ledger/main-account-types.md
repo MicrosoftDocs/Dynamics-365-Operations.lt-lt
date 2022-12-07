@@ -2,7 +2,7 @@
 title: Pagrindinės sąskaitos tipai
 description: Pagrindinės sąskaitos tipais nustatoma, kaip pagrindinė sąskaita naudojama sąskaitų plane.
 author: aprilolson
-ms.date: 01/11/2018
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2b260478592c3a49a78ede5921403a96c702e98
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 0f5611cdb3427079e040d30d97dbc91fca4bb078
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716865"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799368"
 ---
 # <a name="main-account-types"></a>Pagrindinės sąskaitos tipai
 
@@ -28,11 +28,11 @@ ms.locfileid: "8716865"
 
 Pagrindinės sąskaitos tipais nustatoma, kaip pagrindinė sąskaita naudojama sąskaitų plane.
 
-Kai sukuriate pagrindinę sąskaitą puslapyje Pagrindinės sąskaitos – sąskaitų planas, turite pasirinkti pagrindinę sąskaitą.
--   Pelnas ir nuostolis, Įplaukos ir išlaidos – šios pagrindinės sąskaitos naudojamos kaip registravimo sąskaitos. Pelno ir nuostolių sąskaitos naudojamos įplaukoms ir išlaidoms įrašyti. Visų pelno ir nuostolių, įplaukų ir išlaidų sąskaitų suma nustato metų pabaigos rezultatus. Įplaukų ir išlaidų pagrindinių sąskaitų funkcijos yra tokios pačios kaip ir Pelno ir nuostolių pagrindinių sąskaitų.
--   Balansas, Turtas, Įsipareigojimai ir Kapitalas – šios pagrindinės sąskaitos naudojamos kaip operacijų sąskaitos sumoms, kurias juridinis subjektas valdo ar yra skolingas, įrašyti.
--   Iš viso – šios pagrindinės sąskaitos naudojamos sąskaitų intervalams įtraukti. Konfigūruokite Bendrosios pagrindinės sąskaitos tipą naudodami puslapį Sąskaitų intervalas, kuriame rodoma bendra grupių balansų visų sąskaitų intervalų suma. Pasirinkę Bendrosios sąskaitos tipas, puslapį Sąskaitų intervalas pasiekite skirtuke Bendra spustelėję Bendrosios sumos.
--   Ataskaitos – šios pagrindinės sąskaitos naudojamos tik Brazilijos finansinėms ataskaitoms pateikti.
+Turite pasirinkti pagrindinės sąskaitos tipą, kai pagrindinės sąskaitos sukuriate pagrindinės sąskaitos **– sąskaitų plano** puslapyje.
+-   **Pelnas ir nuostolis** **·**, įplaukos ir **išlaidos**  – šios pagrindinės sąskaitos naudojamos kaip registravimo sąskaitos. **Pelno ir nuostolio** sąskaitos naudojamos įplaukoms ir išlaidoms įrašyti. Visų pelno ir nuostolių, įplaukų ir išlaidų sąskaitų suma nustato metų pabaigos rezultatus. **Įplaukų** ir **išlaidų** pagrindinių sąskaitų funkcija yra tokia pati kaip pelno **ir nuostolio** pagrindinių sąskaitų.
+-   **Balansas**, turtas **·**, **įsipareigojimai** **·**  ir kapitalas – šios pagrindinės sąskaitos naudojamos kaip operacijų sąskaitos, norint įrašyti sumas, kurias juridinis subjektas valdo arba yra skolingas.
+-   **Bendroji**  suma – šios pagrindinės sąskaitos naudojamos sąskaitų intervalams pridėti. Konfigūruokite **bendrosios** pagrindinės sąskaitos tipą sąskaitos **intervalo** puslapyje, kuriame rodoma bendroji visų sąskaitos intervalų grupės balansų suma. Abonemento intervalo **puslapį** galite pasiekti skirtuke **Bendra** **pasirinkdami** Bendrosios sumos, kai **pasirinktas** bendros sąskaitos tipas.
+-   **Ataskaitos**  – šios pagrindinės sąskaitos naudojamos tik Brazilijos finansinėse ataskaitose.
 
 Daugiau informacijos žr. [Nustatyti pagrindinės sąskaitos kategorijas](tasks/set-up-main-account-categories.md).
 

@@ -2,7 +2,7 @@
 title: Registruoti periodinius žurnalus
 description: Periodiniai žurnalai kartais vadinami pasikartojančias žurnalais nes suma, tekstas ir kitą informaciją kartojasi kiekvieną kartą, kai periodinis žurnalas nuskaitomas.
 author: aprilolson
-ms.date: 06/26/2019
+ms.date: 11/21/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 412098c2027344bfc5309d814ee70d6ee98ca765
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: bdc1d9f67a515e3cdc45e173b88982feceb0ebfd
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716921"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799392"
 ---
 # <a name="post-periodic-journals"></a>Registruoti periodinius žurnalus
 
@@ -31,15 +31,15 @@ Periodiniai žurnalai kartais vadinami pasikartojančias žurnalais nes suma, te
 3. Lauke **Pavadinimas** įveskite arba pasirinkite reikšmę.
 4. Sąraše spustelėkite saitą pasirinktoje eilutėje.
 5. Lauke **Aprašo laukas** surinkite reikšmę. Aprašą sudarys vėliau gauto periodinio žurnalo pavadinimas, todėl jį suteikite atitinkamą.
-6. **Veiksmų srityje** spustelėkite **Eilutės**. Periodinį žurnalą paprastai sudaro kelios eilutės. tačiau šis užduočių vadovas įtrauks tik vieną eilutę.
-7. Lauke **Data** įveskite datą. Lauke **Data** nurodyta kito perkėlimo į kasdienį žurnalą registravimo data. Žurnaluose, kurie bus gaunami kiekvieną mėnesį, rekomenduojama naudoti datą tame mėnesyje, kada žurnlas bus registruojamas – paprastai tai pirmoji arba paskutinioji laikotarpio data. Galima lauką Data palikti tuščią, ir datą nurodyti, kai gaunamas žurnalas, naudojant lauką Tuščia data. Kai operacijos nuskaitomos, laukas automatiškai atnaujinamas į kitą pasikartojančią datą. 
+6. **Veiksmų srityje** spustelėkite **Eilutės**. Periodinį žurnalą paprastai sudaro kelios eilutės. Tačiau šioje užduoties vadove bus tik viena eilutė.
+7. Lauke **Data** įveskite datą. Lauke **Data** nurodyta kito perkėlimo į kasdienį žurnalą registravimo data. Žurnalams, kurie bus nuskaitomi kiekvieną mėnesį, rekomenduojama naudoti to mėnesio datą, kada ji bus užregistruota. Paprastai tai būna pirmoji arba paskutinė laikotarpio data. Naudojant lauką **Tuščia** data galima palikti lauką **Data** tuščią ir nustatyti datą, kai žurnalas nuskaitomas. Nuskaitant operacijas laukas bus atnaujintas į kitą pasikartojančią datą. 
 8. Lauke **Sąskaita** nustatykite norimas reikšmes.
 9. Lauke **Aprašas** pasirinkite reikšmę.
 10. Uždarykite puslapį.
 11. Lauke **Debetas** įveskite skaičių.
 12. Lauke **Korespondentinė sąskaita** nustatykite norimas reikšmes.
-13. Lauke **Vienetas** pasirinkite „Mėnesiai‟.
-14. Lauke **Vienetų skaičius** įveskite „1‟.
+13. Lauke **Vienetas** pasirinkite **Mėnesiai**.
+14.  **Lauke Vienetų skaičius** įveskite **1**.
 15. Lauke **Paskutinė data** įveskite datą. Paskutinę datą įvedus į ankstesnį laikotarpį, nebus galima pasikartojančio žurnalo netyčia sukurti neteisingame pradžios laikotarpyje. Paskutinė diena bus atnaujinama vėliau, kiekvieną kartą nuskaitant periodinį žurnalą. 
 16. Spustelėkite **Įrašyti**.
 17. Eikite į **Naršymo sritis > Moduliai > Bendroji didžioji knyga > Žurnalo įrašai > Bendrieji žurnalai**.
@@ -51,7 +51,7 @@ Periodiniai žurnalai kartais vadinami pasikartojančias žurnalais nes suma, te
 23. **Veiksmų srityje** spustelėkite **Eilutės**.
 24. **Veiksmų srityje** spustelėkite **Periodinis žurnalas**.
 25. Spustelėkite **Nuskaityti žurnalą**.
-26. Lauke **Pabaigos data** įveskite datą. **Pabaigos data** naudojama kaip periodinio kvito eilučių galutinė data. Atsižvelgiant į pasikartojimo nuostatą, paskutinę datą ir datą Iki, gautame žurnale ta pati eilutė gali būti įtraukta daugiau nei vieną kartą. Data Iki automatiškai atnaujinama pagal seanso datą, kada paskutinį kartą periodinė eilutė buvo perkelta į žurnalą. 
+26. Lauke **Pabaigos data** įveskite datą. **Pabaigos data** naudojama kaip periodinio kvito eilučių galutinė data. Atsižvelgiant į pasikartojimo parametrą Paskutinė **data**  **ir Pabaigos data**, ta pati eilutė į gautą žurnalą gali būti įtraukta daugiau nei vieną kartą. Data **Iki automatiškai** atnaujinama, atsižvelgiant į paskutinio periodinės eilutės, kuri buvo perkelta į žurnalą, seanso datą. 
 27. Lauke **Periodinio žurnalo numeris** įveskite arba pasirinkite reikšmę.
 28. Sąraše spustelėkite saitą pasirinktoje eilutėje.
 29. Spustelėkite **Gerai**. Laikotarpio žurnalą dabar galima peržiūrėti, patvirtinti arba registruoti – tai priklauso nuo poreikio ir nustatymo.   

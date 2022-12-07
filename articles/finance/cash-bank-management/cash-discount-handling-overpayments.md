@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1afc8aec18c61b1ce488472adf540e47540eaa17
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: d7c4e98481bc3607d3dce68a6b6cb0478524442f
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715530"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804161"
 ---
 # <a name="cash-discounts-for-overpayments"></a>Permokėjimų mokėjimo nuolaidos
 
@@ -53,7 +53,9 @@ Klientas mokėjimo nuolaidos laikotarpiu sumoka 95,00. Mokėjimas yra sudengiama
 | Mokėjimas       | –95,00 | 0,00    |
 | Mokėjimo nuolaida | –10,50 | 0,00    |
 
-Sugeneruojami šie mokėjimo ir sudengimo apskaitos įrašai. **Mokėjimas**
+Sugeneruojami šie mokėjimo ir sudengimo apskaitos įrašai.
+
+**Mokėjimas**
 
 | Paskyra             | Debeto suma | Kredito suma |
 |---------------------|--------------|---------------|
@@ -85,7 +87,9 @@ Klientas mokėjimo nuolaidos laikotarpiu sumoka 95,00. Mokėjimas yra sudengiama
 | Mokėjimas       | –95,00 | –0,50   |
 | Mokėjimo nuolaida | –10,50 | 0,00    |
 
-Permokėta 0,50 suma lieka kaip atviras mokėjimo balansas mokėjimo ir gali būti sudengta su kita SF. Sugeneruojami šie mokėjimo ir sudengimo apskaitos įrašai. **Mokėjimas**
+Permokėta 0,50 suma lieka kaip atviras mokėjimo balansas mokėjimo ir gali būti sudengta su kita SF. Sugeneruojami šie mokėjimo ir sudengimo apskaitos įrašai. 
+
+**Mokėjimas**
 
 | Paskyra             | Debeto suma | Kredito suma |
 |---------------------|--------------|---------------|
@@ -118,7 +122,9 @@ Klientas mokėjimo nuolaidos laikotarpiu sumoka 95,00. Mokėjimas yra sudengiama
 | Mokėjimas       | –95,00 | –0,00   |
 | Mokėjimo nuolaida | –10,00 | 0,00    |
 
-Mokėjimo nuolaidos suma yra sumažinama nuo 10,50 iki 10,00. Mokėjimo ir SF laikomos sudengtomis. **Mokėjimas**
+Mokėjimo nuolaidos suma yra sumažinama nuo 10,50 iki 10,00. Mokėjimo ir SF laikomos sudengtomis. 
+
+**Mokėjimas**
 
 | Sąskaita             | Debeto suma | Kredito suma |
 |---------------------|--------------|---------------|

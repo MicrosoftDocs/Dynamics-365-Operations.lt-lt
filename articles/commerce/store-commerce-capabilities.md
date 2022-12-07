@@ -1,6 +1,6 @@
 ---
-title: Parduotuvės "Commerce" programų galimybės
-description: Šiame straipsnyje aprašomos funkcijos, kurias galima naudoti parduotuvės "Commerce" programoje Microsoft Dynamics 365 Commerce.
+title: „Store Commerce“ programos galimybės
+description: Šiame straipsnyje aprašomos funkcijos, kurių galima naudoti parduotuvės "Commerce" programoje Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 10/25/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2022-09-30
-ms.openlocfilehash: d713cc0e9537ae20ffddee6e77779a16e74bd779
-ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
+ms.openlocfilehash: 58f2ab1f913d3629de7971c8eeb2d1821161e44f
+ms.sourcegitcommit: 29d9a7573bdac004726da88a9d7b2cc9c383e9ca
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "9728030"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788519"
 ---
-# <a name="store-commerce-app-capabilities"></a>Parduotuvės "Commerce" programų galimybės
+# <a name="store-commerce-app-capabilities"></a>„Store Commerce“ programos galimybės
 
 [!include [banner](includes/banner.md)]
 
-Parduotuvės "Commerce" programa yra modernaus kasos punkto (EKA) naudojimo patirtis Microsoft Dynamics 365 Commerce. Tai leidžia įmonėms apdoroti operacijas parduotuvėje ir tvarkyti operacijas biure, pvz., atsargas ir užsakymų vykdymą. Programa taip pat įgalina įmones valdyti ryšius su klientais, kurių veikla lojalumo ir klientų aptarnavimo funkcija. 
+Parduotuvės "Commerce" programa yra modernaus kasos taško (EKA) patirtis Microsoft Dynamics 365 Commerce. Tai leidžia įmonėms apdoroti operacijas parduotuvėje ir tvarkyti operacijas biure, pvz., atsargas ir užsakymų vykdymą. Programa taip pat įgalina įmones valdyti ryšius su klientais, kurių veikla lojalumo ir klientų aptarnavimo funkcija. 
 
 Naudojant "Commerce Scale Unit" (CSU), "Store Commerce" programa suteikia visą kanalų sprendimą. Pavyzdžiui, klientas gali pirkti produktą internete ir paimti jį į artimiausią parduotuvę, tokiu būdu tęsti pirkimo kanalus neprarasdamas jokių duomenų. 
 
@@ -41,8 +41,8 @@ Naudojant "Commerce Scale Unit" (CSU), "Store Commerce" programa suteikia visą 
 
 | Sugebėjimas | Aprašymas | Dokumentacija | Papildomas turinys |
 |---|---|---|---|
-| Keli formų koeficientai | Parduotuvės "Commerce" programa palaikoma dėl kelių įrenginių formos faktorių, pvz., kompiuterių, planšetinių kompiuterių ir mobiliųjų įrenginių. Pereinanti vartotojo sąsaja (UI) leidžia maketą automatiškai keisti ir koreguoti pagal ekrano dydį. | [Vaizdinės konfigūracijos](pos-screen-layouts.md) | |
-| Kryžminė platforma | Parduotuvės "Commerce" programa palaikoma žiniatinklyje, "Windows", "iOS" ir platformose Android. | [Platformos](dev-itpro/hybridapp.md) | |
+| Keli formų koeficientai | Parduotuvės "Commerce" programa palaikoma dėl kelių įrenginių formos faktorių, pvz., kompiuterių, planšetinių kompiuterių ir mobiliųjų įrenginių. Pereinanti vartotojo sąsaja (UI) leidžia maketą automatiškai keisti ir koreguoti pagal ekrano dydį. | [Vaizdinės konfigūracijos](pos-screen-layouts.md) |  |
+| Kryžminė platforma | Parduotuvės "Commerce" programa palaikoma žiniatinklyje, "Windows", "iOS" ir platformose Android . | [Platformos](dev-itpro/hybridapp.md) | |
 | Prekės ženklo integravimas | Ekrano dizaineris leidžia pritaikyti ekrano maketus, kad jie atitiktų jūsų verslo poreikius. Be to, temas, maketus, spalvas ir vaizdus galima kurti remiantis darbuotojų vaidmenimis ir bendrai naudoti vartotojams, kad prekės ženklai būtų pastovūs ir būtų lengviau naudotis. | [Vaizdinės konfigūracijos](pos-screen-layouts.md) | [Vaizdo](https://www.youtube.com/watch?v=ldqCw2wf5fY) |
 | Topologija | Atsižvelgiant į tinklo prieinamumą, palaikomos skirtingos parduotuvės topologija. | <p>[Topologija](dev-itpro/retail-modern-pos-architecture.md)</p><p>[Informacijos grafinis vaizdą](dev-itpro/retail-in-store-topology.md)</p> | |
 | Kelių įrenginių valdymas | Iš "Commerce Headquarters" galima lengvai valdyti kelis įrenginius visose parduotuvėse. | [Aktyvinimas](set-up-activation-accounts-validate-devices-hq.md) | [Technikas](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/commerce-mass-deployment-with-sccm-system-center-configuration-manager-october-6-2022) |
@@ -51,7 +51,7 @@ Naudojant "Commerce Scale Unit" (CSU), "Store Commerce" programa suteikia visą 
 
 | Sugebėjimas | Aprašymas | Dokumentacija | Papildomas turinys |
 |---|---|---|---|
-| Prisijungti | Kiekvienas parduotuvės darbuotojas gali turėti paskirtą prisijungimą. Prisijungimo tipai apima vartotojo vardą, brūkšninius kodus, magnetinės juostelės skaitytuvą (MSR), biometrinius duomenis ir Azure Active Directory (Azure AD). | <p>[Azure AD](aad-pos-logon.md)</p><p>[Išplėstinė prisijungimo informacija](extended-logon.md)</p> | |
+| Prisijungti | Kiekvienas parduotuvės darbuotojas gali turėti paskirtą prisijungimą. Prisijungimo tipai apima vartotojo vardą, brūkšninius kodus, magnetinės juostelės skaitytuvą (MSR), biometrinius duomenis ir Azure Active Directory  (Azure AD). | <p>[Azure AD](aad-pos-logon.md)</p><p>[Išplėstinė prisijungimo informacija](extended-logon.md)</p> | |
 | Teisės | Darbuotojai palaiko skirtingus teisių lygius, pvz., teisę kurti užsakymus ir redaguoti užsakymus. | [Teisės](tasks/create-pos-permission-groups.md) | |
 | Laiko ir lankomumo valdymas | Lankomumas gali būti valdomas naudojant laikrodžio funkciją. Lankomumo duomenis galima apdoroti į algalapį naudojant Dynamics 365 Human Resources programą. | [Laiko valdymas](retail-time-attendance.md) | |
 | Pardavimo komisiniai | Pardavimą gali sekti pardavimo atstovas, kad apskaičiuotų komisinius ar kitus skatinaąsias priemones. | [Komisiniai](pos-sales-groups-track-commissions.md) | |
@@ -77,7 +77,7 @@ Naudojant "Commerce Scale Unit" (CSU), "Store Commerce" programa suteikia visą 
 | Produktų paieška | Ieškoti produktų pagal pavadinimus ir patikslinti paieškas naudojant produkto atributus, pvz., prekės ženklą, kainą ir medžiagas. Šią galimybę naudoja "Azure" pagal "Azure" pagal "Azure" užklausą. | [Ieška debesyje](cloud-powered-search-overview.md) | |
 | Puslapis Produkto informacija | Raiškiosios produkto informacijos puslapiuose gali būti paveikslėlių, aprašymų, produkto atributų ir rekomenduojamų produktų. Rekomendacijas priima rekomendacijų tarnyba. | | |
 | Produktų palyginimas | Palyginkite kelis produktus ir padėkite klientams pasirinkti vieną ir įtraukti juos į operaciją. | | |
-| Begališkas perėjimas | Lengvai peržiūrėti atsargas kitose parduotuvėse ir kurti užsakymus. | [Atsargų peržvalga](pos-inventory-lookup-operation.md) | [Technikas](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
+| Begališkas perėjimas | Lengvai peržiūrėti atsargas kitose parduotuvėse ir kurti užsakymus. | [Atsargų peržvalga](pos-inventory-lookup-operation.md) | <p>[Technikas](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Vaizdo](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
 | Rekomendacijos | Perduoti ir kryžminio pardavimo produktus naudojantis rekomendacijų tarnyba. Ši paslauga naudoja patentuotą technologiją, kad siūlytu rekomendacijas, paremtas pirkimo tendencijomis ir charakteristikomis, tokiomis kaip naujai pristatyta, panašia ir geriausia. Šios rekomendacijos pateikiamos informacijos apie produktą puslapiuose, kliento **informacijos** puslapyje ir **operacijų** puslapyje. | [Rekomendacijos](product-recommendations.md) | [Technikas](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-recommendations-march-2-2021) |
 
 ## <a name="customer-relationship"></a>Ryšys su klientais
@@ -88,8 +88,8 @@ Naudojant "Commerce Scale Unit" (CSU), "Store Commerce" programa suteikia visą 
 | Kliento atributai | Kliento atributų sistema leidžia fiksuoti papildomus su klientu susijusius duomenis remiantis verslo reikalavimais. | [Atributai](dev-itpro/customer-attributes.md) | |
 | Išsamios kliento informacijos puslapis | Raiškiosios kliento informacijos puslapis pateikia kliento sąveikos kanalų ir visų kanalų sąveiką. Šie sąveika apima pirkimą, pageidavimų sąrašus ir lojalumo taškus. | | |
 | Debesija paremta kliento paieška | Ieškoti klientų pagal vardą, telefono numerį, el. pašto adresą, lojalumo kortelę, adresą ir t. t. | [Ieška debesyje](pos-search-improvements.md#customer-search) | |
-| Lojalumas ir atlygis | Klientai gali prisijungti prie lojalumo programų ir uždirbti bei panaudoti lojalumo taškus kanaluose. | [Lojalumas](set-up-customer-loyalty-program.md) | |
-| Ryšiai su klientais | Valdyti pagrindinius klientus naudojant klientų knygą, sekti veiklas ir pastabas kliento profilyje. Dynamics 365 Customer Insights integracija leidžia parduotuvės darbuotojams gauti eiles apie kitą geriausią kiekvieno kliento veiksmą. | [Ryšiai su klientais](clienteling-overview.md#activities-and-notes) | |
+| Lojalumas ir atlygis | Klientai gali prisijungti prie lojalumo programų ir uždirbti bei panaudoti lojalumo taškus kanaluose. | [Lojalumas](set-up-customer-loyalty-program.md) | [Vaizdo](https://www.microsoft.com/en-us/videoplayer/embed/RE5c2wW) |
+| Ryšiai su klientais | Valdyti pagrindinius klientus naudojant klientų knygą, sekti veiklas ir pastabas kliento profilyje. Dynamics 365 Customer Insights integracija leidžia parduotuvės darbuotojams gauti eiles apie kitą geriausią kiekvieno kliento veiksmą. | [Ryšiai su klientais](clienteling-overview.md#activities-and-notes) | [Vaizdo](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSP) |
 
 ## <a name="pricing-and-discounts"></a>Kainodara ir nuolaidos
 
@@ -132,8 +132,8 @@ Naudojant "Commerce Scale Unit" (CSU), "Store Commerce" programa suteikia visą 
 | Užsakymų atributai | Užsakymo atributų sistema leidžia fiksuoti papildomą su užsakymu susijusią informaciją remiantis verslo reikalavimais. | [Atributai](dev-itpro/order-attributes.md) | |
 | Tiesioginis pristatymas | Prekes galima pažymėti kaip tiekėjo tiesioginio pristatymo prekes kliento adresu. Tiesioginis pristatymas taip pat vadinamas pristatymu. | [Tiesioginis pristatymas](/dynamics365/supply-chain/sales-marketing/tasks/ship-orders-direct-deliveries) | |
 | Pasiūlymas | Parduotuvės darbuotojai gali kurti klientams pasiūlymus ir gali nurodyti specialią kainą, rankiniu būdu nustato nuolaidas ir pasiūlymo galiojimo datą. | [Pasiūlymas](/dynamics365/supply-chain/sales-marketing/tasks/create-edit-sales-quotations) | |
-| Įvykdymas | Parduotuvės gali paimti, pakuoti ir siųsti užsakymus. Važtaraštis gali būti pridėtas prie paruoštų siuntimui pakuočių. | [Įvykdymas](order-fulfillment-overview.md) | [Technikas](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-supporting-buy-online-pickup-in-store-curbside-with-dynamics-365-commerce-pos-february-3-2021) |
-| Paskirstytų užsakymų tvarkymas | "Store Commerce" programa palaiko intelektualų užsakymų įvykdymo optimizavimą, kai verslo strategijas galima konfigūruoti pagal verslo pobūdį, kliento tipą, užsakymo kilmę ir užsakymo pristatymo metodą. | [Dom](dom.md) | |
+| Įvykdymas | Parduotuvės gali paimti, pakuoti ir siųsti užsakymus. Važtaraštis gali būti pridėtas prie paruoštų siuntimui pakuočių. | [Įvykdymas](order-fulfillment-overview.md) | <p>[Technikas](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-supporting-buy-online-pickup-in-store-curbside-with-dynamics-365-commerce-pos-february-3-2021)</p> <p>[Vaizdo](https://www.microsoft.com/videoplayer/embed/RE5bRXE)</p>|
+| Paskirstytų užsakymų tvarkymas | "Store Commerce" programa palaiko intelektualų užsakymų įvykdymo optimizavimą, kai verslo strategijas galima konfigūruoti pagal verslo pobūdį, kliento tipą, užsakymo kilmę ir užsakymo pristatymo metodą. | [DOM](dom.md) | [Vaizdo](https://www.microsoft.com/en-us/videoplayer/embed/RE5bRYl)|
 
 ## <a name="inventory-management"></a>Atsargų valdymas
 
@@ -141,12 +141,12 @@ Naudojant "Commerce Scale Unit" (CSU), "Store Commerce" programa suteikia visą 
 |---|---|---|---|
 | Skirstymas pirkėjams | Supaprastinti galimų atsargų paskirstymą iš paskirstymo centro į kelias parduotuves ar sandėlius. | [Skirstymas pirkėjams](tasks/set-up-rules-parameters-cross-docking-buyers-push.md) | [Technikas](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
 | Prekių skirstymas | Supaprastinti atsargų paskirstymą gaunamuose pirkimo užsakymuose į kelias parduotuves ar sandėlius. | [Prekių skirstymas](tasks/set-up-rules-parameters-cross-docking-buyers-push.md) | [Technikas](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Gaunamos atsargos | Gauti atsargas iš tiekėjo per pirkimo užsakymą arba iš kito sandėlio naudojant perkėlimo užsakymą. Sukurkite gaunamo pirkimo užsakymo ar perkėlimo užsakymo užklausą. | [Gaunama](pos-inbound-inventory-operation.md) | [Technikas](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Siunčiamos atsargos | Siųsti atsargas į kitą sandėlį perkėlimo užsakymu ir sukurti siunčiamo perkėlimo užsakymo užklausą. | [Siunčiama](pos-outbound-inventory-operation.md) | [Technikas](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Atsargų peržvalga | Patikrinti turimas produktų atsargas parduotuvėse ir sandėliuose ir patikrinti galimas atsargų (ATP) atsargas ateities datas. | [Atsargų peržvalga](pos-inventory-lookup-operation.md) | [Technikas](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Atsargų koregavimas | Koreguoti atsargas į parduotuvės sandėlį arba iš jo, kad jos atitiktų konkrečius verslo poreikius, nenaudojant pardavimo, gavimo arba sąskaitos. | [Atsargų koregavimas](work-with-store-inventory.md) | [Technikas](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Inventorizacijos | Skaičiuoti faktines atsargas ir koreguoti sistemos buhalterines atsargas, kad jos sutaptų. | [Skaičiavimas](work-with-store-inventory.md) | [Technikas](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Atsargų perkėlimas | Perkelti atsargas iš vienos parduotuvės vietos į kitą. | [Judėjimas](work-with-store-inventory.md) | [Technikas](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
+| Gaunamos atsargos | Gauti atsargas iš tiekėjo per pirkimo užsakymą arba iš kito sandėlio naudojant perkėlimo užsakymą. Sukurkite gaunamo pirkimo užsakymo ar perkėlimo užsakymo užklausą. | [Gaunama](pos-inbound-inventory-operation.md) | <p>[Technikas](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p>  <p>[Vaizdo](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p>|
+| Siunčiamos atsargos | Siųsti atsargas į kitą sandėlį perkėlimo užsakymu ir sukurti siunčiamo perkėlimo užsakymo užklausą. | [Siunčiama](pos-outbound-inventory-operation.md) | <p>[Technikas](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p>  <p>[Vaizdo](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
+| Atsargų peržvalga | Patikrinti turimas produktų atsargas parduotuvėse ir sandėliuose ir patikrinti galimas atsargų (ATP) atsargas ateities datas. | [Atsargų peržvalga](pos-inventory-lookup-operation.md) | <p>[Technikas](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Vaizdo](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
+| Atsargų koregavimas | Koreguoti atsargas į parduotuvės sandėlį arba iš jo, kad jos atitiktų konkrečius verslo poreikius, nenaudojant pardavimo, gavimo arba sąskaitos. | [Atsargų koregavimas](work-with-store-inventory.md) | <p>[Technikas](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Vaizdo](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p>|
+| Inventorizacijos | Skaičiuoti faktines atsargas ir koreguoti sistemos buhalterines atsargas, kad jos sutaptų. | [Skaičiavimas](work-with-store-inventory.md) | <p>[Technikas](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Vaizdo](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)<p> |
+| Atsargų perkėlimas | Perkelti atsargas iš vienos parduotuvės vietos į kitą. | [Judėjimas](work-with-store-inventory.md) | <p>[Technikas](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Vaizdo](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
 
 ## <a name="financials"></a>Finansai
 
@@ -192,9 +192,9 @@ Naudojant "Commerce Scale Unit" (CSU), "Store Commerce" programa suteikia visą 
 | Sugebėjimas | Aprašymas | Dokumentacija | Papildomas turinys |
 |---|---|---|---|
 | „Commerce Headquarters“ | "Commerce Headquarters" sprendimus galima pritaikyti pridedant arba modifikuojant verslo procesus. "Commerce Headquarters" palaiko metaduomenų ir kodu pagrįsto plėtinio modelio naudojimą, kad būtų galima įtraukti pasirinktines funkcijas. Jis gali būti lengvai integruotas į išorinius sprendimus. | [Peržiūra](dev-itpro/extend-customer-cdx-package.md) | [Technikas](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-unlock-the-power-of-dynamics-365-commerce-commerce-extensibility-overview-february-23-2021) |
-| Besisktiška prekyba | Extensible Om-channel API sistema gali būti naudojama verslo logikai tinkinti ir pridėti. API, kurie turi užklausų apdorojimo programas, ir išankstinio paleidimo ir paleidimo paleidiklio plėtinių modeliai. | [Csu](dev-itpro/retail-server-customer-consumer-api.md) | [Technikas](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-series-commerce-extensions) |
-| "Commerce SDK" | "Commerce SDK" yra kodo, kodo pavyzdžiai, šablonai ir įrankiai, reikalingi funkcijoms išplėsti arba Dynamics 365 Commerce tinkinti. SDK publikuojamas skirtingose saugyklose (atstatos) GitHub, atsižvelgiant į plėtinio komponentus. | [Sdk](dev-itpro/retail-sdk/sdk-github.md) | [Technikas](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-series-commerce-extensions) |
-| Elektroninis kasos aparatas | Parduotuvės "Commerce" programą galima išplėsti nepriklausomai naudojant "Commerce SDK" EKA plėtinio funkciją. Sistema palaiko vartotojų patirties (UX), darbo eigų ir verslo logikos pritaikymą. | [Pos](dev-itpro/pos-extension/pos-extension-overview.md) | [Technikas](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-series-commerce-extensions) |
+| Besisktiška prekyba | Extensible Om-channel API sistema gali būti naudojama verslo logikai tinkinti ir pridėti. API, kurie turi užklausų apdorojimo programas, ir išankstinio paleidimo ir paleidimo paleidiklio plėtinių modeliai. | [CSU](dev-itpro/retail-server-customer-consumer-api.md) | [Technikas](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-series-commerce-extensions) |
+| "Commerce SDK" | "Commerce SDK" yra kodo, kodo pavyzdžiai, šablonai ir įrankiai, reikalingi funkcijoms išplėsti arba Dynamics 365 Commerce tinkinti. SDK publikuojamas skirtingose saugyklose (atstatos) GitHub, atsižvelgiant į plėtinio komponentus. | [SDK](dev-itpro/retail-sdk/sdk-github.md) | [Technikas](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-series-commerce-extensions) |
+| Elektroninis kasos aparatas | Parduotuvės "Commerce" programą galima išplėsti nepriklausomai naudojant "Commerce SDK" EKA plėtinio funkciją. Sistema palaiko vartotojų patirties (UX), darbo eigų ir verslo logikos pritaikymą. | [POS](dev-itpro/pos-extension/pos-extension-overview.md) | [Technikas](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-series-commerce-extensions) |
 
 ## <a name="reporting"></a>Ataskaitos
 
@@ -206,7 +206,7 @@ Naudojant "Commerce Scale Unit" (CSU), "Store Commerce" programa suteikia visą 
 
 | Sugebėjimas | Aprašymas | Dokumentacija | Papildomas turinys |
 |---|---|---|---|
-| Veikimo žinių apie veiklą | Kliento abonemente galima naudoti parduotuvės paslaugai būdingą patikimumą ir efektyvumo metriką Application Insights. Galimi išplėstiniai įspėjimų ir stebėjimo pajėgumai. | | |
+| Veikimo žinių apie veiklą | Kliento abonemente galima naudoti parduotuvės paslaugai būdingą patikimumą ir efektyvumo metriką Application Insights . Galimi išplėstiniai įspėjimų ir stebėjimo pajėgumai. | | |
 | Sveikatos patikrinimas | Išorinių įrenginių, kurie prijungti prie EKA, pasiekiamumą galima patikrinti vykdant sveikatos tikrinimo operaciją. Tada atskiras išorinius problemas galima išspręsti ir patikrinti. | [Sveikatos patikrinimas](pos-healthcheck.md) | [Vaizdo](https://www.youtube.com/watch?v=RfPDNmnqYvY) |
 
 ## <a name="globalization"></a>Globalizacija

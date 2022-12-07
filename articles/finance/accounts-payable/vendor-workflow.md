@@ -2,7 +2,7 @@
 title: Tiekėjo darbo eiga
 description: Keiskite tiekėjo informaciją ir naudokite darbo eigą, kad ją patvirtintumėte.
 author: sunfzam
-ms.date: 08/24/2018
+ms.date: 11/21/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 1801e3d90bbf80c59bb62329acc593d2c66a179c
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: cfc255265df48e4a47aee4f13016356fb4775aa7
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735673"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799470"
 ---
 # <a name="vendor-workflow"></a>Tiekėjo darbo eiga
 
@@ -38,7 +38,7 @@ Norėdami naudoti darbo eigos funkciją, turite ją įjungti.
     - **Atmesti pakeitimus** – tiekėjo įrašo keisti negalima. Nepavyks importuoti laukų, kurių darbo eiga įjungta.
     - **Kurti pakeitimų pasiūlymus** – bus pakeisti visi laukai, išskyrus laukus, kurių darbo eiga įjungta. Naujos tų laukų reikšmės bus įtrauktos į tiekėją kaip siūlomi pakeitimai, o darbo eiga bus paleista automatiškai.
 
-4. Tiekėjo laukų sąraše pasirinkite žymės langelį **Įjungti**, pateiktą prie kiekvieno lauko, kuris turi būti patvirtintas prieš atliekant keitimus.
+4. Tiekėjo laukų sąraše pažymėkite kiekvieno lauko, **kurį** reikia patvirtinti prieš pakeičiant, žymės langelį Įgalinti.
 5. Pasirinkite **Mokėtinos sumos \> Sąranka \> Mokėtinų sumų darbo eigos**.
 6. Pasirinkite **Naujas**.
 7. Pasirinkite **Tiekėjo siūlomų pakeitimų darbo eiga**. 
@@ -46,7 +46,7 @@ Norėdami naudoti darbo eigos funkciją, turite ją įjungti.
 
 ## <a name="change-vendor-information-and-submit-the-changes-to-the-workflow"></a>Tiekėjo informacijos keitimas ir pakeitimų pateikimas į darbo eigą
 
-Pakeitus lauką, kurio darbo eiga įjungta, rodomas puslapis **Siūlomi pakeitimai**. Šiame puslapyje rodoma pradinė lauko reikšmė ir jūsų įvesta nauja reikšmė. Nustatoma pradinė pakeisto lauko reikšmė. Būsenos pranešimas taip pat nurodo, kad pakeitimai nebuvo pateikti. 
+Pakeitus lauką, kurio darbo eiga įjungta, rodomas puslapis **Siūlomi pakeitimai**. Šiame puslapyje rodoma pradinė lauko reikšmė ir jūsų įvesta nauja reikšmė. Nustatoma pradinė pakeisto lauko reikšmė. Būsenos pranešimas informuos, kad jūsų pakeitimai nebuvo pateikti. 
 
 Kiekvieną kartą pakeitus lauką, kurio darbo eiga įjungta, tas laukas įtraukiamas į sąrašą puslapyje **Siūlomi pakeitimai**. Norėdami atmesti siūlomą lauko reikšmę, naudokite mygtuką **Atmesti**, pateiktą šalia lauko sąraše. Norėdami atmesti visus keitimus, naudokite mygtuką **Atmesti visus keitimus** puslapio apačioje. Pasirinkite **Gerai** ir uždarykite puslapį.
 

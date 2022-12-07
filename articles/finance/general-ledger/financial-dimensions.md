@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9b07831ab789b570963ff5f425f149ba5a564a38
-ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
+ms.openlocfilehash: adfa2c1164550e32b07da25de0d96aa82430b980
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/13/2022
-ms.locfileid: "9680364"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799632"
 ---
 # <a name="financial-dimensions"></a>Finansinės dimensijos
 
@@ -120,7 +120,7 @@ Išvestinės dimensijos, kurioms naudojamas šis parametras, nustačius numatyt�
 
 ### <a name="preventing-changes-with-derived-dimensions"></a>Apsauga nuo pakeitimų naudojant išvestines dimensijas
  
-Kai puslapyje **Išvestinių dimensijų puslapis** naudojantis funkcija **Įtraukti segmentą** įtraukiamas segmentas (kaip išvestinė dimensija), puslapio **Įtraukti segmentą** apačioje pateikiama parinktis, kad galėtumėte neleisti atlikti tos dimensijos keitimų išvedant ją puslapyje. Pagal numatytuosius parametrus ši parinktis išjungta, kad būtų leidžiama keisti išvestinės dimensijos vertes. Jei norite neleisti keisti dimensijos (ją išvedus), nustatymo parinktį pakeiskite į **Taip**. Pavyzdžiui, jei skyriaus dimensijos vertė išvedama iš išlaidų centro dimensijos vertės, naudojant parinkties **Neleisti keitimų** nuostatą **Taip**, skyriaus vertės keisti negalima. 
+Kai puslapyje **Išvestinių dimensijų puslapis** naudojantis funkcija **Įtraukti segmentą** įtraukiamas segmentas (kaip išvestinė dimensija), puslapio **Įtraukti segmentą** apačioje pateikiama parinktis, kad galėtumėte neleisti atlikti tos dimensijos keitimų išvedant ją puslapyje. Numatytasis parametras yra išjungtas, todėl išvestinių dimensijų reikšmių keisti negalima. Pakeiskite parametrą į **Taip**, jei norite neleisti pakeisti dimensijos išvestai dimensijai. Pavyzdžiui, jei skyriaus dimensijos vertė išvedama iš išlaidų centro dimensijos vertės, naudojant parinkties **Neleisti keitimų** nuostatą **Taip**, skyriaus vertės keisti negalima. 
  
 Naudojantis šia nuostata pakeitimus atlikti galima tuo atveju, jei dimensijos vertė tinkama, bet nepateikta išvestinių dimensijų sąraše. Pavyzdžiui, jei skyriaus vertė 20 išvedama iš išlaidų centro vertės 10 ir įvedate išlaidų centro vertę 10, tada negalėsite redaguoti skyriaus vertės 20. Tačiau jei įvedus išlaidų centro vertę 20 jos nėra išvestinių išlaidų centro dimensijų sąraše, tada galite redaguoti skyriaus vertę. 
  
@@ -136,6 +136,12 @@ Norėdami nustatyti išvestinių dimensijų segmentus ir vertes galite naudotis 
 - Naudodamiesi išvestinių dimensijų vertės objektu galite importuoti turimas išvesti kiekvienos išvedamos dimensijos vertes.
 
 Kai norint importuoti duomenis naudojamasi objektu, jei tas objektas importuoja dimensijas, importuojant taikomos išvestinės dimensijos taisyklės, nebent objektas nepaiso būtent tų dimensijų.
+
+## <a name="financial-dimension-service"></a>Finansinių dimensijų tarnyba
+
+Finansinių dimensijų tarnybos papildinį galima naudoti jūsų ciklo Microsoft Dynamics tarnybų aplinkoje. Tai pagerina našumą, kai naudojate duomenų valdymo sistemą, norėdami importuoti žurnalą, kuriame yra daug eilučių. Norėdami naudotis paslauga, turite ją įgalinti finansinių dimensijų **tarnybos parametrų** puslapyje. Šiuo metu tarnyba veikia tik su importuotais žurnalais, kurių yra 500 eilučių ar daugiau. Be to, šiuo metu jis gali apdoroti tik bendruosius žurnalus, kuriuose **DK** sąskaitos tipas nustatytas žurnalo eilutėse. Kiti sąskaitų tipai žurnalo eilutėse, pvz **.**, **Klientas**, Tiekėjas **ir** Bankas, šiuo metu nepalaikomi. Ši paslauga nebus iškviesta, kai sistemoje nustatytos išvestinės dimensijos.
+
+Finansinių dimensijų tarnyba pagerina žurnalų importavimo našumą, naudodama naują paslaugą, kuri veikia lygiagrečiai su duomenų importavimu. Jis vykdomas tik pagrindinės sąskaitos ir finansinės dimensijos duomenyse žurnale ir generuoja dimensijų kombinacijas, nurodytas DK sąskaitos eilutės lauke žurnalo eilutėse. Apdorojant ši eilutė konvertuojama į susisteminuotą duomenų saugyklą, kurią finansinių dimensijų sistema naudoja visoje produkto tikrinimo, suvestinės ataskaitų ir užklausų srityje. Daugiau informacijos apie finansinių dimensijų duomenų suvestinę rasite finansinių dimensijų [rinkiniuose](financial-dimension-sets.md).
 
 Daugiau informacijos ieškokite šiose temose:
 

@@ -1,8 +1,8 @@
 ---
-title: DK sudengimai
+title: Didžiosios knygos sudengimai
 description: Šiame straipsnyje paaiškinama, kaip naudoti DK sudengimų puslapį DK operacijoms sudengti ir sudengti atvirkštinei tvarkai atlikti.
 author: kweekley
-ms.date: 01/31/2022
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,14 +13,14 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-11-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 39fd6c6677565a4b1e9a9bf6f43a4c630cb5e07b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6357629f83873437eb62a4839fafd8efd98fffc1
+ms.sourcegitcommit: 9041fa6e00ecbdf1a1880659d9bdfff4d888f20e
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902493"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9800637"
 ---
-# <a name="ledger-settlements"></a>DK sudengimai
+# <a name="ledger-settlements"></a>Didžiosios knygos sudengimai
 
 [!include [banner](../includes/banner.md)]
 
@@ -32,8 +32,8 @@ Sudengtos operacijos gali būti neįtrauktos į užklausas ir ataskaitas. Tokiu 
 > Taip pat moduliuose Mokėtinos sumos (AP) ir gautinos sumos (AR) yra SF ir mokėjimų sudengimas. Kai sudengimas vyksta AR ir AP papildomose knygose, atitinkami DK įrašai nėra sudengti automatiškai.
 
 ## <a name="ledger-settlement-features"></a>DK sudengimo priemonės
-Microsoft Dynamics 365 finansų versijoje 10.0.21 **iš** **DK parametrų puslapio buvo pašalinta parinktis Įgalinti išplėstinį DK sudengimą.** Išplėstinis DK sudengimas visada įgalintas.
-Finansų versijoje 10.0.25 buvo **pristatyta DK sudengimo ir uždarymo metų** pabaigos priemonės supratimo priemonė. Ši priemonė pakeičia pagrindines DK sudengimo ir DK metų pabaigos uždarymo funkcijas. Prieš įgalindami šią funkciją funkcijų valdymo darbo **srityje**, žr. Supratimas [tarp DK sudengimo ir uždarymo metų pabaigoje](awareness-between-ledger-settlement-year-end-close.md).
+ Microsoft Dynamics 365 finansų versijoje 10.0.21 **iš**  **DK parametrų puslapio buvo pašalinta parinktis Įgalinti išplėstinį DK sudengimą.**  Išplėstinis DK sudengimas visada įgalintas.
+Finansų versijoje 10.0.25 buvo **pristatyta DK sudengimo ir uždarymo metų** pabaigos priemonės supratimo priemonė. Ši priemonė pakeičia pagrindines DK sudengimo ir DK metų pabaigos uždarymo funkcijas. Prieš įgalindami šią funkciją funkcijų valdymo darbo **srityje**, žr. Supratimas [tarp DK sudengimo ir metų pabaigos uždarymo](awareness-between-ledger-settlement-year-end-close.md).
 
 ## <a name="set-up-ledger-settlement"></a>NUSTATYTI DK sudengimą
 Turite pasirinkti pagrindines sąskaitas, kurių DK sudengimą norite atlikti. Šias pagrindines sąskaitas galima pasirinkti dviem būdais.
@@ -66,8 +66,8 @@ Norėdami sudengti DK operacijas, atlikite toliau nurodytus veiksmus.
     - Norėdami filtruoti operacijas atskiroje pagrindinėje sąskaitoje, naudokite dk sąskaitos **lauko** filtrą. Patariame atlikti DK sudengimų operacijų, kurios užregistruotos skirtingose pagrindinėse sąskaitose.
 
 4. Pasirinkti eilutes sudengti. Puslapio viršuje esanti **lauko Pasirinkta** suma vertė didėja arba mažina, kad atspindėtų bendrą sumą pasirinktose eilutėse.
-5. Baigę pasirinkti operacijas, pasirinkite Žymėti **pasirinktą**. Kiekvienai pažymėtai operacijai stulpelyje Pažymėta rodoma **varnelė**. Be to, reikšmė lauke Pažymėta **suma virš** tinklelio didėja arba mažėja, kad atspindėtų bendrą sumą pažymėtose eilutėse.
-6. Kai pažymėto sumos lauko **vertė yra** **0 (nulis**), pasirinkite Sudengti **pažymėtas operacijas**. Pažymėtų operacijų būsena atnaujinama į **Sudengta**.
+5. Baigę pasirinkti operacijas, pasirinkite Žymėti **pasirinktą**. Kiekvienai pažymėtai operacijai stulpelyje Pažymėta rodoma **varnelė** . Be to, reikšmė lauke Pažymėta **suma virš** tinklelio didėja arba mažėja, kad atspindėtų bendrą sumą pažymėtose eilutėse.
+6. Kai pažymėto sumos lauko **vertė yra**  **0(nulis**), pasirinkite Sudengti **pažymėtas operacijas**. Pažymėtų operacijų būsena atnaujinama į **Sudengta**.
 
     > [!IMPORTANT]
     > Visos operacijos, kurias pažymėjote sudengti aktyviam juridiniam subjektui, bus sudengtos, net jei jos dabar nerodomas DK sudengimo puslapyje, nes pritaikėte filtrą.
@@ -75,7 +75,7 @@ Norėdami sudengti DK operacijas, atlikite toliau nurodytus veiksmus.
 ## <a name="make-transactions-easier-to-find"></a>Lengvesnė operacijų paieška
 DK **sudengimų** puslapyje yra galimybių, kurios padeda lengviau peržiūrėti operacijas, reikalingas sudengti.
 
-- Naudokite pažymėtą **filtrą** operacijoms filtruoti, atsižvelgiant **į tai, ar** pažymėtas jų žymės langelis.
+- Naudokite pažymėtą **filtrą** operacijoms filtruoti, atsižvelgiant į **tai, ar** pažymėtas jų žymės langelis.
 - Naudokite būsenos **filtrą** operacijoms filtruoti pagal jų būseną.
 - Norėdami **surūšiuoti sumas pagal** absoliučią vertę, pasirinkite Rūšiuoti pagal absoliučią sumą. Tokiu būdu galite grupuoti debetus ir kreditus, kurių suma ta pati.
 
@@ -90,7 +90,12 @@ Galite atšaukti per klaida atliktą sudengimą.
     > [!IMPORTANT]
     > Visos operacijos, kurios turi tą patį sudengimo ID, bus atšauktos, net jei jos nepažymėtos. Pavyzdžiui, keturios eilutės pažymėtos ir sudengtos. Visos keturios eilutės turi tą patį sudengimo ID. Jei vieną iš tų keturių eilučių pažymėsite ir pasirinksite **Atšaukti pažymėtas operacijas**, visos keturios eilutės bus atšauktos.
 
+## <a name="unmark-for-selected-users"></a>Atžymėti pasirinktiems vartotojams
+Pasirinkite **Atžymėti pasirinktus vartotojus,** kad visų juridinių subjektų DK sudengtos operacijos būtų atžymėtos pagal vartotojo ID. Pavyzdžiui, tai leis apskaitos vadovui atžymėti vartotojo, išvykusio iš atostogų, operacijas prieš baigiant sudengimą, arba vartotojui, kuris išėjo iš organizacijos. Veiksmas leis pažymėti šias operacijas sudengti kitam vartotojui.
 
+
+## <a name="unmark-all-transactions"></a>Atžymėti visas operacijas
+Pasirinkite **Atžymėti visas operacijas**, kad būtų atžymėtos visos visų vartotojų ir visų juridinių subjektų DK sudengtos operacijos. Šį veiksmą gali atlikti administratoriaus vaidmuo.
 
 
 

@@ -2,7 +2,7 @@
 title: Peržiūrėti finansines ataskaitas
 description: Šiame straipsnyje aprašoma, kaip peržiūrėti ir naršyti finansines ataskaitas " Microsoft Dynamics 365 Finance". Tai apima informaciją apie įvairias parinktis, kurias galite taikyti finansinėms ataskaitoms, norėdami pakeisti jų išvaizdą ir jų duomenis.
 author: kweekley
-ms.date: 03/25/2019
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d4b28add4406b2248a2ce842072e577ecd760cd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0f932bbef2543e4894c65b9a04c1ef66f1b3ab8e
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907898"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802397"
 ---
 # <a name="view-financial-reports"></a>Peržiūrėti finansines ataskaitas
 
@@ -31,7 +31,7 @@ ms.locfileid: "8907898"
 ## <a name="financial-reporting-overview"></a>Finansinių ataskaitų apžvalga
 
 ## <a name="open-a-financial-report"></a>Finansinės ataskaitos atidarymas
-Norėdami atidaryti ataskaitą, pasirinkite ataskaitos pavadinimą. Pirmą kartą atidarius ataskaitą, ji automatiškai sugeneruojama už praėjusį mėnesį. Pvz., jei pirmą kartą ataskaitą atidarote 2015 m. rugpjūtį, ataskaita generuojama 2015 m. liepos 31 dienai. Kai ataskaita atidaroma, galite pradėti ją tyrinėti detalizuodami konkrečius duomenis ir keisdami ataskaitos parinktis.
+Norėdami atidaryti ataskaitą, pasirinkite ataskaitos pavadinimą. Pirmą kartą atidarius ataskaitą, ji automatiškai sugeneruojama už praėjusį mėnesį. Pvz., jei pirmą kartą ataskaitą atidarote 2020 m. rugpjūtį, ataskaita generuojama 2020 m. liepos 31 dienai. Kai ataskaita atidaroma, galite pradėti ją tyrinėti detalizuodami konkrečius duomenis ir keisdami ataskaitos parinktis.
 
 ## <a name="drill-down-on-a-financial-report"></a>Finansinės ataskaitos detalizavimas
 Finansinės ataskaitos gali būti kelių išsamumo lygių. Finansų lygis yra pirmasis, kurį matote atidarę finansinę ataskaitą. Norėdami pereiti į sąskaitos lygį, pasirinkite duomenis, kuriuos norite detalizuoti. Pvz., norėdami peržiūrėti pardavimų sąskaitos informaciją, pasirinkite pardavimų duomenis, kuriuos norite panagrinėti. Sąskaitos lygį galite detalizuoti, kad matytumėte operacijas, kurios sudaro sąskaitos balansą. Yra du būdai peržiūrėti operacijas: ataskaitos operacijos ir kvito operacijos.
@@ -46,12 +46,12 @@ Galite taikyti atributų ir dimensijos filtrus arba pakeisti biudžeto scenarij�
 
 -   Norėdami ataskaitai pritaikyti atributų filtrus, pasirinkite **Pridėti atributų filtrą**. Pasirinkite atributą, įveskite atributo reikšmę, tada spustelėkite **Gerai**. Pvz., jei pasirenkate atributą **Sąskaitų kategorija**, įveskite atributo reikšmę **PARDAVIMAI**. Norėdami pašalinti filtrą, spustelėkite **Išvalyti**.
 -   Norėdami ataskaitoje pritaikyti dimensijos filtrus, pasirinkite **Įtraukti dimensijos filtrą**. Pasirinkite dimensiją, tada įveskite dimensijos ID arba sąraše pasirinkite dimensiją. Norėdami pašalinti dimensijos filtrą, spustelėkite **Išvalyti**.
--   Pakeiskite scenarijų ataskaitoje **Faktinių ir biudžeto duomenų palyginimas** pasirinkdami naują scenarijų ir spustelėdami **Gerai**. Jei pasirinktas scenarijus yra skirtas kitiems finansiniams metams, nebus pateikti jokie rezultatai. Pavyzdžiui, jei sugeneruojama ataskaita, skirta FY2015, dabartinis scenarijus yra skirtas FY2015, o pasirinktas naujas scenarijus yra skirtas FY2016, nebus pateikti jokie rezultatai. Jei reikia naujo scenarijaus, skirto kitiems finansiniams metams, generuokite naują ataskaitos versiją, skirtą su scenarijumi susijusiems finansiniams metams.
+-   Pakeiskite scenarijų ataskaitoje **Faktinių ir biudžeto duomenų palyginimas** pasirinkdami naują scenarijų ir spustelėdami **Gerai**. Jei pasirinktas scenarijus yra skirtas kitiems finansiniams metams, nebus pateikti jokie rezultatai. Pavyzdžiui, jei sugeneruojama ataskaita, skirta FY2015, dabartinis scenarijus yra skirtas FY2020, o pasirinktas naujas scenarijus yra skirtas FY2016, nebus pateikti jokie rezultatai. Jei reikia naujo scenarijaus, skirto kitiems finansiniams metams, generuokite naują ataskaitos versiją, skirtą su scenarijumi susijusiems finansiniams metams.
 
 Spustelėjus **Gerai**, ataskaitai pritaikomos visos jūsų pasirinktos parinktys. Jei nuspręsite, kad nenorite taikyti pasirinktų parinkčių, spustelėkite **Atšaukti**.
 
 ## <a name="update-a-financial-report"></a>Finansinės ataskaitos naujinimas.
-Galite atnaujinti finansinę ataskaitą taip, kad ji rodytų to laikotarpio ir metų, kuriems ataskaita buvo sugeneruota, naujausius duomenis. Pvz., jei atnaujinsite finansinę ataskaitą, kuri buvo sugeneruota 2015 m. spalį, ataskaita atspindės visas naujas operacijas, užregistruotas 2015 m. spalį. Norėdami atnaujinti finansinę ataskaitą, veiksmų srityje spustelėkite **Atnaujinti**. Atnaujinta ataskaita pasiekiama tik tam asmeniui, kuris ją atnaujino. Kad tuos pačius duomenis galėtų matyti ir kiti žmonės, ataskaita turi būti publikuota.
+Galite atnaujinti finansinę ataskaitą taip, kad ji rodytų to laikotarpio ir metų, kuriems ataskaita buvo sugeneruota, naujausius duomenis. Pvz., jei atnaujinsite finansinę ataskaitą, kuri buvo sugeneruota 2020 m. spalį, ataskaita atspindės visas naujas operacijas, užregistruotas 2020 m. spalį. Norėdami atnaujinti finansinę ataskaitą, veiksmų srityje spustelėkite **Atnaujinti**. Atnaujinta ataskaita pasiekiama tik tam asmeniui, kuris ją atnaujino. Kad tuos pačius duomenis galėtų matyti ir kiti žmonės, ataskaita turi būti publikuota.
 
 ## <a name="publish-a-financial-report"></a>Finansinės ataskaitos publikavimas
 Atnaujinę finansinę ataskaitą, galite ją publikuoti. Tada ją galės peržiūrėti kiti organizacijos žmonės. Norėdami publikuoti ataskaitą, veiksmų srityje spustelėkite **Publikuoti**.

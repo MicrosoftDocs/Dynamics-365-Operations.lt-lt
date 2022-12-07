@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2019-01-01
-ms.openlocfilehash: 6c819e8cf9f5dcb7895ac2633decf0a925c08f2d
-ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
+ms.openlocfilehash: 58d88e023b73ce19331bd6f54644a62d8f6f35af
+ms.sourcegitcommit: 3aa3dedc3123cb079614762e2718841c2f7d7d35
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2022
-ms.locfileid: "9784998"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "9812092"
 ---
 # <a name="dynamics-365-payment-connector-for-adyen-overview"></a>„Dynamics 365 Payment Connector“, skirto sprendimui „Adyen“, apžvalga
 
@@ -29,7 +29,7 @@ ms.locfileid: "9784998"
 
 | Semestras | Aprašymas |
 |---|---|
-| Mokėjimo jungtis | Plėtinys, kuris palengvina ryšį Microsoft Dynamics 365 Commerce tarp (ir susijusių komponentų) ir mokėjimo tarnybos. Šiame straipsnyje aprašyta jungtis įdiegta naudojant standartinių mokėjimų programinės įrangos kūrimo rinkinį (SDK). |
+| Mokėjimo jungtis | Plėtinys, kuris palengvina ryšį tarp Microsoft Dynamics 365 Commerce  (ir susijusių komponentų) ir mokėjimo tarnybos. Šiame straipsnyje aprašyta jungtis įdiegta naudojant standartinių mokėjimų programinės įrangos kūrimo rinkinį (SDK). |
 | Kortelė yra | Nurodo mokėjimo operacijas, kai pateikiama faktinė kortelė ir naudojama mokėjimo terminalo jungtyje su "Dynamics 365" pardavimo tašku. |
 | Kortelės nėra | Nurodo mokėjimo operacijas, kuriose nėra faktinės kortelės, pvz., el. komercijos arba skambučių centro scenarijus. Šiuose scenarijuose su mokėjimu susijusi informacija įvedama rankiniu būdu arba el. komercijos svetainėje, skambučių centro sraute, elektroninį kasos kodą ar mokėjimo terminale. |
 
@@ -40,7 +40,7 @@ ms.locfileid: "9784998"
 ### <a name="supported-versions"></a>Palaikomos versijos
 
 #### <a name="microsoft-dynamics-365-supported-versions"></a>Microsoft Dynamics 365 palaikomos versijos
-Pirmos šalies "Dynamics 365" mokėjimo jungtis, skirta Adyen Microsoft Dynamics, palaikoma 365 finansų versijoje 8.1.3 (2019 m. sausio mėn.) arba vėlesnėje versijoje, Microsoft Dynamics 365 Retail 8.1.3 arba vėlesnėje versijoje. Tačiau trečiosios šalys vis dar gali kurti kitas 365 versijų Adyen Microsoft Dynamics mokėjimo jungtis.
+Pirmos šalies "Dynamics 365" mokėjimo jungtis, skirta Adyen Microsoft Dynamics , palaikoma 365 finansų versijoje 8.1.3 (2019 m. sausio mėn.) arba vėlesnėje versijoje, Microsoft Dynamics 365 Retail 8.1.3 arba vėlesnėje versijoje. Tačiau trečiosios šalys vis dar gali kurti kitas 365 versijų Adyen Microsoft Dynamics mokėjimo jungtis.
 
 #### <a name="supported-adyen-firmware-versions"></a>Palaikomos Adyen failo versijos
 
@@ -89,7 +89,7 @@ Toliau pateiktame sąraše aprašomos minimalios ir maksimalios Adyen versijos, 
 > [!NOTE]
 > Adyen gali išleisti smulkų versijos naujinimą po to, kai Microsoft išbandė pagrindinę versiją. Jei palaikoma pagrindinė versija, galima gerai turėti smulkius tos pačios pagrindinės versijos versijos atnaujinimus. Paprastai šie atnaujinimai yra labai tikslinės pataisos ir neatitinka viso pakartotinio tikinimo juostos, kol anksčiau buvo patikrinta ta pati pagrindinė programos versija. Atnaujinimai neturi viršyti maksimalios dokumentacijoje nurodytos Adyen uždavimo versijos. 
 >
-> Norint pereiti iš Adyen versijos, ankstesnės nei 53 versijos, į 53 versiją, reikia EKA **4577957**, kad būtų galima kas mėnesį atnaujinti "Commerce", nuo 10.0.11 iki 10.0.14 versijas. Jei viena iš šių versijų naudojama ir neapima karštųjų pataisų, atnaujinus mokėjimo terminalą mokėjimai bus leidžiami tik per NFC. Pritaikius karštąją pataisą EKA išsprendžia šią problemą. Jei EKA versija senesnė nei 10.0.11 versija, patkite palaikymo užklausą, kad kb **4577957** reikalinga ne tarnybos MPOS pataisa.
+> Norint perkelti iš Adyen versijos į ankstesnę nei 53 versiją į 53 versiją, reikia EKA KB **4577957** kad būtų galima kas mėnesį atnaujinti "Commerce", nuo 10.0.11 iki 10.0.14 versijas. Jei viena iš šių versijų naudojama ir neapima karštųjų pataisų, atnaujinus mokėjimo terminalą mokėjimai bus leidžiami tik per NFC. Pritaikius karštąją pataisą EKA išsprendžia šią problemą. Jei EKA versija senesnė nei 10.0.11 versija, patkite palaikymo užklausą, kad KB **pataisa4577957** reikalinga ne paslaugai MPOS.
 > 
 > Adyen 59p7–62p9 versijoms iš dovanų kortelės išgryninimo operacija pageidauja PIN įrašo du kartus scenarijuose, **kuriuose** dovanų kortelė įvedama rankiniu būdu. Nu perbraukus dovanų kortelę ši problema dar kartą nepateikiama. Adyen tyrinėti. 
 
@@ -140,7 +140,7 @@ Toliau pateiktame vaizdo įraše aprašomos AdyenVzs SE1 mokėjimo Android termi
 | Aptikti | Algalapių mokėjimas | ✔ |  |  |
 | Diners   | Standartinis | ✔ | ✔ | ✔ |
 | Dineromail | Standartinis | ✔ | ✔ | ✔ |
-| Jcb | Standartinis | ✔ | ✔ | ✔ |
+| JCB | Standartinis | ✔ | ✔ | ✔ |
 | "Union Pay"\* | Standartinis | ✔ |  |  |
 | Tarpinis debetas\* | Standartinis | ✔ |  |  |
 
@@ -280,7 +280,7 @@ Adyen palaiko šias šalis, kurios neturi operacijų su kortele. [Norėdami gaut
 | Taivanas |
 | Tanzanija |
 | Tailandas |
-| Turkija |
+| Ūrkiye |
 | Jungtiniai Arabų Emyratai (JAE) |
 | Jungtinė Karalystė |
 | Jungtinės Amerikos Valstijos, įskaitant Puerto Riką  |

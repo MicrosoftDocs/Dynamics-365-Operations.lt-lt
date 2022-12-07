@@ -2,7 +2,7 @@
 title: Atnaujinimo procesas
 description: „Microsoft Dynamics 365 Human Resources“ yra tipiška programinės įrangos nuomos paslauga („SaaS“), teikianti nepertraukiamus, bekontakčius paslaugų naujinimus, skirtus programai ir platformai keisti.
 author: twheeloc
-ms.date: 09/01/2022
+ms.date: 12/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 71815866ef9674f317b7f08ecf2a65b465ddfff3
-ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
+ms.openlocfilehash: 197b3c5717494ab3c80a57cda337a9021293bf73
+ms.sourcegitcommit: 68efa7b89273d04484566cbe14d3533a8fd4ee53
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "9520816"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9819302"
 ---
 # <a name="update-process"></a>Atnaujinimo procesas
 
-_**Taikoma:** žmogiškieji ištekliai autonominėje infrastruktūrose_ 
+_**Taikoma:** Žmogiškieji ištekliai autonominėje infrastruktūrose_ 
 
 > [!NOTE]
 > Nuo 2022 m. liepos mėn. naujų personalo aplinkos negali būti sukurtos atskiras personalo infrastruktūrą ir Microsoft Dynamics naujus ciklo tarnybų (LCS) projektus. Klientai gali įdiegti personalo aplinkas finansų ir operacijų infrastruktūrose. Daugiau informacijos ieškokite Finansų [ir operacijų infrastruktūros personalo parengimas](hr-admin-setup-provision-fo.md).
@@ -41,7 +41,7 @@ Naujinimai išleidžiami reguliariais intervalais visoms aplinkoms. „Human Res
 
 „Human Resources“ naujinimai taikomi visoms aplinkoms automatiškai. „Human Resources“ teikia dviejų tipų leidimus:
 
-- **Paslaugų naujinimai**: naujinimai, kuriuose yra klaidų taisymai ir naujos funkcijos, vykdomi kas dvi savaites. Į aptarnavimo naujinimus taip pat įtraukiami taikomi platformos naujinimai, kai jie išleidžiami. Norėdami gauti daugiau informacijos apie platformos paleidimus, žr [. "Kas naujo" arba "Platform" atnaujinimų metu pakeista](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Naujinimų visuotinis diegimas etapų metu yra tarp regionų. Daugiau informacijos apie atnaujinimus ieškokite [Kas naujo arba pakeista Dynamics 365 Human Resources](hr-admin-whats-new.md).
+- **Tarnybos naujinimai**: į aptarnavimo naujinimus įtraukti taikomi platformos naujinimai, kai jie išleidžiami. Be išimčių pagrįstus naujinimus, reguliarūs tarnybos naujinimai naujinami atsižvelgiant į "Dynamics 365" finansų platformos naujinimų bendrą pasiekiamumą (GA). Norėdami gauti daugiau informacijos apie platformos paleidimus, žr [. "Kas naujo" arba "Platform" atnaujinimų metu pakeista](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Naujinimų visuotinis diegimas etapų metu yra tarp regionų. Daugiau informacijos apie atnaujinimus ieškokite [Kas naujo arba pakeista Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
 - **„Dataverse“ sprendimų naujinimai**: šie naujinimai vykdomi maždaug kas šešios savaitės, jei reikia. Juose yra naujų objektų ir esamų objektų, esančių „Dataverse“, keitimų. Šie atnaujinimai išleidžiami į tuos pačius regionus kaip ir dviejų savaičių atnaujinimai, jie truks apie šešias savaites, kad dubliuoti visuose duomenų centruose. Sprendimų naujinimai sutampa arba nesutampa su paslaugų naujinimais, vykdomais kas dvi savaites.
 
@@ -56,16 +56,7 @@ Kai reikia, Žmogiškieji ištekliai pateikia šiuos pataisymų tipus:
 
 Leidimai yra peržiūrimi, tikrinami ir patvirtinami vidinėje aplinkoje. Kai atsijungiama nuo komponavimo versijų, jos bus įdiegtos gamybai.
 
-## <a name="release-cadence-exceptions-in-2021"></a>Numatomi išleidimo intervalai 2021 m.
-
-Norint atsiskaityti už atostogas, toliau pateiktas 2021 m. lapkričio ir gruodžio mėn. leidimų grafikas.
-
-- Lapkričio mėn. leidimas: lapkričio 1 d. – lapkričio 14 d.
-- Gruodžio mėn. leidimas: lapkričio 29 d. – gruodžio 12 d.
- 
-Dviejų savaičių išleidimo intervalai bus tęsiami kaip įprasta 2022 m. sausio 10 d.
-
-## <a name="communications"></a>Kontaktai
+## <a name="communications"></a>Pranešimai
 
 Galite sužinoti, kas rengiama programai „Human Resources“ ir ką išleidome, šiose vietose:
 

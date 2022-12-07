@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 1611
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.form: FinancialReports
-ms.openlocfilehash: d23d6afde0daa44b8527c624305bdfd0fb4cbd53
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 97f6c869e8d05e37ec3001d5de262ab8927d735a
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9291895"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802802"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Finansinių ataskaitų stulpelių aprašai
 
@@ -34,26 +34,26 @@ Stulpelio apraše gali būti nuo dviejų iki 255 stulpelių.
 
 ### <a name="create-a-column-definition"></a>Stulpelio aprašo kūrimas
 
-1. Ataskaitų dizaino įrankio naršymo srityje spustelėkite **Stulpelio aprašai**.
-2. Meniu **Rinkmena** spustelėkite **Naujas**, tada spustelėkite **Stulpelio aprašas**.
+1. Ataskaitų dizaino įrankio naršymo srityje spustelėkite Stulpelio **apibrėžimai**.
+2. Meniu Rinkmena **spustelėkite** Naujas **·**, tada spustelėkite Stulpelio **aprašas**.
 3. Pridėkite stulpelio aprašo turinį.
 
 ### <a name="open-a-column-definition"></a>Stulpelio aprašo atidarymas
 
-1. Ataskaitų dizaino įrankio naršymo srityje spustelėkite **Stulpelio aprašai**.
+1. Ataskaitų dizaino įrankio naršymo srityje spustelėkite Stulpelio **apibrėžimai**.
 2. Dukart spustelėkite stulpelio aprašą, kad atidarytumėte.
 
 ### <a name="add-a-column-to-a-column-definition"></a>Stulpelio įtraukimas į stulpelių aprašą
 
-1. Ataskaitos dizaino įrankyje spustelėkite **Stulpelio aprašai**, tada atidarykite norimą keisti stulpelio aprašą.
+1. Ataskaitų konstruktoriuje spustelėkite **Stulpelio apibrėžimai**, tada atidarykite stulpelio aprašą, kad jį keisite.
 2. Pasirinkite stulpelį, į kurį turi būti įterptas naujas stulpelis.
-3. Meniu **Redaguoti** spustelėkite **Įterpti stulpelį**. Naujas stulpelis rodomas pasirinkto stulpelio kairėje.
+3. Redagavimo **meniu** spustelėkite stulpelį **Įterpti**. Naujas stulpelis rodomas pasirinkto stulpelio kairėje.
 
 ### <a name="delete-a-column-from-a-column-definition"></a>Stulpelio naikinimas iš stulpelių aprašo
 
-1. Ataskaitų dizaino įrankyje spustelėkite **Stulpelių aprašai** ir atidarykite stulpelių aprašą, kurį norite keisti.
+1. Ataskaitų konstruktoriuje spustelėkite **Stulpelio apibrėžimai**, tada atidarykite stulpelio aprašą, kad jį keisite.
 2. Pasirinkite stulpelį, kurį norite panaikinti.
-3. Meniu **Redaguoti** spustelėkite **Naikinti stulpelį**.
+3. Redagavimo **meniu** spustelėkite stulpelį **Naikinti**.
 
 ## <a name="contents-of-a-column-definition"></a>Stulpelių aprašo turinys
 Stulpelio apraše pateikiama ši informacija:
@@ -68,40 +68,40 @@ Stulpelio apraše pateikiama ši informacija:
 - Stulpelio aprašo antraščių srityje yra antraštės tekstas ir ataskaitoje rodomas formatavimas. Antraštė gali būti taikoma vienam duomenų stulpeliui, apimti kelis stulpelius arba gali būti taikoma stulpeliams pagal sąlygas. Stulpelio apibrėžtyje gali būti tiek stulpelių antraščių eilučių, kiek reikia.
 
     > [!NOTE]
-    > Stulpelių antraštės taikomos kiekvienam ataskaitos duomenų stulpeliui. Ataskaitų antraštės taikomos visai ataskaitai. Ataskaitos antraštes galite nurodyti ataskaitos aprašo skirtuke **Antraštės ir poraštės**.
+    > Stulpelių antraštės taikomos kiekvienam ataskaitos duomenų stulpeliui. Ataskaitų antraštės taikomos visai ataskaitai. Ataskaitos apibrėžimo skirtuke Antraštės **ir poraštės** apibrėžiate ataskaitų antraštes.
 
 - Stulpelio informacijos eilutės yra po stulpelio aprašo antraštės eilutėmis esančios eilutės. Stulpelio informacijos eilutėse nurodoma į ataskaitą įtraukta informacija. Toliau pateikiamoje lentelėje išvardijamos ir aprašomos stulpelio informacijos eilutės.
 
-    | Stulpelio informacijos eilutės pavadinimas                                                | Prekės/Paslaugos pavadinimas                                                                                            |
-    |-----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-    | Stulpelio tipas                                                           | (Būtina) Nurodykite stulpelio duomenų tipą.                                                     |
-    | Knygos kodas / atributo kategorija                                          | Nurodykite **FD** ir **ATTR** tipo stulpelių finansinių duomenų informaciją.                       |
-    | Į finansinių metų laikotarpį įtraukti laikotarpiai                                    | Nurodykite **FD** tipo stulpelių finansinių duomenų informaciją.                                     |
-    | Formulė                                                               | Nurodykite **CALC** tipo stulpelių skaičiavimo formulę.                                        |
-    | Stulpelio plotis Papildomi tarpai prieš stulpelį Formato nepaisymas Spausdinimo valdiklis | Nurodykite specialaus formato pasirinktis.                                                                        |
-    | Stulpelio apribojimai                                                   | Apribokite duomenis.                                                                                         |
-    | Ataskaitinis vienetas.                                                        | Apribokite stulpelį, kad jame būtų rodomi tik nurodyto ataskaitinio vieneto duomenys.                      |
-    | Valiutos rodinio valiutos filtras                                      | Formatuokite valiutą.                                                                                       |
-    | Dimensijos filtras                                                      | Nurodykite filtrą, kuriame duomenys apribojami iki konkrečių finansinių duomenų ataskaitinių vienetų.                           |
-    | Atributo filtras                                                      | Nurodykite filtrą, pagal kurį turėtų būti apribojami finansiniai duomenys.                                                       |
-    | Pradžios data Pabaigos data                                                   | Apribokite finansinius duomenis pagal tam tikras datas.                                                         |
+    | Stulpelio informacijos eilutės pavadinimas                                                | Prekės/Paslaugos pavadinimas                                                    |
+    |-----------------------------------------------------------------------|-------------------------------------------------------------------------|
+    | Stulpelio tipas                                                           | (Būtina) Nurodykite stulpelio duomenų tipą.                                      |
+    | Knygos kodas / atributo kategorija                                          | Nurodykite **FD** ir **ATTR** tipo stulpelių finansinių duomenų informaciją.     |
+    | Į finansinių metų laikotarpį įtraukti laikotarpiai                                    | Nurodykite **FD** tipo stulpelių finansinių duomenų informaciją.              |
+    | Formulė                                                               | Nurodykite **CALC** tipo stulpelių skaičiavimo formulę.                  |
+    | Stulpelio plotis Papildomi tarpai prieš stulpelį Formato nepaisymas Spausdinimo valdiklis | Nurodykite specialaus formato pasirinktis.                                               |
+    | Stulpelio apribojimai                                                   | Apribokite duomenis.                                                                        |
+    | Ataskaitinis vienetas.                                                        | Apribokite stulpelį, kad jame būtų rodomi tik nurodyto ataskaitinio vieneto duomenys.      |
+    | Valiutos rodinio valiutos filtras                                      | Formatuokite valiutą.                                                                      |
+    | Dimensijos filtras                                                      | Nurodykite filtrą, kuriame duomenys apribojami iki konkrečių finansinių duomenų ataskaitinių vienetų.           |
+    | Atributo filtras                                                      | Nurodykite filtrą, pagal kurį turėtų būti apribojami finansiniai duomenys.                                      |
+    | Pradžios data Pabaigos data                                                   | Apribokite finansinius duomenis pagal tam tikras datas.                                    |
     | Pagrindimas                                                         | Eilutės apraše nurodytą aprašo tekstą sulygiuokite kairėje, centre arba dešinėje. |
 
 ## <a name="column-restrictions-in-a-column-definition"></a>Stulpelio apibrėžimo stulpelio apribojimai
 Norėdami nurodyti, kaip stulpelio apraše naudojami duomenys arba apskaičiuojama informacija, galite naudoti stulpelio apribojimus. Ataskaitos stulpelį taip pat galima apriboti konkrečiu vienetu arba konkrečiomis datomis.
 
 > [!NOTE]
-> Langelyje **Stulpelio apribojimas** nurodytas kodas nepaiso nesuderinamo parametro, kuris priskirtas eilučių apraše.
+> Stulpelio **apribojimo** kodas nepaiso visų eilutės apibrėžime priskirtų nesuderinamų parametrų.
 
 ### <a name="column-restrictions-cell"></a>Stulpelio apribojimų langelis
 
-Langelyje **Stulpelio apribojimai** gali būti nurodyti kodai, kurie apriboja arba uždraudžia informaciją, pvz., eilučių formatavimą, informaciją ir to stulpelio sumas.
+Stulpelyje **apribojimų lange** gali būti kodai, kurie apriboja arba nerodo informacijos, pvz., to stulpelio eilučių formatavimą, informaciją ir sumas.
 
 #### <a name="add-a-column-restriction-in-a-column-definition"></a>Stulpelio apribojimo įtraukimas į stulpelio aprašą
 
-1. Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti stulpelio aprašą.
-2. Norėdami apriboti stulpelį, dukart spustelėkite langelį **Stulpelio apribojimai**.
-3. Dialogo lango **Stulpelio apribojimai** sąraše pasirinkite vieną ar kelis kodus, tada spustelėkite **Gerai**.
+1. Ataskaitų konstruktoriuje atidarykite stulpelio apibrėžimą, norėdami modifikuoti.
+2. Dukart spustelėkite stulpelio **apribojimų langelį** Stulpelis, kad apriboti.
+3. Dialogo lange **Stulpelio** apribojimai pasirinkite vieną ar daugiau sąrašo kodų ir spustelėkite **Gerai**.
 
 ### <a name="column-restriction-codes"></a>Stulpelio apribojimo kodai
 
@@ -121,49 +121,49 @@ Toliau pateikiamoje lentelėje aprašomi stulpelio apribojimo kodai.
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Stulpelio apibojimas iki ataskaitinio vieneto
 
-1. Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti stulpelio aprašą.
-2. Norėdami apriboti stulpelį, dukart spustelėkite langelį **Ataskaitinis vienetas**.
-3. Dialogo lango **Ataskaitinio vieneto pasirinkimas** sąraše **Ataskaitų medis** pasirinkite medį.
+1. Ataskaitų konstruktoriuje atidarykite stulpelio apibrėžimą, norėdami modifikuoti.
+2. Du kartus spustelėkite stulpelio **, kurį** norite apriboti, ataskaitos vieneto langelį.
+3. Ataskaitų medžio **sąrašo dialogo** lange Ataskaitų vienetas **pasirinkite** medį.
 4. Išplėskite arba sutraukite vienetų sąrašą, pasirinkite ataskaitinį vienetą, tada spustelėkite **Gerai**.
 
 ## <a name="format-column-headers"></a>Stulpelių antraščių formatavimas
-Galite pridėti, modifikuoti ir panaikinti ataskaitos stulpelių viršuje rodomas antraštes. Taip pat galite konfigūruoti sąlygines aprėpiančių stulpelių antraštes, priklausomai nuo stulpelio aprašų lauko **Laikotarpis** ir ataskaitos aprašų lauko **Pagrindinis laikotarpis**. Jei naudojatės pagrindinio laikotarpio funkcija, kurdami kintančios prognozės ataskaitas galite sutaupyti laiko.
+Galite pridėti, modifikuoti ir panaikinti ataskaitos stulpelių viršuje rodomas antraštes. Taip pat galite konfigūruoti sąlyginių rašto stulpelių antraštes, **pagrįstas** **stulpelių** apibrėžimų lauku Laikotarpis ir ataskaitos apibrėžimų lauku Pagrindinis laikotarpis. Jei naudojatės pagrindinio laikotarpio funkcija, kurdami kintančios prognozės ataskaitas galite sutaupyti laiko.
 
 ### <a name="create-and-manage-column-headers"></a>Stulpelio antraščių kūrimas ir tvarkymas
 
-Norėdami pridėti, modifikuoti ir panaikinti ataskaitos stulpelių viršuje rodomas antraštes, galite naudoti dialogo langą **Stulpelio antraštė**. Toliau pateikiamoje lentelėje aprašomi dialogo lango **Stulpelio antraštė** laukai.
+Norėdami pridėti **, modifikuoti ir naikinti** ataskaitos stulpelių viršuje rodomas antraštes, galite naudoti dialogo langą Stulpelio antraštė. Toliau pateikiamoje lentelėje aprašomi dialogo lango Stulpelio **antraštė** laukai.
 
-| Laukas                 | Prekės/Paslaugos pavadinimas |
+| Laukas                 | Aprašymas |
 |-----------------------|-------------|
-| Stulpelio antraštės tekstas    | Šis tekstas rodomas stulpelio antraštėje. Galite įvesti tekstą tiesiai į šį lauką arba spustelėję **Įterpti automatinį tekstą** pasirinkti pasirinktį, kuria naudojantis stulpelio antraštė atnaujinama kiekvieną kartą, kai sugeneruojama ataskaita. Norėdami įtraukti keletą automatinio teksto kodų, dar kartą spustelėkite **Įterpti automatinį tekstą**, tada spustelėkite kitą sąraše pateikiamą kodą. |
+| Stulpelio antraštės tekstas    | Šis tekstas rodomas stulpelio antraštėje. Galite tiesiogiai įvesti tekstą į šį lauką arba spustelėti Įterpti automatinį **tekstą, kad pasirinktumėte pasirinktį,** kuri atnaujina stulpelio antraštę kiekvieną kartą, kai generuojama ataskaita. Norėdami įtraukti kelis automatinio teksto kodus, dar kartą **spustelėkite Įterpti autoText** ir sąraše spustelėkite kitą kodą. |
 | Formatavimo pasirinktys        | Taikyti formatavimą stulpelio antraštei, pvz., teksto lauką arba pabraukimą. |
 | Paskirstyti nuo Paskirstyti iki | Nurodykite, kuriam stulpeliui ar stulpeliams taikomas antraštės tekstas. |
 | Pagrindimas         | Nurodykite, kaip stulpelio antraštės tekstas turėtų būti sulygiuotas laukuose **Paskirstyti nuo** ir **Paskirstyti iki** nurodytame stulpelyje arba stulpelių intervale. |
 
 ### <a name="create-a-column-header"></a>Stulpelio antraštės kūrimas
 
-1. Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti stulpelio aprašą.
+1. Ataskaitų konstruktoriuje atidarykite stulpelio apibrėžimą, norėdami modifikuoti.
 2. Dukart spustelėkite antraštės langelį.
-3. Dialogo lange **Stulpelio antraštė** įveskite stulpelio antraštės tekstą. Arba spustelėkite **Įterpti automatinį tekstą** ir pasirinkite pasirinktį.
+3. Stulpelio **antraštės** dialogo lange įveskite stulpelio antraštės tekstą. Taip pat spustelėkite Įterpti **automatinį tekstą** ir pasirinkite pasirinktį.
 4. Lauke **Formatavimo pasirinktys** pasirinkite antraštės formatą.
 5. Lauke **Paskirstyti nuo** įveskite stulpelio raidę, kuria turėtų prasidėti stulpelio antraštė. Lauke **Paskirstyti iki** įveskite stulpelio raidę, kuria stulpelio antraštė turėtų pasibaigti.
 6. Dalyje **Lygiavimas** pasirinkite, ar stulpelio antraštės tekstas turėtų būti lygiuojamas kairėje, centre, ar dešinėje.
-7. Spustelėkite **GERAI**.
+7. Spustelėkite **Gerai**.
 
 ### <a name="add-a-column-header-row"></a>Stulpelio antraštės eilutės įtraukimas
 
-1. Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti stulpelio aprašą.
+1. Ataskaitų konstruktoriuje atidarykite stulpelio apibrėžimą, norėdami modifikuoti.
 2. Pažymėkite antraštės eilutės langelį.
-3. Meniu **Redaguoti** spustelėkite **Įterpti eilutę**. Nauja eilutė bus įterpta virš atliekant 2 veiksmą pažymėtos eilutės.
+3. Redagavimo **meniu** spustelėkite eilutę **Įterpti**. Nauja eilutė bus įterpta virš atliekant 2 veiksmą pažymėtos eilutės.
 
 > [!NOTE]
 > Jei ataskaitoje yra keturios arba daugiau ataskaitos antraščių eilučių, antraštės persidengs ataskaitą eksportuojant į „Excel“ darbalapį. Norėdami peržiūrėti visas ataskaitos antraštes, padidinkite viršutinę ataskaitos aprašo paraštę.
 
 ### <a name="delete-a-column-header-row"></a>Stulpelio antraštės eilutės naikinimas
 
-1. Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti stulpelio aprašą.
+1. Ataskaitų konstruktoriuje atidarykite stulpelio apibrėžimą, norėdami modifikuoti.
 2. Antraštės eilutėje pažymėkite norimą naikinti langelį.
-3. Meniu **Redaguoti** spustelėkite **Naikinti eilutę**.
+3.  **Meniu Redaguoti** spustelėkite eilutę **Naikinti**.
 
 ### <a name="create-an-automatically-generated-header"></a>Automatiškai sugeneruotos antraštės kūrimas
 
@@ -192,16 +192,16 @@ Ataskaitų dizaino įrankis gali automatiškai sugeneruoti stulpelių antraštes
 
 Sąlyginės aprėpiančios antraštės gali aprėpti kelis tam tikro laikotarpio duomenimis grįstus stulpelius. Pavyzdžiui, jei turite finansinių metų biudžeto ataskaitą ir norite kartu su pastarųjų mėnesių faktiniais biudžetais rodyti ateinančių mėnesių planuojamus biudžetus, naudodami sąlyginę aprėpiančią antraštę galite automatiškai atnaujinti ataskaitos antraštę. Kurdami sąlyginę besitęsiančią antraštę atkreipkite dėmesį į toliau pateiktas situacijas.
 
-- Bet kokia sustabdymo sąlyga (laukas **Paskirstyti iki**), kuri sugretinama prieš nepaisant pradžios sąlygos (**Paskirstyti nuo**). Pavyzdžiui, nurodyta stulpelio B paskirstymo sąlyga nuo BASE+1 iki BASE, kurioje BASE yra stulpelis C, o BASE+1 yra stulpelis D. Šiuo atveju stulpelio C sustabdymo sąlygos nepaisoma, o spausdinimas antraštėje prasideda nuo stulpelio D.
-- Jei nurodote persidengiančias stulpelių antraštes, jos persidengia, kai yra spausdinamos ataskaitoje. Ataskaita sugeneruojama, bet lauke **Ataskaitos eilės būsena** rodomas šis įspėjimas: „Pagrindą naudojančios stulpelių antraštės sutampa su kitomis stulpelio antraštėmis, todėl tekstas gali persidengti.“ Pavyzdžiui, stulpelio B antraštės aprašas yra nuo B iki BASE+1, o stulpelio D antraštės aprašas yra nuo BASE+1 iki F. Tokiu atveju antraštės spausdinamos viena ant kitos ir yra beveik neįskaitomos. Kiekvieną kartą, kai apraše **Paskirstyti nuo / Paskirstyti iki** naudojamas BASE, būtinai peržiūrėkite generuojamą ataskaitą, kad pamatytumėte, ar antraštės persidengia.
+- Bet kuri sustabdymo sąlyga **(** paskirstyta laukui), gretinama prieš pradžios sąlygą (**paskirstyti** nuo lauko) nepaisoma. Pavyzdžiui, nurodyta stulpelio B paskirstymo sąlyga nuo BASE+1 iki BASE, kurioje BASE yra stulpelis C, o BASE+1 yra stulpelis D. Šiuo atveju stulpelio C sustabdymo sąlygos nepaisoma, o spausdinimas antraštėje prasideda nuo stulpelio D.
+- Jei nurodote persidengiančias stulpelių antraštes, jos persidengia, kai yra spausdinamos ataskaitoje. Ataskaita generuojama, **bet** ataskaitų eilės būsenos lauke rodomas šis įspėjimas: "Stulpelių antraštės, naudojant base sutapimą su kitomis stulpelių antraštėmis, kurios gali persidengti su tekstu." Pavyzdžiui, stulpelio B antraštės aprašas yra nuo B iki BASE+1, o stulpelio D antraštės aprašas yra nuo BASE+1 iki F. Tokiu atveju antraštės spausdinamos viena ant kitos ir yra beveik neįskaitomos. Kiekvieną kartą, kai apraše **Paskirstyti nuo / Paskirstyti iki** naudojamas BASE, būtinai peržiūrėkite generuojamą ataskaitą, kad pamatytumėte, ar antraštės persidengia.
 - Jei BASE nurodote stulpelio Nespausdinti (**NP**) paskirstymo apraše, jo bus nepaisoma, neatsižvelgiant į tai, kas nurodyta stulpelio apraše. Iš esmės šis scenarijus yra toks pat kaip tada, kai nesukuriamas stulpelio antraštės aprašas.
 - Sąlyginio spausdinimo stulpelių (**P&lt;B**, **P&gt;=B**) sąlyginės aprėpiančios antraštės veikia taip pat, kaip bet kuris įprastas stulpelio antraštės aprašas. Pvz., jei sąlyga klaidinga, bet kuriame kitame stulpelyje, kuris atitinka paskirstymo sąlygą, pradedama spausdinti antraštė.
 
 #### <a name="create-a-conditional-spanning-header"></a>Sąlyginės aprėpiančios antraštės kūrimas
 
-1. Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti stulpelio aprašą.
+1. Ataskaitų konstruktoriuje atidarykite stulpelio apibrėžimą, norėdami modifikuoti.
 2. Dukart spustelėkite antraštės langelį.
-3. Dialogo lange **Stulpelio antraštė** įveskite stulpelio antraštės tekstą. Arba spustelėkite **Įterpti automatinį tekstą** ir pasirinkite pasirinktį.
+3. Stulpelio **antraštės** dialogo lange įveskite stulpelio antraštės tekstą. Taip pat spustelėkite Įterpti **automatinį tekstą** ir pasirinkite pasirinktį.
 4. Lauke **Formatavimo pasirinktys** pasirinkite antraštės formatavimo stilių.
 5. Nurodyti laikotarpį, susijusį su pagrindiniu laikotarpiu, kuris nurodytas generuojant ataskaitą. Laukuose **Paskirstyti nuo** ir **Paskirstyti iki** įveskite vieną iš šių reikšmių: **BASE**, **BASE-X** arba **BASE+X**, kuriose X yra laikotarpių skaičius nuo pagrindinio laikotarpio. Pvz., jei lauke **Paskirstyti nuo** įvesite **BASE**, sąlyginio aprėpiančio stulpelio antraštės tekstas prasideda stulpelio antraštėje, kurioje ataskaitos aprašo **Pagrindinis laikotarpis** reikšmė lygi stulpelio aprašo **Laikotarpis** reikšmei. Jis baigiasi stulpelyje, kuris nurodytas lauke **Paskirstyti iki**. Todėl jei paskirstymas yra iš BASE į M, o ataskaitos aprašo **Pagrindinis laikotarpis** reikšmė yra **4**, antraštė prasideda stulpelyje, kuriame nustatytas laikotarpis **4**, ir baigiasi stulpelyje M. Antraštės sustabdomos ir paleidžiamos tik spausdinimo stulpeliuose.
 6. Dalyje **Lygiavimas** pasirinkite, ar stulpelio antraštės tekstas turėtų būti lygiuojamas kairėje, centre, ar dešinėje.
@@ -211,20 +211,20 @@ Sąlyginės aprėpiančios antraštės gali aprėpti kelis tam tikro laikotarpio
 
 Vartotojas kuria dinaminės šešių mėnesių prognozės ataskaitą. Vartotojas nori, kad žodis „Faktinis“ būtų išspausdintas stulpeliuose, kuriuose yra faktiniai duomenys, o žodis „Biudžetas“ būtų išspausdintas stulpeliuose, kuriuose yra biudžeto prognozės. Kiekvieną mėnesį, kada paleidžiama ataskaita, faktinių stulpelių yra vienu daugiau, o biudžeto stulpelių – vienu mažiau. Nors norėdamas koreguoti antraštes, kiekvieną kartą, kai generuojama ataskaita, vartotojas gali pati keisti stulpelio aprašą, tam, kad sutaupytų laiko ir pastangų, vartotojas nusprendžia sukurti sąlygines aprėpiančias antraštes, kurios kiekvieną kartą paleidus ataskaitą atitinkamuose stulpeliuose automatiškai sukurs antraštes. Vartotojas atidaro ataskaitų dizaino įrankį, naršymo srityje spusteli **Stulpelio aprašas** ir atidaro ataskaitos stulpelio aprašą. Tada vartotojas įveda toliau nurodomą informaciją. Ataskaitos apraše nurodytas pagrindinis laikotarpis yra 4.
 
-|      Formatuoti         |  A   | Mlrd.             | K             | D             | E             | Pn.             | Ž             | H             | I             | J             | Tūkst.             | L             | P             |
-|---------------------|------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
-| 1 antraštė            |      | Faktinis        | Biudžetas        |               |               |               |               |               |               |               |               |               |               |
-| 2 antraštė            |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
-| 3 antraštė            |      |               |               |               |               |               |               |               |               |               |               |               |               |
-| Stulpelio tipas         | APRAŠ. | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            |
+|  Formatuoti   |  A   | Mlrd.     | K      | D       | E        | Pn.       | Ž       | H      | I             | J             | Tūkst.             | L             | P             |
+|-----------|------|-------|--------|---------|----------|---------|---------|---------|-------------|---------------|---------------|---------------|---------------|
+| 1 antraštė   |    | Faktinis    | Biudžetas        |         |         |        |       |          |        |               |               |               |               |
+| 2 antraštė   |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
+| 3 antraštė    |      |       |        |        |        |         |        |          |               |               |               |               |               |
+| Stulpelio tipas  | APRAŠ. | FD   | FD     | FD    | FD   | FD    | FD      | FD            | FD            | FD            | FD            | FD            | FD            |
 | Knygos kodas / atributas |      | FAKTINIS        | BIUDŽETAS2012    | FAKTINIS        | BIUDŽETAS2012    | FAKTINIS        | BIUDŽETAS2012    | FAKTINIS        | BIUDŽETAS2012    | FAKTINIS        | BIUDŽETAS2012    | FAKTINIS        | BIUDŽETAS2012    |
-| Finansiniai metai         |      | PAGRINDINIS          | PAGRINDINIS          | PAGRINDINIS          | PAGRINDINIS          | PAGRINDINIS          | PAGRINDINIS          | PAGRINDINIS          | PAGRINDINIS          | PAGRINDINIS          | PAGRINDINIS          | PAGRINDINIS          | PAGRINDINIS          |
-| Laikotarpis              |      | 1             | 1             | 2             | 2             | 3             | 3             | 4             | 4             | 5             | 5             | 6             | 6             |
+| Finansiniai metai |  | PAGRINDINIS   | PAGRINDINIS   | PAGRINDINIS   | PAGRINDINIS   | PAGRINDINIS    | PAGRINDINIS    | PAGRINDINIS     | PAGRINDINIS          | PAGRINDINIS          | PAGRINDINIS          | PAGRINDINIS          | PAGRINDINIS          |
+| Laikotarpis  |     | 1      | 1       | 2      | 2      | 3       | 3       | 4        | 4             | 5             | 5             | 6             | 6             |
 | Apimami laikotarpiai     |      | PERIODINIS      | PERIODINIS      | PERIODINIS      | PERIODINIS      | PERIODINIS      | PERIODINIS      | PERIODINIS      | PERIODINIS      | PERIODINIS      | PERIODINIS      | PERIODINIS      | PERIODINIS      |
-| Stulpelio plotis        | 30   | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            |
-| Spausdinimo valdiklis       |      | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        |
+| Stulpelio plotis   | 30   | 10    | 10     | 10     | 10    | 10    | 10    | 10     | 10            | 10            | 10            | 10            | 10            |
+| Spausdinimo valdiklis  |    | P&lt;=B    | P&gt;B   | P&lt;=B  | P&gt;B   | P&lt;=B   | P&gt;B   | P&lt;=B  | P&gt;B   | P&lt;=B  | P&gt;B   | P&lt;=B       | P&gt;B        |
 
-Vartotojas dukart paspaudžia stulpelio B antraštės langelį, kad atidarytų dialogo langą **Stulpelio antraštė**, kuriame įveda toliau nurodomą informaciją.
+Vartotojas du kartus spusteli B stulpelio antraštės langelį, kad atidarytų **stulpelio** antraštės dialogo langą, ir įveda šią informaciją.
 
 | Laukas              | Reikšmė                 |
 |--------------------|-----------------------|
@@ -235,7 +235,7 @@ Vartotojas dukart paspaudžia stulpelio B antraštės langelį, kad atidarytų d
 | Paskirstyti nuo        | Mlrd.                     |
 | Paskirstyti iki          | PAGRINDINIS                  |
 
-Įvedęs informaciją, vartotojas spusteli **Gerai**. Tada vartotojas dukart spusteli stulpelio C antraštės langelį, kad atidarytų dialogo langą **Stulpelio antraštė**, kuriame įveda toliau nurodomą informaciją.
+Įvedęs informaciją, vartotojas spusteli **Gerai**. Tada vartotojas du kartus spusteli C stulpelio antraštės langelį, kad atidarytų stulpelio **antraštės** dialogo langą, ir įveda šią informaciją.
 
 | Laukas              | Reikšmė                 |
 |--------------------|-----------------------|
@@ -251,7 +251,7 @@ Dabar kiekvieną kartą generuojant ataskaitą žodis „Faktinis“ bus išspau
 ## <a name="apply-column-justification"></a>Stulpelio lygiavimo taikymas
 Langelis **Lygiavimas** naudojamas norint ataskaitos aprašo stulpeliui taikyti lygiavimo formatavimą. Ši pasirinktis veikia tik stulpelio aprašymus, ne faktines reikšmes.
 
-1. Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti stulpelio aprašą.
+1. Ataskaitų konstruktoriuje atidarykite stulpelio apibrėžimą, norėdami modifikuoti.
 2. Dukart spustelėkite langelį **Lygiavimas**.
 3. Pasirinkite vieną iš šių sąrašo reikšmių:
 
@@ -261,7 +261,7 @@ Langelis **Lygiavimas** naudojamas norint ataskaitos aprašo stulpeliui taikyti 
     - **Dešinėje** – lygiuoti stulpelio aprašus dešinėje.
 
 ## <a name="add-special-formatting-options"></a>Specialių formatavimo pasirinkčių įtraukimas
-Stulpelio apraše naudojant formatavimo stulpelio informacijos eilutes pažymėtiems stulpeliams taikomas specialus formatavimas. Nors kai kurios dalių **Spausdinimo valdymas** ir **Stulpelio apribojimai** pasirinktys yra skirtos tik **FD** stulpeliams, dauguma pasirinkčių taikomos visų tipų stulpeliams. Stulpelio apraše nurodytas formatavimas pakeičia ataskaitos apraše nurodytą formatavimą. Tačiau eilutės apraše nurodytas formatavimas pakeičia stulpelio apraše nurodytą formatavimą. Šios eilutės laikomos formatavimo eilutėmis:
+Stulpelio apraše naudojant formatavimo stulpelio informacijos eilutes pažymėtiems stulpeliams taikomas specialus formatavimas. Nors kai kurios spausdinimo **kontrolės pasirinktys** ir stulpelių **apribojimų** pasirinktys yra **konkrečios FD** stulpeliams, dauguma pasirinkčių yra taikomos visiems stulpelių tipams. Stulpelio apraše nurodytas formatavimas pakeičia ataskaitos apraše nurodytą formatavimą. Tačiau eilutės apraše nurodytas formatavimas pakeičia stulpelio apraše nurodytą formatavimą. Šios eilutės laikomos formatavimo eilutėmis:
 
 - Stulpelio plotis
 - Papildomi tarpai prieš stulpelį
@@ -270,35 +270,35 @@ Stulpelio apraše naudojant formatavimo stulpelio informacijos eilutes pažymėt
 
 ### <a name="changing-the-column-width"></a>Stulpelio pločio keitimas
 
-LangelyjeĮ **Stulpelio plotis** nurodomas spausdintoje ataskaitoje šio stulpelio pločiui naudojamų simbolių skaičius. Stulpelio plotis svarbus stulpeliuose, kuriuose yra sumos (**CALC**, **WKS** arba **FD** tipo stulpeliai), aprašai (**DESC** tipo stulpeliai) arba užpildymas (**FILL** tipo stulpeliai). Pagal numatytuosius parametrus pažymėta pasirinktis **Pritaikyti automatiškai**, kad kiekvieno stulpelio plotis automatiškai būtų nustatomas taip, kad tilptų turinys.
+Stulpelio **pločio** langelis nurodo simbolių skaičių, kuris bus naudojamas šio stulpelio plotyje išspausdintoje ataskaitoje. Stulpelio plotis svarbus stulpeliuose, kuriuose yra sumos (**CALC**, **WKS** arba **FD** tipo stulpeliai), aprašai (**DESC** tipo stulpeliai) arba užpildymas (**FILL** tipo stulpeliai). Pagal numatytuosius parametrus pažymėta pasirinktis **Pritaikyti automatiškai**, kad kiekvieno stulpelio plotis automatiškai būtų nustatomas taip, kad tilptų turinys.
 
 #### <a name="specify-the-width-of-a-column-on-a-report"></a>Ataskaitos stulpelio pločio nurodymas
 
-1. Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti stulpelio aprašą.
-2. Langelyje **Stulpelio plotis** įveskite stulpelio pločio tarpų skaičių. Didžiausias bet kurio stulpelio plotis yra 255 simboliai (įskaitant šimtines dalis, kablelius ir skliaustelius). Arba, norėdami įjungti ataskaitų dizaino įrankį ir pasirinkti tinkamą stulpelio plotį pagal langelio turinį, dukart spustelėkite langelį **Stulpelio plotis**, tada spustelėkite **Pritaikyti automatiškai**.
+1. Ataskaitų konstruktoriuje atidarykite stulpelio apibrėžimą, norėdami modifikuoti.
+2. Stulpelyje **pločio langelyje** įveskite tarpų skaičių, pagal kurį plotis yra stulpelis. Didžiausias bet kurio stulpelio plotis yra 255 simboliai (įskaitant šimtines dalis, kablelius ir skliaustelius). Arba norėdami įgalinti ataskaitų konstruktorių pasirinkti tinkamą stulpelio plotį pagal langelio turinį, **du** kartus spustelėkite langelį Stulpelio plotis, tada spustelėkite **AutoFit**.
 
 ### <a name="add-space-between-columns"></a>Tarpo tarp stulpelių įtraukimas
 
-Langelyje **Papildomi tarpai prieš stulpelį** nurodomas stulpelio aprašo stulpelius atskiriančio skyriklio plotis. Nuostata **Papildomi tarpai prieš stulpelį** taikoma visoms stulpelio informacijos eilutėms, bet netaikoma stulpelio antraštės eilutėms. Naudokite šią pasirinktį norėdami atskirti stulpelių grupes arba pridėti keletą tarpų prieš aprašymą, kad aprašo stulpelis būtų įtraukiamas pagal kairėje pusėje sulygiuotus pavadinimus. Numatytasis tarpų tarp kiekvieno stulpelio skaičius yra du. Galite pakeisti šį parametrą ataskaitos aprašo skirtuke **Parametrai**.
+Papildomi **tarpai prieš stulpelio** langelį nurodo skyriklio plotį tarp vieno stulpelio ir gretimų stulpelių apibrėžime. Papildomi **tarpai prieš stulpelio nustatymą** daro įtaką visoms stulpelio informacijos eilutėms, bet ne stulpelio antraštės eilutėms. Naudokite šią pasirinktį norėdami atskirti stulpelių grupes arba pridėti keletą tarpų prieš aprašymą, kad aprašo stulpelis būtų įtraukiamas pagal kairėje pusėje sulygiuotus pavadinimus. Numatytasis tarpų tarp kiekvieno stulpelio skaičius yra du. Galite pakeisti šį parametrą ataskaitos aprašo skirtuke **Parametrai**.
 
 #### <a name="specify-the-space-between-columns"></a>Tarpo tarp stulpelių nurodymas
 
-1. Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti stulpelio aprašą.
-2. Langelyje **Papildomi tarpai prieš stulpelį** įveskite tarpų tarp stulpelių skaičių.
+1. Ataskaitų konstruktoriuje atidarykite stulpelio apibrėžimą, norėdami modifikuoti.
+2. Papildomame tarpe **prieš stulpelio langelį** įveskite tarpų, kuriuos norite įterpti tarp stulpelių, skaičių.
 
 ### <a name="specify-a-format-currency-override"></a>Formato valiutos perrašymo nurodymas
 
-Langelyje **Formato / valiutos nepaisymas** nurodomas stulpelio skaitmenų po kablelio, valiutos ir procentinių sumų formatavimas. Šis formatavimas pakeičia bet kurį formatavimą, nurodytą ataskaitos apraše arba sistemos numatytuose parametruose.
+Formato **/ valiutos perrašymo** langelis nurodo dešimtainių dalių formatavimą, valiutą ir procento sumas stulpelyje. Šis formatavimas pakeičia bet kurį formatavimą, nurodytą ataskaitos apraše arba sistemos numatytuose parametruose.
 
 #### <a name="assign-a-format-currency-override-to-a-report-column"></a>Formato ir valiutos perrašymo priskyrimas ataskaitos stulpeliui
 
-1. Naudodami ataskaitų dizaino įrankį atidarykite norimą modifikuoti stulpelių aprašą.
-2. Dukart spustelėkite sumų stulpelio langelį **Formato / valiutos perrašymas**.
-3. Dialogo lange **Formato nepaisymas** pasirinkite formatavimo pasirinktis.
+1. Ataskaitų konstruktoriuje atidarykite stulpelio apibrėžimą, norėdami modifikuoti.
+2. Dukart spustelėkite sumos **stulpelio langelį Formatas /** Valiutos perrašymo langelis.
+3. Dialogo lange **Formato nepaisymo** pasirinkite formatavimo pasirinktis.
 
 ### <a name="add-a-print-control-code"></a>Spausdinimo kontrolinio kodo įtraukimas
 
-Langelyje **Spausdinimo valdymas** gali būti stulpelio rodinį arba spausdinimo charakteristikas koreguojantys kodai. Yra du spausdinimo kontrolinių kodų tipai: įprastiniai spausdinimo kontroliniai kodai ir sąlyginiai spausdinimo kontroliniai kodai.
+ **Spausdinimo kontrolės langelyje** gali būti kodų, kurie koreguoja stulpelio rodymą arba spausdinimo charakteristikas. Yra du spausdinimo kontrolinių kodų tipai: įprastiniai spausdinimo kontroliniai kodai ir sąlyginiai spausdinimo kontroliniai kodai.
 
 #### <a name="regular-print-control-codes"></a>Įprastiniai spausdinimo kontroliniai kodai
 
@@ -306,7 +306,7 @@ Langelyje **Spausdinimo valdymas** gali būti stulpelio rodinį arba spausdinimo
 |--------------------|-------------------------------------------------|-------------|
 | NP                 | Nespausdinimas                                     | Šio stulpelio sumų neįtraukti į spausdinamą ataskaitą ir į skaičiavimus. Norėdami į skaičiavimą įtraukti nespausdinamą stulpelį, nurodykite stulpelį tiesiogiai skaičiavimo formulėje. Pavyzdžiui, nespausdinamas stulpelis C įtraukiamas į šį skaičiavimą: **B+C+D**. Tačiau nespausdinamas stulpelis C neįtraukiamas į šį skaičiavimą: **B:D**. |
 | XCR                | Ženklo keitimas, jei įprastas eilutės balansas yra kreditas | Sukurkite biudžetą arba palyginamąją ataskaitą, kurioje bet koks nepalankus nuokrypis (pvz., pajamų trūkumas ar išlaidų viršijimas) visada yra neigiamas. Taikykite šį kodą stulpeliui **CALC**, jei norite pakeisti stulpelio sumos ženklą, jei įprastas nurodytos eilutės balansas yra kreditas (kaip nurodyta eilutės aprašo stulpelio **Įprastinis balansas** dalyje **C**).<p><strong>Pastaba:</strong> eilutėse <strong>TOT</strong> ir </strong>CAL</strong>, kuriose paprastai nurodomas kredito balansas, eilutės aprašo stulpelyje <strong>Įprastinis balansas</strong> nepamirškite įvesti <strong>C</strong>.</p> |
-| X0                 | Stulpelio nerodymas, jei visur nuliai arba tuščios vietos          | Neįtraukite stulpelio **FD** į ataskaitą, jei visi to stulpelio langeliai yra tušti arba juose yra nuliai. |
+| X0            | Stulpelio nerodymas, jei visur nuliai arba tuščios vietos   | Neįtraukite stulpelio **FD** į ataskaitą, jei visi to stulpelio langeliai yra tušti arba juose yra nuliai. |
 | SR                 | Apvalinimo sustabdymas                               | Neleiskite, kad sumos šiame stulpelyje būtų apvalinamos. |
 | XR                 | Sumavimo sustabdymas                                 | Sustabdykite sumavimą. Jei ataskaita naudoja ataskaitų medį, sumos šiame stulpelyje nėra sumuojamos, kad būtų gauti pirminiai mazgai. |
 | RP                 | Stulpelio kartojimas kiekviename puslapyje                      | Pakartokite nurodytą stulpelį kiekviename ataskaitos puslapyje. Pvz., galite naudoti spausdinimo kontrolinį kodą **RP** ir įtraukti **ROW** tipo stulpelį, nurodantį eilutės kodus kiekviename puslapyje. |
@@ -325,14 +325,14 @@ Langelyje **Spausdinimo valdymas** gali būti stulpelio rodinį arba spausdinimo
 
 #### <a name="add-print-control-codes-to-a-report-column"></a>Spausdinimo kontrolinių kodų įtraukimas į ataskaitos stulpelį
 
-1. Naudodami ataskaitų dizaino įrankį atidarykite norimą modifikuoti stulpelių aprašą.
-2. Dukart spustelėkite langelį **Spausdinimo valdiklis**.
-3. Dialogo lango **Spausdinimo valdiklis** sąraše **Pasirinkite spausdinimo valdiklio pasirinktis** pasirinkite kodą. Norėdami pasirinkti daugiau negu vieną kodą, laikykite nuspaudę klavišą Ctrl ir pasirinkite kodus.
+1. Ataskaitų konstruktoriuje atidarykite stulpelio apibrėžimą, norėdami modifikuoti.
+2. Du kartus spustelėkite langelį **Spausdinti valdiklį** .
+3. Dialogo lange **Spausdinimo** valdymas pasirinkite kodą iš sąrašo Pasirinkti **spausdinimo kontrolės pasirinktis** . Norėdami pasirinkti daugiau negu vieną kodą, laikykite nuspaudę klavišą Ctrl ir pasirinkite kodus.
 4. Lauke **Sąlyginio spausdinimo pasirinktys** pasirinkite parinktį. Pagal numatytuosius parametrus pažymėta **(nėra)**. Vienu metu galite pasirinkti tik vieną sąlyginio spausdinimo kodą.
 5. Spustelėkite **Gerai**.
 
 > [!TIP]
-> Taip pat galite įvesti spausdinimo kodus tiesiogiai langelyje **Spausdinimo valdiklis**. Atskirkite kelis spausdinimo kontrolinius kodus kableliais.
+> Taip pat galite tiesiogiai įvesti spausdinimo kodus į spausdinimo **kontrolės** langelį. Atskirkite kelis spausdinimo kontrolinius kodus kableliais.
 
 ## <a name="column-types"></a>Stulpelio tipai
 Kiekvieno ataskaitos stulpelio informacijos tipas nurodytas pagal stulpelio aprašo eilutėje **Stulpelio tipas** pateiktą reikšmę. Kiekvieną stulpelio aprašą privalo sudaryti bent vienas aprašo (**DESC**) stulpelis ir vienas sumos (**FD**, **WKS** ar **CALC**) stulpelis.
@@ -342,8 +342,8 @@ Kiekvieno ataskaitos stulpelio informacijos tipas nurodytas pagal stulpelio apra
 
 ### <a name="specify-a-column-type"></a>Stulpelio tipo nurodymas
 
-1. Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti stulpelio aprašą.
-2. Atitinkamame stulpelyje dukart spustelėkite eilutės **Stulpelio tipas** langelį.
+1. Ataskaitų konstruktoriuje atidarykite stulpelio apibrėžimą, norėdami modifikuoti.
+2. Tinkamame stulpelyje du kartus spustelėkite langelį, esančią eilutėje **Stulpelio** tipas.
 3. Sąraše pasirinkite stulpelio tipą. Toliau pateikiamoje lentelėje aprašomi įvairūs stulpelių tipai.
 
     <table>
@@ -399,15 +399,15 @@ Kiekvieno ataskaitos stulpelio informacijos tipas nurodytas pagal stulpelio apra
 
 ### <a name="financial-dimensions-column"></a>Finansinių dimensijų stulpelis
 
-Toliau pateikiami eilutės **Stulpelio aprašas** apibrėžimai taikomi stulpeliams, kurių stulpelio tipas yra **FD** (sumos iš finansinių dimensijų).
+Šie stulpelio **apibrėžimo** eilutės apibrėžimai taikomi stulpeliams, kurių stulpelio tipas yra **FD** (Sumos iš finansinių dimensijų).
 
 #### <a name="book-codeattribute-category-cell"></a>Langelis Knygos kodas / atributo kategorija
 
-Langelyje **Knygos kodas / atributo kategorija** nurodomas stulpelio **FD** duomenų knygos kodas. Stulpelio apraše gali būti keli faktinių sumų, biudžeto ir statistikos stulpeliai. Stulpelio apraše taip pat gali būti rodomi skirtingi laikotarpiai, pvz., dabartinis arba metų iki šios dienos, ir skirtingos sumos. Knygos kodų sąraše matomos jūsų finansiniuose duomenyse nurodytos faktinių sumų, biudžeto ir statistikos (nefinansinės) pasirinktys.
+Knygos **kodo / atributo** kategorijos langelis identifikuoja FD **stulpelio duomenų knygos** kodą. Stulpelio apraše gali būti keli faktinių sumų, biudžeto ir statistikos stulpeliai. Stulpelio apraše taip pat gali būti rodomi skirtingi laikotarpiai, pvz., dabartinis arba metų iki šios dienos, ir skirtingos sumos. Knygos kodų sąraše matomos jūsų finansiniuose duomenyse nurodytos faktinių sumų, biudžeto ir statistikos (nefinansinės) pasirinktys.
 
-#### <a name="fiscal-year-cell"></a>Langelis Finansiniai metai
+#### <a name="fiscal-year-cell"></a>Finansinių metų langelis
 
-Langelyje **Finansiniai metai** nurodomi finansiniai metai, kurie turėtų būti įtraukti į stulpelį. Šie metai gali būti susiję su pagrindiniais metais, kurie nurodomi generuojant ataskaitą. Galimos toliau nurodytos pasirinktys.
+Finansinių **metų langelis** identifikuoja finansinius metus, kuriuos turi įtraukti stulpelis. Šie metai gali būti susiję su pagrindiniais metais, kurie nurodomi generuojant ataskaitą. Galimos toliau nurodytos pasirinktys.
 
 | Parinktis  | Prekės/Paslaugos pavadinimas                                                                                                                  |
 |---------|------------------------------------------------------------------------------------------------------------------------------|
@@ -436,13 +436,13 @@ Nurodydami bet kurį laikotarpį galite peržengti finansinių metų ribas ir ga
 
 ### <a name="specify-the-periods-for-an-fd-column"></a>FD stulpelio laikotarpių nurodymas
 
-1. Naudodami ataskaitų dizaino įrankį atidarykite norimą modifikuoti stulpelių aprašą.
+1. Ataskaitų konstruktoriuje atidarykite stulpelio apibrėžimą, norėdami modifikuoti.
 2. Stulpelyje **FD** dukart spustelėkite eilutės **Laikotarpis** langelį, tada sąraše pasirinkite pasirinktį.
 3. Virš naršymo srities esančioje formulės juostoje arba langelyje **Laikotarpis** užpildykite formulę. Bet kokį skaičiaus ženklą (\#) pakeiskite atitinkama reikšme.
 
-#### <a name="periods-covered-cell"></a>Langelis Įtraukti laikotarpiai
+#### <a name="periods-covered-cell"></a>Padengtų laikotarpių langelis
 
-Langelyje **Įtraukti laikotarpiai** nurodoma suma, kuri turėtų būti rodoma stulpelyje. Ši suma yra susijusi su stulpelio langeliuose **Finansiniai metai** ir **Laikotarpis** pateikta reikšme. Galimos toliau nurodytos pasirinktys.
+Laikotarpių **apimamas** langelis identifikuoja sumą, kurią stulpelis turėtų rodyti. Ši suma susijusi su stulpelio langelių **Finansiniai** metai **ir** Laikotarpis reikšme. Galimos toliau nurodytos pasirinktys.
 
 | Parinktis      | Prekės/Paslaugos pavadinimas                                                                 |
 |-------------|-----------------------------------------------------------------------------|
@@ -453,27 +453,27 @@ Langelyje **Įtraukti laikotarpiai** nurodoma suma, kuri turėtų būti rodoma s
 
 ### <a name="specify-the-periods-that-are-covered-for-an-fd-column"></a>FD stulpeliui taikomų laikotarpių nurodymas
 
-1. Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti stulpelio aprašą.
-2. Stulpelyje **FD** dukart spustelėkite eilutės **Įtraukti laikotarpiai** langelį ir sąraše pasirinkite pasirinktį.
+1. Ataskaitų konstruktoriuje atidarykite stulpelio apibrėžimą, norėdami modifikuoti.
+2.  **FD stulpelyje** du kartus spustelėkite langelį laikotarpių padengtų **eilutėje** ir pasirinkite sąrašo pasirinktį.
 
 ### <a name="attribute-filter-in-a-column-definition"></a>Stulpelio apibrėžimo atributo filtras
 
-Atributai yra išsamiau sąskaitas arba operacijas apibrėžiančios finansinių duomenų reikšmės. Sąskaitos atributai apima dalis **Turtas**, **Įsipareigojimai**, **Įplaukos** ir **Išlaidos**. Operacijos atributai apima dalis **Operacijos aprašas** ir **Operacijos taikymo data**. Skirtingose „Microsoft Dynamics ERP“ sistemose atributų palaikymas gali skirtis. Langelyje **Atributo filtras** stulpelių **FD** duomenys apribojami taip, kad būtų rodomos konkrečios atributų kategorijų reikšmės arba intervalai. Nors ši funkcija gali būti naudojama kartu su stulpeliu **ATTR**, stulpelis **ATTR** nėra būtinas. Stulpelyje **FD** nurodomas apribojimas, kiek sąskaitų arba operacijų bus įtraukiama į ataskaitą naudojant atributo filtrą.
+Atributai yra išsamiau sąskaitas arba operacijas apibrėžiančios finansinių duomenų reikšmės. Sąskaitos atributai apima dalis **Turtas**, **Įsipareigojimai**, **Įplaukos** ir **Išlaidos**. Operacijos atributai apima **operacijos aprašą ir**  **operacijos galiojimo datą**. Atributų palaikymas gali skirtis Microsoft Dynamics nuo 365 Finanace. Atributų **filtro** langelis FD **stulpeliuose riboja duomenis** iki konkrečių atributų kategorijų verčių ar diapazonų. Nors ši funkcija gali būti naudojama kartu su stulpeliu **ATTR**, stulpelis **ATTR** nėra būtinas. Stulpelyje **FD** nurodomas apribojimas, kiek sąskaitų arba operacijų bus įtraukiama į ataskaitą naudojant atributo filtrą.
 
 > [!NOTE]
 > Norėdami sužinoti, kokius atributus palaiko jūsų ERP sistema, žr. sistemos integravimo vadovą.
 
 #### <a name="apply-an-attribute-filter-for-an-fd-column-on-a-report"></a>Atributo filtro taikymas ataskaitos FD stulpeliui
 
-1. Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti stulpelio aprašą.
-2. Dukart spustelėkite **FD** stulpelio langelį **Atributų filtras**.
-3. Dialogo lange **Atributų filtras** dukart spustelėkite langelį stulpelyje **Atributas**, tada pasirinkite filtro tipą.
+1. Ataskaitų konstruktoriuje atidarykite stulpelio apibrėžimą, norėdami modifikuoti.
+2. Du kartus spustelėkite FD stulpelio **atributų** filtro langelį **.** 
+3. Atributų **filtro** dialogo lange du kartus spustelėkite langelį atributo stulpelyje **ir** pasirinkite filtro tipą.
 4. Norėdami dar labiau apriboti rezultatus, stulpeliuose **Nuo** ir **Iki** įveskite intervalą. Langelyje **Nuo** turi būti nurodyta reikšmė.
 5. Spustelėkite **GERAI**.
 
 #### <a name="example-of-an-attribute-filter"></a>Atributo filtro pavyzdys
 
-Toliau pateikiamame pavyzdyje rodoma stulpelio aprašo dalis, kurios eilutėje **Knygos kodas / atributo kategorija** nurodomas sąskaitos atributas. Šio stulpelio atributo filtras nurodo į ataskaitą įtrauktinų reikšmių intervalą.
+Šiame pavyzdyje rodoma stulpelio aprašymo, kuris turi sąskaitos atributą knygos kodo **/ atributo kategorijos eilutėje,** dalis. Šio stulpelio atributo filtras nurodo į ataskaitą įtrauktinų reikšmių intervalą.
 
 |      Filtruoti                  | A    | Mlrd.                   |
 |------------------------------|------|---------------------|
@@ -498,8 +498,8 @@ Taip pat, jeigu norite tikslaus atitikimo, galite naudoti bet kokią raidinių-s
 
 #### <a name="apply-a-dimension-filter-for-a-column-on-a-report"></a>Dimensijos filtro taikymas ataskaitos stulpeliui
 
-1. Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti stulpelio aprašą.
-2. Dukart spustelėkite stulpelio **FD** langelį **Dimensijos filtras**.
+1. Ataskaitų konstruktoriuje atidarykite stulpelio apibrėžimą, norėdami modifikuoti.
+2. Dukart spustelėkite **FD stulpelio** dimensijos filtro **langelį** .
 3. Dialogo lange **Dimensijos** įveskite taikytinus filtrus.
 4. Spustelėkite **GERAI**.
 
@@ -507,47 +507,47 @@ Taip pat, jeigu norite tikslaus atitikimo, galite naudoti bet kokią raidinių-s
 
 Kelių valiutų ataskaitoje galima rodyti sumas DK apskaitos valiuta, DK ataskaitoje, pradine operacijos valiuta arba konvertuota ataskaitos valiuta. Įmonės apskaitos valiuta nurodoma DK sąrankoje. Nepainiokite šio parametro su operacinės sistemos regiono pasirinkčių parametru, kurį naudodami galite konfigūruoti ataskaitose naudojamus numatytuosius valiutos simbolius. Stulpelio apibrėžime galimi šie su valiuta susiję langeliai:
 
-- **Valiutos rodinys** – nurodyti, kokia valiuta (apskaitos, ataskaitų, operacijos arba konvertuota ataskaitų) rodomos operacijos. Konvertavimo į ataskaitų valiutą funkcija kartais vadinama valiutos konvertavimu. Valiutos konvertavimas yra galimybė pateikti didžiosios knygos sumas tokia valiuta, kuri gali būti ne funkcinė ar ataskaitų įmonės valiuta arba ne ta valiuta, kuria buvo įvesta operacija.
-- **Valiutos filtras** – nurodyti valiutos filtrą. Ataskaitoje rodomos tik pasirinkta valiuta įvestos operacijos.
+- **Valiutos rodymas**  – nurodykite valiutos tipą (apskaitos, ataskaitos, operacijos ar išverstos ataskaitos), kuria rodomos operacijos. Konvertavimo į ataskaitų valiutą funkcija kartais vadinama valiutos konvertavimu. Valiutos konvertavimas yra galimybė pateikti didžiosios knygos sumas tokia valiuta, kuri gali būti ne funkcinė ar ataskaitų įmonės valiuta arba ne ta valiuta, kuria buvo įvesta operacija.
+- **Valiutos filtras**  – nurodyti valiutos filtrą. Ataskaitoje rodomos tik pasirinkta valiuta įvestos operacijos.
 
-> 
+
 Norėdami nustatyti įmonės apskaitos valiutą, atlikite toliau nurodytus veiksmus.
 
-1. Ataskaitų dizaino įrankio meniu **Įmonė** spustelėkite **Įmonės**.
+1. Ataskaitų konstruktoriuje, meniu **Įmonė**, spustelėkite **Įmonės**.
 2. Dialogo lange **Įmonės** pasirinkite įmonę, tada spustelėkite **Peržiūrėti**.
-3. Dialogo lango **Peržiūrėti įmonę** dalyje **Regiono pasirinktys** galite peržiūrėti nurodytą pasirinktos įmonės valiutą.
+3. Regiono pasirinkčių **dialogo** lange **Peržiūrėti įmonę** galite peržiūrėti pasirinktos įmonės nurodytą valiutą.
 
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>Valiutos nurodymas kelių valiutų ataskaitoje
 
-1. Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti stulpelio aprašą.
-2. Dukart spustelėkite atitinkamo stulpelio **FD** langelį **Valiutos rodinys**, tada pasirinkite valiutos informacijos rodymo parinktį: **DK apskaitos valiuta**, **DK ataskaitos**, operacijų valiuta arba pasirinkite konvertuoti į kitą ataskaitų valiutą.
+1. Ataskaitų konstruktoriuje atidarykite stulpelio apibrėžimą, norėdami modifikuoti.
+2. Dukart spustelėkite **valiutos cisplay**  **langelį tinkamame FD** stulpelyje ir pasirinkite valiutos informacijos rodymo pasirinktį: **DK apskaitos** valiuta, **DK ataskaitos**, operacijos valiuta arba pasirinkite versti į kitą ataskaitų valiutą.
 3. Dukart spustelėkite atitinkamo stulpelio **FD** langelį **Valiutos filtras**, tada sąraše pasirinkite atitinkamą valiutos kodą. Ataskaitoje rodomos tik šia valiuta įvestos operacijos.
 
 
-### <a name="example-for-currency-display-and-currency-filter-cells"></a>Valiutos rodinio ir valiutos filtro langelių pavyzdys
+### <a name="example-for-currency-display-and-currency-filter-cells"></a>Valiutos rodymo ir valiutos filtro langelių pavyzdys
 
 Savo stulpelio apibrėžime vartotojas pasirinko šias valiutos pasirinktis:
 
-- **Valiutos filtras:** jena
-- **Valiutos rodinys:** DK apskaitos valiuta (JAV doleriais)
+- **Valiutos filtras: konvertavimas** 
+- **Valiutos rodymas:**  apskaitos valiuta iš DK (JAV doleriai)
 
 Dėl pasirinkto valiutos filtro į ataskaitą įtraukiamos tik tos operacijos, kurios įvestos Japonijos jena (JPY). Dėl pasirinkto valiutos rodinio ataskaitoje tos operacijos rodomos apskaitos valiuta, t.y., JAV doleriais (USD).
 
-#### <a name="currency-filter-and-currency-display-combinations"></a>Valiutos filtras ir valiutos rodinio kombinacijos
+#### <a name="currency-filter-and-currency-display-combinations"></a>Valiutos filtro ir valiutos rodymo kombinacijos
 
-Toliau pateikiamoje lentelėje rodomi ataskaitos rezultatai, kurie, dėl vartotojo pasirinkimų, gali būti gaunami įvairioms langelių **Valiutos rodinys** ir **Valiutos filtras** parinkčių kombinacijoms. Funkcinė valiuta yra USD.
+Šioje lentelėje pateikiami ataskaitos rezultatai, **·**  **kurie** gali atsirasti dėl įvairių pasirinkčių derinių valiutos rodymo ir valiutos filtro langeliuose dėl pasirinktų pasirinkčių. Funkcinė valiuta yra USD.
 
 
 | Langelis Valiutos rodinys                        | Langelis Valiutos filtras | Ataskaitos rezultatas |
 |----------------------------------------------|----------------------|---------------|
 | Operacijos valiuta                 | **JENA**              | **Y6 000** – rezultate rodomos tik tos operacijos, kurios buvo įvestos JPY. |
-| Didžiosios knygos apskaitos valiuta | **JENA**              |**$60** – rezultate rodomos tik tos operacijos, kurios buvo įvestos JPY, ir jos rodomos USD.<p><strong>Pastaba:</strong> konvertavimo kursas yra maždaug 100 JPY už 1 USD.</p> |
-| Didžiosios knygos apskaitos valiuta | Tuščia                | **2 310 USD** – rezultate visi duomenys rodomi apskaitos valiuta, kuri nurodyta DK.<p><strong>Pastaba:</strong> ši suma yra visų apskaitos valiuta nurodomų operacijų suma.</p> |
+| Apskaitos valiuta iš didžiosios knygos | **JENA**              |**$60** – rezultate rodomos tik tos operacijos, kurios buvo įvestos JPY, ir jos rodomos USD.<p><strong>Pastaba:</strong> konvertavimo kursas yra maždaug 100 JPY už 1 USD.</p> |
+| Apskaitos valiuta iš didžiosios knygos | Tuščias                | **2 310 USD** – rezultate visi duomenys rodomi apskaitos valiuta, kuri nurodyta DK.<p><strong>Pastaba:</strong> ši suma yra visų apskaitos valiuta nurodomų operacijų suma.</p> |
 | Operacijos valiuta                 | Tuščia                | **$2,250** – rezultate visos sumos rodomos ta valiuta, kuria buvo atlikta operacija. Tai reiškia, kad bendra suma sudedama iš sumų skirtingomis valiutomis. |
 
 ### <a name="calculation-column-in-a-column-definition"></a>Skaičiavimo stulpelis yra stulpelio apibrėžimas
 
-Stulpelio apibrėžimo stulpelio tipas **CALC** palaiko langelio **Formulė** sudėtinius skaičiavimus ir gali apimti ženklus **+**, **-**, **\**_ ir _*/** bei sakinius **IF / THEN / ELSE**. Skaičiavimo stulpelyje taip pat gali būti nuoroda į bet kurį kitą stulpelį, net paskesnius stulpelius. Be to, skaičiavimo stulpelyje taip pat gali būti nurodyti finansiniai metai ir laikotarpis, kad būtų palaikomos stulpelio antraštės. Skaičiavimo formulė gali būti iki 1024 raidinių-skaitinių simbolių ilgio. Norėdami pateikti skaičiavimo rezultatą procentais, naudokite specialų formato nepaisymą.
+Stulpelio apibrėžimo stulpelio tipas **CALC** palaiko langelio **Formulė** sudėtinius skaičiavimus ir gali apimti ženklus **+**, **-**, **\**ir*/** bei sakinius **IF / THEN / ELSE**. Skaičiavimo stulpelyje taip pat gali būti nuoroda į bet kurį kitą stulpelį, net paskesnius stulpelius. Be to, skaičiavimo stulpelyje taip pat gali būti nurodyti finansiniai metai ir laikotarpis, kad būtų palaikomos stulpelio antraštės. Skaičiavimo formulė gali būti iki 1024 raidinių-skaitinių simbolių ilgio. Norėdami pateikti skaičiavimo rezultatą procentais, naudokite specialų formato nepaisymą.
 
 > [!NOTE]
 > Skaičiavimo formulių rezultatai neapima verčių nespausdinamuose stulpelių diapazonuose. Pavyzdžiui, **A:D** spausdina **0** (nulis), o nespausdinamų reikšmių **A+B+C** apskaičiuoja reikšmę.
@@ -566,7 +566,7 @@ Norėdami sudėti, atimti, padauginti, arba padalyti stulpelius, įveskite stulp
 
 #### <a name="use-a-calculation-formula-in-a-column-definition"></a>Skaičiavimo formulės naudojimas stulpelio apibrėžime
 
-1. Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti stulpelio aprašą.
+1. Ataskaitų konstruktoriuje atidarykite stulpelio apibrėžimą, norėdami modifikuoti.
 2. Atitinkamo stulpelio **CALC** langelyje **Formulė** įveskite formulę.
 
 #### <a name="complex-calculations"></a>Sudėtiniai skaičiavimai

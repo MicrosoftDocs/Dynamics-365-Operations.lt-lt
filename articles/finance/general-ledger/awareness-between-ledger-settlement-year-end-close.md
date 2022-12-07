@@ -13,23 +13,23 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 30d3cc0bbd97cd006f12d06cda64ee63cb42252e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b0c454745bc02a101514d44a20bd47dad0c548d5
+ms.sourcegitcommit: 2804b05214c87f76457608b5db072582ff339852
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902522"
+ms.lasthandoff: 12/01/2022
+ms.locfileid: "9815689"
 ---
 # <a name="awareness-between-ledger-settlement-and-year-end-close"></a>Informacijos bendrinimas tarp didžiosios knygos atsiskaitymo ir metų pabaigos uždarymo
 
 [!include [banner](../includes/banner.md)]
 
 
-Microsoft Dynamics 365 10.0.25 **·** **finansų versijoje funkcijų valdymo darbo srityje galima gauti supratimą tarp DK sudengimo ir uždarymo metų** pabaigoje priemonės. Ši funkcija prideda du pirminius patobulinimus, daražiusį įtaką DK sudengimą ir DIDŽIOSIOS knygos metų pabaigos uždarymą.
+ Microsoft Dynamics 365 10.0.25 **·**  **finansų versijoje funkcijų valdymo darbo srityje galima gauti supratimą tarp DK sudengimo ir uždarymo metų** pabaigoje priemonės. Ši funkcija prideda du pirminius patobulinimus, daražiusį įtaką DK sudengimą ir DIDŽIOSIOS knygos metų pabaigos uždarymą.
 
-DK metų pabaigos uždarymo metu sudengtos DK operacijos nebebus įtrauktos į kitų finansinių metų laikotarpio pradžios likutį. Šis patobulinimas užtikrina, kad į laikotarpio pradžios likutį įtraukiamos tik nesudengtos DK operacijos. Svarbu, kai vykdomas DK užsienio valiutos kurso pasikeitimas. Užsienio valiutos kurso pasikeitimas vykdomas tik toms DK operacijoms, kurių būsena **Nesudengta**. Tačiau prieš **pasibaigus DK sudengimo ir metų pabaigos uždarymo priemonės supratimui, pradžios likutis susumuotas ir susumuotais operacijas,** **·** **kurių būsena yra Sudengta, ir tas operacijas, kurių būsena Nesudengta,** o apibendrintos sumos būsena nustatyta kaip Nesudengta.**·**
+DK metų pabaigos uždarymo metu sudengtos DK operacijos nebebus įtrauktos į kitų finansinių metų laikotarpio pradžios likutį. Šis patobulinimas užtikrina, kad į laikotarpio pradžios likutį įtraukiamos tik nesudengtos DK operacijos. Svarbu, kai vykdomas DK užsienio valiutos kurso pasikeitimas. Užsienio valiutos kurso pasikeitimas vykdomas tik toms DK operacijoms, kurių būsena **Nesudengta**. Tačiau prieš **pasibaigus DK sudengimo ir metų pabaigos uždarymo priemonės supratimui, pradžios likutis susumuotas ir susumuotais operacijas,**  **·**  **kurių būsena yra Sudengta, ir tas operacijas, kurių būsena Nesudengta,** o apibendrintos sumos būsena nustatyta kaip Nesudengta. **·**
 
-Antrasis patobulinimas leidžia užregistruoti išsamių pradžios likučio operacijų DK metų pabaigos uždarymo metu. Jei metų **pabaigos uždarymo parinktis** **Išlaikyti informaciją nustatyta kaip Taip**, kiekvienai nesudengaiai DK operacijai bus sukurtas atskiras pradžios likutis. Šis parametras nustatomas kiekvienai pagrindinei sąskaitai DK sudengimo nustatyme. Išlaikydami išsamias pradžios likučio operacijas, labai pagerinate galimybę sudengti nesudengtas DK operacijas kitais finansiniais metais.
+Antrasis patobulinimas leidžia užregistruoti išsamių pradžios likučio operacijų DK metų pabaigos uždarymo metu. Jei metų **pabaigos uždarymo parinktis**  **Išlaikyti informaciją nustatyta kaip Taip**, kiekvienai nesudengaiai DK operacijai bus sukurtas atskiras pradžios likutis. Šis parametras nustatomas kiekvienai pagrindinei sąskaitai DK sudengimo nustatyme. Išlaikydami išsamias pradžios likučio operacijas, labai pagerinate galimybę sudengti nesudengtas DK operacijas kitais finansiniais metais.
 
 Siekiant palaikyti naujus patobulinimus, buvo atlikti DK sudengimo ir metų pabaigos uždarymo pakeitimai.
 
@@ -41,8 +41,8 @@ Siekiant palaikyti naujus patobulinimus, buvo atlikti DK sudengimo ir metų paba
 
 ### <a name="changes-to-year-end-close"></a>Metų pabaigos uždarymo pakeitimai
 
-- Jei kitų finansinių metų pradžios balanso operacijos buvo sudengtos, metų pabaigos uždarymo atšaukti negalima. Šis pakeitimas taikomas, kai metų pabaigos uždarymas atšaukiamos **arba** **kai** metų pabaigos uždarymas yra iš naujo pabaigęs ir DK parametruose nustatyta metų uždarymo parinktis Naikinti esamus metų pabaigos įrašus.
-- Jei metų **pabaigos uždarymo** **parinktis Išlaikyti išsamią informaciją nustatyta kaip Taip** bet kuriai DK sudengimo balanso sąskaitai, bus sukurtos išsamesnės pradžios likučio operacijos tai pagrindinei sąskaitai.
+- Jei kitų finansinių metų pradžios balanso operacijos buvo sudengtos, metų pabaigos uždarymo atšaukti negalima. Šis pakeitimas taikomas, kai metų pabaigos uždarymas atšaukiamos **arba**  **kai** metų pabaigos uždarymas yra iš naujo pabaigęs ir DK parametruose nustatyta metų uždarymo parinktis Naikinti esamus metų pabaigos įrašus.
+- Jei metų **pabaigos uždarymo**  **parinktis Išlaikyti išsamią informaciją nustatyta kaip Taip** bet kuriai DK sudengimo balanso sąskaitai, bus sukurtos išsamesnės pradžios likučio operacijos tai pagrindinei sąskaitai.
 
 ## <a name="before-you-enable-the-feature"></a>Prieš įgalinant funkciją
 
@@ -77,8 +77,8 @@ Arba
 
 Du stulpeliai įtraukti į DK sudengimų **puslapį**:
     
-- **Pagrindinės sąskaitos tipas** – šis stulpelis skirtas tik informacijai. Jis rodo tipą, kuris priskirtas pagrindinei sąskaitai.
-- **Uždaryti metų pabaigos informaciją – numatyta**, kad pasirinktis nustatyta kaip **Ne**. Jis gali būti nustatytas kaip **Taip** tik jei pagrindinės sąskaitos **tipo** stulpelyje nurodyta vertė **yra Balansas**, Turtas **arba** **Įsipareigojimas**. Kai parinktis nustatyta kaip **Ne**, pradžios likutis bus registruojamas suvestinėje, kaip įprasta metų pabaigos uždarymo metu. Jei nustatyta Taip, kiekvienos **DK** operacijos, kuri nėra sudengta pagrindinei sąskaitai, pradžios likučiai bus kuriami išsamiai.
+- **Pagrindinės sąskaitos tipas**  – šis stulpelis skirtas tik informacijai. Jis rodo tipą, kuris priskirtas pagrindinei sąskaitai.
+- **Informacija metų pabaigos uždarymo metu –**  pagal numatytuosius nustatymus nustatoma parinktis **Ne**. Jis gali būti nustatytas kaip **Taip** tik jei vertė pagrindinės sąskaitos **tipo** stulpelyje yra **Balansas**, **Turtas** arba **Įsipareigojimas**. Kai parinktis nustatyta kaip **Ne**, pradžios likutis bus registruojamas suvestinėje, kaip įprasta metų pabaigos uždarymo metu. Jei nustatyta Taip, kiekvienos **DK** operacijos, kuri nėra sudengta pagrindinei sąskaitai, pradžios likučiai bus kuriami išsamiai.
 
 ## <a name="year-end-close"></a>Metų pabaigos uždarymas
 
@@ -114,20 +114,20 @@ Metų pabaigos uždarymas sukuria tris pagrindinės sąskaitos pradžios likuči
 
 | Žurnalo numeris | Kvitas  | Data     | Tipas    | Didžiosios knygos sąskaita | Abonemento pavadinimas        | Aprašymas | Valiuta | Suma operacijos valiuta | Suma  | Suma, išreikšta ataskaitų valiuta |
 |----------------|----------|----------|---------|----------------|---------------------|-------------|----------|--------------------------------|---------|------------------------------|
-| 20910          | YEC_2021 | 2022-01-01 | Atidarantis | 130100-002-    | Gautinos sumos |             | USD      | 299.12                         | 299.12  | 299.12                       |
-| 20910          | YEC_2021 | 2022-01-01 | Atidarantis | 130100-001-    | Gautinos sumos |             | USD      | 400                            | 400     | 400                          |
-| 20910          | YEC_2021 | 2022-01-01 | Atidarantis | 130100-002-    | Gautinos sumos |             | EUR      | -127.11                        | -174.12 | -174.12                      |
+| 20910          | YEC_2021 | 2022-01-01 | Atidarymas | 130100-002-    | Gautinos sumos |             | USD      | 299.12                         | 299.12  | 299.12                       |
+| 20910          | YEC_2021 | 2022-01-01 | Atidarymas | 130100-001-    | Gautinos sumos |             | USD      | 400                            | 400     | 400                          |
+| 20910          | YEC_2021 | 2022-01-01 | Atidarymas | 130100-002-    | Gautinos sumos |             | EUR      | -127.11                        | -174.12 | -174.12                      |
 
 Nors mokėjimo operacija EUR -127,11 buvo sudengta DK, operacija vis dar nusiųsta kaip pradžios balansas.
 
 ### <a name="feature-is-enabled-and-keep-detail-during-year-end-close--no"></a>Priemonė įgalinta ir Išsaugoti informaciją metų pabaigos uždarymo metu = Ne
 
-Metų pabaigos uždarymas sukuria dvi pagrindinės sąskaitos 2022 130100 balanso operacijas. Operacijų suma apskaitos valiuta vis dar USD 525, bet DK sudengtos operacijos į laikotarpio pradžios likutį neįtraukiamos. Bendra sąskaitos 130100-002 suma USD 125 vietoj USD 299.12, o 127,11 EUR / 174,12 USD operacijos nėra visiškai neįtrauktos.
+Metų pabaigos uždarymas sukuria dvi pagrindinės sąskaitos 2022 130100 balanso operacijas. Operacijų suma apskaitos valiuta vis dar USD 525, bet DK sudengtos operacijos į laikotarpio pradžios likutį neįtraukiamos. Bendra sąskaitos 130100-002 suma USD 125 vietoj USD 299.12, o EUR 127.11/174,12 USD operacija nėra įtraukta.
 
 | Žurnalo numeris | Kvitas  | Data     | Tipas    | Didžiosios knygos sąskaita | Abonemento pavadinimas        | Aprašymas | Valiuta | Suma operacijos valiuta | Suma | Suma, išreikšta ataskaitų valiuta |
 |----------------|----------|----------|---------|----------------|---------------------|-------------|----------|--------------------------------|--------|------------------------------|
-| 20910          | YEC_2021 | 2022-01-01 | Atidarantis | 130100-002-    | Gautinos sumos |             | USD      | 125                            | 125    | 125                          |
-| 20910          | YEC_2021 | 2022-01-01 | Atidarantis | 130100-001-    | Gautinos sumos |             | USD      | 400                            | 400    | 400                          |
+| 20910          | YEC_2021 | 2022-01-01 | Atidarymas | 130100-002-    | Gautinos sumos |             | USD      | 125                            | 125    | 125                          |
+| 20910          | YEC_2021 | 2022-01-01 | Atidarymas | 130100-001-    | Gautinos sumos |             | USD      | 400                            | 400    | 400                          |
 
 ### <a name="feature-is-enabled-and-keep-detail-during-year-end-close--yes"></a>Priemonė įgalinta ir Palikti informaciją metų pabaigos uždarymo metu = Taip
 
@@ -135,11 +135,11 @@ Uždaržius metus, 2022 m. sukuriamos penkios pagrindinės sąskaitos 130100 bal
 
 | Žurnalo numeris | Kvitas  | Data     | Tipas    | Didžiosios knygos sąskaita | Abonemento pavadinimas        | Aprašymas       | Valiuta | Suma operacijos valiuta | Suma | Suma, išreikšta ataskaitų valiuta |
 |----------------|----------|----------|---------|----------------|---------------------|-------------------|----------|--------------------------------|--------|------------------------------|
-| 20910          | YEC_2021 | 2022-01-01 | Atidarantis | 130100-001-    | Gautinos sumos | Aptarnavimo mokestis       | USD      | 100                            | 100    | 100                          |
-| 20910          | YEC_2021 | 2022-01-01 | Atidarantis | 130100-001-    | Gautinos sumos | Grąžinimas            | USD      | -100                           | -100   | -100                         |
-| 20910          | YEC_2021 | 2022-01-01 | Atidarantis | 130100-002-    | Gautinos sumos | Kreditas sąskaitoje | USD      | -175                           | -175   | -175                         |
-| 20910          | YEC_2021 | 2022-01-01 | Atidarantis | 130100-001-    | Gautinos sumos | Komunalinės paslaugos         | USD      | 400                            | 400    | 400                          |
-| 20910          | YEC_2021 | 2022-01-01 | Atidarantis | 130100-002-    | Gautinos sumos | Aptarnavimas           | USD      | 300                            | 300    | 300                          |
+| 20910          | YEC_2021 | 2022-01-01 | Atidarymas | 130100-001-    | Gautinos sumos | Aptarnavimo mokestis       | USD      | 100                            | 100    | 100                          |
+| 20910          | YEC_2021 | 2022-01-01 | Atidarymas | 130100-001-    | Gautinos sumos | Grąžinimas            | USD      | -100                           | -100   | -100                         |
+| 20910          | YEC_2021 | 2022-01-01 | Atidarymas | 130100-002-    | Gautinos sumos | Kreditas sąskaitoje | USD      | -175                           | -175   | -175                         |
+| 20910          | YEC_2021 | 2022-01-01 | Atidarymas | 130100-001-    | Gautinos sumos | Komunalinės paslaugos         | USD      | 400                            | 400    | 400                          |
+| 20910          | YEC_2021 | 2022-01-01 | Atidarymas | 130100-002-    | Gautinos sumos | Aptarnavimas           | USD      | 300                            | 300    | 300                          |
 
 Kai saugoma išsami operacijų informacija, pradinės išsamios operacijos nepa paveikiamos. Jie lieka užregistruoti ir nesudengti finansiniais metais, kurie uždaromi. Šių operacijų kopija sukuriama pradžios likučiui. Toliau nurodytos pradinių operacijų vertės yra kopijuojamos į atidarymo balanso operacijas.
 
@@ -165,7 +165,7 @@ Norėdami sudengti DK operacijas, atlikite toliau nurodytus veiksmus.
     1. Pasirinkite datos diapazoną. Arba galite pasirinkti datos intervalo kodą, kad datų diapazonas būtų automatiškai užpildomas.
 
        - Datų diapazonas negali būti kryžminis finansinių metų. Jei datų diapazonas peržengia finansinius metus, pasirinkus Rodyti operacijas nebus **rodomos jokios operacijos**.
-       - Jei datų diapazonas yra atvirus finansinius metus, operacijas galima sudengti ir sudengimas gali būti atšauktas. Jei datų diapazonas yra uždarytuose finansiniuose metuose arba jei metų pabaigos uždarymas baigtas, operacijos rodomos, tačiau jų negalima sudengti arba nesudengti. Galite atžymėti tik uždarytų finansinių metų operacijas. Jei datų diapazonas yra uždarytuose finansiniuose metuose, **žymėti pasirinktus** metus, **·** **sudengti pažymėtas operacijas ir atšaukti pažymėtų** operacijų mygtukus naudoti negalima.
+       - Jei datų diapazonas yra atvirus finansinius metus, operacijas galima sudengti ir sudengimas gali būti atšauktas. Jei datų diapazonas yra uždarytuose finansiniuose metuose arba jei metų pabaigos uždarymas baigtas, operacijos rodomos, tačiau jų negalima sudengti arba nesudengti. Galite atžymėti tik uždarytų finansinių metų operacijas. Jei datų diapazonas yra uždarytuose finansiniuose metuose, **žymėti pasirinktus**, **sudengti pažymėtas** **operacijas ir atšaukti pažymėtų** operacijų mygtukus nėra.
 
     2. Pasirinkti pagrindinę sąskaitą, kurios operacijas rodyti. Šis laukas yra būtinas. Peržvalga rodo tik įmonės sąskaitų **plano DK** sudengimo puslapyje pasirinktas pagrindines sąskaitas.
     3. Pasirinkti registravimo sluoksnį. Negalima sudengti operacijų, kurios yra skirtinguose registravimo sluoksniuose.
@@ -173,8 +173,8 @@ Norėdami sudengti DK operacijas, atlikite toliau nurodytus veiksmus.
 
 3.  Pasirinkite **Rodyti operacijas**, kad būtų rodomos visos operacijos, kurios atitinka jūsų nustatytus filtrus. Pakeitus bet kurį filtrą arba dimensijų rinkinius, būtina dar kartą pasirinkti **Rodyti operacijas**.
 4.  Pasirinkti eilutes sudengti. Puslapio viršuje esanti **lauko Pasirinkta** suma vertė didėja arba mažina, kad atspindėtų bendrą sumą pasirinktose eilutėse.
-5.  Baigę pasirinkti operacijas, pasirinkite Žymėti **pasirinktą**. Kiekvienai pažymėtai operacijai stulpelyje Pažymėta rodoma **varnelė**. Be to, reikšmė lauke Pažymėta **suma virš** tinklelio didėja arba mažėja, kad atspindėtų bendrą sumą pažymėtose eilutėse.
-6.  Kai pažymėto sumos lauko **vertė yra** **0 (nulis**), pasirinkite Sudengti **pažymėtas operacijas**.
+5.  Baigę pasirinkti operacijas, pasirinkite Žymėti **pasirinktą**. Kiekvienai pažymėtai operacijai stulpelyje Pažymėta rodoma **varnelė** . Be to, reikšmė lauke Pažymėta **suma virš** tinklelio didėja arba mažėja, kad atspindėtų bendrą sumą pažymėtose eilutėse.
+6.  Kai pažymėto sumos lauko **vertė yra**  **0(nulis**), pasirinkite Sudengti **pažymėtas operacijas**.
 
     - Dalinis sudengimas neleidžiamas. Pavyzdžiui, negalima sudengti sf $100 operacijos pagal $90 operaciją. Likusi kredito $10 taip pat turi būti pažymėta įtraukti į sudengimą.
     - Įvesti sudengimo datą. Data turi sudengti pažymėtų operacijų vėliausią datą arba po jos.
@@ -189,7 +189,7 @@ Kai kurie procesai, pvz., operacijos atšaukimas, automatiškai sudengias DK ope
 ## <a name="use-excel-for-ledger-settlement"></a>Naudoti "Excel" DK sudengti
 
 DK sudengimo puslapyje **rodomos operacijos** gali būti eksportuojamos į Excel. Programoje "Excel" galite toliau filtruoti operacijas, kad nustatytumėte, kurias operacijas reikia pažymėti sudengti.
-Abu DK sudengimo objektai eksportuos tik pagrindinės sąskaitos, pasirinktos DK sudengimo **puslapyje, DK operacijas**. Nors uždarytų finansinių metų operacijos vis tiek gali būti pažymėtos ar atžymėtos naudojant Excel, jos negali būti sudengtos. Be to, negalima atšaukti sudengtos šių finansinių metų operacijos.
+Abu DK sudengimo objektai eksportuos tik pagrindinės sąskaitos, pasirinktos DK sudengimo **puslapyje, DK operacijas** . Nors uždarytų finansinių metų operacijos vis tiek gali būti pažymėtos ar atžymėtos naudojant Excel, jos negali būti sudengtos. Be to, negalima atšaukti sudengtos šių finansinių metų operacijos.
 
 ## <a name="make-transactions-easier-to-find"></a>Lengvesnė operacijų paieška
 

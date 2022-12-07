@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7d74efe7aa4f3a30c116253d647b9d7bec3b508d
-ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
+ms.openlocfilehash: 6283e07b87dc169d3cbaa71a371839ab9b2d6150
+ms.sourcegitcommit: ee13b854cbd52a3aa33e2449a296aed775862594
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/17/2022
-ms.locfileid: "9785105"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "9799042"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Pašalintos arba nebenaudojamos platformos funkcijos
 
@@ -45,10 +45,10 @@ Kaip " [One Dynamics" vienos platformos darbo](/dynamics365-release-plan/2022wav
 | Gedimo ir iškelties analizė | Taip | Ne | Ne |
 | Grįžtamasis ryšys ir klaidos | Taip | Taip | Ne |
 | Mano abonementas | Taip | Taip | Ne |
-| „Office 365“ | Taip | Taip | Taip: arba Azure Active Directory "Microsoft" administratorius portalas. |
+| Office 365 | Taip | Taip | Taip: arba Azure Active Directory  "Microsoft" administratorius portalas. |
 | Poveikio analizė | Ne | Taip | Ne |
 | Viso ekonominės įtakos vertinimas | Ne | Taip | Ne |
-| Aptarnavimo užklausos | Ne | Taip | Taip: [savitarnos diegimas](../deployment/infrastructure-stack.md) |
+| Aptarnavimo užklausos | Ne | Taip | Taip: [Savitarnos diegimas](../deployment/infrastructure-stack.md) |
 | „SharePoint“ integravimas | Taip | Taip | Ne |
 | Konfigūracijos ir duomenų tvarkytuvas | Ne | Taip | Ne |
 | Proceso duomenų paketai | Ne | Taip | Taip: duomenų [importavimo / eksportavimo sistema (DIXF)](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job) |
@@ -71,10 +71,10 @@ Kaip " [One Dynamics" vienos platformos darbo](/dynamics365-release-plan/2022wav
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nerekomendavimo/pašalinimo priežastis** | Mes šaliname šį šifrų sąrašą, kad atitiktų mūsų dabartinius saugos protokolus.<br><br>TLS_RSA_WITH_AES_256_GCM_SHA384<br>TLS_RSA_WITH_AES_128_GCM_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA256<br>TLS_RSA_WITH_AES_128_CBC_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA<br>TLS_RSA_WITH_AES_256_CBC_SHA  |
-| **Pakeitė kita funkcija?**   | Nuo 2023 m. sausio 31 d. klientai gali naudoti tik standartinius [mūsų standartinius poreikius](/power-platform/admin/server-cipher-tls-requirements). Šis pakeitimas veikia jūsų klientus ir serverius, kurie palaiko ryšį su mūsų serveriais, pvz., tai gali paveikti jūsų trečiųjų šalių integravimą, kuris neatitinka mūsų standartinių programos objektų. |
+| **Pakeitė kita funkcija?**   | Nuo 2023 m. sausio mėn. klientai gali naudoti [tik mūsų standartinius kursus](/power-platform/admin/server-cipher-tls-requirements). Šis pakeitimas veikia jūsų klientus ir serverius, kurie palaiko ryšį su mūsų serveriais, pvz., tai gali paveikti jūsų trečiųjų šalių integravimą, kuris neatitinka mūsų standartinių programos objektų. |
 | **Paveiktos produkto sritys**         | „Finance and operations” programos |
 | **Visuotinio diegimo parinktis**              | Debesies diegimas |
-| **Būsena**                         | Nerekomenduojama. Klientai turi atnaujinti savo serverius iki 2023 m. sausio 31 d. Daugiau informacijos apie TS Cipher Suite užsakymo konfigūravimą ieškokite Transporto sluoksnio [saugos (NLS) valdymas](/windows-server/security/tls/manage-tls).  |
+| **Būsena**                         | Nerekomenduojama. Klientai turi atnaujinti savo serverius iki 2023 m. sausio mėn. Daugiau informacijos apie TS Cipher Suite užsakymo konfigūravimą ieškokite Transporto sluoksnio [saugos (NLS) valdymas](/windows-server/security/tls/manage-tls).  |
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>Funkcija, kuri galioja 2022 m. birželio mėn.
@@ -83,8 +83,8 @@ Kaip " [One Dynamics" vienos platformos darbo](/dynamics365-release-plan/2022wav
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nerekomendavimo/pašalinimo priežastis** | Mes atšaukiame finansų ir operacijų ("Dynamics 365") mobiliąją programą ir platformą, kuri konsoliduoja vieną mobiliąją platformą, t. y Power Apps. |
-| **Pakeitė kita funkcija?**   | Taip, su finansų ir operacijų programos duomenimis susijusią mobiliąją patirtį galima sukurti integruojant Power Platform. Norėdami gauti daugiau [informacijos, peržiūrėkite](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/) žurnalo [skelbimo pranešimą ir](../power-platform/build-mobile-experiences.md) mobiliųjų patirties kūrimą. |
+| **Nerekomendavimo/pašalinimo priežastis** | Mes atšaukiame finansų ir operacijų ("Dynamics 365") mobiliąją programą ir platformą, kuri konsoliduoja vieną mobiliąją platformą Power Apps. |
+| **Pakeitė kita funkcija?**   | Taip, su finansų ir operacijų programos duomenimis susijusią mobiliąją patirtį galima sukurti integruojant Power Platform . Norėdami gauti daugiau [informacijos, peržiūrėkite](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/) žurnalo [skelbimo pranešimą ir](../power-platform/build-mobile-experiences.md) mobiliųjų patirties kūrimą. |
 | **Paveiktos produkto sritys**         | „Finance and operations” programos |
 | **Visuotinio diegimo parinktis**              | Viskas |
 | **Būsena**                         | Nerekomenduojama. Palaikymo data skirta 2024 m. spalio mėn. |
@@ -125,7 +125,7 @@ Kaip " [One Dynamics" vienos platformos darbo](/dynamics365-release-plan/2022wav
 | **Pakeitė kita funkcija?**   | Ne. Klientai ir ISV turėtų apsvarstyti galimybę iš naujo įgyvendinti savo sprendimus, pagrįstus X++ kalba, vietoje XSLT scenarijaus. |
 | **Paveiktos produkto sritys**         | „Finance and operations” programos |
 | **Visuotinio diegimo parinktis**              | Viskas |
-| **Būsena**                         | Pasenę <br><br>**Išimtis:** klientai, šiuo metu naudojantys XLST scenarijų. Juos galima toliau naudoti, kol bus atnaujinta į 10.0.30 arba vėlesnę versiją. Ankstesnėms versijoms išimtis galios 2023 m. sausio 31 d. Klientų, kurie gauna pranešimą pranešimų centre, kuris yra administravimo centre, gauta ši Microsoft 365 išimtis. |
+| **Būsena**                         | Pasenę <br><br>**Išimtis:**  klientai, šiuo metu naudojantys XLST scenarijų. Juos galima toliau naudoti, kol bus atnaujinta į 10.0.30 arba vėlesnę versiją. Ankstesnėms versijoms išimtis galios 2023 m. sausio 31 d. Klientų, kurie gauna pranešimą pranešimų centre, kuris yra administravimo centre, gauta ši Microsoft 365 išimtis. |
 
 ## <a name="feature-removal-effective-october-2021"></a>Priemonės pašalinimas įsigalioja 2021 m. spalio mėn.
 
@@ -284,7 +284,7 @@ Kaip " [One Dynamics" vienos platformos darbo](/dynamics365-release-plan/2022wav
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nerekomendavimo/pašalinimo priežastis** | Galioja iki 2020 Internet Explorer m. gruodžio 11 d. visi "Dynamics 365" produktai ir "Dynamics" ciklo tarnybos (LCS) pasenusios, Internet Explorer o 11 nebus palaikoma po 2021 m. rugpjūčio mėn.<br><br>Tai turės įtakos klientams, naudojantiems "Dynamics 365" produktus ir LCS, kurie sukurti naudoti naudojant Internet Explorer 11 sąsają. Po rugpjūčio 2021 m Internet Explorer . "11" nebus palaikomi "Dynamics 365" produktai ir LCS. |
+| **Nerekomendavimo/pašalinimo priežastis** | Galioja iki 2020 Internet Explorer m. gruodžio 11 d. visi "Dynamics 365" produktai ir "Dynamics" ciklo tarnybos (LCS) pasenusios, Internet Explorer o 11 nebus palaikoma po 2021 m. rugpjūčio mėn.<br><br>Tai turės įtakos klientams, naudojantiems "Dynamics 365" produktus ir LCS, kurie sukurti naudoti naudojant Internet Explorer 11 sąsają. Po rugpjūčio 2021 Internet Explorer  11 nebus palaikomi tokie "Dynamics 365" produktai ir LCS. |
 | **Pakeitė kita funkcija?**   | Rekomenduojame klientams naudoti „Microsoft Edge“.|
 | **Paveiktos produkto sritys**         | Visi "Dynamics 365" produktai ir LCS |
 | **Visuotinio diegimo parinktis**              | Viskas|

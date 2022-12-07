@@ -2,7 +2,7 @@
 title: Ataskaitos komponentų tvarkymas ataskaitų dizaino įrankyje
 description: Šiame straipsnyje paaiškinama, kaip ataskaitų dizaino įrankyje tvarkyti esamas ataskaitas, kūrimo blokus ir objektus.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a6abad01232d05e94321d0d568d2e801d92875ae
-ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
+ms.openlocfilehash: a94a88114072792243026e441e6c5a62ee80fc56
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "9135886"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802694"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Ataskaitos komponentų tvarkymas ataskaitų dizaino įrankyje
 
@@ -28,16 +28,16 @@ ms.locfileid: "9135886"
 
 Sukūrus kūrimo blokus ir sugeneravus ataskaitas, patartina šiuos objektus sutvarkyti, kad vartotojai galėtų juos lengviau rasti. Šiame straipsnyje paaiškinama, kaip ataskaitų dizaino įrankyje tvarkyti esamas ataskaitas, kūrimo blokus ir objektus.
 
-Galite pervardyti aplankus, ataskaitas, kūrimo blokus ir kitus objektus ataskaitų dizaino įrankyje, kad būtų lengviau sutvarkyti failus. Atsižvelgiant į pervardijamo objekto tipą, gali reikėti atnaujinti susiejimus su šiuo objektu.
+Galite pervardyti aplankus, ataskaitas, kūrimo blokus ir kitus objektus ataskaitų konstruktoriuje, kad padėtų tvarkyti savo failus. Atsižvelgiant į pervardijamo objekto tipą, gali reikėti atnaujinti susiejimus su šiuo objektu.
 
-## <a name="rename-a-folder-or-building-block-in-report-designer"></a>Aplanko arba kūrimo bloko pervardijimas ataskaitų konstruktoriuje
-Ataskaitų dizaino įrankyje galite pervardyti aplankus, ataskaitų, eilučių, stulpelių ir ataskaitų medžių aprašus.
+## <a name="rename-a-folder-or-building-block-in-report-designer"></a>Pervardyti aplanką ar kūrimo bloką ataskaitų konstruktoriuje
+Ataskaitų konstruktoriuje galite pervardyti aplankus, ataskaitų aprašus, eilutės apibrėžimus, stulpelių apibrėžimus ir ataskaitų medžio apibrėžimus.
 
-### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Aplanko arba kūrimo bloko pervardijimas ataskaitų dizaino įrankyje
+### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Pervardyti aplanką ar kūrimo bloką ataskaitų konstruktoriuje
 
-1. Norėdami rasti pervardytiną aplanką arba objektą naudokite ataskaitų dizaino įrankio naršymo sritį.
+1. Ataskaitų konstruktoriuje naudokite naršymo sritį, kad rastumėte pervardytiną aplanką ar objektą.
 2. Dešiniuoju pelės klavišu spustelėkite aplanką arba objektą ir tada spustelėkite **Pervardyti**. Naršymo srities laukas **Pavadinimas** tampa aktyvus.
-3. Įveskite naują pavadinimą ir tada paspauskite Įvesti.
+3. Įveskite naują pavadinimą ir tada paspauskite **Įvesti**.
 4. Jei kūrimo blokas yra eilutės aprašas, stulpelio aprašas arba ataskaitų medžio aprašas, turite atnaujinti kitus kūrimo blokus, susietus su šiuo kūrimo bloku. Dešiniuoju pelės klavišu spustelėkite kūrimo bloką, pervardytą atliekant 3 veiksmą, pasirinkite **Susiejimai** ir tada pasirinkite sąrašo elementą, kad jį atnaujintumėte.
 5. Kartokite 4 veiksmą, kol visi susieti elementai bus atnaujinti.
 
@@ -47,9 +47,9 @@ Galite grupuoti ataskaitų aprašus, kad sukurtumėte kelias ataskaitas tuo pač
 ### <a name="create-a-report-group"></a>Ataskaitų grupės kūrimas
 
 1. Ataskaitų dizaino įrankio naršymo srityje spustelėkite **Ataskaitų grupės**.
-2. Meniu **Failas** spustelėkite **Naujas** &gt; **Ataskaitų grupės aprašas**, kad atidarytumėte naują ataskaitų grupę peržiūros programos lange. Taip pat įrankių juostoje galite spustelėti **Ataskaitų grupės** mygtuką ![Ataskaitų grupė.](media/report-group.gif "Ataskaitų grupė") įrankių juostoje.
-3. Spustelėkite skirtuką **Ataskaitų grupė**. Norėdami perrašyti atskirų ataskaitų aprašų informaciją, kad galėtumėte generuoti šią ataskaitą, pažymėkite žymės langelį **Perrašyti atskirų ataskaitų aprašų įmonės, išsamios informacijos ir datos parametrus**. Įmonės pavadinimo, išsamumo lygio, laikinojo parametro ir datos informacija įvedama automatiškai, bet jūs galite ją naujinti.
-4. Pažymėkite žymės langelį **Įtraukti visas ataskaitų valiutas**, jei norite sugeneruoti kelias ataskaitas, kuriose rodomos tos ataskaitų valiutos. Tada, peržiūrint ataskaitą, žiniatinklio peržiūros programoje spustelėjus mygtuką **Valiuta** bus rodomi keli rodiniai.
+2. Meniu Failas **spustelėkite** Nauja ataskaitos **grupės** &gt; **apibrėžtis, kad** peržiūros programos lange atidarytumėte naują ataskaitų grupę. Taip pat galite spustelėti **ataskaitos grupės mygtuką**  ![Ataskaitos grupė.](media/report-group.gif "Ataskaitų grupė") įrankių juostoje.
+3. Spustelėkite skirtuką **Ataskaitų** grupė. Norėdami nepaisyti atskiros ataskaitos aprašų informacijos, kad būtų galima generuoti šią ataskaitą, **pažymėkite žymės langelį Perrašyti įmonę,** informaciją ir datos parametrus atskiruose ataskaitų aprašuose. Įmonės pavadinimo, išsamumo lygio, laikinojo parametro ir datos informacija įvedama automatiškai, bet jūs galite ją naujinti.
+4. Norėdami generuoti kelias ataskaitas, kuriose parodytos ataskaitų valiutos, pažymėkite žymės **langelį Įtraukti visas ataskaitų** valiutas. Tada, peržiūrint ataskaitą, žiniatinklio peržiūros programoje spustelėjus mygtuką **Valiuta** bus rodomi keli rodiniai.
 5. Lauke **Grupės ataskaitos** spustelėkite **Įtraukti** ir pasirinkite ataskaitas, kurias norite įtraukti į ataskaitų grupę. Norėdami dialogo lange **Įtraukti** pasirinkti kelias ataskaitas, pažymėkite ataskaitas laikydami nuspaudę klavišą CTRL. Pasirinkę ataskaitas, spustelėkite **Gerai**.
 6. Spustelėkite **Failas** &gt; **Įrašyti**, kad įrašytumėte naują ataskaitų grupę.
 
@@ -57,16 +57,16 @@ Galite grupuoti ataskaitų aprašus, kad sukurtumėte kelias ataskaitas tuo pač
 
 1. Ataskaitų dizaino įrankio naršymo srityje spustelėkite **Ataskaitų grupės**.
 2. Dukart spustelėkite ataskaitų grupę, kurią norite modifikuoti.
-3. Skirtuke **Ataskaitų grupė** atlikite norimus keitimus.
+3.  **Ataskaitų grupės skirtuke** atlikite norimus pakeitimus.
 4. Meniu **Failas** spustelėkite **Įrašyti**, kad įrašytumėte modifikuotą ataskaitų grupę, taip pat galite spustelėti **Įrašyti** mygtuką ![Įrašyti.](media/save.gif "Įrašyti"). įrankių juostoje.
 
-> [PASTABA] Jei suplanavote ataskaitas generuoti tam tikrais intervalais, galite nepaisyti šių parametrų ir generuoti ataskaitą iš karto.
+> [NOTE] Jei suplanavote ataskaitas, kad jos būtų generuojamos nustatytais intervalais, galite nepaisyti šių parametrų ir sugeneruoti ataskaitą nedelsiant.
 
 ### <a name="generate-a-report-group-report"></a>Ataskaitų grupės ataskaitos generavimas
 
 1. Ataskaitų dizaino įrankio naršymo srityje spustelėkite **Ataskaitų grupės**.
 2. Atidarykite ataskaitų grupę, kurią norite generuoti.
-3. Spustelėkite **Generuoti ataskaitą** mygtuką ![Generuoti ataskaitą.](media/generate-report.gif "Generuoti ataskaitą") ataskaitų generavimui.
+3. Spustelėkite mygtuką **Generuoti ataskaitą** . ![...](media/generate-report.gif "Generuoti ataskaitą") ataskaitų generavimui.
 
 ### <a name="delete-a-report-group"></a>Ataskaitų grupės panaikinimas
 
@@ -75,19 +75,19 @@ Galite grupuoti ataskaitų aprašus, kad sukurtumėte kelias ataskaitas tuo pač
 3. Kai pasirodo patvirtinimo pranešimas, spustelėkite **Taip**.
 
 ## <a name="report-group-tab-controls"></a>Ataskaitų grupės skirtuko valdikliai
-Toliau pateikiamoje lentelėje aprašomi skirtuko **Ataskaitų grupė** valdikliai.
+Toliau pateikiamoje lentelėje aprašomi skirtuko Ataskaitos **grupė** valdikliai.
 
 <table>
 <thead>
 <tr>
 <th>Valdiklis</th>
-<th>Prekės/Paslaugos pavadinimas</th>
+<th>Aprašymas</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Nepaisyti įmonės, išsamios informacijos ir datos parametrų iš atskirų ataskaitų aprašų</td>
-<td>Pažymėkite šį žymės langelį norėdami nepaisyti atskirų šios ataskaitų grupės ataskaitų aprašų generuojant tik šias ataskaitas.</td>
+<td>Perrašyti įmonės, išsamios informacijos ir datos parametrus kiekvienos ataskaitos apraše</td>
+<td>Pažymėkite šį žymės langelį, jei norite nepaisyti atskirų šios ataskaitų grupės ataskaitų aprašų, kad būtų galima tik šias ataskaitas generuoti.</td>
 </tr>
 <tr>
 <td>Įmonės pavadinimas</td>
@@ -113,7 +113,7 @@ Toliau pateikiamoje lentelėje aprašomi skirtuko **Ataskaitų grupė** valdikli
 </tr>
 <tr>
 <td>Apima visas ataskaitų valiutas</td>
-<td>Jei jūsų „Microsoft Dynamics“ ERP sistemoje yra papildomų sukonfigūruotų ataskaitų valiutų, jos pateikiamos čia. Pažymėkite šį žymės langelį, jei norite, kad papildomos ataskaitos būtų generuojamos nurodyta valiuta. Norėdami šias ataskaitas peržiūrėti žiniatinklio peržiūros programoje, spustelėkite mygtuką <strong>Valiuta</strong> ir pasirinkite valiutą.</td>
+<td>Čia išvardytos visos papildomos ataskaitų valiutos, sukonfigūruotos jūsų Microsoft Dynamics "365" finansų sistemoje. Pažymėkite šį žymės langelį, jei norite generuoti papildomas ataskaitas nurodytose valiutose. Norėdami šias ataskaitas peržiūrėti žiniatinklio peržiūros programoje, spustelėkite mygtuką <strong>Valiuta</strong> ir pasirinkite valiutą.</td>
 </tr>
 <tr>
 <td>Ataskaitos aprašo datos informacija neįrašyta</td>

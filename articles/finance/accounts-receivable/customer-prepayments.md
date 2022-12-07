@@ -2,7 +2,7 @@
 title: Kliento išankstiniai mokėjimai
 description: Šiame straipsnyje paaiškinama, kaip nustatyti ir apdoroti kliento išankstinius apmokėjimus (dar vadinamus kliento depozitais).
 author: twheeloc
-ms.date: 04/30/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: ''
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88773067c472471fb75167712268d1076c1738a5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f085d45895530aaf0a16439f62dfc13b27da84b6
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861566"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799439"
 ---
 # <a name="customer-prepayments"></a>Kliento išankstiniai mokėjimai
 
@@ -32,7 +32,7 @@ Išankstinių kliento mokėjimų nustatymo ir darbo su klientais procesą sudaro
 
 1. Sukurkite kliento registravimo profilį išankstiniams mokėjimams.
 2. Nustatykite **Registravimo šablonas su išankstinio mokėjimo žurnalo kvitu** parametrą.
-3. Sukurkite kliento mokėjimų žurnalą ir kiekvienoje eilutėje **pažymėkite žymės langelį Išankstinio mokėjimo** žurnalo kvitas.
+3. Sukurkite kliento mokėjimų žurnalą ir kiekvienoje eilutėje pažymėkite **žymės langelį Išankstinio** apmokėjimo žurnalo kvitas.
 4. Registruokite kliento mokėjimų žurnalą.
 5. Sugener pasirinkę SF sudengkite išankstinį mokėjimą naudodami puslapį **Sudengti atviras operacijas**.
 
@@ -82,7 +82,7 @@ Kliento mokėjimų darbo sritį **galite naudoti** norėdami lengvai rasti ir su
 1. Namų **skelbimų** skelbimų srityje pasirinkite kliento **mokėjimų išklotąją** sritį.
 2. Kliento operacijų **skyriaus skirtuke** Mokėjimai **nesudengti ieškoti ir** pasirinkti sudengti norimą mokėjimą.
 3. Pasirinkite **Nustatyti operacijas**
-4. Pažymėkite **SF** ir mokėjimo, kuris bus sudengtas, žymės langelį Žymėti.
+4. Pažymėkite SF **ir** mokėjimo, kuris bus sudengtas, žymės langelį.
 5. Pasirinkite **Registruoti**.
 
 Daugiau informacijos apie tai, kaip sudengti atviras operacijas, ieškokite [Sudengimo peržiūra](/dynamics365/finance/cash-bank-management/settlement-overview).

@@ -12,20 +12,24 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f89adfc3055da346cfe9b6951076094b133c842
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 06846141aff993dbcc9654d81a3e267343e925c0
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779722"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803862"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>Registruoti kliento vėlesnį čekį
 
 [!include [banner](../../includes/banner.md)]
 
-Galite užregistruoti išsamią vėlesnio čekio informaciją, gautą iš kliento. Taip pat galite užregistruoti vėlesnį čekį ir sugeneruoti finansines operacijas. Prieš registr pradėdami registruoti ir užregistruokite iš kliento gautą registruotą registruotą čekią, atlikite šias užduotis: * Nustatykite naują čekią grynųjų pinigų ir banko valdymo puslapyje * Nustatykite mokėjimo metodą postduotims čekiams. Šios procedūros vaidmuo yra iždininko. Šioje procedūroje naudojama demonstracinė įmonė USMF.
+Galite užregistruoti išsamią vėlesnio čekio informaciją, gautą iš kliento. Taip pat galite užregistruoti vėlesnį čekį ir sugeneruoti finansines operacijas. Atlikite toliau nurodytas užduotis prieš užregistruodami vėlesnį čekį, gautą iš kliento.  
+ - Nustatyti postduotą čekią grynųjų **pinigų ir banko valdymo** puslapyje 
+ - Vėlesnių čekių mokėjimo būdo nustatymas   
+  
+ Šios procedūros vaidmuo yra Iždininkas. Šioje procedūroje naudojama demonstracinė įmonė USMF.
 
-1. Eikite **į gautinų sumų > ir > žurnalą**.
+1. Eikite **į gautinų sumų > ir > mokėjimų žurnalą**.
 2. Spustelėkite **Naujas**.
 3. Lauke **Pavadinimas** įveskite reikšmę.
 4. Spustelėkite **Eilutės**.
@@ -36,12 +40,12 @@ Galite užregistruoti išsamią vėlesnio čekio informaciją, gautą iš klient
 8. Spustelėkite skirtuką **Mokėjimas**.
 9. Lauke **Mokėjimo būdas** įveskite reikšmę.
     * Vėlesnio čekio mokėjimo būdo pasirinkimas.  
-10. Spustelėkite skirtuką **Užregistruoti čekiai**.
+10. Spustelėkite skirtuką **Užregistruoti čekiai** .
 11. Lauke Mokėjimo **termino data** įveskite datą.
     * Įveskite vėlesnio čekio apmokėjimo termino datą.  
 12. Į išduodančios **banko filialo** lauką įveskite vertę.
     * Įveskite vėlesnio čekio banko informaciją.  
-13. **Lauke Čekio** numeris įveskite vertę.
+13.  **Lauke Čekio** numeris įveskite vertę.
 14. Lauke Išduodančios **banko** pavadinimas įveskite vertę.
     * Įveskite vėlesnio čekio banko informaciją.  
 15. Spustelėkite **Registruoti**.

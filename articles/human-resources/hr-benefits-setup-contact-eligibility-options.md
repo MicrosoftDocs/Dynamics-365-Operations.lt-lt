@@ -1,8 +1,8 @@
 ---
 title: Asmeninio kontakto tinkamumo parinkčių konfigūravimas
-description: Šiame straipsnyje paaiškinama, kaip konfigūruoti asmeninių kontaktų tinkamumo pasirinktis "Microsoft"Dynamics 365 Human Resources.
+description: Šiame straipsnyje paaiškinama, kaip konfigūruoti asmeninių kontaktų tinkamumo pasirinktis "Microsoft" Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/24/2021
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 251a12b0da364744f1d8c84324099708a2f816a1
-ms.sourcegitcommit: 1717ff6af1879c6f3a8360936c42ecf55f86acd0
+ms.openlocfilehash: e3e393002901f31c035a54bd8036ed20ecdf9e00
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/07/2022
-ms.locfileid: "9749288"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803890"
 ---
 # <a name="configure-personal-contact-eligibility-options"></a>Asmeninio kontakto tinkamumo parinkčių konfigūravimas
 
@@ -43,7 +43,8 @@ ms.locfileid: "9749288"
    | **Kontakto tinkamumo kodas** | Sistemos kodas, kuris geriausiai apibūdina asmens tinkamumo parinktį. Galite rinkti iš: <ul><li>Ryšys</li><li>Studentas</li><li>Vyresnis priklausomasis</li><li>Vyresnio amžiaus neįgalus priklausomasis</li></ul> |
    | **Būsena** | Tinkamumo parinkties būsena. Jei tinkamumo parinkties būsena nustatyta kaip neaktyvi, tada negalėsite pasirinkti šio asmeninio kontakto tinkamumo parinkties asmeniniams kontaktams. |
    | **Ryšys** | Nurodo ryšį tarp asmeninio kontakto ir darbuotojo. Šis laukas aktyvus tik tada, kai kontakto tinkamumo kodas nustatytas kaip „Ryšys“. |
-   | **Amžius** | Minimalus tinkamo asmeninio kontakto amžius, skirtas išmokų planui. Šis laukas aktyvus tik tada, kai pasirenkate ryšį. Šis terminas lyginamas su apskaičiuotu asmeninio kontakto terminu. Apskaičiuotas terminas yra: (padengimo data – asmeninio kontakto gimimo data / 365). Šis skaičius visada yra sveikasis skaičius. |
+   | **Amžius** |Nurodomas maksimalus išmokų plano tinkamo asmeninio kontakto amžius. Šis laukas aktyvus tik tada, kai pasirenkate ryšį. Šis terminas lyginamas su apskaičiuotu asmeninio kontakto terminu. Apskaičiuotas terminas yra: (padengimo data – asmeninio kontakto gimimo data / 365). Šis skaičius visada yra sveikasis skaičius.
+Perkrovos **priklausomo asmeninio** kontakto tinkamumo pasirinktis, šiame lauke pateikiamas minimalus amžius. Pvz., jei pagal 18 metų priklausomybę taikoma pasirinktis "viršiavimas" taikoma 18 **metų**, priklausomieji, pažymėti kaip priklausomieji, kurie yra pažymėti kaip 18 ar senesni, bus kuriems taikoma tinkamumo pasirinktis.  |
 
 4. Pasirinkite **Įrašyti**. 
 

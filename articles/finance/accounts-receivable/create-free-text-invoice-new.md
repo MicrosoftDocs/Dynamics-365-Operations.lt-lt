@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 4298d7114e0237072c242e83e51951a922e34e5a
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
-ms.translationtype: HT
+ms.openlocfilehash: e8f80aa4cc0a7248506e0725881b8f575a0c7ff4
+ms.sourcegitcommit: 29d9a7573bdac004726da88a9d7b2cc9c383e9ca
+ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9780257"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788546"
 ---
 # <a name="create-a-free-text-invoice"></a>Kurti laisvos formos SF
 
@@ -68,7 +68,9 @@ ms.locfileid: "9780257"
 
     * Galite pakeisti SF spausdinimo laiką. Pasirinkite **Dabartinis**, kad būtų spausdinama kiekviena sąskaita faktūra ją atnaujinus. Pasirinkite **Vėliau**, norėdami spausdinti, kai atnaujinamos visos sąskaitos faktūros.
     * Norėdami keisti tai, kaip kliento kredito limitas yra tikrinamas prieš registruojant SF, pakeiskite reikšmę lauke **Kredito limito tipas**.
-    * Galite pasirinkti **sustabdyti** **laisvos** formos SF registravimą, kai įvyksta klaida gautinų sumų parametrų puslapio atnaujinimų skirtuke (**Gautinų sumų sumos >> gautinų sumų parametrus).** Jei **norite** sustabdyti laisvos **formos SF registravimą pirmą** kartą nustatant klaidos parametrą, pasirinkite Taip, jei norite sustabdyti laisvos formos SF registravimą įvykstant klaidai. Jei registravimas pakete bus sustabdytas registravimo procesas, o paketo būsena bus nustatyta kaip **Klaida**. Jei ši parinktis nepasirinkta, registravimo procesas praleis SF, į problemą, kurios metu bus registruojama klaida, ir toliau registruos papildomas SF. Registruojant pakete, registravimo klaida neužkirs kelio registruoti kitų SF. Paketo būsena bus **Baigta**. Paketinių užduočių retrospektyvoje bus galima peržiūrėti išsamią registravimo proceso ataskaitą.
+    * Galite pasirinkti **sustabdyti**  **laisvos** formos SF registravimą, kai įvyksta klaida gautinų sumų parametrų puslapio atnaujinimų skirtuke (**Gautinų sumų sumos >> gautinų sumų parametrus).** Jei **norite** sustabdyti laisvos **formos SF registravimą pirmą** kartą nustatant klaidos parametrą, pasirinkite Taip, jei norite sustabdyti laisvos formos SF registravimą įvykstant klaidai. Jei registravimas pakete bus sustabdytas registravimo procesas, o paketo būsena bus nustatyta kaip **Klaida**. Jei ši parinktis nepasirinkta, registravimo procesas praleis SF, į problemą, kurios metu bus registruojama klaida, ir toliau registruos papildomas SF. Registruojant pakete, registravimo klaida neužkirs kelio registruoti kitų SF. Paketo būsena bus **Baigta**. Paketinių užduočių retrospektyvoje bus galima peržiūrėti išsamią registravimo proceso ataskaitą.
+    *  Microsoft Dynamics 365 finansų 10.0.30, **laisvos** formos SF registravimo patobulinimas, skirtas bendrųjų sumų skaičiavimo funkcijai pagerinti registravimo našumą, leisdama veikti efektyviau. Įgalinus šią priemonę, registruojant bus išsaugotos apskaičiuotos bendrosios sumos, o ne kelis kartus perskaičiuotos bendrosios sumos registravimo proceso metu. 
+    *  Microsoft Dynamics 365 finansų 10.0.31, **laisvos** formos SF paketinio registravimo proceso tobulinimo priemonė pagerina registravimo efektyvumą, leisdama veikti efektyviau. Įgalinus šią funkciją, registruojant naudojamas šablonas, kuris automatiškai valdo paketo registravimo darbo krūvį fiksuotu gijų skaičiumi, užuot priskyrus fiksuotą dokumentų skaičių neribotam gijų skaičiumi.
     * Norėdami spausdinti SF, nustatykite parinktį į **Taip**.
     * Norėdami registruoti SF, nustatykite parinktį į **Taip**. Galite spausdinti SF jos neregistruodami.
 
@@ -85,9 +87,9 @@ Laisvos formos sąskaitą faktūrą galite kurti pagal šabloną. Skirtuke **Są
 Bus sukurta nauja laisvos formos SF ir galėsite redaguoti norimas reikšmes.
 
 ## <a name="resetting-the-workflow-status-for-free-text-invoices-from-unrecoverable-to-draft"></a>Laisvos formos sąskaitų faktūrų darbo eigos būsenos nustatymas iš naujo iš Nepataisoma į Juodraštis
-Bus nurodyta darbo eigos egzemplioriaus, kuris buvo sustabdytas dėl neištaisomos klaidos, būsena **Neištaisoma**. Kai kliento laisvos formos SF darbo eigos būsena **yra** Nepataisoma, **galite** iš naujo nustatyti ją į Juodraštis, **darbo eigos veiksmuose pasirinkdami** Atšaukti. Tada galite redaguoti kliento laisvos formos SF. Ši funkcija galima, **jei laisvos formos SF darbo eigos būsenos nustatymas iš naujo nuo nepataisomos iki juodraščio parametro funkcijų valdymo puslapyje įjungtas** **·**.
+Bus nurodyta darbo eigos egzemplioriaus, kuris buvo sustabdytas dėl neištaisomos klaidos, būsena **Neištaisoma**. Kai kliento laisvos formos SF darbo eigos būsena **yra** Nepataisoma, **galite** iš naujo nustatyti ją į Juodraštis, **darbo eigos veiksmuose pasirinkdami** Atšaukti. Tada galite redaguoti kliento laisvos formos SF. Ši funkcija galima, **jei laisvos formos SF darbo eigos būsenos nustatymas iš naujo nuo nepataisomos iki juodraščio parametro funkcijų valdymo puslapyje įjungtas**  **·** .
 
-Naudodamiesi puslapiu **Tiekėjo SF darbo eigos būsenos nustatymas iš naujo** galite iš naujo nustatyti darbo eigos būseną **Juodraštis**. Galite atidaryti šį puslapį iš laisvos **formos SF arba** bendrosios **> Užklausų formos> eigą**. Norėdami iš naujo nustatyti darbo eigos būseną į **Juodraštis**, pasirinkite **Atšaukti**. Taip pat galite iš naujo nustatyti darbo eigos **būseną** **·** **į Juodraštis, pasirinkdami veiksmą Atšaukti** laisvos formos **SF puslapyje arba Visų laisvos formos SF** puslapyje. Iš naujo nustačius darbo eigos būseną **į** Juodraštis, ją galima redaguoti laisvos **formos SF** puslapyje.
+Naudodamiesi puslapiu **Tiekėjo SF darbo eigos būsenos nustatymas iš naujo** galite iš naujo nustatyti darbo eigos būseną **Juodraštis**. Galite atidaryti šį puslapį iš laisvos **formos SF arba** bendrosios **> Užklausų formos> darbo eigą**. Norėdami iš naujo nustatyti darbo eigos būseną į **Juodraštis**, pasirinkite **Atšaukti**. Taip pat galite iš naujo nustatyti darbo eigos **būseną**  **·**  **į Juodraštis, pasirinkdami veiksmą Atšaukti** laisvos formos **SF puslapyje arba Visų laisvos formos SF** puslapyje. Iš naujo nustačius darbo eigos būseną **į** Juodraštis, ją galima redaguoti laisvos **formos SF** puslapyje.
 
 
 

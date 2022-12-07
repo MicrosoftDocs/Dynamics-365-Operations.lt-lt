@@ -1,8 +1,8 @@
 ---
 title: Ataskaitų dizaino įrankio sąsaja
-description: Šiame straipsnyje paaiškinama, kaip naršyti po ataskaitų dizaino įrankį ir kaip naudoti įvairias parinktis pagal jūsų konkrečius poreikius.
+description: Šiame straipsnyje paaiškinama, kaip naršyti ataskaitų konstruktorių ir kaip naudoti įvairias pasirinktis, kad būtų atitikti jūsų konkretūs reikalavimai.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.dyn365.ops.version: AX 7.0.1
 ms.custom: 59041
 ms.assetid: 054de5b0-8618-4195-be12-f031b4bb4d74
 ms.search.form: FinancialReports
-ms.openlocfilehash: 3bc3ddb9f04f7f6f2a63b2ecccfe04fbaf2eadfc
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 25d913e6f5d4c95dceda1291a2c33abe37348574
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9274734"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802748"
 ---
 # <a name="report-designer-interface"></a>Ataskaitų dizaino įrankio sąsaja
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje paaiškinama, kaip naršyti po ataskaitų dizaino įrankį ir kaip naudoti įvairias parinktis pagal jūsų konkrečius poreikius.
+Šiame straipsnyje paaiškinama, kaip naršyti ataskaitų konstruktorių ir kaip naudoti įvairias pasirinktis, kad būtų atitikti jūsų konkretūs reikalavimai.
 
 ## <a name="report-designer-menu-commands"></a>Ataskaitų dizaino įrankio meniu komandos
 
@@ -40,15 +40,15 @@ Meniu **Failas** prieinamas visiems vartotojams ir apima toliau nurodytas komand
 |-----------------------------------|-------------|
 | Nauja                               | Sukurti naują ataskaitos aprašą, eilutės apibrėžimą, stulpelio apibrėžimą, ataskaitų medžio apibrėžimą, ataskaitos grupės apibrėžimą arba aplanką. Galimos papildomos pasirinktys, atsižvelgdami į jūsų vartotojo vaidmenį. |
 | Atidarytas                              | Atidarykite esamą eilutės apibrėžimą, stulpelio apibrėžimą, ataskaitų medžio apibrėžimą arba ataskaitos aprašą. |
-| Artimas                             | Uždarykite dabartinį kūrimo bloką. |
+| Uždaryti                             | Uždarykite dabartinį kūrimo bloką. |
 | Uždaryti viską                         | Uždarykite visus kūrimo blokus. |
 | Įrašyti                              | Įrašykite dabartinį eilutės apibrėžimą, stulpelio apibrėžimą, ataskaitų medžio apibrėžimą arba ataskaitos aprašą. |
 | Įrašyti kaip                           | Įrašykite dabartinį eilutės apibrėžimą, stulpelio apibrėžimą, ataskaitų medžio apibrėžimą arba ataskaitos aprašą, nurodydami naują pavadinimą. |
 | Ypatybės                        | Atidarykite dialogo langą **Ypatybės**, kuriame galite keisti ataskaitos pavadinimą ir aprašymą. |
 | Generuoti                          | Generuoti dabartinę ataskaitą. Ši komanda galima ataskaitos apraše. |
 | Peržiūrėti ataskaitą                       | Atidarykite naujausią sugeneruotos ataskaitos versiją. Ši komanda galima ataskaitos apraše, jeigu sugeneravote bent vieną ataskaitą. |
-| Naujausi ataskaitų aprašai         | Rodyti neseniai sukurtų arba modifikuotų ataskaitų sąrašą. Tada sąraše galite pasirinkti ataskaitą. |
-| Naujausi eilučių apibrėžimai            | Rodyti neseniai sukurtų arba modifikuotų eilučių apibrėžimų sąrašą. Tada sąraše galite pasirinkti eilutės apibrėžimą. |
+| Naujausi ataskaitos apibrėžimai         | Rodyti neseniai sukurtų arba modifikuotų ataskaitų sąrašą. Tada sąraše galite pasirinkti ataskaitą. |
+| Naujausi eilutės apibrėžimai            | Rodyti neseniai sukurtų arba modifikuotų eilučių apibrėžimų sąrašą. Tada sąraše galite pasirinkti eilutės apibrėžimą. |
 | Naujausi stulpelių apibrėžimai         | Rodyti neseniai sukurtų arba modifikuotų stulpelių apibrėžimų sąrašą. Tada sąraše galite pasirinkti stulpelio apibrėžimą. |
 | Naujausi ataskaitų medžio apibrėžimai | Rodyti neseniai sukurtų arba modifikuotų ataskaitų medžio apibrėžimų sąrašą. Tada sąraše galite pasirinkti ataskaitų medžio apibrėžimą. |
 | Išeiti                              | Uždarykite ataskaitų dizaino įrankį. |
@@ -67,19 +67,19 @@ Meniu **Redaguoti** gali naudotis vartotojai, turintys vaidmenį **Dizaineris** 
 | Trinti                                  | Panaikinti pažymėto kūrimo bloko langelio turinį. |
 | Rasti                                   | Atidarykite dialogo langą **Rasti ir pakeisti**, kurio peržiūros srityje galite ieškoti teksto. |
 | Pakeisti                                | Atidarykite dialogo langą **Rasti ir pakeisti**, kurio peržiūros srityje galite ieškoti teksto ir jį pakeisti. |
-| Eilučių įterpimas iš dimensijų            | Atidarykite dialogo langą **Eilučių įterpimas iš dimensijų**, kuriame galite pasirinkti į eilutės apibrėžimą norimas įtraukti dimensijų reikšmes. Ši komanda galima eilutės apibrėžime. |
-| Eilučių pernumeravimas                          | Pernumeruoti visus skaitinius eilutės kodus. Ši komanda galima eilutės apibrėžime. |
-| Eilutės saitai                              | Atidarykite dialogo langą **Eilutės saitai**, kuriame galite nurodyti eilutės apibrėžimų ir ataskaitų medžio apibrėžimų duomenų saitų šaltinius. Ši komanda galima eilutės apibrėžime. |
+| Įterpti eilutes iš dimensijų            | Atidarykite dialogo langą **Eilučių įterpimas iš dimensijų**, kuriame galite pasirinkti į eilutės apibrėžimą norimas įtraukti dimensijų reikšmes. Ši komanda galima eilutės apibrėžime. |
+| Eilučių numeravimas iš naujo                          | Pernumeruoti visus skaitinius eilutės kodus. Ši komanda galima eilutės apibrėžime. |
+| Eilučių saitai                              | Atidarykite dialogo langą **Eilutės saitai**, kuriame galite nurodyti eilutės apibrėžimų ir ataskaitų medžio apibrėžimų duomenų saitų šaltinius. Ši komanda galima eilutės apibrėžime. |
 | Apvalinimo koregavimas                    | Atidarykite dialogo langą **Apvalinimo koregavimai**, kuriame galite nurodyti apvalinimo parametrus. Ši komanda galima eilutės apibrėžime. |
-| Dimensijų rinkinių tvarkymas                  | Atidarykite dialogo langą **Dimensijų rinkiniai**, kuriame galite kurti ir modifikuoti dimensijų rinkinius. Ši komanda galima eilutės apibrėžime arba ataskaitų medžio apibrėžime. |
-| Eilutės įterpimas                             | Įterpti tuščią eilutę į eilutės apibrėžimą arba tuščią antraštės eilutę į stulpelio apibrėžimą. Ši komanda galima eilutės apibrėžime arba stulpelio apibrėžime. |
+| Tvarkyti dimensijų rinkinius                  | Atidarykite dialogo langą **Dimensijų rinkiniai**, kuriame galite kurti ir modifikuoti dimensijų rinkinius. Ši komanda galima eilutės apibrėžime arba ataskaitų medžio apibrėžime. |
+| Įterpti eilutę                             | Įterpti tuščią eilutę į eilutės apibrėžimą arba tuščią antraštės eilutę į stulpelio apibrėžimą. Ši komanda galima eilutės apibrėžime arba stulpelio apibrėžime. |
 | Naikinti eilutę                             | Panaikinti pasirinktą eilutę iš eilutės apibrėžimo arba pasirinktą antraštės eilutę iš stulpelio apibrėžimo. Ši komanda galima eilutės apibrėžime arba stulpelio apibrėžime. |
-| Stulpelio įterpimas                          | Įterpti tuščią stulpelį į stulpelio apibrėžimą. Ši komanda galima stulpelio apibrėžime. |
-| Stulpelio naikinimas                          | Panaikinti pasirinktą stulpelį iš stulpelio apibrėžimo. Ši komanda galima stulpelio apibrėžime. |
-| Ataskaitinių vienetų įterpimas iš dimensijų | Atidarykite dialogo langą **Įterpti ataskaitinių vienetų iš dimensijų**, kuriame galite pasirinkti į ataskaitų medžio apibrėžimą norimas įtraukti dimensijų reikšmes. Ši komanda galima ataskaitų medžio apibrėžime. |
-| Dimensijų rinkinio hierarchijos importavimas         | Atidarykite dialogo langą **Dimensijų rinkinio hierarchija**, į kurį galite importuoti dimensijų rinkinio hierarchiją iš finansinių duomenų. Ši komanda galima ..\\financial-dimensions\\dimension-based sistemos ataskaitų medžio apibrėžime. |
-| Įterpti ataskaitinį vienetą                  | Įterpti tuščią eilutę į ataskaitų medžio apibrėžimą. Ši komanda galima ataskaitų medžio apibrėžime. |
-| Ataskaitų vieneto naikinimas                  | Panaikinkite pasirinktą ataskaitų vieneto eilutę iš ataskaitų medžio apibrėžimo. Ši komanda galima ataskaitų medžio apraše. |
+| Įterpti stulpelį                          | Įterpti tuščią stulpelį į stulpelio apibrėžimą. Ši komanda galima stulpelio apibrėžime. |
+| Naikinti stulpelį                          | Panaikinti pasirinktą stulpelį iš stulpelio apibrėžimo. Ši komanda galima stulpelio apibrėžime. |
+| Įterpti ataskaitų vienetus iš dimensijų | Atidarykite dialogo langą **Įterpti ataskaitinių vienetų iš dimensijų**, kuriame galite pasirinkti į ataskaitų medžio apibrėžimą norimas įtraukti dimensijų reikšmes. Ši komanda galima ataskaitų medžio apraše. |
+| Importuoti dimensijų rinkinio hierarchiją         | Atidarykite dialogo langą **Dimensijų rinkinio hierarchija**, į kurį galite importuoti dimensijų rinkinio hierarchiją iš finansinių duomenų. Ši komanda galima ..\\financial-dimensions\\dimension-based sistemos ataskaitų medžio apibrėžime. |
+| Įterpti ataskaitų vienetą                  | Įterpti tuščią eilutę į ataskaitų medžio apibrėžimą. Ši komanda galima ataskaitų medžio apraše. |
+| Panaikinti ataskaitų vienetą                  | Panaikinkite pasirinktą ataskaitų vieneto eilutę iš ataskaitų medžio apibrėžimo. Ši komanda galima ataskaitų medžio apraše. |
 
 ### <a name="view-menu"></a>Rodymo meniu
 
@@ -89,17 +89,17 @@ Meniu **Peržiūra** prieinamas visiems vartotojams ir apima toliau nurodytas ko
 |-----------------|------------------------------------------------------------------------|
 | Naršymo sritis | Rodyti arba slėpti naršymo sritį.                                      |
 | Įrankių juostos        | Pasirinkite, kurios įrankių juostos matomos.                                  |
-| Būsenos juosta      | Rodyti arba slėpti lange **Ataskaitų dizaino įrankis** pateikiamą būsenos informaciją. |
+| Būsenos juosta      | Rodyti arba slėpti būsenos informaciją ataskaitų kūrimo **lange** . |
 | Pasisveikinimo puslapis    | Atidarykite puslapį **Sveiki**.                                             |
 
 ### <a name="format-menu"></a>Meniu Formatas
 
 Meniu **Formatas** gali naudotis vartotojai, turintys vaidmenį **Dizaineris** arba **Administratorius**. Šis meniu apima toliau nurodytas komandas.
 
-| Komanda               | Prekės/Paslaugos pavadinimas |
+| Command               | Aprašymas |
 |-----------------------|-------------|
-| Stiliai ir formatavimas | Atidarykite dialogo langą **Stiliai ir formatavimas**, kuriame galite kurti ir modifikuoti eilučių apibrėžimų ir stulpelių atupibrėžimų teksto stilių. Ši komanda galima eilutės apibrėžime arba stulpelio apibrėžime. |
-| Stulpelio plotis          | Atidarykite dialogo langą **Stulpelio plotis**, kuriame galite nustatyti pasirinkto stulpelio plotį. Ši komanda galima eilutės apibrėžime, stulpelio apibrėžime arba ataskaitų medžio apibrėžime. |
+| Stiliai ir formatavimas | Atidaromas **dialogo langas Stiliai** ir formatavimas, kuriame galima kurti ir modifikuoti eilučių aprašų ir stulpelių aprašų teksto stilių. Ši komanda galima eilutės apibrėžime arba stulpelio apibrėžime. |
+| Stulpelio plotis          | Atidaryti stulpelio **pločio** dialogo langą, kuriame galima nustatyti pasirinkto stulpelio plotį. Ši komanda galima eilutės apibrėžime, stulpelio apibrėžime arba ataskaitų medžio apibrėžime. |
 | Slėpti                  | Slėpti pasirinktą stulpelį. Ši komanda galima eilutės apibrėžime, stulpelio apibrėžime arba ataskaitų medžio apibrėžime. |
 | Nebeslėpti                | Rodyti tarp pasirinktų stulpelių paslėptus stulpelius. Ši komanda galima eilutės apibrėžime, stulpelio apibrėžime arba ataskaitų medžio apibrėžime. |
 
@@ -110,7 +110,7 @@ Meniu **Įmonė** gali naudotis vartotojai, turintys vaidmenį **Dizaineris** ar
 | Komanda               | Prekės/Paslaugos pavadinimas                                                                                                            |
 |-----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Įmonės             | Atidarykite dialogo langą **Įmonės**, kuriame galite kurti ir modifikuoti įmones.                                          |
-| Kūrimo bloko grupės | Atidarykite dialogo langą **Kūrimo bloko grupės**, kuriame galite kurti, modifikuoti, importuoti ir eksportuoti kūrimo bloko grupes. |
+| Kūrimo blokų grupės | Atidaryti kūrimo **blokų grupių dialogo** langą, kuriame galima kurti, modifikuoti, importuoti ir eksportuoti kūrimo blokų grupes. |
 
 ### <a name="go-menu"></a>Meniu Eiti
 
@@ -162,7 +162,7 @@ Meniu **Pagalba** prieinamas visiems vartotojams ir apima toliau nurodytas koman
 | Žinynas    | Atidarykite finansinių ataskaitų žinyno straipsnio puslapį. |
 |         |                                                                          |
 
-## <a name="report-designer-toolbar-buttons"></a>Ataskaitų dizaino įrankio įrankių juostos mygtukai
+## <a name="report-designer-toolbar-buttons"></a>Ataskaitos konstruktoriaus įrankių juostos mygtukai
 Toliau pateikiamose lentelėse aprašomi įrankių juostos mygtukai, kuriuos galite naudoti kurdami ataskaitas. Kai kuriuos įrankių juostos mygtukus galima naudoti tik esant tam tikroms aplinkybėms. Pavyzdžiui, ataskaitų vienetų paaukštinimo ir pažeminimo mygtukus galima naudoti tik tada, kai modifikuojate ataskaitų medžio apibrėžimą.
 
 ### <a name="standard-toolbar"></a>Standartinė įrankių juosta
@@ -194,18 +194,18 @@ Standartinė įrankių juosta suteikia greitą prieigą prie failo ir redagavimo
 
 Naudodami formatavimo įrankių juostą lengvai pasieksite stiliaus komandas. Šioje įrankių juostoje yra toliau nurodyti mygtukai.
 
-| Mygtukas                                                                                                       | Aprašas                                             |
-|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| [![Mygtukas Šrifto stilius.](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Taikyti pasirinktą šrifto stilių dabartiniam tekstui.      |
-| [![Mygtukas Šriftas.](./media/fonttype.png)](./media/fonttype.png)                                                 | Dabartiniam tekstui nustatyti pasirinktą šriftą.              |
-| [![Mygtukas Šrifto dydis.](./media/fontsize.png)](./media/fontsize.png)                                            | Dabartiniam tekstui nustatyti pasirinktą šrifto dydį (taškais). |
-| [![Mygtukas Paryškinti.](./media/boldc130389.png)](./media/boldc130389.png)                                           | Paryškinti dabartinį tekstą.                             |
-| [![Mygtukas Kursyvas.](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | Rašyti dabartinį tekstą kursyvu.                           |
-| [![Mygtukas Pabraukti.](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Pabraukti dabartinį tekstą.                             |
-| [![Mygtukas Mažinti įtrauką.](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Mažinti dabartinio teksto įtrauką.                |
-| [![Mygtukas Didinti įtrauką.](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | Didinti dabartinio teksto įtrauką.                |
-| [![Mygtukas Fono spalva.](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Keisti dabartinio langelio fono spalvą.        |
-| [![Mygtukas Šrifto spalva.](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Keisti dabartinio teksto spalvą.                   |
+| Mygtukas                                                                                                       | Aprašas                                           |
+|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| [![Mygtukas Šrifto stilius.](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Taikyti pasirinktą šrifto stilių dabartiniam tekstui.   |
+| [![Mygtukas Šriftas.](./media/fonttype.png)](./media/fonttype.png)                                                 | Dabartiniam tekstui nustatyti pasirinktą šriftą.           |
+| [![Mygtukas Šrifto dydis.](./media/fontsize.png)](./media/fontsize.png)                                            | Nustatyti dabartinį tekstą pasirinktam šrifto dydžiui (taškais). |
+| [![Mygtukas Paryškinti.](./media/boldc130389.png)](./media/boldc130389.png)                                           | Paryškinti dabartinį tekstą.                          |
+| [![Mygtukas Kursyvas.](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | Rašyti dabartinį tekstą kursyvu.                        |
+| [![Mygtukas Pabraukti.](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Pabraukti dabartinį tekstą.                          |
+| [![Mygtukas Mažinti įtrauką.](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Mažinti dabartinio teksto įtrauką.             |
+| [![Mygtukas Didinti įtrauką.](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | Didinti dabartinio teksto įtrauką.             |
+| [![Mygtukas Fono spalva.](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Keisti dabartinio langelio fono spalvą.     |
+| [![Mygtukas Šrifto spalva.](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Keisti dabartinio teksto spalvą.                |
 
 ### <a name="report-designer-toolbar"></a>Ataskaitų dizaino įrankio įrankių juosta
 
@@ -213,9 +213,9 @@ Ataskaitų dizaino įrankio įrankių juosta suteikia greitą prieigą prie koma
 
 | Mygtukas                                                                                              | Aprašas |
 |-----------------------------------------------------------------------------------------------------|-------------|
-| [![Mygtukas Ataskaitos aprašas.](./media/reportc130389.png)](./media/reportc130389.png)                 | Rodyti į meniu **Langas** sąrašą įtrauktą ataskaitos aprašą. |
-| [![Mygtukas Eilutės apibrėžimas.](./media/rowc130389.png)](./media/rowc130389.png)                          | Rodyti prie aktyvaus ataskaitos aprašo priskirtą eilutės apibrėžimą. |
-| [![Mygtukas Stulpelio aprašas.](./media/columnc130389.png)](./media/columnc130389.png)                 | Rodyti prie aktyvaus ataskaitos aprašo priskirtą stulpelio aprašą. |
+| [![Mygtukas Ataskaitos aprašas.](./media/reportc130389.png)](./media/reportc130389.png)            | Rodyti į meniu **Langas** sąrašą įtrauktą ataskaitos aprašą. |
+| [![Mygtukas Eilutės apibrėžimas.](./media/rowc130389.png)](./media/rowc130389.png)             | Rodyti prie aktyvaus ataskaitos aprašo priskirtą eilutės apibrėžimą. |
+| [![Mygtukas Stulpelio aprašas.](./media/columnc130389.png)](./media/columnc130389.png)  | Rodyti prie aktyvaus ataskaitos aprašo priskirtą stulpelio aprašą. |
 | [![Mygtukas Ataskaitų medžio apibrėžimas.](./media/treec130389.png)](./media/treec130389.png)             | Rodyti prie aktyvaus ataskaitos aprašo priskirtą ataskaitų medžio aprašą. |
 | [![Mygtukas Pranešti žiūrovui.](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Paleisti „Report Viewer“ ir rodyti naujausią sugeneruotos ataskaitos versiją. Šis mygtukas galimas ataskaitos apraše, jeigu sugeneravote bent vieną ataskaitą. |
 | [![Mygtukas Generuoti ataskaitą.](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Generuojama ataskaita iš aktyvaus ataskaitos aprašo. Šis mygtukas galimas ataskaitos apraše. |

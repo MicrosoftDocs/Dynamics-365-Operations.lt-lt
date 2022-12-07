@@ -1,6 +1,6 @@
 ---
 title: „Human Resources“ programa „Teams“
-description: Šiame straipsnyje pristatyta "Microsoft" Dynamics 365 Human Resources programa Microsoft Teams.
+description: Šiame straipsnyje bus pristatyta "Microsoft" Dynamics 365 Human Resources programa Microsoft Teams.
 author: twheeloc
 ms.date: 12/15/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a7ff576efbfeb0c5383a48756fdd7e79f1abdba2
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d29802bdf3411c93f20d710e1f26e541e5022d57
+ms.sourcegitcommit: 3aa3dedc3123cb079614762e2718841c2f7d7d35
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902262"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "9812192"
 ---
 # <a name="human-resources-app-in-teams"></a>„Human Resources“ programa „Teams“
 
@@ -28,7 +28,7 @@ ms.locfileid: "8902262"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-"Microsoft Dynamics 365 Human Resources " programa Microsoft Teams leidžia darbuotojams greitai prašyti laiko ir peržiūrėkite savo laikotarpio išjungimo balanso informaciją Microsoft Teams. Norėdami prašyti informacijos, darbuotojai gali bendrauti su robotu. Skirtuke **Ne darbo laikas** pateikiama išsamesnė informacija. Be to, jie gali siųsti žmonėms informaciją apie būsimą ne darbo laiką skiltyse „Komandos” ir „Pokalbiai” už „Human Resources” programėlės ribų.
+"Microsoft Dynamics 365 Human Resources " programa Microsoft Teams leidžia darbuotojams greitai prašyti laiko ir peržiūrėti savo laikotarpio išjungimo balanso informaciją Microsoft Teams. Norėdami prašyti informacijos, darbuotojai gali bendrauti su robotu. Skirtuke **Ne darbo laikas** pateikiama išsamesnė informacija. Be to, jie gali siųsti žmonėms informaciją apie būsimą ne darbo laiką skiltyse „Komandos” ir „Pokalbiai” už „Human Resources” programėlės ribų.
 
 ![„Human Resources Teams“ atostogų programos robotas.](./media/hr-teams-leave-app-bot.png)
 
@@ -52,10 +52,10 @@ Jei versija 1.1.4, pokalbių tekstas bus sustabdytas ir atsakys į bet kokį pra
 
 Norėdami atnaujinti į 1.1.5 versiją, atlikite šiuos veiksmus:
 1. Įeikite Microsoft Teams į **Programėles**.
-2. Raskite **personalo programą**.
+2. Raskite **personalo programą** .
 3. Pasirinkite **Atnaujinti**.
 
-Personalo programos versiją galite patikrinti nueię **į** skirtuką Apie arba pereię į asmeninę **programą**. 
+Personalo programos versiją galite patikrinti nueię **į** skirtuką Apie arba pereię į asmeninę **programą** . 
 
 ![Skirtukas Personalo **About** .](./media/HR-teams-about.png)
 
@@ -112,7 +112,7 @@ Programa „Dynamics 365 Human Resources“ komandose palaiko šias kalbas:
 | it-IT | Italų (Italija) |
 | nl-NL | Olandų (Nyderlandai) |
 | pt-BR | Portugalų (Brazilija) |
-| tr-TR | Turkų (Turkija) |
+| tr-TR | Turkijos (Vzrkiye) |
 | zh-CN | Kinų (supaprastintoji) |
 
 ## <a name="notes"></a>Pastabos
@@ -150,13 +150,13 @@ Jei vartotojas, bandantis patvirtinti atostogų užklausas komandos programoje, 
 
 2. Įsitikinkite, kad vartotojai yra prisiregistravę pokalbių skirtuke naudodami tą **pačią** prisijungimo informaciją, kuriuos jie naudoja atostogų užklausoms patvirtinti. Norėdami prisijungti naudodami tinkamą prisjungimo informaciją, naudokite pranešimus „atsijungti" ir „prisijungti".
 
-3. Jei problema išlieka, patikrinkite verslo įvykių sistemos paketinės **užduoties** būseną kaip sistemos administratorių. Jei jis yra laukimo arba **vykdymo** **etape**, po kelių minučių patikrinkite dar kartą. Jei būsena nekinta, užregistruokite palaikymo kvitą, kad mūsų komanda galėtų padėti išspręsti problemą.
+3. Jei problema išlieka, patikrinkite verslo įvykių sistemos paketinės **užduoties** būseną kaip sistemos administratorių. Jei jis yra laukimo arba **vykdymo**  **etape**, po kelių minučių patikrinkite dar kartą. Jei būsena nekinta, užregistruokite palaikymo kvitą, kad mūsų komanda galėtų padėti išspręsti problemą.
 
 ## <a name="privacy-notice"></a>Privatumo pranešimas
 
 ### <a name="microsoft-language-understanding-intelligent-service-luis"></a>„Microsoft Language Understanding Intelligent Service” (LUIS)
 
-Naudojant robotą Dynamics 365 Human Resources Microsoft Teams, vartotojo teksto įvesties duomenys analizuojami siekiant suprasti pagrindinę užklausą / tikslą. Vartotojo įvestis, pvz., "Ieškoti sąskaitos "Contoso", nukreipiama į vieną iš Microsoft smanmanų paslaugų, vadinamos "Intelligent Service" (INTEL). Daugiau apie LUIS skaitykite  [čia](https://www.luis.ai/). LUIS tarnyba išaiškina arba supranta vartotojo įvesties ketinimą (šiuo atveju ketinimas yra rasti informaciją) ir paskirties objektą (šiuo atveju numatomas objektas yra „Contoso“ paskyra). Tada ši informacija perduodama į "Microsoft [Azure Bot](https://azure.microsoft.com/services/bot-service/)" sistemą, Dynamics 365 Human Resources kuri sąveikauja su duomenimis ir nuskaito norimą vartotojo užklausos informaciją.
+Naudojant robotą Dynamics 365 Human Resources  Microsoft Teams, vartotojo teksto įvesties duomenys analizuojami siekiant suprasti užklausos ar užklausos priežastį. Vartotojo įvestis, pvz., "Ieškoti sąskaitos "Contoso", nukreipiama į vieną iš Microsoft smanmanų paslaugų, vadinamos "Intelligent Service" (INTEL). Daugiau apie LUIS skaitykite  [čia](https://www.luis.ai/). LUIS tarnyba išaiškina arba supranta vartotojo įvesties ketinimą (šiuo atveju ketinimas yra rasti informaciją) ir paskirties objektą (šiuo atveju numatomas objektas yra „Contoso“ paskyra). Tada ši informacija perduodama į "Microsoft [Azure Bot](https://azure.microsoft.com/services/bot-service/)" sistemą, Dynamics 365 Human Resources kuri sąveikauja su duomenimis ir nuskaito norimą vartotojo užklausos informaciją.
 
 Įdiegdami ir suteikdami prieigos teisę naudoti robotą jūs sutinkate leisti LUIS tarnybai ir „Azure bot framework“ apdoroti įvesties ketinimą, o tai tampa patobulinta vartotojo šnekamąja patirtimi. LUIS tarnyba ir „Azure bot framework“ gali turėti skirtingus atitikties lygius, palyginti su „Dynamics 365 Human Resources“. Kadangi JŪSŲ tarnyba turi prieigą tik prie vartotojo užklausų ir ji nėra sukurta taip, kad būtų prijungta prie vartotojo duomenų ar sąskaitos, Dynamics 365 Human Resources tiekėjo vartotojas gali per daug įvesti užklausą, kurioje yra Kliento duomenys, Asmeniniai duomenys ar kiti duomenys ir toks užklausos turinys gali būti siunčiamas Dynamics 365 Human Resources į JŪSŲ APTARNAVIMą IR "Azure bot" sistemą. 
 
@@ -166,7 +166,7 @@ Jei norite programų administravimo parametrus valdyti platformoje „Microsoft 
 
 ### <a name="microsoft-teams-azure-event-grid-and-azure-cosmos-db"></a>„Microsoft Teams”, „Azure” įvykių tinklelis ir „Azure Cosmos DB”
 
-Naudojant programą tam Dynamics 365 Human Resources tikri kliento Microsoft Teams duomenys gali būti pateikti už geografinės regiono, kuriame įdiegta jūsų nuomininko personalo tarnyba, ribų.
+Kai naudojate programą Dynamics 365 Human Resources , tam Microsoft Teams tikri kliento duomenys gali būti siunčiami už geografinės regiono, kuriame įdiegta jūsų nuomininko personalo tarnyba, ribų.
 
 Dynamics 365 Human Resources perduoda darbuotojo atostogų užklausą ir darbo eigos užduoties informaciją į įvykių Microsoft Azure tinklelį ir Microsoft Teams. Šie duomenys gali būti saugomi iki 24 valandų „Microsoft Azure” įvykių tinklelyje ir apdorojami Jungtinėse Valstijose, užšifruojami transportuojant bei neaktyvioje būsenoje, o „Microsoft” arba jo pagalbiniai duomenų tvarkytojai jų nenaudoja mokymui ar paslaugų tobulinimui. Norėdami suprasti, kur saugomi Jūsų duomenys programoje „Teams”, žr.: [Saugyklos vieta „Microsoft Teams”](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide).
 

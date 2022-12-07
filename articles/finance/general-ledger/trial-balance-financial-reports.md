@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a202dac3880717e9498212ca34570101188f48ce
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: b26d2ec261720499fc309a5fb850de2cb796bd8b
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725211"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802613"
 ---
 # <a name="trial-balance-financial-reports"></a>Bandomojo balanso finansinės ataskaitos
 
@@ -32,8 +32,8 @@ ms.locfileid: "8725211"
 
 Finansinėse ataskaitose galimos trys bandomojo balanso ataskaitos.
 
-| Numatytoji ataskaita                                 | Kuo ji naudinga                                                                                                                                                                                        |
-|------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Numatytoji ataskaita                                 | Kuo ji naudinga                                                                            |
+|------------------------------------------------|--------------------------------------------------------------------------------------|
 | Išsamus bandomasis balansas – numatyt.               | Joje pateikiama visų sąskaitų balanso informaciją ir debeto bei kredito balansai ir jų grynosios reikšmės, taip pat operacijos data, kvitas ir žurnalo aprašymas.                  |
 | Bandomojo balanso suvestinė – numatyt.                | Pateikiama visų sąskaitų balanso informacija ir pradinis bei galutinis balansai, taip pat debeto ir kredito balansai ir jų grynasis skirtumas.                                        |
 | Bandomojo balanso suvestinė metams bėgant – numatyt. | Pateikiama visų sąskaitų balanso informacija ir pradinis bei galutinis balansai, taip pat debeto ir kredito balansai ir jų šių ir praėjusių metų grynasis skirtumas. |
@@ -54,8 +54,8 @@ Bandomojo balanso finansinėse ataskaitose naudojami toliau nurodyti kūrimo blo
 
 Eilutės apibrėžime Bandomasis balansas – numatytasis yra viena eilutė, į kurią įtrauktos visos pagrindinės sąskaitos. Todėl bet kas gali generuoti ataskaitą, nes nereikia atlikti jokių pakeitimų. Kai peržiūrite ataskaitą, detalizuojate vieną eilutę, kad pamatytumėte išsamią informaciją apie kiekvieną sąskaitą. Galite keisti eilutės apibrėžimą, kad į ją būtų įtraukta daugiau informacijos. Norėdami keisti eilutės Bandomasis balansas – Numatytasis apibrėžimą, kad į ją būtų įtrauktos visų sąskaitų eilutės, atlikite šiuos veiksmus.
 
-1.  Spustelėkite **Redaguoti**, tada spustelėkite **Įterpti eilutes iš dimensijų**. Komanda **Įterpti eilutes iš dimensijų** leidžia pasirinkti, kokias dimensijas norite turėti savo eilutės apibrėžime. Šiam eilutės apibrėžimui naudosite **Pagrindinė sąskaita**.
-2.  Įsitikinkite, kad dalyje **Pagrindinė sąskaita** yra visi konjunkcijos ženklai (&), tada spustelėkite **Gerai**.
+1.  Spustelėkite **Redaguoti**, tada iš dimensijų **spustelėkite Įterpti eilutes**. Įterpimo **eilutės iš** dimensijų komandos leidžia pasirinkti dimensijas, kurios turėtų būti savo eilutės apibrėžime. Šiame eilutės apibrėžime ketinate naudoti pagrindinę **sąskaitą**.
+2.  Įsitikinkite, **kad pagrindinėje** sąskaitoje yra visi ampers (>), tada spustelėkite **Gerai**.
 
 Dabar eilutės apibrėžime yra visos jūsų numatytojo juridinio subjekto pagrindinės sąskaitos.
 

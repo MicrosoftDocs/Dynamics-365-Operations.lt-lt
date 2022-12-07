@@ -1,33 +1,34 @@
 ---
-title: "\"Store Commerce\" programa, skirta mobiliųjų įrenginių platformos"
+title: „Store Commerce“ programa, skirta mobiliosioms platformoms
 description: Šiame straipsnyje aprašoma, kaip pradėti naudoti " Microsoft Dynamics 365 Commerce Store Commerce" programą, skirtą ir Android "iOS".
 author: stuharg
-ms.date: 10/07/2022
+ms.date: 11/30/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2018-10-29
-ms.openlocfilehash: 1f07a130629863ebd9d036378436cf360e90ac26
-ms.sourcegitcommit: 98231ff810f41f9fcdc6b536d87e453028aa6db8
+ms.openlocfilehash: dc952698a2a3301aff312e8310c58cbbb9cfe290
+ms.sourcegitcommit: 2804b05214c87f76457608b5db072582ff339852
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "9641683"
+ms.lasthandoff: 12/01/2022
+ms.locfileid: "9815789"
 ---
-# <a name="store-commerce-app-for-mobile-platforms"></a>"Store Commerce" programa, skirta mobiliųjų įrenginių platformos
+# <a name="store-commerce-app-for-mobile-platforms"></a>„Store Commerce“ programa, skirta mobiliosioms platformoms
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Šiame straipsnyje aprašoma, kaip pradėti naudoti " Microsoft Dynamics 365 Commerce Store Commerce" programėles, skirtas ir Android "iOS".
 
-Dynamics 365 Commerce Dėl Android "IOS" mobiliųjų programėlių ir "iOS" reikia iš karto ir paprastai įdiegti visus mobiliųjų įrenginių (EKA) įrenginius, kurie skirti jūsų mažmeninės prekybos aplinkai. "Store Commerce" mobiliosios programėlės suteikia visas "Store Commerce" programos, skirtos " [Windows](store-commerce.md) " telefono ir planšetiniams įrenginiams, galimybių ir galimybių galimybes. "Store Commerce" mobiliųjų programėlių galima įdiegti tiesiogiai iš "Skirtukas" ir "Automatiškai" programų parduotuvių ir nereikalaujama, kad programuotojas sukurtų naują programos paketą, kurį įdiegtų arba atnaujintų. 
+ Dynamics 365 Commerce Dėl Android "IOS" mobiliųjų programėlių ir "iOS" reikia iš karto ir paprastai įdiegti visus mobiliųjų įrenginių (EKA) įrenginius, kurie skirti jūsų mažmeninės prekybos aplinkai. "Store Commerce" mobiliosios programėlės suteikia beveik visas "Store Commerce" programos, skirtos "Windows [", galimybes ir pranašumas bei veikia įvairiais IOS](store-commerce.md) ir telefonais Android bei planšetiniais įrenginiais. "Store Commerce" mobiliųjų programėlių galima įdiegti tiesiogiai iš "Skirtukas" ir "Automatiškai" programų parduotuvių ir nereikalaujama, kad programuotojas sukurtų naują programų paketą, kuris jas įdiegtų arba atnaujintų. 
 
 "Store Commerce" mobiliosios programėlės visiškai atitinka dabartines "Retail" programėles. Be to, "Store Commerce for IOS" palaiko paskirtą aparatūros stotį, kad "iOS" įrenginiai galėtų palaikyti ryšį su tinklo mokėjimo terminalais, kvitų spausdintuvais ir kasos stalčiais, kuriems nereikia diegti bendrai naudojamos aparatūros stoties. 
 
 > [!IMPORTANT]
-> Parduotuvės "Commerce" programėlės, skirtos "Windows", ir "iOS" yra kito generavimo EKA programos, Android skirtos Dynamics 365 Commerce. Dabartinė "Modern POS" (MPOS) [programa ir "Retail" pasenusios](hybridapp.md) mobiliųjų įrenginių programėlės 2023 m. spalio mėn. bus pasenusios. "Microsoft" rekomenduoja naudoti "Store Commerce" arba "Cloud POS" (CPOS) diegiant visus naujus EKA. Esami klientai turi suplanuoti perkelti iš "Retail" parduotuvės "Commerce" programos. Daugiau informacijos apie MPOS ir "Retail [" programėlių pasenusių grafiką ieškokite parduotuvės technologijų Dynamics 365 Commerce dėklo modernizavimas](https://www.microsoft.com/download/details.aspx?id=103896). 
+> Parduotuvės "Commerce" programėlės, skirtos "Windows", ir "iOS", yra kito generavimo EKA programos, Android  skirtos Dynamics 365 Commerce. Parduotuvės "Commerce" programėlės, išlaikant visą funkcinį ir priemonių lygumą, suteikia daug patobulinimų prieš jas ankstesnėse veiklose. "Microsoft" 2023 m. pabaigoje nuvertės MPOS Android , ir "iOS Retail POS" programėles ir rekomenduojame naudoti parduotuvės "Commerce" arba "Cloud POS" (CPOS) visiems naujiems EKA diegimams. Esami klientai turi suplanuoti perkelti iš "Retail" iš "Retail" programėlių į "Store Commerce". Norėdami gauti daugiau informacijos, perkelkite " [Modern POS" į parduotuvės "Commerce"](pos-extension/migrate-mpos-store-commerce.md). 
 
 ## <a name="app-architecture"></a>Programos architektūra
 
@@ -51,9 +52,9 @@ Shell programėlės aptarnaujamos naudojant programų parduotuvės naujinimus. K
 "Store Commerce" mobiliųjų programėlių galite įdiegti tiesiogiai iš "Vykdykės" parduotuvės arba "Sg App Store". 
 
 - [Parduotuvės "Commerce" programa, skirta Android](https://aka.ms/storecommerceandroid)
-- "Store Commerce" programa, skirta "iOS" (greit pasiekiama)
+- ["Store Commerce" programa, skirta "iOS"](https://aka.ms/storecommerceios)
 
-Iš Android ciklo tarnybų bendrai naudojamo turto bibliotekos taip pat galima atsisiųsti programos (.vykdyklė) ir "Turimos" programos (.ipa) paketus Microsoft Dynamics. 
+Iš Android ciklo tarnybų bendrai naudojamo turto bibliotekos taip pat galima atsisiųsti programos (.vykdyklė) ir "Turimos" programos (.ipa) paketus Microsoft Dynamics . 
 
 ## <a name="device-and-register-setup"></a>Įrenginio ir registro nustatymas
 
@@ -63,11 +64,11 @@ Kad būtų galima suaktyvinti "Store Commerce" mobiliųjų programėlių registr
 
 Norėdami sukurti ir nustatyti naują įrenginį, atlikite šiuos veiksmus.
 
-1. "Commerce Headquarters" eikite į "**Retail" ir "Commerce \> Channel" nustatymo \> EKA nustatymo įrenginius \>**. 
-1. Sukurkite naują įrenginį **ir pasirinkite "Modern POS" arba " Android** **Modern POS" – "IOS** " kaip programos tipą, atsižvelgiant į diegiamą mobiliąją programą. 
+1. "Commerce Headquarters" eikite į " **Retail" ir "Commerce \> Channel" nustatymo \> EKA nustatymo įrenginius \>**. 
+1. Sukurkite naują įrenginį **ir pasirinkite "Modern POS" arba " Android**  **Modern POS" – "IOS** " kaip programos tipą, atsižvelgiant į diegiamą mobiliąją programą. 
 
     > [!NOTE] 
-    > " **Modern POS" – Android** ir " **Modern POS" – "IOS** " programų tipai taip pat naudojami diegiant dabartines "Apps" Android ir "iOS". Baigus MPOS **Android** **, šių programų tipų etiketės bus atnaujintos į parduotuvės komercijos – ir "Modern POS" – iOS.** 
+    > " **Modern POS" – ir Android** " **Modern POS" – "IOS** " programų tipai taip pat naudojami diegiant dabartines "Apps" Android ir "iOS". Nudėus MPOS, **šių programų tipų etiketės bus atnaujintos į parduotuvės komercijos ir Android**  **"Modern POS" – iOS**. 
 
 ### <a name="register-setup"></a>Registro sąranka
 
@@ -75,7 +76,7 @@ Galite sukurti naują kasos aparatą ir susieti jį su sukurtu įrenginiu arba g
 
 ### <a name="screen-layout-setup"></a>Ekrano maketo nustatymas
 
-Dynamics 365 Commerce Jei iš naujo sukuriate ekrano maketą, įtrauktą į demonstracinius duomenis, kurie pateikiami su licencija, "Store Commerce" programa automatiškai pasirinks įtrauktą fiskalinį maketą, jei jūsų įrenginio ekrano skiriamoji geba yra mažesnė nei 480 &times; 853 pikselių stačioje padėtyje. Tačiau jei kuriate ekrano maketą nuo pradžių arba jei jūsų mobiliajame įrenginys naudoja didesnę skiriamąją gebą, nei palaikomas kompaktinis maketas, įsitikinkite, kad kuriate skiriamąją gebą ir susietus mygtukų tinklelius, tinkamus telefono ar planšetiniam kompiuteriui, kurį planuojate diegti. Daugiau informacijos apie ekrano maketo konfigūracijas ieškokite [EKA vartotojo sąsajos vaizdinės konfigūracijos](../pos-screen-layouts.md). 
+ Dynamics 365 Commerce Jei iš naujo sukuriate ekrano maketą, įtrauktą į demonstracinius duomenis, kurie pateikiami su licencija, "Store Commerce" programa automatiškai pasirinks įtrauktą fiskalinį maketą, jei jūsų įrenginio ekrano skiriamoji geba yra mažesnė nei 480 &times; 853 pikselių stačioje padėtyje. Tačiau jei kuriate ekrano maketą nuo pradžių arba jei jūsų mobiliajame įrenginys naudoja didesnę skiriamąją gebą, nei palaikomas kompaktinis maketas, įsitikinkite, kad kuriate skiriamąją gebą ir susietus mygtukų tinklelius, tinkamus telefono ar planšetiniam kompiuteriui, kurį planuojate diegti. Daugiau informacijos apie ekrano maketo konfigūracijas ieškokite [EKA vartotojo sąsajos vaizdinės konfigūracijos](../pos-screen-layouts.md). 
 
 Sukonfigūrę įrenginius ir registrus, "Commerce Headquarters **" eikite į "Retail" ir "Commerce Retail" ir "Commerce \> ID \> " paskirstymo** grafikus ir vykdykite kasos aparatų užduotį.
 

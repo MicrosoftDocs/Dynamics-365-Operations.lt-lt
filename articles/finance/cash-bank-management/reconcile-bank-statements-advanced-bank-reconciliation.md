@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e1d7fc58ad71365275d5e82a277554bee99c43a
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 8e613bc97a41b62e81ebfbcb8c08e33a60603648
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151351"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803916"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Banko išrašų derinimas naudojant išplėstinį banko banko derinimą
 
@@ -37,7 +37,10 @@ Galite nusiųsti banko išrašą, kuriame yra informacija apie vieną ar kelias 
 -   Norėdami importuoti vieną vienos sąskaitos banko išrašą, nustatykite parinktį **Importuoti kelių banko sąskaitų išrašą visuose juridiniuose subjekuose** į **Ne** ir pasirinkite banko sąskaitą, susietą su išrašu. Spustelėkite **Naršyti**, kad pasirinktumėte susietą banko išrašo failą, o tada spustelėkite **Nusiųsti**.
 -   Norėdami importuoti vieną kelių sąskaitų banko išrašo failą, nustatykite parinktį **Importuoti kelių banko sąskaitų išrašą visuose juridiniuose subjekuose** į **Taip**. Spustelėkite **Naršyti**, kad pasirinktumėte susietą banko išrašo failą, o tada spustelėkite **Nusiųsti**.
 
-Jei kurių nors elektroninio failo išrašų negalima susieti su banko sąskaita arba jeigu failas yra susietas su keliomis banko sąskaitomis naudojant identifikavimo laukus, išrašai nebus importuojami. Tačiau kiti failo įrašai gali būti importuojami. Tada vartotojas gauna pranešimą, kuriame teigiama, kad tam tikrų banko sąskaitų banko išrašų importuoti nepavyko. Atkreipkite dėmesį, kad norėdamas importuoti juridinio subjekto banko sąskaitas banko išrašo failą importuojantis vartotojas turi turėti prieigą prie to juridinio subjekto. 
+Jei kurių nors elektroninio failo išrašų negalima susieti su banko sąskaita arba jeigu failas yra susietas su keliomis banko sąskaitomis naudojant identifikavimo laukus, išrašai nebus importuojami. Tačiau kiti failo įrašai gali būti importuojami. Tada vartotojas gauna pranešimą, kuriame teigiama, kad tam tikrų banko sąskaitų banko išrašų importuoti nepavyko. 
+
+>[!Note] 
+>Vartotojas, importuojantis banko išrašo failą, turi turėti juridinio subjekto prieigą prie to juridinio subjekto banko sąskaitų importavimo išrašų. 
 
 Norėdami vienu veiksmu į „Finance“ nusiųsti kelis išrašų failus, galite naudoti „zip“ failą. Norėdami importuoti kelis kelių sąskaitų banko išrašo failus, sujunkite visus banko išrašo failus į vieną „zip“ failą. Dialogo lange **Importuoti banko išrašus** nustatykite parinktį **Importuoti kelių banko sąskaitų išrašą visuose juridiniuose subjekuose** į **Taip**. Spustelėkite **Naršyti**, kad pasirinktumėte banko išrašo failų „zip“ failą, o tada spustelėkite **Nusiųsti**. Importavimo procesas atpažįsta „zip“ failą ir įkelia kiekvieną į jį įtrauktą išrašą, nepriklausomai nuo to, koks yra banko sąskaitos juridinis subjektas.
 

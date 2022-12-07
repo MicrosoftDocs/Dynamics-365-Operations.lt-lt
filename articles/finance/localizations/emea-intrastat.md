@@ -1,8 +1,8 @@
 ---
 title: Intrastat apžvalga
 description: Šiame straipsnyje pateikta informacija apie Intrastat ataskaitas už prekybą prekėmis ir, kai kuriais atvejais, paslaugomis Europos Sąjungos (ES) šalyse / regionuose.
-author: EvgenyPopovMBS
-ms.date: 01/13/2021
+author: mrolecki
+ms.date: 11/30/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -13,15 +13,15 @@ ms.custom:
 - "28581"
 - intro-internal
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
-ms.author: epopov
+ms.author: mrolecki
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9360f97506ac7bdf67bb2f1b296f01b6ed49b39f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 762de8a098c61bc0d717c038d6ca0ff6d649bff3
+ms.sourcegitcommit: 2804b05214c87f76457608b5db072582ff339852
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894783"
+ms.lasthandoff: 12/01/2022
+ms.locfileid: "9815717"
 ---
 # <a name="intrastat-overview"></a>Intrastat apžvalga
 
@@ -58,10 +58,10 @@ Toliau pateikiamoje lentelėje nurodytos Intrastat ataskaitų būtinosios sąly
 | Adreso sąranka | Nustatykite šalių / regionų Tarptautinės standartizacijos organizacijos (ISO) kodus. |
 | Juridinis subjektas | Nustatykite importavimo / eksportavimo mokesčių lengvatų numerius, importavimo / eksportavimo filialo numerio plėtinį ir Intrastat kodą, priskirtą juridiniam subjektui. |
 | Produktų kategorijų hierarchija (pardavimo hierarchija, įsigijimo hierarchija) | **Kategorijų hierarchijos** puslapio skirtuke **Prekių kodai** kategorijų mazgams priskirkite Intrastat prekių kodus. Kai prekės kodą priskiriate pirminės kategorijos mazgui, tas kodas taikomas visiems antrinių kategorijų mazgams. Prekės kodą pasirinkus išleisto produkto informacijoje ir pardavimo užsakymo, pirkimo užsakymo bei perkėlimo užsakymo eilutėse, pasirinkti prekių kodai bus prieinami rodinyje **Pasirinkta**. |
-| Patvirtinto produkto informacija | Nustatykite toliau nurodytus išleistų produktų užsienio prekybos duomenis.<ul><li>**Prekės kodas** – pasirinkite iš pasirinktų prekių sąrašo, gauto iš priskirtų produktų kategorijų, arba iš viso Intrastat prekių kodų sąrašo.</li><li>**Statistinis išlaidų procentinis dydis**</li><li>**Kilmės šalis / regionas** – pasirinkite numatytąją šalį / regioną, kur buvo gautos ar pagamintos visos prekės.</li><li>**Kilmės / paskirties apskritis / rajonas** – pasirinkite numatytąją gavimo paskirties apskritį / rajoną ir išsiuntimo kilmės rajoną / apskritį.</li><li>**Grynasis svoris, kg**</li><li>**Pašalinti** – įgalinti šį parametrą, jei norite, kad su šiuo produktu nebūtų perkeliamos operacijos į Intrastat</li></ul> |
+| Patvirtinto produkto informacija | Nustatykite toliau nurodytus išleistų produktų užsienio prekybos duomenis.<ul><li>**Prekės kodas** – pasirinkite iš pasirinktų prekių sąrašo, gauto iš priskirtų produktų kategorijų, arba iš viso Intrastat prekių kodų sąrašo.</li><li>**Statistinis išlaidų procentinis dydis**</li><li>**Kilmės šalis / regionas** – pasirinkite numatytąją šalį / regioną, kur buvo gautos ar pagamintos visos prekės.</li><li>**Kilmės / paskirties apskritis / rajonas** – pasirinkite numatytąją gavimo paskirties apskritį / rajoną ir išsiuntimo kilmės rajoną / apskritį.</li><li>**Grynasis svoris, kg**</li><li>**Neįtraukti**  – įgalinti šį parametrą, jei norite, kad su šiuo produktu nebūtų perkeliamos operacijos į Intrastat</li></ul> |
 | Klientai | Nustatykite kliento pristatymo adresą ES šalyje / regione. |
 | Tiekėjai | Nustatykite tiekėjo adresą ES šalyje / regione. |
-| Papildomos išlaidos | Nustatykite papildomų išlaidų kodą, kurį reikia įtraukti į SF sumą, į statistinę sumą arba į jas abi. **Išlaidų kodų** puslapyje, **Užsienio prekybos** skirtuke įgalinkite **Intrastat SF vertę**, kad išlaidų suma būtų įtraukta į SF vertę, ir įgalinkite **Intrastat statistinę vertę**, kad išlaidų suma būtų įtraukta į statistinę vertę.</br>Daugiau informacijos rasite operacijos kodų [ir papildomų išlaidų pavyzdyje](#transaction-codes-and-miscellaneous-charges). |
+| Papildomos išlaidos | Nustatykite papildomų išlaidų kodą, kurį reikia įtraukti į SF sumą, į statistinę sumą arba į jas abi. **Išlaidų kodų** puslapyje, **Užsienio prekybos** skirtuke įgalinkite **Intrastat SF vertę**, kad išlaidų suma būtų įtraukta į SF vertę, ir įgalinkite **Intrastat statistinę vertę**, kad išlaidų suma būtų įtraukta į statistinę vertę.</br>Daugiau informacijos rasite operacijos kodų [ir papildomų išlaidų pavyzdyje](#transaction-codes-and-miscellaneous-charges) . |
 | Elektroninė ataskaita | Nustatykite elektroninių ataskaitų konfigūracijas, kad Intrastat duomenys būtų eksportuojami elektroninio failo formatu, kurio reikalauja aktualios institucijos, ir kad Intrastat duomenis peržiūrėtumėte naudotojui patogiu, įskaitomu formatu (pvz., „Microsoft Excel“). |
 | Sandėliavimas | Tiekėjų sąskaitas susieti su sandėlio kodais, kad būtų galima įvesti mokesčių lengvatos numerį perkeliant perkėlimo užsakymą.</br>Norėdami gauti daugiau informacijos, peržiūrėkite [perkėlimo užsakymo](#transfer-order) pavyzdį.|
 
@@ -73,7 +73,7 @@ Toliau pateikiamuose skyriuose aprašomos nuostatos, kurios reikalingos kuriant 
 |   Sąrašas   |   Papildoma informacija   |
 |-------------------------|-------------------------|
 | Prekių kodai | Nustatykite **Prekės kodo** tipo kategorijų hierarchiją ir pagal jungtinį nomenklatūrų sąrašą įveskite visų prekių kodus. Kiekvienai prekei nustatykite toliau nurodytą informaciją.<ul><li>Prekės pavadinimas ir prekės kodas.</li><li>Patogus pavadinimas ir (arba) išverstas pavadinimas.</li><li>Papildomų vienetų skelbimo parametrai skirtuke **Užsienio prekyba**. Papildomą vienetą galite pasirinkti vienetų sąraše. Taip pat galite nurodyti, ar be pasirinkto papildomo vieneto reikia skelbti prekių svorį.</li></ul>Norėdami gauti daugiau informacijos, peržiūrėkite [papildomų vienetų](#additional-units) pavyzdį.|
-| Operacijų kodai | Pagal savo šalies / regiono reikalavimus nustatykite operacijos pobūdį. Kiekvienam operacijos kodui, kurį nustatote, turite nustatyti taisykles, skirtas skaičiuoti perkėlimo užsakymų ir pardavimo / pirkimo užsakymų SF sumoms ir statistinėms sumoms.<ul><li>Perkėlimo užsakymams nustatote vieną iš toliau pateiktų SF sumų ir statistinių sumų skaičiavimo taisyklių.<ul><li>**Tuščia** – suma bus 0 (nulis).</li><li>**Finansinių išlaidų suma** – suma bus lygi finansinėms išlaidoms.</li><li>**Bendrosios išlaidos** – suma bus lygi benrosioms operacijos išlaidoms.</li><li>**Rankin.** – suma bus lygi sumai, kuri rankiniu būdu nurodyta perkėlimo užsakymo eilutėje.</li></ul></li><li>Pardavimo užsakymams ir pirkimo užsakymams nustatote vieną iš toliau pateiktų SF sumų ir statistinių sumų skaičiavimo taisyklių.<ul><li>**Tuščia** – suma bus 0 (nulis).</li><li>**SF suma** – suma bus lygi prekės sumai, kuriai išrašyta SF.</li><li>**Bazinė suma** – suma bus lygi sumai, kuriai būtų išrašoma SF prieš taikant bet kokią nuolaidą.</li></ul></ul>Daugiau informacijos rasite operacijos kodų [ir papildomų išlaidų pavyzdyje](#transaction-codes-and-miscellaneous-charges). |
+| Operacijų kodai | Pagal savo šalies / regiono reikalavimus nustatykite operacijos pobūdį. Kiekvienam operacijos kodui, kurį nustatote, turite nustatyti taisykles, skirtas skaičiuoti perkėlimo užsakymų ir pardavimo / pirkimo užsakymų SF sumoms ir statistinėms sumoms.<ul><li>Perkėlimo užsakymams nustatote vieną iš toliau pateiktų SF sumų ir statistinių sumų skaičiavimo taisyklių.<ul><li>**Tuščia** – suma bus 0 (nulis).</li><li>**Finansinių išlaidų suma** – suma bus lygi finansinėms išlaidoms.</li><li>**Bendrosios išlaidos** – suma bus lygi benrosioms operacijos išlaidoms.</li><li>**Rankin.** – suma bus lygi sumai, kuri rankiniu būdu nurodyta perkėlimo užsakymo eilutėje.</li></ul></li><li>Pardavimo užsakymams ir pirkimo užsakymams nustatote vieną iš toliau pateiktų SF sumų ir statistinių sumų skaičiavimo taisyklių.<ul><li>**Tuščia** – suma bus 0 (nulis).</li><li>**SF suma** – suma bus lygi prekės sumai, kuriai išrašyta SF.</li><li>**Bazinė suma** – suma bus lygi sumai, kuriai būtų išrašoma SF prieš taikant bet kokią nuolaidą.</li></ul></ul>Daugiau informacijos rasite operacijos kodų [ir papildomų išlaidų pavyzdyje](#transaction-codes-and-miscellaneous-charges) . |
 | Transportavimo metodai | Pagal savo šalies / regiono reikalavimus nustatykite transportavimo būdą. Kiekvieno pristatymo būdo numatytąjį transportavimo būdą galite nustatyti **Užsienio prekybos** skirtuke. |
 | Uostai | Jei toki informacija yra renkama jūsų šalyje / regione, nustatykite pakrovimo / iškrovimo uostą / oro uostą. |
 | Statistikos procedūros | Jei tokia informacija yra renkama jūsų šalyje / regione, nustatykite statistinę procedūrą. |
@@ -142,7 +142,7 @@ Norėdami nustatyti toliau pateiktos lentelės parametrus, naudokite **Užsienio
 <td>Dabartinio juridinio subjekto šalį / regioną nustatykite į <strong>Vietin.</strong>. ES šalių / regionų, dalyvaujančių ES prekyboje su dabartiniu juridiniu subjektu, šalį / regioną nustatykite į <strong>ES</strong>. Taip pat identifikuojate kiekvienos šalies / regiono kodą, skirtą užsienio prekybai.</td>
 </tr>
 <tr class="even">
-<td>Numerių seka</td>
+<td>Numeracija</td>
 <td>Nurodykite Intrastat žurnalo numeraciją.</td>
 </tr>
 </tbody>
@@ -159,7 +159,7 @@ Norėdami nustatyti toliau pateiktos lentelės parametrus, naudokite **Užsienio
 #### <a name="preliminary-setup"></a>Pirminis nustatymas
 
 1. Eikite **į organizacijos administravimo** > **organizacijos** > **juridinius subjektus** ir pasirinkite **DEMF**.
-2. Adresų "**FastTab**" patikrinkite, ar laukas **Šalis / regionas** yra nustatytas į **DEU(Vokietija)**.
+2. Adresų " **FastTab**" patikrinkite, ar laukas **Šalis / regionas** yra nustatytas į **DEU(Vokietija)**.
 3. Eiti į Mokėtinų **sumų** > **tiekėjai** > **Visi tiekėjai**.
 4. Tinklelyje pasirinkite **DE-001**.
 5. Adreso **"** FastTab" pasirinkite **Redaguoti**.
@@ -173,7 +173,7 @@ Norėdami nustatyti toliau pateiktos lentelės parametrus, naudokite **Užsienio
 3. Veiksmų srityje pasirinkite **Naujas**.
 4. Operacijų **kodų** "FastTab", lauke **Operacijos** **kodas**, įveskite **11**.
 5. Lauke Pavadinimas **įveskite** stačio **pirkimo/pardavimo informaciją**.
-6. **Skyriaus Pardavimas ir pirkimas** lauke **SF suma** pasirinkite SF **sumą**.
+6.  **Skyriaus Pardavimas ir pirkimas** lauke **SF suma** pasirinkite SF **sumą**.
 7. Lauke Statistinė **suma** pasirinkite SF **sumą**.
 8. Veiksmų srityje pasirinkite **Įrašyti**.
 
@@ -198,16 +198,16 @@ Norėdami nustatyti toliau pateiktos lentelės parametrus, naudokite **Užsienio
 4. Pasirinkite **Gerai**.
 5. Skirtuko **Antraštė** „FastTab” **Užsienio** **prekyba** patikrinkite, ar laukas **Operacijos kodas** nustatytas į **11**.
 6. Skirtuko **Eilutės** „FastTab” **Pirkimo užsakymo eilutės** lauke **Prekės numeris** pasirinkite **D0003**. Tada, lauke **Kiekis** įveskite **10**.
-7. Eilutės informacijos **"FastTab", skirtuke** Užsienio **prekyba,** **užsienio prekybos skyriuje patikrinkite,** ar automatiškai nustatytas **operacijos kodo** laukas.
+7. Eilutės informacijos **"FastTab", skirtuke** Užsienio **prekyba,**  **užsienio prekybos skyriuje patikrinkite,** ar automatiškai nustatytas **operacijos kodo** laukas.
 8. Pirkimo užsakymo **eilučių** "FastTab" **, esančiame meniu Finansai**, skyriuje **Mokesčiai**, pasirinkite Prižiūrėti **išlaidas**.
-9. Lauke Išlaidų **kodas pasirinkite TRANSPORTAVIMAS** **.**
-10. **Lauke Mokesčių vertė** įveskite **30**.
+9. Lauke Išlaidų **kodas pasirinkite TRANSPORTAVIMAS**  **.**
+10.  **Lauke Mokesčių vertė** įveskite **30**.
 11. Veiksmų srityje pasirinkite **Įrašyti**. Tada uždarykite puslapį.
 12. Veiksmų srities skirtuke **Pirkimas**, grupėje **Veiksmai**, pasirinkite **Patvirtinti**.
 13. Veiksmų srities skirtuke **SF**, esančiame grupėje **Generuoti**, pasirinkite **SF**.
 14. Veiksmų juostoje, pasirinkite **Numatyt. iš**. Lauke **Numatytasis eilučių kiekis** pasirinkite **Užsakytas kiekis**. Tada pasirinkite **Gerai**.
 15. „FastTab” **Tiekėjo SF antraštė** skyriaus **Sąskaitos faktūros identifikavimas** lauke **Numeris** įveskite **00100**.
-16. SF datų **skyriaus** SF **·** **datos lauke pasirinkite 2021-11-24 (2021** m. lapkričio 24 d.).
+16. SF datų **skyriaus** SF **·**  **datos lauke pasirinkite 2021-11-24 (2021**  m. lapkričio 24 d.).
 17. Norėdami registruoti sąskaitą faktūrą, veiksmų srityje pasirinkite **Registruoti**.
 
 ### <a name="transfer-the-vendor-invoice-to-the-intrastat-journal"></a>Perkelti tiekėjo SF į Intrastat žurnalą
@@ -219,7 +219,7 @@ Norėdami nustatyti toliau pateiktos lentelės parametrus, naudokite **Užsienio
 
    ![Eilutė, nurodanti pirkimo užsakymą su papildomas išlaidas Intrastat puslapyje](media/intrastat_overview_1.png)
 
-5. Pirkimo užsakymo skirtuko **Bendra** peržiūra. Atkreipkite dėmesį **, kad** **·** **SF** vertės lauke rodoma SF sumos ir SF mokesčių sumos laukų suma, **·** **·** **o lauke Statistinė vertė – statistinės sumos ir statistinių išlaidų sumos laukų** suma.
+5. Pirkimo užsakymo skirtuko **Bendra** peržiūra. Atkreipkite dėmesį **, kad**  **·**  **SF** vertės lauke rodoma SF sumos ir SF mokesčių sumos laukų suma, **·**  **·**  **o lauke Statistinė vertė – statistinės sumos ir statistinių išlaidų sumos laukų** suma.
 
    ![Išsami pirkimo užsakymo informacija su išsamesnės informacijos apie papildomas išlaidas Intrastat puslapio skirtuke Bendra](media/intrastat_overview_2.png)
 
@@ -230,7 +230,7 @@ Norėdami nustatyti toliau pateiktos lentelės parametrus, naudokite **Užsienio
 #### <a name="preliminary-setup"></a>Pirminis nustatymas
 
 1. Eikite **į organizacijos administravimo** > **organizacijos** > **juridinius subjektus** ir pasirinkite **DEMF**.
-2. Adresų "**FastTab**" patikrinkite, ar laukas **Šalis / regionas** yra nustatytas į **DEU(Vokietija)**.
+2. Adresų " **FastTab**" patikrinkite, ar laukas **Šalis / regionas** yra nustatytas į **DEU(Vokietija)**.
 3. Pasirinkite **Mokesčiai** > **Nustatymai** > **Užsienio prekyba** > **Užsienio prekybos parametrai**.
 4. Prekių kodų **hierarchijos** "FastTab" patikrinkite, ar **kategorijų hierarchijos** laukas nustatytas kaip **Intrastat**.
 5. Eiti į Mokėtinų **sumų** > **tiekėjai** > **Visi tiekėjai**.
@@ -246,11 +246,11 @@ Norėdami nustatyti toliau pateiktos lentelės parametrus, naudokite **Užsienio
 3. Veiksmų srityje pasirinkite **Naujas**.
 4. Operacijų **kodų** "FastTab", lauke **Operacijos** **kodas**, įveskite **11**.
 5. Lauke Pavadinimas **įveskite** stačio **pirkimo/pardavimo informaciją**.
-6. **Perkėlimo užsakymų** skyriaus lauke **SF suma** pasirinkite Bendros **išlaidos**.
+6.  **Perkėlimo užsakymų** skyriaus lauke **SF suma** pasirinkite Bendros **išlaidos**.
 7. Lauke Statistinė **suma** pasirinkite Bendrosios **išlaidos**.
 8. Veiksmų srityje pasirinkite **Įrašyti**.
 9. Pasirinkite **Mokesčiai** > **Nustatymai** > **Užsienio prekyba** > **Užsienio prekybos parametrai**.
-10. Intrastat skirtuko **bendro** "**FastTab"** perkėlimo užsakymo lauke **pasirinkite** **11**.
+10. Intrastat skirtuko **bendro** " **FastTab"** perkėlimo užsakymo lauke **pasirinkite** **11**.
 
 #### <a name="set-up-charges-for-an-item"></a>Nustatyti prekės išlaidas
 
@@ -280,26 +280,26 @@ Norėdami nustatyti toliau pateiktos lentelės parametrus, naudokite **Užsienio
 3. Skirtuko Eilutės **dalies** Perkėlimo užsakymo **antraštės** "FastTab", **skyriaus** Peržiūra lauke Iš **sandėlio**, pasirinkite **11**. Lauke Į **sandėlį** pasirinkite **21**.
 4. Skirtuko Eilutės **perkėlimo** užsakymo eilutės **"** FastTab" pasirinkite **Įtraukti**.
 5. Lauke **Prekės numeris** pasirinkite **D0001**. Tada lauke Perkėlimo **kiekis** įveskite **2**.
-6. Eilutės informacijos **"FastTab", skirtuke** Užsienio **prekyba,** **užsienio prekybos skyriuje patikrinkite,** ar automatiškai nustatytas **operacijos kodo** laukas.
+6. Eilutės informacijos **"FastTab", skirtuke** Užsienio **prekyba,**  **užsienio prekybos skyriuje patikrinkite,** ar automatiškai nustatytas **operacijos kodo** laukas.
 7. Veiksmų srities skirtuko Siuntimas **grupėje** Operacijos **pasirinkite** Siuntimo **perkėlimo užsakymas**.
-8. Dialogo lango **Siuntimas** skirtuko Peržiūra **lauke** **Atnaujinimas** pasirinkite **Visi**.
+8. Dialogo lango **Siuntimas** skirtuko Peržiūra **lauke**  **Atnaujinimas** pasirinkite **Visi**.
 9. Pasirinkti **Gerai**, kad būtų galima siųsti užsakymą.
-10. Veiksmų srities skirtuko Gauti **grupėje** Operacijos **pasirinkite** **Gauti**.
-11. **Dialogo lango Gauti** skirtuko Peržiūra **lauke** **Atnaujinimas** pasirinkite **Visi**.
+10. Veiksmų srities skirtuko Gauti **grupėje** Operacijos **pasirinkite**  **Gauti**.
+11.  **Dialogo lango Gauti** skirtuko Peržiūra **lauke**  **Atnaujinimas** pasirinkite **Visi**.
 12. Pasirinkti **Gerai**, kad būtų galima siųsti užsakymą.
 
 #### <a name="transfer-the-transfer-order-to-the-intrastat-journal"></a>Perkelti perkėlimo užsakymą į Intrastat žurnalą
 
 1. Pasirinkite **Mokesčiai** > **Deklaracijos** > **Užsienio prekyba** > **Intrastat**.
 2. Veiksmų srityje pasirinkite **Perduoti**.
-3. Dialogo lange **Intrastat (Perkėlimas)** nustatykite perkėlimo užsakymo pasirinktį **Taip** ir **visas** kitas pasirinktis kaip **Ne**.
+3. Dialogo lange **Intrastat (Perkėlimas)**  nustatykite perkėlimo užsakymo pasirinktį **Taip** ir **visas** kitas pasirinktis kaip **Ne**.
 4. Norėdami perkelti operacijas, pasirinkite **Gerai**, tada peržiūrėkite „Intrastat” žurnalą.
 
    ![Eilutė, kuri rodo perkėlimo užsakymą Intrastat puslapyje](media/intrastat_overview_3.png)
 
-5.  **Peržiūrėti perkėlimo** užsakymo skirtuką Bendra.
+5.   **Peržiūrėti perkėlimo** užsakymo skirtuką Bendra.
 
-    Atkreipkite dėmesį, kad sf vertės **ir statistinės** **vertės skyrių** laukai yra nustatomi automatiškai. SF sumos ir **statistinės** sumos **laukų** vertės paremtos parametrais operacijų **kodų** puslapyje. **Vertė 20** lauke **Mokesčių procentas** yra vertė, kuri nustatyta puslapyje **Išleistas** produktas. Lauke Statistinių **išlaidų** suma esanti vertė yra kiekybinė išlaidų išraiška (kadangi 107,24 lygi 20 procentų iš 536,18). Lauko Statistinė vertė **vertė** yra verčių iš laukų Statistinė **suma ir Statistinių** **išlaidų suma** suma suma.
+    Atkreipkite dėmesį, kad sf vertės **ir statistinės**  **vertės skyrių** laukai yra nustatomi automatiškai. SF sumos ir **statistinės** sumos **laukų** vertės paremtos parametrais operacijų **kodų** puslapyje.  **Vertė 20** lauke **Mokesčių procentas** yra vertė, kuri nustatyta puslapyje **Išleistas** produktas. Lauke Statistinių **išlaidų** suma esanti vertė yra kiekybinė išlaidų išraiška (kadangi 107,24 lygi 20 procentų iš 536,18). Lauko Statistinė vertė **vertė** yra verčių iš laukų Statistinė **suma ir Statistinių**  **išlaidų suma** suma suma.
 
   ![Perkėlimo užsakymo informacija Intrastat puslapio skirtuke Bendra](media/intrastat_overview_4.png)
 
@@ -310,7 +310,7 @@ Norėdami nustatyti toliau pateiktos lentelės parametrus, naudokite **Užsienio
 #### <a name="preliminary-setup"></a>Pirminis nustatymas
 
 1. Eikite **į organizacijos administravimo** > **organizacijos** > **juridinius subjektus** ir pasirinkite **DEMF**.
-2. Adresų "**FastTab**" patikrinkite, ar laukas **Šalis / regionas** yra nustatytas į **DEU(Vokietija)**.
+2. Adresų " **FastTab**" patikrinkite, ar laukas **Šalis / regionas** yra nustatytas į **DEU(Vokietija)**.
 3. Pasirinkite **Mokesčiai** > **Nustatymai** > **Užsienio prekyba** > **Užsienio prekybos parametrai**.
 4. Skirtuke **Intrastat** „FastTab” **Bendri**, **Perlaidos** **kode** laukelis rinkitės **11**.
 5. Prekių kodų **hierarchijos** "FastTab" patikrinkite, ar **kategorijų hierarchijos** laukas nustatytas kaip **Intrastat**.
@@ -324,22 +324,22 @@ Norėdami nustatyti toliau pateiktos lentelės parametrus, naudokite **Užsienio
 
 1. Eiti į Organizacijos **administravimo nustatymo** > **vienetų** > **vienetus** > **·**.
 2. Veiksmų srityje pasirinkite **Naujas**.
-3. **Lauke Vienetas** įveskite matavimo vieneto pavadinimą. Šiame pavyzdyje įveskite **GRM**.
+3.  **Lauke Vienetas** įveskite matavimo vieneto pavadinimą. Šiame pavyzdyje įveskite **GRM**.
 4. Skirtuko Bendra **FastTab** dalies **Klasifikacija** lauke Vieneto **klasė** pasirinkite vieneto matavimo ypatybę. Šiame pavyzdyje pasirinkite **Masinė**.
-5. **Vienetų sistemos lauke pasirinkite** matavimo sistemą, kuriai priklauso vienetas. Pavyzdžiui, pasirinkite metrikos **vienetus**.
+5.  **Vienetų sistemos lauke pasirinkite** matavimo sistemą, kuriai priklauso vienetas. Pavyzdžiui, pasirinkite metrikos **vienetus**.
 
 #### <a name="set-up-unit-conversions"></a>Nustatyti vienetų konvertavimus
 
 1. Eikite į **Organizacijos administravimo** > **nustatymo** > **vienetų** > **vienetų konvertavimą**.
 2. Skirtuke **Vidinės klasės konvertavimai** pasirinkite **Naujas**.
 3. Vieneto **konvertavimo** dialogo lange, produkto **lauke**, pasirinkite **F00007**.
-4. **Lauke Iš vieneto** pasirinkite **el**.
+4.  **Lauke Iš vieneto** pasirinkite **el**.
 5. Lauke Į **vienetą** pasirinkite **GRM**.
 6. Patikrinkite, ar konvertavimo kursas yra **1 = 1**.
 7. Pasirinkite **Gerai**.
 8. Eikite į **Produkto informacijos valdymas** > **Produktai** > **Patvirtinti produktai**.
 9. Tinklelyje pasirinkite **F00007**.
-10. **Skirtuko Valdyti atsargas** "FastTab", **atsargų skyriaus** lauke **Vienetas**, pasirinkite **GRM**.
+10.  **Skirtuko Valdyti atsargas** "FastTab", **atsargų skyriaus** lauke **Vienetas**, pasirinkite **GRM**.
 11. Veiksmų srityje pasirinkite **Įrašyti**.
 
 #### <a name="set-up-product-information"></a>Produkto informacijos nustatymas
@@ -367,12 +367,12 @@ Norėdami nustatyti toliau pateiktos lentelės parametrus, naudokite **Užsienio
 4. Pasirinkite **Gerai**.
 5. Skirtuko **Antraštė** „FastTab” **Užsienio** **prekyba** patikrinkite, ar laukas **Operacijos kodas** nustatytas į **11**.
 6. Skirtuko **Eilutės** „FastTab” **Pirkimo užsakymo eilutės** lauke **Prekės numeris** pasirinkite **F00007**. Tada, lauke **Kiekis** įveskite **10**.
-7. Eilutės informacijos FastTab, skirtuke Užsienio **prekyba, užsienio prekybos skyriuje patikrinkite,** **·** **·** **ar operacijos kodas ir prekių laukai yra nustatyti automatiškai.** **·**
+7. Eilutės informacijos FastTab, skirtuke Užsienio **prekyba, užsienio prekybos skyriuje patikrinkite,**  **·**  **·**  **ar operacijos kodas ir prekių laukai yra nustatyti automatiškai.**  **·** 
 8. Veiksmų srities skirtuke **Pirkimas**, grupėje **Veiksmai**, pasirinkite **Patvirtinti**.
 9. Veiksmų srities skirtuke **SF**, esančiame grupėje **Generuoti**, pasirinkite **SF**.
 10. Veiksmų juostoje, pasirinkite **Numatyt. iš**. Lauke **Numatytasis eilučių kiekis** pasirinkite **Užsakytas kiekis**. Tada pasirinkite **Gerai**.
 11. Tiekėjo SF **antraštės "** FastTab", SF **identifikavimo** skyriaus lauke **Numeris**, įveskite **VE-0010**.
-12. SF datų **skyriaus** SF **·** **datos lauke pasirinkite 2021-05-10 (2021** m. spalio 5 d.).
+12. SF datų **skyriaus** SF **·**  **datos lauke pasirinkite 2021-05-10 (2021**  m. spalio 5 d.).
 13. Norėdami registruoti sąskaitą faktūrą, veiksmų srityje pasirinkite **Registruoti**.
 
 #### <a name="transfer-the-vendor-invoice-to-the-intrastat-journal"></a>Perkelti tiekėjo SF į Intrastat žurnalą
@@ -387,6 +387,28 @@ Norėdami nustatyti toliau pateiktos lentelės parametrus, naudokite **Užsienio
 5. Pirkimo užsakymo skirtuko **Bendra** peržiūra. Atkreipkite dėmesį **, kad skyriaus** Vienetas **laukai Papildomų** vienetų kiekis **ir** Papildomi vienetai nustatomi automatiškai.
 
    ![Išsami pirkimo užsakymo informacija Intrastat puslapio skirtuke Bendra](media/intrastat_overview_6.png)
+   
+## <a name="list-of-countryregion-specific-articles"></a>Šaliai/regionui specifinių straipsnių sąrašas
+Šioje lentelėje pateikiami galimi šaliai/regionui specifiniai Intrastat straipsniai.
+
+| Šalis          | Saitas      |
+|------------------|-----------|
+| Austrija          |[Austrijos „Intrastat“](emea-aut-intrastat.md)| 
+| Belgija          |[Belgijos „Intrastat“](emea-bel-intrastat.md)|
+| Čekijos Respublika   |[Čekijos „Intrastat“](emea-cze-intrastat.md)|
+| Danija          |[Danijos „Intrastat“](emea-dnk-intrastat.md)|
+| Estija          |[Estijos „Intrastat“](emea-est-intrastat.md)|
+| Suomija          |[Suomijos „Intrastat“](emea-fin-intrastat.md)|
+| Prancūzija           |[Prancūzijos „Intrastat”](emea-fra-intrastat.md)|
+| Vokietija          |[Vokietijos Intrastat](emea-deu-intrastat.md)|
+| Vengrija          |[Vengrijos „Intrastat“](emea-hun-intrastat.md)|
+| Italija            |[Italijos „Intrastat“](emea-ita-intrastat.md)|
+| Latvija           |[Latvijos „Intrastat“](emea-lva-intrastat.md)|
+| Lietuva        |[Lietuvos „Intrastat“](emea-ltu-intrastat.md)|
+| Nyderlandai      |[Nyderlandų „Intrastat“](emea-nl-intrastat.md)|
+| Lenkija           |[Lenkijos „Intrastat“](emea-pol-intrastat.md)|
+| Ispanija            |[Ispanijos „Intrastat“](emea-esp-intrastat.md)|
+| Švedija           |[Švedijos „Intrastat”](emea-swe-intrastat.md)|
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

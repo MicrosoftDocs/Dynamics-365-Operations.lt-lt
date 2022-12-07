@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 58e509a819e5cda650fddab8dd0c4d55d5148db1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d89d3e77d096f5908207ac53f4e9022f686ac5f3
+ms.sourcegitcommit: 5f8f042f3f7c3aee1a7303652ea66e40d34216e3
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872274"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806381"
 ---
 # <a name="recruiting-request"></a>Įdarbinimo užklausa
 
@@ -68,7 +68,7 @@ Aprašo prašymą pasamdyti darbui.
     "_mshr_fk_jobtype_id_value": "Guid",
     "_mshr_fk_compensationlevel_id_value": "Guid",
     "mshr_hcmrecruitingrequestentityid": "Guid",
-    "_mshr_fk_recruitingrequestlocation_id_value": “Guid”
+    "_mshr_fk_recruitingrequestlocation_id_value": "Guid"
 }
 ```
 
@@ -87,7 +87,7 @@ Aprašo prašymą pasamdyti darbui.
 | **Būsena**<br>mshr_status<br>*RecruitingRequestStatus* parinkties nustatymas | Skaitymas/rašymas<br>Būtina<br> | Rodo įdarbinimo užklausos būseną. |
 | **Aprašas**<br>mshr_description<br>*Eilutė* | Skaitymas/rašymas<br>Būtina | Aprašo užklausą. |
 | **Samdymo užklausos vietos ID**<br>mshr_recruitingrequestlocationid<br>*Eilutė* | Skaitymas/rašymas<br>Pasirinktinai | Vartotojo perskaitomas unikalus idnetifikatorius darbo vietai susietai su šia užklausa. |
-| **Įdarbinimo vietos ID vertė**<br>_mshr_fk_recruitinglocation_id_value<br>*GUID* | Tik skaitomas<br>Pasirinktinai<br>Užsienio raktas: mshr_hcmrecruitingrequestlocationentityid mshr_hcmrecruitingrequestlocationentity objektas | Sistemos sukurta GUID vertė siekiant atpažinti samdymo užklausos vietą pasirinktą užklausai. |
+| **Įdarbinimo vietos ID vertė**<br>_mshr_fk_recruitingrequestlocation_id_value<br>*GUID* | Tik skaitomas<br>Pasirinktina<br>Užsienio raktas: mshr_hcmrecruitingrequestlocationentityid mshr_hcmrecruitingrequestlocationentity objektas | Sistemos sukurta GUID vertė siekiant atpažinti samdymo užklausos vietą pasirinktą užklausai. |
 | **Komentarai**<br>mshr_comments<br>*Eilutė* | Skaitymas/rašymas<br>Pasirinktinai | Komentarai apie užklausą samdymo vadovų ir asmenų naudojimui. |
 | **Užduoties ID**<br>mshr_jobid<br>*Eilutė* | Rašyti kartą<br>Būtina |   Vartotojo perskaitomas unikalus idnetifikatorius darbo darbui bendrintui su visomis pareigomis susijusiomis su šia užklausa. |
 | **Darbo ID vertė**<br>_mshr_fk_job_id_value<br>*GUID* | Tik skaitomas<br>Būtina<br>Užsienio raktas: mshr_hcmjobentityid mshr_hcmjobentity objektas | Sistemos sukurtas unikalus idnetifikatorius darbo darbui bendrintui su visomis pareigomis susijusiomis su šia įdarbinimo užklausa. |

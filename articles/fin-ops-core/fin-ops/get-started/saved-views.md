@@ -2,7 +2,7 @@
 title: Įrašyti rodiniai
 description: Šiame straipsnyje aprašoma, kaip naudoti įrašytas rodinių priemones.
 author: jasongre
-ms.date: 07/26/2022
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 03b0989d40882c3910b35744715c36babdcc3470
-ms.sourcegitcommit: e02bd317e96faf6182e70fb50b126868a94d9d06
+ms.openlocfilehash: 571a4f403da0d20256f788c791cab273827c91b5
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "9757227"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799497"
 ---
 # <a name="saved-views"></a>Įrašyti rodiniai
 
@@ -55,7 +55,7 @@ Rodinių išrinkiklių esama dviejų dydžių.
  
 Jei pasirenkate peržiūrėti pavadinimą, peržiūros selektorius yra atidaromas ir rodo puslapyje esamų peržiūrų sąrašą.
 
-**10.0.21 ar naujesnė versija:** jei **patobulintas juridinio subjekto palaikymas įrašytų rodinių** funkcijai įjungtas, rodinio išrinkiklis rodo galimų rodinių dviejuose skyriuose. Pirmojoje dalyje rodomi visi rodiniai, kurie yra specifiniai dabartiniam juridiniam subjektui, o antrajame – rodiniai, galimi visiems juridiniams subjektams. Pirmoji sekcija matoma tik tada, kai yra juridinio subjekto – konkrečių puslapio rodinių.
+Jei patobulintas **juridinio subjekto palaikymas įrašytai rodinių** funkcijai įjungtas, rodinio išrinkiklis rodo galimų rodinių dviejuose skyriuose. Pirmojoje dalyje rodomi visi rodiniai, kurie yra specifiniai dabartiniam juridiniam subjektui, o antrajame – rodiniai, galimi visiems juridiniams subjektams. Pirmoji sekcija matoma tik tada, kai yra juridinio subjekto – konkrečių puslapio rodinių.
 
 - **Standartinė peržiūra** – **Standartinė** peržiūra yra nestandartinė puslapio peržiūra, kurioje nėra taikomi jokie personalizavimai.
 - **Personalinės peržiūros** – Peržiūros be spynų rodo jūsų personalines peržiūras. Tai jūsų sukurti arba administratoriaus jums suteikti rodiniai.
@@ -81,7 +81,7 @@ Norėdami įrašyti šiuos pakeitimus, atlikite toliau nurodytus veiksmus.
     1. Pasirinkite **Įrašyti kaip**. 
     2. Rodinyje **Įrašyti kaip** įveskite rodinio pavadinimą ir, pasirinktinai, aprašymą.
     3. Jei norite, kad šis rodinys būtų numatytasis, pasirinkite **Pin kaip numatytąjį**. Daugiau informacijos apie numatytuosius rodinius žiūrėkite [toliau pateikiamame numatytojo](#changing-the-default-view) rodinio skyriaus keitimas. 
-    4. **10.0.21 ar naujesnė versija:** Jei **patobulinto juridinio subjekto įrašytų rodinių** funkcijos palaikymas, galite pasirinkti, ar norite, kad šis rodinys būtų pasiekiamas visiems juridiniams subjektams, ar tik jų subrinkinys.
+    4. Jei patobulintas **juridinio** subjekto palaikymas įrašytų rodinių funkcijai įjungtas, galite pasirinkti, ar norite, kad šis rodinys būtų galimas visiems juridiniams subjektams, ar tik jų subrinkinį.
     5. Pasirinkite **Įrašyti**.
 
 ## <a name="changing-the-default-view"></a>Numatytojo rodinio keitimas
@@ -90,7 +90,7 @@ Iš anksto nustatyta peržiūra yra peržiūra, kurią sistema bando atidaryti, 
 
 > [!NOTE]
 > - Pagrindinėse **įrašytų rodinių** funkcijose juridiniuose subjektuose yra vienas visuotinis numatytasis rodinys. Jei keičiate nustatytą peržiūrą, ji bus atidaroma pagal nutylėjimą nepriklausomai nuo teisinio subjektu, kuriame šiuo metu esate.
-> - **10.0.21 ar naujesnė versija:** kai įjungtas **patobulinto juridinio subjekto** įrašytų rodinių funkcijos palaikymas, kiekvienas juridinis subjektas gali turėti savo numatytąjį rodinį puslapyje.
+> - Kai įjungtas **patobulinto juridinio subjekto** palaikymas įrašytų rodinių funkcijai, kiekvienas juridinis subjektas gali turėti savo numatytąjį rodinį puslapyje.
 
 Norėdami pakeisti puslapio numatytąjį rodinį, atlikite tolesnius veiksmus.
 
@@ -101,13 +101,13 @@ Norėdami pakeisti puslapio numatytąjį rodinį, atlikite tolesnius veiksmus.
 Arba kurdami naują rodinį (naudodami veiksmą **Įrašyti kaip**) galite nustatyti, kad naujas rodinys būtų numatytasis rodinys – prieš įrašydami rodinį pasirinkite parinktį **Prisegti kaip numatytąjį**.
 
 > [!WARNING]
-> Atkreipkite dėmesį, kad kai kuriais atvejais su nustatyta peržiūra susieta užklausa neveikia, kai pirmą kartą atidarote puslapį. Pavyzdžiui, jei atidarote puslapį per plytą, jos užklausa veiks nepriklausomai nuo užklausos, kuri yra susieta su nustatytąja peržiūra. Be ti, jei atidarote puslapį, kuris turi **Standartinę** peržiūrą jau turinčią nustatytą užklausą, pirminė užklausa bus vykdoma vietoje nustatytosios peržiūros užklausos. Tokiu atveju, jūs gausite informacinį pranešimą, kai peržiūra bus įkelta. Jei perjungiate peržiūras po to, kai puslapis buvo įkeltas, peržiūros užklausa turi galėti veikti, kaip tikėtasi. 10.0.10 versijoje ir vėlesnėse, jūsų gaunamas informacinis pranešimas apims veiksmą, kuris jums leidžia įkelti nustatytosios peržiūros užklausą tiesiogiai.
+> Atkreipkite dėmesį, kad kai kuriais atvejais su nustatyta peržiūra susieta užklausa neveikia, kai pirmą kartą atidarote puslapį. Pavyzdžiui, jei atidarote puslapį per plytą, jos užklausa veiks nepriklausomai nuo užklausos, kuri yra susieta su nustatytąja peržiūra. Be ti, jei atidarote puslapį, kuris turi **Standartinę** peržiūrą jau turinčią nustatytą užklausą, pirminė užklausa bus vykdoma vietoje nustatytosios peržiūros užklausos. Tokiu atveju gausite informacinį pranešimą, kai rodinys bus įkeltas su įdėtuoju veiksmu, kuris leidžia tiesiogiai įkelti numatytojo rodinio užklausą. Jei perjungiate peržiūras po to, kai puslapis buvo įkeltas, peržiūros užklausa turi galėti veikti, kaip tikėtasi. 
 
 ## <a name="managing-personal-views"></a>Asmeninių rodinių valdymas
 
 Dialogo lange **Valdyti mano rodinius** suteikiama galimybė atlikti pagrindinę asmeninių rodinių priežiūrą ir nurodyti rodinių tvarką rodinių išrinkiklyje. Norėdami atidaryti šį puslapį, pasirinkite rodinio pavadinimą, norėdami atidaryti rodinių išrinkiklio išplečiamąjį meniu, pasirinkite **Daugiau**, o paskui – **Valdyti mano rodinius**.
 
-Jei patobulintas juridinio **subjekto palaikymas įrašytai rodinių funkcijai įjungtas, skyriuje Mano rodiniai,** **·** **esantis dialogo lango Valdyti mano rodinius, rodo galimų rodinių puslapį skyriuose.** Bet kokie dabartiniam juridiniam subjektui būsūs rodiniai rodomi savo skyriuje. **Visuotinių rodinių** skyrius visada rodomas, kad būtų galima valdyti rodinius, prieinamus puslapiui visuose juridiniuose subjektuose. 
+Jei patobulintas juridinio **subjekto palaikymas įrašytai rodinių funkcijai įjungtas, skyriuje Mano rodiniai,**  **·**  **esantis dialogo lango Valdyti mano rodinius, rodo galimų rodinių puslapį skyriuose.**  Bet kokie dabartiniam juridiniam subjektui būsūs rodiniai rodomi savo skyriuje. **Visuotinių rodinių** skyrius visada rodomas, kad būtų galima valdyti rodinius, prieinamus puslapiui visuose juridiniuose subjektuose. 
 
 Toliau išvardyti su galimų to puslapio rodinių sąrašu galimi atlikti veiksmai.
 
@@ -140,7 +140,7 @@ Norėdami publikuoti rodinį, atlikite toliau nurodytus veiksmus.
 2. Jei tas rodinys šiuo metu įkeltas, pasirinkę rodinio pavadinimą atidarykite rodinių išrinkiklio išplečiamąjį meniu. 
 3. Pasirinkite mygtuką **Daugiau**, o paskui pasirinkite **Publikuoti**. Atsidarys **dialogo** langas Publikuoti.
 4. Įveskite rodinio pavadinimą. Įvestas pavadinimas yra pavadinimas, kurį vartotojai, gaunantys šį rodinį, matys savo rodinių išrinkikliuose. Publikuotų puslapio rodinių pavadinimai turi būti unikalūs. Pavadinimai negali kartotis, net jei skiriasi vaidmenų arba juridinių subjektų, kuriems taikomi rodiniai, sąrašas.
-5. Jei organizacijos **rodinių** vertimo funkcija įjungta, galite įtraukti rodinio pavadinimo vertimus į tiek kalbų, **·** **kiek** reikalauja jūsų organizacija, pasirinkdami mygtuką Vertimai, esantį šalia lauko Pavadinimas. Tada rodinio pavadinimas bus rodomas vartotojams jų pasirinkta kalba. Taip pat galite nustatyti numatytąją kalbą, kad būtų galima nurodyti vertimą tiems vartotojams, kurių vertimo kalbos aprašo nėra.
+5. Jei organizacijos **rodinių** vertimo funkcija įjungta, galite įtraukti rodinio pavadinimo vertimus į tiek kalbų, **·**  **kiek** reikalauja jūsų organizacija, pasirinkdami mygtuką Vertimai, esantį šalia lauko Pavadinimas. Tada rodinio pavadinimas bus rodomas vartotojams jų pasirinkta kalba. Taip pat galite nustatyti numatytąją kalbą, kad būtų galima nurodyti vertimą tiems vartotojams, kurių vertimo kalbos aprašo nėra.
 5. Pasirinktina: įveskite rodinio aprašymą, kad vartotojai, kurie gaus šį rodinį, galėtų geriau suprasti jo paskirtį. 
 6. Nuspręskite, ar rodinys turėtų būti paskelbtas kaip numatytasis rodinys pasirinktiems vartotojams. Kai peržiūra yra paversta nustatytąja, vartotojai ją matys kitą kartą, kai atidarys paskirties puslapį. Bus pakeista viena, iš anksto nustatyta globali peržiūra visų galutinių vartotojų. Nepaisant to, vartotojai dar gali keisti jų nustatytąją peržiūrą po jos publikavimo.
 
@@ -204,7 +204,7 @@ Toliau išvardyti su visų publikuotų puslapio rodinių sąrašu galimi atlikti
 
 ## <a name="managing-views-globally"></a>Rodinių valdymas visame pasaulyje
 
-Nors kai kurios valdymo galimybės yra išksaugotos kiekviename puslapyje, kaip nurodyta šiame straipsnyje, **·** **·** **sistemos administratoriai ir įrašyti rodinio administratoriai gali tvarkyti sistemos rodinius kelis kartus personalizavimo** puslapyje. Detaliau tyrinėjant, šiame puslapyje yra šie skyriai ir funkcijos: 
+Nors kai kurios valdymo galimybės yra išksaugotos kiekviename puslapyje, kaip nurodyta šiame straipsnyje, **·**  **·**  **sistemos administratoriai ir įrašyti rodinio administratoriai gali tvarkyti sistemos rodinius kelis kartus personalizavimo** puslapyje. Detaliau tyrinėjant, šiame puslapyje yra šie skyriai ir funkcijos: 
 
 - **Publikuoti rodiniai** – šiame skyriuje išvardyti visi jūsų organizacijai publikuoti rodiniai. Iš čia galite iš naujo publikuoti rodinį po to, kai pakoreguojate saugos vaidmenis arba juridinius asmenis, į kuriuos rodinys orientuotas. Galite taip pat eksportuoti, pašalinti ar nepublikuoti peržiūrų. Spustelėję **Įrašyti kaip asmeninį**, galite sukurti rodinio asmeninę kopiją, kad galėtumėte jį atnaujinti arba geriau suprasti jo turinį. 
 - **Nepublikuotos peržiūros** – Šis skyrius išvardyja visas organizacijos peržiūras jūsų sistemoje, kurios šiuo metu nėra publikuotos. Šiso peržiūros dažniausiai patenka į sistemą per importavimo savybes. Galite publikuoti, eksportuoti ar naikinti šiuos rodinius. Dėl **Greito publikavimas** veiksmo, kuris buvo pridėtas 10.0.12 versijoje, šiame skyriuje galima publikuoti kelis rodinius vienu veiksmu, naudojant esamą saugos vaidmenį ir juridinio asmens konfigūracijas. Galite naudoti veiksmą **Įrašyti kaip asmeninį,** norėdami sukurti asmenines šių rodinių kopijas, kad geriau suprastumėte jų turinį.
@@ -233,7 +233,7 @@ Funkciją **Įrašyti rodiniai** galite įjungti ir išjungti per Funkcijų vald
 
 ### <a name="what-pages-support-views"></a>Kurie puslapiai palaiko rodinius? 
 
-Rodiniai yra visuose, bet ne visuose, puslapiuose. Rodiniai yra tik visuose viso ekrano puslapiuose, išskyrus skelbimų skelbimų skydus. Peržiūrėti darbo sričių palaikymą galima naudojant įrašytus **rodinių palaikymą darbo sričių funkcijai**. Dauguma ne viso ekrano puslapių, kuriuose yra išplečiamasis dialogo langas, peržvalgos ir patobulintos peržiūros, šiuo metu nepalaiko rodinių. Dialogo langų palaikymą galima peržiūrėti naudojant įrašytus **rodinių dialogo lango palaikymą**.
+Rodiniai yra visuose, bet ne visuose, puslapiuose. Rodiniai yra tik visuose viso ekrano puslapiuose, išskyrus skelbimų skelbimų skydus. Peržiūrėti darbo sričių palaikymą galima naudojant įrašytus **rodinių palaikymą darbo sričių funkcijai** . Dauguma ne viso ekrano puslapių, kuriuose yra išplečiamasis dialogo langas, peržvalgos ir patobulintos peržiūros, šiuo metu nepalaiko rodinių. Dialogo langų palaikymą galima peržiūrėti naudojant įrašytus **rodinių dialogo lango palaikymą** .
 
 ### <a name="who-is-allowed-to-publish-views"></a>Kas gali publikuoti rodinius?
 

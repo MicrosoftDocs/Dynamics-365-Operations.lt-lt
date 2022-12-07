@@ -2,7 +2,7 @@
 title: Finansinių ataskaitų dizaino įrankio eilučių aprašai
 description: Eilutės aprašas yra ataskaitos komponentas, arba kūrimo blokas, kuris nurodo kiekvienos finansinės ataskaitos eilutės turinį.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 1611
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.form: FinancialReports
-ms.openlocfilehash: 1481d95bc7a02294b499e07308df2d26a3ab0e3a
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 3325f76f991ea6d2a1b6131f299460e529d63d38
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9274700"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802451"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Finansinių ataskaitų dizaino įrankio eilučių aprašai
 
@@ -30,18 +30,18 @@ Eilutės aprašas yra ataskaitos komponentas, arba kūrimo blokas, kuris nurodo 
 
 ## <a name="create-a-row-definition"></a>Eilutės aprašo kūrimas
 
-1. Ataskaitų dizaino įrankio naršymo srityje spustelėkite **Eilučių aprašai**.
-2. Meniu **Failas** spustelėkite **Naujas**, tada spustelėkite **Eilutės aprašas**. Daugiau informacijos apie kiekvieno langelio turinį rasite dalyje [Eilutės apibrėžimo langelių keitimas](modify-row-definition-cells-financial-reporting.md).
+1. Ataskaitų dizaino įrankio naršymo srityje spustelėkite Eilučių **aprašus**.
+2. Meniu Rinkmena **spustelėkite** Naujas **·**, tada spustelėkite Eilutės **apibrėžimas**. Daugiau informacijos apie kiekvieno langelio turinį rasite dalyje [Eilutės apibrėžimo langelių keitimas](modify-row-definition-cells-financial-reporting.md).
 
 ## <a name="open-a-row-definition"></a>Eilutės apibrėžimo atidarymas
-1. Ataskaitų dizaino įrankio naršymo srityje spustelėkite **Eilučių aprašai**.
+1. Ataskaitų dizaino įrankio naršymo srityje spustelėkite Eilučių **aprašus**.
 2. Dukart spustelėkite norimo atidaryti eilutės apibrėžimo pavadinimą.
 3. Norėdami peržiūrėti kūrimo blokus, susietus su eilutės apibrėžimu, dešiniuoju pelės klavišu spustelėkite eilutės apibrėžimą, tada pasirinkite **Susiejimai**.
 
 ## <a name="contents-of-a-row-definition"></a>Eilutės apibrėžimo turinys
 Eilutės apraše gali būti iki 20 000 finansinės dimensijos eilučių ir jame gali būti pateikiama tolesnė informacija.
 
-- Aprašomasis tekstas, suteikiantis ataskaitai reikšmę, kai sukuriamos skyriaus antraštės, eilutės ir tarpai, pavyzdžiui, **Grynieji pinigai** arba **Visos įplaukos**.
+- Aprašomasis tekstas, kuris įtraukia reikšmę į ataskaitą sukurdama skyriaus antraštes, eilutes ir tarpus, pvz., grynieji **pinigai arba** bendrosios **įplaukos**
 - Saitai su finansiniais duomenimis, kurie gali apimti dimensijų reikšmes į Microsoft Dynamics "365 Finance"
 
     > [!NOTE]
@@ -71,10 +71,10 @@ Dimensija yra duomenų ir reikšmių sankirta. Ataskaitų dizaino įrankyje gali
 
 Norėdami į eilutės aprašą įtraukti dimensijų, atlikite toliau nurodytus veiksmus.
 
-1. Ataskaitų dizaino įrankyje spustelėkite **Eilučių aprašai**, tada atidarykite norimą keisti eilutės aprašą.
-2. Meniu **Redaguoti** spustelėkite **Įterpti eilutes iš dimensijų**.
-3. Eilutės **Dimensijos** dialogo lange **Įterpti eilutes iš dimensijų** pasirinkite į eilutės aprašą norimą perkelti dimensijos langelį, tada spustelėkite **Visi &&&**.
-4. Norėdami apriboti eilutės aprašą iki kelių dimensijos reikšmių, langelyje **Dimensijos intervalo pradžia** įveskite pradžios dimensijos reikšmę, tada langelyje **Dimensijos intervalo pabaiga** įveskite pabaigos dimensijos reikšmę. Norėdami įtraukti visas pasirinktos dimensijos vertes palikite šiuos langelius tuščius.
+1. Ataskaitų konstruktoriuje spustelėkite **Eilučių apibrėžimai**, tada atidarykite eilutės apibrėžimą, kad jį keisite.
+2. Meniu Redaguoti **spustelėkite** dimensijų **eilutes Įterpti**.
+3. Dimensijų eilutėje, įterpimo eilutėse iš **dimensijų** dialogo lango, pasirinkite dimensijos langelį, kad būtų perkelti į eilutės apibrėžimą, **tada spustelėkite Viskas &&>** . **·**
+4. Norėdami apriboti eilutės apibrėžimą iki tam tikro dimensijų reikšmių diapazono, **dimensijų** diapazono pradžios langelyje įveskite pradžios dimensijos vertę, **tada įveskite pabaigos dimensijos reikšmę dimensijų diapazono pabaigos langelyje** . Norėdami įtraukti visas pasirinktos dimensijos vertes palikite šiuos langelius tuščius.
 
     > [!NOTE]
     > Pakaitos simboliai (\* arba ?), esantys dimensijų intervaluose, gali nepateikti visų pageidaujamų rezultatų, atsižvelgiant į tai, kaip ERP duomenų bazė sugretina duomenis.
@@ -94,9 +94,9 @@ Jei turite balansą, kuriame sumos suapvalintos, bendrosios sumos į balansą ga
 
 Norėdami koreguoti balanso apvalinimą, atlikite toliau nurodytus veiksmus.
 
-1. Ataskaitos dizaino įrankyje spustelėkite **Eilučių apibrėžimai**, tada atidarykite norimą keisti eilutės apibrėžimą.
-2. Meniu **Redaguoti** spustelėkite **Apvalinimo koregavimas**.
-3. Dialogo lange **Apvalinimo koregavimai** įveskite šias reikšmes:
+1. Ataskaitų konstruktoriuje spustelėkite **Eilučių apibrėžimai**, tada atidarykite eilutės apibrėžimą, kad jį keisite.
+2. Redagavimo **meniu** spustelėkite Apvalinimo **koregavimas**.
+3. Į dialogo **langą Apvalinimo** koregavimai įveskite šias vertes:
 
     - **Apvalinimo koregavimo eilutė** – eilutės, kuri bus pakoreguota norint subalansuoti balansą, kodas.
     - **Viso turto eilutė** – balanso eilutės, kurioje nurodytas bendras turtas, kodas.
@@ -124,8 +124,8 @@ Galite kurti ir modifikuoti ataskaitos šrifto stilius. Tada galite taikyti šiu
 <td><strong>Kurti šrifto stilių</strong></td>
 <td>
 <ol>
-<li>Ataskaitos dizaino įrankio meniu <strong>Formatas </strong>spustelėkite <strong>Stiliai ir formatavimas</strong>.</li>
-<li>Dialogo lange <strong>Stiliai ir formatavimas</strong> spustelėkite <strong>Nauja</strong>, tada įveskite unikalų naujojo stiliaus pavadinimą.</li>
+<li>Ataskaitų dizaino įrankio meniu <strong>Formatas</strong> spustelėkite Stiliai <strong>ir formatavimas</strong>.</li>
+<li>Dialogo lange <strong>Stiliai ir</strong> formatavimas spustelėkite <strong>Naujas</strong> ir įveskite unikalų naujo stiliaus pavadinimą.</li>
 <li>Pasirinkite šrifto parinktis, tada spustelėkite <strong>Gerai</strong>.</li>
 </ol>
 </td>
@@ -134,8 +134,8 @@ Galite kurti ir modifikuoti ataskaitos šrifto stilius. Tada galite taikyti šiu
 <td><strong>Šrifto stiliaus keitimas</strong></td>
 <td>
 <ol>
-<li>Ataskaitos dizaino įrankio meniu <strong>Formatas </strong>spustelėkite <strong>Stiliai ir formatavimas</strong>.</li>
-<li>Dialogo lange <strong>Stiliai ir formatavimas</strong> pasirinkite stilių, kurį norite keisti, tada spustelėkite <strong>Modifikuoti</strong>.</li>
+<li>Ataskaitų dizaino įrankio meniu <strong>Formatas</strong> spustelėkite Stiliai <strong>ir formatavimas</strong>.</li>
+<li>Dialogo lange <strong>Stiliai ir formatavimas</strong> pasirinkite norimą modifikuoti stilių ir spustelėkite <strong>Modifikuoti</strong>.</li>
 <li>Pasirinkite šrifto parinktis, tada spustelėkite <strong>Gerai</strong>.</li>
 </ol>
 </td>
@@ -144,7 +144,7 @@ Galite kurti ir modifikuoti ataskaitos šrifto stilius. Tada galite taikyti šiu
 <td><strong>Taikyti šrifto stilių</strong></td>
 <td>
 <ol>
-<li>Ataskaitų dizaino įrankio apraše, stulpelio apraše arba antraštėse ir poraštėse pasirinkite vieną ar kelis langelius.</li>
+<li>Ataskaitų konstruktoriuje, apibrėžime, stulpelio apibrėžime arba antraštėse ir poraštėse pasirinkite vieną ar daugiau langelių.</li>
 <li>Įrankių juostos sąraše <strong>Stilius</strong> pasirinkite šrifto stilių.</li>
 </ol>
 </td>
@@ -156,9 +156,9 @@ Galite kurti ir modifikuoti ataskaitos šrifto stilius. Tada galite taikyti šiu
 
 Eilutės apraše nurodytas formatavimas perrašo stulpelio apraše ir ataskaitos apraše nurodytą formatavimą. Galite keisti teksto formatą, naudodami formatavimo įrankių juostos valdiklius. Šie valdikliai yra standartiniai „Microsoft Windows“ valdikliai.
 
-1. Naudodami ataskaitų dizaino įrankį atidarykite norimą modifikuoti eilučių aprašą.
+1. Ataskaitų konstruktoriuje atidarykite eilutės apibrėžimą, norėdami modifikuoti.
 2. Pažymėkite norimus formatuoti langelius. Norėdami pažymėti kelis langelius, laikykite nuspaudę klavišą Ctrl ir pasirinkite langelį.
-3. Norėdami taikyti, spustelėkite įrankių juostos formato mygtuką. Pavyzdžiui, norėdami įtraukti eilutę, pasirinkite eilutę, o tada spustelėkite **Padidinti įtrauką** ![Padidinti įtrauką.](media/indent.gif "Didinti įtrauką") įrankių juostoje.
+3. Norėdami taikyti, spustelėkite įrankių juostos formato mygtuką. Pvz., norėdami įtraukti eilutę, pasirinkite eilutę ir spustelėkite Įtraukti daugiau **įtraukos** ![Padidinimas.](media/indent.gif "Didinti įtrauką") įrankių juostoje.
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Koreguoti stulpelius, kol kuriamos ataskaitos
 
@@ -166,19 +166,19 @@ Kad būtų lengviau peržiūrėti stulpelius, su kuriais dirbate eilutės apraš
 
 ### <a name="change-the-width-of-a-column-in-the-view-pane"></a>Stulpelio pločio keitimas peržiūros srityje
 
-1. Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti eilutės apibrėžimą.
-2. Meniu **Formatas** pasirinkite **Stulpelio plotis**.
-3. Dialogo lange **Stulpelio plotis** įveskite reikšmę ir tada spustelėkite **Gerai**. Stulpelio plotį pakeisti taip pat galite vilkdami stulpelio antraštės langelio dešiniąją kraštinę.
+1. Ataskaitų konstruktoriuje atidarykite eilutės apibrėžimą, norėdami modifikuoti.
+2. Meniu Formatas **pasirinkite** Stulpelio **plotis**.
+3. Dialogo lange **Stulpelio** plotis įveskite vertę ir spustelėkite **Gerai**. Stulpelio plotį pakeisti taip pat galite vilkdami stulpelio antraštės langelio dešiniąją kraštinę.
 
 ### <a name="hide-columns-in-the-view-pane"></a>Stulpelių slėpimas peržiūros rodinyje
 
-1. Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti eilutės apibrėžimą.
+1. Ataskaitų konstruktoriuje atidarykite eilutės apibrėžimą, norėdami modifikuoti.
 2. Pasirinkite norimus minimizuoti stulpelius.
 3. Spustelėkite dešinįjį pelės mygtuką, tada spustelėkite **Slėpti**.
 
 ### <a name="show-all-hidden-columns-in-the-view-pane"></a>Visų paslėptų stulpelių rodymas peržiūros srityje
 
-1. Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti eilutės apibrėžimą.
+1. Ataskaitų konstruktoriuje atidarykite eilutės apibrėžimą, norėdami modifikuoti.
 2. Dešiniuoju pelės mygtuku spustelėkite sumažintą stulpelį, kurį norite rodyti, tada spustelėkite **Nebeslėpti**.
 
 

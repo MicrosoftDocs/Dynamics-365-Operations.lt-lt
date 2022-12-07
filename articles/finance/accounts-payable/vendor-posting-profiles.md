@@ -2,7 +2,7 @@
 title: Tiekėjų registravimo šablonai
 description: Pagal tiekėjo registravimo šablonus valdomas tiekėjo operacijų registravimas į DK.
 author: abruer
-ms.date: 06/12/2019
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 24691
 ms.assetid: 18def866-7655-4f0b-b299-eec83098d23a
 ms.search.form: VendPosting
-ms.openlocfilehash: 922612e536164c7985f0be107f67ad8bbaef7898
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 09f27ef510f38c10fc265b682a492ba5872b6d3e
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9272985"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799605"
 ---
 # <a name="vendor-posting-profiles"></a>Tiekėjų registravimo šablonai
 
@@ -84,7 +84,7 @@ Jei norite, kad visų tiekėjo operacijų registravimo šablonas būtų tas pats
 </tr>
 <tr class="even">
 <td><strong>Sudengimo sąskaita</strong></td>
-<td>Pasirinkite likvidumo DK sąskaitą, naudojamą pinigų srauto prognozėms. Šį lauką galima naudoti tik kai įgalintas pinigų srauto prognozavimas.</td>
+<td>Pasirinkite likvidumo DK sąskaitą, naudojamą pinigų srauto prognozėms. Šis laukas galimas tik tada, kai įgalinta pinigų srautų prognozė.</td>
 </tr>
 <tr class="odd">
 <td><strong>PVM išankstinai apmokėjimai</strong></td>
@@ -94,7 +94,7 @@ Jei norite, kad visų tiekėjo operacijų registravimo šablonas būtų tas pats
 </tr>
 <tr class="even">
 <td><strong>Atvykimas</strong></td>
-<td>Pasirinkite DK sąskaitą, kurioje bus registruojama informacija apie nepatvirtintas tiekėjo SF. Informacija įvedama į SF registro žurnalą. Pavyzdžiui, gavus SF SF registre, naudotojas apie tiekėjo SF įveda labai bendrą informaciją. Užregistravus sąskaitų faktūrų registrą, operacijos registruojamos sąskaitoje, kuri įvesta čia ir lauke <strong>Korespondentinė sąskaita</strong>. Patvirtinus sąskaitas faktūras, skola perkeliama iš gavimo sąskaitos į tiekėjo suminę sąskaitą.</td>
+<td>Pasirinkite DK sąskaitą, kurioje bus registruojama informacija apie nepatvirtintas tiekėjo SF. Informacija įvedama į SF registro <strong>žurnalą</strong>. Pavyzdžiui, gavus SF SF registre, naudotojas apie tiekėjo SF įveda labai bendrą informaciją. Užregistravus sąskaitų faktūrų registrą, operacijos registruojamos sąskaitoje, kuri įvesta čia ir lauke <strong>Korespondentinė sąskaita</strong>. Patvirtinus sąskaitas faktūras, skola perkeliama iš gavimo sąskaitos į tiekėjo suminę sąskaitą.</td>
 </tr>
 <tr class="odd">
 <td><strong>Korespondentinė sąskaita</strong></td>
@@ -110,10 +110,10 @@ Operacijoms, kurių registravimo profilis pasirinktasis, nurodykite, ar operacij
 
 Norėdami nustatyti registravimo šabloną, nurodykite toliau pateiktas reikšmes
 
-| Laukas          | Aprašymas                                                                                                                                                                                                    |
-|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Laukas          | Aprašymas             |
+|----------------|--------------------------------------------------------------------------|
 | **Atsiskaitymas** | Pasirinkite šią parinktį, kad įgalintumėte automatinį operacijų, kurių registravimo profilis yra šis, sudengimą. Jei ši parinktis atžymėta, sudengti operacijas turite rankiniu būdu puslapyje **Sudengti atidarytas operacijas**. |
-| **Atšaukti**     | Pasirinkite šią parinktį, jei norite atšaukti operacijas, kurių registravimo profilis yra šis.                                                                                                               |
+| **Atšaukti**     | Pasirinkite šią parinktį, jei norite atšaukti operacijas, kurių registravimo profilis yra šis.                              |
 | **Uždaryti**      | Pasirinkite registravimo profilį, į kurį bus pakeičiama, kai operacijos, kurioms taikomas šis registravimo profilis, bus uždarytos. Operacija laikoma uždaryta, kai ji yra visiškai sudengta.                                       |
 
 

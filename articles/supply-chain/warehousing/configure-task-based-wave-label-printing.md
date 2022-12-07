@@ -2,7 +2,7 @@
 title: Planuoti bangos žymos spausdinimą bangos vykdymo metu
 description: Šiame straipsnyje aprašoma, kaip nustatyti ir naudoti funkciją, norint spausdinti su užduotimi pagrįstą bangos žymą.
 author: perlynne
-ms.date: 06/09/2021
+ms.date: 12/02/2022
 ms.topic: article
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: ac2bc4cce42bada43334b82301d716414cd6d654
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e788e5a9206e46ada6490d4a0196c7ea8ca6af15
+ms.sourcegitcommit: 04e42c495d018e457fb3b038cadc4fe75ecbba12
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889463"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822368"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Planuoti bangos žymos spausdinimą bangos vykdymo metu
 
@@ -32,7 +32,6 @@ Kai naudojate *Užduotimi pagrįstos bangos žymų spausdinimo* funkciją, siste
 
 Jei norite naudoti šiame straipsnyje aprašytas funkcijas, jas turite įjungti savo sistemai. Naudokite darbo sritį [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad įjungtumėte funkcijas pateikta tvarka:
 
-1. *Bangos žymų spausdinimas* – ši funkcija būtina norint įgalinti bangos procesų metodą bangos žymų spausdinimui.
 1. *Visos organizacijos darbo blokavimas* – ši funkcija reikalingas tiek rankiniam, tiek automatiniam suplanuoto darbo kūrimo konfigūravimui. (Kaip ir tiekimo grandinės valdymo versija 10.0.21, ši funkcija yra privaloma, todėl ji įjungta pagal numatytuosius nustatymus ir jos negalima išjungti dar kartą.)
 1. *Užduotimi pagrįstas bangos žymos spausdinimas* – ši funkcija reikalinga norint bangos žymos spausdinimą padalyti į atskirą operacijos aprėptį.
 

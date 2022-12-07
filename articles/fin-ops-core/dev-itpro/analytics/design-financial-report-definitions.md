@@ -2,7 +2,7 @@
 title: Finansinių ataskaitų dizaino įrankio ataskaitų aprašai
 description: Šiame straipsnyje pateikiama informacija apie ataskaitų aprašus.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 1611
 ms.custom: 59131
 ms.assetid: 966a3f1d-c59c-4a84-acd4-5bb7e65144c8
 ms.search.form: FinancialReports
-ms.openlocfilehash: e1095502e6dafbe217f51658ac65292c422a0002
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 2ffef335c694af56486ccd7738818c4edda49b9e
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9291805"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802558"
 ---
 # <a name="report-definitions-in-financial-report-designer"></a>Finansinių ataskaitų dizaino įrankio ataskaitų aprašai
 
@@ -37,8 +37,8 @@ Ataskaitos aprašas yra ataskaitos komponentas (arba kūrimo blokas), kuriame na
 Tačiau atsižvelgiant į tai, kaip duomenys saugomi sistemoje „Microsoft Dynamics ERP“, ataskaitose gali nebūti operacijos informacijos.
 
 ## <a name="create-a-report-definition"></a>Ataskaitos aprašo kūrimas
-1. Ataskaitų konstruktoriuje, meniu **Failas**, spustelėkite **Naujas**, ir tada pasirinkite **Ataskaitos aprašas**.
-2. Nurodyti atitinkamą informaciją skirtukuose **Ataskaita**, **Išeiga ir paskirstymas**, **Antraštės ir poraštės** ir **Parametrai**.
+1. Ataskaitų konstruktoriuje, meniu **Rinkmena**, spustelėkite **Naujas** ir pasirinkite Ataskaitos **aprašas**.
+2. Nurodykite atitinkamą informaciją ataskaitoje **, išeigos** **ir paskirstymo,** **antraščių ir poraščių** bei **parametrų** skirtukuose.
 
 ## <a name="contents-of-a-report-definition"></a>Ataskaitos aprašo turinys
 Toliau pateikiamoje lentelėje aprašomi ataskaitos aprašo skirtukai ir kaip naudojama informacija.

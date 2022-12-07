@@ -1,8 +1,8 @@
 ---
-title: Atostogų sustabdymas
-description: Galite sustabdyti darbuotojo atostogas „Dynamics 365 Human Resources”.
+title: Sustabdyti atostogų atostogas
+description: Galite sustabdyti darbuotojo neatvykimo atostogas Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 10/28/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,22 +14,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 93b530aeef6fd14b56ac846e3bb0ad4080d67587
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9c8262fb34175f6f9326d6be82c922b2170fc5a7
+ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895908"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9805266"
 ---
 # <a name="suspend-leave"></a>Atostogų sustabdymas
 
 >[!Important]
->Šiame straipsnyje parodytos funkcijos šiuo metu yra galimos klientams autonominiu metu Dynamics 365 Human Resources. Kai kurios arba visos funkcijos bus prieinamos kaip būsimo „Finance“ infrastruktūros leidimo dalis po to, kai bus išleistas „Finance“ leidimas 10.0.26.
-
+>Šiame straipsnyje parodytas funkcionalumas šiuo metu prieinamas autonominiams „Dynamics 365 Human Resources“ klientams. Kai kurios arba visos funkcijos bus prieinamos kaip būsimo „Finance“ infrastruktūros leidimo dalis po to, kai bus išleistas „Finance“ leidimas 10.0.26.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Galite sustabdyti darbuotojo atostogas, norėdami sustabdyti pasirinktų atostogų tipų atostogų kaupimų apdorojimą. 
+Galite sustabdyti darbuotojo atostogų sukaupimą ir sustabdyti pasirinktų atostogų tipų kaupimą.
 
 ## <a name="suspend-leave-and-absence-for-an-employee"></a>Sustabdyti darbuotojo atostogas ir neatvykimus
 
@@ -44,6 +43,9 @@ Galite sustabdyti darbuotojo atostogas, norėdami sustabdyti pasirinktų atostog
 5. Jei norite, galite pridėti įtraukti sustabdymo **komentarą**. 
 
 Jei kaupimai apdorojami, kol darbuotojo atostogos sustabdytos, nebus atlikti jokie sustabdytų atostogų tipų kaupimai.
+
+> [!NOTE]
+> Prašymai leisti neatvykti sustabdys nebuvimo užklausas, tačiau termino prašymai nesustabdo prašymų leisti neatvykti.
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

@@ -2,7 +2,7 @@
 title: Kreditų valdymo parametrų nustatymas
 description: Šiame straipsnyje aprašomos pasirinktys, kurias galite naudoti norėdami konfigūruoti kredito valdymą, kad jis atitiktų jūsų verslo poreikius.
 author: JodiChristiansen
-ms.date: 12/10/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2ac5e0ba8c9279fc5f04a80d4444b11850e72d3c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8955518e7b5c0200d3827c1c22b7d150a09be244
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876360"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799551"
 ---
 # <a name="credit-management-parameters-setup"></a>Kreditų valdymo parametrų nustatymas
 
@@ -44,19 +44,19 @@ Skyriuje **Kreditas** yra keturi „FastTab“, kur galite pakeisti parametrus, 
 
 ### <a name="credit-management-checkpoint"></a>Kredito valdymo kontrolinis taškas
 
-Galite nustatyti laiką, kuris naudojamas tikrinti pardavimo užsakymus, turinčius problemų dėl kredito. „FastTab“ **Kreditų valdymo kontrolinis taškas** identifikuoja dokumentų registravimo procesus, kuriuos sudaro kreditų valdymo taisyklių apdorojimas. Taip pat galite patikrinti kredito taisykles, kai atliekate išankstinį registravimą arba visapusį pardavimo užsakymo registravimą. Pažymėkite žymės langelius, kad nustatytumėte registravimo procesus, kurie turėtų sulaikyti užsakymą, jei nustatyta klaida po to, kai kreditų valdymo blokavimo taisyklės buvo apdorotos.
+Galite nustatyti laiką, kuris naudojamas tikrinti pardavimo užsakymus, turinčius problemų dėl kredito. „FastTab“ **Kreditų valdymo kontrolinis taškas** identifikuoja dokumentų registravimo procesus, kuriuos sudaro kreditų valdymo taisyklių apdorojimas. Taip pat galite patikrinti kredito taisykles, kai atliekate išankstinį registravimą arba visapusį pardavimo užsakymo registravimą. Pažymėkite žymės langelius, norėdami nurodyti registravimo procesus, kurie turėtų sulaikyti užsakymą, jei išdavimas randamas apdoroje kredito valdymo blokavimo taisykles.
 
-Taip pat galite nurodyti atidėjimo dienų skaičių prieš dar kartą tikrinant kredito taisykles. Nors galite nurodyti, kad kreditų valdymo taisyklės gali būti patikrinamos registravimo metu, taisyklės nebus tikrinamos nurodytą atidėjimo dienų skaičių. Pavyzdžiui, galite patvirtinti pardavimo užsakymą 1 dieną ir nurodyti patvirtinimo veiksmo dvi atidėjimo dienas. Šiuo atveju kredito taisyklės nebus tikrinamos atliekant kitą registravimo veiksmą (pavyzdžiui, kuriant važtaraštį arba užsakymo SF) iki ketvirtos dienos. Ketvirtą arba po keturių dienų taisyklės bus dar kartą patikrinamos registravimo metu, o atidėjimo dienų skaičius bus pakeistas į reikšmę, kuri nustatyta kitam registravimo kontroliniam taškui,
+Taip pat galite nurodyti atidėjimo dienų skaičių prieš dar kartą tikrinant kredito taisykles. Nors galite nurodyti, kad kreditų valdymo taisyklės gali būti patikrinamos registravimo metu, taisyklės nebus tikrinamos nurodytą atidėjimo dienų skaičių. Pavyzdžiui, jūs patvirtinate pardavimo užsakymą vieną dieną, ir nurodote dvi patvirtinimo veiksmo atidėjimo dienas. Šiuo atveju kredito taisyklės nebus tikrinamos kitame registravimo etape (pvz., važtaraščio kūrimas arba užsakymo SF išrašymas) iki keturių dienų. Keturių dienų arba po keturių dienų taisyklės bus patikrintos dar kartą, kai bus registruojama, o atidėjimo dienų skaičius bus pakeistas į vertę, nurodytą kitame registravimo kontroliniame taške.
 
 Jei nenurodysite atidėjimo dienų skaičiaus, kredito taisyklės bus patikrintos kiekviename registravimo etape, kuris nustatytas kreditų valdymo taisyklių vykdymui. Jei pardavimo užsakymą išleisite be registravimo ir dar kartą vykdysite tą patį užsakymo apdorojimo veiksmą, kredito taisyklės vėl bus patikrintos. Pavyzdžiui, užsakymas sulaikytas po patvirtinimo, o jūs jį išleidžiate su arba be registravimo. Šiuo atveju užsakymas vėl bus sulaikytas, jei dar kartą patvirtinsite. Naudokite atidėjimo dienas, jei užsakymas turi būti perkeltas į kitą vykdymo veiksmą be pakartotinio sulaikymo.
 
 > [!Note]
 > Jei viename registravimo poste įvesta atidėjimo diena, visiems registruoti pažymėtims čekiams turi būti atidėjimo dienos.
 
-- Pažymėkite žymės langelį **Registravimas**, kad būtų vykdomos kreditų valdymo taisyklės, kai vykdomas registravimo kontrolinis taškas, rodomas eilutėje. Jei nepažymėsite žymės langelio, taisyklės bus tikrinamos tik vieną kartą viso registravimo proceso metu.
-- Jei pažymėsite žymės langelį **Registravimas**, nurodykite atidėjimo dienų skaičių, kuris turėtų praeiti prieš vėl tikrinant blokavimo taisykles. Negalite įtraukti atidėjimo dienų, jei žymės langelis **Registravimas** nepažymėtas.
-- Pažymėkite žymės langelį **Išankstinis**, kad būtų vykdomos kreditų valdymo taisyklės, kai vykdomas išankstinio registravimo kontrolinis taškas, rodomas eilutėje. Dauguma atvejų laukas **Registravimas** dialogo lange nustatytas kaip **Ne**, kuris atsiranda užregistravus pardavimo užsakymą.
-- Jei pažymėsite žymės langelį **Registravimas**, nurodykite atidėjimo dienų skaičių, kuris turėtų praeiti prieš vėl tikrinant blokavimo taisykles. Negalite įtraukti atidėjimo dienų, jei žymės langelis **Registravimas** nepažymėtas.
+- Pažymėkite registravimo **žymės** langelį, norėdami vykdyti kredito valdymo taisykles, kai vykdomas eilutėje rodomas registravimo kontrolinis taškas. Jei nepasirinksite žymės langelio, taisyklės bus tikrinamos tik vieną kartą per visą registravimo procesą.
+- Jei pažymėsite žymės **langelį** Registravimas, nurodykite atidėjimo dienų, kurios turi praeiti prieš vėl pažymint blokavimo taisykles, skaičių. Negalima įtraukti atidėjimo dienų, jei žymės **langelis** Registravimas yra išvalytas.
+- Pažymėkite pro **forma žymės** langelį, norėdami vykdyti kredito valdymo taisykles, kai vykdomas pro forma registravimo kontrolinis taškas, rodomas eilutėje. Dauguma atvejų laukas **Registravimas** dialogo lange nustatytas kaip **Ne**, kuris atsiranda užregistravus pardavimo užsakymą.
+- Jei pažymėsite žymės **langelį** Registravimas, nurodykite atidėjimo dienų, kurios turi praeiti prieš vėl pažymint blokavimo taisykles, skaičių. Negalima įtraukti atidėjimo dienų, jei žymės **langelis** Registravimas yra išvalytas.
 
 ### <a name="credit-management-statistics"></a>Kredito valdymo statistika
 
@@ -73,7 +73,7 @@ Kelios kreditų valdymo statistikos yra įtrauktos į „FactBox“ **Kliento kr
 
 - Kreditų valdyme kliento kredito limitas rodomas kliento valiuta. Turite nustatyti kredito limito valiutos kurso tipą kliento valiuta. Lauke **Kredito limito valiutos kurso tipas** pasirinkite valiutos kurso tipą, kuris turi būti naudojamas konvertuojant pirminį kredito limitą į kliento kredito limitą.
 - Nustatykite parinktį **Leisti rankinį kredito limitų redagavimą** kaip **Ne**, kad vartotojai negalėtų redaguoti kredito limitų puslapyje **Klientas**. Jei ši parinktis nustatyta kaip **Ne**, kliento kredito limito pakeitimai gali būti atliekami tik registruojant kredito limito koregavimo operacijas.
-- Nustatykite **pasirinktį Praleisti atsargų rezervavimus** **kaip Taip,** jei norite, kad būtų nepaisoma atsargų rezervavimo, kai patikrinamos kredito valdymo blokavimo taisyklės. Šiuo atveju sistema patikrina eilutės kiekius ir įgalina čekių atidėjimo laikotarpius, neatsižvelgus į atsargų rezervavimo kiekį.
+- Nustatykite **pasirinktį Praleisti atsargų rezervavimus**  **kaip Taip,** jei norite, kad būtų nepaisoma atsargų rezervavimo, kai patikrinamos kredito valdymo blokavimo taisyklės. Šiuo atveju kiekiai bus patikrinti ir bus įgalinti tikrinimo taško atidėjimo laikotarpiai, neatsižvelgiant į atsargų rezervavimo kiekį.
 - Kai įgalintas kredito valdymas, tik laisvos **formos** SF apdoroti naudojamas pranešimo parametras, kai viršijamas kredito limitas. Nors pranešimai vis dar pridedami prie pardavimo užsakymų, kai klientai viršija savo kredito limitą, jei tokie pranešimai neužblokuoja patvirtinimo, išrinkimo dokumentų ir važtaraščių spausdinimo ar SF registravimo.
 
     Numatyta, kad kredito valdymas įgalintas, bet galite jį išjungti. Įgalinus šį raktą, norėdami nustatyti, kada klientai viršija savo kredito limitą, naudojate kredito valdymo blokavimo taisykles ir kontrolinius taškus. Jei jis uždraustas, pranešimai, kurie pridedami prie pardavimo užsakymų, remiantis lauko Pranešimas parametru viršijus kredito limitą **, gali padėti nustatyti,** kada klientai viršija savo kredito limitą.

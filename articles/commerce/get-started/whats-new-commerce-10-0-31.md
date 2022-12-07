@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2022-10-01
 ms.dyn365.ops.version: 10.0.31
-ms.openlocfilehash: 05ccd9794ffeba6a09d6fec0a57ffad2b59707ad
-ms.sourcegitcommit: 87e75aa6af2c3280316d7d73eafa14a52353a5e4
+ms.openlocfilehash: ed4325095163415d05a56128cb1f0334440fe0e5
+ms.sourcegitcommit: c364f50ea0ad50bac5c30724b6ce301d9574b653
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/21/2022
-ms.locfileid: "9709874"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9787532"
 ---
 # <a name="preview-of-dynamics-365-commerce-10031-february-2023"></a>„Dynamics 365 Commerce“ 10.0.31 išankstinė peržiūra (2023 m. vasaris)
 
@@ -36,8 +36,9 @@ Tolesnėje lentelėje pateiktos funkcijos, kuri yra šiame leidime. Mes galime a
 |---|---|---|---|
 | Klaidų kodai | "Commerce" pateikė standartines klaidų nuorodas, kurios turi būti įtrauktos į interneto kanalo tikrinimo klaidas, pateikiamas interneto pirkėjams.| [Tikrinimo modulio klaidų kodai](../checkout-module-error-codes.md)  | Įjungta pagal numatytuosius parametrus |
 | Mokėjimai | [Įjungti Adyen Mokėjimo su "Dynamics 365" mokėjimo jungtį](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/enable-apple-pay-dynamics-365-payment-connector-adyen)  | El. komercijos klientai, naudojantys palaikomus įrenginius arba naršykles, gali naudoti Algalapio mokėjimo krepšelyje ir tikrinimo puslapius. | Programuotojo atsisakymas |
-| Mokėjimai  |  "Commerce" įtraukė galimybę riboti vartotojų sąveiką su pasikartojančiais mokėjimo atpažinimo ženklus visoje "Commerce Headquarters" vartotojo sąsajoje. Mokėjimo formos, pavyzdžiui, **skambučių centro** pardavimo užsakymo puslapis, daugiau nerodo anksčiau naudotos kliento periodinio mokėjimo atpažinimo ženklo, kuris bus naudojamas naujoje operacijoje. Tik nustatyta failo kortelė įeis į "Commerce **Customer Payments** " ekraną arba sutartis su klientu apmokant pardavimo užsakymą, bus pristatyta skambučių centrui arba "Commerce Headquarters" vartotojams, vykdant naujos operacijos mokėjimą. | [Riboti mokėjimo atpažinimo ženklo naudojimą](../dev-itpro/limit-token-usage.md)  |  Funkcijų valdymas<p>*Apriboti mokėjimo atpažinimo ženklo naudojimą pagal užsakymo kontekstą*  |
+| Mokėjimai  |  "Commerce" įtraukė galimybę riboti vartotojų sąveiką su pasikartojančiais mokėjimo atpažinimo ženklus visoje "Commerce Headquarters" vartotojo sąsajoje. Mokėjimo formos, pavyzdžiui, **skambučių centro** pardavimo užsakymo puslapis, daugiau nerodo anksčiau naudotos kliento periodinio mokėjimo atpažinimo ženklo, kuris bus naudojamas naujoje operacijoje. Tik nustatyta failo kortelė įeis į "Commerce **Customer Payments** " ekraną arba sutartis su klientu apmokant pardavimo užsakymą, bus pristatyta skambučių centrui arba "Commerce Headquarters" vartotojams, vykdant naujos operacijos mokėjimą. | [Mokėjimo atpažinimo ženklo naudojimo apribojimas](../dev-itpro/limit-token-usage.md)  |  Funkcijų valdymas<p>*Apriboti mokėjimo atpažinimo ženklo naudojimą pagal užsakymo kontekstą*  |
 | EKA | [Kurti pirkimo užsakymus iš EKA](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/create-purchase-orders-pos)  |  Patobulinta atsargų gavimo operacija, atliekama point of sale (EKA) programoje, kuri leidžia vartotojams kurti, redaguoti ir patvirtinti pirkimo užsakymo užklausas. |  Funkcijų valdymas<p>*Galimybė sukurti pirkimo užsakymo užklausą EKA*   |
+| Turimos papildomos kalbos | Galimos keturios papildomos kalbos | Vartotojo pasirinkimus pageidaujamuose kalbų sąraše galima naudoti keturios naujos kalbos: Korėjos, Portugalos (Portugal), Vietnamo ir kinų (tradicinė). Norėdami pasirinkti šią pasirinktį, eikite į **Vartotojo pasirinkčių \> kalbos \> ir šalies / regiono nuostatą**. | Lokalizuotos nuostatos |  
 
 
 
@@ -50,7 +51,7 @@ Tolesnėje lentelėje pateiktos funkcijos, kuri yra šiame leidime. Mes galime a
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai
 
-Norėdami gauti informacijos apie klaidos pataisas, įtrauktas į visus naujinimus, kurie yra 10.0.31 versijos dalis, Microsoft Dynamics [prisijunkite prie ciklo tarnybų ir peržiūrėkite žinių bazės straipsnį](https://fix.lcs.dynamics.com/Issue/Details?bugId=758525).
+Norėdami gauti informacijos apie klaidos pataisas, įtrauktas į visus naujinimus, kurie yra 10.0.31 versijos dalis, Microsoft Dynamics  [prisijunkite prie ciklo tarnybų ir peržiūrėkite žinių bazės straipsnį](https://fix.lcs.dynamics.com/Issue/Details?bugId=758525).
 
 ### <a name="dynamics-365-and-industry-clouds-2022-release-wave-2-plan"></a>"Dynamics 365" ir pramonės debesys: 2022 išleidimo bangos 2 planas
 

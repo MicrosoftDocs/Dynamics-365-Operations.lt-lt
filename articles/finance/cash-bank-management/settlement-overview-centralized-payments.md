@@ -2,7 +2,7 @@
 title: Centralizuotų mokėjimų sudengimo apžvalga
 description: Šiame straipsnyje aprašomas centralizuotų Microsoft Dynamics 365 finansų mokėjimų sudengimas.
 author: angelad116
-ms.date: 08/02/2018
+ms.date: 11/22/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef71520df5cdae192355e512238d03c1f21b901f
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 42c359edbe49af151ac76c9873c0d429bbe1ca12
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151169"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804232"
 ---
 # <a name="settlement-overview-for-centralized-payments"></a>Centralizuotų mokėjimų sudengimo apžvalga
 
@@ -84,11 +84,11 @@ Mokėjimo nuolaidos, generuojamos visų įmonių sudengimo metu, užregistruojam
 
 Leistini permokėjimo / neprimokėjimo ir centų skirtumo nuokrypiai nustatomi atsižvelgiant į su mokėjimu susijusį juridinį subjektą (permokėjimui) ir SF juridinį subjektą (neprimokėjimui). Naudojama registravimo sąskaita nustatoma naudojant klientų puslapio **Gautinų sumų parametrai** lauko **Mokėjimo nuolaidų administravimas** parametrą ir tiekėjų puslapio **Mokėtinų sumų parametrai** lauko **Mokėjimo nuolaidų administravimas** parametrą.
 
--   Jeigu mokėjimo nuolaidos administravimo parametras yra Konkretus arba Nekonkretus ir taikoma mokėjimo nuolaida užregistruojama kitame juridiniame objekte nei užregistruotas permokėjimas, naudojama automatinė kliento mokėjimo nuolaidos, tiekėjo mokėjimo nuolaidos arba skirtumo centais apskaitos valiuta sąskaita. Šias sąskaitas galite nurodyti puslapyje **Automatinių operacijų sąskaitos**.
--   Jei mokėjimo nuolaidos administravimo parametras yra Nekonkretus ir mokėjimo nuolaida užregistruota tame pačiame juridiniame subjekte kaip permokėjimas (su mokėjimo juridinis subjektas ir SF juridinis subjektas sutampa), mokėjimo nuolaidos sąskaita pakoreguojama. Pavyzdžiui, jei 100,00 sumos SF, kurios galima mokėjimo nuolaida yra 3,00, sudengiama su mokėjimu, kurio suma 98,00, mokėjimo nuolaidos sąskaita pakoreguojama (1,00). Grynoji nuolaidos suma yra 2,00.
--   Jei mokėjimo nuolaidos administravimo parametras yra Nekonkretus, mokėjimo nuolaida užregistruota tam pačiame juridiniame subjekte kaip permokėjimas, o permokėjimas arba neprimokėjimas sudengiamas su keletu SF, kuriose taikomos mokėjimo nuolaidos, pakoreguojama paskutinės SF mokėjimo nuolaida.
+-    **·** **Jei** mokėjimo nuolaidos administravimo parametras yra konkretus arba jei parametras nespecifinis ir taikoma mokėjimo nuolaida užregistruojama skirtinguose juridiniuose subjektuose, kurie nėra permokėjimo, naudojama automatinė kliento mokėjimo nuolaidos, tiekėjo mokėjimo nuolaidos arba centų skirtumo sąskaita apskaitos valiuta. Šias sąskaitas galite nurodyti puslapyje **Automatinių operacijų sąskaitos**.
+-    **Jei** mokėjimo nuolaidos administravimo parametras nespecifinis ir mokėjimo nuolaida užregistruota tame pačiame juridiniame subjekte kaip permokėjimas (mokėjimo juridinis subjektas ir SF juridinis subjektas yra tokie patys), mokėjimo nuolaidos sąskaita pakoreguota. Pavyzdžiui, jei 100,00 sumos SF, kurios galima mokėjimo nuolaida yra 3,00, sudengiama su mokėjimu, kurio suma 98,00, mokėjimo nuolaidos sąskaita pakoreguojama (1,00). Grynoji nuolaidos suma yra 2,00.
+-    **Jei** mokėjimo nuolaidos administravimo parametras nespecifinis, mokėjimo nuolaida užregistruojama tame pačiame juridiniame subjekte kaip permokėjimas, o permokėjimas arba neprimokėjimas sudengtas su keliomis SF, kurioms taikomos mokėjimo nuolaidos, pakoregama paskutinės SF mokėjimo nuolaidos sąskaita.
 
-Jei mokėjimo nuolaidos administravimo pasirinkimas yra Nekonkretus, nekonkretaus mokėjimo sudengimo taisyklės taikomos tik toliau nurodytais atvejais.
+Jei mokėjimo nuolaidos administravimo pasirinkimas **nespecifinis**, nespecifinis mokėjimo sudengimo taisyklės taikomos tik tokiose situacijose:
 -   Yra permokėjimas.
 -   Permokėjimas sudengtas su viena arba daugiau SF, kuriose taikoma mokėjimo nuolaida.
 -   Mokėjimo nuolaida užregistruota tame pačiame juridiniame subjekte kaip permokėjimas.

@@ -15,30 +15,30 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1db95720d56cc538f2d702137889467a9892d99c
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: b75637bfb38c13591223ff11be36d958b3972d4f
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: MT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715188"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804142"
 ---
 # <a name="cash-discounts"></a>Mokėjimo nuolaidos
 
 [!include [banner](../includes/banner.md)]
 
-Mokėjimo nuolaidos yra nustatomos ir bendrai naudojamos dalyse Mokėtinos sumos ir Gautinos sumos.  Galimą mokėjimo nuolaidą galima nurodyti kliento SF arba tiekėjo SF; ji bus pritaikyta, jei sąskaita faktūra bus apmokėta mokėjimo nuolaidos laikotarpiu. 
+Mokėjimo nuolaidos yra nustatomos ir bendrai naudojamos dalyse Mokėtinos sumos ir Gautinos sumos. Galimą mokėjimo nuolaidą galima nurodyti kliento SF arba tiekėjo SF; ji bus pritaikyta, jei sąskaita faktūra bus apmokėta mokėjimo nuolaidos laikotarpiu. 
 
 ## <a name="cash-discounts"></a>Mokėjimo nuolaidos
 
-Tiek klientų, tiek tiekėjų mokėjimo nuolaidas galima kurti Mokėjimo nuolaidų puslapyje. Taip pat naudodami Kito nuolaidos kodo lauką galite apibrėžti mokėjimo nuolaidų seką, kuri pradedama taikyti baigiant galioti ankstesnėms mokėjimo nuolaidų datoms. Daugiau informacijos rasite toliau šiame straipsnyje skyriuje "Pavyzdys: Mokėjimo nuolaidų serija". Jei SF, kredito operacija (mokėjimas arba kredito pažyma), arba jos abi įvedamos valiuta, kuri skiriasi nuo juridinio subjekto apskaitos valiutos, mokėjimo nuolaida apskaičiuojama naudojant mokėjimo arba kredito pažymos dienos valiutos kursą. Jei SF ir kredito dokumentas įvedami skirtinguose juridiniuose subjektuose, ir jei skiriasi juridinių subjektų apskaitos valiutos, kredito dokumento dienos valiutos kursas paimamas iš SF juridinio subjekto. Daugiau informacijos rasite toliau šiame straipsnyje skyriuje "Pavyzdys: Mokėjimo nuolaidų valiutos kursai".
+Mokėjimo nuolaidas klientams ir tiekėjams galima sukurti mokėjimo **nuolaidų** puslapyje. Taip pat, naudodami lauką Pirmyn **nuolaidos** kodas, galite nustatyti mokėjimo nuolaidų serijas, kurios pavyksta viena po kitos, nes ankstesnės mokėjimo nuolaidos datos baigs galioti. Daugiau informacijos rasite toliau šiame straipsnyje skyriuje "Pavyzdys: Mokėjimo nuolaidų serija". Jei SF, kredito operacija (mokėjimas arba kredito pažyma), arba jos abi įvedamos valiuta, kuri skiriasi nuo juridinio subjekto apskaitos valiutos, mokėjimo nuolaida apskaičiuojama naudojant mokėjimo arba kredito pažymos dienos valiutos kursą. Jei SF ir kredito dokumentas įvedami skirtinguose juridiniuose subjektuose, ir jei skiriasi juridinių subjektų apskaitos valiutos, kredito dokumento dienos valiutos kursas paimamas iš SF juridinio subjekto. Daugiau informacijos rasite toliau šiame straipsnyje skyriuje "Pavyzdys: Mokėjimo nuolaidų valiutos kursai".
 
 ## <a name="defaulting-order-of-cash-discount-main-account"></a>Numatytasis mokėjimo nuolaidos pagrindinės sąskaitos užsakymo apdorojimas
 
 Jei, norint gauti mokėjimo nuolaidą, SF sudengiama laiku, mokėjimo nuolaida automatiškai registruojama mokėjimo nuolaidos pagrindinėje sąskaitoje pagal toliau nurodytą numatytąjį prioritetą.
-1.  Pagrindinė sąskaita, nurodyta lauke Alternatyvi mokėjimo nuolaidos sąskaita, esančiame klientų puslapyje Sudengti atidarytas operacijas arba tiekėjų puslapyje Sudengti atidarytas operacijas.
-2.  Pagrindinė sąskaita, nurodyta DK registravimo grupės, priskirtos SF PVM grupei, lauke Kliento mokėjimo nuolaida arba lauke Tiekėjo mokėjimo nuolaida. DK registravimo grupes nustatykite DK registravimo grupių puslapyje ir jas priskirkite PVM kodams PVM kodų puslapyje.
-3.  Mokėjimo nuolaidos kodo, esančio sudengtoje SF, pagrindinė registravimo sąskaita Mokėjimo nuolaidų puslapio lauke Pagrindinė sąskaita, skirta kliento nuolaidoms arba lauke Pagrindinė sąskaita, skirta tiekėjo nuolaidoms.
-4.  Pagrindinė mokėjimo nuolaidų sąskaita, kaip apibrėžta Automatinių operacijų sąskaitų puslapyje.
+1.  Pagrindinė sąskaita, nurodyta lauke Alternatyvi **mokėjimo nuolaidos sąskaita, kliento**  **atvirų** operacijų sudengimo puslapyje arba tiekėjo atvirų operacijų **sudengimo** puslapyje.
+2.  Pagrindinė sąskaita, nurodyta **DK registravimo**  **grupės**, priskirtos SF PVM kodui, lauke Kliento mokėjimo nuolaida arba Tiekėjo mokėjimo nuolaida. Nustatykite DK registravimo grupes DK **registravimo grupių puslapyje** ir priskirkite jas PVM kodams **PVM kodų** puslapyje.
+3.  Mokėjimo nuolaidų **puslapio**  **·**  **·**, esančio kliento nuolaidų pagrindinės sąskaitos lauke arba mokėjimo nuolaidos kodo pagrindinės sąskaitos lauke pagrindinė sąskaita, skirta mokėjimo nuolaidos kodui, kuris yra sudengtame SF, pagrindinė sąskaita.
+4.  Pagrindinė mokėjimo nuolaidų sąskaita, kaip nurodyta automatinių **operacijų sąskaitų puslapyje** .
 
 ## <a name="example-series-of-cash-discounts"></a> Pavyzdys: mokėjimo nuolaidų seka
 Nustatykite tris mokėjimo nuolaidos kodus:
@@ -46,7 +46,7 @@ Nustatykite tris mokėjimo nuolaidos kodus:
 -   Kodas 10D5% – 5 proc. mokėjimo nuolaida, jei suma sumokama per 10 dienų.
 -   Kodas 14D2% – 2 proc. mokėjimo nuolaida, jei suma sumokama per 14 dienų.
 
-Lauke Kitas nuolaidos kodas:
+Lauke Kita **nuolaidos kodas** :
 -   Kodui 5D10% pasirinkite 10D5%.
 -   Kodui 10D5% pasirinkite 14D2%.
 -   Pasirinkę kodą 14D2%, lauką Naujas nuolaidos kodas palikite tuščią.
@@ -61,7 +61,7 @@ Jūsų juridinio subjekto apskaitos valiuta yra EUR, o toliau pateikti valiutų 
 1000 USD SF su 20D2% mokėjimo nuolaidos sąlygomis užregistruojama vasario 15 d. SF apskaitos valiutos suma yra 1100 EUR. 980 USD mokėjimas su SF sudengiamas kovo 1 d. Mokėjimo nuolaidos suma yra 20 USD. Mokėjimo apskaitos valiutos suma yra 784 EUR. Mokėjimo nuolaidos apskaitos valiutos suma apskaičiuojama naudojant kovo 1 d. valiutos kursą: 20 \* 80 / 100 = 16 EUR.
 
 > [!NOTE]
-> Jei apskaičiuotos grynųjų pinigų nuolaidos dalinių mokėjimų parinkčiai yra pasirenkami Paskyrų gaunamusoe parametruose ar Paskyrų mokėtinų parametrų puslapiuose, naudojamas kiekvieno mokėjimo dieną galiojantis keitimo kursas. 
+>  **Jei parinktis Skaičiuoti dalinių mokėjimų mokėjimo nuolaidas pasirinkta gautinų sumų parametrų arba mokėtinų sumų parametrų puslapiuose, naudojamas valiutos kursas**  **·**  **·**, kuris galiotų kiekvieno dalinio mokėjimo dieną. 
 
 
 
