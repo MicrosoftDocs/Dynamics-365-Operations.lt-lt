@@ -1606,7 +1606,9 @@
                           href: localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/finance
                         - name: Darbo su elektroninių SF išrašymu Lenkijai pradžia
                           href: localizations/e-invoicing-pol-get-started.md?context=/dynamics365/context/finance
-                        - name: Darbo su elektroninių SF išrašymu Saudo Arabijai pradžia
+                        - name: Darbo su elektroninių SF išrašymu Saudo Arabijai pradžia – pirma fazė
+                          href: localizations/e-invoicing-sa-get-started-phase-one.md
+                        - name: Darbo su elektroninių SF išrašymu Saudo Arabijai pradžia – antra fazė
                           href: localizations/e-invoicing-sa-get-started.md?context=/dynamics365/context/finance
                         - name: Elektroninių SF išrašymo paslaugos parengimas Saudo Arabijoje
                           href: localizations/e-invoicing-sa-onboarding.md?context=/dynamics365/context/finance
@@ -2010,7 +2012,7 @@
                           href: localizations/bra-use-tax-exemption-nf-e.md
                     - name: SPED ECD
                       href: localizations/latam-bra-sped-ecd.md
-                    - name: „SPED-Reinf“
+                    - name: SPED-Reinf
                       items:
                         - name: „SPED-Reinf“ apžvalga
                           href: localizations/latam-bra-sped-reinf-overview.md

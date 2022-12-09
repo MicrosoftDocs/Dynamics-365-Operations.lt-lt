@@ -242,7 +242,7 @@
                   href: dev-itpro/retail-server-architecture.md
                 - name: Parduotuvės topologijos pasirinkimas
                   href: dev-itpro/retail-in-store-topology.md
-                - name: „Commerce Data Exchange“
+                - name: Commerce Data Exchange
                   items:
                     - name: Geriausios „Commerce Data Exchange“ praktikos
                       href: dev-itpro/CDX-Best-Practices.md
@@ -1011,7 +1011,23 @@
                 - name: Masinis URL peradresavimų nusiuntimas
                   href: upload-bulk-redirects.md
                 - name: „Commerce” B2C nuomotojo sąranka
-                  href: set-up-B2C-tenant.md
+                  items:
+                    - name: B2C nuomotojo nustatymas
+                      href: set-up-B2C-tenant.md
+                    - name: Kūrimas arba susiejimas su esamu „Azure AD“ B2C nuomotoju
+                      href: create-link-aad-b2c-tenant.md
+                    - name: B2C programos kūrimas
+                      href: create-b2c-app.md
+                    - name: Vartotojo srauto strategijų kūrimas
+                      href: create-user-flow-policies.md
+                    - name: Socialinio identifikavimo teikėjų įtraukimas
+                      href: add-social-identity-providers.md
+                    - name: Naujinti „Commerce headquarters“ „Azure AD“ B2C informacija
+                      href: update-hq-aad-b2c-info.md
+                    - name: B2C nuomotojo konfigūravimas svetainių kūrimo priemonėje
+                      href: config-b2c-tenant-site-builder.md
+                    - name: Papildoma B2C informacija
+                      href: additional-b2c-info.md
                 - name: Vartotojo registracijos pasirinktinių puslapių sąranka
                   href: custom-pages-user-logins.md
                 - name: Įgalinti automatinį tapatybės įrašų susiejimą su kliento sąskaitomis
@@ -1570,6 +1586,8 @@
               items:
                 - name: QR kodų generavimas ir spausdinimas kvituose (Saudo Arabija)
                   href: localizations/emea-sau-qr-code.md
+                - name: Supaprastintų elektroninių sąskaitų faktūrų Saudo Arabijai generavimas ir pateikimas
+                  href: localizations/emea-sau-simplified-e-invoices.md
             - name: Švedija
               items:
                 - name: Kasos aparato funkcijos
@@ -2988,7 +3006,7 @@
                   href: troubleshoot/payment-type-credit-card-error.md
                 - name: Neteisingai apskaičiuoti internetinių užsakymų mokesčiai
                   href: troubleshoot/tax-miscalculated-online-order.md
-                - name: 'Užsakymo sinchronizavimo klaida, susijusi su numatytąja mokėjimo tarnyba'
+                - name: Asinchroninio užsakymų sinchronizavimo problemos
                   href: troubleshoot/synchronization-error.md
             - name: Mokėjimų apdorojimas
               items:

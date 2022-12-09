@@ -570,6 +570,8 @@
               href: hr-leave-and-absence-suspend-leave.md
             - name: Prašymas dėl atostogų laiko
               href: hr-employee-self-service-request-leave-of-absence.md
+            - name: Neterminuoto atostogų laiko kūrimas
+              href: hr-create-open-leave-absence.md
             - name: Darbuotojų atostogų valdymas
               href: hr-leave-and-absence-manage-employee-leave.md
             - name: Atostogų ir neatvykimų analizės peržiūra
