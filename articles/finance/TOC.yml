@@ -1166,8 +1166,10 @@
                   href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Didžiosios knygos išrašas pagal pagrindinę sąskaitą
                   href: general-ledger/general-ledger-statement-by-main-account.md
-                - name: Standartinis mokesčio audito failas (SAF-T) elektroninė ataskaita
+                - name: Standartinio mokesčio audito failo (SAF-T) elektroninė ataskaita
                   href: general-ledger/standard-audit-file.md
+                - name: Didžiosios knygos sudengimo užklausa
+                  href: general-ledger/ledger-settlement-inquiry.md
             - name: Laikotarpio pabaigos uždarymas
               items:
                 - name: Didžiosios knygos uždarymas laikotarpio pabaigoje
@@ -1187,8 +1189,20 @@
                 - name: Didžiosios knygos sudengimai
                   href: general-ledger/ledger-settlements.md
                 - name: Informacijos bendrinimas tarp didžiosios knygos atsiskaitymo ir metų pabaigos uždarymo
-                  href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
-                - name: Automatizuoti didžiosios knygos sudengimai
+                  items:
+                    - name: Informacijos bendrinimas tarp didžiosios knygos atsiskaitymo ir metų pabaigos uždarymo
+                      href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                    - name: Pasiruoškite informacijos bendrinimui tarp didžiosios knygos atsiskaitymo prieš metų pabaigos uždarymą
+                      href: general-ledger/ledger-settle-yec.md
+                    - name: Pasiruoškite informacijos bendrinimui tarp didžiosios knygos atsiskaitymo po metų pabaigos uždarymo
+                      href: general-ledger/ledger-settle-yec-after.md
+                    - name: Informacijos bendrinimo tarp didžiosios knygos atsiskaitymo funkcija ir ataskaitų valiuta nepatenka į balansą
+                      href: general-ledger/reporting-currency-yec.md
+                    - name: Informacijos bendrinimo tarp didžiosios knygos atsiskaitymo funkcija prieš uždarymą metų pabaigoje naudojant užklausos langą
+                      href: general-ledger/ledger-settlement-yec-inquiry-before.md
+                    - name: Informacijos bendrinimo tarp didžiosios knygos atsiskaitymo funkcija po uždarymo metų pabaigoje naudojant užklausos langą
+                      href: general-ledger/ledger-settlement-yec-inquiry-after.md
+                - name: Automatizuoti didžiosios knygos sudengimus
                   href: general-ledger/auto-settle.md
                 - name: Didžiosios knygos užsienio valiutos kurso pasikeitimas
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
@@ -1786,7 +1800,7 @@
                       href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
                     - name: DK išrašas pagal pagrindinę sąskaitą su PVM specifikacijos ataskaita
                       href: general-ledger/general-ledger-statement-by-main-account.md
-                    - name: Standartinis mokesčio audito failas (SAF-T) elektroninė ataskaita
+                    - name: Standartinis mokesčio audito failo (SAF-T) elektroninė ataskaita
                       href: general-ledger/standard-audit-file.md
                     - name: Nustatyti PVM sudengimo laikotarpius
                       href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md

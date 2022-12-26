@@ -32,6 +32,8 @@
                   href: ./get-started/whats-new-changed-10.0.28.md
                 - name: Kas naujo „Dynamics 365 Human Resources“ (autonominė)
                   items:
+                    - name: Kas naujo „Dynamics 365 Human Resources“ (autonominė) 2022 m. gruodis
+                      href: hr-whats-new-2022-12-12.md
                     - name: Kas naujo „Dynamics 365 Human Resources“ (autonominė) 2021 m. archyvai
                       href: hr-admin-whats-new.md
                     - name: "2021\_m. lapkričio 29\_d."
@@ -110,6 +112,8 @@
                   href: hr-admin-integration-common-data-service-virtual-entities.md
                 - name: „Human Resources“ virtualiųjų lentelių DUK
                   href: hr-admin-virtual-entity-faq.md
+                - name: Integravimo su „Dataverse“ konfigūravimas
+                  href: hr-dataverse-integration.md
                 - name: Integravimo su „Finance“ konfigūravimas
                   href: hr-admin-integration-finance.md
                 - name: Integravimo su „Dayforce“ konfigūravimas
@@ -530,7 +534,7 @@
                       href: ../human-resources/hr-personnel-set-up-positions.md
                     - name: Pretendentų samdymas naudojant įdarbinimo funkciją
                       href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
-                    - name: Esamų darbuotojų samdymas naudojant įdarbinimo funkciją
+                    - name: Esamo darbuotojo samdymas naudojant įdarbinimo funkciją
                       href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
                     - name: Pretendentų atrankos priemonių nustatymas ir diegimas
                       href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
